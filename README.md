@@ -54,3 +54,6 @@ Run:
 ## Notes
 - resources/originals is ignored to avoid committing copyrighted PDFs.
 - Quiz stats are stored in localStorage on the device.
+
+## Google Sheets results logging
+See [docs/google_sheets.md](docs/google_sheets.md) to enable syncing quiz results.

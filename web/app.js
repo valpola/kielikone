@@ -35,6 +35,28 @@ const setLocalStats = (id, stats) => {
   localStorage.setItem(storageKey(id), JSON.stringify(stats));
 };
 
+const getResultsEndpoint = () => {
+  if (typeof APP_CONFIG === "undefined") return "";
+  if (!APP_CONFIG.resultsEnabled) return "";
+  return APP_CONFIG.resultsEndpoint || "";
+};
+
+const sendResult = async (payload) => {
+  const endpoint = getResultsEndpoint();
+  if (!endpoint) return;
+
+  try {
+    await fetch(endpoint, {
+      method: "POST",
+      mode: "cors",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload),
+    });
+  } catch (error) {
+    // Silent failure to keep quiz flow smooth.
+  }
+};
+
 const weightForItem = (item) => {
   const stats = getLocalStats(item.id);
   const priority = Math.max(1, Math.min(5, Number(item.priority || 1)));
@@ -104,6 +126,13 @@ const grade = (isCorrect) => {
   if (isCorrect) stats.correct += 1;
   else stats.wrong += 1;
   setLocalStats(current.id, stats);
+
+  sendResult({
+    timestamp: new Date().toISOString(),
+    word_id: current.id,
+    mode,
+    correct: isCorrect,
+  });
 
   seen += 1;
   if (isCorrect) correct += 1;
