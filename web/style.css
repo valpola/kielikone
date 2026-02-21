@@ -1,0 +1,231 @@
+:root {
+  --ink: #0f172a;
+  --muted: #64748b;
+  --paper: #f8fafc;
+  --accent: #f97316;
+  --accent-deep: #ea580c;
+  --leaf: #0f766e;
+  --danger: #dc2626;
+  --shadow: rgba(15, 23, 42, 0.18);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Space Grotesk", "Segoe UI", sans-serif;
+  color: var(--ink);
+  background: radial-gradient(circle at 20% 10%, #fff2e1 0%, #f8fafc 55%, #e2e8f0 100%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px 18px 48px;
+}
+
+.bg-glow {
+  position: fixed;
+  inset: 0;
+  background: linear-gradient(120deg, rgba(249, 115, 22, 0.15), rgba(15, 118, 110, 0.1));
+  filter: blur(80px);
+  z-index: -1;
+}
+
+.shell {
+  width: min(520px, 100%);
+  display: grid;
+  gap: 22px;
+  animation: fadeUp 0.6s ease-out;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 12px;
+  color: var(--muted);
+  margin: 0 0 6px;
+}
+
+h1 {
+  font-family: "Fraunces", "Georgia", serif;
+  font-size: 32px;
+  margin: 0;
+}
+
+.mode {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.mode-btn {
+  border: 1px solid #e2e8f0;
+  background: #fff;
+  padding: 8px 12px;
+  border-radius: 999px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.mode-btn.active {
+  border-color: var(--accent);
+  box-shadow: 0 8px 16px var(--shadow);
+}
+
+.card {
+  background: var(--paper);
+  border-radius: 24px;
+  padding: 26px;
+  box-shadow: 0 24px 48px rgba(15, 23, 42, 0.12);
+  display: grid;
+  gap: 16px;
+}
+
+.label {
+  color: var(--muted);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  margin: 0;
+}
+
+.prompt {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.answer {
+  display: grid;
+  gap: 6px;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.answer input {
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  font-size: 16px;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+button {
+  font-family: inherit;
+}
+
+.primary {
+  background: var(--accent);
+  border: none;
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.primary:hover {
+  background: var(--accent-deep);
+}
+
+.ghost {
+  background: transparent;
+  border: 1px solid #cbd5f5;
+  padding: 10px 16px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.result {
+  border-top: 1px solid #e2e8f0;
+  padding-top: 14px;
+  display: grid;
+  gap: 8px;
+}
+
+.result.hidden {
+  display: none;
+}
+
+.result-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.result-label {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.grade {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.success {
+  background: var(--leaf);
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 12px;
+}
+
+.danger {
+  background: var(--danger);
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 12px;
+}
+
+.foot {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.dot {
+  width: 4px;
+  height: 4px;
+  border-radius: 999px;
+  background: var(--muted);
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 520px) {
+  .card {
+    padding: 22px;
+  }
+
+  .prompt {
+    font-size: 22px;
+  }
+}

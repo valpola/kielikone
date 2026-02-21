@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "metadata": {
+    "language": "tr",
+    "created": "2026-02-21"
+  },
+  "items": [
+    {
+      "id": "tr-0001",
+      "turkish": "merhaba",
+      "english": "hello",
+      "priority": 3,
+      "tags": ["greeting"],
+      "source": "A1_-_1A.pdf",
+      "notes": "",
+      "last_seen": ""
+    },
+    {
+      "id": "tr-0002",
+      "turkish": "tesekkurler",
+      "english": "thanks",
+      "priority": 4,
+      "tags": ["polite"],
+      "source": "A1_-_1A.pdf",
+      "notes": "",
+      "last_seen": ""
+    }
+  ]
+}
