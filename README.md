@@ -11,32 +11,29 @@ Personal Turkish vocabulary study tool with:
 - web/: static quiz app
 - resources/originals/: source PDFs (ignored by git)
 
+## Default usage: GitHub Pages (recommended)
+1. Export quiz data:
+   python3 scripts/export_quiz.py
+2. Commit and push the updated web/data/quiz.json.
+3. Enable GitHub Pages in repo settings (source: main branch / web folder).
+4. Open the Pages URL on your phone.
+
 ## Quick start (desktop)
 1. Export quiz data:
    python3 scripts/export_quiz.py
-
 2. Serve the web app locally:
    cd web
    python3 -m http.server
-
 3. Open in browser:
    http://localhost:8000
 
-## Using on iPhone
-Option A: Run a local server and open it on your phone
+## Using on iPhone (local server)
 1. Find your computer IP address on the same Wi-Fi.
 2. Start the server:
    cd web
    python3 -m http.server
 3. On your phone, open:
    http://<your-computer-ip>:8000
-
-Option B: Host on GitHub Pages (recommended)
-1. Run export:
-   python3 scripts/export_quiz.py
-2. Push to GitHub.
-3. Enable GitHub Pages in repo settings (source: main branch / web folder).
-4. Open the Pages URL on your phone.
 
 ## Updating vocab
 1. Edit data/lexicon.json

@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "id": "tr-0001",
+      "turkish": "merhaba",
+      "english": "hello",
+      "priority": 3
+    },
+    {
+      "id": "tr-0002",
+      "turkish": "tesekkurler",
+      "english": "thanks",
+      "priority": 4
+    }
+  ]
+}
