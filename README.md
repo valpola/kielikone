@@ -47,6 +47,10 @@ Personal Turkish vocabulary study tool with:
 2. git add data/lexicon.json web/data/quiz.json
 3. git commit -m "Update vocab" && git push
 
+## Make publish
+Run:
+   make publish
+
 ## Notes
 - resources/originals is ignored to avoid committing copyrighted PDFs.
 - Quiz stats are stored in localStorage on the device.
