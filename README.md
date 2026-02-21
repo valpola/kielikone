@@ -42,6 +42,11 @@ Personal Turkish vocabulary study tool with:
    python3 scripts/export_quiz.py
 3. Refresh the web app
 
+## Publish checklist
+1. python3 scripts/export_quiz.py
+2. git add data/lexicon.json web/data/quiz.json
+3. git commit -m "Update vocab" && git push
+
 ## Notes
 - resources/originals is ignored to avoid committing copyrighted PDFs.
 - Quiz stats are stored in localStorage on the device.
