@@ -15,8 +15,9 @@ Personal Turkish vocabulary study tool with:
 1. Export quiz data:
    python3 scripts/export_quiz.py
 2. Commit and push the updated web/data/quiz.json.
-3. Enable GitHub Pages in repo settings (source: main branch / web folder).
-4. Open the Pages URL on your phone.
+3. GitHub Pages is already configured via Actions.
+4. Open the Pages URL on your phone:
+   https://valpola.github.io/kielikone/
 
 ## Quick start (desktop)
 1. Export quiz data:
