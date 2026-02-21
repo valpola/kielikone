@@ -22,18 +22,13 @@ function doPost(e) {
     sheet.appendRow(["timestamp", "word_id", "mode", "correct"]);
   }
 
-  var data = {};
-  try {
-    data = JSON.parse(e.postData.contents);
-  } catch (err) {
-    return ContentService.createTextOutput("Invalid JSON");
-  }
+  var data = e.parameter || {};
 
   sheet.appendRow([
     data.timestamp || "",
     data.word_id || "",
     data.mode || "",
-    String(Boolean(data.correct))
+    String(data.correct === "true")
   ]);
 
   return ContentService.createTextOutput("OK");
@@ -46,6 +41,7 @@ function doPost(e) {
 3. Execute as: "Me".
 4. Who has access: "Only myself".
 5. Click Deploy and copy the web app URL.
+6. If you already deployed once, create a new deployment after changing the script.
 
 ## 4) Configure the web app
 1. Open web/config.js.

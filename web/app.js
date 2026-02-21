@@ -45,12 +45,16 @@ const sendResult = async (payload) => {
   const endpoint = getResultsEndpoint();
   if (!endpoint) return;
 
+  const body = new URLSearchParams();
+  Object.entries(payload).forEach(([key, value]) => {
+    body.set(key, String(value));
+  });
+
   try {
     await fetch(endpoint, {
       method: "POST",
       mode: "cors",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(payload),
+      body,
     });
   } catch (error) {
     // Silent failure to keep quiz flow smooth.
