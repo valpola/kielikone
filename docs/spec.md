@@ -14,6 +14,7 @@
 - Vocabulary-only, TR <-> EN meaning quizzes.
 - Desktop scripts for content extraction, cleanup, and export.
 - Static web app that loads exported JSON and runs on iPhone Safari.
+- Optional Google Sheets logging via Apps Script.
 
 ## Data Model (canonical)
 Stored in data/lexicon.json.
@@ -65,12 +66,17 @@ Fields:
 - Prompt + typed answer.
 - Show answer button + self-grade correct/incorrect.
 - Local stats stored in localStorage (no server).
+- Optional results logging to Google Sheets (Apps Script Web App).
+- API key prompt (stored in localStorage) for results logging.
 
 ## Hosting
-- Static hosting only for MVP (GitHub Pages or similar).
-- Phone accesses the hosted static site.
+- Static hosting only for MVP (GitHub Pages).
+- Deployed via GitHub Actions from the web/ folder.
+- Phone accesses the hosted static site at:
+  https://valpola.github.io/kielikone/
 
 ## Risks / Open Questions
 - VLM extraction quality for Turkish content.
 - Curation effort for consistent IDs and translations.
 - Decide export rules for tags and priority mapping.
+- Apps Script access must remain public; keep API key private.
