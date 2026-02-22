@@ -1,0 +1,694 @@
+{
+  "source_file": "A1_-_2A.pdf",
+  "created_at": "2026-02-22T12:42:49.886629+00:00",
+  "items": [
+    {
+      "id": "cand-a1-2a-0001",
+      "turkish": "alışveriş merkezi",
+      "english": "mall",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0002",
+      "turkish": "bahçe",
+      "english": "garden",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0003",
+      "turkish": "banka",
+      "english": "bank",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0004",
+      "turkish": "bant",
+      "english": "tape",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0005",
+      "turkish": "berber",
+      "english": "barber",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0006",
+      "turkish": "bilgisayar",
+      "english": "computer",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0007",
+      "turkish": "bina",
+      "english": "building",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0008",
+      "turkish": "cami",
+      "english": "mosque",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0009",
+      "turkish": "cetvel",
+      "english": "ruler",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0010",
+      "turkish": "dakika",
+      "english": "minute",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0011",
+      "turkish": "defter",
+      "english": "notebook",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0012",
+      "turkish": "eczane",
+      "english": "pharmacy",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0013",
+      "turkish": "fırın",
+      "english": "bakery",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0014",
+      "turkish": "harita",
+      "english": "map",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0015",
+      "turkish": "hastane",
+      "english": "hospital",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0016",
+      "turkish": "havaalanı",
+      "english": "airport",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0017",
+      "turkish": "kalem",
+      "english": "pencil",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0018",
+      "turkish": "kalemlik",
+      "english": "pencil case",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0019",
+      "turkish": "kantin",
+      "english": "cafeteria",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0020",
+      "turkish": "karakol / emniyet",
+      "english": "police station",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0021",
+      "turkish": "kilise",
+      "english": "church",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0022",
+      "turkish": "kitap",
+      "english": "book",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0023",
+      "turkish": "kuaför",
+      "english": "hairdresser",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0024",
+      "turkish": "kütüphane",
+      "english": "library",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0025",
+      "turkish": "mağaza",
+      "english": "store",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0026",
+      "turkish": "makas",
+      "english": "scissors",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0027",
+      "turkish": "manav",
+      "english": "greengrocer",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0028",
+      "turkish": "market",
+      "english": "shop",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0029",
+      "turkish": "masa",
+      "english": "table",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0030",
+      "turkish": "müze",
+      "english": "museum",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0031",
+      "turkish": "okul",
+      "english": "school",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0032",
+      "turkish": "orta okul",
+      "english": "middle school",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0033",
+      "turkish": "otel",
+      "english": "hotel",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0034",
+      "turkish": "öğrenci",
+      "english": "student",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0035",
+      "turkish": "öğretmen",
+      "english": "teacher",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0036",
+      "turkish": "park",
+      "english": "park",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0037",
+      "turkish": "pastane",
+      "english": "pastry shop",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0038",
+      "turkish": "postane",
+      "english": "post office",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0039",
+      "turkish": "restoran / lokanta",
+      "english": "restaurant",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0040",
+      "turkish": "saat",
+      "english": "clock",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0041",
+      "turkish": "sınıf",
+      "english": "classroom",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0042",
+      "turkish": "sıra",
+      "english": "desk",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0043",
+      "turkish": "silgi",
+      "english": "eraser",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0044",
+      "turkish": "sinema",
+      "english": "cinema",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0045",
+      "turkish": "spor salonu",
+      "english": "gym",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0046",
+      "turkish": "tahta",
+      "english": "board",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0047",
+      "turkish": "teneffüs",
+      "english": "break",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0048",
+      "turkish": "tiyatro",
+      "english": "theatre",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0049",
+      "turkish": "yemekhane",
+      "english": "dining hall",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0050",
+      "turkish": "zımba",
+      "english": "stapler",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0051",
+      "turkish": "birçok",
+      "english": "new",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0052",
+      "turkish": "yeni",
+      "english": "ZARF",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0053",
+      "turkish": "many",
+      "english": "(ADVERB) ayrıca moreover",
+      "priority": 3,
+      "tags": [
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    }
+  ]
+}

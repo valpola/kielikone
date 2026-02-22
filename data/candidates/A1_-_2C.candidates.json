@@ -1,0 +1,760 @@
+{
+  "source_file": "A1_-_2C.pdf",
+  "created_at": "2026-02-22T12:42:49.948068+00:00",
+  "items": [
+    {
+      "id": "cand-a1-2c-0001",
+      "turkish": "arkadaş",
+      "english": "friend",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0002",
+      "turkish": "ikimiz",
+      "english": "the two of us",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0003",
+      "turkish": "yazlık",
+      "english": "summer house",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0004",
+      "turkish": "özellik",
+      "english": "characteristic",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0005",
+      "turkish": "bencil",
+      "english": "selfish",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0006",
+      "turkish": "büyük",
+      "english": "big",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0007",
+      "turkish": "cesur",
+      "english": "brave",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0008",
+      "turkish": "çalışkan",
+      "english": "hardworking",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0009",
+      "turkish": "çirkin",
+      "english": "ugly",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0010",
+      "turkish": "dağınık",
+      "english": "messy",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0011",
+      "turkish": "dalgalı saçlı",
+      "english": "wavy-haired",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0012",
+      "turkish": "dürüst",
+      "english": "honest",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0013",
+      "turkish": "düz saçlı",
+      "english": "straight-haired",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0014",
+      "turkish": "düzenli",
+      "english": "organized",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0015",
+      "turkish": "eğlenceli",
+      "english": "amusing",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0016",
+      "turkish": "enerjik",
+      "english": "energetic",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0017",
+      "turkish": "esmer",
+      "english": "brunette",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0018",
+      "turkish": "evli",
+      "english": "married",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0019",
+      "turkish": "fakir",
+      "english": "poor",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0020",
+      "turkish": "genç",
+      "english": "young",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0021",
+      "turkish": "geveze",
+      "english": "talkative",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0022",
+      "turkish": "güçlü",
+      "english": "strong",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0023",
+      "turkish": "güzel",
+      "english": "beautiful",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0024",
+      "turkish": "hasta",
+      "english": "sick",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0025",
+      "turkish": "hızlı",
+      "english": "fast",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0026",
+      "turkish": "iyimser",
+      "english": "optimistic",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0027",
+      "turkish": "kısa",
+      "english": "short",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0028",
+      "turkish": "kıvırcık saçlı",
+      "english": "curly-haired",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0029",
+      "turkish": "kibar",
+      "english": "kind",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0030",
+      "turkish": "kilolu",
+      "english": "overweight",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0031",
+      "turkish": "kirli",
+      "english": "dirty",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0032",
+      "turkish": "komik",
+      "english": "funny",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0033",
+      "turkish": "konuşkan",
+      "english": "talkative",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0034",
+      "turkish": "kötümser",
+      "english": "pessimistic",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0035",
+      "turkish": "kumral",
+      "english": "brunette",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0036",
+      "turkish": "küçük",
+      "english": "small",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0037",
+      "turkish": "mutlu",
+      "english": "happy",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0038",
+      "turkish": "mutsuz",
+      "english": "sad",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0039",
+      "turkish": "neşeli",
+      "english": "cheerful",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0040",
+      "turkish": "ortak",
+      "english": "common",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0041",
+      "turkish": "sakin",
+      "english": "calm",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0042",
+      "turkish": "sarışın",
+      "english": "blonde",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0043",
+      "turkish": "sessiz",
+      "english": "quiet",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0044",
+      "turkish": "sıcakkanlı",
+      "english": "friendly",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0045",
+      "turkish": "sinirli",
+      "english": "angry",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0046",
+      "turkish": "şişman",
+      "english": "fat",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0047",
+      "turkish": "tembel",
+      "english": "lazy",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0048",
+      "turkish": "temiz",
+      "english": "clean",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0049",
+      "turkish": "titiz",
+      "english": "meticulous",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0050",
+      "turkish": "uzun",
+      "english": "tall",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0051",
+      "turkish": "üzgün",
+      "english": "sad",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0052",
+      "turkish": "yaratıcı",
+      "english": "creative",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0053",
+      "turkish": "yardımsever",
+      "english": "helpful",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0054",
+      "turkish": "yaşlı",
+      "english": "old",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0055",
+      "turkish": "yavaş",
+      "english": "slow",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0056",
+      "turkish": "yorgun",
+      "english": "tired",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0057",
+      "turkish": "zayıf",
+      "english": "thin",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0058",
+      "turkish": "zengin",
+      "english": "rich",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    }
+  ]
+}

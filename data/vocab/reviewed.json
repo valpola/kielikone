@@ -3,7 +3,7 @@
   "items": [
     {
       "id": "cand-a1-0a-0001",
-      "turkish": "arkadaş",
+      "turkish": "arkada\u015f",
       "english": "friend",
       "priority": 3,
       "tags": [
@@ -42,7 +42,7 @@
     },
     {
       "id": "cand-a1-0a-0004",
-      "turkish": "çiçek",
+      "turkish": "\u00e7i\u00e7ek",
       "english": "flower",
       "priority": 3,
       "tags": [
@@ -107,7 +107,7 @@
     },
     {
       "id": "cand-a1-0a-0009",
-      "turkish": "dağ",
+      "turkish": "da\u011f",
       "english": "mountain",
       "priority": 3,
       "tags": [
@@ -133,7 +133,7 @@
     },
     {
       "id": "cand-a1-0a-0011",
-      "turkish": "ılık",
+      "turkish": "\u0131l\u0131k",
       "english": "warm",
       "priority": 3,
       "tags": [
@@ -172,7 +172,7 @@
     },
     {
       "id": "cand-a1-0a-0014",
-      "turkish": "kadın",
+      "turkish": "kad\u0131n",
       "english": "woman",
       "priority": 3,
       "tags": [
@@ -237,7 +237,7 @@
     },
     {
       "id": "cand-a1-0a-0019",
-      "turkish": "öğretmen",
+      "turkish": "\u00f6\u011fretmen",
       "english": "teacher",
       "priority": 3,
       "tags": [
@@ -289,7 +289,7 @@
     },
     {
       "id": "cand-a1-0a-0023",
-      "turkish": "şişe",
+      "turkish": "\u015fi\u015fe",
       "english": "bottle",
       "priority": 3,
       "tags": [
@@ -315,7 +315,7 @@
     },
     {
       "id": "cand-a1-0a-0025",
-      "turkish": "uçak",
+      "turkish": "u\u00e7ak",
       "english": "plane",
       "priority": 3,
       "tags": [
@@ -328,7 +328,7 @@
     },
     {
       "id": "cand-a1-0a-0026",
-      "turkish": "üzüm",
+      "turkish": "\u00fcz\u00fcm",
       "english": "grape",
       "priority": 3,
       "tags": [
@@ -354,7 +354,7 @@
     },
     {
       "id": "cand-a1-0a-0028",
-      "turkish": "yıldız",
+      "turkish": "y\u0131ld\u0131z",
       "english": "star",
       "priority": 3,
       "tags": [
@@ -375,6 +375,3865 @@
         "unit-a1-0a"
       ],
       "source": "A1_-_0A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1a-0001",
+      "turkish": "Merhaba!",
+      "english": "Hello!",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a"
+      ],
+      "source": "A1_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1a-0002",
+      "turkish": "Selam!",
+      "english": "Hi!",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a"
+      ],
+      "source": "A1_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1a-0003",
+      "turkish": "G\u00fcnayd\u0131n!",
+      "english": "Good morning!",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a"
+      ],
+      "source": "A1_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1a-0004",
+      "turkish": "Han\u0131m",
+      "english": "Ms",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a"
+      ],
+      "source": "A1_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1a-0005",
+      "turkish": "Bey",
+      "english": "Mr",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a"
+      ],
+      "source": "A1_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1a-0006",
+      "turkish": "\u0130yi g\u00fcnler!",
+      "english": "Good afternoon!/Have a good day!",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a"
+      ],
+      "source": "A1_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1a-0007",
+      "turkish": "\u0130yi ak\u015famlar!",
+      "english": "Good evening!",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a"
+      ],
+      "source": "A1_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1a-0008",
+      "turkish": "\u0130yi geceler!",
+      "english": "Good night!",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a"
+      ],
+      "source": "A1_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1a-0009",
+      "turkish": "Te\u015fekk\u00fcr ederim. / Te\u015fekk\u00fcrler",
+      "english": "Thank you. / Thanks",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a"
+      ],
+      "source": "A1_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1a-0010",
+      "turkish": "Ho\u015f geldin!",
+      "english": "Welcome!",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a"
+      ],
+      "source": "A1_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1a-0011",
+      "turkish": "Ho\u015f bulduk!",
+      "english": "Thanks, I'm glad to be here!",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a"
+      ],
+      "source": "A1_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1a-0012",
+      "turkish": "Ho\u015f\u00e7a kal! / G\u00fcle g\u00fcle!",
+      "english": "Goodbye!",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a"
+      ],
+      "source": "A1_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1a-0013",
+      "turkish": "G\u00f6r\u00fc\u015f\u00fcr\u00fcz!",
+      "english": "See you!",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a"
+      ],
+      "source": "A1_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1a-0014",
+      "turkish": "Kendine iyi bak!",
+      "english": "Take care of yourself!",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a"
+      ],
+      "source": "A1_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0001",
+      "turkish": "ayna",
+      "english": "mirror",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0002",
+      "turkish": "bah\u00e7e",
+      "english": "garden",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0003",
+      "turkish": "battaniye",
+      "english": "blanket",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0004",
+      "turkish": "bula\u015f\u0131k makinesi",
+      "english": "dishwasher",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0005",
+      "turkish": "buzdolab\u0131",
+      "english": "fridge",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0006",
+      "turkish": "dolap",
+      "english": "closet",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0007",
+      "turkish": "du\u015f kabini",
+      "english": "shower cabin",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0008",
+      "turkish": "ev",
+      "english": "house",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0009",
+      "turkish": "f\u0131r\u0131n",
+      "english": "oven",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0010",
+      "turkish": "gard\u0131rop",
+      "english": "wardrobe",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0011",
+      "turkish": "hal\u0131",
+      "english": "carpet",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0012",
+      "turkish": "havlu",
+      "english": "towel",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0013",
+      "turkish": "kap\u0131",
+      "english": "door",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0014",
+      "turkish": "klozet / tuvalet",
+      "english": "toilet",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0015",
+      "turkish": "komodin",
+      "english": "bedside cabinet",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0016",
+      "turkish": "koltuk",
+      "english": "armchair",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0017",
+      "turkish": "k\u00fcvet",
+      "english": "bathtub",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0018",
+      "turkish": "lavabo",
+      "english": "sink",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0019",
+      "turkish": "masa",
+      "english": "table",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0020",
+      "turkish": "mutfak",
+      "english": "kitchen",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0021",
+      "turkish": "oda",
+      "english": "room",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0022",
+      "turkish": "ocak",
+      "english": "stove",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0023",
+      "turkish": "oturma odas\u0131",
+      "english": "living room",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0024",
+      "turkish": "pencere",
+      "english": "window",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0025",
+      "turkish": "perde",
+      "english": "curtain",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0026",
+      "turkish": "sandalye",
+      "english": "chair",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0027",
+      "turkish": "sehpa",
+      "english": "coffee table",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0028",
+      "turkish": "\u015f\u00f6mine",
+      "english": "fireplace",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0029",
+      "turkish": "televizyon",
+      "english": "television",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0030",
+      "turkish": "yatak",
+      "english": "bed",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0031",
+      "turkish": "yatak odas\u0131",
+      "english": "bedroom",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0032",
+      "turkish": "yast\u0131k",
+      "english": "pillow",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0033",
+      "turkish": "yorgan",
+      "english": "quilt",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0001",
+      "turkish": "al\u0131\u015fveri\u015f merkezi",
+      "english": "mall",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0002",
+      "turkish": "bah\u00e7e",
+      "english": "garden",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0003",
+      "turkish": "banka",
+      "english": "bank",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0004",
+      "turkish": "bant",
+      "english": "tape",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0005",
+      "turkish": "berber",
+      "english": "barber",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0006",
+      "turkish": "bilgisayar",
+      "english": "computer",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0007",
+      "turkish": "bina",
+      "english": "building",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0008",
+      "turkish": "cami",
+      "english": "mosque",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0009",
+      "turkish": "cetvel",
+      "english": "ruler",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0010",
+      "turkish": "dakika",
+      "english": "minute",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0011",
+      "turkish": "defter",
+      "english": "notebook",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0012",
+      "turkish": "eczane",
+      "english": "pharmacy",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0013",
+      "turkish": "f\u0131r\u0131n",
+      "english": "bakery",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0014",
+      "turkish": "harita",
+      "english": "map",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0015",
+      "turkish": "hastane",
+      "english": "hospital",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0016",
+      "turkish": "havaalan\u0131",
+      "english": "airport",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0017",
+      "turkish": "kalem",
+      "english": "pencil",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0018",
+      "turkish": "kalemlik",
+      "english": "pencil case",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0019",
+      "turkish": "kantin",
+      "english": "cafeteria",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0020",
+      "turkish": "karakol / emniyet",
+      "english": "police station",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0021",
+      "turkish": "kilise",
+      "english": "church",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0022",
+      "turkish": "kitap",
+      "english": "book",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0023",
+      "turkish": "kuaf\u00f6r",
+      "english": "hairdresser",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0024",
+      "turkish": "k\u00fct\u00fcphane",
+      "english": "library",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0025",
+      "turkish": "ma\u011faza",
+      "english": "store",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0026",
+      "turkish": "makas",
+      "english": "scissors",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0027",
+      "turkish": "manav",
+      "english": "greengrocer",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0028",
+      "turkish": "market",
+      "english": "shop",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0029",
+      "turkish": "masa",
+      "english": "table",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0030",
+      "turkish": "m\u00fcze",
+      "english": "museum",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0031",
+      "turkish": "okul",
+      "english": "school",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0032",
+      "turkish": "orta okul",
+      "english": "middle school",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0033",
+      "turkish": "otel",
+      "english": "hotel",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0034",
+      "turkish": "\u00f6\u011frenci",
+      "english": "student",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0035",
+      "turkish": "\u00f6\u011fretmen",
+      "english": "teacher",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0036",
+      "turkish": "park",
+      "english": "park",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0037",
+      "turkish": "pastane",
+      "english": "pastry shop",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0038",
+      "turkish": "postane",
+      "english": "post office",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0039",
+      "turkish": "restoran / lokanta",
+      "english": "restaurant",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0040",
+      "turkish": "saat",
+      "english": "clock",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0041",
+      "turkish": "s\u0131n\u0131f",
+      "english": "classroom",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0042",
+      "turkish": "s\u0131ra",
+      "english": "desk",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0043",
+      "turkish": "silgi",
+      "english": "eraser",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0044",
+      "turkish": "sinema",
+      "english": "cinema",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0045",
+      "turkish": "spor salonu",
+      "english": "gym",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0046",
+      "turkish": "tahta",
+      "english": "board",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0047",
+      "turkish": "teneff\u00fcs",
+      "english": "break",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0048",
+      "turkish": "tiyatro",
+      "english": "theatre",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0049",
+      "turkish": "yemekhane",
+      "english": "dining hall",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0050",
+      "turkish": "z\u0131mba",
+      "english": "stapler",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0051",
+      "turkish": "bir\u00e7ok",
+      "english": "new",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0052",
+      "turkish": "yeni",
+      "english": "ZARF",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2a-0053",
+      "turkish": "many",
+      "english": "(ADVERB) ayr\u0131ca moreover",
+      "priority": 3,
+      "tags": [
+        "unit-a1-2a"
+      ],
+      "source": "A1_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0001",
+      "turkish": "adet",
+      "english": "piece",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0002",
+      "turkish": "al\u0131\u015fveri\u015f arabas\u0131",
+      "english": "shopping trolley",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0003",
+      "turkish": "al\u0131\u015fveri\u015f sepeti",
+      "english": "shopping basket",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0004",
+      "turkish": "ananas",
+      "english": "pineapple",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0005",
+      "turkish": "armut",
+      "english": "pear",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0006",
+      "turkish": "avu\u00e7",
+      "english": "handful",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0007",
+      "turkish": "ayran",
+      "english": "ayran",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0008",
+      "turkish": "baharat",
+      "english": "spice",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0009",
+      "turkish": "bal",
+      "english": "honey",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0010",
+      "turkish": "bal\u0131k",
+      "english": "fish",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0011",
+      "turkish": "bardak",
+      "english": "glass",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0012",
+      "turkish": "bezelye",
+      "english": "peas",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0013",
+      "turkish": "biber",
+      "english": "pepper",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0014",
+      "turkish": "ceviz",
+      "english": "walnut",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0015",
+      "turkish": "\u00e7ilek",
+      "english": "strawberry",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0016",
+      "turkish": "deterjan",
+      "english": "detergent",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0017",
+      "turkish": "dilim",
+      "english": "slice",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0018",
+      "turkish": "di\u015f",
+      "english": "tooth",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0019",
+      "turkish": "di\u015f f\u0131r\u00e7as\u0131",
+      "english": "toothbrush",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0020",
+      "turkish": "di\u015f macunu",
+      "english": "toothpaste",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0021",
+      "turkish": "domates",
+      "english": "tomato",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0022",
+      "turkish": "ekmek",
+      "english": "bread",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0023",
+      "turkish": "elma",
+      "english": "apple",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0024",
+      "turkish": "erik",
+      "english": "plum",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0025",
+      "turkish": "et",
+      "english": "meat",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0026",
+      "turkish": "fas\u00fclye",
+      "english": "beans",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0027",
+      "turkish": "fincan",
+      "english": "cup",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0028",
+      "turkish": "fiyat",
+      "english": "price",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0029",
+      "turkish": "f\u0131nd\u0131k",
+      "english": "hazelnut",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0030",
+      "turkish": "g\u0131da",
+      "english": "food",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0031",
+      "turkish": "greyfurt",
+      "english": "grapefruit",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0032",
+      "turkish": "havu\u00e7",
+      "english": "carrot",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0033",
+      "turkish": "hem\u015fire",
+      "english": "nurse",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0034",
+      "turkish": "\u0131hlamur",
+      "english": "linden tea",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0035",
+      "turkish": "\u0131slak mendil",
+      "english": "wet wipe",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0036",
+      "turkish": "\u0131spanak",
+      "english": "spinach",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0037",
+      "turkish": "incir",
+      "english": "fig",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0038",
+      "turkish": "indirim",
+      "english": "discount",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0039",
+      "turkish": "kabak",
+      "english": "zucchini",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0040",
+      "turkish": "kal\u0131p",
+      "english": "block",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0041",
+      "turkish": "karnabahar",
+      "english": "cauliflower",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0042",
+      "turkish": "karpuz",
+      "english": "watermelon",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0043",
+      "turkish": "kase",
+      "english": "bowl",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0044",
+      "turkish": "kasa",
+      "english": "crate",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0045",
+      "turkish": "kat",
+      "english": "floor",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0046",
+      "turkish": "kasa",
+      "english": "market check out",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0047",
+      "turkish": "kasiyer",
+      "english": "cahsier",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0048",
+      "turkish": "kavun",
+      "english": "melon",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0049",
+      "turkish": "kekik",
+      "english": "thyme",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0050",
+      "turkish": "kereviz",
+      "english": "celery",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0051",
+      "turkish": "kilo",
+      "english": "kilo",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0052",
+      "turkish": "kilogram",
+      "english": "kilogram",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0053",
+      "turkish": "kiraz",
+      "english": "cherry",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0054",
+      "turkish": "kredi kart\u0131",
+      "english": "credit card",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0055",
+      "turkish": "kuru so\u011fan",
+      "english": "onion",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0056",
+      "turkish": "lahana",
+      "english": "cabbage",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0057",
+      "turkish": "limon",
+      "english": "lemon",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0058",
+      "turkish": "litre",
+      "english": "liter",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0059",
+      "turkish": "mandalina",
+      "english": "mandarin",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0060",
+      "turkish": "mango",
+      "english": "mango",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0061",
+      "turkish": "mantar",
+      "english": "mushroom",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0062",
+      "turkish": "market",
+      "english": "supermarket",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0063",
+      "turkish": "marul",
+      "english": "lettuce",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0064",
+      "turkish": "maydanoz",
+      "english": "parsley",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0065",
+      "turkish": "mercimek",
+      "english": "lentils",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0066",
+      "turkish": "meyve suyu",
+      "english": "fruit juice",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0067",
+      "turkish": "m\u0131s\u0131r",
+      "english": "corn",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0068",
+      "turkish": "muz",
+      "english": "banana",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0069",
+      "turkish": "nane",
+      "english": "mint",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0070",
+      "turkish": "nar",
+      "english": "pomegranate",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0071",
+      "turkish": "paket",
+      "english": "package",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0072",
+      "turkish": "patates",
+      "english": "potato",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0073",
+      "turkish": "patl\u0131can",
+      "english": "eggplant",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0074",
+      "turkish": "peynir",
+      "english": "cheese",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0075",
+      "turkish": "portakal",
+      "english": "orange",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0076",
+      "turkish": "po\u015fet",
+      "english": "plastic bag",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0077",
+      "turkish": "reyon",
+      "english": "aisle",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0078",
+      "turkish": "re\u00e7el",
+      "english": "jam",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0079",
+      "turkish": "sabun",
+      "english": "soap",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0080",
+      "turkish": "salatal\u0131k",
+      "english": "cucumber",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0081",
+      "turkish": "sal\u00e7a",
+      "english": "tomato paste",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0082",
+      "turkish": "sar\u0131msak",
+      "english": "garlic",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0083",
+      "turkish": "\u015fi\u015fe",
+      "english": "bottle",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0084",
+      "turkish": "sirke",
+      "english": "vinegar",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0085",
+      "turkish": "so\u011fan",
+      "english": "onion",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0086",
+      "turkish": "s\u00fct",
+      "english": "milk",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0087",
+      "turkish": "\u015feftali",
+      "english": "peach",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0088",
+      "turkish": "tar\u00e7\u0131n",
+      "english": "cinnamon",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0089",
+      "turkish": "tavuk",
+      "english": "chicken",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0090",
+      "turkish": "teneff\u00fcs",
+      "english": "recess",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0091",
+      "turkish": "tereya\u011f",
+      "english": "butter",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0092",
+      "turkish": "turp",
+      "english": "radish",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0093",
+      "turkish": "tutam",
+      "english": "pinch",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0094",
+      "turkish": "tuvalet ka\u011f\u0131d\u0131",
+      "english": "toilet paper",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0095",
+      "turkish": "\u00fcz\u00fcm",
+      "english": "grape",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0096",
+      "turkish": "vi\u015fne",
+      "english": "sour cherry",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0097",
+      "turkish": "ye\u015fil biber",
+      "english": "green pepper",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0098",
+      "turkish": "yo\u011furt",
+      "english": "yogurt",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0099",
+      "turkish": "yumurta",
+      "english": "egg",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0100",
+      "turkish": "zeytin",
+      "english": "olive",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0101",
+      "turkish": "zeytinya\u011f\u0131",
+      "english": "olive oil",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0102",
+      "turkish": "dondurulmu\u015f",
+      "english": "frozen",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0103",
+      "turkish": "yak\u0131n",
+      "english": "close",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0001",
+      "turkish": "arkada\u015f",
+      "english": "friend",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0002",
+      "turkish": "ikimiz",
+      "english": "the two of us",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0003",
+      "turkish": "yazl\u0131k",
+      "english": "summer house",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0004",
+      "turkish": "\u00f6zellik",
+      "english": "characteristic",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0005",
+      "turkish": "bencil",
+      "english": "selfish",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0006",
+      "turkish": "b\u00fcy\u00fck",
+      "english": "big",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0007",
+      "turkish": "cesur",
+      "english": "brave",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0008",
+      "turkish": "\u00e7al\u0131\u015fkan",
+      "english": "hardworking",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0009",
+      "turkish": "\u00e7irkin",
+      "english": "ugly",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0010",
+      "turkish": "da\u011f\u0131n\u0131k",
+      "english": "messy",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0011",
+      "turkish": "dalgal\u0131 sa\u00e7l\u0131",
+      "english": "wavy-haired",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0012",
+      "turkish": "d\u00fcr\u00fcst",
+      "english": "honest",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0013",
+      "turkish": "d\u00fcz sa\u00e7l\u0131",
+      "english": "straight-haired",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0014",
+      "turkish": "d\u00fczenli",
+      "english": "organized",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0015",
+      "turkish": "e\u011flenceli",
+      "english": "amusing",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0016",
+      "turkish": "enerjik",
+      "english": "energetic",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0017",
+      "turkish": "esmer",
+      "english": "brunette",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0018",
+      "turkish": "evli",
+      "english": "married",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0019",
+      "turkish": "fakir",
+      "english": "poor",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0020",
+      "turkish": "gen\u00e7",
+      "english": "young",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0021",
+      "turkish": "geveze",
+      "english": "talkative",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0022",
+      "turkish": "g\u00fc\u00e7l\u00fc",
+      "english": "strong",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0023",
+      "turkish": "g\u00fczel",
+      "english": "beautiful",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0024",
+      "turkish": "hasta",
+      "english": "sick",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0025",
+      "turkish": "h\u0131zl\u0131",
+      "english": "fast",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0026",
+      "turkish": "iyimser",
+      "english": "optimistic",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0027",
+      "turkish": "k\u0131sa",
+      "english": "short",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0028",
+      "turkish": "k\u0131v\u0131rc\u0131k sa\u00e7l\u0131",
+      "english": "curly-haired",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0029",
+      "turkish": "kibar",
+      "english": "kind",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0030",
+      "turkish": "kilolu",
+      "english": "overweight",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0031",
+      "turkish": "kirli",
+      "english": "dirty",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0032",
+      "turkish": "komik",
+      "english": "funny",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0033",
+      "turkish": "konu\u015fkan",
+      "english": "talkative",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0034",
+      "turkish": "k\u00f6t\u00fcmser",
+      "english": "pessimistic",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0035",
+      "turkish": "kumral",
+      "english": "brunette",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0036",
+      "turkish": "k\u00fc\u00e7\u00fck",
+      "english": "small",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0037",
+      "turkish": "mutlu",
+      "english": "happy",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0038",
+      "turkish": "mutsuz",
+      "english": "sad",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0039",
+      "turkish": "ne\u015feli",
+      "english": "cheerful",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0040",
+      "turkish": "ortak",
+      "english": "common",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0041",
+      "turkish": "sakin",
+      "english": "calm",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0042",
+      "turkish": "sar\u0131\u015f\u0131n",
+      "english": "blonde",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0043",
+      "turkish": "sessiz",
+      "english": "quiet",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0044",
+      "turkish": "s\u0131cakkanl\u0131",
+      "english": "friendly",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0045",
+      "turkish": "sinirli",
+      "english": "angry",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0046",
+      "turkish": "\u015fi\u015fman",
+      "english": "fat",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0047",
+      "turkish": "tembel",
+      "english": "lazy",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0048",
+      "turkish": "temiz",
+      "english": "clean",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0049",
+      "turkish": "titiz",
+      "english": "meticulous",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0050",
+      "turkish": "uzun",
+      "english": "tall",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0051",
+      "turkish": "\u00fczg\u00fcn",
+      "english": "sad",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0052",
+      "turkish": "yarat\u0131c\u0131",
+      "english": "creative",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0053",
+      "turkish": "yard\u0131msever",
+      "english": "helpful",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0054",
+      "turkish": "ya\u015fl\u0131",
+      "english": "old",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0055",
+      "turkish": "yava\u015f",
+      "english": "slow",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0056",
+      "turkish": "yorgun",
+      "english": "tired",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0057",
+      "turkish": "zay\u0131f",
+      "english": "thin",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2c-0058",
+      "turkish": "zengin",
+      "english": "rich",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c"
+      ],
+      "source": "A1_-_2C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0001",
+      "turkish": "banyo yapmak / du\u015f almak",
+      "english": "to have a bath / to take a shower",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3a",
+        "verb"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0002",
+      "turkish": "ba\u015flamak",
+      "english": "to start",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3a",
+        "verb"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0003",
+      "turkish": "beslenme haz\u0131rlamak",
+      "english": "to prepare a meal",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3a",
+        "verb"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0004",
+      "turkish": "bilmek",
+      "english": "to know",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3a",
+        "verb"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0005",
+      "turkish": "bitmek",
+      "english": "to finish",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3a",
+        "verb"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0006",
+      "turkish": "bulu\u015fmak",
+      "english": "to meet",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3a",
+        "verb"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0007",
+      "turkish": "cevaplamak",
+      "english": "to answer",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3a",
+        "verb"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0008",
+      "turkish": "\u00e7al\u0131\u015fmak",
+      "english": "to work",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3a",
+        "verb"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0009",
+      "turkish": "e\u011flenmek",
+      "english": "to enjoy",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3a",
+        "verb"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0010",
+      "turkish": "kahvalt\u0131 etmek / yapmak",
+      "english": "to have breakfast",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3a",
+        "verb"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0011",
+      "turkish": "makyaj yapmak",
+      "english": "to put on makeup",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3a",
+        "verb"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0012",
+      "turkish": "oturmak",
+      "english": "to sit",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3a",
+        "verb"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0013",
+      "turkish": "\u00f6dev yapmak",
+      "english": "to do homework",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3a",
+        "verb"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0014",
+      "turkish": "\u00f6\u011frenmek",
+      "english": "to learn",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3a",
+        "verb"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0015",
+      "turkish": "\u00f6\u011fretmek",
+      "english": "to teach",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3a",
+        "verb"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0016",
+      "turkish": "sevmek",
+      "english": "to love",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3a",
+        "verb"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0017",
+      "turkish": "sipari\u015f etmek",
+      "english": "to order",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3a",
+        "verb"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0018",
+      "turkish": "sohbet etmek",
+      "english": "to chat",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3a",
+        "verb"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0019",
+      "turkish": "telefon etmek",
+      "english": "to call",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3a",
+        "verb"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0020",
+      "turkish": "temizlik yapmak",
+      "english": "to clean",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3a",
+        "verb"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0021",
+      "turkish": "uyanmak",
+      "english": "to wake up",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3a",
+        "verb"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0022",
+      "turkish": "\u00fct\u00fc yapmak",
+      "english": "to iron",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3a",
+        "verb"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0023",
+      "turkish": "yard\u0131m etmek",
+      "english": "to help",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3a",
+        "verb"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0024",
+      "turkish": "ya\u015famak",
+      "english": "to live",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3a",
+        "verb"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0025",
+      "turkish": "yemek yemek",
+      "english": "to eat",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3a",
+        "verb"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0026",
+      "turkish": "ev han\u0131m\u0131",
+      "english": "housewife",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-3a"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0027",
+      "turkish": "hafta i\u00e7i",
+      "english": "weekday",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-3a"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0028",
+      "turkish": "s\u00fcper kahraman",
+      "english": "superhero",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-3a"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0029",
+      "turkish": "tatil",
+      "english": "vacation",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-3a"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0030",
+      "turkish": "vapur",
+      "english": "ferry",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-3a"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0031",
+      "turkish": "asla",
+      "english": "never",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-3a"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0032",
+      "turkish": "bazen",
+      "english": "sometimes",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-3a"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0033",
+      "turkish": "genellikle",
+      "english": "usually",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-3a"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0034",
+      "turkish": "her zaman",
+      "english": "always",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-3a"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0035",
+      "turkish": "hi\u00e7bir zaman",
+      "english": "never",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-3a"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0036",
+      "turkish": "nadiren",
+      "english": "rarely",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-3a"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0037",
+      "turkish": "s\u0131k s\u0131k",
+      "english": "often",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-3a"
+      ],
+      "source": "A1_-_3A.pdf",
       "notes": "",
       "status": "approved"
     }

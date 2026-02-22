@@ -1,0 +1,487 @@
+{
+  "source_file": "A1_-_3A.pdf",
+  "created_at": "2026-02-22T12:42:49.974062+00:00",
+  "items": [
+    {
+      "id": "cand-a1-3a-0001",
+      "turkish": "banyo yapmak / duş almak",
+      "english": "to have a bath / to take a shower",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3a",
+        "verb"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0002",
+      "turkish": "başlamak",
+      "english": "to start",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3a",
+        "verb"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0003",
+      "turkish": "beslenme hazırlamak",
+      "english": "to prepare a meal",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3a",
+        "verb"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0004",
+      "turkish": "bilmek",
+      "english": "to know",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3a",
+        "verb"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0005",
+      "turkish": "bitmek",
+      "english": "to finish",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3a",
+        "verb"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0006",
+      "turkish": "buluşmak",
+      "english": "to meet",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3a",
+        "verb"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0007",
+      "turkish": "cevaplamak",
+      "english": "to answer",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3a",
+        "verb"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0008",
+      "turkish": "çalışmak",
+      "english": "to work",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3a",
+        "verb"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0009",
+      "turkish": "eğlenmek",
+      "english": "to enjoy",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3a",
+        "verb"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0010",
+      "turkish": "kahvaltı etmek / yapmak",
+      "english": "to have breakfast",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3a",
+        "verb"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0011",
+      "turkish": "makyaj yapmak",
+      "english": "to put on makeup",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3a",
+        "verb"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0012",
+      "turkish": "oturmak",
+      "english": "to sit",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3a",
+        "verb"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0013",
+      "turkish": "ödev yapmak",
+      "english": "to do homework",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3a",
+        "verb"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0014",
+      "turkish": "öğrenmek",
+      "english": "to learn",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3a",
+        "verb"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0015",
+      "turkish": "öğretmek",
+      "english": "to teach",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3a",
+        "verb"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0016",
+      "turkish": "sevmek",
+      "english": "to love",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3a",
+        "verb"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0017",
+      "turkish": "sipariş etmek",
+      "english": "to order",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3a",
+        "verb"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0018",
+      "turkish": "sohbet etmek",
+      "english": "to chat",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3a",
+        "verb"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0019",
+      "turkish": "telefon etmek",
+      "english": "to call",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3a",
+        "verb"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0020",
+      "turkish": "temizlik yapmak",
+      "english": "to clean",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3a",
+        "verb"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0021",
+      "turkish": "uyanmak",
+      "english": "to wake up",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3a",
+        "verb"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0022",
+      "turkish": "ütü yapmak",
+      "english": "to iron",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3a",
+        "verb"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0023",
+      "turkish": "yardım etmek",
+      "english": "to help",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3a",
+        "verb"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0024",
+      "turkish": "yaşamak",
+      "english": "to live",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3a",
+        "verb"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0025",
+      "turkish": "yemek yemek",
+      "english": "to eat",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3a",
+        "verb"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0026",
+      "turkish": "ev hanımı",
+      "english": "housewife",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-3a"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0027",
+      "turkish": "hafta içi",
+      "english": "weekday",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-3a"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0028",
+      "turkish": "süper kahraman",
+      "english": "superhero",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-3a"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0029",
+      "turkish": "tatil",
+      "english": "vacation",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-3a"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0030",
+      "turkish": "vapur",
+      "english": "ferry",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-3a"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0031",
+      "turkish": "asla",
+      "english": "never",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-3a"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0032",
+      "turkish": "bazen",
+      "english": "sometimes",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-3a"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0033",
+      "turkish": "genellikle",
+      "english": "usually",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-3a"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0034",
+      "turkish": "her zaman",
+      "english": "always",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-3a"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0035",
+      "turkish": "hiçbir zaman",
+      "english": "never",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-3a"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0036",
+      "turkish": "nadiren",
+      "english": "rarely",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-3a"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3a-0037",
+      "turkish": "sık sık",
+      "english": "often",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-3a"
+      ],
+      "source": "A1_-_3A.pdf",
+      "notes": "",
+      "status": "approved"
+    }
+  ]
+}

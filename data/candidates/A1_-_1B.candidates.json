@@ -1,0 +1,435 @@
+{
+  "source_file": "A1_-_1B.pdf",
+  "created_at": "2026-02-22T12:42:49.861988+00:00",
+  "items": [
+    {
+      "id": "cand-a1-1b-0001",
+      "turkish": "ayna",
+      "english": "mirror",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0002",
+      "turkish": "bahçe",
+      "english": "garden",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0003",
+      "turkish": "battaniye",
+      "english": "blanket",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0004",
+      "turkish": "bulaşık makinesi",
+      "english": "dishwasher",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0005",
+      "turkish": "buzdolabı",
+      "english": "fridge",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0006",
+      "turkish": "dolap",
+      "english": "closet",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0007",
+      "turkish": "duş kabini",
+      "english": "shower cabin",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0008",
+      "turkish": "ev",
+      "english": "house",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0009",
+      "turkish": "fırın",
+      "english": "oven",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0010",
+      "turkish": "gardırop",
+      "english": "wardrobe",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0011",
+      "turkish": "halı",
+      "english": "carpet",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0012",
+      "turkish": "havlu",
+      "english": "towel",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0013",
+      "turkish": "kapı",
+      "english": "door",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0014",
+      "turkish": "klozet / tuvalet",
+      "english": "toilet",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0015",
+      "turkish": "komodin",
+      "english": "bedside cabinet",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0016",
+      "turkish": "koltuk",
+      "english": "armchair",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0017",
+      "turkish": "küvet",
+      "english": "bathtub",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0018",
+      "turkish": "lavabo",
+      "english": "sink",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0019",
+      "turkish": "masa",
+      "english": "table",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0020",
+      "turkish": "mutfak",
+      "english": "kitchen",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0021",
+      "turkish": "oda",
+      "english": "room",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0022",
+      "turkish": "ocak",
+      "english": "stove",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0023",
+      "turkish": "oturma odası",
+      "english": "living room",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0024",
+      "turkish": "pencere",
+      "english": "window",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0025",
+      "turkish": "perde",
+      "english": "curtain",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0026",
+      "turkish": "sandalye",
+      "english": "chair",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0027",
+      "turkish": "sehpa",
+      "english": "coffee table",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0028",
+      "turkish": "şömine",
+      "english": "fireplace",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0029",
+      "turkish": "televizyon",
+      "english": "television",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0030",
+      "turkish": "yatak",
+      "english": "bed",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0031",
+      "turkish": "yatak odası",
+      "english": "bedroom",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0032",
+      "turkish": "yastık",
+      "english": "pillow",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1b-0033",
+      "turkish": "yorgan",
+      "english": "quilt",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b"
+      ],
+      "source": "A1_-_1B.pdf",
+      "notes": "",
+      "status": "approved"
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "source_file": "A1_-_1A.pdf",
+  "created_at": "2026-02-22T12:42:49.844328+00:00",
+  "items": [
+    {
+      "id": "cand-a1-1a-0001",
+      "turkish": "Merhaba!",
+      "english": "Hello!",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a"
+      ],
+      "source": "A1_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1a-0002",
+      "turkish": "Selam!",
+      "english": "Hi!",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a"
+      ],
+      "source": "A1_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1a-0003",
+      "turkish": "Günaydın!",
+      "english": "Good morning!",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a"
+      ],
+      "source": "A1_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1a-0004",
+      "turkish": "Hanım",
+      "english": "Ms",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a"
+      ],
+      "source": "A1_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1a-0005",
+      "turkish": "Bey",
+      "english": "Mr",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a"
+      ],
+      "source": "A1_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1a-0006",
+      "turkish": "İyi günler!",
+      "english": "Good afternoon!/Have a good day!",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a"
+      ],
+      "source": "A1_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1a-0007",
+      "turkish": "İyi akşamlar!",
+      "english": "Good evening!",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a"
+      ],
+      "source": "A1_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1a-0008",
+      "turkish": "İyi geceler!",
+      "english": "Good night!",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a"
+      ],
+      "source": "A1_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1a-0009",
+      "turkish": "Teşekkür ederim. / Teşekkürler",
+      "english": "Thank you. / Thanks",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a"
+      ],
+      "source": "A1_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1a-0010",
+      "turkish": "Hoş geldin!",
+      "english": "Welcome!",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a"
+      ],
+      "source": "A1_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1a-0011",
+      "turkish": "Hoş bulduk!",
+      "english": "Thanks, I'm glad to be here!",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a"
+      ],
+      "source": "A1_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1a-0012",
+      "turkish": "Hoşça kal! / Güle güle!",
+      "english": "Goodbye!",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a"
+      ],
+      "source": "A1_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1a-0013",
+      "turkish": "Görüşürüz!",
+      "english": "See you!",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a"
+      ],
+      "source": "A1_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1a-0014",
+      "turkish": "Kendine iyi bak!",
+      "english": "Take care of yourself!",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a"
+      ],
+      "source": "A1_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    }
+  ]
+}

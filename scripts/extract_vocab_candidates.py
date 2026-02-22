@@ -59,16 +59,77 @@ def parse_pairs(text: str) -> list[tuple[str, str]]:
             .replace("\ufb04", "ffl")
         )
 
+    def normalize_header(value: str) -> str:
+        mapping = str.maketrans({
+            "ç": "c",
+            "ğ": "g",
+            "ı": "i",
+            "İ": "i",
+            "ö": "o",
+            "ş": "s",
+            "ü": "u",
+            "Ç": "c",
+            "Ğ": "g",
+            "Ö": "o",
+            "Ş": "s",
+            "Ü": "u",
+        })
+        lowered = value.translate(mapping).lower()
+        return re.sub(r"[^a-z]", "", lowered)
+
     def is_header_line(value: str) -> bool:
-        lowered = value.lower()
-        compact = re.sub(r"[^a-z]", "", lowered)
-        if "kelimelistesi" in compact or "kelimeanlami" in compact:
+        compact = normalize_header(value)
+        if compact in {"kelimelistesi", "kelimeanlami", "kelimeanlam"}:
             return True
-        if "alphabet" in lowered or "alfabe" in lowered:
+        if "alphabet" in compact or "alfabe" in compact:
             return True
-        if re.match(r"^a\d+-\d+[a-z]?\b", lowered):
+        if compact in {"isim", "fiil"}:
+            return True
+        if re.match(r"^a\d+-\d+[a-z]?\b", compact):
             return True
         return False
+
+    def split_blocks() -> list[list[str]]:
+        blocks: list[list[str]] = []
+        current: list[str] = []
+
+        def flush() -> None:
+            if current:
+                blocks.append(current[:])
+                current.clear()
+
+        for idx, raw in enumerate(lines):
+            line = normalize_line(raw)
+            if not line:
+                continue
+
+            value = re.sub(r"\s+", " ", line).strip(" .;,")
+            if not value:
+                continue
+
+            if value.lower().startswith("www."):
+                flush()
+                continue
+
+            if is_header_line(value):
+                flush()
+                continue
+
+            if value.startswith("(") and value.endswith(")"):
+                flush()
+                continue
+
+            # Section headers followed by parenthetical translation.
+            if idx + 1 < len(lines):
+                next_line = normalize_line(lines[idx + 1]).strip()
+                if next_line.startswith("(") and next_line.endswith(")"):
+                    flush()
+                    continue
+
+            current.append(value)
+
+        flush()
+        return blocks
 
     separators = [" - ", " – ", " — ", ":", "\t", " = "]
     for line in lines:
@@ -139,11 +200,25 @@ def parse_pairs(text: str) -> list[tuple[str, str]]:
         if not english_mode and len(cleaned.split()) <= 4:
             turkish_candidates.append(cleaned)
 
+    blocks = split_blocks()
+    for block in blocks:
+        if len(block) >= 4 and len(block) % 2 == 0:
+            half = len(block) // 2
+            left = block[:half]
+            right = block[half:]
+            pairs.extend(zip(left, right))
+
+    if pairs:
+        return pairs
+
     if turkish_candidates and english_candidates:
         size = min(len(turkish_candidates), len(english_candidates))
         return list(zip(turkish_candidates[:size], english_candidates[:size]))
 
-    return deduped
+    if deduped:
+        return deduped
+
+    return []
 
 
 def slug(value: str) -> str:

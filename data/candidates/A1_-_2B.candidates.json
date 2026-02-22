@@ -1,0 +1,1345 @@
+{
+  "source_file": "A1_-_2B.pdf",
+  "created_at": "2026-02-22T12:42:49.923034+00:00",
+  "items": [
+    {
+      "id": "cand-a1-2b-0001",
+      "turkish": "adet",
+      "english": "piece",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0002",
+      "turkish": "alışveriş arabası",
+      "english": "shopping trolley",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0003",
+      "turkish": "alışveriş sepeti",
+      "english": "shopping basket",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0004",
+      "turkish": "ananas",
+      "english": "pineapple",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0005",
+      "turkish": "armut",
+      "english": "pear",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0006",
+      "turkish": "avuç",
+      "english": "handful",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0007",
+      "turkish": "ayran",
+      "english": "ayran",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0008",
+      "turkish": "baharat",
+      "english": "spice",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0009",
+      "turkish": "bal",
+      "english": "honey",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0010",
+      "turkish": "balık",
+      "english": "fish",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0011",
+      "turkish": "bardak",
+      "english": "glass",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0012",
+      "turkish": "bezelye",
+      "english": "peas",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0013",
+      "turkish": "biber",
+      "english": "pepper",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0014",
+      "turkish": "ceviz",
+      "english": "walnut",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0015",
+      "turkish": "çilek",
+      "english": "strawberry",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0016",
+      "turkish": "deterjan",
+      "english": "detergent",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0017",
+      "turkish": "dilim",
+      "english": "slice",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0018",
+      "turkish": "diş",
+      "english": "tooth",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0019",
+      "turkish": "diş fırçası",
+      "english": "toothbrush",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0020",
+      "turkish": "diş macunu",
+      "english": "toothpaste",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0021",
+      "turkish": "domates",
+      "english": "tomato",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0022",
+      "turkish": "ekmek",
+      "english": "bread",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0023",
+      "turkish": "elma",
+      "english": "apple",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0024",
+      "turkish": "erik",
+      "english": "plum",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0025",
+      "turkish": "et",
+      "english": "meat",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0026",
+      "turkish": "fasülye",
+      "english": "beans",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0027",
+      "turkish": "fincan",
+      "english": "cup",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0028",
+      "turkish": "fiyat",
+      "english": "price",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0029",
+      "turkish": "fındık",
+      "english": "hazelnut",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0030",
+      "turkish": "gıda",
+      "english": "food",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0031",
+      "turkish": "greyfurt",
+      "english": "grapefruit",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0032",
+      "turkish": "havuç",
+      "english": "carrot",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0033",
+      "turkish": "hemşire",
+      "english": "nurse",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0034",
+      "turkish": "ıhlamur",
+      "english": "linden tea",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0035",
+      "turkish": "ıslak mendil",
+      "english": "wet wipe",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0036",
+      "turkish": "ıspanak",
+      "english": "spinach",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0037",
+      "turkish": "incir",
+      "english": "fig",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0038",
+      "turkish": "indirim",
+      "english": "discount",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0039",
+      "turkish": "kabak",
+      "english": "zucchini",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0040",
+      "turkish": "kalıp",
+      "english": "block",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0041",
+      "turkish": "karnabahar",
+      "english": "cauliflower",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0042",
+      "turkish": "karpuz",
+      "english": "watermelon",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0043",
+      "turkish": "kase",
+      "english": "bowl",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0044",
+      "turkish": "kasa",
+      "english": "crate",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0045",
+      "turkish": "kat",
+      "english": "floor",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0046",
+      "turkish": "kasa",
+      "english": "market check out",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0047",
+      "turkish": "kasiyer",
+      "english": "cahsier",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0048",
+      "turkish": "kavun",
+      "english": "melon",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0049",
+      "turkish": "kekik",
+      "english": "thyme",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0050",
+      "turkish": "kereviz",
+      "english": "celery",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0051",
+      "turkish": "kilo",
+      "english": "kilo",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0052",
+      "turkish": "kilogram",
+      "english": "kilogram",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0053",
+      "turkish": "kiraz",
+      "english": "cherry",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0054",
+      "turkish": "kredi kartı",
+      "english": "credit card",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0055",
+      "turkish": "kuru soğan",
+      "english": "onion",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0056",
+      "turkish": "lahana",
+      "english": "cabbage",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0057",
+      "turkish": "limon",
+      "english": "lemon",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0058",
+      "turkish": "litre",
+      "english": "liter",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0059",
+      "turkish": "mandalina",
+      "english": "mandarin",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0060",
+      "turkish": "mango",
+      "english": "mango",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0061",
+      "turkish": "mantar",
+      "english": "mushroom",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0062",
+      "turkish": "market",
+      "english": "supermarket",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0063",
+      "turkish": "marul",
+      "english": "lettuce",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0064",
+      "turkish": "maydanoz",
+      "english": "parsley",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0065",
+      "turkish": "mercimek",
+      "english": "lentils",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0066",
+      "turkish": "meyve suyu",
+      "english": "fruit juice",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0067",
+      "turkish": "mısır",
+      "english": "corn",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0068",
+      "turkish": "muz",
+      "english": "banana",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0069",
+      "turkish": "nane",
+      "english": "mint",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0070",
+      "turkish": "nar",
+      "english": "pomegranate",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0071",
+      "turkish": "paket",
+      "english": "package",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0072",
+      "turkish": "patates",
+      "english": "potato",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0073",
+      "turkish": "patlıcan",
+      "english": "eggplant",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0074",
+      "turkish": "peynir",
+      "english": "cheese",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0075",
+      "turkish": "portakal",
+      "english": "orange",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0076",
+      "turkish": "poşet",
+      "english": "plastic bag",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0077",
+      "turkish": "reyon",
+      "english": "aisle",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0078",
+      "turkish": "reçel",
+      "english": "jam",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0079",
+      "turkish": "sabun",
+      "english": "soap",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0080",
+      "turkish": "salatalık",
+      "english": "cucumber",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0081",
+      "turkish": "salça",
+      "english": "tomato paste",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0082",
+      "turkish": "sarımsak",
+      "english": "garlic",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0083",
+      "turkish": "şişe",
+      "english": "bottle",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0084",
+      "turkish": "sirke",
+      "english": "vinegar",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0085",
+      "turkish": "soğan",
+      "english": "onion",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0086",
+      "turkish": "süt",
+      "english": "milk",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0087",
+      "turkish": "şeftali",
+      "english": "peach",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0088",
+      "turkish": "tarçın",
+      "english": "cinnamon",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0089",
+      "turkish": "tavuk",
+      "english": "chicken",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0090",
+      "turkish": "teneffüs",
+      "english": "recess",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0091",
+      "turkish": "tereyağ",
+      "english": "butter",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0092",
+      "turkish": "turp",
+      "english": "radish",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0093",
+      "turkish": "tutam",
+      "english": "pinch",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0094",
+      "turkish": "tuvalet kağıdı",
+      "english": "toilet paper",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0095",
+      "turkish": "üzüm",
+      "english": "grape",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0096",
+      "turkish": "vişne",
+      "english": "sour cherry",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0097",
+      "turkish": "yeşil biber",
+      "english": "green pepper",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0098",
+      "turkish": "yoğurt",
+      "english": "yogurt",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0099",
+      "turkish": "yumurta",
+      "english": "egg",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0100",
+      "turkish": "zeytin",
+      "english": "olive",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0101",
+      "turkish": "zeytinyağı",
+      "english": "olive oil",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0102",
+      "turkish": "dondurulmuş",
+      "english": "frozen",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2b-0103",
+      "turkish": "yakın",
+      "english": "close",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2b"
+      ],
+      "source": "A1_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    }
+  ]
+}

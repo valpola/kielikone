@@ -3,6 +3,11 @@
   "tags": [
     { "id": "unit-a1-0a", "label": "Unit A1-0A", "group": "unit" },
     { "id": "unit-a1-1a", "label": "Unit A1-1A", "group": "unit" },
+    { "id": "unit-a1-1b", "label": "Unit A1-1B", "group": "unit" },
+    { "id": "unit-a1-2a", "label": "Unit A1-2A", "group": "unit" },
+    { "id": "unit-a1-2b", "label": "Unit A1-2B", "group": "unit" },
+    { "id": "unit-a1-2c", "label": "Unit A1-2C", "group": "unit" },
+    { "id": "unit-a1-3a", "label": "Unit A1-3A", "group": "unit" },
     { "id": "freq-100", "label": "100 most frequent", "group": "frequency" },
     { "id": "noun", "label": "Noun", "group": "part_of_speech" },
     { "id": "verb", "label": "Verb", "group": "part_of_speech" },
