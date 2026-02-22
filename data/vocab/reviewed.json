@@ -3,10 +3,11 @@
   "items": [
     {
       "id": "cand-a1-0a-0001",
-      "turkish": "arkada\u015f",
+      "turkish": "arkadaş",
       "english": "friend",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ],
       "source": "A1_-_0A.pdf",
@@ -19,6 +20,7 @@
       "english": "father",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ],
       "source": "A1_-_0A.pdf",
@@ -31,6 +33,7 @@
       "english": "mosque",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ],
       "source": "A1_-_0A.pdf",
@@ -39,10 +42,11 @@
     },
     {
       "id": "cand-a1-0a-0004",
-      "turkish": "\u00e7i\u00e7ek",
+      "turkish": "çiçek",
       "english": "flower",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ],
       "source": "A1_-_0A.pdf",
@@ -55,6 +59,7 @@
       "english": "sea",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ],
       "source": "A1_-_0A.pdf",
@@ -67,6 +72,7 @@
       "english": "house",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ],
       "source": "A1_-_0A.pdf",
@@ -79,6 +85,7 @@
       "english": "cup",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ],
       "source": "A1_-_0A.pdf",
@@ -91,6 +98,7 @@
       "english": "newspaper",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ],
       "source": "A1_-_0A.pdf",
@@ -99,10 +107,11 @@
     },
     {
       "id": "cand-a1-0a-0009",
-      "turkish": "da\u011f",
+      "turkish": "dağ",
       "english": "mountain",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ],
       "source": "A1_-_0A.pdf",
@@ -115,6 +124,7 @@
       "english": "weather, air",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ],
       "source": "A1_-_0A.pdf",
@@ -123,10 +133,11 @@
     },
     {
       "id": "cand-a1-0a-0011",
-      "turkish": "\u0131l\u0131k",
+      "turkish": "ılık",
       "english": "warm",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ],
       "source": "A1_-_0A.pdf",
@@ -139,6 +150,7 @@
       "english": "human",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ],
       "source": "A1_-_0A.pdf",
@@ -151,6 +163,7 @@
       "english": "razor",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ],
       "source": "A1_-_0A.pdf",
@@ -159,10 +172,11 @@
     },
     {
       "id": "cand-a1-0a-0014",
-      "turkish": "kad\u0131n",
+      "turkish": "kadın",
       "english": "woman",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ],
       "source": "A1_-_0A.pdf",
@@ -175,6 +189,7 @@
       "english": "lamp",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ],
       "source": "A1_-_0A.pdf",
@@ -187,6 +202,7 @@
       "english": "table",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ],
       "source": "A1_-_0A.pdf",
@@ -199,6 +215,7 @@
       "english": "river",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ],
       "source": "A1_-_0A.pdf",
@@ -211,6 +228,7 @@
       "english": "school",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ],
       "source": "A1_-_0A.pdf",
@@ -219,10 +237,11 @@
     },
     {
       "id": "cand-a1-0a-0019",
-      "turkish": "\u00f6\u011fretmen",
+      "turkish": "öğretmen",
       "english": "teacher",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ],
       "source": "A1_-_0A.pdf",
@@ -235,6 +254,7 @@
       "english": "money",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ],
       "source": "A1_-_0A.pdf",
@@ -247,6 +267,7 @@
       "english": "picture",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ],
       "source": "A1_-_0A.pdf",
@@ -259,6 +280,7 @@
       "english": "water",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ],
       "source": "A1_-_0A.pdf",
@@ -267,10 +289,11 @@
     },
     {
       "id": "cand-a1-0a-0023",
-      "turkish": "\u015fi\u015fe",
+      "turkish": "şişe",
       "english": "bottle",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ],
       "source": "A1_-_0A.pdf",
@@ -283,6 +306,7 @@
       "english": "plate",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ],
       "source": "A1_-_0A.pdf",
@@ -291,10 +315,11 @@
     },
     {
       "id": "cand-a1-0a-0025",
-      "turkish": "u\u00e7ak",
+      "turkish": "uçak",
       "english": "plane",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ],
       "source": "A1_-_0A.pdf",
@@ -303,10 +328,11 @@
     },
     {
       "id": "cand-a1-0a-0026",
-      "turkish": "\u00fcz\u00fcm",
+      "turkish": "üzüm",
       "english": "grape",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ],
       "source": "A1_-_0A.pdf",
@@ -319,6 +345,7 @@
       "english": "vase",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ],
       "source": "A1_-_0A.pdf",
@@ -327,10 +354,11 @@
     },
     {
       "id": "cand-a1-0a-0028",
-      "turkish": "y\u0131ld\u0131z",
+      "turkish": "yıldız",
       "english": "star",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ],
       "source": "A1_-_0A.pdf",
@@ -343,6 +371,7 @@
       "english": "time",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ],
       "source": "A1_-_0A.pdf",

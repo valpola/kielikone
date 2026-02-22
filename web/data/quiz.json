@@ -26,6 +26,7 @@
       "english": "friend",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ]
     },
@@ -35,6 +36,7 @@
       "english": "father",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ]
     },
@@ -44,6 +46,7 @@
       "english": "mosque",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ]
     },
@@ -53,6 +56,7 @@
       "english": "flower",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ]
     },
@@ -62,6 +66,7 @@
       "english": "sea",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ]
     },
@@ -71,6 +76,7 @@
       "english": "house",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ]
     },
@@ -80,6 +86,7 @@
       "english": "cup",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ]
     },
@@ -89,6 +96,7 @@
       "english": "newspaper",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ]
     },
@@ -98,6 +106,7 @@
       "english": "mountain",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ]
     },
@@ -107,6 +116,7 @@
       "english": "weather, air",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ]
     },
@@ -116,6 +126,7 @@
       "english": "warm",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ]
     },
@@ -125,6 +136,7 @@
       "english": "human",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ]
     },
@@ -134,6 +146,7 @@
       "english": "razor",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ]
     },
@@ -143,6 +156,7 @@
       "english": "woman",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ]
     },
@@ -152,6 +166,7 @@
       "english": "lamp",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ]
     },
@@ -161,6 +176,7 @@
       "english": "table",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ]
     },
@@ -170,6 +186,7 @@
       "english": "river",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ]
     },
@@ -179,6 +196,7 @@
       "english": "school",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ]
     },
@@ -188,6 +206,7 @@
       "english": "teacher",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ]
     },
@@ -197,6 +216,7 @@
       "english": "money",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ]
     },
@@ -206,6 +226,7 @@
       "english": "picture",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ]
     },
@@ -215,6 +236,7 @@
       "english": "water",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ]
     },
@@ -224,6 +246,7 @@
       "english": "bottle",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ]
     },
@@ -233,6 +256,7 @@
       "english": "plate",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ]
     },
@@ -242,6 +266,7 @@
       "english": "plane",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ]
     },
@@ -251,6 +276,7 @@
       "english": "grape",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ]
     },
@@ -260,6 +286,7 @@
       "english": "vase",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ]
     },
@@ -269,6 +296,7 @@
       "english": "star",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ]
     },
@@ -278,6 +306,7 @@
       "english": "time",
       "priority": 3,
       "tags": [
+        "noun",
         "unit-a1-0a"
       ]
     }
@@ -301,6 +330,21 @@
     {
       "id": "noun",
       "label": "Noun",
+      "group": "part_of_speech"
+    },
+    {
+      "id": "verb",
+      "label": "Verb",
+      "group": "part_of_speech"
+    },
+    {
+      "id": "adjective",
+      "label": "Adjective",
+      "group": "part_of_speech"
+    },
+    {
+      "id": "adverb",
+      "label": "Adverb",
       "group": "part_of_speech"
     },
     {

@@ -5,6 +5,9 @@
     { "id": "unit-a1-1a", "label": "Unit A1-1A", "group": "unit" },
     { "id": "freq-100", "label": "100 most frequent", "group": "frequency" },
     { "id": "noun", "label": "Noun", "group": "part_of_speech" },
+    { "id": "verb", "label": "Verb", "group": "part_of_speech" },
+    { "id": "adjective", "label": "Adjective", "group": "part_of_speech" },
+    { "id": "adverb", "label": "Adverb", "group": "part_of_speech" },
     { "id": "time-expression", "label": "Expression of time", "group": "theme" },
     { "id": "greeting", "label": "Greeting", "group": "theme" },
     { "id": "polite", "label": "Polite", "group": "theme" }
