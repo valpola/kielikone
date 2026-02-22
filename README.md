@@ -89,3 +89,6 @@ See [docs/google_sheets.md](docs/google_sheets.md) to enable syncing quiz result
 
 ## Handover
 See [docs/handover.md](docs/handover.md) for full operational notes.
+
+## Changelog
+See [CHANGELOG.md](CHANGELOG.md) for recent changes.
