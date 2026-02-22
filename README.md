@@ -52,6 +52,8 @@ Optional overrides:
 ## Notes
 - resources/originals is ignored to avoid committing copyrighted PDFs.
 - Quiz stats are stored in localStorage on the device.
+- If CSS/JS changes do not appear on the phone, bump the cache-busting query
+   strings in web/index.html (style.css and config.js).
 
 ## Keyboard shortcuts
 - Enter: show answer

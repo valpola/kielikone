@@ -95,7 +95,8 @@ Optional overrides:
 ## Common issues
 - 401 Unauthorized: Apps Script access must be Anyone and API key must match.
 - CORS/preflight errors: The app sends form-encoded data; do not switch to JSON.
-- Old endpoint used: Hard refresh, or update cache-busting in web/index.html.
+- Old assets used: Hard refresh, or update cache-busting in web/index.html
+  (style.css and config.js query strings).
 
 ## Security notes
 - The static site is public. Do not store secrets in the repo.
