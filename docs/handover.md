@@ -12,7 +12,7 @@ This document explains how the repo works, how to update content, and how to kee
 - data/vocab/*.json: Canonical vocabulary data (split files).
 - data/tags.json: Finite editable tag registry.
 - data/candidates/*.candidates.json: Extracted candidates pending review.
-- scripts/export_quiz.py: Builds web/data/quiz.json from data/lexicon.json.
+- scripts/export_quiz.py: Builds web/data/quiz.json from data/vocab/*.json.
 - web/: Static web app (HTML/CSS/JS).
 - web/config.js: Results logging config (Apps Script URL + enable flag).
 - docs/google_sheets.md: Apps Script setup instructions.
@@ -21,7 +21,7 @@ This document explains how the repo works, how to update content, and how to kee
 
 ## Local setup
 - Python 3 is required (no external packages).
-- Optional: create a virtualenv with python3 -m venv .venv.
+- Create a virtualenv with python3 -m venv .venv (make targets expect it).
 
 ## Update vocabulary
 1. Edit data/vocab/*.json (add/update entries).
@@ -46,6 +46,9 @@ Shortcut:
 4. Merge:
   make merge-candidates CANDIDATE="data/candidates/A1_-_1A.candidates.json"
 5. Run make validate-tags and make publish.
+
+Optional helper:
+- scripts/tag_candidates.py applies unit and POS tags from PDFs.
 
 ## How publishing works
 - GitHub Pages is deployed from the web/ folder using GitHub Actions.

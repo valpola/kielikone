@@ -22,6 +22,9 @@ Personal Turkish vocabulary study tool with:
    https://valpola.github.io/kielikone/
 
 ## Quick start (desktop)
+0. Create and activate a virtualenv (required for make targets):
+   python3 -m venv .venv
+   source .venv/bin/activate
 1. Export quiz data:
    python3 scripts/export_quiz.py
 2. Serve the web app locally:

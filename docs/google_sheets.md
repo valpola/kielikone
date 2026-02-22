@@ -44,7 +44,7 @@ function doPost(e) {
 1. Click Deploy -> New deployment.
 2. Select "Web app".
 3. Execute as: "Me".
-4. Who has access: "Only myself".
+4. Who has access: "Anyone".
 5. Click Deploy and copy the web app URL.
 6. If you already deployed once, create a new deployment after changing the script.
 
@@ -55,5 +55,5 @@ function doPost(e) {
 4. Commit and push.
 
 ## Notes
-- You must be signed into the same Google account on your phone.
+- The API key is required because the endpoint is public.
 - If you change the deployment, update the URL in web/config.js.

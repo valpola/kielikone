@@ -22,21 +22,17 @@ Stored in data/vocab/*.json with tag registry in data/tags.json.
 
 ```
 {
-  "version": 1,
-  "metadata": {
-    "language": "tr",
-    "created": "2026-02-21"
-  },
+  "source": "reviewed",
   "items": [
     {
-      "id": "tr-0001",
-      "turkish": "merhaba",
-      "english": "hello",
+      "id": "cand-a1-1a-0001",
+      "turkish": "Merhaba!",
+      "english": "Hello!",
       "priority": 3,
-      "tags": ["greeting"],
+      "tags": ["unit-a1-1a"],
       "source": "A1_-_1A.pdf",
       "notes": "",
-      "last_seen": ""
+      "status": "approved"
     }
   ]
 }
@@ -61,11 +57,11 @@ Tag registry fields:
 - Quiz selection weights by priority and recency (tracked in localStorage on the web app).
 
 ## Content Pipeline
-1. Extract vocab from PDFs with a VLM (manual prompt and review).
+1. Extract vocab from PDFs/images with scripts.
 2. Save extracted candidates to data/candidates/*.candidates.json.
 3. Manual review (approve/reject, add tags).
 4. Merge approved items into data/vocab/*.json.
-4. Run export script to generate web/data/quiz.json.
+5. Run export script to generate web/data/quiz.json.
 
 ## Web App Behavior
 - Loads web/data/quiz.json.
