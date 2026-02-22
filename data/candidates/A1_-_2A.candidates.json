@@ -655,7 +655,7 @@
     {
       "id": "cand-a1-2a-0051",
       "turkish": "birçok",
-      "english": "new",
+      "english": "many",
       "priority": 3,
       "tags": [
         "adjective",
@@ -668,7 +668,7 @@
     {
       "id": "cand-a1-2a-0052",
       "turkish": "yeni",
-      "english": "ZARF",
+      "english": "new",
       "priority": 3,
       "tags": [
         "adjective",
@@ -680,10 +680,11 @@
     },
     {
       "id": "cand-a1-2a-0053",
-      "turkish": "many",
-      "english": "(ADVERB) ayrıca moreover",
+      "turkish": "ayrıca",
+      "english": "moreover",
       "priority": 3,
       "tags": [
+        "adverb",
         "unit-a1-2a"
       ],
       "source": "A1_-_2A.pdf",

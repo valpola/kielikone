@@ -13,7 +13,7 @@
     {
       "id": "cand-a1-0a-0002",
       "turkish": "baba",
-      "english": "father",
+      "english": "many",
       "priority": 3,
       "tags": [
         "noun",
@@ -1259,7 +1259,7 @@
     {
       "id": "cand-a1-2a-0052",
       "turkish": "yeni",
-      "english": "ZARF",
+      "english": "new",
       "priority": 3,
       "tags": [
         "adjective",
@@ -1268,10 +1268,11 @@
     },
     {
       "id": "cand-a1-2a-0053",
-      "turkish": "many",
-      "english": "(ADVERB) ayr\u0131ca moreover",
+      "turkish": "ayr\u0131ca",
+      "english": "moreover",
       "priority": 3,
       "tags": [
+        "adverb",
         "unit-a1-2a"
       ]
     },
