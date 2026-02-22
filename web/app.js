@@ -244,9 +244,10 @@ window.addEventListener("keydown", (event) => {
   if (isAnswerFocused) return;
 
   if (isResultVisible) {
-    if (event.key === "1") {
+    const key = event.key.toLowerCase();
+    if (key === "f") {
       grade(true);
-    } else if (event.key === "2") {
+    } else if (key === "j") {
       grade(false);
     }
   }
