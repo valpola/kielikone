@@ -347,7 +347,7 @@ window.addEventListener("keydown", (event) => {
 });
 
 const loadData = async () => {
-  const response = await fetch("data/quiz.json");
+  const response = await fetch("data/quiz.json", { cache: "no-store" });
   const data = await response.json();
   items = data.items || [];
   tagRegistry = data.tags || [];
