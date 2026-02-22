@@ -232,9 +232,27 @@ MARK_CORRECT.addEventListener("click", () => grade(true));
 MARK_WRONG.addEventListener("click", () => grade(false));
 
 window.addEventListener("keydown", (event) => {
+  const isAnswerFocused = document.activeElement === ANSWER;
+  const isResultVisible = !RESULT.classList.contains("hidden");
+
   if (event.key === "Enter") {
     event.preventDefault();
     revealAnswer();
+    return;
+  }
+
+  if (isAnswerFocused) return;
+
+  if (isResultVisible) {
+    if (event.key === "1") {
+      grade(true);
+    } else if (event.key === "2") {
+      grade(false);
+    }
+  }
+
+  if (event.key.toLowerCase() === "n") {
+    renderPrompt();
   }
 });
 
