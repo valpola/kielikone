@@ -35,6 +35,18 @@ const setLocalStats = (id, stats) => {
   localStorage.setItem(storageKey(id), JSON.stringify(stats));
 };
 
+const API_KEY_STORAGE = "tr-quiz-api-key";
+
+const getApiKey = () => {
+  return localStorage.getItem(API_KEY_STORAGE) || "";
+};
+
+const ensureApiKey = () => {
+  if (getApiKey()) return;
+  const value = window.prompt("Enter API key for results logging:");
+  if (value) localStorage.setItem(API_KEY_STORAGE, value.trim());
+};
+
 const getResultsEndpoint = () => {
   if (typeof APP_CONFIG === "undefined") return "";
   if (!APP_CONFIG.resultsEnabled) return "";
@@ -45,10 +57,14 @@ const sendResult = async (payload) => {
   const endpoint = getResultsEndpoint();
   if (!endpoint) return;
 
+  const apiKey = getApiKey();
+  if (!apiKey) return;
+
   const body = new URLSearchParams();
   Object.entries(payload).forEach(([key, value]) => {
     body.set(key, String(value));
   });
+  body.set("api_key", apiKey);
 
   try {
     await fetch(endpoint, {
@@ -168,6 +184,7 @@ const loadData = async () => {
   const response = await fetch("data/quiz.json");
   const data = await response.json();
   items = data.items || [];
+  ensureApiKey();
   renderMode();
   updateStats();
   renderPrompt();

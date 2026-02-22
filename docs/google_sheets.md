@@ -15,6 +15,8 @@ This app can send quiz results to a Google Sheet via Apps Script.
 2. Replace the default script with:
 
 ```
+var EXPECTED_API_KEY = "turkishle123";
+
 function doPost(e) {
   var sheet = SpreadsheetApp.getActive().getSheetByName("Results");
   if (!sheet) {
@@ -23,6 +25,9 @@ function doPost(e) {
   }
 
   var data = e.parameter || {};
+  if (!data.api_key || data.api_key !== EXPECTED_API_KEY) {
+    return ContentService.createTextOutput("Unauthorized");
+  }
 
   sheet.appendRow([
     data.timestamp || "",

@@ -1,5 +1,5 @@
 const APP_CONFIG = {
   resultsEndpoint:
-    "https://script.google.com/macros/s/AKfycbxng3zkWcDzmhUjSQ-n32FJvwkbNOepk68nJdjOno3pykh6JnE0un8WGpii0RlU2xr1/exec",
+    "https://script.google.com/macros/s/AKfycbx-9c-R7myu9Es9zA5asDQWyX0NXg_0Sb2TRZB8hwxONFUcLEHs9huQeK5rNo-05Rg-/exec",
   resultsEnabled: true,
 };
