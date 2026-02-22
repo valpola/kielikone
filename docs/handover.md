@@ -55,6 +55,12 @@ Optional helper:
 - The live site is:
   https://valpola.github.io/kielikone/
 
+## Keyboard shortcuts
+- Enter: show answer
+- f: I was correct
+- j: I was incorrect
+- n: next
+
 ## Google Sheets logging
 Logging works via an Apps Script Web App. The static site posts results to the script.
 

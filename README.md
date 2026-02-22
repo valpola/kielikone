@@ -53,6 +53,12 @@ Optional overrides:
 - resources/originals is ignored to avoid committing copyrighted PDFs.
 - Quiz stats are stored in localStorage on the device.
 
+## Keyboard shortcuts
+- Enter: show answer
+- f: I was correct
+- j: I was incorrect
+- n: next
+
 ## Tag filters (include/exclude)
 - Add/edit allowed tags in data/tags.json.
 - Assign tag IDs to each vocab item in data/vocab/*.json.
