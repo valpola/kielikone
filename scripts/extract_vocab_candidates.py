@@ -50,11 +50,34 @@ def parse_pairs(text: str) -> list[tuple[str, str]]:
     pairs: list[tuple[str, str]] = []
     lines = [line.strip() for line in text.splitlines()]
 
+    def normalize_line(value: str) -> str:
+        return (
+            value.replace("\ufb01", "fi")
+            .replace("\ufb02", "fl")
+            .replace("\ufb00", "ff")
+            .replace("\ufb03", "ffi")
+            .replace("\ufb04", "ffl")
+        )
+
+    def is_header_line(value: str) -> bool:
+        lowered = value.lower()
+        compact = re.sub(r"[^a-z]", "", lowered)
+        if "kelimelistesi" in compact or "kelimeanlami" in compact:
+            return True
+        if "alphabet" in lowered or "alfabe" in lowered:
+            return True
+        if re.match(r"^a\d+-\d+[a-z]?\b", lowered):
+            return True
+        return False
+
     separators = [" - ", " – ", " — ", ":", "\t", " = "]
     for line in lines:
+        line = normalize_line(line)
         if not line or len(line) > 140:
             continue
         if re.search(r"\d{2,}", line):
+            continue
+        if is_header_line(line):
             continue
 
         for sep in separators:
@@ -75,6 +98,51 @@ def parse_pairs(text: str) -> list[tuple[str, str]]:
             continue
         seen.add(key)
         deduped.append((left, right))
+
+    if deduped:
+        return deduped
+
+    turkish_candidates: list[str] = []
+    english_candidates: list[str] = []
+    english_mode = False
+
+    for line in lines:
+        if not line:
+            continue
+
+        cleaned = normalize_line(line)
+        cleaned = re.sub(r"\s+", " ", cleaned).strip(" .;,")
+        if not cleaned:
+            continue
+        if is_header_line(cleaned):
+            continue
+
+        if cleaned.lower().startswith("www."):
+            continue
+        if cleaned.lower() in {"kelime listesi", "kelime anlamı", "alfabe", "alphabet"}:
+            continue
+
+        if re.match(r"^[A-ZÇĞİIÖŞÜ]\s+", cleaned):
+            value = re.sub(r"^[A-ZÇĞİIÖŞÜ]\s+", "", cleaned).strip()
+            if value:
+                turkish_candidates.append(value)
+            continue
+
+        ascii_line = bool(re.match(r"^[A-Za-z ,'-]+$", cleaned))
+        has_turkish_chars = bool(re.search(r"[çğıöşüÇĞİÖŞÜ]", cleaned))
+
+        if ascii_line and not has_turkish_chars:
+            english_mode = True
+            english_candidates.append(cleaned)
+            continue
+
+        if not english_mode and len(cleaned.split()) <= 4:
+            turkish_candidates.append(cleaned)
+
+    if turkish_candidates and english_candidates:
+        size = min(len(turkish_candidates), len(english_candidates))
+        return list(zip(turkish_candidates[:size], english_candidates[:size]))
+
     return deduped
 
 

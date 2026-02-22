@@ -1,0 +1,296 @@
+{
+  "source_file": "A1_-_0A.pdf",
+  "created_at": "2026-02-22T10:06:04.340962+00:00",
+  "items": [
+    {
+      "id": "cand-a1-0a-0001",
+      "turkish": "arkada\u015f",
+      "english": "friend",
+      "priority": 3,
+      "tags": [],
+      "source": "A1_-_0A.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-0a-0002",
+      "turkish": "baba",
+      "english": "father",
+      "priority": 3,
+      "tags": [],
+      "source": "A1_-_0A.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-0a-0003",
+      "turkish": "cami",
+      "english": "mosque",
+      "priority": 3,
+      "tags": [],
+      "source": "A1_-_0A.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-0a-0004",
+      "turkish": "\u00e7i\u00e7ek",
+      "english": "flower",
+      "priority": 3,
+      "tags": [],
+      "source": "A1_-_0A.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-0a-0005",
+      "turkish": "deniz",
+      "english": "sea",
+      "priority": 3,
+      "tags": [],
+      "source": "A1_-_0A.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-0a-0006",
+      "turkish": "ev",
+      "english": "house",
+      "priority": 3,
+      "tags": [],
+      "source": "A1_-_0A.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-0a-0007",
+      "turkish": "fincan",
+      "english": "cup",
+      "priority": 3,
+      "tags": [],
+      "source": "A1_-_0A.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-0a-0008",
+      "turkish": "gazete",
+      "english": "newspaper",
+      "priority": 3,
+      "tags": [],
+      "source": "A1_-_0A.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-0a-0009",
+      "turkish": "da\u011f",
+      "english": "mountain",
+      "priority": 3,
+      "tags": [],
+      "source": "A1_-_0A.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-0a-0010",
+      "turkish": "hava",
+      "english": "weather, air",
+      "priority": 3,
+      "tags": [],
+      "source": "A1_-_0A.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-0a-0011",
+      "turkish": "\u0131l\u0131k",
+      "english": "warm",
+      "priority": 3,
+      "tags": [],
+      "source": "A1_-_0A.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-0a-0012",
+      "turkish": "insan",
+      "english": "human",
+      "priority": 3,
+      "tags": [],
+      "source": "A1_-_0A.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-0a-0013",
+      "turkish": "jilet",
+      "english": "razor",
+      "priority": 3,
+      "tags": [],
+      "source": "A1_-_0A.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-0a-0014",
+      "turkish": "kad\u0131n",
+      "english": "woman",
+      "priority": 3,
+      "tags": [],
+      "source": "A1_-_0A.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-0a-0015",
+      "turkish": "lamba",
+      "english": "lamp",
+      "priority": 3,
+      "tags": [],
+      "source": "A1_-_0A.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-0a-0016",
+      "turkish": "masa",
+      "english": "table",
+      "priority": 3,
+      "tags": [],
+      "source": "A1_-_0A.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-0a-0017",
+      "turkish": "nehir",
+      "english": "river",
+      "priority": 3,
+      "tags": [],
+      "source": "A1_-_0A.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-0a-0018",
+      "turkish": "okul",
+      "english": "school",
+      "priority": 3,
+      "tags": [],
+      "source": "A1_-_0A.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-0a-0019",
+      "turkish": "\u00f6\u011fretmen",
+      "english": "teacher",
+      "priority": 3,
+      "tags": [],
+      "source": "A1_-_0A.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-0a-0020",
+      "turkish": "para",
+      "english": "money",
+      "priority": 3,
+      "tags": [],
+      "source": "A1_-_0A.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-0a-0021",
+      "turkish": "resim",
+      "english": "picture",
+      "priority": 3,
+      "tags": [],
+      "source": "A1_-_0A.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-0a-0022",
+      "turkish": "su",
+      "english": "water",
+      "priority": 3,
+      "tags": [],
+      "source": "A1_-_0A.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-0a-0023",
+      "turkish": "\u015fi\u015fe",
+      "english": "bottle",
+      "priority": 3,
+      "tags": [],
+      "source": "A1_-_0A.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-0a-0024",
+      "turkish": "tabak",
+      "english": "plate",
+      "priority": 3,
+      "tags": [],
+      "source": "A1_-_0A.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-0a-0025",
+      "turkish": "u\u00e7ak",
+      "english": "plane",
+      "priority": 3,
+      "tags": [],
+      "source": "A1_-_0A.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-0a-0026",
+      "turkish": "\u00fcz\u00fcm",
+      "english": "grape",
+      "priority": 3,
+      "tags": [],
+      "source": "A1_-_0A.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-0a-0027",
+      "turkish": "vazo",
+      "english": "vase",
+      "priority": 3,
+      "tags": [],
+      "source": "A1_-_0A.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-0a-0028",
+      "turkish": "y\u0131ld\u0131z",
+      "english": "star",
+      "priority": 3,
+      "tags": [],
+      "source": "A1_-_0A.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-0a-0029",
+      "turkish": "zaman",
+      "english": "time",
+      "priority": 3,
+      "tags": [],
+      "source": "A1_-_0A.pdf",
+      "notes": "",
+      "status": "needs_review"
+    }
+  ]
+}
