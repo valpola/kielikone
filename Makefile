@@ -1,6 +1,6 @@
 PYTHON := .venv/bin/python
 
-.PHONY: export publish test-results
+.PHONY: export publish test-results build-today
 .PHONY: validate-tags extract-candidates merge-candidates check-venv
 
 check-venv:
@@ -17,6 +17,9 @@ publish: export
 
 test-results: check-venv
 	$(PYTHON) scripts/test_results_endpoint.py
+
+build-today: check-venv
+	$(PYTHON) scripts/build_today.py
 
 validate-tags: check-venv
 	$(PYTHON) scripts/validate_tags.py

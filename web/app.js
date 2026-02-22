@@ -10,6 +10,7 @@ const MARK_WRONG = document.getElementById("mark-wrong");
 const MODE_BTNS = document.querySelectorAll(".mode-btn");
 const INCLUDE_TAGS = document.getElementById("include-tags");
 const EXCLUDE_TAGS = document.getElementById("exclude-tags");
+const SESSION_TARGET = document.getElementById("session-target");
 
 let mode = "en-tr";
 let items = [];
@@ -17,8 +18,13 @@ let tagRegistry = [];
 let current = null;
 let seen = 0;
 let correct = 0;
+const sessionCorrect = new Map();
 
 const storageKey = (id) => `tr-quiz-${id}`;
+const INCLUDE_STORAGE = "tr-quiz-include-tags";
+const EXCLUDE_STORAGE = "tr-quiz-exclude-tags";
+const SESSION_TARGET_STORAGE = "tr-quiz-session-target";
+const DEFAULT_SESSION_TARGET = 2;
 
 const todayStamp = () => new Date().toISOString().slice(0, 10);
 
@@ -78,8 +84,44 @@ const sendResult = async (payload) => {
   }
 };
 
-const selectedValues = (selectEl) => {
-  return new Set(Array.from(selectEl.selectedOptions).map((option) => option.value));
+const selectedValues = (container) => {
+  return new Set(
+    Array.from(container.querySelectorAll("input[type=checkbox]:checked")).map(
+      (input) => input.value
+    )
+  );
+};
+
+const loadSelection = (key) => {
+  const raw = localStorage.getItem(key);
+  if (!raw) return new Set();
+  try {
+    const parsed = JSON.parse(raw);
+    if (Array.isArray(parsed)) return new Set(parsed);
+  } catch {
+    return new Set();
+  }
+  return new Set();
+};
+
+const saveSelection = (key, values) => {
+  localStorage.setItem(key, JSON.stringify(Array.from(values)));
+};
+
+const loadSessionTarget = () => {
+  const raw = Number(localStorage.getItem(SESSION_TARGET_STORAGE));
+  const value = Number.isFinite(raw) && raw >= 1 ? Math.floor(raw) : DEFAULT_SESSION_TARGET;
+  SESSION_TARGET.value = String(value);
+};
+
+const getSessionTarget = () => {
+  const raw = Number(SESSION_TARGET.value);
+  if (!Number.isFinite(raw) || raw < 1) return DEFAULT_SESSION_TARGET;
+  return Math.floor(raw);
+};
+
+const saveSessionTarget = () => {
+  localStorage.setItem(SESSION_TARGET_STORAGE, String(getSessionTarget()));
 };
 
 const getFilteredItems = () => {
@@ -115,9 +157,13 @@ const weightForItem = (item) => {
 
 const pickNext = () => {
   const filtered = getFilteredItems();
-  if (!filtered.length) return null;
+  const target = getSessionTarget();
+  const eligible = filtered.filter(
+    (item) => (sessionCorrect.get(item.id) || 0) < target
+  );
+  if (!eligible.length) return null;
 
-  const weighted = filtered.map((item) => ({
+  const weighted = eligible.map((item) => ({
     item,
     weight: weightForItem(item),
   }));
@@ -150,18 +196,36 @@ const renderTagOptions = () => {
   });
 
   const tagIds = Array.from(new Set([...existing.keys(), ...usedTags])).sort();
-  const buildOption = (tagId) => {
-    const option = document.createElement("option");
-    option.value = tagId;
-    option.textContent = existing.get(tagId) || tagId;
-    return option;
+  const includeSelection = loadSelection(INCLUDE_STORAGE);
+  const excludeSelection = loadSelection(EXCLUDE_STORAGE);
+
+  if (!includeSelection.size && tagIds.includes("today")) {
+    includeSelection.add("today");
+    saveSelection(INCLUDE_STORAGE, includeSelection);
+  }
+
+  const buildTag = (tagId, selected) => {
+    const label = document.createElement("label");
+    label.className = "tag-item";
+
+    const input = document.createElement("input");
+    input.type = "checkbox";
+    input.value = tagId;
+    input.checked = selected.has(tagId);
+
+    const text = document.createElement("span");
+    text.textContent = existing.get(tagId) || tagId;
+
+    label.appendChild(input);
+    label.appendChild(text);
+    return label;
   };
 
   INCLUDE_TAGS.innerHTML = "";
   EXCLUDE_TAGS.innerHTML = "";
   tagIds.forEach((tagId) => {
-    INCLUDE_TAGS.appendChild(buildOption(tagId));
-    EXCLUDE_TAGS.appendChild(buildOption(tagId));
+    INCLUDE_TAGS.appendChild(buildTag(tagId, includeSelection));
+    EXCLUDE_TAGS.appendChild(buildTag(tagId, excludeSelection));
   });
 };
 
@@ -203,6 +267,11 @@ const grade = (isCorrect) => {
   else stats.wrong += 1;
   setLocalStats(current.id, stats);
 
+  if (isCorrect) {
+    const count = (sessionCorrect.get(current.id) || 0) + 1;
+    sessionCorrect.set(current.id, count);
+  }
+
   sendResult({
     timestamp: new Date().toISOString(),
     word_id: current.id,
@@ -225,12 +294,19 @@ MODE_BTNS.forEach((btn) => {
 });
 
 INCLUDE_TAGS.addEventListener("change", () => {
+  saveSelection(INCLUDE_STORAGE, selectedValues(INCLUDE_TAGS));
   updateStats();
   renderPrompt();
 });
 
 EXCLUDE_TAGS.addEventListener("change", () => {
+  saveSelection(EXCLUDE_STORAGE, selectedValues(EXCLUDE_TAGS));
   updateStats();
+  renderPrompt();
+});
+
+SESSION_TARGET.addEventListener("change", () => {
+  saveSessionTarget();
   renderPrompt();
 });
 
@@ -242,6 +318,7 @@ MARK_WRONG.addEventListener("click", () => grade(false));
 window.addEventListener("keydown", (event) => {
   const isAnswerFocused = document.activeElement === ANSWER;
   const isResultVisible = !RESULT.classList.contains("hidden");
+  const key = event.key.toLowerCase();
 
   if (event.key === "Enter") {
     event.preventDefault();
@@ -252,15 +329,19 @@ window.addEventListener("keydown", (event) => {
   if (isAnswerFocused) return;
 
   if (isResultVisible) {
-    const key = event.key.toLowerCase();
     if (key === "f") {
+      event.preventDefault();
       grade(true);
+      return;
     } else if (key === "j") {
+      event.preventDefault();
       grade(false);
+      return;
     }
   }
 
-  if (event.key.toLowerCase() === "n") {
+  if (key === "n") {
+    event.preventDefault();
     renderPrompt();
   }
 });
@@ -271,6 +352,7 @@ const loadData = async () => {
   items = data.items || [];
   tagRegistry = data.tags || [];
   ensureApiKey();
+  loadSessionTarget();
   renderTagOptions();
   renderMode();
   updateStats();

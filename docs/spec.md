@@ -54,7 +54,8 @@ Tag registry fields:
 
 ## Study Scheduling
 - Start with manual priority only.
-- Quiz selection weights by priority and recency (tracked in localStorage on the web app).
+- Add a daily prioritization script that tags a fixed-size "today" list based on
+  decaying correct/incorrect scores from Google Sheets results.
 
 ## Content Pipeline
 1. Extract vocab from PDFs/images with scripts.
@@ -68,6 +69,8 @@ Tag registry fields:
 - Quiz direction toggle: TR -> EN or EN -> TR.
 - Prompt + typed answer.
 - Show answer button + self-grade correct/incorrect.
+- Default include tag: today.
+- Stop asking a word after N correct answers in-session (configurable in Options).
 - Local stats stored in localStorage (no server).
 - Optional results logging to Google Sheets (Apps Script Web App).
 - API key prompt (stored in localStorage) for results logging.

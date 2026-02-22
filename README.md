@@ -41,6 +41,17 @@ Personal Turkish vocabulary study tool with:
 Run:
    make publish
 
+## Daily prioritization (today tag)
+1. Export the Google Sheet as CSV (or provide a CSV URL).
+2. Run:
+   python3 scripts/build_today.py --results "<csv-or-url>" --limit 30
+3. Export and publish:
+   make publish
+
+Notes:
+- The script overwrites the today tag on each run.
+- Set RESULTS_SOURCE and TODAY_LIMIT env vars to avoid passing flags.
+
 ## Test results endpoint
 Run:
    make test-results
@@ -64,6 +75,8 @@ Optional overrides:
 ## Mobile UX
 - After showing the answer, the input blurs so the keyboard hides.
 - The "Show Answer" button hides after reveal to keep the layout clean.
+- "Correct to finish" in Options controls how many correct answers are needed
+   before a word is skipped for the rest of the session.
 
 ## Tag filters (include/exclude)
 - Add/edit allowed tags in data/tags.json.

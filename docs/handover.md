@@ -38,6 +38,16 @@ Shortcut:
 - The web app supports include/exclude tag filtering.
 - Run make validate-tags to catch unknown tags.
 
+## Daily prioritization (today tag)
+1. Export the Google Sheet as CSV (or use a CSV URL).
+2. Run:
+  python3 scripts/build_today.py --results "<csv-or-url>" --limit 30
+3. Run make publish.
+
+Notes:
+- The script overwrites the today tag each run.
+- Use RESULTS_SOURCE and TODAY_LIMIT env vars to avoid flags.
+
 ## Extraction review pipeline
 1. Run extraction:
   make extract-candidates INPUT="resources/originals/A1_-_1A.pdf"
@@ -64,6 +74,8 @@ Optional helper:
 ## Mobile UX
 - Answer input blurs after reveal to dismiss the keyboard.
 - Show Answer button hides after reveal.
+- "Correct to finish" controls how many correct answers are needed before a word
+  is skipped for the rest of the session.
 
 ## Google Sheets logging
 Logging works via an Apps Script Web App. The static site posts results to the script.

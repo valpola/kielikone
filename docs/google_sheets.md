@@ -57,3 +57,5 @@ function doPost(e) {
 ## Notes
 - The API key is required because the endpoint is public.
 - If you change the deployment, update the URL in web/config.js.
+- For daily prioritization, export the Results sheet as CSV and pass that URL to
+  scripts/build_today.py.
