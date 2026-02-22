@@ -47,6 +47,8 @@ Shortcut:
 Notes:
 - The script overwrites the today tag each run.
 - Use RESULTS_SOURCE and TODAY_LIMIT env vars to avoid flags.
+- If resources/access_keys/google_sheets.txt contains the Apps Script URL,
+  build_today will use it automatically (expects a CSV response).
 
 ## Extraction review pipeline
 1. Run extraction:

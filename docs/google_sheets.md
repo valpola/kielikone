@@ -38,6 +38,28 @@ function doPost(e) {
 
   return ContentService.createTextOutput("OK");
 }
+
+function doGet(e) {
+  var sheet = SpreadsheetApp.getActive().getSheetByName("Results");
+  if (!sheet) {
+    return ContentService.createTextOutput("timestamp,word_id,mode,correct");
+  }
+
+  var values = sheet.getDataRange().getValues();
+  var rows = values.map(function (row) {
+    return row.map(function (cell) {
+      var text = String(cell || "");
+      if (text.indexOf(",") >= 0 || text.indexOf("\"") >= 0) {
+        text = '"' + text.replace(/"/g, '""') + '"';
+      }
+      return text;
+    }).join(",");
+  }).join("\n");
+
+  return ContentService.createTextOutput(rows).setMimeType(
+    ContentService.MimeType.CSV
+  );
+}
 ```
 
 ## 3) Deploy as a Web App
@@ -59,3 +81,5 @@ function doPost(e) {
 - If you change the deployment, update the URL in web/config.js.
 - For daily prioritization, export the Results sheet as CSV and pass that URL to
   scripts/build_today.py.
+- The Apps Script URL can return CSV directly after adding the doGet handler
+  above (use the same /exec URL, optionally with ?format=csv).

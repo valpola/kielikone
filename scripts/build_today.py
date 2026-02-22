@@ -17,6 +17,8 @@ from typing import Any, Iterable
 ROOT = Path(__file__).resolve().parents[1]
 VOCAB_DIR = ROOT / "data" / "vocab"
 TAGS_PATH = ROOT / "data" / "tags.json"
+ACCESS_KEYS_PATH = ROOT / "resources" / "access_keys" / "google_sheets.txt"
+DEFAULT_SHEETS_PARAM = "?format=csv"
 
 
 @dataclass(frozen=True)
@@ -81,6 +83,22 @@ def parse_args() -> argparse.Namespace:
         help="Print top items but do not modify vocab files.",
     )
     return parser.parse_args()
+
+
+def resolve_results_source(value: str) -> str:
+    if value:
+        return value
+    if not ACCESS_KEYS_PATH.exists():
+        return ""
+
+    text = ACCESS_KEYS_PATH.read_text(encoding="utf-8", errors="replace")
+    for line in text.splitlines():
+        line = line.strip()
+        if line.startswith("https://"):
+            if "script.google.com" in line and "?" not in line:
+                return f"{line}{DEFAULT_SHEETS_PARAM}"
+            return line
+    return ""
 
 
 def load_text(source: str) -> str:
@@ -244,12 +262,14 @@ def filter_items(
 
 def main() -> int:
     args = parse_args()
-    if not args.results:
+    results_source = resolve_results_source(args.results)
+    if not results_source:
         print("ERROR: --results or RESULTS_SOURCE is required")
+        print("Hint: add the URL to resources/access_keys/google_sheets.txt")
         return 2
 
     try:
-        rows = load_results(args.results)
+        rows = load_results(results_source)
     except Exception as exc:
         print(f"ERROR: Failed to load results: {exc}")
         return 2

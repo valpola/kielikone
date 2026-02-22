@@ -51,6 +51,8 @@ Run:
 Notes:
 - The script overwrites the today tag on each run.
 - Set RESULTS_SOURCE and TODAY_LIMIT env vars to avoid passing flags.
+- If resources/access_keys/google_sheets.txt contains the Apps Script URL,
+  build_today will use it automatically (expects a CSV response).
 
 ## Test results endpoint
 Run:
