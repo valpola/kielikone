@@ -158,8 +158,8 @@ button {
   gap: 8px;
 }
 
-.result.hidden {
-  visibility: hidden;
+.hidden {
+  display: none;
 }
 
 .result-row {

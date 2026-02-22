@@ -169,6 +169,9 @@ const renderPrompt = () => {
   current = pickNext();
   if (!current) {
     PROMPT.textContent = "No items match current filters";
+    REVEAL.hidden = true;
+    RESULT.classList.add("hidden");
+    MARK_CORRECT.closest(".grade").classList.add("hidden");
     return;
   }
 
@@ -177,6 +180,7 @@ const renderPrompt = () => {
   ANSWER.value = "";
   REVEAL.hidden = false;
   RESULT.classList.add("hidden");
+  MARK_CORRECT.closest(".grade").classList.add("hidden");
   ANSWER.focus();
 };
 
@@ -187,6 +191,7 @@ const revealAnswer = () => {
   USER_ANSWER.textContent = ANSWER.value || "(no answer)";
   REVEAL.hidden = true;
   RESULT.classList.remove("hidden");
+  MARK_CORRECT.closest(".grade").classList.remove("hidden");
   ANSWER.blur();
 };
 
