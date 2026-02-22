@@ -66,6 +66,11 @@ def parse_args() -> argparse.Namespace:
         help="Tag id to apply for today's list (default: today).",
     )
     parser.add_argument(
+        "--mode",
+        default=os.environ.get("TODAY_MODE", "en-tr"),
+        help="Scoring mode: en-tr, tr-en, or both (default: en-tr).",
+    )
+    parser.add_argument(
         "--include-tag",
         action="append",
         default=[],
@@ -286,6 +291,15 @@ def main() -> int:
         set(args.exclude_tag or []),
     )
 
+    mode_value = str(args.mode or "").strip().lower()
+    if mode_value == "both":
+        modes = ("tr-en", "en-tr")
+    elif mode_value in {"tr-en", "en-tr"}:
+        modes = (mode_value,)
+    else:
+        print("ERROR: --mode must be en-tr, tr-en, or both")
+        return 2
+
     now = datetime.now(tz=UTC)
     scored: list[tuple[str, float]] = []
 
@@ -300,7 +314,7 @@ def main() -> int:
         )
 
         scores = []
-        for mode in ("tr-en", "en-tr"):
+        for mode in modes:
             key = (word_id, mode)
             wrong, right, score = compute_scores(
                 events_by_key.get(key, []),

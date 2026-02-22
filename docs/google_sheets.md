@@ -48,11 +48,19 @@ function doGet(e) {
   var values = sheet.getDataRange().getValues();
   var rows = values.map(function (row) {
     return row.map(function (cell) {
-      var text = String(cell || "");
-      if (text.indexOf(",") >= 0 || text.indexOf("\"") >= 0) {
-        text = '"' + text.replace(/"/g, '""') + '"';
+      var value = "";
+      if (cell === true) {
+        value = "true";
+      } else if (cell === false) {
+        value = "false";
+      } else if (cell !== null && cell !== undefined) {
+        value = String(cell);
       }
-      return text;
+
+      if (value.indexOf(",") >= 0 || value.indexOf("\"") >= 0) {
+        value = '"' + value.replace(/"/g, '""') + '"';
+      }
+      return value;
     }).join(",");
   }).join("\n");
 
