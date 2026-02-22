@@ -15,29 +15,7 @@
   <body>
     <div class="bg-glow"></div>
     <main class="shell">
-      <header class="top">
-        <div>
-          <p class="eyebrow">Turkish Study</p>
-          <h1>Vocab Sprint</h1>
-        </div>
-        <div class="mode">
-          <button class="mode-btn" data-mode="tr-en">TR -> EN</button>
-          <button class="mode-btn" data-mode="en-tr">EN -> TR</button>
-        </div>
-      </header>
-
       <section class="card">
-        <div class="filters">
-          <label>
-            <span>Include tags</span>
-            <select id="include-tags" multiple></select>
-          </label>
-          <label>
-            <span>Exclude tags</span>
-            <select id="exclude-tags" multiple></select>
-          </label>
-        </div>
-
         <p class="label">Prompt</p>
         <div id="prompt" class="prompt">Loading...</div>
 
@@ -48,7 +26,6 @@
 
         <div class="actions">
           <button id="reveal" class="primary">Show Answer</button>
-          <button id="next" class="ghost">Next</button>
         </div>
 
         <div id="result" class="result hidden">
@@ -60,18 +37,34 @@
             <span class="result-label">Your answer:</span>
             <span id="user-answer"></span>
           </div>
-          <div class="grade">
-            <button id="mark-correct" class="success">I was correct</button>
-            <button id="mark-wrong" class="danger">I was wrong</button>
-          </div>
+        </div>
+
+        <div class="grade">
+          <button id="mark-correct" class="success">I was correct</button>
+          <button id="mark-wrong" class="danger">I was incorrect</button>
         </div>
       </section>
 
-      <footer class="foot">
-        <span id="count">0 items</span>
-        <span class="dot"></span>
-        <span id="stats">No progress yet</span>
-      </footer>
+      <details class="options">
+        <summary>Options</summary>
+        <div class="options-grid">
+          <div class="mode">
+            <button class="mode-btn" data-mode="tr-en">TR -> EN</button>
+            <button class="mode-btn" data-mode="en-tr">EN -> TR</button>
+          </div>
+          <div class="filters">
+            <label>
+              <span>Include tags</span>
+              <select id="include-tags" multiple></select>
+            </label>
+            <label>
+              <span>Exclude tags</span>
+              <select id="exclude-tags" multiple></select>
+            </label>
+          </div>
+          <button id="next" class="ghost">Next</button>
+        </div>
+      </details>
     </main>
 
     <script src="config.js?v=20260222"></script>

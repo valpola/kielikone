@@ -5,15 +5,13 @@ const NEXT = document.getElementById("next");
 const RESULT = document.getElementById("result");
 const CORRECT = document.getElementById("correct");
 const USER_ANSWER = document.getElementById("user-answer");
-const COUNT = document.getElementById("count");
-const STATS = document.getElementById("stats");
 const MARK_CORRECT = document.getElementById("mark-correct");
 const MARK_WRONG = document.getElementById("mark-wrong");
 const MODE_BTNS = document.querySelectorAll(".mode-btn");
 const INCLUDE_TAGS = document.getElementById("include-tags");
 const EXCLUDE_TAGS = document.getElementById("exclude-tags");
 
-let mode = "tr-en";
+let mode = "en-tr";
 let items = [];
 let tagRegistry = [];
 let current = null;
@@ -139,11 +137,7 @@ const renderMode = () => {
   });
 };
 
-const updateStats = () => {
-  const filteredCount = getFilteredItems().length;
-  COUNT.textContent = `${filteredCount}/${items.length} items`;
-  STATS.textContent = `${correct}/${seen} correct`;
-};
+const updateStats = () => {};
 
 const renderTagOptions = () => {
   const existing = new Map(

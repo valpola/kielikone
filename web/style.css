@@ -40,28 +40,6 @@ body {
   animation: fadeUp 0.6s ease-out;
 }
 
-.top {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 16px;
-  flex-wrap: wrap;
-}
-
-.eyebrow {
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
-  font-size: 12px;
-  color: var(--muted);
-  margin: 0 0 6px;
-}
-
-h1 {
-  font-family: "Fraunces", "Georgia", serif;
-  font-size: 32px;
-  margin: 0;
-}
-
 .mode {
   display: flex;
   gap: 10px;
@@ -181,7 +159,7 @@ button {
 }
 
 .result.hidden {
-  display: none;
+  visibility: hidden;
 }
 
 .result-row {
@@ -217,19 +195,28 @@ button {
   border-radius: 12px;
 }
 
-.foot {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  color: var(--muted);
-  font-size: 13px;
+.options {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 18px;
+  padding: 14px 16px;
+  box-shadow: 0 12px 28px rgba(15, 23, 42, 0.08);
 }
 
-.dot {
-  width: 4px;
-  height: 4px;
-  border-radius: 999px;
-  background: var(--muted);
+.options summary {
+  cursor: pointer;
+  font-size: 14px;
+  color: var(--muted);
+  list-style: none;
+}
+
+.options summary::-webkit-details-marker {
+  display: none;
+}
+
+.options-grid {
+  margin-top: 12px;
+  display: grid;
+  gap: 14px;
 }
 
 @keyframes fadeUp {
