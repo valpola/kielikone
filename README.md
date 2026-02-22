@@ -18,28 +18,13 @@ Personal Turkish vocabulary study tool with:
    python3 scripts/export_quiz.py
 2. Commit and push the updated web/data/quiz.json.
 3. GitHub Pages is already configured via Actions.
-4. Open the Pages URL on your phone:
+4. Open the Pages URL in Chrome (desktop or phone):
    https://valpola.github.io/kielikone/
 
-## Quick start (desktop)
-0. Create and activate a virtualenv (required for make targets):
+## Setup (desktop)
+1. Create and activate a virtualenv (required for make targets):
    python3 -m venv .venv
    source .venv/bin/activate
-1. Export quiz data:
-   python3 scripts/export_quiz.py
-2. Serve the web app locally:
-   cd web
-   python3 -m http.server
-3. Open in browser:
-   http://localhost:8000
-
-## Using on iPhone (local server)
-1. Find your computer IP address on the same Wi-Fi.
-2. Start the server:
-   cd web
-   python3 -m http.server
-3. On your phone, open:
-   http://<your-computer-ip>:8000
 
 ## Updating vocab
 1. Edit data/vocab/*.json
