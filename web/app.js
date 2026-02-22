@@ -10,9 +10,12 @@ const STATS = document.getElementById("stats");
 const MARK_CORRECT = document.getElementById("mark-correct");
 const MARK_WRONG = document.getElementById("mark-wrong");
 const MODE_BTNS = document.querySelectorAll(".mode-btn");
+const INCLUDE_TAGS = document.getElementById("include-tags");
+const EXCLUDE_TAGS = document.getElementById("exclude-tags");
 
 let mode = "tr-en";
 let items = [];
+let tagRegistry = [];
 let current = null;
 let seen = 0;
 let correct = 0;
@@ -77,6 +80,29 @@ const sendResult = async (payload) => {
   }
 };
 
+const selectedValues = (selectEl) => {
+  return new Set(Array.from(selectEl.selectedOptions).map((option) => option.value));
+};
+
+const getFilteredItems = () => {
+  const include = selectedValues(INCLUDE_TAGS);
+  const exclude = selectedValues(EXCLUDE_TAGS);
+
+  return items.filter((item) => {
+    const itemTags = new Set(item.tags || []);
+
+    for (const tagId of include) {
+      if (!itemTags.has(tagId)) return false;
+    }
+
+    for (const tagId of exclude) {
+      if (itemTags.has(tagId)) return false;
+    }
+
+    return true;
+  });
+};
+
 const weightForItem = (item) => {
   const stats = getLocalStats(item.id);
   const priority = Math.max(1, Math.min(5, Number(item.priority || 1)));
@@ -90,9 +116,10 @@ const weightForItem = (item) => {
 };
 
 const pickNext = () => {
-  if (!items.length) return null;
+  const filtered = getFilteredItems();
+  if (!filtered.length) return null;
 
-  const weighted = items.map((item) => ({
+  const weighted = filtered.map((item) => ({
     item,
     weight: weightForItem(item),
   }));
@@ -113,14 +140,41 @@ const renderMode = () => {
 };
 
 const updateStats = () => {
-  COUNT.textContent = `${items.length} items`;
+  const filteredCount = getFilteredItems().length;
+  COUNT.textContent = `${filteredCount}/${items.length} items`;
   STATS.textContent = `${correct}/${seen} correct`;
+};
+
+const renderTagOptions = () => {
+  const existing = new Map(
+    tagRegistry.map((tag) => [tag.id, tag.label || tag.id])
+  );
+
+  const usedTags = new Set();
+  items.forEach((item) => {
+    (item.tags || []).forEach((tagId) => usedTags.add(tagId));
+  });
+
+  const tagIds = Array.from(new Set([...existing.keys(), ...usedTags])).sort();
+  const buildOption = (tagId) => {
+    const option = document.createElement("option");
+    option.value = tagId;
+    option.textContent = existing.get(tagId) || tagId;
+    return option;
+  };
+
+  INCLUDE_TAGS.innerHTML = "";
+  EXCLUDE_TAGS.innerHTML = "";
+  tagIds.forEach((tagId) => {
+    INCLUDE_TAGS.appendChild(buildOption(tagId));
+    EXCLUDE_TAGS.appendChild(buildOption(tagId));
+  });
 };
 
 const renderPrompt = () => {
   current = pickNext();
   if (!current) {
-    PROMPT.textContent = "No items loaded";
+    PROMPT.textContent = "No items match current filters";
     return;
   }
 
@@ -168,6 +222,16 @@ MODE_BTNS.forEach((btn) => {
   });
 });
 
+INCLUDE_TAGS.addEventListener("change", () => {
+  updateStats();
+  renderPrompt();
+});
+
+EXCLUDE_TAGS.addEventListener("change", () => {
+  updateStats();
+  renderPrompt();
+});
+
 REVEAL.addEventListener("click", revealAnswer);
 NEXT.addEventListener("click", renderPrompt);
 MARK_CORRECT.addEventListener("click", () => grade(true));
@@ -184,7 +248,9 @@ const loadData = async () => {
   const response = await fetch("data/quiz.json");
   const data = await response.json();
   items = data.items || [];
+  tagRegistry = data.tags || [];
   ensureApiKey();
+  renderTagOptions();
   renderMode();
   updateStats();
   renderPrompt();

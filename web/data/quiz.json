@@ -4,13 +4,53 @@
       "id": "tr-0001",
       "turkish": "merhaba",
       "english": "hello",
-      "priority": 3
+      "priority": 3,
+      "tags": [
+        "greeting",
+        "unit-a1-1a"
+      ]
     },
     {
       "id": "tr-0002",
       "turkish": "tesekkurler",
       "english": "thanks",
-      "priority": 4
+      "priority": 4,
+      "tags": [
+        "polite",
+        "unit-a1-1a"
+      ]
+    }
+  ],
+  "tags": [
+    {
+      "id": "unit-a1-1a",
+      "label": "Unit A1-1A",
+      "group": "unit"
+    },
+    {
+      "id": "freq-100",
+      "label": "100 most frequent",
+      "group": "frequency"
+    },
+    {
+      "id": "noun",
+      "label": "Noun",
+      "group": "part_of_speech"
+    },
+    {
+      "id": "time-expression",
+      "label": "Expression of time",
+      "group": "theme"
+    },
+    {
+      "id": "greeting",
+      "label": "Greeting",
+      "group": "theme"
+    },
+    {
+      "id": "polite",
+      "label": "Polite",
+      "group": "theme"
     }
   ]
 }

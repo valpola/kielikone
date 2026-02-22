@@ -15,9 +15,10 @@
 - Desktop scripts for content extraction, cleanup, and export.
 - Static web app that loads exported JSON and runs on iPhone Safari.
 - Optional Google Sheets logging via Apps Script.
+- Include/exclude tag filtering in quiz selection.
 
 ## Data Model (canonical)
-Stored in data/lexicon.json.
+Stored in data/vocab/*.json with tag registry in data/tags.json.
 
 ```
 {
@@ -45,10 +46,15 @@ Fields:
 - id: stable string ID
 - turkish / english: strings
 - priority: integer 1-5 (manual control)
-- tags: string array for grouping
+- tags: string array of tag IDs (must exist in data/tags.json)
 - source: filename or label
 - notes: optional manual notes
 - last_seen: optional ISO date string
+
+Tag registry fields:
+- id: stable tag ID
+- label: human-readable name
+- group: optional group (unit, frequency, part_of_speech, theme)
 
 ## Study Scheduling
 - Start with manual priority only.
@@ -56,8 +62,9 @@ Fields:
 
 ## Content Pipeline
 1. Extract vocab from PDFs with a VLM (manual prompt and review).
-2. Save raw output (JSON/CSV) in a staging file.
-3. Manual cleanup and merge into data/lexicon.json.
+2. Save extracted candidates to data/candidates/*.candidates.json.
+3. Manual review (approve/reject, add tags).
+4. Merge approved items into data/vocab/*.json.
 4. Run export script to generate web/data/quiz.json.
 
 ## Web App Behavior
