@@ -175,6 +175,7 @@ const renderPrompt = () => {
   const promptText = mode === "tr-en" ? current.turkish : current.english;
   PROMPT.textContent = promptText;
   ANSWER.value = "";
+  REVEAL.hidden = false;
   RESULT.classList.add("hidden");
   ANSWER.focus();
 };
@@ -184,7 +185,9 @@ const revealAnswer = () => {
   const correctText = mode === "tr-en" ? current.english : current.turkish;
   CORRECT.textContent = correctText;
   USER_ANSWER.textContent = ANSWER.value || "(no answer)";
+  REVEAL.hidden = true;
   RESULT.classList.remove("hidden");
+  ANSWER.blur();
 };
 
 const grade = (isCorrect) => {

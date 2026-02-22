@@ -59,6 +59,10 @@ Optional overrides:
 - j: I was incorrect
 - n: next
 
+## Mobile UX
+- After showing the answer, the input blurs so the keyboard hides.
+- The "Show Answer" button hides after reveal to keep the layout clean.
+
 ## Tag filters (include/exclude)
 - Add/edit allowed tags in data/tags.json.
 - Assign tag IDs to each vocab item in data/vocab/*.json.

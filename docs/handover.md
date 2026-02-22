@@ -61,6 +61,10 @@ Optional helper:
 - j: I was incorrect
 - n: next
 
+## Mobile UX
+- Answer input blurs after reveal to dismiss the keyboard.
+- Show Answer button hides after reveal.
+
 ## Google Sheets logging
 Logging works via an Apps Script Web App. The static site posts results to the script.
 
