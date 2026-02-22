@@ -1,26 +1,6 @@
 {
   "items": [
     {
-      "id": "tr-0001",
-      "turkish": "merhaba",
-      "english": "hello",
-      "priority": 3,
-      "tags": [
-        "greeting",
-        "unit-a1-1a"
-      ]
-    },
-    {
-      "id": "tr-0002",
-      "turkish": "tesekkurler",
-      "english": "thanks",
-      "priority": 4,
-      "tags": [
-        "polite",
-        "unit-a1-1a"
-      ]
-    },
-    {
       "id": "cand-a1-0a-0001",
       "turkish": "arkada\u015f",
       "english": "friend",
