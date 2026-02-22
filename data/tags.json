@@ -1,6 +1,7 @@
 {
   "version": 1,
   "tags": [
+    { "id": "unit-a1-0a", "label": "Unit A1-0A", "group": "unit" },
     { "id": "unit-a1-1a", "label": "Unit A1-1A", "group": "unit" },
     { "id": "freq-100", "label": "100 most frequent", "group": "frequency" },
     { "id": "noun", "label": "Noun", "group": "part_of_speech" },
