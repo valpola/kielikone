@@ -51,6 +51,14 @@ Personal Turkish vocabulary study tool with:
 Run:
    make publish
 
+## Test results endpoint
+Run:
+   make test-results
+
+Optional overrides:
+- TR_QUIZ_API_KEY=your_key
+- RESULTS_ENDPOINT=https://script.google.com/.../exec
+
 ## Notes
 - resources/originals is ignored to avoid committing copyrighted PDFs.
 - Quiz stats are stored in localStorage on the device.
