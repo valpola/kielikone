@@ -7,7 +7,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-0a"
+        "unit-a1-0a",
+        "unit-a1-2c"
       ]
     },
     {
@@ -27,7 +28,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-0a"
+        "unit-a1-0a",
+        "unit-a1-2a"
       ]
     },
     {
@@ -57,7 +59,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-0a"
+        "unit-a1-0a",
+        "unit-a1-1b"
       ]
     },
     {
@@ -67,7 +70,9 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-0a"
+        "unit-a1-0a",
+        "unit-a1-2b",
+        "today"
       ]
     },
     {
@@ -157,7 +162,9 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-0a"
+        "unit-a1-0a",
+        "unit-a1-1b",
+        "unit-a1-2a"
       ]
     },
     {
@@ -177,7 +184,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-0a"
+        "unit-a1-0a",
+        "unit-a1-2a"
       ]
     },
     {
@@ -187,7 +195,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-0a"
+        "unit-a1-0a",
+        "unit-a1-2a"
       ]
     },
     {
@@ -227,7 +236,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-0a"
+        "unit-a1-0a",
+        "unit-a1-2b"
       ]
     },
     {
@@ -257,7 +267,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-0a"
+        "unit-a1-0a",
+        "unit-a1-2b"
       ]
     },
     {
@@ -433,7 +444,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-1b"
+        "unit-a1-1b",
+        "unit-a1-2a"
       ]
     },
     {
@@ -480,16 +492,6 @@
       "id": "cand-a1-1b-0007",
       "turkish": "du\u015f kabini",
       "english": "shower cabin",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a1-1b"
-      ]
-    },
-    {
-      "id": "cand-a1-1b-0008",
-      "turkish": "ev",
-      "english": "house",
       "priority": 3,
       "tags": [
         "noun",
@@ -590,16 +592,6 @@
       "id": "cand-a1-1b-0018",
       "turkish": "lavabo",
       "english": "sink",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a1-1b"
-      ]
-    },
-    {
-      "id": "cand-a1-1b-0019",
-      "turkish": "masa",
-      "english": "table",
       "priority": 3,
       "tags": [
         "noun",
@@ -757,16 +749,6 @@
       ]
     },
     {
-      "id": "cand-a1-2a-0002",
-      "turkish": "bah\u00e7e",
-      "english": "garden",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a1-2a"
-      ]
-    },
-    {
       "id": "cand-a1-2a-0003",
       "turkish": "banka",
       "english": "bank",
@@ -810,16 +792,6 @@
       "id": "cand-a1-2a-0007",
       "turkish": "bina",
       "english": "building",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a1-2a"
-      ]
-    },
-    {
-      "id": "cand-a1-2a-0008",
-      "turkish": "cami",
-      "english": "mosque",
       "priority": 3,
       "tags": [
         "noun",
@@ -1027,29 +999,9 @@
       ]
     },
     {
-      "id": "cand-a1-2a-0029",
-      "turkish": "masa",
-      "english": "table",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a1-2a"
-      ]
-    },
-    {
       "id": "cand-a1-2a-0030",
       "turkish": "m\u00fcze",
       "english": "museum",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a1-2a"
-      ]
-    },
-    {
-      "id": "cand-a1-2a-0031",
-      "turkish": "okul",
-      "english": "school",
       "priority": 3,
       "tags": [
         "noun",
@@ -1080,16 +1032,6 @@
       "id": "cand-a1-2a-0034",
       "turkish": "\u00f6\u011frenci",
       "english": "student",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a1-2a"
-      ]
-    },
-    {
-      "id": "cand-a1-2a-0035",
-      "turkish": "\u00f6\u011fretmen",
-      "english": "teacher",
       "priority": 3,
       "tags": [
         "noun",
@@ -1542,17 +1484,6 @@
       "tags": [
         "noun",
         "unit-a1-2b"
-      ]
-    },
-    {
-      "id": "cand-a1-2b-0027",
-      "turkish": "fincan",
-      "english": "cup",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a1-2b",
-        "today"
       ]
     },
     {
@@ -2126,16 +2057,6 @@
       ]
     },
     {
-      "id": "cand-a1-2b-0083",
-      "turkish": "\u015fi\u015fe",
-      "english": "bottle",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a1-2b"
-      ]
-    },
-    {
       "id": "cand-a1-2b-0084",
       "turkish": "sirke",
       "english": "vinegar",
@@ -2246,16 +2167,6 @@
       ]
     },
     {
-      "id": "cand-a1-2b-0095",
-      "turkish": "\u00fcz\u00fcm",
-      "english": "grape",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a1-2b"
-      ]
-    },
-    {
       "id": "cand-a1-2b-0096",
       "turkish": "vi\u015fne",
       "english": "sour cherry",
@@ -2333,16 +2244,6 @@
       "tags": [
         "adjective",
         "unit-a1-2b"
-      ]
-    },
-    {
-      "id": "cand-a1-2c-0001",
-      "turkish": "arkada\u015f",
-      "english": "friend",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a1-2c"
       ]
     },
     {

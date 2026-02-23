@@ -17,6 +17,7 @@ from typing import Any, Iterable
 ROOT = Path(__file__).resolve().parents[1]
 VOCAB_DIR = ROOT / "data" / "vocab"
 TAGS_PATH = ROOT / "data" / "tags.json"
+ALIASES_PATH = ROOT / "data" / "aliases.json"
 ACCESS_KEYS_PATH = ROOT / "resources" / "access_keys" / "google_sheets.txt"
 DEFAULT_SHEETS_PARAM = "?format=csv"
 
@@ -113,6 +114,29 @@ def load_text(source: str) -> str:
     return Path(source).read_text(encoding="utf-8")
 
 
+def load_aliases() -> dict[str, str]:
+    if not ALIASES_PATH.exists():
+        return {}
+    raw = json.loads(ALIASES_PATH.read_text(encoding="utf-8"))
+    aliases = raw.get("aliases", {}) if isinstance(raw, dict) else {}
+    cleaned: dict[str, str] = {}
+    for alias_id, canonical_id in (aliases or {}).items():
+        alias = str(alias_id).strip()
+        canonical = str(canonical_id).strip()
+        if alias and canonical:
+            cleaned[alias] = canonical
+    return cleaned
+
+
+def canonicalize(word_id: str, aliases: dict[str, str]) -> str:
+    current = word_id
+    seen: set[str] = set()
+    while current in aliases and current not in seen:
+        seen.add(current)
+        current = aliases[current]
+    return current
+
+
 def parse_timestamp(value: str) -> datetime | None:
     if not value:
         return None
@@ -174,7 +198,10 @@ def load_results(source: str) -> list[dict[str, Any]]:
     return [row for row in reader]
 
 
-def event_stream(rows: Iterable[dict[str, Any]]) -> list[tuple[datetime, str, str, bool]]:
+def event_stream(
+    rows: Iterable[dict[str, Any]],
+    aliases: dict[str, str],
+) -> list[tuple[datetime, str, str, bool]]:
     events: list[tuple[datetime, str, str, bool]] = []
     for row in rows:
         ts = parse_timestamp(row.get("timestamp", ""))
@@ -183,7 +210,8 @@ def event_stream(rows: Iterable[dict[str, Any]]) -> list[tuple[datetime, str, st
         correct = parse_correct(row.get("correct", ""))
         if not ts or not word_id or not mode or correct is None:
             continue
-        events.append((ts, word_id, mode, correct))
+        canonical_id = canonicalize(word_id, aliases)
+        events.append((ts, canonical_id, mode, correct))
     events.sort(key=lambda item: item[0])
     return events
 
@@ -279,7 +307,8 @@ def main() -> int:
         print(f"ERROR: Failed to load results: {exc}")
         return 2
 
-    events = event_stream(rows)
+    aliases = load_aliases()
+    events = event_stream(rows, aliases)
     events_by_key: dict[tuple[str, str], list[tuple[datetime, bool]]] = {}
     for timestamp, word_id, mode, correct in events:
         events_by_key.setdefault((word_id, mode), []).append((timestamp, correct))

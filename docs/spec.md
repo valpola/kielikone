@@ -20,6 +20,8 @@
 ## Data Model (canonical)
 Stored in data/vocab/*.json with tag registry in data/tags.json.
 
+Aliases for dedupe live in data/aliases.json as alias -> canonical ID.
+
 ```
 {
   "source": "reviewed",
@@ -56,6 +58,8 @@ Tag registry fields:
 - Start with manual priority only.
 - Add a daily prioritization script that tags a fixed-size "today" list based on
   decaying correct/incorrect scores from Google Sheets results.
+- If aliases exist, canonicalize IDs for scoring so historical results do not
+  need to be rewritten.
 
 ## Content Pipeline
 1. Extract vocab from PDFs/images with scripts.

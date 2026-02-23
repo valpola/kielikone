@@ -11,8 +11,10 @@ This document explains how the repo works, how to update content, and how to kee
 ## Repository layout
 - data/vocab/*.json: Canonical vocabulary data (split files).
 - data/tags.json: Finite editable tag registry.
+- data/aliases.json: Alias -> canonical ID mapping for dedupe.
 - data/candidates/*.candidates.json: Extracted candidates pending review.
 - scripts/export_quiz.py: Builds web/data/quiz.json from data/vocab/*.json.
+- scripts/dedupe_vocab.py: Scans and applies duplicate merges.
 - web/: Static web app (HTML/CSS/JS).
 - web/config.js: Results logging config (Apps Script URL + enable flag).
 - docs/google_sheets.md: Apps Script setup instructions.
@@ -25,9 +27,12 @@ This document explains how the repo works, how to update content, and how to kee
 
 ## Update vocabulary
 1. Edit data/vocab/*.json (add/update entries).
-2. Run export:
+2. (Optional) Scan and merge duplicates:
+  python3 scripts/dedupe_vocab.py --scan
+  python3 scripts/dedupe_vocab.py --apply
+3. Run export:
    python3 scripts/export_quiz.py
-3. Commit and push the updated web/data/quiz.json.
+4. Commit and push the updated web/data/quiz.json.
 
 Shortcut:
 - make publish
@@ -49,6 +54,14 @@ Notes:
 - Use RESULTS_SOURCE and TODAY_LIMIT env vars to avoid flags.
 - If resources/access_keys/google_sheets.txt contains the Apps Script URL,
   build_today will use it automatically (expects a CSV response).
+- If data/aliases.json exists, build_today uses it to merge results across
+  duplicate IDs.
+
+## Duplicate handling
+- Alias mappings live in data/aliases.json (alias -> canonical ID).
+- scripts/dedupe_vocab.py can scan for duplicates and apply merges.
+- Build_today canonicalizes IDs using the alias map so historical results can
+  stay unchanged.
 
 ## Extraction review pipeline
 1. Run extraction:

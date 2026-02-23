@@ -7,6 +7,7 @@ All notable changes to this project are documented here.
 - Add multi-file vocab storage, extraction pipeline, and review/merge tools.
 - Add Google Sheets results logging with API key prompt.
 - Process A1 PDFs into reviewed vocab sets.
+- Add alias mapping and duplicate merge tooling for vocab entries.
 
 ## 2026-02-22
 - Document handover, specs, and Sheets setup.

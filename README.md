@@ -8,8 +8,10 @@ Personal Turkish vocabulary study tool with:
 ## Structure
 - data/vocab/*.json: canonical vocab split into multiple files
 - data/tags.json: finite editable tag registry
+- data/aliases.json: alias -> canonical ID mapping for dedupe
 - data/candidates/*.candidates.json: extracted items pending review
 - scripts/export_quiz.py: exports web/data/quiz.json
+- scripts/dedupe_vocab.py: scans and applies duplicate merges
 - web/: static quiz app
 - resources/originals/: source PDFs (ignored by git)
 
@@ -28,9 +30,12 @@ Personal Turkish vocabulary study tool with:
 
 ## Updating vocab
 1. Edit data/vocab/*.json
-2. Run export:
+2. (Optional) Scan and merge duplicates:
+   python3 scripts/dedupe_vocab.py --scan
+   python3 scripts/dedupe_vocab.py --apply
+3. Run export:
    python3 scripts/export_quiz.py
-3. Refresh the web app
+4. Refresh the web app
 
 ## Publish checklist
 1. python3 scripts/export_quiz.py
@@ -53,6 +58,8 @@ Notes:
 - Set RESULTS_SOURCE and TODAY_LIMIT env vars to avoid passing flags.
 - If resources/access_keys/google_sheets.txt contains the Apps Script URL,
   build_today will use it automatically (expects a CSV response).
+- If data/aliases.json exists, build_today uses it to merge results across
+   duplicate IDs.
 
 ## Test results endpoint
 Run:
