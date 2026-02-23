@@ -953,8 +953,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2a",
-        "today"
+        "unit-a1-2a"
       ]
     },
     {
@@ -1104,8 +1103,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2a",
-        "today"
+        "unit-a1-2a"
       ]
     },
     {
@@ -1115,8 +1113,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2a",
-        "today"
+        "unit-a1-2a"
       ]
     },
     {
@@ -1126,8 +1123,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2a",
-        "today"
+        "unit-a1-2a"
       ]
     },
     {
@@ -1137,8 +1133,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2a",
-        "today"
+        "unit-a1-2a"
       ]
     },
     {
@@ -1158,14 +1153,13 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2a",
-        "today"
+        "unit-a1-2a"
       ]
     },
     {
       "id": "cand-a1-2a-0042",
       "turkish": "s\u0131ra",
-      "english": "desk",
+      "english": "(student) desk",
       "priority": 3,
       "tags": [
         "noun",
@@ -1180,8 +1174,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2a",
-        "today"
+        "unit-a1-2a"
       ]
     },
     {
@@ -1191,8 +1184,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2a",
-        "today"
+        "unit-a1-2a"
       ]
     },
     {
@@ -1235,8 +1227,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2a",
-        "today"
+        "unit-a1-2a"
       ]
     },
     {
@@ -1246,8 +1237,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2a",
-        "today"
+        "unit-a1-2a"
       ]
     },
     {
@@ -1267,8 +1257,7 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1-2a",
-        "today"
+        "unit-a1-2a"
       ]
     },
     {
@@ -1278,8 +1267,7 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1-2a",
-        "today"
+        "unit-a1-2a"
       ]
     },
     {
@@ -1289,8 +1277,7 @@
       "priority": 3,
       "tags": [
         "adverb",
-        "unit-a1-2a",
-        "today"
+        "unit-a1-2a"
       ]
     },
     {
@@ -1361,8 +1348,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b",
-        "today"
+        "unit-a1-2b"
       ]
     },
     {
@@ -1392,8 +1378,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b",
-        "today"
+        "unit-a1-2b"
       ]
     },
     {
@@ -1403,8 +1388,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b",
-        "today"
+        "unit-a1-2b"
       ]
     },
     {
@@ -1444,8 +1428,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b",
-        "today"
+        "unit-a1-2b"
       ]
     },
     {
@@ -1455,8 +1438,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b",
-        "today"
+        "unit-a1-2b"
       ]
     },
     {
@@ -1476,8 +1458,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b",
-        "today"
+        "unit-a1-2b"
       ]
     },
     {
@@ -1487,8 +1468,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b",
-        "today"
+        "unit-a1-2b"
       ]
     },
     {
@@ -1498,8 +1478,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b",
-        "today"
+        "unit-a1-2b"
       ]
     },
     {
@@ -1519,7 +1498,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b"
+        "unit-a1-2b",
+        "today"
       ]
     },
     {
@@ -1529,7 +1509,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b"
+        "unit-a1-2b",
+        "today"
       ]
     },
     {
@@ -1539,7 +1520,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b"
+        "unit-a1-2b",
+        "today"
       ]
     },
     {
@@ -1569,7 +1551,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b"
+        "unit-a1-2b",
+        "today"
       ]
     },
     {
@@ -1579,7 +1562,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b"
+        "unit-a1-2b",
+        "today"
       ]
     },
     {
@@ -1589,7 +1573,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b"
+        "unit-a1-2b",
+        "today"
       ]
     },
     {
@@ -1599,7 +1584,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b"
+        "unit-a1-2b",
+        "today"
       ]
     },
     {
@@ -1619,7 +1605,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b"
+        "unit-a1-2b",
+        "today"
       ]
     },
     {
@@ -1629,7 +1616,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b"
+        "unit-a1-2b",
+        "today"
       ]
     },
     {
@@ -1680,7 +1668,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b"
+        "unit-a1-2b",
+        "today"
       ]
     },
     {
@@ -1711,7 +1700,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b"
+        "unit-a1-2b",
+        "today"
       ]
     },
     {
@@ -1721,7 +1711,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b"
+        "unit-a1-2b",
+        "today"
       ]
     },
     {
@@ -1741,7 +1732,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b"
+        "unit-a1-2b",
+        "today"
       ]
     },
     {
@@ -1761,7 +1753,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b"
+        "unit-a1-2b",
+        "today"
       ]
     },
     {
@@ -1781,7 +1774,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b"
+        "unit-a1-2b",
+        "today"
       ]
     },
     {
@@ -1791,7 +1785,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b"
+        "unit-a1-2b",
+        "today"
       ]
     },
     {
@@ -1801,7 +1796,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b"
+        "unit-a1-2b",
+        "today"
       ]
     },
     {
@@ -1841,7 +1837,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b"
+        "unit-a1-2b",
+        "today"
       ]
     },
     {
@@ -1862,7 +1859,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b"
+        "unit-a1-2b",
+        "today"
       ]
     },
     {
@@ -1882,7 +1880,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b"
+        "unit-a1-2b",
+        "today"
       ]
     },
     {
@@ -1892,7 +1891,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b"
+        "unit-a1-2b",
+        "today"
       ]
     },
     {
