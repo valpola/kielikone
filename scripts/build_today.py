@@ -27,8 +27,9 @@ class ScoreConfig:
     tau_wrong_days: float = 21.0
     tau_right_default_days: float = 7.0
     tau_right_by_freq: dict[str, float] = None
-    weight_wrong: float = 2.0
+    weight_wrong: float = 1.0
     weight_right: float = 1.0
+    novelty_bonus: float = 1.0
 
     def __post_init__(self) -> None:
         if self.tau_right_by_freq is None:
@@ -233,6 +234,7 @@ def compute_scores(
     config: ScoreConfig,
     tau_right_days: float,
 ) -> tuple[float, float, float]:
+    total_events = len(events)
     wrong_score = 0.0
     right_score = 0.0
     last_wrong: datetime | None = None
@@ -255,7 +257,12 @@ def compute_scores(
     if last_right:
         right_score = decay(right_score, last_right, now, tau_right_days)
 
-    score = config.weight_wrong * wrong_score - config.weight_right * right_score
+    novelty_bonus = config.novelty_bonus / (1.0 + total_events)
+    score = (
+        config.weight_wrong * wrong_score
+        - config.weight_right * right_score
+        + novelty_bonus
+    )
     return wrong_score, right_score, score
 
 
@@ -345,8 +352,9 @@ def main() -> int:
         scores = []
         for mode in modes:
             key = (word_id, mode)
+            mode_events = events_by_key.get(key, [])
             wrong, right, score = compute_scores(
-                events_by_key.get(key, []),
+                mode_events,
                 now,
                 DEFAULT_CONFIG,
                 tau_right_days,
