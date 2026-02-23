@@ -2595,7 +2595,7 @@
     {
       "id": "cand-a1-2c-0038",
       "turkish": "mutsuz",
-      "english": "sad",
+      "english": "sad, unhappy",
       "priority": 3,
       "tags": [
         "adjective",
@@ -2733,7 +2733,7 @@
     {
       "id": "cand-a1-2c-0051",
       "turkish": "\u00fczg\u00fcn",
-      "english": "sad",
+      "english": "sad, upset",
       "priority": 3,
       "tags": [
         "adjective",
