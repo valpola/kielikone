@@ -337,10 +337,8 @@ def main() -> int:
         return 2
 
     now = datetime.now(tz=UTC)
-    scored_at = now.isoformat()
     scored: list[tuple[str, float]] = []
     score_by_id: dict[str, float] = {}
-    score_debug_by_id: dict[str, dict[str, Any]] = {}
 
     for item in items:
         word_id = str(item.get("id", "")).strip()
@@ -353,11 +351,9 @@ def main() -> int:
         )
 
         scores = []
-        mode_debug: dict[str, dict[str, float]] = {}
         for mode in modes:
             key = (word_id, mode)
             mode_events = events_by_key.get(key, [])
-            last_event_at = mode_events[-1][0].isoformat() if mode_events else None
             wrong, right, score = compute_scores(
                 mode_events,
                 now,
@@ -365,26 +361,9 @@ def main() -> int:
                 tau_right_days,
             )
             scores.append(score)
-            mode_debug[mode] = {
-                "score": score,
-                "wrong": wrong,
-                "right": right,
-                "events": float(len(mode_events)),
-                "last_event_at": last_event_at,
-            }
         final_score = max(scores) if scores else 0.0
         scored.append((word_id, final_score))
         score_by_id[word_id] = final_score
-        best_mode = None
-        if mode_debug:
-            best_mode = max(mode_debug, key=lambda name: mode_debug[name]["score"])
-        score_debug_by_id[word_id] = {
-            "score": final_score,
-            "scored_at": scored_at,
-            "best_mode": best_mode,
-            "tau_right_days": float(tau_right_days),
-            "modes": mode_debug,
-        }
 
     scored.sort(key=lambda entry: (-entry[1], entry[0]))
     top_items = scored[: max(0, args.limit)]
@@ -409,10 +388,9 @@ def main() -> int:
             score = score_by_id.get(word_id)
             if score is None:
                 item.pop("today_score", None)
-                item.pop("today_score_debug", None)
             else:
                 item["today_score"] = score
-                item["today_score_debug"] = score_debug_by_id.get(word_id, {})
+            item.pop("today_score_debug", None)
             tags = [tag for tag in (item.get("tags", []) or []) if tag != args.today_tag]
             if word_id in today_ids:
                 tags.append(args.today_tag)
