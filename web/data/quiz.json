@@ -2082,7 +2082,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b"
+        "unit-a1-2b",
+        "today"
       ]
     },
     {
@@ -3073,7 +3074,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-3a"
+        "unit-a1-3a",
+        "today"
       ]
     },
     {
@@ -3236,9 +3238,7 @@
       "turkish": "k\u0131zmak",
       "english": "to get angry",
       "priority": 3,
-      "tags": [
-        "today"
-      ]
+      "tags": []
     },
     {
       "id": "cand-a1-3b-0021",
@@ -3315,9 +3315,7 @@
       "turkish": "y\u00fczmek",
       "english": "to swim",
       "priority": 3,
-      "tags": [
-        "today"
-      ]
+      "tags": []
     },
     {
       "id": "cand-a1-3b-0047",
