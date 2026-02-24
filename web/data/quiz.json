@@ -71,8 +71,7 @@
       "tags": [
         "noun",
         "unit-a1-0a",
-        "unit-a1-2b",
-        "today"
+        "unit-a1-2b"
       ]
     },
     {
@@ -152,8 +151,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-0a",
-        "today"
+        "unit-a1-0a"
       ]
     },
     {
@@ -289,7 +287,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-0a"
+        "unit-a1-0a",
+        "today"
       ]
     },
     {
@@ -317,8 +316,7 @@
       "english": "Hi!",
       "priority": 3,
       "tags": [
-        "unit-a1-1a",
-        "today"
+        "unit-a1-1a"
       ]
     },
     {
@@ -336,7 +334,8 @@
       "english": "Ms",
       "priority": 3,
       "tags": [
-        "unit-a1-1a"
+        "unit-a1-1a",
+        "today"
       ]
     },
     {
@@ -363,8 +362,7 @@
       "english": "Good evening!",
       "priority": 3,
       "tags": [
-        "unit-a1-1a",
-        "today"
+        "unit-a1-1a"
       ]
     },
     {
@@ -400,8 +398,7 @@
       "english": "Thanks, I'm glad to be here!",
       "priority": 3,
       "tags": [
-        "unit-a1-1a",
-        "today"
+        "unit-a1-1a"
       ]
     },
     {
@@ -419,7 +416,8 @@
       "english": "See you!",
       "priority": 3,
       "tags": [
-        "unit-a1-1a"
+        "unit-a1-1a",
+        "today"
       ]
     },
     {
@@ -438,7 +436,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-1b"
+        "unit-a1-1b",
+        "today"
       ]
     },
     {
@@ -579,8 +578,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-1b",
-        "today"
+        "unit-a1-1b"
       ]
     },
     {
@@ -710,8 +708,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-1b",
-        "today"
+        "unit-a1-1b"
       ]
     },
     {
@@ -791,7 +788,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2a"
+        "unit-a1-2a",
+        "today"
       ]
     },
     {
@@ -1011,7 +1009,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2a"
+        "unit-a1-2a",
+        "today"
       ]
     },
     {
@@ -1242,7 +1241,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b"
+        "unit-a1-2b",
+        "today"
       ]
     },
     {
@@ -1262,8 +1262,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b",
-        "today"
+        "unit-a1-2b"
       ]
     },
     {
@@ -1313,8 +1312,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b",
-        "today"
+        "unit-a1-2b"
       ]
     },
     {
@@ -1474,7 +1472,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b"
+        "unit-a1-2b",
+        "today"
       ]
     },
     {
@@ -1525,7 +1524,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b"
+        "unit-a1-2b",
+        "today"
       ]
     },
     {
@@ -1615,7 +1615,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b"
+        "unit-a1-2b",
+        "today"
       ]
     },
     {
@@ -1695,8 +1696,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b",
-        "today"
+        "unit-a1-2b"
       ]
     },
     {
@@ -1717,8 +1717,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b",
-        "today"
+        "unit-a1-2b"
       ]
     },
     {
@@ -1828,7 +1827,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b"
+        "unit-a1-2b",
+        "today"
       ]
     },
     {
@@ -1928,7 +1928,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b"
+        "unit-a1-2b",
+        "today"
       ]
     },
     {
@@ -1948,7 +1949,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b"
+        "unit-a1-2b",
+        "today"
       ]
     },
     {
@@ -2088,8 +2090,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b",
-        "today"
+        "unit-a1-2b"
       ]
     },
     {
@@ -2099,7 +2100,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b"
+        "unit-a1-2b",
+        "today"
       ]
     },
     {
@@ -2179,7 +2181,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b"
+        "unit-a1-2b",
+        "today"
       ]
     },
     {
@@ -2329,8 +2332,7 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1-2c",
-        "today"
+        "unit-a1-2c"
       ]
     },
     {
@@ -2340,7 +2342,8 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1-2c"
+        "unit-a1-2c",
+        "today"
       ]
     },
     {
@@ -2350,7 +2353,8 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1-2c"
+        "unit-a1-2c",
+        "today"
       ]
     },
     {
@@ -2390,7 +2394,8 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1-2c"
+        "unit-a1-2c",
+        "today"
       ]
     },
     {
@@ -2400,7 +2405,8 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1-2c"
+        "unit-a1-2c",
+        "today"
       ]
     },
     {
@@ -2410,7 +2416,8 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1-2c"
+        "unit-a1-2c",
+        "today"
       ]
     },
     {
@@ -2430,8 +2437,7 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1-2c",
-        "today"
+        "unit-a1-2c"
       ]
     },
     {
@@ -2471,8 +2477,7 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1-2c",
-        "today"
+        "unit-a1-2c"
       ]
     },
     {
@@ -2532,8 +2537,7 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1-2c",
-        "today"
+        "unit-a1-2c"
       ]
     },
     {
@@ -2583,8 +2587,7 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1-2c",
-        "today"
+        "unit-a1-2c"
       ]
     },
     {
@@ -2674,7 +2677,8 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1-2c"
+        "unit-a1-2c",
+        "today"
       ]
     },
     {
@@ -2684,7 +2688,8 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1-2c"
+        "unit-a1-2c",
+        "today"
       ]
     },
     {
@@ -2694,7 +2699,8 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1-2c"
+        "unit-a1-2c",
+        "today"
       ]
     },
     {
@@ -2754,7 +2760,8 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1-2c"
+        "unit-a1-2c",
+        "today"
       ]
     },
     {
@@ -2854,7 +2861,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3a",
-        "verb"
+        "verb",
+        "today"
       ]
     },
     {
@@ -2874,7 +2882,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3a",
-        "verb"
+        "verb",
+        "today"
       ]
     },
     {
@@ -3074,7 +3083,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-3a"
+        "unit-a1-3a",
+        "today"
       ]
     },
     {
@@ -3154,7 +3164,8 @@
       "priority": 3,
       "tags": [
         "adverb",
-        "unit-a1-3a"
+        "unit-a1-3a",
+        "today"
       ]
     },
     {
@@ -3207,9 +3218,7 @@
       "turkish": "foto\u011fraf \u00e7ekmek",
       "english": "to take a photograph",
       "priority": 3,
-      "tags": [
-        "today"
-      ]
+      "tags": []
     },
     {
       "id": "cand-a1-3b-0016",
@@ -3237,18 +3246,14 @@
       "turkish": "k\u0131zmak",
       "english": "to get angry",
       "priority": 3,
-      "tags": [
-        "today"
-      ]
+      "tags": []
     },
     {
       "id": "cand-a1-3b-0021",
       "turkish": "koymak",
       "english": "to put",
       "priority": 3,
-      "tags": [
-        "today"
-      ]
+      "tags": []
     },
     {
       "id": "cand-a1-3b-0022",
@@ -3269,18 +3274,14 @@
       "turkish": "nefret etmek",
       "english": "to hate",
       "priority": 3,
-      "tags": [
-        "today"
-      ]
+      "tags": []
     },
     {
       "id": "cand-a1-3b-0028",
       "turkish": "\u00f6z\u00fcr dilemek",
       "english": "to apologize",
       "priority": 3,
-      "tags": [
-        "today"
-      ]
+      "tags": []
     },
     {
       "id": "cand-a1-3b-0029",
@@ -3322,9 +3323,7 @@
       "turkish": "y\u00fczmek",
       "english": "to swim",
       "priority": 3,
-      "tags": [
-        "today"
-      ]
+      "tags": []
     },
     {
       "id": "cand-a1-3b-0047",
@@ -3366,9 +3365,7 @@
       "turkish": "randevu",
       "english": "appointment",
       "priority": 3,
-      "tags": [
-        "today"
-      ]
+      "tags": []
     },
     {
       "id": "cand-a1-3b-0053",
@@ -3382,9 +3379,7 @@
       "turkish": "yar\u0131\u015fma",
       "english": "contest",
       "priority": 3,
-      "tags": [
-        "today"
-      ]
+      "tags": []
     },
     {
       "id": "cand-a1-3b-0055",
@@ -3412,18 +3407,14 @@
       "turkish": "karanl\u0131k",
       "english": "darkness",
       "priority": 3,
-      "tags": [
-        "today"
-      ]
+      "tags": []
     },
     {
       "id": "cand-a1-3b-0059",
       "turkish": "y\u00fckseklik",
       "english": "height",
       "priority": 3,
-      "tags": [
-        "today"
-      ]
+      "tags": []
     },
     {
       "id": "cand-a1-3b-0060",
@@ -3437,9 +3428,7 @@
       "turkish": "g\u00fcr\u00fclt\u00fc",
       "english": "noise",
       "priority": 3,
-      "tags": [
-        "today"
-      ]
+      "tags": []
     }
   ],
   "tags": [
