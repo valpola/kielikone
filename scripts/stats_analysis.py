@@ -176,3 +176,19 @@ for word_id, score in scored_words[-30:]:
     print(f"{word_id} = {id_to_tr.get(word_id, '')}: {score:.3f}")
 
 # %%
+# Find the words tagged with "today" and show their scores.
+print('Words tagged with "today":')
+for quiz_path in quiz_paths:
+    if not quiz_path.exists():
+        continue
+    quiz_raw = quiz_path.read_text(encoding="utf-8")
+    quiz_data = json.loads(quiz_raw)
+    for item in quiz_data.get("items", []):
+        item_id = str(item.get("id", "")).strip()
+        tags = item.get("tags", []) or []
+        if "today" in tags:
+            score = score_word(item_id, "en-tr")
+            print(f"{item_id} = {id_to_tr.get(item_id, '')}: {score:.3f}")
+    break
+
+# %%
