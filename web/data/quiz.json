@@ -1485,7 +1485,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b"
+        "unit-a1-2b",
+        "today"
       ]
     },
     {
@@ -1615,7 +1616,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b"
+        "unit-a1-2b",
+        "today"
       ]
     },
     {
@@ -1685,7 +1687,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b"
+        "unit-a1-2b",
+        "today"
       ]
     },
     {
@@ -1706,7 +1709,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b"
+        "unit-a1-2b",
+        "today"
       ]
     },
     {
@@ -1756,7 +1760,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b"
+        "unit-a1-2b",
+        "today"
       ]
     },
     {
@@ -1976,7 +1981,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b"
+        "unit-a1-2b",
+        "today"
       ]
     },
     {
@@ -2076,8 +2082,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b",
-        "today"
+        "unit-a1-2b"
       ]
     },
     {
@@ -2117,7 +2122,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b"
+        "unit-a1-2b",
+        "today"
       ]
     },
     {
@@ -2217,7 +2223,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2c"
+        "unit-a1-2c",
+        "today"
       ]
     },
     {
@@ -2237,7 +2244,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2c"
+        "unit-a1-2c",
+        "today"
       ]
     },
     {
@@ -2247,7 +2255,8 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1-2c"
+        "unit-a1-2c",
+        "today"
       ]
     },
     {
@@ -2297,7 +2306,8 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1-2c"
+        "unit-a1-2c",
+        "today"
       ]
     },
     {
@@ -2307,7 +2317,8 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1-2c"
+        "unit-a1-2c",
+        "today"
       ]
     },
     {
@@ -2317,7 +2328,8 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1-2c"
+        "unit-a1-2c",
+        "today"
       ]
     },
     {
@@ -2417,7 +2429,8 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1-2c"
+        "unit-a1-2c",
+        "today"
       ]
     },
     {
@@ -2457,7 +2470,8 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1-2c"
+        "unit-a1-2c",
+        "today"
       ]
     },
     {
@@ -2577,7 +2591,8 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1-2c"
+        "unit-a1-2c",
+        "today"
       ]
     },
     {
@@ -2727,7 +2742,8 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1-2c"
+        "unit-a1-2c",
+        "today"
       ]
     },
     {
@@ -3155,45 +3171,35 @@
       "turkish": "bakmak",
       "english": "to look at",
       "priority": 3,
-      "tags": [
-        "today"
-      ]
+      "tags": []
     },
     {
       "id": "cand-a1-3b-0002",
       "turkish": "basketbol / futbol / voleybol oynamak",
       "english": "to play basketball / football / volleyball",
       "priority": 3,
-      "tags": [
-        "today"
-      ]
+      "tags": []
     },
     {
       "id": "cand-a1-3b-0011",
       "turkish": "dans etmek",
       "english": "to dance",
       "priority": 3,
-      "tags": [
-        "today"
-      ]
+      "tags": []
     },
     {
       "id": "cand-a1-3b-0012",
       "turkish": "devam etmek",
       "english": "to continue",
       "priority": 3,
-      "tags": [
-        "today"
-      ]
+      "tags": []
     },
     {
       "id": "cand-a1-3b-0014",
       "turkish": "enstr\u00fcman \u00e7almak",
       "english": "to play an instrument",
       "priority": 3,
-      "tags": [
-        "today"
-      ]
+      "tags": []
     },
     {
       "id": "cand-a1-3b-0015",
@@ -3209,27 +3215,21 @@
       "turkish": "ge\u00e7 kalmak",
       "english": "to be late",
       "priority": 3,
-      "tags": [
-        "today"
-      ]
+      "tags": []
     },
     {
       "id": "cand-a1-3b-0017",
       "turkish": "girmek",
       "english": "to enter",
       "priority": 3,
-      "tags": [
-        "today"
-      ]
+      "tags": []
     },
     {
       "id": "cand-a1-3b-0018",
       "turkish": "gitmek",
       "english": "to go",
       "priority": 3,
-      "tags": [
-        "today"
-      ]
+      "tags": []
     },
     {
       "id": "cand-a1-3b-0020",
@@ -3245,90 +3245,70 @@
       "turkish": "koymak",
       "english": "to put",
       "priority": 3,
-      "tags": [
-        "today"
-      ]
+      "tags": []
     },
     {
       "id": "cand-a1-3b-0022",
       "turkish": "makyaj yapmak",
       "english": "to do makeup",
       "priority": 3,
-      "tags": [
-        "today"
-      ]
+      "tags": []
     },
     {
       "id": "cand-a1-3b-0023",
       "turkish": "m\u00fczik dinlemek",
       "english": "to listen to music",
       "priority": 3,
-      "tags": [
-        "today"
-      ]
+      "tags": []
     },
     {
       "id": "cand-a1-3b-0024",
       "turkish": "nefret etmek",
       "english": "to hate",
       "priority": 3,
-      "tags": [
-        "today"
-      ]
+      "tags": []
     },
     {
       "id": "cand-a1-3b-0028",
       "turkish": "\u00f6z\u00fcr dilemek",
       "english": "to apologize",
       "priority": 3,
-      "tags": [
-        "today"
-      ]
+      "tags": []
     },
     {
       "id": "cand-a1-3b-0029",
       "turkish": "para \u00e7ekmek",
       "english": "to withdraw money",
       "priority": 3,
-      "tags": [
-        "today"
-      ]
+      "tags": []
     },
     {
       "id": "cand-a1-3b-0031",
       "turkish": "s\u0131k\u0131lmak",
       "english": "to look ato get bored",
       "priority": 3,
-      "tags": [
-        "today"
-      ]
+      "tags": []
     },
     {
       "id": "cand-a1-3b-0034",
       "turkish": "sormak",
       "english": "to ask",
       "priority": 3,
-      "tags": [
-        "today"
-      ]
+      "tags": []
     },
     {
       "id": "cand-a1-3b-0037",
       "turkish": "telefon etmek",
       "english": "to make a call",
       "priority": 3,
-      "tags": [
-        "today"
-      ]
+      "tags": []
     },
     {
       "id": "cand-a1-3b-0044",
       "turkish": "yemek pi\u015firmek",
       "english": "to cook",
       "priority": 3,
-      "tags": [
-        "today"
-      ]
+      "tags": []
     },
     {
       "id": "cand-a1-3b-0046",
@@ -3344,45 +3324,35 @@
       "turkish": "gezi",
       "english": "trip",
       "priority": 3,
-      "tags": [
-        "today"
-      ]
+      "tags": []
     },
     {
       "id": "cand-a1-3b-0048",
       "turkish": "metro",
       "english": "subway",
       "priority": 3,
-      "tags": [
-        "today"
-      ]
+      "tags": []
     },
     {
       "id": "cand-a1-3b-0049",
       "turkish": "d\u0131\u015far\u0131",
       "english": "outside",
       "priority": 3,
-      "tags": [
-        "today"
-      ]
+      "tags": []
     },
     {
       "id": "cand-a1-3b-0050",
       "turkish": "kek",
       "english": "cake",
       "priority": 3,
-      "tags": [
-        "today"
-      ]
+      "tags": []
     },
     {
       "id": "cand-a1-3b-0051",
       "turkish": "di\u015f\u00e7i",
       "english": "dentist",
       "priority": 3,
-      "tags": [
-        "today"
-      ]
+      "tags": []
     },
     {
       "id": "cand-a1-3b-0052",
@@ -3398,65 +3368,79 @@
       "turkish": "maalesef",
       "english": "unfortunately",
       "priority": 3,
-      "tags": [
-        "today"
-      ]
+      "tags": []
     },
     {
       "id": "cand-a1-3b-0054",
       "turkish": "yar\u0131\u015fma",
       "english": "contest",
       "priority": 3,
-      "tags": []
+      "tags": [
+        "today"
+      ]
     },
     {
       "id": "cand-a1-3b-0055",
       "turkish": "yalan",
       "english": "lie",
       "priority": 3,
-      "tags": []
+      "tags": [
+        "today"
+      ]
     },
     {
       "id": "cand-a1-3b-0056",
       "turkish": "m\u00fc\u015fteri",
       "english": "customer",
       "priority": 3,
-      "tags": []
+      "tags": [
+        "today"
+      ]
     },
     {
       "id": "cand-a1-3b-0057",
       "turkish": "\u00e7i\u00e7ek\u00e7i",
       "english": "florist",
       "priority": 3,
-      "tags": []
+      "tags": [
+        "today"
+      ]
     },
     {
       "id": "cand-a1-3b-0058",
       "turkish": "karanl\u0131k",
       "english": "darkness",
       "priority": 3,
-      "tags": []
+      "tags": [
+        "today"
+      ]
     },
     {
       "id": "cand-a1-3b-0059",
       "turkish": "y\u00fckseklik",
       "english": "height",
       "priority": 3,
-      "tags": []
+      "tags": [
+        "today"
+      ]
     },
     {
       "id": "cand-a1-3b-0060",
       "turkish": "k\u00f6pr\u00fc",
       "english": "bridge",
       "priority": 3,
-      "tags": []
+      "tags": [
+        "today"
+      ]
     },
     {
       "id": "cand-a1-3b-0061",
       "turkish": "g\u00fcr\u00fclt\u00fc",
       "english": "noise",
       "priority": 3,
-      "tags": []
+      "tags": [
+        "today"
+      ]
     }
   ],
   "tags": [
