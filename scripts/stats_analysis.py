@@ -159,7 +159,7 @@ plt.title("Histogram of Scores (en-tr)")
 plt.show()
 
 # %%
-# Show the top 20 lowest and highest scoring words (en-tr).
+# Show the top 10 lowest and top 30 highest scoring words (en-tr).
 scored_words = []
 for word_id in vocab_words:
     key = (canonicalize(word_id, aliases), "en-tr")
@@ -167,12 +167,12 @@ for word_id in vocab_words:
     scored_words.append((word_id, score))
 
 scored_words.sort(key=lambda x: x[1])
-print("Top 20 lowest scoring words (en-tr):")
-for word_id, score in scored_words[:20]:
+print("Top 10 lowest scoring words (en-tr):")
+for word_id, score in scored_words[:10]:
     print(f"{word_id} = {id_to_tr.get(word_id, '')}: {score:.3f}")
 
-print("Top 20 highest scoring words (en-tr):")
-for word_id, score in scored_words[-20:]:
+print("Top 30 highest scoring words (en-tr):")
+for word_id, score in scored_words[-30:]:
     print(f"{word_id} = {id_to_tr.get(word_id, '')}: {score:.3f}")
 
 # %%
