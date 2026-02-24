@@ -62,6 +62,7 @@ def main() -> int:
     target_path.write_text(json.dumps(payload, ensure_ascii=True, indent=2), encoding="utf-8")
 
     print(f"Merged {merged} items into {target_path}")
+    print("Reminder: run scripts/dedupe_vocab.py --apply to remove duplicates.")
     return 0
 
 
