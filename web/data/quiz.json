@@ -1556,7 +1556,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b"
+        "unit-a1-2b",
+        "today"
       ]
     },
     {
@@ -2471,8 +2472,7 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1-2c",
-        "today"
+        "unit-a1-2c"
       ]
     },
     {
@@ -2683,7 +2683,8 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1-2c"
+        "unit-a1-2c",
+        "today"
       ]
     },
     {
@@ -3208,9 +3209,7 @@
       "turkish": "foto\u011fraf \u00e7ekmek",
       "english": "to take a photograph",
       "priority": 3,
-      "tags": [
-        "today"
-      ]
+      "tags": []
     },
     {
       "id": "cand-a1-3b-0016",
@@ -3238,14 +3237,18 @@
       "turkish": "k\u0131zmak",
       "english": "to get angry",
       "priority": 3,
-      "tags": []
+      "tags": [
+        "today"
+      ]
     },
     {
       "id": "cand-a1-3b-0021",
       "turkish": "koymak",
       "english": "to put",
       "priority": 3,
-      "tags": []
+      "tags": [
+        "today"
+      ]
     },
     {
       "id": "cand-a1-3b-0022",
@@ -3266,14 +3269,18 @@
       "turkish": "nefret etmek",
       "english": "to hate",
       "priority": 3,
-      "tags": []
+      "tags": [
+        "today"
+      ]
     },
     {
       "id": "cand-a1-3b-0028",
       "turkish": "\u00f6z\u00fcr dilemek",
       "english": "to apologize",
       "priority": 3,
-      "tags": []
+      "tags": [
+        "today"
+      ]
     },
     {
       "id": "cand-a1-3b-0029",
@@ -3315,7 +3322,9 @@
       "turkish": "y\u00fczmek",
       "english": "to swim",
       "priority": 3,
-      "tags": []
+      "tags": [
+        "today"
+      ]
     },
     {
       "id": "cand-a1-3b-0047",
@@ -3357,9 +3366,7 @@
       "turkish": "randevu",
       "english": "appointment",
       "priority": 3,
-      "tags": [
-        "today"
-      ]
+      "tags": []
     },
     {
       "id": "cand-a1-3b-0053",
@@ -3382,27 +3389,21 @@
       "turkish": "yalan",
       "english": "lie",
       "priority": 3,
-      "tags": [
-        "today"
-      ]
+      "tags": []
     },
     {
       "id": "cand-a1-3b-0056",
       "turkish": "m\u00fc\u015fteri",
       "english": "customer",
       "priority": 3,
-      "tags": [
-        "today"
-      ]
+      "tags": []
     },
     {
       "id": "cand-a1-3b-0057",
       "turkish": "\u00e7i\u00e7ek\u00e7i",
       "english": "florist",
       "priority": 3,
-      "tags": [
-        "today"
-      ]
+      "tags": []
     },
     {
       "id": "cand-a1-3b-0058",
@@ -3427,9 +3428,7 @@
       "turkish": "k\u00f6pr\u00fc",
       "english": "bridge",
       "priority": 3,
-      "tags": [
-        "today"
-      ]
+      "tags": []
     },
     {
       "id": "cand-a1-3b-0061",
