@@ -64,11 +64,16 @@ MY_CONFIG = DEFAULT_CONFIG
 def score_word(word_id: str, mode: str) -> float:
     key = (word_id, mode)
     now = datetime.now(tz=UTC)
+    tags = set(id_to_tags.get(word_id, []))
+    tau_right_days = min(
+        (MY_CONFIG.tau_right_by_freq[tag] for tag in tags if tag in MY_CONFIG.tau_right_by_freq),
+        default=MY_CONFIG.tau_right_default_days,
+    )
     wrong, right, score = compute_scores(
         events_by_key.get(key, []),
         now,
         MY_CONFIG,
-        MY_CONFIG.tau_right_default_days,
+        tau_right_days,
     )
     # print(
     #     f"{word_id} {mode}: wrong={wrong:.2f} right={right:.2f} score={score:.3f}"
@@ -121,6 +126,7 @@ print(f"Unique words in quiz.json: {len(vocab_words)}")
 # %%
 # Create a mapping from word_id to Turkish for easy debugging.
 id_to_tr: dict[str, str] = {}
+id_to_tags: dict[str, list[str]] = {}
 for quiz_path in quiz_paths:
     if not quiz_path.exists():
         continue
@@ -129,8 +135,10 @@ for quiz_path in quiz_paths:
     for item in quiz_data.get("items", []):
         item_id = str(item.get("id", "")).strip()
         turkish = str(item.get("turkish", "")).strip()
+        tags = item.get("tags", []) or []
         if item_id and turkish:
             id_to_tr[item_id] = turkish
+            id_to_tags[item_id] = tags
     break
 
 # %%
