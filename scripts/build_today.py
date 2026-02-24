@@ -390,7 +390,6 @@ def main() -> int:
                 item.pop("today_score", None)
             else:
                 item["today_score"] = score
-            item.pop("today_score_debug", None)
             tags = [tag for tag in (item.get("tags", []) or []) if tag != args.today_tag]
             if word_id in today_ids:
                 tags.append(args.today_tag)
