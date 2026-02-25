@@ -8,6 +8,7 @@
     { "id": "unit-a1-2b", "label": "Unit A1-2B", "group": "unit" },
     { "id": "unit-a1-2c", "label": "Unit A1-2C", "group": "unit" },
     { "id": "unit-a1-3a", "label": "Unit A1-3A", "group": "unit" },
+    { "id": "unit-a1-3b", "label": "Unit A1-3B", "group": "unit" },
     { "id": "today", "label": "Today", "group": "system" },
     { "id": "freq-100", "label": "100 most frequent", "group": "frequency" },
     { "id": "freq-500", "label": "500 most frequent", "group": "frequency" },
