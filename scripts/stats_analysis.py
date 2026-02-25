@@ -217,3 +217,16 @@ for quiz_path in quiz_paths:
     break
 
 # %%
+# Show the last 10 events
+print("Last 10 events:")
+all_events = []
+for (word_id, mode), entries in events_by_key.items():
+    for timestamp, correct in entries:
+        all_events.append((timestamp, word_id, mode, correct))
+
+all_events.sort(key=lambda x: x[0], reverse=True)
+for event in all_events[:10]:
+    timestamp, word_id, mode, correct = event
+    print(f"{timestamp}: {display_label(word_id)} ({mode}) - {'Correct' if correct else 'Incorrect'}")
+
+# %%
