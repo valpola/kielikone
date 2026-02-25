@@ -108,7 +108,7 @@ def show_events(word_id: str) -> None:
 # show_events("cand-a1-2a-0002")
 
 # %%
-# Uniques words in quiz.json (not all of these may have results,
+# Unique words in quiz.json (not all of these may have results,
 # but this is the set of words we care about).
 vocab_words = set()
 quiz_paths = [ROOT / "web" / "data" / "quiz.json", ROOT / "data" / "quiz.json"]
@@ -143,12 +143,25 @@ for quiz_path in quiz_paths:
     break
 
 # %%
+# Build canonical mapping to avoid duplicate alias rows in reports.
+canonical_to_ids: dict[str, list[str]] = defaultdict(list)
+for word_id in vocab_words:
+    canonical = canonicalize(word_id, aliases)
+    canonical_to_ids[canonical].append(word_id)
+canonical_vocab_words = set(canonical_to_ids.keys())
+
+
+def display_label(word_id: str) -> str:
+    return id_to_tr.get(word_id, "")
+
+
 # Show words that have no "en-tr" results.
 total_unscored = 0
-for word_id in sorted(vocab_words):
-    key = (canonicalize(word_id, aliases), "en-tr")
+for canonical in sorted(canonical_vocab_words):
+    key = (canonical, "en-tr")
     if key not in events_by_key:
-        print(f"No en-tr results for {word_id} = {id_to_tr.get(word_id, '')}")
+        label_id = canonical_to_ids.get(canonical, [canonical])[0]
+        print(f"No en-tr results for {canonical} = {display_label(label_id)}")
         total_unscored += 1
 print(f"Total unscored words: {total_unscored}")
 
@@ -157,9 +170,8 @@ print(f"Total unscored words: {total_unscored}")
 import matplotlib.pyplot as plt
 
 scores = []
-for word_id in vocab_words:
-    key = (canonicalize(word_id, aliases), "en-tr")
-    scores.append(score_word(word_id, "en-tr"))
+for canonical in canonical_vocab_words:
+    scores.append(score_word(canonical, "en-tr"))
 
 plt.hist(scores, bins=50)
 plt.xlabel("Score")
@@ -170,19 +182,20 @@ plt.show()
 # %%
 # Show the top 10 lowest and top 30 highest scoring words (en-tr).
 scored_words = []
-for word_id in vocab_words:
-    key = (canonicalize(word_id, aliases), "en-tr")
-    score = score_word(word_id, "en-tr")
-    scored_words.append((word_id, score))
+for canonical in canonical_vocab_words:
+    score = score_word(canonical, "en-tr")
+    scored_words.append((canonical, score))
 
 scored_words.sort(key=lambda x: x[1])
 print("Top 10 lowest scoring words (en-tr):")
 for word_id, score in scored_words[:10]:
-    print(f"{word_id} = {id_to_tr.get(word_id, '')}: {score:.3f}")
+    label_id = canonical_to_ids.get(word_id, [word_id])[0]
+    print(f"{word_id} = {display_label(label_id)}: {score:.3f}")
 
 print("Top 30 highest scoring words (en-tr):")
 for word_id, score in scored_words[-30:]:
-    print(f"{word_id} = {id_to_tr.get(word_id, '')}: {score:.3f}")
+    label_id = canonical_to_ids.get(word_id, [word_id])[0]
+    print(f"{word_id} = {display_label(label_id)}: {score:.3f}")
 
 # %%
 # Find the words tagged with "today" and show their scores.
