@@ -67,6 +67,19 @@ const getResultsEndpoint = () => {
   return APP_CONFIG.resultsEndpoint || "";
 };
 
+const getCacheBust = () => {
+  if (typeof APP_CONFIG === "undefined") return "";
+  return APP_CONFIG.cacheBust || "";
+};
+
+const withCacheBust = (url) => {
+  const version = getCacheBust();
+  if (!version) return url;
+  const parsed = new URL(url, window.location.href);
+  parsed.searchParams.set("v", version);
+  return parsed.toString();
+};
+
 const sendResult = async (payload) => {
   const endpoint = getResultsEndpoint();
   if (!endpoint) return;
@@ -497,13 +510,15 @@ window.addEventListener("keydown", (event) => {
 });
 
 const loadData = async () => {
-  const response = await fetch("data/quiz.json", { cache: "no-store" });
+  const response = await fetch(withCacheBust("data/quiz.json"), { cache: "no-store" });
   const data = await response.json();
   items = data.items || [];
   tagRegistry = data.tags || [];
 
   try {
-    const aliasResponse = await fetch("data/aliases.json", { cache: "no-store" });
+    const aliasResponse = await fetch(withCacheBust("data/aliases.json"), {
+      cache: "no-store",
+    });
     if (aliasResponse.ok) {
       const aliasData = await aliasResponse.json();
       aliases = aliasData.aliases || {};

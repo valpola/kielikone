@@ -123,7 +123,14 @@ Optional overrides:
 - 401 Unauthorized: Apps Script access must be Anyone and API key must match.
 - CORS/preflight errors: The app sends form-encoded data; do not switch to JSON.
 - Old assets used: Hard refresh, or update cache-busting in web/index.html
-  (style.css and config.js query strings).
+  (style.css, config.js, app.js, today_scoring.js query strings) and update
+  APP_CONFIG.cacheBust in web/config.js (used for quiz.json and aliases.json).
+
+## Developer notes
+- Web recompute uses the Apps Script endpoint in web/config.js and appends
+  api_key for CSV reads; the API key is stored in localStorage after first prompt.
+- Today scoring parity tests require Node for JS and Python for the live run.
+  For live tests, provide RESULTS_ENDPOINT and RESULTS_API_KEY/TR_QUIZ_API_KEY.
 
 ## Security notes
 - The static site is public. Do not store secrets in the repo.

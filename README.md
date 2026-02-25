@@ -90,8 +90,6 @@ Optional overrides:
 ## Notes
 - resources/originals is ignored to avoid committing copyrighted PDFs.
 - Quiz stats are stored in localStorage on the device.
-- If CSS/JS changes do not appear on the phone, bump the cache-busting query
-   strings in web/index.html (style.css and config.js).
 
 ## Keyboard shortcuts
 - Enter: show answer
@@ -124,8 +122,8 @@ Optional overrides:
 ## Google Sheets results logging
 See [docs/google_sheets.md](docs/google_sheets.md) to enable syncing quiz results.
 
-## Handover
-See [docs/handover.md](docs/handover.md) for full operational notes.
+## Developer notes
+See [docs/handover.md](docs/handover.md) for developer-oriented setup and maintenance notes.
 
 ## Changelog
 See [CHANGELOG.md](CHANGELOG.md) for recent changes.
