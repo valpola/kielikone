@@ -101,8 +101,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-0a",
-        "today"
+        "unit-a1-0a"
       ]
     },
     {
@@ -132,8 +131,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-0a",
-        "today"
+        "unit-a1-0a"
       ]
     },
     {
@@ -207,8 +205,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-0a",
-        "today"
+        "unit-a1-0a"
       ]
     },
     {
@@ -218,8 +215,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-0a",
-        "today"
+        "unit-a1-0a"
       ]
     },
     {
@@ -301,8 +297,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-0a",
-        "today"
+        "unit-a1-0a"
       ]
     },
     {
@@ -311,8 +306,7 @@
       "english": "Hello!",
       "priority": 3,
       "tags": [
-        "unit-a1-1a",
-        "today"
+        "unit-a1-1a"
       ]
     },
     {
@@ -330,8 +324,7 @@
       "english": "Good morning!",
       "priority": 3,
       "tags": [
-        "unit-a1-1a",
-        "today"
+        "unit-a1-1a"
       ]
     },
     {
@@ -349,8 +342,7 @@
       "english": "Mr",
       "priority": 3,
       "tags": [
-        "unit-a1-1a",
-        "today"
+        "unit-a1-1a"
       ]
     },
     {
@@ -377,8 +369,7 @@
       "english": "Good night!",
       "priority": 3,
       "tags": [
-        "unit-a1-1a",
-        "today"
+        "unit-a1-1a"
       ]
     },
     {
@@ -723,8 +714,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-1b",
-        "today"
+        "unit-a1-1b"
       ]
     },
     {
@@ -824,8 +814,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-1b",
-        "today"
+        "unit-a1-1b"
       ]
     },
     {
@@ -835,8 +824,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-1b",
-        "today"
+        "unit-a1-1b"
       ]
     },
     {
@@ -2982,31 +2970,9 @@
       ]
     },
     {
-      "id": "cand-a1-3a-0002",
-      "turkish": "ba\u015flamak",
-      "english": "to start",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3a",
-        "verb",
-        "unit-a1-3b"
-      ]
-    },
-    {
       "id": "cand-a1-3a-0003",
       "turkish": "beslenme haz\u0131rlamak",
       "english": "to prepare a meal",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3a",
-        "verb",
-        "unit-a1-3b"
-      ]
-    },
-    {
-      "id": "cand-a1-3a-0004",
-      "turkish": "bilmek",
-      "english": "to know",
       "priority": 3,
       "tags": [
         "unit-a1-3a",
@@ -3029,17 +2995,6 @@
       "id": "cand-a1-3a-0006",
       "turkish": "bulu\u015fmak",
       "english": "to meet",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3a",
-        "verb",
-        "unit-a1-3b"
-      ]
-    },
-    {
-      "id": "cand-a1-3a-0008",
-      "turkish": "\u00e7al\u0131\u015fmak",
-      "english": "to work",
       "priority": 3,
       "tags": [
         "unit-a1-3a",
@@ -3101,31 +3056,9 @@
       ]
     },
     {
-      "id": "cand-a1-3a-0014",
-      "turkish": "\u00f6\u011frenmek",
-      "english": "to learn",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3a",
-        "verb",
-        "unit-a1-3b"
-      ]
-    },
-    {
       "id": "cand-a1-3a-0015",
       "turkish": "\u00f6\u011fretmek",
       "english": "to teach",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3a",
-        "verb",
-        "unit-a1-3b"
-      ]
-    },
-    {
-      "id": "cand-a1-3a-0016",
-      "turkish": "sevmek",
-      "english": "to love",
       "priority": 3,
       "tags": [
         "unit-a1-3a",
@@ -3353,15 +3286,6 @@
       "id": "cand-a1-3b-0011",
       "turkish": "dans etmek",
       "english": "to dance",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3b"
-      ]
-    },
-    {
-      "id": "cand-a1-3b-0012",
-      "turkish": "devam etmek",
-      "english": "to continue",
       "priority": 3,
       "tags": [
         "unit-a1-3b"
@@ -3607,7 +3531,8 @@
       "english": "to get angry with (someone) / at (something)",
       "priority": 3,
       "tags": [
-        "unit-a1-3b"
+        "unit-a1-3b",
+        "verb"
       ]
     },
     {
@@ -3757,7 +3682,8 @@
       "english": "to hate",
       "priority": 3,
       "tags": [
-        "unit-a1-3b"
+        "unit-a1-3b",
+        "verb"
       ]
     },
     {
@@ -3766,7 +3692,8 @@
       "english": "to be bored of/with; to get bored of",
       "priority": 3,
       "tags": [
-        "unit-a1-3b"
+        "unit-a1-3b",
+        "verb"
       ]
     },
     {
@@ -3775,7 +3702,8 @@
       "english": "to like",
       "priority": 3,
       "tags": [
-        "unit-a1-3b"
+        "unit-a1-3b",
+        "verb"
       ]
     },
     {
@@ -3784,7 +3712,409 @@
       "english": "to be afraid of",
       "priority": 3,
       "tags": [
+        "unit-a1-3b",
+        "verb"
+      ]
+    },
+    {
+      "id": "cand-a1-cases-0001",
+      "turkish": "(bir \u015feyi) anlamak",
+      "english": "to understand sth.",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-cases-0002",
+      "turkish": "(bir \u015feyi) beklemek",
+      "english": "to wait sth.",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-cases-0003",
+      "turkish": "(bir \u015feyi) bilmek",
+      "english": "to know sth.",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-3b",
+        "unit-a1-3a"
+      ]
+    },
+    {
+      "id": "cand-a1-cases-0004",
+      "turkish": "(bir \u015feyi) d\u00f6rt g\u00f6zle beklemek",
+      "english": "to look forward to sth.",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-cases-0005",
+      "turkish": "(bir \u015feyi) d\u00fc\u015f\u00fcnmek",
+      "english": "to think sth.",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-cases-0006",
+      "turkish": "(bir \u015feyi) istemek",
+      "english": "to want sth.",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-cases-0007",
+      "turkish": "(bir \u015feyi) kabul etmek",
+      "english": "to accept sth.",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-cases-0008",
+      "turkish": "(bir \u015feyi) kolayla\u015ft\u0131rmak",
+      "english": "to ease sth.",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-cases-0009",
+      "turkish": "(bir \u015feyi) \u00f6\u011frenmek",
+      "english": "to learn sth.",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-3b",
+        "unit-a1-3a"
+      ]
+    },
+    {
+      "id": "cand-a1-cases-0010",
+      "turkish": "(bir \u015feyi) \u00f6nermek",
+      "english": "to suggest sth.",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-cases-0011",
+      "turkish": "(bir \u015feyi) \u00f6zlemek",
+      "english": "to miss sth.",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-cases-0012",
+      "turkish": "(bir \u015feyi) planlamak",
+      "english": "to plan sth.",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-cases-0013",
+      "turkish": "(birini) rahatlatmak",
+      "english": "to relieve sb.",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-cases-0014",
+      "turkish": "(bir \u015feyi) reddetmek",
+      "english": "to deny sth.",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-cases-0015",
+      "turkish": "(bir \u015feyi) rica etmek",
+      "english": "to request sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "id": "cand-a1-cases-0016",
+      "turkish": "(bir \u015feyi) sevmek",
+      "english": "to love sth.",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-3b",
+        "unit-a1-3a"
+      ]
+    },
+    {
+      "id": "cand-a1-cases-0017",
+      "turkish": "(bir \u015feyi) tercih etmek",
+      "english": "to prefer sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "id": "cand-a1-cases-0018",
+      "turkish": "(bir \u015feyi) unutmak",
+      "english": "to forget sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "id": "cand-a1-cases-0019",
+      "turkish": "(birini) \u00fczmek",
+      "english": "to upset sb.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "id": "cand-a1-cases-0020",
+      "turkish": "(bir \u015feyi) zorla\u015ft\u0131rmak",
+      "english": "to make difficult sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "id": "cand-a1-cases-0021",
+      "turkish": "(bir \u015feye) al\u0131\u015fmak",
+      "english": "to get used to sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "id": "cand-a1-cases-0022",
+      "turkish": "(bir \u015feye) ba\u015flamak",
+      "english": "to start sth.",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-3b",
+        "unit-a1-3a"
+      ]
+    },
+    {
+      "id": "cand-a1-cases-0023",
+      "turkish": "(bir \u015feye) bay\u0131lmak",
+      "english": "to be crazy about sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "id": "cand-a1-cases-0024",
+      "turkish": "(bir \u015feye) \u00e7al\u0131\u015fmak",
+      "english": "to work sth.",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-3b",
+        "unit-a1-3a"
+      ]
+    },
+    {
+      "id": "cand-a1-cases-0025",
+      "turkish": "(bir \u015feye) devam etmek",
+      "english": "to continue sth.",
+      "priority": 3,
+      "tags": [
+        "verb",
         "unit-a1-3b"
+      ]
+    },
+    {
+      "id": "cand-a1-cases-0026",
+      "turkish": "(bir \u015feye) izin vermek",
+      "english": "to allow sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "id": "cand-a1-cases-0027",
+      "turkish": "(bir \u015feye) karar vermek",
+      "english": "to decide sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "id": "cand-a1-cases-0028",
+      "turkish": "(bir \u015feye) kar\u0131\u015fmak",
+      "english": "to meddle sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "id": "cand-a1-cases-0030",
+      "turkish": "(bir \u015feye) sevinmek",
+      "english": "to be happy sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "id": "cand-a1-cases-0031",
+      "turkish": "(bir \u015feye) sinirlenmek",
+      "english": "to get angry sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "id": "cand-a1-cases-0032",
+      "turkish": "(bir \u015feye) s\u00f6z vermek",
+      "english": "to promise sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "id": "cand-a1-cases-0033",
+      "turkish": "(bir \u015feye) \u015fa\u015f\u0131rmak",
+      "english": "to get surprised sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "id": "cand-a1-cases-0034",
+      "turkish": "(bir \u015feye) \u00fc\u015fenmek",
+      "english": "to feel lazy sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "id": "cand-a1-cases-0035",
+      "turkish": "(bir \u015feye) \u00fcz\u00fclmek",
+      "english": "to get sad sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "id": "cand-a1-cases-0036",
+      "turkish": "(bir \u015feyde) \u0131srar etmek / \u0131srarc\u0131 olmak",
+      "english": "to insist / to be insistent on sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "id": "cand-a1-cases-0037",
+      "turkish": "(bir \u015feyde) iyi / k\u00f6t\u00fc olmak",
+      "english": "to be good / bad at sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "id": "cand-a1-cases-0038",
+      "turkish": "(bir \u015feyden) b\u0131kmak",
+      "english": "to be fed up with sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "id": "cand-a1-cases-0041",
+      "turkish": "(bir \u015feyden) memnun olmak",
+      "english": "to be pleased with sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "id": "cand-a1-cases-0043",
+      "turkish": "(bir \u015feyden) rahats\u0131z olmak",
+      "english": "to be annoyed sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "id": "cand-a1-cases-0045",
+      "turkish": "(bir \u015feyden) \u015fikayet\u00e7i olmak",
+      "english": "to complain about sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "id": "cand-a1-cases-0046",
+      "turkish": "(bir \u015feyden) utanmak",
+      "english": "to be shy about sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "id": "cand-a1-cases-0047",
+      "turkish": "(bir \u015feyden) vazge\u00e7mek",
+      "english": "to give up on sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
       ]
     },
     {
