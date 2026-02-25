@@ -213,7 +213,7 @@ for quiz_path in quiz_paths:
         tags = item.get("tags", []) or []
         if "today" in tags:
             score = score_word(item_id, "en-tr")
-            print(f"{item_id} = {id_to_en.get(item_id, '')}: {score:.3f}")
+            print(f"{item_id} = {display_label(item_id)}: {score:.3f}")
     break
 
 # %%
@@ -227,6 +227,6 @@ for (word_id, mode), entries in events_by_key.items():
 all_events.sort(key=lambda x: x[0], reverse=True)
 for event in all_events[:10]:
     timestamp, word_id, mode, correct = event
-    print(f"{timestamp}: {display_label(word_id)} ({mode}) - {'Correct' if correct else 'Incorrect'}")
+    print(f"{timestamp}: {word_id} = {display_label(word_id)} ({mode}) - {'Correct' if correct else 'Incorrect'}")
 
 # %%
