@@ -127,6 +127,7 @@ print(f"Unique words in quiz.json: {len(vocab_words)}")
 # %%
 # Create a mapping from word_id to Turkish for easy debugging.
 id_to_tr: dict[str, str] = {}
+id_to_en: dict[str, str] = {}
 id_to_tags: dict[str, list[str]] = {}
 for quiz_path in quiz_paths:
     if not quiz_path.exists():
@@ -136,9 +137,11 @@ for quiz_path in quiz_paths:
     for item in quiz_data.get("items", []):
         item_id = str(item.get("id", "")).strip()
         turkish = str(item.get("turkish", "")).strip()
+        english = str(item.get("english", "")).strip()
         tags = item.get("tags", []) or []
         if item_id and turkish:
             id_to_tr[item_id] = turkish
+            id_to_en[item_id] = english
             id_to_tags[item_id] = tags
     break
 
@@ -152,7 +155,7 @@ canonical_vocab_words = set(canonical_to_ids.keys())
 
 
 def display_label(word_id: str) -> str:
-    return id_to_tr.get(word_id, "")
+    return id_to_en.get(word_id, "")
 
 
 # Show words that have no "en-tr" results.
@@ -210,7 +213,7 @@ for quiz_path in quiz_paths:
         tags = item.get("tags", []) or []
         if "today" in tags:
             score = score_word(item_id, "en-tr")
-            print(f"{item_id} = {id_to_tr.get(item_id, '')}: {score:.3f}")
+            print(f"{item_id} = {id_to_en.get(item_id, '')}: {score:.3f}")
     break
 
 # %%
