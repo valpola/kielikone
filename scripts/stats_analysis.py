@@ -62,7 +62,8 @@ MY_CONFIG = DEFAULT_CONFIG
 # MY_CONFIG = ScoreConfig(weight_wrong=1.0)
 
 def score_word(word_id: str, mode: str) -> float:
-    key = (word_id, mode)
+    canonical = canonicalize(word_id, aliases)
+    key = (canonical, mode)
     now = datetime.now(tz=UTC)
     tags = set(id_to_tags.get(word_id, []))
     tau_right_days = min(
