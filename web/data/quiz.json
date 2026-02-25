@@ -39,8 +39,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-0a",
-        "today"
+        "unit-a1-0a"
       ]
     },
     {
@@ -102,7 +101,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-0a"
+        "unit-a1-0a",
+        "today"
       ]
     },
     {
@@ -122,7 +122,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-0a"
+        "unit-a1-0a",
+        "today"
       ]
     },
     {
@@ -174,7 +175,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-0a"
+        "unit-a1-0a",
+        "today"
       ]
     },
     {
@@ -206,7 +208,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-0a"
+        "unit-a1-0a",
+        "today"
       ]
     },
     {
@@ -247,7 +250,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-0a"
+        "unit-a1-0a",
+        "today"
       ]
     },
     {
@@ -257,7 +261,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-0a"
+        "unit-a1-0a",
+        "today"
       ]
     },
     {
@@ -278,7 +283,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-0a"
+        "unit-a1-0a",
+        "today"
       ]
     },
     {
@@ -298,7 +304,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-0a"
+        "unit-a1-0a",
+        "today"
       ]
     },
     {
@@ -325,7 +332,8 @@
       "english": "Good morning!",
       "priority": 3,
       "tags": [
-        "unit-a1-1a"
+        "unit-a1-1a",
+        "today"
       ]
     },
     {
@@ -352,7 +360,8 @@
       "english": "Good afternoon!/Have a good day!",
       "priority": 3,
       "tags": [
-        "unit-a1-1a"
+        "unit-a1-1a",
+        "today"
       ]
     },
     {
@@ -846,7 +855,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2a"
+        "unit-a1-2a",
+        "today"
       ]
     },
     {
@@ -896,8 +906,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2a",
-        "today"
+        "unit-a1-2a"
       ]
     },
     {
@@ -1389,7 +1398,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b"
+        "unit-a1-2b",
+        "today"
       ]
     },
     {
@@ -1429,8 +1439,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b",
-        "today"
+        "unit-a1-2b"
       ]
     },
     {
@@ -1570,8 +1579,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b",
-        "today"
+        "unit-a1-2b"
       ]
     },
     {
@@ -1863,7 +1871,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b"
+        "unit-a1-2b",
+        "today"
       ]
     },
     {
@@ -1973,8 +1982,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b",
-        "today"
+        "unit-a1-2b"
       ]
     },
     {
@@ -2024,7 +2032,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b"
+        "unit-a1-2b",
+        "today"
       ]
     },
     {
@@ -2195,8 +2204,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b",
-        "today"
+        "unit-a1-2b"
       ]
     },
     {
@@ -2799,7 +2807,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3a",
-        "verb"
+        "verb",
+        "today"
       ]
     },
     {
@@ -3113,7 +3122,8 @@
       "priority": 3,
       "tags": [
         "adverb",
-        "unit-a1-3a"
+        "unit-a1-3a",
+        "today"
       ]
     },
     {
@@ -3721,8 +3731,7 @@
       "english": "to join / participate in / attend",
       "priority": 3,
       "tags": [
-        "unit-a1-3b",
-        "today"
+        "unit-a1-3b"
       ]
     },
     {
@@ -3731,8 +3740,7 @@
       "english": "to thank (politely)",
       "priority": 3,
       "tags": [
-        "unit-a1-3b",
-        "today"
+        "unit-a1-3b"
       ]
     },
     {
@@ -3750,8 +3758,7 @@
       "english": "to trust",
       "priority": 3,
       "tags": [
-        "unit-a1-3b",
-        "today"
+        "unit-a1-3b"
       ]
     },
     {
@@ -3760,8 +3767,7 @@
       "english": "to believe (someone) / believe in (something)",
       "priority": 3,
       "tags": [
-        "unit-a1-3b",
-        "today"
+        "unit-a1-3b"
       ]
     },
     {
@@ -3779,8 +3785,7 @@
       "english": "to get on (a vehicle/animal)",
       "priority": 3,
       "tags": [
-        "unit-a1-3b",
-        "today"
+        "unit-a1-3b"
       ]
     },
     {
@@ -3807,8 +3812,7 @@
       "english": "to help",
       "priority": 3,
       "tags": [
-        "unit-a1-3b",
-        "today"
+        "unit-a1-3b"
       ]
     },
     {
@@ -3826,8 +3830,7 @@
       "english": "to leave / go out (from a place)",
       "priority": 3,
       "tags": [
-        "unit-a1-3b",
-        "today"
+        "unit-a1-3b"
       ]
     },
     {
@@ -3836,8 +3839,7 @@
       "english": "to pass by / go through / cross",
       "priority": 3,
       "tags": [
-        "unit-a1-3b",
-        "today"
+        "unit-a1-3b"
       ]
     },
     {
@@ -3856,8 +3858,7 @@
       "english": "to leave / separate; to break up (from someone)",
       "priority": 3,
       "tags": [
-        "unit-a1-3b",
-        "today"
+        "unit-a1-3b"
       ]
     },
     {
@@ -3894,8 +3895,7 @@
       "english": "to be afraid of",
       "priority": 3,
       "tags": [
-        "unit-a1-3b",
-        "today"
+        "unit-a1-3b"
       ]
     }
   ],
