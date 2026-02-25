@@ -25,6 +25,7 @@ const scored = TodayScoring.scoreItems(filtered, eventsByKey, {
   mode: input.mode || "en-tr",
   now: input.now ? new Date(input.now) : new Date(),
   config: input.config,
+  aliases: input.aliases || {},
 });
 
 const topIds = TodayScoring.selectTopN(scored, input.limit || 30);

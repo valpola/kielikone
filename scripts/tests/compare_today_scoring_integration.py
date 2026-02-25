@@ -16,6 +16,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 
 from build_today import (  # noqa: E402
     DEFAULT_CONFIG,
+    canonicalize,
     compute_scores,
     event_stream,
     load_results,
@@ -80,13 +81,14 @@ def load_aliases() -> dict[str, str]:
     }
 
 
-def compute_python_scores(items, events_by_key, mode, now):
+def compute_python_scores(items, events_by_key, mode, now, aliases):
     scored = []
     scores_by_id = {}
     for item in items:
         word_id = str(item.get("id", "")).strip()
         if not word_id:
             continue
+        canonical_id = canonicalize(word_id, aliases)
         tags = set(item.get("tags", []) or [])
         tau_right_days = min(
             (
@@ -97,7 +99,7 @@ def compute_python_scores(items, events_by_key, mode, now):
             default=DEFAULT_CONFIG.tau_right_default_days,
         )
         wrong, right, score = compute_scores(
-            events_by_key.get((word_id, mode), []),
+            events_by_key.get((canonical_id, mode), []),
             now,
             DEFAULT_CONFIG,
             tau_right_days,
@@ -140,7 +142,7 @@ def main() -> int:
     now = datetime.now(tz=UTC)
 
     python_scored, python_scores = compute_python_scores(
-        items, events_by_key, DEFAULT_MODE, now
+        items, events_by_key, DEFAULT_MODE, now, aliases
     )
     python_top_ids = [word_id for word_id, _ in python_scored[:DEFAULT_LIMIT]]
 
