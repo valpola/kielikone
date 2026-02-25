@@ -489,7 +489,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-1b"
+        "unit-a1-1b",
+        "today"
       ]
     },
     {
@@ -499,7 +500,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-1b"
+        "unit-a1-1b",
+        "today"
       ]
     },
     {
@@ -519,7 +521,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-1b"
+        "unit-a1-1b",
+        "today"
       ]
     },
     {
@@ -539,7 +542,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-1b"
+        "unit-a1-1b",
+        "today"
       ]
     },
     {
@@ -580,7 +584,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-1b"
+        "unit-a1-1b",
+        "today"
       ]
     },
     {
@@ -620,7 +625,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-1b"
+        "unit-a1-1b",
+        "today"
       ]
     },
     {
@@ -640,7 +646,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-1b"
+        "unit-a1-1b",
+        "today"
       ]
     },
     {
@@ -682,7 +689,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-1b"
+        "unit-a1-1b",
+        "today"
       ]
     },
     {
@@ -692,7 +700,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-1b"
+        "unit-a1-1b",
+        "today"
       ]
     },
     {
@@ -862,8 +871,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2a",
-        "today"
+        "unit-a1-2a"
       ]
     },
     {
@@ -1404,8 +1412,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b",
-        "today"
+        "unit-a1-2b"
       ]
     },
     {
@@ -1671,12 +1678,11 @@
     {
       "id": "cand-a1-2b-0045",
       "turkish": "kat",
-      "english": "floor",
+      "english": "floor (kerros)",
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b",
-        "today"
+        "unit-a1-2b"
       ]
     },
     {
@@ -2218,8 +2224,7 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1-2b",
-        "today"
+        "unit-a1-2b"
       ]
     },
     {
@@ -2769,8 +2774,7 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1-2c",
-        "today"
+        "unit-a1-2c"
       ]
     },
     {
@@ -2811,8 +2815,7 @@
       "tags": [
         "unit-a1-3a",
         "verb",
-        "unit-a1-3b",
-        "today"
+        "unit-a1-3b"
       ]
     },
     {
@@ -2942,8 +2945,7 @@
       "tags": [
         "unit-a1-3a",
         "verb",
-        "unit-a1-3b",
-        "today"
+        "unit-a1-3b"
       ]
     },
     {
@@ -2987,8 +2989,7 @@
       "tags": [
         "unit-a1-3a",
         "verb",
-        "unit-a1-3b",
-        "today"
+        "unit-a1-3b"
       ]
     },
     {
@@ -3576,8 +3577,7 @@
       "english": "to mention / talk about",
       "priority": 3,
       "tags": [
-        "unit-a1-3b",
-        "today"
+        "unit-a1-3b"
       ]
     },
     {
