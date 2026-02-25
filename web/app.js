@@ -13,6 +13,7 @@ const EXCLUDE_TAGS = document.getElementById("exclude-tags");
 const SESSION_TARGET = document.getElementById("session-target");
 const TODAY_LIMIT = document.getElementById("today-limit");
 const RECOMPUTE_TODAY = document.getElementById("recompute-today");
+const OPTIONS_GRID = document.querySelector(".options-grid");
 
 let mode = "en-tr";
 let items = [];
@@ -32,6 +33,8 @@ const DEFAULT_SESSION_TARGET = 2;
 const TODAY_LIMIT_STORAGE = "tr-quiz-today-limit";
 const TODAY_LIST_STORAGE = "tr-quiz-today-list";
 const DEFAULT_TODAY_LIMIT = 30;
+const DEBUG_MODE = new URLSearchParams(window.location.search).get("debug") === "1";
+const DEBUG_SCORES_STORAGE = "tr-quiz-debug-scores";
 
 const todayStamp = () => new Date().toISOString().slice(0, 10);
 
@@ -181,6 +184,38 @@ const saveStoredToday = (ids) => {
   );
 };
 
+const storeDebugScores = (payload) => {
+  if (!DEBUG_MODE) return;
+  localStorage.setItem(DEBUG_SCORES_STORAGE, JSON.stringify(payload));
+  window.__todayDebug = payload;
+};
+
+const downloadDebugScores = () => {
+  const raw = localStorage.getItem(DEBUG_SCORES_STORAGE);
+  if (!raw) {
+    window.alert("No debug scores saved yet. Run recompute today first.");
+    return;
+  }
+  const blob = new Blob([raw], { type: "application/json" });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = "today-scores.json";
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
+  URL.revokeObjectURL(url);
+};
+
+const renderDebugControls = () => {
+  if (!DEBUG_MODE || !OPTIONS_GRID) return;
+  const button = document.createElement("button");
+  button.className = "ghost";
+  button.textContent = "Download scores (debug)";
+  button.addEventListener("click", downloadDebugScores);
+  OPTIONS_GRID.appendChild(button);
+};
+
 const getFilteredItems = () => {
   const include = selectedValues(INCLUDE_TAGS);
   const exclude = selectedValues(EXCLUDE_TAGS);
@@ -286,6 +321,15 @@ const recomputeToday = async () => {
     const scored = TodayScoring.scoreItems(filtered, eventsByKey, {
       mode,
       now: new Date(),
+    });
+
+    storeDebugScores({
+      generatedAt: new Date().toISOString(),
+      mode,
+      limit: getTodayLimit(),
+      includeTags: Array.from(include),
+      excludeTags: Array.from(exclude),
+      scores: scored,
     });
 
     const topIds = TodayScoring.selectTopN(scored, getTodayLimit());
@@ -531,6 +575,7 @@ const loadData = async () => {
   loadSessionTarget();
   loadTodayLimit();
   computedToday = loadStoredToday();
+  renderDebugControls();
   renderTagOptions();
   renderMode();
   updateStats();

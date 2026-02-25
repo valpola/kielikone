@@ -131,6 +131,8 @@ Optional overrides:
   api_key for CSV reads; the API key is stored in localStorage after first prompt.
 - Today scoring parity tests require Node for JS and Python for the live run.
   For live tests, provide RESULTS_ENDPOINT and RESULTS_API_KEY/TR_QUIZ_API_KEY.
+- Add ?debug=1 to the web app URL to show a debug-only button that downloads
+  the latest recompute scores as today-scores.json.
 
 ## Security notes
 - The static site is public. Do not store secrets in the repo.
