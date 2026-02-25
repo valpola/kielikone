@@ -122,8 +122,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-0a",
-        "today"
+        "unit-a1-0a"
       ]
     },
     {
@@ -176,8 +175,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-0a",
-        "today"
+        "unit-a1-0a"
       ]
     },
     {
@@ -252,8 +250,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-0a",
-        "today"
+        "unit-a1-0a"
       ]
     },
     {
@@ -263,8 +260,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-0a",
-        "today"
+        "unit-a1-0a"
       ]
     },
     {
@@ -285,8 +281,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-0a",
-        "today"
+        "unit-a1-0a"
       ]
     },
     {
@@ -364,8 +359,7 @@
       "english": "Good afternoon!/Have a good day!",
       "priority": 3,
       "tags": [
-        "unit-a1-1a",
-        "today"
+        "unit-a1-1a"
       ]
     },
     {
@@ -442,6 +436,186 @@
       ]
     },
     {
+      "id": "cand-a1-1a-0015",
+      "turkish": "Afiyet olsun!",
+      "english": "Enjoy your meal!",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-1a-0016",
+      "turkish": "L\u00fctfen!",
+      "english": "Please!",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-1a-0017",
+      "turkish": "Tebrikler!",
+      "english": "Congratulations!",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-1a-0018",
+      "turkish": "\u0130yi e\u011flenceler!",
+      "english": "Have fun!",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-1a-0019",
+      "turkish": "\u0130yi yolculuklar!",
+      "english": "Enjoy your trip / Have a nice trip!",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-1a-0020",
+      "turkish": "\u0130yi \u015fanslar! / Bol \u015fans!",
+      "english": "Good luck!",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-1a-0021",
+      "turkish": "\u0130yi ki do\u011fdun! / Do\u011fum g\u00fcn\u00fcn kutlu olsun!",
+      "english": "Happy Birthday!",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-1a-0022",
+      "turkish": "\u00c7ok ya\u015fa!",
+      "english": "Bless you!",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-1a-0023",
+      "turkish": "Sen de g\u00f6r! / Hep beraber!",
+      "english": "Thank you, all together!",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-1a-0024",
+      "turkish": "\u00d6z\u00fcr dilerim.",
+      "english": "I'm sorry / I apologize.",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-1a-0025",
+      "turkish": "\u015eerefe!",
+      "english": "Cheers!",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-1a-0026",
+      "turkish": "Ge\u00e7mi\u015f olsun.",
+      "english": "Get well soon.",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-1a-0027",
+      "turkish": "Affedersiniz!",
+      "english": "Excuse me!",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-1a-0028",
+      "turkish": "Kolay gelsin!",
+      "english": "May your work be easy!",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-1a-0029",
+      "turkish": "Tamam!",
+      "english": "Okay!",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-1a-0030",
+      "turkish": "Evet.",
+      "english": "Yes.",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-1a-0031",
+      "turkish": "Hay\u0131r.",
+      "english": "No.",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-1a-0032",
+      "turkish": "Seni seviyorum!",
+      "english": "I love you!",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a",
+        "today"
+      ]
+    },
+    {
       "id": "cand-a1-1b-0001",
       "turkish": "ayna",
       "english": "mirror",
@@ -499,8 +673,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-1b",
-        "today"
+        "unit-a1-1b"
       ]
     },
     {
@@ -520,8 +693,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-1b",
-        "today"
+        "unit-a1-1b"
       ]
     },
     {
@@ -541,8 +713,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-1b",
-        "today"
+        "unit-a1-1b"
       ]
     },
     {
@@ -583,8 +754,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-1b",
-        "today"
+        "unit-a1-1b"
       ]
     },
     {
@@ -624,8 +794,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-1b",
-        "today"
+        "unit-a1-1b"
       ]
     },
     {
@@ -645,8 +814,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-1b",
-        "today"
+        "unit-a1-1b"
       ]
     },
     {
@@ -688,8 +856,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-1b",
-        "today"
+        "unit-a1-1b"
       ]
     },
     {
@@ -699,8 +866,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-1b",
-        "today"
+        "unit-a1-1b"
       ]
     },
     {
@@ -1881,8 +2047,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b",
-        "today"
+        "unit-a1-2b"
       ]
     },
     {
@@ -2042,8 +2207,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b",
-        "today"
+        "unit-a1-2b"
       ]
     },
     {
@@ -3118,8 +3282,7 @@
       "tags": [
         "adverb",
         "unit-a1-3a",
-        "unit-a1-3b",
-        "today"
+        "unit-a1-3b"
       ]
     },
     {
@@ -3630,8 +3793,7 @@
       "english": "spider",
       "priority": 3,
       "tags": [
-        "noun",
-        "today"
+        "noun"
       ]
     }
   ],
