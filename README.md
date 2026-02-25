@@ -66,6 +66,8 @@ Notes:
 - Run `python3 scripts/export_quiz.py` so the web app has `web/data/aliases.json`.
 - Use the Options menu to set the daily limit and click "Recompute today".
 - The computed list is stored in localStorage only.
+- Recompute does not reset session progress; reload the page to clear the
+   "already quizzed this session" state.
 
 ## Today scoring tests
 - Offline (fixture-based):
