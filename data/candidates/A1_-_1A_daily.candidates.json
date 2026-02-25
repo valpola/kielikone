@@ -1,0 +1,222 @@
+{
+  "source_file": "A1_-_1A.pdf",
+  "created_at": "2026-02-25T00:00:00Z",
+  "items": [
+    {
+      "id": "cand-a1-1a-0015",
+      "turkish": "Afiyet olsun!",
+      "english": "Enjoy your meal!",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a"
+      ],
+      "source": "A1_-_1A.pdf",
+      "notes": "daily expressions",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1a-0016",
+      "turkish": "Lütfen!",
+      "english": "Please!",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a"
+      ],
+      "source": "A1_-_1A.pdf",
+      "notes": "daily expressions",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1a-0017",
+      "turkish": "Tebrikler!",
+      "english": "Congratulations!",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a"
+      ],
+      "source": "A1_-_1A.pdf",
+      "notes": "daily expressions",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1a-0018",
+      "turkish": "İyi eğlenceler!",
+      "english": "Have fun!",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a"
+      ],
+      "source": "A1_-_1A.pdf",
+      "notes": "daily expressions",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1a-0019",
+      "turkish": "İyi yolculuklar!",
+      "english": "Enjoy your trip / Have a nice trip!",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a"
+      ],
+      "source": "A1_-_1A.pdf",
+      "notes": "daily expressions",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1a-0020",
+      "turkish": "İyi şanslar! / Bol şans!",
+      "english": "Good luck!",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a"
+      ],
+      "source": "A1_-_1A.pdf",
+      "notes": "daily expressions",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1a-0021",
+      "turkish": "İyi ki doğdun! / Doğum günün kutlu olsun!",
+      "english": "Happy Birthday!",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a"
+      ],
+      "source": "A1_-_1A.pdf",
+      "notes": "daily expressions",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1a-0022",
+      "turkish": "Çok yaşa!",
+      "english": "Bless you!",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a"
+      ],
+      "source": "A1_-_1A.pdf",
+      "notes": "daily expressions",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1a-0023",
+      "turkish": "Sen de gör! / Hep beraber!",
+      "english": "Thank you, all together!",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a"
+      ],
+      "source": "A1_-_1A.pdf",
+      "notes": "daily expressions",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1a-0024",
+      "turkish": "Özür dilerim.",
+      "english": "I'm sorry / I apologize.",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a"
+      ],
+      "source": "A1_-_1A.pdf",
+      "notes": "daily expressions",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1a-0025",
+      "turkish": "Şerefe!",
+      "english": "Cheers!",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a"
+      ],
+      "source": "A1_-_1A.pdf",
+      "notes": "daily expressions",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1a-0026",
+      "turkish": "Geçmiş olsun.",
+      "english": "Get well soon.",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a"
+      ],
+      "source": "A1_-_1A.pdf",
+      "notes": "daily expressions",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1a-0027",
+      "turkish": "Affedersiniz!",
+      "english": "Excuse me!",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a"
+      ],
+      "source": "A1_-_1A.pdf",
+      "notes": "daily expressions",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1a-0028",
+      "turkish": "Kolay gelsin!",
+      "english": "May your work be easy!",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a"
+      ],
+      "source": "A1_-_1A.pdf",
+      "notes": "daily expressions",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1a-0029",
+      "turkish": "Tamam!",
+      "english": "Okay!",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a"
+      ],
+      "source": "A1_-_1A.pdf",
+      "notes": "daily expressions",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1a-0030",
+      "turkish": "Evet.",
+      "english": "Yes.",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a"
+      ],
+      "source": "A1_-_1A.pdf",
+      "notes": "daily expressions",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1a-0031",
+      "turkish": "Hayır.",
+      "english": "No.",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a"
+      ],
+      "source": "A1_-_1A.pdf",
+      "notes": "daily expressions",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1a-0032",
+      "turkish": "Seni seviyorum!",
+      "english": "I love you!",
+      "priority": 3,
+      "tags": [
+        "unit-a1-1a"
+      ],
+      "source": "A1_-_1A.pdf",
+      "notes": "daily expressions",
+      "status": "approved"
+    }
+  ]
+}
