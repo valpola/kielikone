@@ -326,6 +326,7 @@ def main() -> int:
         set(args.include_tag or []),
         set(args.exclude_tag or []),
     )
+    item_ids = {str(item.get("id", "")).strip() for item in items if item.get("id")}
 
     mode_value = str(args.mode or "").strip().lower()
     if mode_value == "both":
@@ -338,13 +339,22 @@ def main() -> int:
 
     now = datetime.now(tz=UTC)
     scored: list[tuple[str, float]] = []
-    score_by_id: dict[str, float] = {}
+    score_by_canonical: dict[str, float] = {}
+    canonical_to_items: dict[str, list[dict[str, Any]]] = {}
 
     for item in items:
         word_id = str(item.get("id", "")).strip()
         if not word_id:
             continue
-        tags = set(item.get("tags", []) or [])
+        canonical_id = canonicalize(word_id, aliases)
+        canonical_to_items.setdefault(canonical_id, []).append(item)
+
+    for canonical_id, grouped_items in canonical_to_items.items():
+        representative = next(
+            (entry for entry in grouped_items if str(entry.get("id", "")).strip() == canonical_id),
+            grouped_items[0],
+        )
+        tags = set(representative.get("tags", []) or [])
         tau_right_days = min(
             (DEFAULT_CONFIG.tau_right_by_freq[tag] for tag in tags if tag in DEFAULT_CONFIG.tau_right_by_freq),
             default=DEFAULT_CONFIG.tau_right_default_days,
@@ -352,7 +362,7 @@ def main() -> int:
 
         scores = []
         for mode in modes:
-            key = (word_id, mode)
+            key = (canonical_id, mode)
             mode_events = events_by_key.get(key, [])
             wrong, right, score = compute_scores(
                 mode_events,
@@ -362,8 +372,8 @@ def main() -> int:
             )
             scores.append(score)
         final_score = max(scores) if scores else 0.0
-        scored.append((word_id, final_score))
-        score_by_id[word_id] = final_score
+        scored.append((canonical_id, final_score))
+        score_by_canonical[canonical_id] = final_score
 
     scored.sort(key=lambda entry: (-entry[1], entry[0]))
     top_items = scored[: max(0, args.limit)]
@@ -385,13 +395,15 @@ def main() -> int:
                 updated_items.append(item)
                 continue
             word_id = str(item.get("id", "")).strip()
-            score = score_by_id.get(word_id)
+            canonical_id = canonicalize(word_id, aliases)
+            score = score_by_canonical.get(canonical_id)
             if score is None:
                 item.pop("today_score", None)
             else:
                 item["today_score"] = score
             tags = [tag for tag in (item.get("tags", []) or []) if tag != args.today_tag]
-            if word_id in today_ids:
+            is_canonical = word_id == canonical_id or canonical_id not in item_ids
+            if canonical_id in today_ids and is_canonical:
                 tags.append(args.today_tag)
             item["tags"] = tags
             updated_items.append(item)
