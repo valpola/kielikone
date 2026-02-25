@@ -18,7 +18,7 @@
     "cand-a1-3b-0006": "cand-a1-3a-0004",
     "cand-a1-3b-0007": "cand-a1-3a-0005",
     "cand-a1-3b-0008": "cand-a1-3a-0006",
-    "cand-a1-3b-0009": "cand-a1-3a-0007",
+    "cand-a1-3b-0009": "cand-a1-3b-0109",
     "cand-a1-3b-0010": "cand-a1-3a-0008",
     "cand-a1-3b-0013": "cand-a1-3a-0009",
     "cand-a1-3b-0019": "cand-a1-3a-0010",
@@ -43,6 +43,15 @@
     "cand-a1-3b-0065": "cand-a1-3a-0034",
     "cand-a1-3b-0066": "cand-a1-3a-0035",
     "cand-a1-3b-0067": "cand-a1-3a-0036",
-    "cand-a1-3b-0068": "cand-a1-3a-0037"
+    "cand-a1-3b-0068": "cand-a1-3a-0037",
+    "cand-a1-3a-0007": "cand-a1-3b-0109",
+    "cand-a1-3a-0019": "cand-a1-3b-0107",
+    "cand-a1-3b-0001": "cand-a1-3b-0104",
+    "cand-a1-3b-0017": "cand-a1-3b-0112",
+    "cand-a1-3b-0020": "cand-a1-3b-0101",
+    "cand-a1-3b-0024": "cand-a1-3b-0117",
+    "cand-a1-3b-0031": "cand-a1-3b-0118",
+    "cand-a1-3b-0034": "cand-a1-3b-0110",
+    "cand-a1-3b-0037": "cand-a1-3b-0107"
   }
 }

@@ -3429,6 +3429,474 @@
       "english": "noise",
       "priority": 3,
       "tags": []
+    },
+    {
+      "id": "cand-a1-3b-0003",
+      "turkish": "banyo yapmak / du\u015f almak",
+      "english": "to have a bath / to take a shower",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3b"
+      ]
+    },
+    {
+      "id": "cand-a1-3b-0004",
+      "turkish": "ba\u015flamak",
+      "english": "to start",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3b"
+      ]
+    },
+    {
+      "id": "cand-a1-3b-0005",
+      "turkish": "beslenme haz\u0131rlamak",
+      "english": "to prepare nutrition",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3b"
+      ]
+    },
+    {
+      "id": "cand-a1-3b-0006",
+      "turkish": "bilmek",
+      "english": "to know",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3b"
+      ]
+    },
+    {
+      "id": "cand-a1-3b-0007",
+      "turkish": "bitmek",
+      "english": "to finish",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3b"
+      ]
+    },
+    {
+      "id": "cand-a1-3b-0008",
+      "turkish": "bulu\u015fmak",
+      "english": "to meet",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3b"
+      ]
+    },
+    {
+      "id": "cand-a1-3b-0009",
+      "turkish": "cevaplamak",
+      "english": "to answer",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3b"
+      ]
+    },
+    {
+      "id": "cand-a1-3b-0010",
+      "turkish": "\u00e7al\u0131\u015fmak",
+      "english": "to work",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3b"
+      ]
+    },
+    {
+      "id": "cand-a1-3b-0013",
+      "turkish": "e\u011flenmek",
+      "english": "to enjoy",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3b"
+      ]
+    },
+    {
+      "id": "cand-a1-3b-0019",
+      "turkish": "kahvalt\u0131 etmek / yapmak",
+      "english": "to have breakfast",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3b"
+      ]
+    },
+    {
+      "id": "cand-a1-3b-0025",
+      "turkish": "\u00f6dev yapmak",
+      "english": "to do homework",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3b"
+      ]
+    },
+    {
+      "id": "cand-a1-3b-0026",
+      "turkish": "\u00f6\u011frenmek",
+      "english": "to learn",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3b"
+      ]
+    },
+    {
+      "id": "cand-a1-3b-0027",
+      "turkish": "\u00f6\u011fretmek",
+      "english": "to teach",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3b"
+      ]
+    },
+    {
+      "id": "cand-a1-3b-0030",
+      "turkish": "sevmek",
+      "english": "to love",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3b"
+      ]
+    },
+    {
+      "id": "cand-a1-3b-0032",
+      "turkish": "sipari\u015f etmek",
+      "english": "to order",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3b"
+      ]
+    },
+    {
+      "id": "cand-a1-3b-0033",
+      "turkish": "sohbet etmek",
+      "english": "to chat",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3b"
+      ]
+    },
+    {
+      "id": "cand-a1-3b-0035",
+      "turkish": "s\u00fcper kahraman",
+      "english": "superhero",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3b"
+      ]
+    },
+    {
+      "id": "cand-a1-3b-0036",
+      "turkish": "tatil",
+      "english": "vacation",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3b"
+      ]
+    },
+    {
+      "id": "cand-a1-3b-0038",
+      "turkish": "temizlik yapmak",
+      "english": "to clean",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3b"
+      ]
+    },
+    {
+      "id": "cand-a1-3b-0039",
+      "turkish": "uyanmak",
+      "english": "to wake up",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3b"
+      ]
+    },
+    {
+      "id": "cand-a1-3b-0040",
+      "turkish": "\u00fct\u00fc yapmak",
+      "english": "to iron",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3b"
+      ]
+    },
+    {
+      "id": "cand-a1-3b-0041",
+      "turkish": "vapur",
+      "english": "ferry",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3b"
+      ]
+    },
+    {
+      "id": "cand-a1-3b-0042",
+      "turkish": "yard\u0131m etmek",
+      "english": "to help",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3b"
+      ]
+    },
+    {
+      "id": "cand-a1-3b-0043",
+      "turkish": "ya\u015famak",
+      "english": "to live",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3b"
+      ]
+    },
+    {
+      "id": "cand-a1-3b-0045",
+      "turkish": "yemek yemek",
+      "english": "to eat",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3b"
+      ]
+    },
+    {
+      "id": "cand-a1-3b-0062",
+      "turkish": "asla",
+      "english": "never",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3b"
+      ]
+    },
+    {
+      "id": "cand-a1-3b-0063",
+      "turkish": "bazen",
+      "english": "sometimes",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3b"
+      ]
+    },
+    {
+      "id": "cand-a1-3b-0064",
+      "turkish": "genellikle",
+      "english": "usually",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3b"
+      ]
+    },
+    {
+      "id": "cand-a1-3b-0065",
+      "turkish": "her zaman",
+      "english": "always",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3b"
+      ]
+    },
+    {
+      "id": "cand-a1-3b-0066",
+      "turkish": "hi\u00e7bir zaman",
+      "english": "never",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3b"
+      ]
+    },
+    {
+      "id": "cand-a1-3b-0067",
+      "turkish": "nadiren",
+      "english": "rarely",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3b"
+      ]
+    },
+    {
+      "id": "cand-a1-3b-0068",
+      "turkish": "s\u0131k s\u0131k",
+      "english": "often",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3b"
+      ]
+    },
+    {
+      "id": "cand-a1-3b-0101",
+      "turkish": "(birine / bir \u015feye) k\u0131zmak",
+      "english": "to get angry with (someone) / at (something)",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3b"
+      ]
+    },
+    {
+      "id": "cand-a1-3b-0102",
+      "turkish": "(birine / bir \u015feye) kat\u0131lmak",
+      "english": "to join / participate in / attend",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3b"
+      ]
+    },
+    {
+      "id": "cand-a1-3b-0103",
+      "turkish": "(birine) te\u015fekk\u00fcr etmek",
+      "english": "to thank (politely)",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3b"
+      ]
+    },
+    {
+      "id": "cand-a1-3b-0104",
+      "turkish": "(birine / bir \u015feye) bakmak",
+      "english": "to look at",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3b"
+      ]
+    },
+    {
+      "id": "cand-a1-3b-0105",
+      "turkish": "(birine) g\u00fcvenmek",
+      "english": "to trust",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3b"
+      ]
+    },
+    {
+      "id": "cand-a1-3b-0106",
+      "turkish": "(birine / bir \u015feye) inanmak",
+      "english": "to believe (someone) / believe in (something)",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3b"
+      ]
+    },
+    {
+      "id": "cand-a1-3b-0107",
+      "turkish": "(birine) telefon etmek",
+      "english": "to phone / call",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3b"
+      ]
+    },
+    {
+      "id": "cand-a1-3b-0108",
+      "turkish": "(bir \u015feye) binmek",
+      "english": "to get on (a vehicle/animal)",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3b"
+      ]
+    },
+    {
+      "id": "cand-a1-3b-0109",
+      "turkish": "(birine / bir \u015feye) cevap vermek",
+      "english": "to answer / reply to",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3b"
+      ]
+    },
+    {
+      "id": "cand-a1-3b-0110",
+      "turkish": "(birine) soru sormak",
+      "english": "to ask (someone a question)",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3b"
+      ]
+    },
+    {
+      "id": "cand-a1-3b-0111",
+      "turkish": "(birine) yard\u0131m etmek",
+      "english": "to help",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3b"
+      ]
+    },
+    {
+      "id": "cand-a1-3b-0112",
+      "turkish": "(bir yere) girmek",
+      "english": "to enter (a place)",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3b"
+      ]
+    },
+    {
+      "id": "cand-a1-3b-0113",
+      "turkish": "(bir yerden) \u00e7\u0131kmak",
+      "english": "to leave / go out (from a place)",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3b"
+      ]
+    },
+    {
+      "id": "cand-a1-3b-0114",
+      "turkish": "(bir yerden) ge\u00e7mek",
+      "english": "to pass by / go through / cross",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3b"
+      ]
+    },
+    {
+      "id": "cand-a1-3b-0115",
+      "turkish": "(birinden / bir \u015feyden) bahsetmek",
+      "english": "to mention / talk about",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3b"
+      ]
+    },
+    {
+      "id": "cand-a1-3b-0116",
+      "turkish": "(birinden / bir yerden) ayr\u0131lmak",
+      "english": "to leave / separate; to break up (from someone)",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3b"
+      ]
+    },
+    {
+      "id": "cand-a1-3b-0117",
+      "turkish": "(birinden / bir \u015feyden) nefret etmek",
+      "english": "to hate",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3b"
+      ]
+    },
+    {
+      "id": "cand-a1-3b-0118",
+      "turkish": "(birinden / bir \u015feyden) s\u0131k\u0131lmak",
+      "english": "to be bored of/with; to get bored of",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3b"
+      ]
+    },
+    {
+      "id": "cand-a1-3b-0119",
+      "turkish": "(birinden / bir \u015feyden) ho\u015flanmak",
+      "english": "to like",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3b"
+      ]
+    },
+    {
+      "id": "cand-a1-3b-0120",
+      "turkish": "(birinden / bir \u015feyden) korkmak",
+      "english": "to be afraid of",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3b"
+      ]
     }
   ],
   "tags": [
@@ -3465,6 +3933,11 @@
     {
       "id": "unit-a1-3a",
       "label": "Unit A1-3A",
+      "group": "unit"
+    },
+    {
+      "id": "unit-a1-3b",
+      "label": "Unit A1-3B",
       "group": "unit"
     },
     {
