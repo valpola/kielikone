@@ -2,6 +2,7 @@ PYTHON := .venv/bin/python
 
 .PHONY: export publish test-results build-today
 .PHONY: validate-tags extract-candidates merge-candidates check-venv
+.PHONY: rebuild-reviewed rebuild-reviewed-today
 
 check-venv:
 	@test -x $(PYTHON) || (echo "Missing .venv. Run: python3 -m venv .venv && source .venv/bin/activate"; exit 1)
@@ -29,3 +30,10 @@ extract-candidates: check-venv
 
 merge-candidates: check-venv
 	$(PYTHON) scripts/merge_candidates.py $(CANDIDATE)
+
+rebuild-reviewed: check-venv
+	$(PYTHON) scripts/rebuild_reviewed.py
+
+rebuild-reviewed-today: rebuild-reviewed
+	$(PYTHON) scripts/dedupe_vocab.py --apply
+	$(PYTHON) scripts/build_today.py
