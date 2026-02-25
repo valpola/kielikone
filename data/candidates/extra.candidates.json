@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "id": "extra-0001",
+      "turkish": "örümcek",
+      "english": "spider",
+      "priority": 3,
+      "tags": [
+        "noun"
+      ],
+      "source": "manually_added",
+      "notes": "",
+      "status": "approved"
+    }
+  ]
+}

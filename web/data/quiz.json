@@ -489,8 +489,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-1b",
-        "today"
+        "unit-a1-1b"
       ]
     },
     {
@@ -3623,6 +3622,16 @@
       "priority": 3,
       "tags": [
         "unit-a1-3b"
+      ]
+    },
+    {
+      "id": "extra-0001",
+      "turkish": "\u00f6r\u00fcmcek",
+      "english": "spider",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "today"
       ]
     }
   ],
