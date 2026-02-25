@@ -324,6 +324,7 @@ const recomputeToday = async () => {
     const scored = TodayScoring.scoreItems(filtered, eventsByKey, {
       mode,
       now: new Date(),
+      aliases,
     });
 
     storeDebugScores({

@@ -240,6 +240,7 @@
   var scoreItems = function (items, eventsByKey, options) {
     var opts = options || {};
     var config = opts.config || DEFAULT_CONFIG;
+    var aliases = opts.aliases || null;
     var modes = [];
     var modeValue = String(opts.mode || "en-tr").toLowerCase();
     if (modeValue === "both") {
@@ -256,10 +257,11 @@
     items.forEach(function (item) {
       var wordId = String(item.id || "").trim();
       if (!wordId) return;
+      var canonicalId = aliases ? canonicalize(wordId, aliases) : wordId;
       var tags = item.tags || [];
       var tauRightDays = getTauRightDays(tags, config);
       var scores = modes.map(function (mode) {
-        var key = wordId + "|" + mode;
+        var key = canonicalId + "|" + mode;
         var modeEvents = eventsByKey[key] || [];
         return computeScores(modeEvents, now, config, tauRightDays).score;
       });

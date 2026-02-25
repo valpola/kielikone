@@ -23,6 +23,7 @@ const now = new Date(expected.now);
 const scored = TodayScoring.scoreItems(quiz.items, eventsByKey, {
   mode: expected.mode,
   now,
+  aliases: aliases.aliases || {},
 });
 
 const scores = {};

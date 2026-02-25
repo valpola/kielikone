@@ -8,7 +8,13 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "scripts"))
 
-from build_today import DEFAULT_CONFIG, compute_scores, event_stream, load_results
+from build_today import (
+    DEFAULT_CONFIG,
+    canonicalize,
+    compute_scores,
+    event_stream,
+    load_results,
+)
 FIXTURE_DIR = ROOT / "scripts" / "tests" / "fixtures"
 RESULTS_PATH = FIXTURE_DIR / "results.csv"
 QUIZ_PATH = FIXTURE_DIR / "quiz.json"
@@ -38,6 +44,7 @@ def main() -> None:
         word_id = str(item.get("id", "")).strip()
         if not word_id:
             continue
+        canonical_id = canonicalize(word_id, aliases)
         tags = set(item.get("tags", []) or [])
         tau_right_days = min(
             (
@@ -48,7 +55,7 @@ def main() -> None:
             default=DEFAULT_CONFIG.tau_right_default_days,
         )
         wrong, right, score = compute_scores(
-            events_by_key.get((word_id, MODE), []),
+            events_by_key.get((canonical_id, MODE), []),
             NOW,
             DEFAULT_CONFIG,
             tau_right_days,
