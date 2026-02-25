@@ -1,0 +1,206 @@
+{
+  "source_file": "Unit_3B_manual",
+  "created_at": "2026-02-25T12:00:00Z",
+  "items": [
+    {
+      "id": "cand-a1-3b-0101",
+      "turkish": "(birine / bir şeye) kızmak",
+      "english": "to get angry with (someone) / at (something)",
+      "priority": 3,
+      "tags": [],
+      "source": "Unit_3B_manual",
+      "notes": "manual entry",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3b-0102",
+      "turkish": "(birine / bir şeye) katılmak",
+      "english": "to join / participate in / attend",
+      "priority": 3,
+      "tags": [],
+      "source": "Unit_3B_manual",
+      "notes": "manual entry",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3b-0103",
+      "turkish": "(birine) teşekkür etmek",
+      "english": "to thank (politely)",
+      "priority": 3,
+      "tags": [],
+      "source": "Unit_3B_manual",
+      "notes": "manual entry",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3b-0104",
+      "turkish": "(birine / bir şeye) bakmak",
+      "english": "to look at",
+      "priority": 3,
+      "tags": [],
+      "source": "Unit_3B_manual",
+      "notes": "manual entry",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3b-0105",
+      "turkish": "(birine) güvenmek",
+      "english": "to trust",
+      "priority": 3,
+      "tags": [],
+      "source": "Unit_3B_manual",
+      "notes": "manual entry",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3b-0106",
+      "turkish": "(birine / bir şeye) inanmak",
+      "english": "to believe (someone) / believe in (something)",
+      "priority": 3,
+      "tags": [],
+      "source": "Unit_3B_manual",
+      "notes": "manual entry",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3b-0107",
+      "turkish": "(birine) telefon etmek",
+      "english": "to phone / call",
+      "priority": 3,
+      "tags": [],
+      "source": "Unit_3B_manual",
+      "notes": "manual entry",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3b-0108",
+      "turkish": "(bir şeye) binmek",
+      "english": "to get on (a vehicle/animal)",
+      "priority": 3,
+      "tags": [],
+      "source": "Unit_3B_manual",
+      "notes": "manual entry",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3b-0109",
+      "turkish": "(birine / bir şeye) cevap vermek",
+      "english": "to answer / reply to",
+      "priority": 3,
+      "tags": [],
+      "source": "Unit_3B_manual",
+      "notes": "manual entry",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3b-0110",
+      "turkish": "(birine) soru sormak",
+      "english": "to ask (someone a question)",
+      "priority": 3,
+      "tags": [],
+      "source": "Unit_3B_manual",
+      "notes": "manual entry",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3b-0111",
+      "turkish": "(birine) yardım etmek",
+      "english": "to help",
+      "priority": 3,
+      "tags": [],
+      "source": "Unit_3B_manual",
+      "notes": "manual entry",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3b-0112",
+      "turkish": "(bir yere) girmek",
+      "english": "to enter (a place)",
+      "priority": 3,
+      "tags": [],
+      "source": "Unit_3B_manual",
+      "notes": "manual entry",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3b-0113",
+      "turkish": "(bir yerden) çıkmak",
+      "english": "to leave / go out (from a place)",
+      "priority": 3,
+      "tags": [],
+      "source": "Unit_3B_manual",
+      "notes": "manual entry",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3b-0114",
+      "turkish": "(bir yerden) geçmek",
+      "english": "to pass by / go through / cross",
+      "priority": 3,
+      "tags": [],
+      "source": "Unit_3B_manual",
+      "notes": "manual entry",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3b-0115",
+      "turkish": "(birinden / bir şeyden) bahsetmek",
+      "english": "to mention / talk about",
+      "priority": 3,
+      "tags": [],
+      "source": "Unit_3B_manual",
+      "notes": "manual entry",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3b-0116",
+      "turkish": "(birinden / bir yerden) ayrılmak",
+      "english": "to leave / separate; to break up (from someone)",
+      "priority": 3,
+      "tags": [],
+      "source": "Unit_3B_manual",
+      "notes": "manual entry",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3b-0117",
+      "turkish": "(birinden / bir şeyden) nefret etmek",
+      "english": "to hate",
+      "priority": 3,
+      "tags": [],
+      "source": "Unit_3B_manual",
+      "notes": "manual entry",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3b-0118",
+      "turkish": "(birinden / bir şeyden) sıkılmak",
+      "english": "to be bored of/with; to get bored of",
+      "priority": 3,
+      "tags": [],
+      "source": "Unit_3B_manual",
+      "notes": "manual entry",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3b-0119",
+      "turkish": "(birinden / bir şeyden) hoşlanmak",
+      "english": "to like",
+      "priority": 3,
+      "tags": [],
+      "source": "Unit_3B_manual",
+      "notes": "manual entry",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3b-0120",
+      "turkish": "(birinden / bir şeyden) korkmak",
+      "english": "to be afraid of",
+      "priority": 3,
+      "tags": [],
+      "source": "Unit_3B_manual",
+      "notes": "manual entry",
+      "status": "approved"
+    }
+  ]
+}
