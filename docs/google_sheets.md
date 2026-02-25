@@ -40,6 +40,11 @@ function doPost(e) {
 }
 
 function doGet(e) {
+  var data = e && e.parameter ? e.parameter : {};
+  if (!data.api_key || data.api_key !== EXPECTED_API_KEY) {
+    return ContentService.createTextOutput("Unauthorized");
+  }
+
   var sheet = SpreadsheetApp.getActive().getSheetByName("Results");
   if (!sheet) {
     return ContentService.createTextOutput("timestamp,word_id,mode,correct");

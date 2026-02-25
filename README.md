@@ -74,6 +74,7 @@ Notes:
    python3 scripts/tests/compare_today_scoring_integration.py
 - Optional env vars:
    RESULTS_ENDPOINT=https://script.google.com/.../exec
+   RESULTS_API_KEY=your_key
    TODAY_LIMIT=30
    TODAY_MODE=en-tr
    TODAY_SCORE_TOLERANCE=1e-4

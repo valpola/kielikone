@@ -244,6 +244,12 @@ const recomputeToday = async () => {
     return;
   }
 
+  ensureApiKey();
+  if (!getApiKey()) {
+    window.alert("API key is required to fetch results.");
+    return;
+  }
+
   RECOMPUTE_TODAY.disabled = true;
   const previousLabel = RECOMPUTE_TODAY.textContent;
   RECOMPUTE_TODAY.textContent = "Recomputing...";

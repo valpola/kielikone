@@ -6,6 +6,7 @@ import re
 import subprocess
 import sys
 import tempfile
+from urllib.parse import parse_qsl, urlencode, urlparse, urlunparse
 from datetime import UTC, datetime
 from pathlib import Path
 
@@ -25,6 +26,9 @@ from build_today import (  # noqa: E402
 TOLERANCE = float(os.environ.get("TODAY_SCORE_TOLERANCE", "1e-4"))
 DEFAULT_LIMIT = int(os.environ.get("TODAY_LIMIT", "30"))
 DEFAULT_MODE = os.environ.get("TODAY_MODE", "en-tr")
+RESULTS_API_KEY = os.environ.get("RESULTS_API_KEY", "").strip() or os.environ.get(
+    "TR_QUIZ_API_KEY", ""
+).strip()
 
 
 def read_endpoint_from_config() -> str:
@@ -38,8 +42,17 @@ def read_endpoint_from_config() -> str:
 
 def build_csv_url(endpoint: str) -> str:
     if "?" in endpoint:
-        return f"{endpoint}&format=csv"
-    return f"{endpoint}?format=csv"
+        url = f"{endpoint}&format=csv"
+    else:
+        url = f"{endpoint}?format=csv"
+    if not RESULTS_API_KEY:
+        return url
+    parsed = urlparse(url)
+    query = dict(parse_qsl(parsed.query, keep_blank_values=True))
+    if "api_key" not in query:
+        query["api_key"] = RESULTS_API_KEY
+    updated = parsed._replace(query=urlencode(query))
+    return urlunparse(updated)
 
 
 def load_quiz_items() -> list[dict[str, object]]:
