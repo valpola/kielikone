@@ -1,0 +1,570 @@
+{
+  "source_file": "A1_Cases_and_Verbs.pdf",
+  "created_at": "2026-02-25T00:00:00Z",
+  "items": [
+    {
+      "id": "cand-a1-cases-0001",
+      "turkish": "(bir şeyi) anlamak",
+      "english": "to understand sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ],
+      "source": "A1_Cases_and_Verbs.pdf",
+      "notes": "accusative",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-cases-0002",
+      "turkish": "(bir şeyi) beklemek",
+      "english": "to wait sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ],
+      "source": "A1_Cases_and_Verbs.pdf",
+      "notes": "accusative",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-cases-0003",
+      "turkish": "(bir şeyi) bilmek",
+      "english": "to know sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ],
+      "source": "A1_Cases_and_Verbs.pdf",
+      "notes": "accusative",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-cases-0004",
+      "turkish": "(bir şeyi) dört gözle beklemek",
+      "english": "to look forward to sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ],
+      "source": "A1_Cases_and_Verbs.pdf",
+      "notes": "accusative",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-cases-0005",
+      "turkish": "(bir şeyi) düşünmek",
+      "english": "to think sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ],
+      "source": "A1_Cases_and_Verbs.pdf",
+      "notes": "accusative",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-cases-0006",
+      "turkish": "(bir şeyi) istemek",
+      "english": "to want sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ],
+      "source": "A1_Cases_and_Verbs.pdf",
+      "notes": "accusative",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-cases-0007",
+      "turkish": "(bir şeyi) kabul etmek",
+      "english": "to accept sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ],
+      "source": "A1_Cases_and_Verbs.pdf",
+      "notes": "accusative",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-cases-0008",
+      "turkish": "(bir şeyi) kolaylaştırmak",
+      "english": "to ease sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ],
+      "source": "A1_Cases_and_Verbs.pdf",
+      "notes": "accusative",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-cases-0009",
+      "turkish": "(bir şeyi) öğrenmek",
+      "english": "to learn sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ],
+      "source": "A1_Cases_and_Verbs.pdf",
+      "notes": "accusative",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-cases-0010",
+      "turkish": "(bir şeyi) önermek",
+      "english": "to suggest sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ],
+      "source": "A1_Cases_and_Verbs.pdf",
+      "notes": "accusative",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-cases-0011",
+      "turkish": "(bir şeyi) özlemek",
+      "english": "to miss sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ],
+      "source": "A1_Cases_and_Verbs.pdf",
+      "notes": "accusative",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-cases-0012",
+      "turkish": "(bir şeyi) planlamak",
+      "english": "to plan sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ],
+      "source": "A1_Cases_and_Verbs.pdf",
+      "notes": "accusative",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-cases-0013",
+      "turkish": "(birini) rahatlatmak",
+      "english": "to relieve sb.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ],
+      "source": "A1_Cases_and_Verbs.pdf",
+      "notes": "accusative",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-cases-0014",
+      "turkish": "(bir şeyi) reddetmek",
+      "english": "to deny sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ],
+      "source": "A1_Cases_and_Verbs.pdf",
+      "notes": "accusative",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-cases-0015",
+      "turkish": "(bir şeyi) rica etmek",
+      "english": "to request sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ],
+      "source": "A1_Cases_and_Verbs.pdf",
+      "notes": "accusative",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-cases-0016",
+      "turkish": "(bir şeyi) sevmek",
+      "english": "to love sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ],
+      "source": "A1_Cases_and_Verbs.pdf",
+      "notes": "accusative",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-cases-0017",
+      "turkish": "(bir şeyi) tercih etmek",
+      "english": "to prefer sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ],
+      "source": "A1_Cases_and_Verbs.pdf",
+      "notes": "accusative",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-cases-0018",
+      "turkish": "(bir şeyi) unutmak",
+      "english": "to forget sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ],
+      "source": "A1_Cases_and_Verbs.pdf",
+      "notes": "accusative",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-cases-0019",
+      "turkish": "(birini) üzmek",
+      "english": "to upset sb.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ],
+      "source": "A1_Cases_and_Verbs.pdf",
+      "notes": "accusative",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-cases-0020",
+      "turkish": "(bir şeyi) zorlaştırmak",
+      "english": "to make difficult sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ],
+      "source": "A1_Cases_and_Verbs.pdf",
+      "notes": "accusative",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-cases-0021",
+      "turkish": "(bir şeye) alışmak",
+      "english": "to get used to sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ],
+      "source": "A1_Cases_and_Verbs.pdf",
+      "notes": "accusative",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-cases-0022",
+      "turkish": "(bir şeye) başlamak",
+      "english": "to start sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ],
+      "source": "A1_Cases_and_Verbs.pdf",
+      "notes": "accusative",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-cases-0023",
+      "turkish": "(bir şeye) bayılmak",
+      "english": "to be crazy about sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ],
+      "source": "A1_Cases_and_Verbs.pdf",
+      "notes": "accusative",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-cases-0024",
+      "turkish": "(bir şeye) çalışmak",
+      "english": "to work sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ],
+      "source": "A1_Cases_and_Verbs.pdf",
+      "notes": "accusative",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-cases-0025",
+      "turkish": "(bir şeye) devam etmek",
+      "english": "to continue sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ],
+      "source": "A1_Cases_and_Verbs.pdf",
+      "notes": "accusative",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-cases-0026",
+      "turkish": "(bir şeye) izin vermek",
+      "english": "to allow sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ],
+      "source": "A1_Cases_and_Verbs.pdf",
+      "notes": "accusative",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-cases-0027",
+      "turkish": "(bir şeye) karar vermek",
+      "english": "to decide sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ],
+      "source": "A1_Cases_and_Verbs.pdf",
+      "notes": "dative",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-cases-0028",
+      "turkish": "(bir şeye) karışmak",
+      "english": "to meddle sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ],
+      "source": "A1_Cases_and_Verbs.pdf",
+      "notes": "dative",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-cases-0029",
+      "turkish": "(bir şeye) kızmak",
+      "english": "to be angry sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ],
+      "source": "A1_Cases_and_Verbs.pdf",
+      "notes": "dative",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-cases-0030",
+      "turkish": "(bir şeye) sevinmek",
+      "english": "to be happy sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ],
+      "source": "A1_Cases_and_Verbs.pdf",
+      "notes": "dative",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-cases-0031",
+      "turkish": "(bir şeye) sinirlenmek",
+      "english": "to get angry sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ],
+      "source": "A1_Cases_and_Verbs.pdf",
+      "notes": "dative",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-cases-0032",
+      "turkish": "(bir şeye) söz vermek",
+      "english": "to promise sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ],
+      "source": "A1_Cases_and_Verbs.pdf",
+      "notes": "dative",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-cases-0033",
+      "turkish": "(bir şeye) şaşırmak",
+      "english": "to get surprised sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ],
+      "source": "A1_Cases_and_Verbs.pdf",
+      "notes": "dative",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-cases-0034",
+      "turkish": "(bir şeye) üşenmek",
+      "english": "to feel lazy sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ],
+      "source": "A1_Cases_and_Verbs.pdf",
+      "notes": "dative",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-cases-0035",
+      "turkish": "(bir şeye) üzülmek",
+      "english": "to get sad sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ],
+      "source": "A1_Cases_and_Verbs.pdf",
+      "notes": "dative",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-cases-0036",
+      "turkish": "(bir şeyde) ısrar etmek / ısrarcı olmak",
+      "english": "to insist / to be insistent on sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ],
+      "source": "A1_Cases_and_Verbs.pdf",
+      "notes": "locative",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-cases-0037",
+      "turkish": "(bir şeyde) iyi / kötü olmak",
+      "english": "to be good / bad at sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ],
+      "source": "A1_Cases_and_Verbs.pdf",
+      "notes": "locative",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-cases-0038",
+      "turkish": "(bir şeyden) bıkmak",
+      "english": "to be fed up with sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ],
+      "source": "A1_Cases_and_Verbs.pdf",
+      "notes": "ablative",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-cases-0039",
+      "turkish": "(bir şeyden) hoşlanmak",
+      "english": "to enjoy sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ],
+      "source": "A1_Cases_and_Verbs.pdf",
+      "notes": "ablative",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-cases-0040",
+      "turkish": "(bir şeyden) korkmak",
+      "english": "to get afraid of sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ],
+      "source": "A1_Cases_and_Verbs.pdf",
+      "notes": "ablative",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-cases-0041",
+      "turkish": "(bir şeyden) memnun olmak",
+      "english": "to be pleased with sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ],
+      "source": "A1_Cases_and_Verbs.pdf",
+      "notes": "ablative",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-cases-0042",
+      "turkish": "(bir şeyden) nefret etmek",
+      "english": "to hate sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ],
+      "source": "A1_Cases_and_Verbs.pdf",
+      "notes": "ablative",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-cases-0043",
+      "turkish": "(bir şeyden) rahatsız olmak",
+      "english": "to be annoyed sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ],
+      "source": "A1_Cases_and_Verbs.pdf",
+      "notes": "ablative",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-cases-0044",
+      "turkish": "(bir şeyden) sıkılmak",
+      "english": "to get tired of sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ],
+      "source": "A1_Cases_and_Verbs.pdf",
+      "notes": "ablative",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-cases-0045",
+      "turkish": "(bir şeyden) şikayetçi olmak",
+      "english": "to complain about sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ],
+      "source": "A1_Cases_and_Verbs.pdf",
+      "notes": "ablative",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-cases-0046",
+      "turkish": "(bir şeyden) utanmak",
+      "english": "to be shy about sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ],
+      "source": "A1_Cases_and_Verbs.pdf",
+      "notes": "ablative",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-cases-0047",
+      "turkish": "(bir şeyden) vazgeçmek",
+      "english": "to give up on sth.",
+      "priority": 3,
+      "tags": [
+        "verb"
+      ],
+      "source": "A1_Cases_and_Verbs.pdf",
+      "notes": "ablative",
+      "status": "approved"
+    }
+  ]
+}
