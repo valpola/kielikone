@@ -61,6 +61,23 @@ Notes:
 - If data/aliases.json exists, build_today uses it to merge results across
    duplicate IDs.
 
+## Web today recompute
+- The web app can recompute daily words locally using the Apps Script doGet CSV.
+- Run `python3 scripts/export_quiz.py` so the web app has `web/data/aliases.json`.
+- Use the Options menu to set the daily limit and click "Recompute today".
+- The computed list is stored in localStorage only.
+
+## Today scoring tests
+- Offline (fixture-based):
+   node scripts/tests/test_today_scoring_offline.js
+- Live integration (hits Google Sheet):
+   python3 scripts/tests/compare_today_scoring_integration.py
+- Optional env vars:
+   RESULTS_ENDPOINT=https://script.google.com/.../exec
+   TODAY_LIMIT=30
+   TODAY_MODE=en-tr
+   TODAY_SCORE_TOLERANCE=1e-4
+
 ## Test results endpoint
 Run:
    make test-results

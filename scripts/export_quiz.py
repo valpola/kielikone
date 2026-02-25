@@ -9,7 +9,9 @@ ROOT = Path(__file__).resolve().parents[1]
 LEXICON_PATH = ROOT / "data" / "lexicon.json"
 VOCAB_DIR = ROOT / "data" / "vocab"
 TAGS_PATH = ROOT / "data" / "tags.json"
+ALIASES_PATH = ROOT / "data" / "aliases.json"
 OUT_PATH = ROOT / "web" / "data" / "quiz.json"
+OUT_ALIASES_PATH = ROOT / "web" / "data" / "aliases.json"
 
 
 def load_tags() -> list[dict[str, Any]]:
@@ -47,6 +49,22 @@ def load_items() -> list[dict[str, Any]]:
     return data.get("items", [])
 
 
+def load_aliases() -> dict[str, str]:
+    if not ALIASES_PATH.exists():
+        return {}
+    raw = json.loads(ALIASES_PATH.read_text(encoding="utf-8"))
+    if not isinstance(raw, dict):
+        return {}
+    aliases = raw.get("aliases", {})
+    if not isinstance(aliases, dict):
+        return {}
+    return {
+        str(alias).strip(): str(canonical).strip()
+        for alias, canonical in aliases.items()
+        if str(alias).strip() and str(canonical).strip()
+    }
+
+
 def validate_item_tags(items: list[dict[str, Any]], tags: list[dict[str, Any]]) -> None:
     known = {tag["id"] for tag in tags}
     if not known:
@@ -68,6 +86,7 @@ def validate_item_tags(items: list[dict[str, Any]], tags: list[dict[str, Any]]) 
 def main() -> None:
     tags = load_tags()
     items = load_items()
+    aliases = load_aliases()
     validate_item_tags(items, tags)
 
     # Keep only fields the web app needs.
@@ -89,7 +108,13 @@ def main() -> None:
         encoding="utf-8",
     )
 
+    OUT_ALIASES_PATH.write_text(
+        json.dumps({"aliases": aliases}, ensure_ascii=True, indent=2),
+        encoding="utf-8",
+    )
+
     print(f"Wrote {len(quiz_items)} items to {OUT_PATH}")
+    print(f"Wrote {len(aliases)} aliases to {OUT_ALIASES_PATH}")
 
 
 if __name__ == "__main__":

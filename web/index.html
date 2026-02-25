@@ -66,12 +66,18 @@
             <span>Correct to finish (session)</span>
             <input id="session-target" type="number" min="1" step="1" />
           </label>
+          <label class="option-field">
+            <span>Daily words</span>
+            <input id="today-limit" type="number" min="1" step="1" />
+          </label>
+          <button id="recompute-today" class="ghost">Recompute today</button>
           <button id="next" class="ghost">Next</button>
         </div>
       </details>
     </main>
 
-    <script src="config.js?v=20260222-2"></script>
-    <script src="app.js?v=20260222-2"></script>
+    <script src="config.js?v=20260225-1"></script>
+    <script src="today_scoring.js?v=20260225-1"></script>
+    <script src="app.js?v=20260225-1"></script>
   </body>
 </html>

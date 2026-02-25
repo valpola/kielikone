@@ -1,0 +1,6 @@
+timestamp,word_id,mode,correct
+2026-02-20 10:00:00,w1-alias,en-tr,true
+2026-02-21 12:00:00,w1,en-tr,false
+2026-02-21 12:00:00,w2,en-tr,false
+2026-02-22 09:00:00,w2,en-tr,true
+2026-02-22 11:00:00,w3,en-tr,true

@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "id": "w1",
+      "turkish": "bir",
+      "english": "one",
+      "priority": 3,
+      "tags": ["unit-1"]
+    },
+    {
+      "id": "w2",
+      "turkish": "iki",
+      "english": "two",
+      "priority": 3,
+      "tags": ["freq-100"]
+    },
+    {
+      "id": "w3",
+      "turkish": "uc",
+      "english": "three",
+      "priority": 3,
+      "tags": []
+    }
+  ],
+  "tags": [
+    {"id": "unit-1", "label": "Unit 1", "group": "unit"},
+    {"id": "freq-100", "label": "Top 100", "group": "freq"}
+  ]
+}

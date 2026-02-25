@@ -11,7 +11,7 @@ export: check-venv
 	$(PYTHON) scripts/export_quiz.py
 
 publish: export
-	git add data/vocab data/tags.json web/data/quiz.json
+	git add data/vocab data/tags.json web/data/quiz.json web/data/aliases.json
 	git commit -m "Update vocab" || true
 	git push
 

@@ -11,6 +11,8 @@ const MODE_BTNS = document.querySelectorAll(".mode-btn");
 const INCLUDE_TAGS = document.getElementById("include-tags");
 const EXCLUDE_TAGS = document.getElementById("exclude-tags");
 const SESSION_TARGET = document.getElementById("session-target");
+const TODAY_LIMIT = document.getElementById("today-limit");
+const RECOMPUTE_TODAY = document.getElementById("recompute-today");
 
 let mode = "en-tr";
 let items = [];
@@ -19,12 +21,17 @@ let current = null;
 let seen = 0;
 let correct = 0;
 const sessionCorrect = new Map();
+let computedToday = new Set();
+let aliases = {};
 
 const storageKey = (id) => `tr-quiz-${id}`;
 const INCLUDE_STORAGE = "tr-quiz-include-tags";
 const EXCLUDE_STORAGE = "tr-quiz-exclude-tags";
 const SESSION_TARGET_STORAGE = "tr-quiz-session-target";
 const DEFAULT_SESSION_TARGET = 2;
+const TODAY_LIMIT_STORAGE = "tr-quiz-today-limit";
+const TODAY_LIST_STORAGE = "tr-quiz-today-list";
+const DEFAULT_TODAY_LIMIT = 30;
 
 const todayStamp = () => new Date().toISOString().slice(0, 10);
 
@@ -124,11 +131,73 @@ const saveSessionTarget = () => {
   localStorage.setItem(SESSION_TARGET_STORAGE, String(getSessionTarget()));
 };
 
+const loadTodayLimit = () => {
+  const raw = Number(localStorage.getItem(TODAY_LIMIT_STORAGE));
+  const value = Number.isFinite(raw) && raw >= 1 ? Math.floor(raw) : DEFAULT_TODAY_LIMIT;
+  TODAY_LIMIT.value = String(value);
+};
+
+const getTodayLimit = () => {
+  const raw = Number(TODAY_LIMIT.value);
+  if (!Number.isFinite(raw) || raw < 1) return DEFAULT_TODAY_LIMIT;
+  return Math.floor(raw);
+};
+
+const saveTodayLimit = () => {
+  localStorage.setItem(TODAY_LIMIT_STORAGE, String(getTodayLimit()));
+};
+
+const loadStoredToday = () => {
+  const raw = localStorage.getItem(TODAY_LIST_STORAGE);
+  if (!raw) return new Set();
+  try {
+    const parsed = JSON.parse(raw);
+    if (parsed && parsed.date === todayStamp() && Array.isArray(parsed.ids)) {
+      return new Set(parsed.ids);
+    }
+  } catch {
+    return new Set();
+  }
+  return new Set();
+};
+
+const saveStoredToday = (ids) => {
+  localStorage.setItem(
+    TODAY_LIST_STORAGE,
+    JSON.stringify({ date: todayStamp(), ids: Array.from(ids) })
+  );
+};
+
 const getFilteredItems = () => {
   const include = selectedValues(INCLUDE_TAGS);
   const exclude = selectedValues(EXCLUDE_TAGS);
 
   return items.filter((item) => {
+    const itemTags = new Set(item.tags || []);
+    const isToday = itemTags.has("today") || computedToday.has(item.id);
+
+    for (const tagId of include) {
+      if (tagId === "today") {
+        if (!isToday) return false;
+        continue;
+      }
+      if (!itemTags.has(tagId)) return false;
+    }
+
+    for (const tagId of exclude) {
+      if (tagId === "today") {
+        if (isToday) return false;
+        continue;
+      }
+      if (itemTags.has(tagId)) return false;
+    }
+
+    return true;
+  });
+};
+
+const filterItemsByTags = (allItems, include, exclude) => {
+  return allItems.filter((item) => {
     const itemTags = new Set(item.tags || []);
 
     for (const tagId of include) {
@@ -141,6 +210,75 @@ const getFilteredItems = () => {
 
     return true;
   });
+};
+
+const getResultsCsvEndpoint = () => {
+  const endpoint = getResultsEndpoint();
+  if (!endpoint) return "";
+  if (endpoint.includes("?")) return `${endpoint}&format=csv`;
+  return `${endpoint}?format=csv`;
+};
+
+const fetchResultsCsv = async () => {
+  const endpoint = getResultsCsvEndpoint();
+  if (!endpoint) return "";
+  const url = new URL(endpoint);
+  const apiKey = getApiKey();
+  if (apiKey) url.searchParams.set("api_key", apiKey);
+  const response = await fetch(url.toString(), { cache: "no-store" });
+  if (!response.ok) {
+    throw new Error("Failed to fetch results");
+  }
+  return response.text();
+};
+
+const recomputeToday = async () => {
+  if (typeof TodayScoring === "undefined") {
+    window.alert("Today scoring module is missing.");
+    return;
+  }
+
+  const endpoint = getResultsEndpoint();
+  if (!endpoint) {
+    window.alert("Results endpoint is not configured.");
+    return;
+  }
+
+  RECOMPUTE_TODAY.disabled = true;
+  const previousLabel = RECOMPUTE_TODAY.textContent;
+  RECOMPUTE_TODAY.textContent = "Recomputing...";
+
+  try {
+    const csvText = await fetchResultsCsv();
+    if (!csvText) {
+      throw new Error("No results data received");
+    }
+
+    const rows = TodayScoring.parseCsv(csvText);
+    const events = TodayScoring.eventStream(rows, aliases);
+    const eventsByKey = TodayScoring.buildEventsByKey(events);
+
+    const include = selectedValues(INCLUDE_TAGS);
+    const exclude = selectedValues(EXCLUDE_TAGS);
+    include.delete("today");
+    exclude.delete("today");
+
+    const filtered = filterItemsByTags(items, include, exclude);
+    const scored = TodayScoring.scoreItems(filtered, eventsByKey, {
+      mode,
+      now: new Date(),
+    });
+
+    const topIds = TodayScoring.selectTopN(scored, getTodayLimit());
+    computedToday = new Set(topIds);
+    saveStoredToday(computedToday);
+    renderPrompt();
+  } catch (error) {
+    window.alert("Failed to recompute today list.");
+  } finally {
+    RECOMPUTE_TODAY.disabled = false;
+    RECOMPUTE_TODAY.textContent = previousLabel;
+  }
 };
 
 const weightForItem = (item) => {
@@ -310,6 +448,12 @@ SESSION_TARGET.addEventListener("change", () => {
   renderPrompt();
 });
 
+TODAY_LIMIT.addEventListener("change", () => {
+  saveTodayLimit();
+});
+
+RECOMPUTE_TODAY.addEventListener("click", recomputeToday);
+
 REVEAL.addEventListener("click", revealAnswer);
 NEXT.addEventListener("click", renderPrompt);
 MARK_CORRECT.addEventListener("click", () => grade(true));
@@ -351,8 +495,21 @@ const loadData = async () => {
   const data = await response.json();
   items = data.items || [];
   tagRegistry = data.tags || [];
+
+  try {
+    const aliasResponse = await fetch("data/aliases.json", { cache: "no-store" });
+    if (aliasResponse.ok) {
+      const aliasData = await aliasResponse.json();
+      aliases = aliasData.aliases || {};
+    }
+  } catch {
+    aliases = {};
+  }
+
   ensureApiKey();
   loadSessionTarget();
+  loadTodayLimit();
+  computedToday = loadStoredToday();
   renderTagOptions();
   renderMode();
   updateStats();
