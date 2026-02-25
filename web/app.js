@@ -219,10 +219,13 @@ const renderDebugControls = () => {
 const getFilteredItems = () => {
   const include = selectedValues(INCLUDE_TAGS);
   const exclude = selectedValues(EXCLUDE_TAGS);
+  const hasComputedToday = computedToday && computedToday.size > 0;
 
   return items.filter((item) => {
     const itemTags = new Set(item.tags || []);
-    const isToday = itemTags.has("today") || computedToday.has(item.id);
+    const isToday = hasComputedToday
+      ? computedToday.has(item.id)
+      : itemTags.has("today") || computedToday.has(item.id);
 
     for (const tagId of include) {
       if (tagId === "today") {
