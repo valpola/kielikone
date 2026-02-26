@@ -432,8 +432,7 @@
       "english": "Enjoy your meal!",
       "priority": 3,
       "tags": [
-        "unit-a1-1a",
-        "today"
+        "unit-a1-1a"
       ]
     },
     {
@@ -442,8 +441,7 @@
       "english": "Please!",
       "priority": 3,
       "tags": [
-        "unit-a1-1a",
-        "today"
+        "unit-a1-1a"
       ]
     },
     {
@@ -452,8 +450,7 @@
       "english": "Congratulations!",
       "priority": 3,
       "tags": [
-        "unit-a1-1a",
-        "today"
+        "unit-a1-1a"
       ]
     },
     {
@@ -462,8 +459,7 @@
       "english": "Have fun!",
       "priority": 3,
       "tags": [
-        "unit-a1-1a",
-        "today"
+        "unit-a1-1a"
       ]
     },
     {
@@ -472,8 +468,7 @@
       "english": "Enjoy your trip / Have a nice trip!",
       "priority": 3,
       "tags": [
-        "unit-a1-1a",
-        "today"
+        "unit-a1-1a"
       ]
     },
     {
@@ -482,8 +477,7 @@
       "english": "Good luck!",
       "priority": 3,
       "tags": [
-        "unit-a1-1a",
-        "today"
+        "unit-a1-1a"
       ]
     },
     {
@@ -492,8 +486,7 @@
       "english": "Happy Birthday!",
       "priority": 3,
       "tags": [
-        "unit-a1-1a",
-        "today"
+        "unit-a1-1a"
       ]
     },
     {
@@ -502,8 +495,7 @@
       "english": "Bless you!",
       "priority": 3,
       "tags": [
-        "unit-a1-1a",
-        "today"
+        "unit-a1-1a"
       ]
     },
     {
@@ -512,8 +504,7 @@
       "english": "Thank you, all together!",
       "priority": 3,
       "tags": [
-        "unit-a1-1a",
-        "today"
+        "unit-a1-1a"
       ]
     },
     {
@@ -522,8 +513,7 @@
       "english": "I'm sorry / I apologize.",
       "priority": 3,
       "tags": [
-        "unit-a1-1a",
-        "today"
+        "unit-a1-1a"
       ]
     },
     {
@@ -532,8 +522,7 @@
       "english": "Cheers!",
       "priority": 3,
       "tags": [
-        "unit-a1-1a",
-        "today"
+        "unit-a1-1a"
       ]
     },
     {
@@ -542,8 +531,7 @@
       "english": "Get well soon.",
       "priority": 3,
       "tags": [
-        "unit-a1-1a",
-        "today"
+        "unit-a1-1a"
       ]
     },
     {
@@ -562,8 +550,7 @@
       "english": "May your work be easy!",
       "priority": 3,
       "tags": [
-        "unit-a1-1a",
-        "today"
+        "unit-a1-1a"
       ]
     },
     {
@@ -572,8 +559,7 @@
       "english": "Okay!",
       "priority": 3,
       "tags": [
-        "unit-a1-1a",
-        "today"
+        "unit-a1-1a"
       ]
     },
     {
@@ -582,8 +568,7 @@
       "english": "Yes.",
       "priority": 3,
       "tags": [
-        "unit-a1-1a",
-        "today"
+        "unit-a1-1a"
       ]
     },
     {
@@ -592,8 +577,7 @@
       "english": "No.",
       "priority": 3,
       "tags": [
-        "unit-a1-1a",
-        "today"
+        "unit-a1-1a"
       ]
     },
     {
@@ -602,8 +586,7 @@
       "english": "I love you!",
       "priority": 3,
       "tags": [
-        "unit-a1-1a",
-        "today"
+        "unit-a1-1a"
       ]
     },
     {
@@ -3722,8 +3705,7 @@
       "english": "to understand sth.",
       "priority": 3,
       "tags": [
-        "verb",
-        "today"
+        "verb"
       ]
     },
     {
@@ -3732,8 +3714,7 @@
       "english": "to wait sth.",
       "priority": 3,
       "tags": [
-        "verb",
-        "today"
+        "verb"
       ]
     },
     {
@@ -3753,8 +3734,7 @@
       "english": "to look forward to sth.",
       "priority": 3,
       "tags": [
-        "verb",
-        "today"
+        "verb"
       ]
     },
     {
@@ -3783,8 +3763,7 @@
       "english": "to accept sth.",
       "priority": 3,
       "tags": [
-        "verb",
-        "today"
+        "verb"
       ]
     },
     {
@@ -3824,8 +3803,7 @@
       "english": "to miss sth.",
       "priority": 3,
       "tags": [
-        "verb",
-        "today"
+        "verb"
       ]
     },
     {
@@ -3834,8 +3812,7 @@
       "english": "to plan sth.",
       "priority": 3,
       "tags": [
-        "verb",
-        "today"
+        "verb"
       ]
     },
     {
@@ -3864,7 +3841,8 @@
       "english": "to request sth.",
       "priority": 3,
       "tags": [
-        "verb"
+        "verb",
+        "today"
       ]
     },
     {
@@ -3893,7 +3871,8 @@
       "english": "to forget sth.",
       "priority": 3,
       "tags": [
-        "verb"
+        "verb",
+        "today"
       ]
     },
     {
@@ -3902,7 +3881,8 @@
       "english": "to upset sb.",
       "priority": 3,
       "tags": [
-        "verb"
+        "verb",
+        "today"
       ]
     },
     {
@@ -3911,7 +3891,8 @@
       "english": "to make difficult sth.",
       "priority": 3,
       "tags": [
-        "verb"
+        "verb",
+        "today"
       ]
     },
     {
@@ -3920,7 +3901,8 @@
       "english": "to get used to sth.",
       "priority": 3,
       "tags": [
-        "verb"
+        "verb",
+        "today"
       ]
     },
     {
@@ -3940,7 +3922,8 @@
       "english": "to be crazy about sth.",
       "priority": 3,
       "tags": [
-        "verb"
+        "verb",
+        "today"
       ]
     },
     {
@@ -3970,7 +3953,8 @@
       "english": "to allow sth.",
       "priority": 3,
       "tags": [
-        "verb"
+        "verb",
+        "today"
       ]
     },
     {
@@ -3979,7 +3963,8 @@
       "english": "to decide sth.",
       "priority": 3,
       "tags": [
-        "verb"
+        "verb",
+        "today"
       ]
     },
     {
@@ -3988,7 +3973,8 @@
       "english": "to meddle sth.",
       "priority": 3,
       "tags": [
-        "verb"
+        "verb",
+        "today"
       ]
     },
     {
@@ -3997,7 +3983,8 @@
       "english": "to be happy sth.",
       "priority": 3,
       "tags": [
-        "verb"
+        "verb",
+        "today"
       ]
     },
     {
@@ -4006,7 +3993,8 @@
       "english": "to get angry sth.",
       "priority": 3,
       "tags": [
-        "verb"
+        "verb",
+        "today"
       ]
     },
     {
@@ -4015,7 +4003,8 @@
       "english": "to promise sth.",
       "priority": 3,
       "tags": [
-        "verb"
+        "verb",
+        "today"
       ]
     },
     {
@@ -4024,7 +4013,8 @@
       "english": "to get surprised sth.",
       "priority": 3,
       "tags": [
-        "verb"
+        "verb",
+        "today"
       ]
     },
     {
@@ -4033,7 +4023,8 @@
       "english": "to feel lazy sth.",
       "priority": 3,
       "tags": [
-        "verb"
+        "verb",
+        "today"
       ]
     },
     {
@@ -4042,7 +4033,8 @@
       "english": "to get sad sth.",
       "priority": 3,
       "tags": [
-        "verb"
+        "verb",
+        "today"
       ]
     },
     {
@@ -4051,7 +4043,8 @@
       "english": "to insist / to be insistent on sth.",
       "priority": 3,
       "tags": [
-        "verb"
+        "verb",
+        "today"
       ]
     },
     {
@@ -4060,7 +4053,8 @@
       "english": "to be good / bad at sth.",
       "priority": 3,
       "tags": [
-        "verb"
+        "verb",
+        "today"
       ]
     },
     {
@@ -4069,7 +4063,8 @@
       "english": "to be fed up with sth.",
       "priority": 3,
       "tags": [
-        "verb"
+        "verb",
+        "today"
       ]
     },
     {
@@ -4078,7 +4073,8 @@
       "english": "to be pleased with sth.",
       "priority": 3,
       "tags": [
-        "verb"
+        "verb",
+        "today"
       ]
     },
     {
@@ -4087,7 +4083,8 @@
       "english": "to be annoyed sth.",
       "priority": 3,
       "tags": [
-        "verb"
+        "verb",
+        "today"
       ]
     },
     {
@@ -4096,7 +4093,8 @@
       "english": "to complain about sth.",
       "priority": 3,
       "tags": [
-        "verb"
+        "verb",
+        "today"
       ]
     },
     {
@@ -4105,7 +4103,8 @@
       "english": "to be shy about sth.",
       "priority": 3,
       "tags": [
-        "verb"
+        "verb",
+        "today"
       ]
     },
     {
@@ -4114,7 +4113,8 @@
       "english": "to give up on sth.",
       "priority": 3,
       "tags": [
-        "verb"
+        "verb",
+        "today"
       ]
     },
     {
