@@ -111,6 +111,35 @@ def compute_python_scores(items, events_by_key, mode, now, aliases):
     return scored, scores_by_id
 
 
+def filter_items_by_tags(items, include_tags, exclude_tags):
+    include = set(include_tags or [])
+    exclude = set(exclude_tags or [])
+    filtered = []
+    for item in items:
+        tags = set(item.get("tags", []) or [])
+        if any(tag not in tags for tag in include):
+            continue
+        if any(tag in tags for tag in exclude):
+            continue
+        filtered.append(item)
+    return filtered
+
+
+def select_filter_tags(items):
+    counts: dict[str, int] = {}
+    for item in items:
+        for tag in item.get("tags", []) or []:
+            if tag == "today":
+                continue
+            counts[tag] = counts.get(tag, 0) + 1
+    if not counts:
+        return [], []
+    sorted_tags = sorted(counts.items(), key=lambda entry: (-entry[1], entry[0]))
+    include_tag = sorted_tags[0][0]
+    exclude_tag = sorted_tags[1][0] if len(sorted_tags) > 1 else None
+    return [include_tag], ([exclude_tag] if exclude_tag else [])
+
+
 def main() -> int:
     endpoint = os.environ.get("RESULTS_ENDPOINT", "").strip() or read_endpoint_from_config()
     if not endpoint:
@@ -141,77 +170,116 @@ def main() -> int:
     items = load_quiz_items()
     now = datetime.now(tz=UTC)
 
-    python_scored, python_scores = compute_python_scores(
-        items, events_by_key, DEFAULT_MODE, now, aliases
-    )
-    python_top_ids = [word_id for word_id, _ in python_scored[:DEFAULT_LIMIT]]
+    include_tags, exclude_tags = select_filter_tags(items)
+    alt_mode = "tr-en" if DEFAULT_MODE != "tr-en" else "en-tr"
 
-    with tempfile.TemporaryDirectory() as tmp_dir:
-        input_path = Path(tmp_dir) / "input.json"
-        input_path.write_text(
-            json.dumps(
-                {
-                    "csvText": csv_text,
-                    "quizItems": items,
-                    "aliases": aliases,
-                    "mode": DEFAULT_MODE,
-                    "limit": DEFAULT_LIMIT,
-                    "now": now.isoformat(),
-                },
-                ensure_ascii=True,
-            ),
-            encoding="utf-8",
+    cases = [
+        {
+            "name": "default",
+            "mode": DEFAULT_MODE,
+            "include_tags": [],
+            "exclude_tags": [],
+            "limit": DEFAULT_LIMIT,
+        },
+        {
+            "name": "filtered-mode",
+            "mode": alt_mode,
+            "include_tags": include_tags,
+            "exclude_tags": exclude_tags,
+            "limit": None,
+        },
+    ]
+
+    node_script = ROOT / "scripts" / "tests" / "run_today_scoring_node.js"
+
+    for case in cases:
+        filtered_items = filter_items_by_tags(
+            items, case["include_tags"], case["exclude_tags"]
         )
+        limit = case["limit"]
+        if limit is None:
+            limit = min(DEFAULT_LIMIT, len(filtered_items)) if filtered_items else 0
 
-        node_script = ROOT / "scripts" / "tests" / "run_today_scoring_node.js"
-        result = subprocess.run(
-            ["node", str(node_script), str(input_path)],
-            check=False,
-            capture_output=True,
-            text=True,
+        python_scored, python_scores = compute_python_scores(
+            filtered_items, events_by_key, case["mode"], now, aliases
         )
+        python_top_ids = [word_id for word_id, _ in python_scored[:limit]]
 
-        if result.returncode != 0:
-            print("ERROR: Node scoring failed.")
-            print(result.stderr.strip())
-            return 2
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            input_path = Path(tmp_dir) / "input.json"
+            input_path.write_text(
+                json.dumps(
+                    {
+                        "csvText": csv_text,
+                        "quizItems": items,
+                        "aliases": aliases,
+                        "mode": case["mode"],
+                        "limit": limit,
+                        "now": now.isoformat(),
+                        "includeTags": case["include_tags"],
+                        "excludeTags": case["exclude_tags"],
+                    },
+                    ensure_ascii=True,
+                ),
+                encoding="utf-8",
+            )
 
-        payload = json.loads(result.stdout)
+            result = subprocess.run(
+                ["node", str(node_script), str(input_path)],
+                check=False,
+                capture_output=True,
+                text=True,
+            )
 
-    if payload.get("rowsCount") != len(rows):
-        print("ERROR: Row count mismatch.")
-        print("Python:", len(rows), "Node:", payload.get("rowsCount"))
-        return 1
+            if result.returncode != 0:
+                print(f"ERROR: Node scoring failed ({case['name']}).")
+                print(result.stderr.strip())
+                return 2
 
-    if payload.get("eventsCount") != len(events):
-        print("ERROR: Event count mismatch.")
-        print("Python:", len(events), "Node:", payload.get("eventsCount"))
-        return 1
+            payload = json.loads(result.stdout)
 
-    node_scores = payload.get("scores", {})
-    mismatches = []
-    for word_id, score in python_scores.items():
-        if word_id not in node_scores:
-            mismatches.append((word_id, "missing", None))
-            continue
-        delta = abs(score - float(node_scores[word_id]))
-        if delta > TOLERANCE:
-            mismatches.append((word_id, score, node_scores[word_id]))
-            if len(mismatches) >= 5:
-                break
+        if payload.get("rowsCount") != len(rows):
+            print(f"ERROR: Row count mismatch ({case['name']}).")
+            print("Python:", len(rows), "Node:", payload.get("rowsCount"))
+            return 1
 
-    if mismatches:
-        print("ERROR: Score mismatches beyond tolerance.")
-        for entry in mismatches:
-            print(entry)
-        return 1
+        if payload.get("eventsCount") != len(events):
+            print(f"ERROR: Event count mismatch ({case['name']}).")
+            print("Python:", len(events), "Node:", payload.get("eventsCount"))
+            return 1
 
-    node_top_ids = payload.get("topIds", [])
-    if node_top_ids != python_top_ids:
-        print("ERROR: Top-N mismatch.")
-        print("Python:", python_top_ids)
-        print("Node:", node_top_ids)
-        return 1
+        node_filtered_ids = payload.get("filteredIds", [])
+        python_filtered_ids = [item.get("id") for item in filtered_items]
+        if node_filtered_ids != python_filtered_ids:
+            print(f"ERROR: Filtered IDs mismatch ({case['name']}).")
+            print("Python:", python_filtered_ids[:10])
+            print("Node:", node_filtered_ids[:10])
+            return 1
+
+        node_scores = payload.get("scores", {})
+        mismatches = []
+        for word_id, score in python_scores.items():
+            if word_id not in node_scores:
+                mismatches.append((word_id, "missing", None))
+                continue
+            delta = abs(score - float(node_scores[word_id]))
+            if delta > TOLERANCE:
+                mismatches.append((word_id, score, node_scores[word_id]))
+                if len(mismatches) >= 5:
+                    break
+
+        if mismatches:
+            print(f"ERROR: Score mismatches beyond tolerance ({case['name']}).")
+            for entry in mismatches:
+                print(entry)
+            return 1
+
+        node_top_ids = payload.get("topIds", [])
+        if node_top_ids != python_top_ids:
+            print(f"ERROR: Top-N mismatch ({case['name']}).")
+            print("Python:", python_top_ids)
+            print("Node:", node_top_ids)
+            return 1
 
     print("Live today scoring integration tests passed.")
     return 0

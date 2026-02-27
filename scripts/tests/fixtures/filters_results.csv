@@ -1,0 +1,5 @@
+timestamp,word_id,mode,correct
+2026-02-20 10:00:00,verb-1,tr-en,false
+2026-02-21 10:00:00,verb-1,tr-en,false
+2026-02-20 10:00:00,verb-2,tr-en,true
+2026-02-21 10:00:00,noun-1,en-tr,false

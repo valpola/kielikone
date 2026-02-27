@@ -1,0 +1,30 @@
+{
+  "items": [
+    {
+      "id": "verb-1",
+      "turkish": "yapmak",
+      "english": "to do",
+      "priority": 3,
+      "tags": ["verb", "unit-a1"]
+    },
+    {
+      "id": "verb-2",
+      "turkish": "gitmek",
+      "english": "to go",
+      "priority": 3,
+      "tags": ["verb", "unit-a1"]
+    },
+    {
+      "id": "noun-1",
+      "turkish": "ev",
+      "english": "house",
+      "priority": 3,
+      "tags": ["noun", "unit-a1"]
+    }
+  ],
+  "tags": [
+    { "id": "verb", "label": "Verb", "group": "part_of_speech" },
+    { "id": "noun", "label": "Noun", "group": "part_of_speech" },
+    { "id": "unit-a1", "label": "Unit A1", "group": "unit" }
+  ]
+}

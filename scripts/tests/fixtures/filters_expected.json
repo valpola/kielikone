@@ -1,0 +1,21 @@
+{
+  "now": "2026-02-25T00:00:00+00:00",
+  "cases": [
+    {
+      "name": "include-verb-tr-en",
+      "mode": "tr-en",
+      "limit": 1,
+      "include_tags": ["verb"],
+      "exclude_tags": [],
+      "top_ids": ["verb-1"]
+    },
+    {
+      "name": "exclude-noun-en-tr",
+      "mode": "en-tr",
+      "limit": 2,
+      "include_tags": [],
+      "exclude_tags": ["noun"],
+      "top_ids": ["verb-1", "verb-2"]
+    }
+  ]
+}
