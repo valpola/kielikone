@@ -15,7 +15,9 @@ const TODAY_LIMIT = document.getElementById("today-limit");
 const RECOMPUTE_TODAY = document.getElementById("recompute-today");
 const OPTIONS_GRID = document.querySelector(".options-grid");
 
-let mode = "en-tr";
+const MODE_STORAGE = "tr-quiz-mode";
+const DEFAULT_MODE = "en-tr";
+let mode = DEFAULT_MODE;
 let items = [];
 let tagRegistry = [];
 let current = null;
@@ -348,6 +350,18 @@ const recomputeToday = async () => {
   }
 };
 
+const loadMode = () => {
+  const raw = localStorage.getItem(MODE_STORAGE);
+  if (!raw) return;
+  const value = String(raw).toLowerCase();
+  const allowedModes = new Set(
+    Array.from(MODE_BTNS).map((btn) => String(btn.dataset.mode || "").toLowerCase())
+  );
+  if (allowedModes.has(value)) {
+    mode = value;
+  }
+};
+
 const weightForItem = (item) => {
   const stats = getLocalStats(item.id);
   const priority = Math.max(1, Math.min(5, Number(item.priority || 1)));
@@ -493,6 +507,7 @@ const grade = (isCorrect) => {
 MODE_BTNS.forEach((btn) => {
   btn.addEventListener("click", () => {
     mode = btn.dataset.mode;
+    localStorage.setItem(MODE_STORAGE, mode);
     renderMode();
     renderPrompt();
   });
@@ -578,6 +593,7 @@ const loadData = async () => {
   ensureApiKey();
   loadSessionTarget();
   loadTodayLimit();
+  loadMode();
   computedToday = loadStoredToday();
   renderDebugControls();
   renderTagOptions();
