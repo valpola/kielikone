@@ -567,8 +567,7 @@
       "priority": 3,
       "tags": [
         "unit-a1-1a",
-        "expression",
-        "today"
+        "expression"
       ]
     },
     {
@@ -1890,8 +1889,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b",
-        "today"
+        "unit-a1-2b"
       ]
     },
     {
@@ -3306,7 +3304,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3b",
-        "verb"
+        "verb",
+        "today"
       ]
     },
     {
@@ -3336,7 +3335,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3b",
-        "verb"
+        "verb",
+        "today"
       ]
     },
     {
@@ -3396,7 +3396,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3b",
-        "verb"
+        "verb",
+        "today"
       ]
     },
     {
@@ -3406,7 +3407,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3b",
-        "verb"
+        "verb",
+        "today"
       ]
     },
     {
@@ -3416,7 +3418,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3b",
-        "verb"
+        "verb",
+        "today"
       ]
     },
     {
@@ -3587,7 +3590,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3b",
-        "verb"
+        "verb",
+        "today"
       ]
     },
     {
@@ -3597,7 +3601,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3b",
-        "verb"
+        "verb",
+        "today"
       ]
     },
     {
@@ -3607,7 +3612,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3b",
-        "verb"
+        "verb",
+        "today"
       ]
     },
     {
@@ -3617,7 +3623,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3b",
-        "verb"
+        "verb",
+        "today"
       ]
     },
     {
@@ -3627,7 +3634,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3b",
-        "verb"
+        "verb",
+        "today"
       ]
     },
     {
@@ -3648,7 +3656,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3b",
-        "verb"
+        "verb",
+        "today"
       ]
     },
     {
@@ -3669,7 +3678,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3b",
-        "verb"
+        "verb",
+        "today"
       ]
     },
     {
@@ -3680,7 +3690,8 @@
       "tags": [
         "unit-a1-3b",
         "verb",
-        "unit-a1-3a"
+        "unit-a1-3a",
+        "today"
       ]
     },
     {
@@ -3720,7 +3731,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3b",
-        "verb"
+        "verb",
+        "today"
       ]
     },
     {
@@ -3730,7 +3742,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3b",
-        "verb"
+        "verb",
+        "today"
       ]
     },
     {
@@ -3752,7 +3765,8 @@
       "tags": [
         "unit-a1-3b",
         "verb",
-        "unit-a1"
+        "unit-a1",
+        "today"
       ]
     },
     {
@@ -3763,7 +3777,8 @@
       "tags": [
         "unit-a1-3b",
         "verb",
-        "unit-a1"
+        "unit-a1",
+        "today"
       ]
     },
     {
@@ -3774,7 +3789,8 @@
       "tags": [
         "unit-a1-3b",
         "verb",
-        "unit-a1"
+        "unit-a1",
+        "today"
       ]
     },
     {
@@ -3794,7 +3810,8 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1"
+        "unit-a1",
+        "today"
       ]
     },
     {
@@ -3806,7 +3823,8 @@
         "verb",
         "unit-a1",
         "unit-a1-3b",
-        "unit-a1-3a"
+        "unit-a1-3a",
+        "today"
       ]
     },
     {
@@ -3859,8 +3877,7 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1",
-        "today"
+        "unit-a1"
       ]
     },
     {
@@ -3882,8 +3899,7 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1",
-        "today"
+        "unit-a1"
       ]
     },
     {
@@ -3913,8 +3929,7 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1",
-        "today"
+        "unit-a1"
       ]
     },
     {
@@ -3924,8 +3939,7 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1",
-        "today"
+        "unit-a1"
       ]
     },
     {
@@ -3935,8 +3949,7 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1",
-        "today"
+        "unit-a1"
       ]
     },
     {
@@ -4022,8 +4035,7 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1",
-        "today"
+        "unit-a1"
       ]
     },
     {
@@ -4056,8 +4068,7 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1",
-        "today"
+        "unit-a1"
       ]
     },
     {
@@ -4067,8 +4078,7 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1",
-        "today"
+        "unit-a1"
       ]
     },
     {
@@ -4078,8 +4088,7 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1",
-        "today"
+        "unit-a1"
       ]
     },
     {
@@ -4100,8 +4109,7 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1",
-        "today"
+        "unit-a1"
       ]
     },
     {
@@ -4111,8 +4119,7 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1",
-        "today"
+        "unit-a1"
       ]
     },
     {
@@ -4144,8 +4151,7 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1",
-        "today"
+        "unit-a1"
       ]
     },
     {
@@ -4166,8 +4172,7 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1",
-        "today"
+        "unit-a1"
       ]
     },
     {
@@ -4188,8 +4193,7 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1",
-        "today"
+        "unit-a1"
       ]
     },
     {
@@ -4199,8 +4203,7 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1",
-        "today"
+        "unit-a1"
       ]
     },
     {
@@ -4210,8 +4213,7 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1",
-        "today"
+        "unit-a1"
       ]
     },
     {
@@ -4221,8 +4223,7 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1",
-        "today"
+        "unit-a1"
       ]
     },
     {
@@ -4232,8 +4233,7 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1",
-        "today"
+        "unit-a1"
       ]
     },
     {
