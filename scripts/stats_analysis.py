@@ -115,44 +115,34 @@ def show_events(word_id: str) -> None:
 # show_events("cand-a1-2a-0002")
 
 # %%
-# Unique words in quiz.json (not all of these may have results,
+# Unique words in reviewed.json (not all of these may have results,
 # but this is the set of words we care about).
 vocab_words = set()
-quiz_items: list[dict[str, object]] = []
-quiz_paths = [ROOT / "web" / "data" / "quiz.json", ROOT / "data" / "quiz.json"]
-for quiz_path in quiz_paths:
-    if not quiz_path.exists():
-        continue
-    quiz_raw = quiz_path.read_text(encoding="utf-8")
-    quiz_data = json.loads(quiz_raw)
-    quiz_items = quiz_data.get("items", []) or []
-    for item in quiz_data.get("items", []):
+reviewed_items: list[dict[str, object]] = []
+reviewed_path = ROOT / "data" / "vocab" / "reviewed.json"
+if reviewed_path.exists():
+    reviewed_raw = reviewed_path.read_text(encoding="utf-8")
+    reviewed_items = json.loads(reviewed_raw).get("items", []) or []
+    for item in reviewed_items:
         item_id = str(item.get("id", "")).strip()
         if item_id:
             vocab_words.add(item_id)
-    break
-print(f"Unique words in quiz.json: {len(vocab_words)}")
+print(f"Unique words in reviewed.json: {len(vocab_words)}")
 
 # %%
 # Create a mapping from word_id to Turkish for easy debugging.
 id_to_tr: dict[str, str] = {}
 id_to_en: dict[str, str] = {}
 id_to_tags: dict[str, list[str]] = {}
-for quiz_path in quiz_paths:
-    if not quiz_path.exists():
-        continue
-    quiz_raw = quiz_path.read_text(encoding="utf-8")
-    quiz_data = json.loads(quiz_raw)
-    for item in quiz_data.get("items", []):
-        item_id = str(item.get("id", "")).strip()
-        turkish = str(item.get("turkish", "")).strip()
-        english = str(item.get("english", "")).strip()
-        tags = item.get("tags", []) or []
-        if item_id and turkish:
-            id_to_tr[item_id] = turkish
-            id_to_en[item_id] = english
-            id_to_tags[item_id] = tags
-    break
+for item in reviewed_items:
+    item_id = str(item.get("id", "")).strip()
+    turkish = str(item.get("turkish", "")).strip()
+    english = str(item.get("english", "")).strip()
+    tags = item.get("tags", []) or []
+    if item_id and turkish:
+        id_to_tr[item_id] = turkish
+        id_to_en[item_id] = english
+        id_to_tags[item_id] = tags
 
 # %%
 # Build canonical mapping to avoid duplicate alias rows in reports.
@@ -167,44 +157,44 @@ def display_label(word_id: str) -> str:
     return id_to_en.get(word_id, "")
 
 
-# Show words that have no "en-tr" results.
+# Show words that have no results for MODE.
 total_unscored = 0
 for canonical in sorted(canonical_vocab_words):
-    key = (canonical, "en-tr")
+    key = (canonical, MODE)
     if key not in events_by_key:
         label_id = canonical_to_ids.get(canonical, [canonical])[0]
-        print(f"No en-tr results for {canonical} = {display_label(label_id)}")
+        print(f"No {MODE} results for {canonical} = {display_label(label_id)}")
         total_unscored += 1
 print(f"Total unscored words: {total_unscored}")
 
 # %%
-# Make a histrogram of scores for all words (using "en-tr" mode).
+# Make a histogram of scores for all words (using MODE).
 import matplotlib.pyplot as plt
 
 scores = []
 for canonical in canonical_vocab_words:
-    scores.append(score_word(canonical, "en-tr"))
+    scores.append(score_word(canonical, MODE))
 
 plt.hist(scores, bins=50)
 plt.xlabel("Score")
 plt.ylabel("Frequency")
-plt.title("Histogram of Scores (en-tr)")
+plt.title(f"Histogram of Scores ({MODE})")
 plt.show()
 
 # %%
-# Show the top 10 lowest and top 30 highest scoring words (en-tr).
+# Show the top 10 lowest and top 30 highest scoring words (MODE).
 scored_words = []
 for canonical in canonical_vocab_words:
-    score = score_word(canonical, "en-tr")
+    score = score_word(canonical, MODE)
     scored_words.append((canonical, score))
 
 scored_words.sort(key=lambda x: x[1])
-print("Top 10 lowest scoring words (en-tr):")
+print(f"Top 10 lowest scoring words ({MODE}):")
 for word_id, score in scored_words[:10]:
     label_id = canonical_to_ids.get(word_id, [word_id])[0]
     print(f"{word_id} = {display_label(label_id)}: {score:.3f}")
 
-print("Top 30 highest scoring words (en-tr):")
+print(f"Top 30 highest scoring words ({MODE}):")
 for word_id, score in scored_words[-30:]:
     label_id = canonical_to_ids.get(word_id, [word_id])[0]
     print(f"{word_id} = {display_label(label_id)}: {score:.3f}")
@@ -212,52 +202,74 @@ for word_id, score in scored_words[-30:]:
 # %%
 # Filtered scoring summary using INCLUDE_TAGS/EXCLUDE_TAGS and MODE.
 filtered_items = filter_items(
-    quiz_items,
+    reviewed_items,
     set(INCLUDE_TAGS),
     set(EXCLUDE_TAGS),
 )
-filtered_ids = {str(item.get("id", "")).strip() for item in filtered_items if item.get("id")}
-filtered_words = sorted({canonicalize(word_id, aliases) for word_id in filtered_ids})
+
+filtered_by_canonical: dict[str, list[dict[str, object]]] = defaultdict(list)
+for item in filtered_items:
+    word_id = str(item.get("id", "")).strip()
+    if not word_id:
+        continue
+    canonical_id = canonicalize(word_id, aliases)
+    filtered_by_canonical[canonical_id].append(item)
+
+filtered_words = sorted(filtered_by_canonical.keys())
 print(
     f"Filtered words: {len(filtered_words)} (include={INCLUDE_TAGS}, exclude={EXCLUDE_TAGS}, mode={MODE})"
 )
 
 filtered_scored = []
 for canonical in filtered_words:
-    filtered_scored.append((canonical, score_word(canonical, MODE)))
+    grouped_items = filtered_by_canonical[canonical]
+    representative = next(
+        (entry for entry in grouped_items if str(entry.get("id", "")).strip() == canonical),
+        grouped_items[0],
+    )
+    tags = set(representative.get("tags", []) or [])
+    tau_right_days = min(
+        (MY_CONFIG.tau_right_by_freq[tag] for tag in tags if tag in MY_CONFIG.tau_right_by_freq),
+        default=MY_CONFIG.tau_right_default_days,
+    )
+    key = (canonical, MODE)
+    wrong, right, score = compute_scores(
+        events_by_key.get(key, []),
+        datetime.now(tz=UTC),
+        MY_CONFIG,
+        tau_right_days,
+    )
+    filtered_scored.append((canonical, score, representative))
 
 filtered_scored.sort(key=lambda x: x[1])
 print(f"Top 10 lowest scoring words ({MODE}):")
-for word_id, score in filtered_scored[:10]:
-    label_id = next(
-        (candidate for candidate in canonical_to_ids.get(word_id, [word_id]) if candidate in filtered_ids),
-        canonical_to_ids.get(word_id, [word_id])[0],
-    )
+for word_id, score, representative in filtered_scored[:10]:
+    label_id = str(representative.get("id", "")).strip() or word_id
     print(f"{word_id} = {display_label(label_id)}: {score:.3f}")
 
 print(f"Top 30 highest scoring words ({MODE}):")
-for word_id, score in filtered_scored[-30:]:
-    label_id = next(
-        (candidate for candidate in canonical_to_ids.get(word_id, [word_id]) if candidate in filtered_ids),
-        canonical_to_ids.get(word_id, [word_id])[0],
-    )
+filtered_top = sorted(filtered_scored, key=lambda x: (-x[1], x[0]))
+for word_id, score, representative in filtered_top[:30]:
+    label_id = str(representative.get("id", "")).strip() or word_id
     print(f"{word_id} = {display_label(label_id)}: {score:.3f}")
 
 # %%
-# Find the words tagged with "today" and show their scores.
+# Find the words tagged with "today" and show their scores (MODE).
 print('Words tagged with "today":')
-for quiz_path in quiz_paths:
-    if not quiz_path.exists():
-        continue
-    quiz_raw = quiz_path.read_text(encoding="utf-8")
-    quiz_data = json.loads(quiz_raw)
-    for item in quiz_data.get("items", []):
-        item_id = str(item.get("id", "")).strip()
-        tags = item.get("tags", []) or []
-        if "today" in tags:
-            score = score_word(item_id, "en-tr")
-            print(f"{item_id} = {display_label(item_id)}: {score:.3f}")
-    break
+for item in reviewed_items:
+    item_id = str(item.get("id", "")).strip()
+    tags = item.get("tags", []) or []
+    if "today" in tags:
+        live_score = score_word(item_id, MODE)
+        stored_score = item.get("today_score")
+        stored_label = (
+            f"{float(stored_score):.3f}"
+            if isinstance(stored_score, (int, float))
+            else "n/a"
+        )
+        print(
+            f"{item_id} = {display_label(item_id)}: stored={stored_label} live={live_score:.3f}"
+        )
 
 # %%
 # Show the last 10 events
@@ -271,5 +283,27 @@ all_events.sort(key=lambda x: x[0], reverse=True)
 for event in all_events[:10]:
     timestamp, word_id, mode, correct = event
     print(f"{timestamp}: {word_id} = {display_label(word_id)} ({mode}) - {'Correct' if correct else 'Incorrect'}")
+
+# %%
+# Load today-scores.json from resouces/debug
+today_scores_path = ROOT / "resources" / "debug" / "today-scores.json"
+today_scores_raw = today_scores_path.read_text(encoding="utf-8")
+today_scores = json.loads(today_scores_raw)
+score_items = today_scores.get("scores", {}) if isinstance(today_scores, dict) else {}
+print(f"Loaded today-scores.json with {len(score_items)} entries")
+# Show the scores for the words tagged with "today" from today-scores.json
+print('Scores from today-scores.json for words tagged with "today":')
+# The score items look like this:
+# {'id': 'cand-a1-cases-0047', 'score': 1}
+# We want to match the 'id' with the item_id in reviewed_items and show both scores.
+for item in score_items:
+    item_id = str(item.get("id", "")).strip()
+    score = item.get("score")
+    if not item_id:
+        continue
+    tags = id_to_tags.get(item_id, [])
+    if "today" in tags:
+        label = display_label(item_id)
+        print(f"{item_id} = {label}: today-scores.json={score:.3f} live={score_word(item_id, MODE):.3f}")
 
 # %%
