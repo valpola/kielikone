@@ -12,6 +12,7 @@ from build_today import (
     canonicalize,
     compute_scores,
     event_stream,
+    filter_items,
     load_aliases,
     load_results,
     resolve_results_source,
@@ -19,6 +20,12 @@ from build_today import (
 
 ROOT = Path(__file__).resolve().parents[1]
 RESULTS_SOURCE = resolve_results_source("")
+
+# %%
+# Filter settings for scoring subsets.
+INCLUDE_TAGS = ["verb"]
+EXCLUDE_TAGS: list[str] = []
+MODE = "tr-en"
 
 # %%
 # Load aliases and results.
@@ -111,12 +118,14 @@ def show_events(word_id: str) -> None:
 # Unique words in quiz.json (not all of these may have results,
 # but this is the set of words we care about).
 vocab_words = set()
+quiz_items: list[dict[str, object]] = []
 quiz_paths = [ROOT / "web" / "data" / "quiz.json", ROOT / "data" / "quiz.json"]
 for quiz_path in quiz_paths:
     if not quiz_path.exists():
         continue
     quiz_raw = quiz_path.read_text(encoding="utf-8")
     quiz_data = json.loads(quiz_raw)
+    quiz_items = quiz_data.get("items", []) or []
     for item in quiz_data.get("items", []):
         item_id = str(item.get("id", "")).strip()
         if item_id:
@@ -198,6 +207,40 @@ for word_id, score in scored_words[:10]:
 print("Top 30 highest scoring words (en-tr):")
 for word_id, score in scored_words[-30:]:
     label_id = canonical_to_ids.get(word_id, [word_id])[0]
+    print(f"{word_id} = {display_label(label_id)}: {score:.3f}")
+
+# %%
+# Filtered scoring summary using INCLUDE_TAGS/EXCLUDE_TAGS and MODE.
+filtered_items = filter_items(
+    quiz_items,
+    set(INCLUDE_TAGS),
+    set(EXCLUDE_TAGS),
+)
+filtered_ids = {str(item.get("id", "")).strip() for item in filtered_items if item.get("id")}
+filtered_words = sorted({canonicalize(word_id, aliases) for word_id in filtered_ids})
+print(
+    f"Filtered words: {len(filtered_words)} (include={INCLUDE_TAGS}, exclude={EXCLUDE_TAGS}, mode={MODE})"
+)
+
+filtered_scored = []
+for canonical in filtered_words:
+    filtered_scored.append((canonical, score_word(canonical, MODE)))
+
+filtered_scored.sort(key=lambda x: x[1])
+print(f"Top 10 lowest scoring words ({MODE}):")
+for word_id, score in filtered_scored[:10]:
+    label_id = next(
+        (candidate for candidate in canonical_to_ids.get(word_id, [word_id]) if candidate in filtered_ids),
+        canonical_to_ids.get(word_id, [word_id])[0],
+    )
+    print(f"{word_id} = {display_label(label_id)}: {score:.3f}")
+
+print(f"Top 30 highest scoring words ({MODE}):")
+for word_id, score in filtered_scored[-30:]:
+    label_id = next(
+        (candidate for candidate in canonical_to_ids.get(word_id, [word_id]) if candidate in filtered_ids),
+        canonical_to_ids.get(word_id, [word_id])[0],
+    )
     print(f"{word_id} = {display_label(label_id)}: {score:.3f}")
 
 # %%
