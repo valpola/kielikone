@@ -19,6 +19,7 @@
     { "id": "adverb", "label": "Adverb", "group": "part_of_speech" },
     { "id": "time-expression", "label": "Expression of time", "group": "theme" },
     { "id": "greeting", "label": "Greeting", "group": "theme" },
-    { "id": "polite", "label": "Polite", "group": "theme" }
+    { "id": "polite", "label": "Polite", "group": "theme" },
+    { "id": "expression", "label": "Expression", "group": "theme" }
   ]
 }
