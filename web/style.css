@@ -76,7 +76,7 @@ body {
   gap: 12px;
 }
 
-.filters label {
+.filters > label {
   display: grid;
   gap: 6px;
   font-size: 12px;
@@ -131,18 +131,38 @@ body {
   font-weight: 600;
 }
 
-.answer {
+.answer-stack {
+  display: grid;
+  gap: 10px;
+}
+
+.answer-field {
   display: grid;
   gap: 6px;
   font-size: 13px;
   color: var(--muted);
 }
 
-.answer input {
+.answer-input {
   padding: 12px 14px;
   border-radius: 12px;
   border: 1px solid #e2e8f0;
   font-size: 16px;
+  background: #fff;
+}
+
+.answer-input[readonly] {
+  background: #f8fafc;
+}
+
+.answer-input.is-correct {
+  border-color: #15803d;
+  box-shadow: 0 0 0 2px rgba(21, 128, 61, 0.12);
+}
+
+.answer-input.is-incorrect {
+  border-color: #dc2626;
+  box-shadow: 0 0 0 2px rgba(220, 38, 38, 0.12);
 }
 
 .actions {

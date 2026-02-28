@@ -16,27 +16,28 @@
     <div class="bg-glow"></div>
     <main class="shell">
       <section class="card">
-        <p class="label">Prompt</p>
         <div id="prompt" class="prompt">Loading...</div>
 
-        <label class="answer">
+        <div class="answer-stack">
+          <label class="answer-field">
           <span>Your answer</span>
-          <input id="answer" type="text" autocomplete="off" />
-        </label>
+            <input id="answer" class="answer-input" type="text" autocomplete="off" />
+          </label>
+
+          <label class="answer-field">
+            <span>Correct answer</span>
+            <input
+              id="correct-answer"
+              class="answer-input"
+              type="text"
+              autocomplete="off"
+              readonly
+            />
+          </label>
+        </div>
 
         <div class="actions">
           <button id="reveal" class="primary">Show Answer</button>
-        </div>
-
-        <div id="result" class="result hidden">
-          <div class="result-row">
-            <span class="result-label">Correct:</span>
-            <span id="correct"></span>
-          </div>
-          <div class="result-row">
-            <span class="result-label">Your answer:</span>
-            <span id="user-answer"></span>
-          </div>
         </div>
 
         <div class="grade hidden">
@@ -70,6 +71,7 @@
             <span>Daily words</span>
             <input id="today-limit" type="number" min="1" step="1" />
           </label>
+          <button id="change-api-key" class="ghost">Change API key</button>
           <button id="recompute-today" class="ghost">Recompute today</button>
           <button id="next" class="ghost">Next</button>
         </div>

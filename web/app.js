@@ -1,10 +1,8 @@
 const PROMPT = document.getElementById("prompt");
 const ANSWER = document.getElementById("answer");
+const CORRECT_ANSWER = document.getElementById("correct-answer");
 const REVEAL = document.getElementById("reveal");
 const NEXT = document.getElementById("next");
-const RESULT = document.getElementById("result");
-const CORRECT = document.getElementById("correct");
-const USER_ANSWER = document.getElementById("user-answer");
 const MARK_CORRECT = document.getElementById("mark-correct");
 const MARK_WRONG = document.getElementById("mark-wrong");
 const MODE_BTNS = document.querySelectorAll(".mode-btn");
@@ -12,6 +10,7 @@ const INCLUDE_TAGS = document.getElementById("include-tags");
 const EXCLUDE_TAGS = document.getElementById("exclude-tags");
 const SESSION_TARGET = document.getElementById("session-target");
 const TODAY_LIMIT = document.getElementById("today-limit");
+const CHANGE_API_KEY = document.getElementById("change-api-key");
 const RECOMPUTE_TODAY = document.getElementById("recompute-today");
 const OPTIONS_GRID = document.querySelector(".options-grid");
 
@@ -23,6 +22,7 @@ let tagRegistry = [];
 let current = null;
 let seen = 0;
 let correct = 0;
+let isRevealed = false;
 const sessionCorrect = new Map();
 let computedToday = new Set();
 let aliases = {};
@@ -31,10 +31,10 @@ const storageKey = (id) => `tr-quiz-${id}`;
 const INCLUDE_STORAGE = "tr-quiz-include-tags";
 const EXCLUDE_STORAGE = "tr-quiz-exclude-tags";
 const SESSION_TARGET_STORAGE = "tr-quiz-session-target";
-const DEFAULT_SESSION_TARGET = 2;
+const DEFAULT_SESSION_TARGET = 1;
 const TODAY_LIMIT_STORAGE = "tr-quiz-today-limit";
 const TODAY_LIST_STORAGE = "tr-quiz-today-list";
-const DEFAULT_TODAY_LIMIT = 30;
+const DEFAULT_TODAY_LIMIT = 10;
 const DEBUG_MODE = new URLSearchParams(window.location.search).get("debug") === "1";
 const DEBUG_SCORES_STORAGE = "tr-quiz-debug-scores";
 
@@ -64,6 +64,18 @@ const ensureApiKey = () => {
   if (getApiKey()) return;
   const value = window.prompt("Enter API key for results logging:");
   if (value) localStorage.setItem(API_KEY_STORAGE, value.trim());
+};
+
+const changeApiKey = () => {
+  const currentKey = getApiKey();
+  const value = window.prompt("Enter API key for results logging:", currentKey);
+  if (value === null) return;
+  const nextKey = value.trim();
+  if (!nextKey) {
+    localStorage.removeItem(API_KEY_STORAGE);
+    return;
+  }
+  localStorage.setItem(API_KEY_STORAGE, nextKey);
 };
 
 const getResultsEndpoint = () => {
@@ -453,33 +465,55 @@ const renderPrompt = () => {
   if (!current) {
     PROMPT.textContent = "No items match current filters";
     REVEAL.hidden = true;
-    RESULT.classList.add("hidden");
     MARK_CORRECT.closest(".grade").classList.add("hidden");
+    CORRECT_ANSWER.value = "";
+    clearCorrectAnswerState();
+    isRevealed = false;
     return;
   }
 
   const promptText = mode === "tr-en" ? current.turkish : current.english;
   PROMPT.textContent = promptText;
   ANSWER.value = "";
+  CORRECT_ANSWER.value = "";
+  clearCorrectAnswerState();
   REVEAL.hidden = false;
-  RESULT.classList.add("hidden");
   MARK_CORRECT.closest(".grade").classList.add("hidden");
   ANSWER.focus();
+  isRevealed = false;
 };
 
 const revealAnswer = () => {
   if (!current) return;
   const correctText = mode === "tr-en" ? current.english : current.turkish;
-  CORRECT.textContent = correctText;
-  USER_ANSWER.textContent = ANSWER.value || "(no answer)";
+  CORRECT_ANSWER.value = correctText;
+  setCorrectAnswerState(isAnswerCorrect());
   REVEAL.hidden = true;
-  RESULT.classList.remove("hidden");
   MARK_CORRECT.closest(".grade").classList.remove("hidden");
   ANSWER.blur();
+  isRevealed = true;
+};
+
+const clearCorrectAnswerState = () => {
+  CORRECT_ANSWER.classList.remove("is-correct", "is-incorrect");
+};
+
+const setCorrectAnswerState = (isCorrect) => {
+  clearCorrectAnswerState();
+  CORRECT_ANSWER.classList.add(isCorrect ? "is-correct" : "is-incorrect");
+};
+
+const normalizeAnswer = (value) => String(value || "").trim().toLowerCase();
+
+const isAnswerCorrect = () => {
+  if (!current) return false;
+  const correctText = mode === "tr-en" ? current.english : current.turkish;
+  return normalizeAnswer(ANSWER.value) === normalizeAnswer(correctText);
 };
 
 const grade = (isCorrect) => {
   if (!current) return;
+  setCorrectAnswerState(isCorrect);
   const stats = getLocalStats(current.id);
   stats.lastSeen = todayStamp();
   if (isCorrect) stats.correct += 1;
@@ -540,21 +574,34 @@ REVEAL.addEventListener("click", revealAnswer);
 NEXT.addEventListener("click", renderPrompt);
 MARK_CORRECT.addEventListener("click", () => grade(true));
 MARK_WRONG.addEventListener("click", () => grade(false));
+CHANGE_API_KEY.addEventListener("click", changeApiKey);
+
+const handleEnterKey = (event) => {
+  if (event.key !== "Enter") return false;
+  event.preventDefault();
+  if (isRevealed) {
+    grade(isAnswerCorrect());
+  } else {
+    revealAnswer();
+  }
+  return true;
+};
+
+ANSWER.addEventListener("keydown", (event) => {
+  if (handleEnterKey(event)) {
+    event.stopPropagation();
+  }
+});
 
 window.addEventListener("keydown", (event) => {
   const isAnswerFocused = document.activeElement === ANSWER;
-  const isResultVisible = !RESULT.classList.contains("hidden");
   const key = event.key.toLowerCase();
 
-  if (event.key === "Enter") {
-    event.preventDefault();
-    revealAnswer();
-    return;
-  }
+  if (handleEnterKey(event)) return;
 
   if (isAnswerFocused) return;
 
-  if (isResultVisible) {
+  if (isRevealed) {
     if (key === "f") {
       event.preventDefault();
       grade(true);
