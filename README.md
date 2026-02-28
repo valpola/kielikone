@@ -94,10 +94,11 @@ Optional overrides:
 - Quiz stats are stored in localStorage on the device.
 
 ## Keyboard shortcuts
-- Enter: show answer
-- f: I was correct
-- j: I was incorrect
-- n: next
+- Enter: show answer (or auto-grade after reveal)
+- f: I was correct (after reveal)
+- j: I was incorrect (after reveal)
+- n: next (after reveal)
+- Tab: next (any time)
 
 ## Mobile UX
 - After showing the answer, the input blurs so the keyboard hides.
