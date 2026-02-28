@@ -688,6 +688,19 @@ const handleEnterKey = (event) => {
 };
 
 ANSWER.addEventListener("keydown", (event) => {
+  const key = event.key.toLowerCase();
+  if (key === "n") {
+    event.preventDefault();
+    renderPrompt();
+    event.stopPropagation();
+    return;
+  }
+  if (isRevealed && (key === "f" || key === "j")) {
+    event.preventDefault();
+    grade(key === "f");
+    event.stopPropagation();
+    return;
+  }
   if (handleEnterKey(event)) {
     event.stopPropagation();
   }
