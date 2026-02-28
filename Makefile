@@ -1,6 +1,6 @@
 PYTHON := .venv/bin/python
 
-.PHONY: export publish test-results build-today
+.PHONY: export publish test-results test-all build-today
 .PHONY: validate-tags extract-candidates merge-candidates check-venv
 .PHONY: rebuild-reviewed rebuild-reviewed-today
 
@@ -18,6 +18,14 @@ publish: export
 
 test-results: check-venv
 	$(PYTHON) scripts/test_results_endpoint.py
+
+test-all: check-venv
+	node scripts/tests/test_today_scoring_offline.js
+	node scripts/tests/test_today_filters_offline.js
+	node scripts/tests/test_recompute_today_app.js
+	$(PYTHON) scripts/tests/compare_today_scoring_integration.py
+	$(PYTHON) scripts/test_results_endpoint.py
+	$(PYTHON) scripts/test_results_whoami.py
 
 build-today: check-venv
 	$(PYTHON) scripts/build_today.py

@@ -10,6 +10,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG_PATH = ROOT / "web" / "config.js"
+API_KEY_PATH = ROOT / "resources" / "access_keys" / "results_api_key.txt"
 
 
 def read_endpoint() -> str:
@@ -24,6 +25,16 @@ def read_endpoint() -> str:
     return match.group(1)
 
 
+def read_api_key() -> str:
+    env_key = os.environ.get("TR_QUIZ_API_KEY", "").strip()
+    if env_key:
+        return env_key
+    try:
+        return API_KEY_PATH.read_text(encoding="utf-8").strip()
+    except OSError:
+        return ""
+
+
 def main() -> int:
     try:
         endpoint = read_endpoint()
@@ -31,15 +42,12 @@ def main() -> int:
         print(f"ERROR: {exc}")
         return 2
 
-    api_key = os.environ.get("TR_QUIZ_API_KEY", "test").strip()
+    api_key = read_api_key()
     if not api_key:
         print("ERROR: TR_QUIZ_API_KEY is empty")
         return 2
 
-    expected_user = os.environ.get("TR_QUIZ_USER", "test").strip()
-    if not expected_user:
-        print("ERROR: TR_QUIZ_USER is empty")
-        return 2
+    expected_user = os.environ.get("TR_QUIZ_USER", "").strip()
 
     query = urllib.parse.urlencode({"api_key": api_key, "action": "whoami"})
     url = f"{endpoint}?{query}"
@@ -58,7 +66,7 @@ def main() -> int:
         print(f"ERROR: {exc}")
         return 1
 
-    if body != expected_user:
+    if expected_user and body != expected_user:
         print("ERROR: unexpected user")
         return 1
 

@@ -13,6 +13,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "scripts"))
+API_KEY_PATH = ROOT / "resources" / "access_keys" / "results_api_key.txt"
 
 from build_today import (  # noqa: E402
     DEFAULT_CONFIG,
@@ -27,9 +28,19 @@ from build_today import (  # noqa: E402
 TOLERANCE = float(os.environ.get("TODAY_SCORE_TOLERANCE", "1e-4"))
 DEFAULT_LIMIT = int(os.environ.get("TODAY_LIMIT", "30"))
 DEFAULT_MODE = os.environ.get("TODAY_MODE", "en-tr")
-RESULTS_API_KEY = os.environ.get("RESULTS_API_KEY", "").strip() or os.environ.get(
-    "TR_QUIZ_API_KEY", ""
-).strip()
+def read_api_key() -> str:
+    env_key = os.environ.get("RESULTS_API_KEY", "").strip() or os.environ.get(
+        "TR_QUIZ_API_KEY", ""
+    ).strip()
+    if env_key:
+        return env_key
+    try:
+        return API_KEY_PATH.read_text(encoding="utf-8").strip()
+    except OSError:
+        return ""
+
+
+RESULTS_API_KEY = read_api_key()
 
 
 def read_endpoint_from_config() -> str:
