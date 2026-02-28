@@ -31,7 +31,7 @@ def main() -> int:
         print(f"ERROR: {exc}")
         return 2
 
-    api_key = os.environ.get("TR_QUIZ_API_KEY", "turkishle123").strip()
+    api_key = os.environ.get("TR_QUIZ_API_KEY", "").strip()
     if not api_key:
         print("ERROR: TR_QUIZ_API_KEY is empty")
         return 2

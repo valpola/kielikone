@@ -101,7 +101,6 @@ Key files:
 
 Notes:
 - The Apps Script must be deployed with access = Anyone.
-- The script uses a simple API key (default: turkishle123).
 - The API key is typed into the web app on first use and stored in localStorage.
 
 ## Changing the Apps Script URL

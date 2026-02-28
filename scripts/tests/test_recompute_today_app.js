@@ -79,6 +79,7 @@ const markCorrect = makeElement("mark-correct");
 const markWrong = makeElement("mark-wrong");
 const sessionTarget = makeElement("session-target");
 const todayLimit = makeElement("today-limit");
+const loginBtn = makeElement("login-btn");
 
 const modeButtons = [
   {
@@ -113,6 +114,7 @@ const elementById = {
   "exclude-tags": excludeContainer,
   "session-target": sessionTarget,
   "today-limit": todayLimit,
+  "login-btn": loginBtn,
   "recompute-today": recomputeButton,
 };
 
@@ -155,6 +157,9 @@ const fetch = async (url) => {
   if (target.includes("format=csv")) {
     return { ok: true, text: async () => resultsCsv };
   }
+  if (target.includes("action=whoami")) {
+    return { ok: true, text: async () => "test" };
+  }
   return { ok: false, text: async () => "" };
 };
 
@@ -179,7 +184,7 @@ global.APP_CONFIG = {
   cacheBust: "",
 };
 
-localStorage.setItem("tr-quiz-api-key", "dummy");
+localStorage.setItem("tr-quiz-api-key", "test");
 localStorage.setItem("tr-quiz-include-tags", JSON.stringify(["verb"]));
 localStorage.setItem("tr-quiz-exclude-tags", JSON.stringify([]));
 
