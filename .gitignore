@@ -2,6 +2,5 @@
 __pycache__/
 *.pyc
 .DS_Store
-resources/originals/
-resources/access_keys/
+resources/
 .vscode/
