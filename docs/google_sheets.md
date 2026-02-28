@@ -4,28 +4,78 @@ This app can send quiz results to a Google Sheet via Apps Script.
 
 ## 1) Create the Sheet
 1. Create a new Google Sheet named "Turkish Quiz Results".
-2. Add a header row with these columns:
-   - timestamp
-   - word_id
-   - mode
-   - correct
+2. Add a sheet named "Users" with two columns:
+  - user_name
+  - API_key
+3. Result sheets will be created automatically as "Results_<user_name>" with
+  these columns:
+  - timestamp
+  - word_id
+  - mode
+  - correct
 
 ## 2) Create the Apps Script
 1. In the Sheet, go to Extensions -> Apps Script.
 2. Replace the default script with:
 
 ```
-var EXPECTED_API_KEY = "turkishle123";
+var USERS_SHEET = "Users";
 
-function doPost(e) {
-  var sheet = SpreadsheetApp.getActive().getSheetByName("Results");
-  if (!sheet) {
-    sheet = SpreadsheetApp.getActive().insertSheet("Results");
-    sheet.appendRow(["timestamp", "word_id", "mode", "correct"]);
+function getUserNameByApiKey(apiKey) {
+  if (!apiKey) return "";
+  var sheet = SpreadsheetApp.getActive().getSheetByName(USERS_SHEET);
+  if (!sheet) return "";
+
+  var values = sheet.getDataRange().getValues();
+  if (!values || values.length < 2) return "";
+
+  var header = values[0].map(function (cell) {
+    return String(cell || "").trim();
+  });
+  var nameIndex = header.indexOf("user_name");
+  var keyIndex = header.indexOf("API_key");
+  if (nameIndex === -1 || keyIndex === -1) return "";
+
+  for (var i = 1; i < values.length; i++) {
+    var row = values[i];
+    var rowKey = String(row[keyIndex] || "").trim();
+    if (rowKey && rowKey === apiKey) {
+      return String(row[nameIndex] || "").trim();
+    }
   }
 
+  return "";
+}
+
+function sanitizeSheetName(name) {
+  var safe = String(name || "").trim();
+  if (!safe) return "";
+  safe = safe.replace(/[\[\]\\/?*]/g, "_").replace(/\s+/g, "_");
+  return safe.substring(0, 80);
+}
+
+function getOrCreateResultsSheet(userName) {
+  var safeName = sanitizeSheetName(userName);
+  if (!safeName) return null;
+  var sheetName = "Results_" + safeName;
+  var sheet = SpreadsheetApp.getActive().getSheetByName(sheetName);
+  if (!sheet) {
+    sheet = SpreadsheetApp.getActive().insertSheet(sheetName);
+    sheet.appendRow(["timestamp", "word_id", "mode", "correct"]);
+  }
+  return sheet;
+}
+
+function doPost(e) {
   var data = e.parameter || {};
-  if (!data.api_key || data.api_key !== EXPECTED_API_KEY) {
+  var apiKey = String(data.api_key || "").trim();
+  var userName = getUserNameByApiKey(apiKey);
+  if (!userName) {
+    return ContentService.createTextOutput("Unauthorized");
+  }
+
+  var sheet = getOrCreateResultsSheet(userName);
+  if (!sheet) {
     return ContentService.createTextOutput("Unauthorized");
   }
 
@@ -41,11 +91,17 @@ function doPost(e) {
 
 function doGet(e) {
   var data = e && e.parameter ? e.parameter : {};
-  if (!data.api_key || data.api_key !== EXPECTED_API_KEY) {
+  var apiKey = String(data.api_key || "").trim();
+  var userName = getUserNameByApiKey(apiKey);
+  if (!userName) {
     return ContentService.createTextOutput("Unauthorized");
   }
 
-  var sheet = SpreadsheetApp.getActive().getSheetByName("Results");
+  if (String(data.action || "").trim().toLowerCase() === "whoami") {
+    return ContentService.createTextOutput(userName);
+  }
+
+  var sheet = getOrCreateResultsSheet(userName);
   if (!sheet) {
     return ContentService.createTextOutput("timestamp,word_id,mode,correct");
   }
