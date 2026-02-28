@@ -36,13 +36,21 @@
           </label>
         </div>
 
-        <div id="actions" class="actions">
-          <button id="reveal" class="primary">Show Answer</button>
-        </div>
+        <div class="button-row">
+          <div class="button-left">
+            <div id="actions" class="actions">
+              <button id="reveal" class="primary">Show Answer</button>
+            </div>
 
-        <div class="grade hidden">
-          <button id="mark-correct" class="success">I was correct</button>
-          <button id="mark-wrong" class="danger">I was incorrect</button>
+            <div id="grade" class="grade hidden">
+              <button id="mark-correct" class="success">I was correct</button>
+              <button id="mark-wrong" class="danger">I was incorrect</button>
+            </div>
+          </div>
+
+          <div class="login-area">
+            <button id="login-btn" class="ghost login-btn">Login to record results</button>
+          </div>
         </div>
       </section>
 
@@ -71,7 +79,6 @@
             <span>Daily words</span>
             <input id="today-limit" type="number" min="1" step="1" />
           </label>
-          <button id="change-api-key" class="ghost">Change API key</button>
           <button id="recompute-today" class="ghost">Recompute today</button>
           <button id="next" class="ghost">Next</button>
         </div>

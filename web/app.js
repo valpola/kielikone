@@ -3,6 +3,7 @@ const ANSWER = document.getElementById("answer");
 const CORRECT_ANSWER = document.getElementById("correct-answer");
 const REVEAL = document.getElementById("reveal");
 const ACTIONS = document.getElementById("actions");
+const GRADE = document.getElementById("grade");
 const NEXT = document.getElementById("next");
 const MARK_CORRECT = document.getElementById("mark-correct");
 const MARK_WRONG = document.getElementById("mark-wrong");
@@ -11,7 +12,7 @@ const INCLUDE_TAGS = document.getElementById("include-tags");
 const EXCLUDE_TAGS = document.getElementById("exclude-tags");
 const SESSION_TARGET = document.getElementById("session-target");
 const TODAY_LIMIT = document.getElementById("today-limit");
-const CHANGE_API_KEY = document.getElementById("change-api-key");
+const LOGIN_BTN = document.getElementById("login-btn");
 const RECOMPUTE_TODAY = document.getElementById("recompute-today");
 const OPTIONS_GRID = document.querySelector(".options-grid");
 
@@ -56,27 +57,19 @@ const setLocalStats = (id, stats) => {
 };
 
 const API_KEY_STORAGE = "tr-quiz-api-key";
+const USER_NAME_STORAGE = "tr-quiz-user-name";
+let loginState = {
+  userName: "",
+  valid: false,
+  checking: false,
+};
 
 const getApiKey = () => {
   return localStorage.getItem(API_KEY_STORAGE) || "";
 };
 
-const ensureApiKey = () => {
-  if (getApiKey()) return;
-  const value = window.prompt("Enter API key for results logging:");
-  if (value) localStorage.setItem(API_KEY_STORAGE, value.trim());
-};
-
-const changeApiKey = () => {
-  const currentKey = getApiKey();
-  const value = window.prompt("Enter API key for results logging:", currentKey);
-  if (value === null) return;
-  const nextKey = value.trim();
-  if (!nextKey) {
-    localStorage.removeItem(API_KEY_STORAGE);
-    return;
-  }
-  localStorage.setItem(API_KEY_STORAGE, nextKey);
+const getStoredUserName = () => {
+  return localStorage.getItem(USER_NAME_STORAGE) || "";
 };
 
 const getResultsEndpoint = () => {
@@ -98,12 +91,103 @@ const withCacheBust = (url) => {
   return parsed.toString();
 };
 
+const updateLoginUi = () => {
+  if (!LOGIN_BTN) return;
+  if (loginState.checking) {
+    LOGIN_BTN.textContent = "Attempting to log in";
+    return;
+  }
+  if (loginState.valid && loginState.userName) {
+    LOGIN_BTN.textContent = loginState.userName;
+  } else {
+    LOGIN_BTN.textContent = "Login to record results";
+  }
+};
+
+const fetchUserName = async (apiKey) => {
+  const endpoint = getResultsEndpoint();
+  if (!endpoint || !apiKey) return "";
+  const url = new URL(endpoint);
+  url.searchParams.set("api_key", apiKey);
+  url.searchParams.set("action", "whoami");
+  const response = await fetch(url.toString(), { cache: "no-store" });
+  if (!response.ok) return "";
+  const text = await response.text();
+  return text.trim();
+};
+
+const validateApiKey = async (apiKey) => {
+  if (!apiKey) {
+    loginState.userName = "";
+    loginState.valid = false;
+    loginState.checking = false;
+    localStorage.removeItem(USER_NAME_STORAGE);
+    updateLoginUi();
+    return;
+  }
+
+  loginState.checking = true;
+  updateLoginUi();
+
+  try {
+    const userName = await fetchUserName(apiKey);
+    loginState.checking = false;
+    if (userName) {
+      loginState.userName = userName;
+      loginState.valid = true;
+      localStorage.setItem(USER_NAME_STORAGE, userName);
+    } else {
+      loginState.userName = "";
+      loginState.valid = false;
+      localStorage.removeItem(USER_NAME_STORAGE);
+    }
+  } catch (error) {
+    loginState.checking = false;
+    loginState.userName = "";
+    loginState.valid = false;
+  }
+  updateLoginUi();
+};
+
+const handleLoginClick = async () => {
+  const currentKey = getApiKey();
+  const value = window.prompt("Enter API key for results logging:", currentKey);
+  if (value === null) return;
+  const nextKey = value.trim();
+  if (!nextKey) {
+    localStorage.removeItem(API_KEY_STORAGE);
+    localStorage.removeItem(USER_NAME_STORAGE);
+    loginState.userName = "";
+    loginState.valid = false;
+    updateLoginUi();
+    return;
+  }
+
+  localStorage.setItem(API_KEY_STORAGE, nextKey);
+  await validateApiKey(nextKey);
+};
+
+const initLoginState = async () => {
+  loginState.userName = getStoredUserName();
+  loginState.valid = false;
+  loginState.checking = false;
+  updateLoginUi();
+
+  const apiKey = getApiKey();
+  if (apiKey) {
+    await validateApiKey(apiKey);
+  }
+};
+
 const sendResult = async (payload) => {
   const endpoint = getResultsEndpoint();
   if (!endpoint) return;
 
   const apiKey = getApiKey();
   if (!apiKey) return;
+  if (!loginState.valid) {
+    return;
+  }
 
   const body = new URLSearchParams();
   Object.entries(payload).forEach(([key, value]) => {
@@ -112,13 +196,15 @@ const sendResult = async (payload) => {
   body.set("api_key", apiKey);
 
   try {
-    await fetch(endpoint, {
+    const response = await fetch(endpoint, {
       method: "POST",
       mode: "cors",
       body,
     });
+    if (!response.ok) {
+      return;
+    }
   } catch (error) {
-    // Silent failure to keep quiz flow smooth.
   }
 };
 
@@ -290,6 +376,9 @@ const fetchResultsCsv = async () => {
   if (!endpoint) return "";
   const url = new URL(endpoint);
   const apiKey = getApiKey();
+  if (!apiKey || !loginState.valid) {
+    throw new Error("API key is required to fetch results");
+  }
   if (apiKey) url.searchParams.set("api_key", apiKey);
   const response = await fetch(url.toString(), { cache: "no-store" });
   if (!response.ok) {
@@ -309,10 +398,12 @@ const recomputeToday = async () => {
     window.alert("Results endpoint is not configured.");
     return;
   }
-
-  ensureApiKey();
   if (!getApiKey()) {
-    window.alert("API key is required to fetch results.");
+    window.alert("Login is required to fetch results.");
+    return;
+  }
+  if (!loginState.valid) {
+    window.alert("API key is invalid.");
     return;
   }
 
@@ -467,7 +558,7 @@ const renderPrompt = () => {
     PROMPT.textContent = "No items match current filters";
     REVEAL.hidden = true;
     ACTIONS.classList.add("hidden");
-    MARK_CORRECT.closest(".grade").classList.add("hidden");
+    GRADE.classList.add("hidden");
     CORRECT_ANSWER.value = "";
     clearCorrectAnswerState();
     isRevealed = false;
@@ -481,7 +572,7 @@ const renderPrompt = () => {
   clearCorrectAnswerState();
   REVEAL.hidden = false;
   ACTIONS.classList.remove("hidden");
-  MARK_CORRECT.closest(".grade").classList.add("hidden");
+  GRADE.classList.add("hidden");
   ANSWER.focus();
   isRevealed = false;
 };
@@ -493,7 +584,7 @@ const revealAnswer = () => {
   setCorrectAnswerState(isAnswerCorrect());
   REVEAL.hidden = true;
   ACTIONS.classList.add("hidden");
-  MARK_CORRECT.closest(".grade").classList.remove("hidden");
+  GRADE.classList.remove("hidden");
   ANSWER.focus();
   isRevealed = true;
 };
@@ -583,7 +674,7 @@ REVEAL.addEventListener("click", revealAnswer);
 NEXT.addEventListener("click", renderPrompt);
 MARK_CORRECT.addEventListener("click", () => grade(true));
 MARK_WRONG.addEventListener("click", () => grade(false));
-CHANGE_API_KEY.addEventListener("click", changeApiKey);
+LOGIN_BTN.addEventListener("click", handleLoginClick);
 
 const handleEnterKey = (event) => {
   if (event.key !== "Enter") return false;
@@ -646,10 +737,10 @@ const loadData = async () => {
     aliases = {};
   }
 
-  ensureApiKey();
   loadSessionTarget();
   loadTodayLimit();
   loadMode();
+  await initLoginState();
   computedToday = loadStoredToday();
   renderDebugControls();
   renderTagOptions();
