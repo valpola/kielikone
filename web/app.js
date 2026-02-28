@@ -503,7 +503,12 @@ const setCorrectAnswerState = (isCorrect) => {
   CORRECT_ANSWER.classList.add(isCorrect ? "is-correct" : "is-incorrect");
 };
 
-const normalizeAnswer = (value) => String(value || "").trim().toLowerCase();
+const normalizeAnswer = (value) =>
+  String(value || "")
+    .trim()
+    .normalize("NFKC")
+    .replace(/[.! ,]/g, "")
+    .toLocaleLowerCase("tr-TR");
 
 const isAnswerCorrect = () => {
   if (!current) return false;
