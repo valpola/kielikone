@@ -2,6 +2,7 @@ const PROMPT = document.getElementById("prompt");
 const ANSWER = document.getElementById("answer");
 const CORRECT_ANSWER = document.getElementById("correct-answer");
 const REVEAL = document.getElementById("reveal");
+const ACTIONS = document.getElementById("actions");
 const NEXT = document.getElementById("next");
 const MARK_CORRECT = document.getElementById("mark-correct");
 const MARK_WRONG = document.getElementById("mark-wrong");
@@ -465,6 +466,7 @@ const renderPrompt = () => {
   if (!current) {
     PROMPT.textContent = "No items match current filters";
     REVEAL.hidden = true;
+    ACTIONS.classList.add("hidden");
     MARK_CORRECT.closest(".grade").classList.add("hidden");
     CORRECT_ANSWER.value = "";
     clearCorrectAnswerState();
@@ -478,6 +480,7 @@ const renderPrompt = () => {
   CORRECT_ANSWER.value = "";
   clearCorrectAnswerState();
   REVEAL.hidden = false;
+  ACTIONS.classList.remove("hidden");
   MARK_CORRECT.closest(".grade").classList.add("hidden");
   ANSWER.focus();
   isRevealed = false;
@@ -489,6 +492,7 @@ const revealAnswer = () => {
   CORRECT_ANSWER.value = correctText;
   setCorrectAnswerState(isAnswerCorrect());
   REVEAL.hidden = true;
+  ACTIONS.classList.add("hidden");
   MARK_CORRECT.closest(".grade").classList.remove("hidden");
   ANSWER.blur();
   isRevealed = true;
