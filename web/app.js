@@ -689,7 +689,7 @@ const handleEnterKey = (event) => {
 
 ANSWER.addEventListener("keydown", (event) => {
   const key = event.key.toLowerCase();
-  if (key === "n") {
+  if (key === "tab") {
     event.preventDefault();
     renderPrompt();
     event.stopPropagation();
@@ -698,6 +698,12 @@ ANSWER.addEventListener("keydown", (event) => {
   if (isRevealed && (key === "f" || key === "j")) {
     event.preventDefault();
     grade(key === "f");
+    event.stopPropagation();
+    return;
+  }
+  if (isRevealed && key === "n") {
+    event.preventDefault();
+    renderPrompt();
     event.stopPropagation();
     return;
   }
@@ -723,10 +729,14 @@ window.addEventListener("keydown", (event) => {
       event.preventDefault();
       grade(false);
       return;
+    } else if (key === "n") {
+      event.preventDefault();
+      renderPrompt();
+      return;
     }
   }
 
-  if (key === "n") {
+  if (key === "tab") {
     event.preventDefault();
     renderPrompt();
   }
