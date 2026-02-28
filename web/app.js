@@ -494,7 +494,7 @@ const revealAnswer = () => {
   REVEAL.hidden = true;
   ACTIONS.classList.add("hidden");
   MARK_CORRECT.closest(".grade").classList.remove("hidden");
-  ANSWER.blur();
+  ANSWER.focus();
   isRevealed = true;
 };
 
