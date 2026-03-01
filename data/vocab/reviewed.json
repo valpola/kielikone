@@ -332,6 +332,7 @@
       "tags": [
         "noun",
         "unit-a1-0a",
+        "unit-a1-3c",
         "today"
       ],
       "source": "A1_-_0A.pdf",
@@ -2094,7 +2095,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b"
+        "unit-a1-2b",
+        "unit-a1-3c"
       ],
       "source": "A1_-_2B.pdf",
       "notes": "",
@@ -2136,7 +2138,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b"
+        "unit-a1-2b",
+        "unit-a1-3c"
       ],
       "source": "A1_-_2B.pdf",
       "notes": "",
@@ -2458,7 +2461,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b"
+        "unit-a1-2b",
+        "unit-a1-3c"
       ],
       "source": "A1_-_2B.pdf",
       "notes": "",
@@ -2906,7 +2910,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b"
+        "unit-a1-2b",
+        "unit-a1-3c"
       ],
       "source": "A1_-_2B.pdf",
       "notes": "",
@@ -5313,37 +5318,9 @@
       "today_score": 1.0
     },
     {
-      "id": "cand-a1-3c-0002",
-      "turkish": "ayran",
-      "english": "ayran",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3c",
-        "noun"
-      ],
-      "source": "A1_-_3C.pdf",
-      "notes": "",
-      "status": "approved",
-      "today_score": 1.0
-    },
-    {
       "id": "cand-a1-3c-0003",
       "turkish": "baklava",
       "english": "baklava",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3c",
-        "noun"
-      ],
-      "source": "A1_-_3C.pdf",
-      "notes": "",
-      "status": "approved",
-      "today_score": 1.0
-    },
-    {
-      "id": "cand-a1-3c-0004",
-      "turkish": "bal\u0131k",
-      "english": "fish",
       "priority": 3,
       "tags": [
         "unit-a1-3c",
@@ -5691,20 +5668,6 @@
       "today_score": 1.0
     },
     {
-      "id": "cand-a1-3c-0029",
-      "turkish": "meyve suyu",
-      "english": "juice",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3c",
-        "noun"
-      ],
-      "source": "A1_-_3C.pdf",
-      "notes": "",
-      "status": "approved",
-      "today_score": 1.0
-    },
-    {
       "id": "cand-a1-3c-0030",
       "turkish": "palamut",
       "english": "bonito",
@@ -5817,20 +5780,6 @@
       "today_score": 1.0
     },
     {
-      "id": "cand-a1-3c-0038",
-      "turkish": "su",
-      "english": "water",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3c",
-        "noun"
-      ],
-      "source": "A1_-_3C.pdf",
-      "notes": "",
-      "status": "approved",
-      "today_score": 1.0
-    },
-    {
       "id": "cand-a1-3c-0039",
       "turkish": "s\u00fctla\u00e7",
       "english": "rice pudding",
@@ -5918,20 +5867,6 @@
       "id": "cand-a1-3c-0045",
       "turkish": "\u00f6\u011fle yeme\u011fi",
       "english": "lunch",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3c",
-        "noun"
-      ],
-      "source": "A1_-_3C.pdf",
-      "notes": "",
-      "status": "approved",
-      "today_score": 1.0
-    },
-    {
-      "id": "cand-a1-3c-0046",
-      "turkish": "\u0131hlamur",
-      "english": "linden tea",
       "priority": 3,
       "tags": [
         "unit-a1-3c",
