@@ -602,7 +602,7 @@ const normalizeAnswer = (value) =>
   String(value || "")
     .trim()
     .normalize("NFKC")
-    .replace(/[.! ,]/g, "")
+    .replace(/[().! ,]/g, "")
     .toLocaleLowerCase("tr-TR");
 
 const isAnswerCorrect = () => {
