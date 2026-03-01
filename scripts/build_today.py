@@ -8,6 +8,7 @@ import math
 import os
 import sys
 import urllib.request
+from urllib.parse import parse_qsl, urlencode, urlparse, urlunparse
 from dataclasses import dataclass
 from datetime import UTC, datetime
 from pathlib import Path
@@ -19,6 +20,7 @@ VOCAB_DIR = ROOT / "data" / "vocab"
 TAGS_PATH = ROOT / "data" / "tags.json"
 ALIASES_PATH = ROOT / "data" / "aliases.json"
 ACCESS_KEYS_PATH = ROOT / "resources" / "access_keys" / "google_sheets.txt"
+RESULTS_API_KEY_PATH = ROOT / "resources" / "access_keys" / "personal_key.txt"
 DEFAULT_SHEETS_PARAM = "?format=csv"
 
 
@@ -106,6 +108,24 @@ def resolve_results_source(value: str) -> str:
                 return f"{line}{DEFAULT_SHEETS_PARAM}"
             return line
     return ""
+
+
+def read_api_key(path: Path) -> str:
+    try:
+        return path.read_text(encoding="utf-8").strip()
+    except OSError:
+        return ""
+
+
+def build_results_csv_url(endpoint: str, api_key: str = "") -> str:
+    parsed = urlparse(endpoint)
+    query = dict(parse_qsl(parsed.query, keep_blank_values=True))
+    if "format" not in query:
+        query["format"] = "csv"
+    if api_key and "api_key" not in query:
+        query["api_key"] = api_key
+    updated = parsed._replace(query=urlencode(query))
+    return urlunparse(updated)
 
 
 def load_text(source: str) -> str:
@@ -308,11 +328,21 @@ def main() -> int:
         print("Hint: add the URL to resources/access_keys/google_sheets.txt")
         return 2
 
+    api_key = read_api_key(RESULTS_API_KEY_PATH)
+    if results_source.startswith("http://") or results_source.startswith("https://"):
+        results_source = build_results_csv_url(results_source, api_key)
+        if not api_key:
+            print(f"WARNING: No API key found in {RESULTS_API_KEY_PATH}.")
+
     try:
         rows = load_results(results_source)
     except Exception as exc:
         print(f"ERROR: Failed to load results: {exc}")
         return 2
+    if not rows:
+        print("WARNING: No rows returned from results source.")
+        if api_key:
+            print("Check that the API key is valid and has access.")
 
     aliases = load_aliases()
     events = event_stream(rows, aliases)

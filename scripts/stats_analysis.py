@@ -5,27 +5,54 @@ from collections import defaultdict
 from datetime import UTC, datetime
 from pathlib import Path
 import json
+import os
+import re
 
 from build_today import (
     DEFAULT_CONFIG,
     ScoreConfig,
+    build_results_csv_url,
     canonicalize,
     compute_scores,
     event_stream,
     filter_items,
     load_aliases,
     load_results,
+    read_api_key,
     resolve_results_source,
 )
 
 ROOT = Path(__file__).resolve().parents[1]
-RESULTS_SOURCE = resolve_results_source("")
+API_KEY_PATH = ROOT / "resources" / "access_keys" / "personal_key.txt"
+
+
+def read_endpoint_from_config() -> str:
+    config_path = ROOT / "web" / "config.js"
+    if not config_path.exists():
+        return ""
+    text = config_path.read_text(encoding="utf-8")
+    match = re.search(r"resultsEndpoint\s*:\s*\"([^\"]+)\"", text)
+    return match.group(1) if match else ""
+
+
+def resolve_results_source_with_key() -> str:
+    env_value = os.environ.get("RESULTS_SOURCE", "").strip()
+    resolved = resolve_results_source(env_value)
+    if not resolved:
+        resolved = read_endpoint_from_config()
+    if resolved.startswith("http://") or resolved.startswith("https://"):
+        api_key = read_api_key(API_KEY_PATH)
+        return build_results_csv_url(resolved, api_key)
+    return resolved
+
+
+RESULTS_SOURCE = resolve_results_source_with_key()
 
 # %%
 # Filter settings for scoring subsets.
-INCLUDE_TAGS = ["verb"]
+INCLUDE_TAGS = [] # ["verb"]
 EXCLUDE_TAGS: list[str] = []
-MODE = "tr-en"
+MODE = ["tr-en", "en-tr"][1]
 
 # %%
 # Load aliases and results.
