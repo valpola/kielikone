@@ -434,7 +434,7 @@
     {
       "id": "cand-a1-cases-0034",
       "turkish": "(bir şeye) üşenmek",
-      "english": "to feel lazy",
+      "english": "to be too lazy to do sth. / to not feel like doing sth.",
       "priority": 3,
       "tags": [
         "verb",
@@ -551,7 +551,7 @@
     {
       "id": "cand-a1-cases-0043",
       "turkish": "(bir şeyden) rahatsız olmak",
-      "english": "to be annoyed about sth.",
+      "english": "to be bothered by sth. / to feel uncomfortable about sth.",
       "priority": 3,
       "tags": [
         "verb",
@@ -590,7 +590,7 @@
     {
       "id": "cand-a1-cases-0046",
       "turkish": "(bir şeyden) utanmak",
-      "english": "to be shy about sth.",
+      "english": "to be ashamed of sth. / to feel embarrassed about sth.",
       "priority": 3,
       "tags": [
         "verb",
