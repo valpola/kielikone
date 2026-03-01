@@ -18,7 +18,7 @@
     {
       "id": "cand-a1-cases-0002",
       "turkish": "(bir şeyi) beklemek",
-      "english": "to wait sth.",
+      "english": "to wait for sth.",
       "priority": 3,
       "tags": [
         "verb",
@@ -57,7 +57,7 @@
     {
       "id": "cand-a1-cases-0005",
       "turkish": "(bir şeyi) düşünmek",
-      "english": "to think sth.",
+      "english": "to think about sth.",
       "priority": 3,
       "tags": [
         "verb",
@@ -252,7 +252,7 @@
     {
       "id": "cand-a1-cases-0020",
       "turkish": "(bir şeyi) zorlaştırmak",
-      "english": "to make difficult sth.",
+      "english": "to make sth. difficult",
       "priority": 3,
       "tags": [
         "verb",
@@ -304,7 +304,7 @@
     {
       "id": "cand-a1-cases-0024",
       "turkish": "(bir şeye) çalışmak",
-      "english": "to work sth.",
+      "english": "to work on sth.",
       "priority": 3,
       "tags": [
         "verb",
@@ -317,7 +317,7 @@
     {
       "id": "cand-a1-cases-0025",
       "turkish": "(bir şeye) devam etmek",
-      "english": "to continue sth.",
+      "english": "to continue with sth.",
       "priority": 3,
       "tags": [
         "verb",
@@ -343,7 +343,7 @@
     {
       "id": "cand-a1-cases-0027",
       "turkish": "(bir şeye) karar vermek",
-      "english": "to decide sth.",
+      "english": "to decide on sth.",
       "priority": 3,
       "tags": [
         "verb",
@@ -356,7 +356,7 @@
     {
       "id": "cand-a1-cases-0028",
       "turkish": "(bir şeye) karışmak",
-      "english": "to meddle sth.",
+      "english": "to meddle in sth.",
       "priority": 3,
       "tags": [
         "verb",
@@ -369,7 +369,7 @@
     {
       "id": "cand-a1-cases-0029",
       "turkish": "(bir şeye) kızmak",
-      "english": "to be angry sth.",
+      "english": "to be angry about sth.",
       "priority": 3,
       "tags": [
         "verb",
@@ -382,7 +382,7 @@
     {
       "id": "cand-a1-cases-0030",
       "turkish": "(bir şeye) sevinmek",
-      "english": "to be happy sth.",
+      "english": "to be happy about sth.",
       "priority": 3,
       "tags": [
         "verb",
@@ -395,7 +395,7 @@
     {
       "id": "cand-a1-cases-0031",
       "turkish": "(bir şeye) sinirlenmek",
-      "english": "to get angry sth.",
+      "english": "to get angry about sth.",
       "priority": 3,
       "tags": [
         "verb",
@@ -421,7 +421,7 @@
     {
       "id": "cand-a1-cases-0033",
       "turkish": "(bir şeye) şaşırmak",
-      "english": "to get surprised sth.",
+      "english": "to be/get surprised at/by sth.",
       "priority": 3,
       "tags": [
         "verb",
@@ -434,7 +434,7 @@
     {
       "id": "cand-a1-cases-0034",
       "turkish": "(bir şeye) üşenmek",
-      "english": "to feel lazy sth.",
+      "english": "to feel lazy",
       "priority": 3,
       "tags": [
         "verb",
@@ -447,7 +447,7 @@
     {
       "id": "cand-a1-cases-0035",
       "turkish": "(bir şeye) üzülmek",
-      "english": "to get sad sth.",
+      "english": "to be/get sad about sth.",
       "priority": 3,
       "tags": [
         "verb",
@@ -512,7 +512,7 @@
     {
       "id": "cand-a1-cases-0040",
       "turkish": "(bir şeyden) korkmak",
-      "english": "to get afraid of sth.",
+      "english": "to be afraid of sth.",
       "priority": 3,
       "tags": [
         "verb",
@@ -551,7 +551,7 @@
     {
       "id": "cand-a1-cases-0043",
       "turkish": "(bir şeyden) rahatsız olmak",
-      "english": "to be annoyed sth.",
+      "english": "to be annoyed about sth.",
       "priority": 3,
       "tags": [
         "verb",
