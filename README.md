@@ -58,6 +58,8 @@ Notes:
 - Set RESULTS_SOURCE and TODAY_LIMIT env vars to avoid passing flags.
 - If resources/access_keys/google_sheets.txt contains the Apps Script URL,
   build_today will use it automatically (expects a CSV response).
+- If the results endpoint requires an API key, put it in
+   resources/access_keys/personal_key.txt.
 - If data/aliases.json exists, build_today uses it to merge results across
    duplicate IDs.
 
@@ -66,8 +68,7 @@ Notes:
 - Run `python3 scripts/export_quiz.py` so the web app has `web/data/aliases.json`.
 - Use the Options menu to set the daily limit and click "Recompute today".
 - The computed list is stored in localStorage only.
-- Recompute does not reset session progress; reload the page to clear the
-   "already quizzed this session" state.
+- Recompute resets session progress for the "correct to finish" counter.
 
 ## Today scoring tests
 - Offline (fixture-based):

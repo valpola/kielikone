@@ -54,6 +54,8 @@ Notes:
 - Use RESULTS_SOURCE and TODAY_LIMIT env vars to avoid flags.
 - If resources/access_keys/google_sheets.txt contains the Apps Script URL,
   build_today will use it automatically (expects a CSV response).
+- If the results endpoint requires an API key, put it in
+  resources/access_keys/personal_key.txt.
 - If data/aliases.json exists, build_today uses it to merge results across
   duplicate IDs.
 
