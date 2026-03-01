@@ -22,8 +22,6 @@ let mode = DEFAULT_MODE;
 let items = [];
 let tagRegistry = [];
 let current = null;
-let seen = 0;
-let correct = 0;
 let isRevealed = false;
 const sessionCorrect = new Map();
 let computedToday = new Set();
@@ -445,6 +443,7 @@ const recomputeToday = async () => {
     const topIds = TodayScoring.selectTopN(scored, getTodayLimit());
     computedToday = new Set(topIds);
     saveStoredToday(computedToday);
+    sessionCorrect.clear();
     renderPrompt();
   } catch (error) {
     window.alert("Failed to recompute today list.");
@@ -505,8 +504,6 @@ const renderMode = () => {
     btn.classList.toggle("active", btn.dataset.mode === mode);
   });
 };
-
-const updateStats = () => {};
 
 const renderTagOptions = () => {
   const existing = new Map(
@@ -632,9 +629,6 @@ const grade = (isCorrect) => {
     correct: isCorrect,
   });
 
-  seen += 1;
-  if (isCorrect) correct += 1;
-  updateStats();
   renderPrompt();
 };
 
@@ -649,13 +643,11 @@ MODE_BTNS.forEach((btn) => {
 
 INCLUDE_TAGS.addEventListener("change", () => {
   saveSelection(INCLUDE_STORAGE, selectedValues(INCLUDE_TAGS));
-  updateStats();
   renderPrompt();
 });
 
 EXCLUDE_TAGS.addEventListener("change", () => {
   saveSelection(EXCLUDE_STORAGE, selectedValues(EXCLUDE_TAGS));
-  updateStats();
   renderPrompt();
 });
 
@@ -768,7 +760,6 @@ const loadData = async () => {
   renderDebugControls();
   renderTagOptions();
   renderMode();
-  updateStats();
   renderPrompt();
 };
 
