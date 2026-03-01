@@ -1,0 +1,617 @@
+{
+  "source_file": "A1_-_3C.pdf",
+  "created_at": "2026-03-01T13:47:31.353725+00:00",
+  "items": [
+    {
+      "id": "cand-a1-3c-0001",
+      "turkish": "akşam yemeği",
+      "english": "dinner",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3c",
+        "noun"
+      ],
+      "source": "A1_-_3C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3c-0002",
+      "turkish": "ayran",
+      "english": "ayran",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3c",
+        "noun"
+      ],
+      "source": "A1_-_3C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3c-0003",
+      "turkish": "baklava",
+      "english": "baklava",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3c",
+        "noun"
+      ],
+      "source": "A1_-_3C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3c-0004",
+      "turkish": "balık",
+      "english": "fish",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3c",
+        "noun"
+      ],
+      "source": "A1_-_3C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3c-0005",
+      "turkish": "bilet",
+      "english": "ticket",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3c",
+        "noun"
+      ],
+      "source": "A1_-_3C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3c-0006",
+      "turkish": "boğaz",
+      "english": "throat",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3c",
+        "noun"
+      ],
+      "source": "A1_-_3C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3c-0007",
+      "turkish": "bıçak",
+      "english": "knife",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3c",
+        "noun"
+      ],
+      "source": "A1_-_3C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3c-0008",
+      "turkish": "cacık",
+      "english": "tzatziki",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3c",
+        "noun"
+      ],
+      "source": "A1_-_3C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3c-0009",
+      "turkish": "evlilik yıldönümü",
+      "english": "wedding anniversary",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3c",
+        "noun"
+      ],
+      "source": "A1_-_3C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3c-0010",
+      "turkish": "eş",
+      "english": "spouse",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3c",
+        "noun"
+      ],
+      "source": "A1_-_3C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3c-0011",
+      "turkish": "hamburger",
+      "english": "hamburger",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3c",
+        "noun"
+      ],
+      "source": "A1_-_3C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3c-0012",
+      "turkish": "hesap",
+      "english": "check",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3c",
+        "noun"
+      ],
+      "source": "A1_-_3C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3c-0013",
+      "turkish": "içecek",
+      "english": "beverage",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3c",
+        "noun"
+      ],
+      "source": "A1_-_3C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3c-0014",
+      "turkish": "kahvaltı",
+      "english": "breakfast",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3c",
+        "noun"
+      ],
+      "source": "A1_-_3C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3c-0015",
+      "turkish": "kahve",
+      "english": "coffee",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3c",
+        "noun"
+      ],
+      "source": "A1_-_3C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3c-0016",
+      "turkish": "kaşık",
+      "english": "spoon",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3c",
+        "noun"
+      ],
+      "source": "A1_-_3C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3c-0017",
+      "turkish": "kebap",
+      "english": "kebab",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3c",
+        "noun"
+      ],
+      "source": "A1_-_3C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3c-0018",
+      "turkish": "kola",
+      "english": "coke",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3c",
+        "noun"
+      ],
+      "source": "A1_-_3C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3c-0019",
+      "turkish": "köfte",
+      "english": "meatball",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3c",
+        "noun"
+      ],
+      "source": "A1_-_3C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3c-0020",
+      "turkish": "künefe",
+      "english": "kunefe",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3c",
+        "noun"
+      ],
+      "source": "A1_-_3C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3c-0021",
+      "turkish": "lahmacun",
+      "english": "lahmacun",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3c",
+        "noun"
+      ],
+      "source": "A1_-_3C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3c-0022",
+      "turkish": "levrek",
+      "english": "sea bass",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3c",
+        "noun"
+      ],
+      "source": "A1_-_3C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3c-0023",
+      "turkish": "limonata",
+      "english": "lemonade",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3c",
+        "noun"
+      ],
+      "source": "A1_-_3C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3c-0024",
+      "turkish": "lüfer",
+      "english": "bluefish",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3c",
+        "noun"
+      ],
+      "source": "A1_-_3C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3c-0025",
+      "turkish": "makarna",
+      "english": "pasta",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3c",
+        "noun"
+      ],
+      "source": "A1_-_3C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3c-0026",
+      "turkish": "mantı",
+      "english": "dumpling",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3c",
+        "noun"
+      ],
+      "source": "A1_-_3C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3c-0027",
+      "turkish": "manzara",
+      "english": "view",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3c",
+        "noun"
+      ],
+      "source": "A1_-_3C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3c-0028",
+      "turkish": "menü",
+      "english": "menu",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3c",
+        "noun"
+      ],
+      "source": "A1_-_3C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3c-0029",
+      "turkish": "meyve suyu",
+      "english": "juice",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3c",
+        "noun"
+      ],
+      "source": "A1_-_3C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3c-0030",
+      "turkish": "palamut",
+      "english": "bonito",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3c",
+        "noun"
+      ],
+      "source": "A1_-_3C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3c-0031",
+      "turkish": "pilav",
+      "english": "rice",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3c",
+        "noun"
+      ],
+      "source": "A1_-_3C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3c-0032",
+      "turkish": "pizza",
+      "english": "pizza",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3c",
+        "noun"
+      ],
+      "source": "A1_-_3C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3c-0033",
+      "turkish": "portakal suyu",
+      "english": "orange juice",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3c",
+        "noun"
+      ],
+      "source": "A1_-_3C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3c-0034",
+      "turkish": "poğaça",
+      "english": "pastry",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3c",
+        "noun"
+      ],
+      "source": "A1_-_3C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3c-0035",
+      "turkish": "salata",
+      "english": "salad",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3c",
+        "noun"
+      ],
+      "source": "A1_-_3C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3c-0036",
+      "turkish": "sardalya",
+      "english": "sardine",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3c",
+        "noun"
+      ],
+      "source": "A1_-_3C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3c-0037",
+      "turkish": "sipariş",
+      "english": "order",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3c",
+        "noun"
+      ],
+      "source": "A1_-_3C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3c-0038",
+      "turkish": "su",
+      "english": "water",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3c",
+        "noun"
+      ],
+      "source": "A1_-_3C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3c-0039",
+      "turkish": "sütlaç",
+      "english": "rice pudding",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3c",
+        "noun"
+      ],
+      "source": "A1_-_3C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3c-0040",
+      "turkish": "yiyecek",
+      "english": "food",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3c",
+        "noun"
+      ],
+      "source": "A1_-_3C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3c-0041",
+      "turkish": "çatal",
+      "english": "fork",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3c",
+        "noun"
+      ],
+      "source": "A1_-_3C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3c-0042",
+      "turkish": "çay",
+      "english": "tea",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3c",
+        "noun"
+      ],
+      "source": "A1_-_3C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3c-0043",
+      "turkish": "çipura",
+      "english": "sea bream",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3c",
+        "noun"
+      ],
+      "source": "A1_-_3C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3c-0044",
+      "turkish": "çorba",
+      "english": "soup",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3c",
+        "noun"
+      ],
+      "source": "A1_-_3C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3c-0045",
+      "turkish": "öğle yemeği",
+      "english": "lunch",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3c",
+        "noun"
+      ],
+      "source": "A1_-_3C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3c-0046",
+      "turkish": "ıhlamur",
+      "english": "linden tea",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3c",
+        "noun"
+      ],
+      "source": "A1_-_3C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3c-0047",
+      "turkish": "uygun",
+      "english": "suitable",
+      "priority": 3,
+      "tags": [
+        "unit-a1-3c",
+        "adjective"
+      ],
+      "source": "A1_-_3C.pdf",
+      "notes": "",
+      "status": "approved"
+    }
+  ]
+}
