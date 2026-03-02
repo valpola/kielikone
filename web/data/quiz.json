@@ -568,8 +568,7 @@
       "priority": 3,
       "tags": [
         "unit-a1-1a",
-        "expression",
-        "today"
+        "expression"
       ]
     },
     {
@@ -1683,7 +1682,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b"
+        "unit-a1-2b",
+        "today"
       ]
     },
     {
@@ -1884,7 +1884,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b"
+        "unit-a1-2b",
+        "today"
       ]
     },
     {
@@ -1894,8 +1895,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b",
-        "today"
+        "unit-a1-2b"
       ]
     },
     {
@@ -2867,7 +2867,8 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1-2c"
+        "unit-a1-2c",
+        "today"
       ]
     },
     {
@@ -3193,7 +3194,8 @@
       "tags": [
         "noun",
         "unit-a1-3a",
-        "unit-a1-3b"
+        "unit-a1-3b",
+        "today"
       ]
     },
     {
@@ -3790,8 +3792,7 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun",
-        "today"
+        "noun"
       ]
     },
     {
@@ -3801,8 +3802,7 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun",
-        "today"
+        "noun"
       ]
     },
     {
@@ -3812,8 +3812,7 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun",
-        "today"
+        "noun"
       ]
     },
     {
@@ -3823,8 +3822,7 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun",
-        "today"
+        "noun"
       ]
     },
     {
@@ -3834,8 +3832,7 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun",
-        "today"
+        "noun"
       ]
     },
     {
@@ -3867,8 +3864,7 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun",
-        "today"
+        "noun"
       ]
     },
     {
@@ -3889,8 +3885,7 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun",
-        "today"
+        "noun"
       ]
     },
     {
@@ -3900,8 +3895,7 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun",
-        "today"
+        "noun"
       ]
     },
     {
@@ -3911,8 +3905,7 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun",
-        "today"
+        "noun"
       ]
     },
     {
@@ -3922,8 +3915,7 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun",
-        "today"
+        "noun"
       ]
     },
     {
@@ -3933,8 +3925,7 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun",
-        "today"
+        "noun"
       ]
     },
     {
@@ -3944,8 +3935,7 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun",
-        "today"
+        "noun"
       ]
     },
     {
@@ -3955,8 +3945,7 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun",
-        "today"
+        "noun"
       ]
     },
     {
@@ -3966,8 +3955,7 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun",
-        "today"
+        "noun"
       ]
     },
     {
@@ -3977,8 +3965,7 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun",
-        "today"
+        "noun"
       ]
     },
     {
@@ -3988,8 +3975,7 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun",
-        "today"
+        "noun"
       ]
     },
     {
@@ -4020,7 +4006,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun"
+        "noun",
+        "today"
       ]
     },
     {
@@ -4040,7 +4027,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun"
+        "noun",
+        "today"
       ]
     },
     {
@@ -4076,7 +4064,7 @@
     {
       "id": "cand-a1-3c-0031",
       "turkish": "pilav",
-      "english": "rice",
+      "english": "rice (cooked)",
       "priority": 3,
       "tags": [
         "unit-a1-3c",
@@ -4106,7 +4094,7 @@
     {
       "id": "cand-a1-3c-0034",
       "turkish": "po\u011fa\u00e7a",
-      "english": "pastry",
+      "english": "pastry (savory)",
       "priority": 3,
       "tags": [
         "unit-a1-3c",
@@ -4150,7 +4138,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun"
+        "noun",
+        "today"
       ]
     },
     {
@@ -4160,7 +4149,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun"
+        "noun",
+        "today"
       ]
     },
     {
@@ -4170,7 +4160,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun"
+        "noun",
+        "today"
       ]
     },
     {
@@ -4180,7 +4171,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun"
+        "noun",
+        "today"
       ]
     },
     {
@@ -4190,7 +4182,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun"
+        "noun",
+        "today"
       ]
     },
     {
@@ -4200,7 +4193,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun"
+        "noun",
+        "today"
       ]
     },
     {
@@ -4210,7 +4204,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun"
+        "noun",
+        "today"
       ]
     },
     {
@@ -4220,7 +4215,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "adjective"
+        "adjective",
+        "today"
       ]
     },
     {
@@ -4262,7 +4258,8 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1"
+        "unit-a1",
+        "today"
       ]
     },
     {
@@ -4355,8 +4352,7 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1",
-        "today"
+        "unit-a1"
       ]
     },
     {
@@ -4460,8 +4456,7 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1",
-        "today"
+        "unit-a1"
       ]
     },
     {
@@ -4494,7 +4489,8 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1"
+        "unit-a1",
+        "today"
       ]
     },
     {
@@ -4504,8 +4500,7 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1",
-        "today"
+        "unit-a1"
       ]
     },
     {
@@ -4515,8 +4510,7 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1",
-        "today"
+        "unit-a1"
       ]
     },
     {
@@ -4526,7 +4520,8 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1"
+        "unit-a1",
+        "today"
       ]
     },
     {
@@ -4536,8 +4531,7 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1",
-        "today"
+        "unit-a1"
       ]
     },
     {
@@ -4547,8 +4541,7 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1",
-        "today"
+        "unit-a1"
       ]
     },
     {
@@ -4568,7 +4561,8 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1"
+        "unit-a1",
+        "today"
       ]
     },
     {
@@ -4588,7 +4582,8 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1"
+        "unit-a1",
+        "today"
       ]
     },
     {
@@ -4608,7 +4603,8 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1"
+        "unit-a1",
+        "today"
       ]
     },
     {
@@ -4618,7 +4614,8 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1"
+        "unit-a1",
+        "today"
       ]
     },
     {
@@ -4628,7 +4625,8 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1"
+        "unit-a1",
+        "today"
       ]
     },
     {
@@ -4638,7 +4636,8 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1"
+        "unit-a1",
+        "today"
       ]
     },
     {
@@ -4658,7 +4657,8 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1"
+        "unit-a1",
+        "today"
       ]
     },
     {
