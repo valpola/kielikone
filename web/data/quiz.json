@@ -1699,7 +1699,7 @@
     {
       "id": "cand-a1-2b-0030",
       "turkish": "g\u0131da",
-      "english": "food",
+      "english": "food (category)",
       "priority": 3,
       "tags": [
         "noun",
@@ -2687,7 +2687,8 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1-2c"
+        "unit-a1-2c",
+        "today"
       ]
     },
     {
@@ -2888,7 +2889,8 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1-2c"
+        "unit-a1-2c",
+        "today"
       ]
     },
     {
@@ -3985,8 +3987,7 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun",
-        "today"
+        "noun"
       ]
     },
     {
@@ -4006,8 +4007,7 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun",
-        "today"
+        "noun"
       ]
     },
     {
@@ -4027,8 +4027,7 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun",
-        "today"
+        "noun"
       ]
     },
     {
@@ -4058,7 +4057,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun"
+        "noun",
+        "today"
       ]
     },
     {
@@ -4068,7 +4068,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun"
+        "noun",
+        "today"
       ]
     },
     {
@@ -4088,7 +4089,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun"
+        "noun",
+        "today"
       ]
     },
     {
@@ -4098,7 +4100,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun"
+        "noun",
+        "today"
       ]
     },
     {
@@ -4118,7 +4121,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun"
+        "noun",
+        "today"
       ]
     },
     {
@@ -4138,8 +4142,7 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun",
-        "today"
+        "noun"
       ]
     },
     {
@@ -4160,8 +4163,7 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun",
-        "today"
+        "noun"
       ]
     },
     {
@@ -4171,8 +4173,7 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun",
-        "today"
+        "noun"
       ]
     },
     {
@@ -4193,8 +4194,7 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun",
-        "today"
+        "noun"
       ]
     },
     {
@@ -4204,8 +4204,7 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun",
-        "today"
+        "noun"
       ]
     },
     {
@@ -4541,7 +4540,8 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1"
+        "unit-a1",
+        "today"
       ]
     },
     {
