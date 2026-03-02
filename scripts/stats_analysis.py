@@ -50,7 +50,7 @@ RESULTS_SOURCE = resolve_results_source_with_key()
 
 # %%
 # Filter settings for scoring subsets.
-INCLUDE_TAGS = [] # ["verb"]
+INCLUDE_TAGS = ["verb"][:0]
 EXCLUDE_TAGS: list[str] = []
 MODE = ["tr-en", "en-tr"][1]
 
