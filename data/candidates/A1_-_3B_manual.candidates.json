@@ -18,7 +18,7 @@
     {
       "id": "cand-a1-3b-0102",
       "turkish": "(birine / bir şeye) katılmak",
-      "english": "to join / participate in / attend",
+      "english": "to join sb. / to participate in sth. / to attend sth.",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
@@ -44,7 +44,7 @@
     {
       "id": "cand-a1-3b-0104",
       "turkish": "(birine / bir şeye) bakmak",
-      "english": "to look at",
+      "english": "to look at sb./sth.",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
@@ -57,7 +57,7 @@
     {
       "id": "cand-a1-3b-0105",
       "turkish": "(birine) güvenmek",
-      "english": "to trust",
+      "english": "to trust sb.",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
@@ -83,7 +83,7 @@
     {
       "id": "cand-a1-3b-0107",
       "turkish": "(birine) telefon etmek",
-      "english": "to phone / call",
+      "english": "to phone / call sb.",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
@@ -109,7 +109,7 @@
     {
       "id": "cand-a1-3b-0109",
       "turkish": "(birine / bir şeye) cevap vermek",
-      "english": "to answer / reply to",
+      "english": "to answer / reply to sb./sth.",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
@@ -135,7 +135,7 @@
     {
       "id": "cand-a1-3b-0111",
       "turkish": "(birine) yardım etmek",
-      "english": "to help",
+      "english": "to help sb.",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
@@ -174,7 +174,7 @@
     {
       "id": "cand-a1-3b-0114",
       "turkish": "(bir yerden) geçmek",
-      "english": "to pass by / go through / cross",
+      "english": "to pass by / go through / cross sth.",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
@@ -187,7 +187,7 @@
     {
       "id": "cand-a1-3b-0115",
       "turkish": "(birinden / bir şeyden) bahsetmek",
-      "english": "to mention / talk about",
+      "english": "to mention / talk about sb./sth.",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
@@ -213,7 +213,7 @@
     {
       "id": "cand-a1-3b-0117",
       "turkish": "(birinden / bir şeyden) nefret etmek",
-      "english": "to hate",
+      "english": "to hate sb./sth.",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
@@ -226,7 +226,7 @@
     {
       "id": "cand-a1-3b-0118",
       "turkish": "(birinden / bir şeyden) sıkılmak",
-      "english": "to be bored of/with; to get bored of",
+      "english": "to be bored of/with sb./sth.; to get bored of sb./sth.",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
@@ -239,7 +239,7 @@
     {
       "id": "cand-a1-3b-0119",
       "turkish": "(birinden / bir şeyden) hoşlanmak",
-      "english": "to like",
+      "english": "to like sb./sth.",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
@@ -252,7 +252,7 @@
     {
       "id": "cand-a1-3b-0120",
       "turkish": "(birinden / bir şeyden) korkmak",
-      "english": "to be afraid of",
+      "english": "to be afraid of sb./sth.",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
