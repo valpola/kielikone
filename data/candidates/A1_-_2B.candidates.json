@@ -564,7 +564,7 @@
     {
       "id": "cand-a1-2b-0044",
       "turkish": "kasa",
-      "english": "crate",
+      "english": "till / safe / cashbox / crate",
       "priority": 3,
       "tags": [
         "noun",
@@ -577,7 +577,7 @@
     {
       "id": "cand-a1-2b-0045",
       "turkish": "kat",
-      "english": "floor (kerros)",
+      "english": "floor (in a building)",
       "priority": 3,
       "tags": [
         "noun",
@@ -590,7 +590,7 @@
     {
       "id": "cand-a1-2b-0046",
       "turkish": "kasa",
-      "english": "market check out",
+      "english": "till / safe / cashbox / crate",
       "priority": 3,
       "tags": [
         "noun",
