@@ -87,6 +87,7 @@ Optional helper:
 - f: I was correct
 - j: I was incorrect
 - n: next
+- Tab: next
 
 ## Mobile UX
 - Answer input blurs after reveal to dismiss the keyboard.
