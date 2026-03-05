@@ -209,6 +209,10 @@ plt.title(f"Histogram of Scores ({MODE})")
 plt.show()
 
 # %%
+print(f"Average score: {sum(scores) / len(scores):.3f}")
+print(f"Proportion > 0: {sum(1 for score in scores if score > 0) / len(scores):.3%}")
+
+# %%
 # Show the top 10 lowest and top 30 highest scoring words (MODE).
 scored_words = []
 for canonical in canonical_vocab_words:
