@@ -131,8 +131,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-0a",
-        "today"
+        "unit-a1-0a"
       ]
     },
     {
@@ -549,8 +548,7 @@
       "priority": 3,
       "tags": [
         "unit-a1-1a",
-        "expression",
-        "today"
+        "expression"
       ]
     },
     {
@@ -580,8 +578,7 @@
       "priority": 3,
       "tags": [
         "unit-a1-1a",
-        "expression",
-        "today"
+        "expression"
       ]
     },
     {
@@ -662,8 +659,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-1b",
-        "today"
+        "unit-a1-1b"
       ]
     },
     {
@@ -1003,8 +999,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2a",
-        "today"
+        "unit-a1-2a"
       ]
     },
     {
@@ -1677,8 +1672,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b",
-        "today"
+        "unit-a1-2b"
       ]
     },
     {
@@ -1865,12 +1859,11 @@
     {
       "id": "cand-a1-2b-0047",
       "turkish": "kasiyer",
-      "english": "cahsier",
+      "english": "cashier",
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b",
-        "today"
+        "unit-a1-2b"
       ]
     },
     {
@@ -1900,8 +1893,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b",
-        "today"
+        "unit-a1-2b"
       ]
     },
     {
@@ -2232,8 +2224,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2b",
-        "today"
+        "unit-a1-2b"
       ]
     },
     {
@@ -2463,8 +2454,7 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1-2c",
-        "today"
+        "unit-a1-2c"
       ]
     },
     {
@@ -2654,8 +2644,7 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1-2c",
-        "today"
+        "unit-a1-2c"
       ]
     },
     {
@@ -3330,8 +3319,7 @@
       "priority": 3,
       "tags": [
         "unit-a1-3b",
-        "verb",
-        "today"
+        "verb"
       ]
     },
     {
@@ -3361,8 +3349,7 @@
       "priority": 3,
       "tags": [
         "unit-a1-3b",
-        "verb",
-        "today"
+        "verb"
       ]
     },
     {
@@ -3392,8 +3379,7 @@
       "priority": 3,
       "tags": [
         "unit-a1-3b",
-        "verb",
-        "today"
+        "verb"
       ]
     },
     {
@@ -3423,8 +3409,7 @@
       "priority": 3,
       "tags": [
         "unit-a1-3b",
-        "verb",
-        "today"
+        "verb"
       ]
     },
     {
@@ -3484,8 +3469,7 @@
       "priority": 3,
       "tags": [
         "unit-a1-3b",
-        "noun",
-        "today"
+        "noun"
       ]
     },
     {
@@ -3505,8 +3489,7 @@
       "priority": 3,
       "tags": [
         "unit-a1-3b",
-        "noun",
-        "today"
+        "noun"
       ]
     },
     {
@@ -3546,8 +3529,7 @@
       "priority": 3,
       "tags": [
         "unit-a1-3b",
-        "adjective",
-        "today"
+        "adjective"
       ]
     },
     {
@@ -3557,8 +3539,7 @@
       "priority": 3,
       "tags": [
         "unit-a1-3b",
-        "noun",
-        "today"
+        "noun"
       ]
     },
     {
@@ -3578,8 +3559,7 @@
       "priority": 3,
       "tags": [
         "unit-a1-3b",
-        "noun",
-        "today"
+        "noun"
       ]
     },
     {
@@ -3600,8 +3580,7 @@
       "priority": 3,
       "tags": [
         "unit-a1-3b",
-        "verb",
-        "today"
+        "verb"
       ]
     },
     {
@@ -3744,8 +3723,7 @@
       "priority": 3,
       "tags": [
         "unit-a1-3b",
-        "verb",
-        "today"
+        "verb"
       ]
     },
     {
@@ -3756,8 +3734,7 @@
       "tags": [
         "unit-a1-3b",
         "verb",
-        "unit-a1",
-        "today"
+        "unit-a1"
       ]
     },
     {
@@ -3800,7 +3777,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun"
+        "noun",
+        "today"
       ]
     },
     {
@@ -3810,7 +3788,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun"
+        "noun",
+        "today"
       ]
     },
     {
@@ -3820,7 +3799,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun"
+        "noun",
+        "today"
       ]
     },
     {
@@ -3830,7 +3810,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun"
+        "noun",
+        "today"
       ]
     },
     {
@@ -3840,7 +3821,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun"
+        "noun",
+        "today"
       ]
     },
     {
@@ -3870,7 +3852,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun"
+        "noun",
+        "today"
       ]
     },
     {
@@ -3890,7 +3873,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun"
+        "noun",
+        "today"
       ]
     },
     {
@@ -3900,7 +3884,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun"
+        "noun",
+        "today"
       ]
     },
     {
@@ -3910,7 +3895,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun"
+        "noun",
+        "today"
       ]
     },
     {
@@ -3920,7 +3906,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun"
+        "noun",
+        "today"
       ]
     },
     {
@@ -3930,7 +3917,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun"
+        "noun",
+        "today"
       ]
     },
     {
@@ -3940,7 +3928,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun"
+        "noun",
+        "today"
       ]
     },
     {
@@ -3950,7 +3939,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun"
+        "noun",
+        "today"
       ]
     },
     {
@@ -3960,7 +3950,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun"
+        "noun",
+        "today"
       ]
     },
     {
@@ -3970,7 +3961,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun"
+        "noun",
+        "today"
       ]
     },
     {
@@ -3980,7 +3972,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun"
+        "noun",
+        "today"
       ]
     },
     {
@@ -4000,7 +3993,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun"
+        "noun",
+        "today"
       ]
     },
     {
@@ -4020,7 +4014,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun"
+        "noun",
+        "today"
       ]
     },
     {
@@ -4040,7 +4035,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun"
+        "noun",
+        "today"
       ]
     },
     {
@@ -4050,7 +4046,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun"
+        "noun",
+        "today"
       ]
     },
     {
@@ -4080,7 +4077,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun"
+        "noun",
+        "today"
       ]
     },
     {
@@ -4110,7 +4108,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun"
+        "noun",
+        "today"
       ]
     },
     {
@@ -4130,7 +4129,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun"
+        "noun",
+        "today"
       ]
     },
     {
@@ -4140,7 +4140,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun"
+        "noun",
+        "today"
       ]
     },
     {
@@ -4160,7 +4161,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun"
+        "noun",
+        "today"
       ]
     },
     {
@@ -4170,7 +4172,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun"
+        "noun",
+        "today"
       ]
     },
     {
@@ -4190,7 +4193,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3c",
-        "noun"
+        "noun",
+        "today"
       ]
     },
     {
@@ -4252,8 +4256,7 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1",
-        "today"
+        "unit-a1"
       ]
     },
     {
@@ -4325,8 +4328,7 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1",
-        "today"
+        "unit-a1"
       ]
     },
     {
@@ -4398,8 +4400,7 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1",
-        "today"
+        "unit-a1"
       ]
     },
     {
@@ -4419,8 +4420,7 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1",
-        "today"
+        "unit-a1"
       ]
     },
     {
@@ -4430,8 +4430,7 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1",
-        "today"
+        "unit-a1"
       ]
     },
     {
@@ -4496,7 +4495,8 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1"
+        "unit-a1",
+        "today"
       ]
     },
     {
@@ -4536,8 +4536,7 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1",
-        "today"
+        "unit-a1"
       ]
     },
     {
@@ -4557,8 +4556,7 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1",
-        "today"
+        "unit-a1"
       ]
     },
     {
@@ -4628,7 +4626,8 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1"
+        "unit-a1",
+        "today"
       ]
     },
     {
@@ -4638,7 +4637,8 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1"
+        "unit-a1",
+        "today"
       ]
     },
     {
