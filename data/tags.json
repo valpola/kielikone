@@ -10,6 +10,7 @@
     { "id": "unit-a1-3a", "label": "Unit A1-3A", "group": "unit" },
     { "id": "unit-a1-3b", "label": "Unit A1-3B", "group": "unit" },
     { "id": "unit-a1-3c", "label": "Unit A1-3C", "group": "unit" },
+    { "id": "unit-a1-4a", "label": "Unit A1-4A", "group": "unit" },
     { "id": "unit-a1", "label": "Unit A1", "group": "unit" },
     { "id": "unit-extra", "label": "Extra", "group": "unit" },
     { "id": "today", "label": "Today", "group": "system" },

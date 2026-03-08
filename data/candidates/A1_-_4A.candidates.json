@@ -1,0 +1,513 @@
+{
+  "source_file": "A1_-_4A.pdf",
+  "created_at": "2026-03-08T13:19:24.825068+00:00",
+  "items": [
+    {
+      "id": "cand-a1-4a-0001",
+      "turkish": "kaçmak",
+      "english": "to escape",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4a",
+        "verb"
+      ],
+      "source": "A1_-_4A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4a-0002",
+      "turkish": "ağabey/abi",
+      "english": "elder brother",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4a",
+        "noun"
+      ],
+      "source": "A1_-_4A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4a-0003",
+      "turkish": "amca",
+      "english": "uncle (dad's brother)",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4a",
+        "noun"
+      ],
+      "source": "A1_-_4A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4a-0004",
+      "turkish": "anne",
+      "english": "mother",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4a",
+        "noun"
+      ],
+      "source": "A1_-_4A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4a-0005",
+      "turkish": "anneanne",
+      "english": "maternal grandmother",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4a",
+        "noun"
+      ],
+      "source": "A1_-_4A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4a-0006",
+      "turkish": "baba",
+      "english": "father",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4a",
+        "noun"
+      ],
+      "source": "A1_-_4A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4a-0007",
+      "turkish": "babaanne",
+      "english": "paternal grandmother",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4a",
+        "noun"
+      ],
+      "source": "A1_-_4A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4a-0008",
+      "turkish": "bilet",
+      "english": "ticket",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4a",
+        "noun"
+      ],
+      "source": "A1_-_4A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4a-0009",
+      "turkish": "çanta",
+      "english": "bag",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4a",
+        "noun"
+      ],
+      "source": "A1_-_4A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4a-0010",
+      "turkish": "çocuk",
+      "english": "child",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4a",
+        "noun"
+      ],
+      "source": "A1_-_4A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4a-0011",
+      "turkish": "dayı",
+      "english": "uncle (mom's brother)",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4a",
+        "noun"
+      ],
+      "source": "A1_-_4A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4a-0012",
+      "turkish": "dede",
+      "english": "grandfather",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4a",
+        "noun"
+      ],
+      "source": "A1_-_4A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4a-0013",
+      "turkish": "dergi",
+      "english": "magazine",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4a",
+        "noun"
+      ],
+      "source": "A1_-_4A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4a-0014",
+      "turkish": "ders",
+      "english": "lesson",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4a",
+        "noun"
+      ],
+      "source": "A1_-_4A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4a-0015",
+      "turkish": "enişte",
+      "english": "uncle in law",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4a",
+        "noun"
+      ],
+      "source": "A1_-_4A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4a-0016",
+      "turkish": "eş",
+      "english": "spouse",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4a",
+        "noun"
+      ],
+      "source": "A1_-_4A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4a-0017",
+      "turkish": "gazete",
+      "english": "newspaper",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4a",
+        "noun"
+      ],
+      "source": "A1_-_4A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4a-0018",
+      "turkish": "gözlük",
+      "english": "glasses",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4a",
+        "noun"
+      ],
+      "source": "A1_-_4A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4a-0019",
+      "turkish": "hala",
+      "english": "aunt (dad's sister)",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4a",
+        "noun"
+      ],
+      "source": "A1_-_4A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4a-0020",
+      "turkish": "kardeş",
+      "english": "sibling / younger sister or brother",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4a",
+        "noun"
+      ],
+      "source": "A1_-_4A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4a-0021",
+      "turkish": "karı",
+      "english": "wife",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4a",
+        "noun"
+      ],
+      "source": "A1_-_4A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4a-0022",
+      "turkish": "kız",
+      "english": "daughter",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4a",
+        "noun"
+      ],
+      "source": "A1_-_4A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4a-0023",
+      "turkish": "koca",
+      "english": "husband",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4a",
+        "noun"
+      ],
+      "source": "A1_-_4A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4a-0024",
+      "turkish": "kuzen",
+      "english": "cousin",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4a",
+        "noun"
+      ],
+      "source": "A1_-_4A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4a-0025",
+      "turkish": "müdür",
+      "english": "director",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4a",
+        "noun"
+      ],
+      "source": "A1_-_4A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4a-0026",
+      "turkish": "mühendis",
+      "english": "engineer",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4a",
+        "noun"
+      ],
+      "source": "A1_-_4A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4a-0027",
+      "turkish": "oğul",
+      "english": "son",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4a",
+        "noun"
+      ],
+      "source": "A1_-_4A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4a-0028",
+      "turkish": "oyuncak",
+      "english": "toy",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4a",
+        "noun"
+      ],
+      "source": "A1_-_4A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4a-0029",
+      "turkish": "sınav",
+      "english": "exam",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4a",
+        "noun"
+      ],
+      "source": "A1_-_4A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4a-0030",
+      "turkish": "takipçi",
+      "english": "follower",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4a",
+        "noun"
+      ],
+      "source": "A1_-_4A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4a-0031",
+      "turkish": "tarak",
+      "english": "comb",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4a",
+        "noun"
+      ],
+      "source": "A1_-_4A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4a-0032",
+      "turkish": "telefon",
+      "english": "telephone",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4a",
+        "noun"
+      ],
+      "source": "A1_-_4A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4a-0033",
+      "turkish": "teyze",
+      "english": "aunt (mom's sister)",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4a",
+        "noun"
+      ],
+      "source": "A1_-_4A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4a-0034",
+      "turkish": "toplantı",
+      "english": "meeting",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4a",
+        "noun"
+      ],
+      "source": "A1_-_4A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4a-0035",
+      "turkish": "torun",
+      "english": "grandchild",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4a",
+        "noun"
+      ],
+      "source": "A1_-_4A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4a-0036",
+      "turkish": "valiz",
+      "english": "suitcase",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4a",
+        "noun"
+      ],
+      "source": "A1_-_4A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4a-0037",
+      "turkish": "yeğen",
+      "english": "nephew / niece",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4a",
+        "noun"
+      ],
+      "source": "A1_-_4A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4a-0038",
+      "turkish": "yenge",
+      "english": "aunt in law",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4a",
+        "noun"
+      ],
+      "source": "A1_-_4A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4a-0039",
+      "turkish": "artık",
+      "english": "anymore",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4a",
+        "adverb"
+      ],
+      "source": "A1_-_4A.pdf",
+      "notes": "",
+      "status": "approved"
+    }
+  ]
+}
