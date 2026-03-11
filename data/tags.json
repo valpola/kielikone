@@ -1,29 +1,150 @@
 {
   "version": 1,
   "tags": [
-    { "id": "unit-a1-0a", "label": "Unit A1-0A", "group": "unit" },
-    { "id": "unit-a1-1a", "label": "Unit A1-1A", "group": "unit" },
-    { "id": "unit-a1-1b", "label": "Unit A1-1B", "group": "unit" },
-    { "id": "unit-a1-2a", "label": "Unit A1-2A", "group": "unit" },
-    { "id": "unit-a1-2b", "label": "Unit A1-2B", "group": "unit" },
-    { "id": "unit-a1-2c", "label": "Unit A1-2C", "group": "unit" },
-    { "id": "unit-a1-3a", "label": "Unit A1-3A", "group": "unit" },
-    { "id": "unit-a1-3b", "label": "Unit A1-3B", "group": "unit" },
-    { "id": "unit-a1-3c", "label": "Unit A1-3C", "group": "unit" },
-    { "id": "unit-a1-4a", "label": "Unit A1-4A", "group": "unit" },
-    { "id": "unit-a1", "label": "Unit A1", "group": "unit" },
-    { "id": "unit-extra", "label": "Extra", "group": "unit" },
-    { "id": "today", "label": "Today", "group": "system" },
-    { "id": "freq-100", "label": "100 most frequent", "group": "frequency" },
-    { "id": "freq-500", "label": "500 most frequent", "group": "frequency" },
-    { "id": "freq-1000", "label": "1000 most frequent", "group": "frequency" },
-    { "id": "noun", "label": "Noun", "group": "part_of_speech" },
-    { "id": "verb", "label": "Verb", "group": "part_of_speech" },
-    { "id": "adjective", "label": "Adjective", "group": "part_of_speech" },
-    { "id": "adverb", "label": "Adverb", "group": "part_of_speech" },
-    { "id": "time-expression", "label": "Expression of time", "group": "theme" },
-    { "id": "greeting", "label": "Greeting", "group": "theme" },
-    { "id": "polite", "label": "Polite", "group": "theme" },
-    { "id": "expression", "label": "Expression", "group": "theme" }
+    {
+      "id": "unit-a1-0a",
+      "label": "Unit A1-0A",
+      "group": "unit"
+    },
+    {
+      "id": "unit-a1-1a",
+      "label": "Unit A1-1A",
+      "group": "unit"
+    },
+    {
+      "id": "unit-a1-1b",
+      "label": "Unit A1-1B",
+      "group": "unit"
+    },
+    {
+      "id": "unit-a1-2a",
+      "label": "Unit A1-2A",
+      "group": "unit"
+    },
+    {
+      "id": "unit-a1-2b",
+      "label": "Unit A1-2B",
+      "group": "unit"
+    },
+    {
+      "id": "unit-a1-2c",
+      "label": "Unit A1-2C",
+      "group": "unit"
+    },
+    {
+      "id": "unit-a1-3a",
+      "label": "Unit A1-3A",
+      "group": "unit"
+    },
+    {
+      "id": "unit-a1-3b",
+      "label": "Unit A1-3B",
+      "group": "unit"
+    },
+    {
+      "id": "unit-a1-3c",
+      "label": "Unit A1-3C",
+      "group": "unit"
+    },
+    {
+      "id": "unit-a1-4a",
+      "label": "Unit A1-4A",
+      "group": "unit"
+    },
+    {
+      "id": "unit-a1",
+      "label": "Unit A1",
+      "group": "unit"
+    },
+    {
+      "id": "unit-extra",
+      "label": "Extra",
+      "group": "unit"
+    },
+    {
+      "id": "today",
+      "label": "Today",
+      "group": "system"
+    },
+    {
+      "id": "freq-100",
+      "label": "100 most frequent",
+      "group": "frequency"
+    },
+    {
+      "id": "freq-500",
+      "label": "500 most frequent",
+      "group": "frequency"
+    },
+    {
+      "id": "freq-1000",
+      "label": "1000 most frequent",
+      "group": "frequency"
+    },
+    {
+      "id": "noun",
+      "label": "Noun",
+      "group": "part_of_speech"
+    },
+    {
+      "id": "verb",
+      "label": "Verb",
+      "group": "part_of_speech"
+    },
+    {
+      "id": "adjective",
+      "label": "Adjective",
+      "group": "part_of_speech"
+    },
+    {
+      "id": "adverb",
+      "label": "Adverb",
+      "group": "part_of_speech"
+    },
+    {
+      "id": "time-expression",
+      "label": "Expression of time",
+      "group": "theme"
+    },
+    {
+      "id": "greeting",
+      "label": "Greeting",
+      "group": "theme"
+    },
+    {
+      "id": "polite",
+      "label": "Polite",
+      "group": "theme"
+    },
+    {
+      "id": "expression",
+      "label": "Expression",
+      "group": "theme"
+    },
+    {
+      "id": "country",
+      "label": "Country",
+      "group": "theme"
+    },
+    {
+      "id": "language",
+      "label": "Language",
+      "group": "theme"
+    },
+    {
+      "id": "unit-a1-4b",
+      "label": "Unit A1-4B",
+      "group": "unit"
+    },
+    {
+      "id": "pronoun",
+      "label": "Pronoun",
+      "group": "part_of_speech"
+    },
+    {
+      "id": "similar",
+      "label": "Similar",
+      "group": "theme"
+    }
   ]
 }

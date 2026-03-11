@@ -1,0 +1,2757 @@
+{
+  "source_file": "A1_-_4B.pdf",
+  "created_at": "2026-03-11T10:28:46.766515+00:00",
+  "items": [
+    {
+      "id": "cand-a1-4b-0001",
+      "turkish": "Afganistan",
+      "english": "Afghanistan",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0002",
+      "turkish": "Almanya",
+      "english": "Germany",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0003",
+      "turkish": "Amerika Birleşik Devletleri",
+      "english": "United States of America",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0004",
+      "turkish": "Andorra",
+      "english": "Andorra",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0005",
+      "turkish": "Angola",
+      "english": "Angola",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0006",
+      "turkish": "Antigua ve Barbuda",
+      "english": "Antigua and Barbuda",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0007",
+      "turkish": "Arjantin",
+      "english": "Argentina",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0008",
+      "turkish": "Arnavutluk",
+      "english": "Albania",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0009",
+      "turkish": "Avustralya",
+      "english": "Australia",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0010",
+      "turkish": "Avusturya",
+      "english": "Austria",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0011",
+      "turkish": "Azerbaycan",
+      "english": "Azerbaijan",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0012",
+      "turkish": "Bahamas",
+      "english": "Bahamas",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0013",
+      "turkish": "Bahreyn",
+      "english": "Bahrain",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0014",
+      "turkish": "Bangladeş",
+      "english": "Bangladesh",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0015",
+      "turkish": "Barbados",
+      "english": "Barbados",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0016",
+      "turkish": "Belarus",
+      "english": "Belarus",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0017",
+      "turkish": "Belçika",
+      "english": "Belgium",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0018",
+      "turkish": "Belize",
+      "english": "Belize",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0019",
+      "turkish": "Benin",
+      "english": "Benin",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0020",
+      "turkish": "Bhutan",
+      "english": "Bhutan",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0021",
+      "turkish": "Birleşik Arap Emirlikleri",
+      "english": "United Arab Emirates",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0022",
+      "turkish": "Bolivya",
+      "english": "Bolivia",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0023",
+      "turkish": "Bosna-Hersek",
+      "english": "Bosnia and Herzegovina",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0024",
+      "turkish": "Botsvana",
+      "english": "Botswana",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0025",
+      "turkish": "Brezilya",
+      "english": "Brazil",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0026",
+      "turkish": "Brunei",
+      "english": "Brunei",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0027",
+      "turkish": "Bulgaristan",
+      "english": "Bulgaria",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0028",
+      "turkish": "Burkina Faso",
+      "english": "Burkina Faso",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0029",
+      "turkish": "Burundi",
+      "english": "Burundi",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0030",
+      "turkish": "Cezayir",
+      "english": "Algeria",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0031",
+      "turkish": "Cibuti",
+      "english": "Djibouti",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0032",
+      "turkish": "Çad",
+      "english": "Chad",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0033",
+      "turkish": "Çek Cumhuriyeti",
+      "english": "Czech Republic",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0034",
+      "turkish": "Çin",
+      "english": "China",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0035",
+      "turkish": "Danimarka",
+      "english": "Denmark",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0036",
+      "turkish": "Doğu Timor",
+      "english": "East Timor",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0037",
+      "turkish": "Dominik Cumhuriyeti",
+      "english": "Dominican Republic",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0038",
+      "turkish": "Dominika",
+      "english": "Dominica",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0039",
+      "turkish": "Ekvador",
+      "english": "Ecuador",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0040",
+      "turkish": "Ekvator Ginesi",
+      "english": "Equatorial Guinea",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0041",
+      "turkish": "El Salvador",
+      "english": "El Salvador",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0042",
+      "turkish": "Endonezya",
+      "english": "Indonesia",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0043",
+      "turkish": "Eritre",
+      "english": "Eritrea",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0044",
+      "turkish": "Ermenistan",
+      "english": "Armenia",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0045",
+      "turkish": "Estonya",
+      "english": "Estonia",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0046",
+      "turkish": "Esvatini",
+      "english": "Eswatini",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0047",
+      "turkish": "Etiyopya",
+      "english": "Ethiopia",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0048",
+      "turkish": "Fas",
+      "english": "Morocco",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0049",
+      "turkish": "Fiji",
+      "english": "Fiji",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0050",
+      "turkish": "Fildişi Sahili",
+      "english": "Ivory Coast",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0051",
+      "turkish": "Filipinler",
+      "english": "Philippines",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0052",
+      "turkish": "Filistin",
+      "english": "Palestine",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0053",
+      "turkish": "Finlandiya",
+      "english": "Finland",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0054",
+      "turkish": "Fransa",
+      "english": "France",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0055",
+      "turkish": "Gabon",
+      "english": "Gabon",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0056",
+      "turkish": "Gambiya",
+      "english": "Gambia",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0057",
+      "turkish": "Gana",
+      "english": "Ghana",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0058",
+      "turkish": "Gine",
+      "english": "Guinea",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0059",
+      "turkish": "Gine-Bissau",
+      "english": "Guinea-Bissau",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0060",
+      "turkish": "Grenada",
+      "english": "Grenada",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0061",
+      "turkish": "Guatemala",
+      "english": "Guatemala",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0062",
+      "turkish": "Guyana",
+      "english": "Guyana",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0063",
+      "turkish": "Güney Afrika Cumhuriyeti",
+      "english": "South Africa",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0064",
+      "turkish": "Güney Kore",
+      "english": "South Korea",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0065",
+      "turkish": "Güney Sudan",
+      "english": "South Sudan",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0066",
+      "turkish": "Gürcistan",
+      "english": "Georgia",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0067",
+      "turkish": "Haiti",
+      "english": "Haiti",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0068",
+      "turkish": "Hırvatistan",
+      "english": "Croatia",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0069",
+      "turkish": "Hindistan",
+      "english": "India",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0070",
+      "turkish": "Hollanda",
+      "english": "Netherlands",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0071",
+      "turkish": "Honduras",
+      "english": "Honduras",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0072",
+      "turkish": "Irak",
+      "english": "Iraq",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0073",
+      "turkish": "İran",
+      "english": "Iran",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0074",
+      "turkish": "İrlanda",
+      "english": "Ireland",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0075",
+      "turkish": "İspanya",
+      "english": "Spain",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0076",
+      "turkish": "İsrail",
+      "english": "Israel",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0077",
+      "turkish": "İsveç",
+      "english": "Sweden",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0078",
+      "turkish": "İsviçre",
+      "english": "Switzerland",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0079",
+      "turkish": "İtalya",
+      "english": "Italy",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0080",
+      "turkish": "İzlanda",
+      "english": "Iceland",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0081",
+      "turkish": "Jamaika",
+      "english": "Jamaica",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0082",
+      "turkish": "Japonya",
+      "english": "Japan",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0083",
+      "turkish": "Kamboçya",
+      "english": "Cambodia",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0084",
+      "turkish": "Kamerun",
+      "english": "Cameroon",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0085",
+      "turkish": "Kanada",
+      "english": "Canada",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0086",
+      "turkish": "Karadağ",
+      "english": "Montenegro",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0087",
+      "turkish": "Katar",
+      "english": "Qatar",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0088",
+      "turkish": "Kazakistan",
+      "english": "Kazakhstan",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0089",
+      "turkish": "Kenya",
+      "english": "Kenya",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0090",
+      "turkish": "Kıbrıs",
+      "english": "Cyprus",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0091",
+      "turkish": "Kırgızistan",
+      "english": "Kyrgyzstan",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0092",
+      "turkish": "Kiribati",
+      "english": "Kiribati",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0093",
+      "turkish": "Kolombiya",
+      "english": "Colombia",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0094",
+      "turkish": "Komorlar",
+      "english": "Comoros",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0095",
+      "turkish": "Kongo Cumhuriyeti",
+      "english": "Republic of the Congo",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0096",
+      "turkish": "Kongo Demokratik Cumhuriyeti",
+      "english": "Democratic Republic of the Congo",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0097",
+      "turkish": "Kosova",
+      "english": "Kosovo",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0098",
+      "turkish": "Kosta Rika",
+      "english": "Costa Rica",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0099",
+      "turkish": "Kuveyt",
+      "english": "Kuwait",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0100",
+      "turkish": "Kuzey Kore",
+      "english": "North Korea",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0101",
+      "turkish": "Kuzey Makedonya",
+      "english": "North Macedonia",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0102",
+      "turkish": "Küba",
+      "english": "Cuba",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0103",
+      "turkish": "Laos",
+      "english": "Laos",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0104",
+      "turkish": "Lesotho",
+      "english": "Lesotho",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0105",
+      "turkish": "Letonya",
+      "english": "Latvia",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0106",
+      "turkish": "Liberya",
+      "english": "Liberia",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0107",
+      "turkish": "Libya",
+      "english": "Libya",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0108",
+      "turkish": "Lübnan",
+      "english": "Lebanon",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0109",
+      "turkish": "Madagaskar",
+      "english": "Madagascar",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0110",
+      "turkish": "Malavi",
+      "english": "Malawi",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0111",
+      "turkish": "Maldivler",
+      "english": "Maldives",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0112",
+      "turkish": "Malezya",
+      "english": "Malaysia",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0113",
+      "turkish": "Mali",
+      "english": "Mali",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0114",
+      "turkish": "Marshall Adaları",
+      "english": "Marshall Islands",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0115",
+      "turkish": "Mauritius",
+      "english": "Mauritius",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0116",
+      "turkish": "Meksika",
+      "english": "Mexico",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0117",
+      "turkish": "Mısır",
+      "english": "Egypt",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0118",
+      "turkish": "Mikronezya Federal Devletleri",
+      "english": "Federated States of Micronesia",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0119",
+      "turkish": "Moğolistan",
+      "english": "Mongolia",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0120",
+      "turkish": "Moritanya",
+      "english": "Mauritania",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0121",
+      "turkish": "Mozambik",
+      "english": "Mozambique",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0122",
+      "turkish": "Myanmar",
+      "english": "Myanmar",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0123",
+      "turkish": "Namibya",
+      "english": "Namibia",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0124",
+      "turkish": "Nauru",
+      "english": "Nauru",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0125",
+      "turkish": "Nepal",
+      "english": "Nepal",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0126",
+      "turkish": "Nijer",
+      "english": "Niger",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0127",
+      "turkish": "Nijerya",
+      "english": "Nigeria",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0128",
+      "turkish": "Nikaragua",
+      "english": "Nicaragua",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0129",
+      "turkish": "Orta Afrika Cumhuriyeti",
+      "english": "Central African Republic",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0130",
+      "turkish": "Özbekistan",
+      "english": "Uzbekistan",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0131",
+      "turkish": "Pakistan",
+      "english": "Pakistan",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0132",
+      "turkish": "Palau",
+      "english": "Palau",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0133",
+      "turkish": "Panama",
+      "english": "Panama",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0134",
+      "turkish": "Papua Yeni Gine",
+      "english": "Papua New Guinea",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0135",
+      "turkish": "Paraguay",
+      "english": "Paraguay",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0136",
+      "turkish": "Peru",
+      "english": "Peru",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0137",
+      "turkish": "Ruanda",
+      "english": "Rwanda",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0138",
+      "turkish": "Rusya",
+      "english": "Russia",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0139",
+      "turkish": "Saint Kitts ve Nevis",
+      "english": "Saint Kitts and Nevis",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0140",
+      "turkish": "Saint Lucia",
+      "english": "Saint Lucia",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0141",
+      "turkish": "Saint Vincent ve Grenadinler",
+      "english": "Saint Vincent and the Grenadines",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0142",
+      "turkish": "Samoa",
+      "english": "Samoa",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0143",
+      "turkish": "Sao Tome ve Principe",
+      "english": "São Tomé and Príncipe",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0144",
+      "turkish": "Senegal",
+      "english": "Senegal",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0145",
+      "turkish": "Seyşeller",
+      "english": "Seychelles",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0146",
+      "turkish": "Sierra Leone",
+      "english": "Sierra Leone",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0147",
+      "turkish": "Şili",
+      "english": "Chile",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0148",
+      "turkish": "Singapur",
+      "english": "Singapore",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0149",
+      "turkish": "Solomon Adaları",
+      "english": "Solomon Islands",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0150",
+      "turkish": "Somali",
+      "english": "Somalia",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0151",
+      "turkish": "Sri Lanka",
+      "english": "Sri Lanka",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0152",
+      "turkish": "Sudan",
+      "english": "Sudan",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0153",
+      "turkish": "Surinam",
+      "english": "Suriname",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0154",
+      "turkish": "Suriye",
+      "english": "Syria",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0155",
+      "turkish": "Suudi Arabistan",
+      "english": "Saudi Arabia",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0156",
+      "turkish": "Tacikistan",
+      "english": "Tajikistan",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0157",
+      "turkish": "Tanzanya",
+      "english": "Tanzania",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0158",
+      "turkish": "Tayland",
+      "english": "Thailand",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0159",
+      "turkish": "Togo",
+      "english": "Togo",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0160",
+      "turkish": "Tonga",
+      "english": "Tonga",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0161",
+      "turkish": "Trinidad ve Tobago",
+      "english": "Trinidad and Tobago",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0162",
+      "turkish": "Tunus",
+      "english": "Tunisia",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0163",
+      "turkish": "Tuvalu",
+      "english": "Tuvalu",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0164",
+      "turkish": "Türkmenistan",
+      "english": "Turkmenistan",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0165",
+      "turkish": "Uganda",
+      "english": "Uganda",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0166",
+      "turkish": "Umman",
+      "english": "Oman",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0167",
+      "turkish": "Uruguay",
+      "english": "Uruguay",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0168",
+      "turkish": "Ürdün",
+      "english": "Jordan",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0169",
+      "turkish": "Vanuatu",
+      "english": "Vanuatu",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0170",
+      "turkish": "Venezuela",
+      "english": "Venezuela",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0171",
+      "turkish": "Vietnam",
+      "english": "Vietnam",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0172",
+      "turkish": "Yemen",
+      "english": "Yemen",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0173",
+      "turkish": "Yeni Zelanda",
+      "english": "New Zealand",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0174",
+      "turkish": "Yeşil Burun Adaları",
+      "english": "Cape Verde",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0175",
+      "turkish": "Zambiya",
+      "english": "Zambia",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0176",
+      "turkish": "Zimbabve",
+      "english": "Zimbabwe",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "country",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0177",
+      "turkish": "Almanca",
+      "english": "German",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "language"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0178",
+      "turkish": "Arapça",
+      "english": "Arabic",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "language"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0179",
+      "turkish": "Arnavutça",
+      "english": "Albanian",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "language"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0180",
+      "turkish": "Bulgarca",
+      "english": "Bulgarian",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "language",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0181",
+      "turkish": "Fransızca",
+      "english": "French",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "language"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0182",
+      "turkish": "Gürcüce",
+      "english": "Georgian",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "language"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0183",
+      "turkish": "Hintçe",
+      "english": "Hindi",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "language"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0184",
+      "turkish": "Japonca",
+      "english": "Japanese",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "language"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0185",
+      "turkish": "Macarca",
+      "english": "Hungarian",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "language"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0186",
+      "turkish": "Rumca/Yunanca",
+      "english": "Greek/Greek",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "language"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0187",
+      "turkish": "Rusça",
+      "english": "Russian",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "language"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0188",
+      "turkish": "Sırpça",
+      "english": "Serbian",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "language"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0189",
+      "turkish": "Türkçe",
+      "english": "Turkish",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "language"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0190",
+      "turkish": "Çekçe",
+      "english": "Czech",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "language"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0191",
+      "turkish": "Çince",
+      "english": "Chinese",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "language"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0192",
+      "turkish": "İngilizce",
+      "english": "English",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "language"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0193",
+      "turkish": "İspanyolca",
+      "english": "Spanish",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "language"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0194",
+      "turkish": "İtalyanca",
+      "english": "Italian",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "language",
+        "similar"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0195",
+      "turkish": "komşu",
+      "english": "neighbor",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "noun"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0196",
+      "turkish": "mevsim",
+      "english": "season",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "noun"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0197",
+      "turkish": "doğa",
+      "english": "nature",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "noun"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0198",
+      "turkish": "en",
+      "english": "the most",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "adverb"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0199",
+      "turkish": "hepsi",
+      "english": "all of them",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "pronoun"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0200",
+      "turkish": "hepiniz",
+      "english": "all of you",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "pronoun"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0201",
+      "turkish": "hepimiz",
+      "english": "all of us",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "pronoun"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0202",
+      "turkish": "kendim",
+      "english": "myself",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "pronoun"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0203",
+      "turkish": "kendisi",
+      "english": "himself / herself / itself",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "pronoun"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
+    }
+  ]
+}
