@@ -51,7 +51,7 @@ RESULTS_SOURCE = resolve_results_source_with_key()
 # %%
 # Filter settings for scoring subsets.
 INCLUDE_TAGS = ["verb"][:0]
-EXCLUDE_TAGS: list[str] = []
+EXCLUDE_TAGS: list[str] = ["similar"][:1]
 MODE = ["tr-en", "en-tr"][1]
 
 # %%
@@ -150,7 +150,7 @@ reviewed_path = ROOT / "data" / "vocab" / "reviewed.json"
 if reviewed_path.exists():
     reviewed_raw = reviewed_path.read_text(encoding="utf-8")
     reviewed_items = json.loads(reviewed_raw).get("items", []) or []
-    for item in reviewed_items:
+    for item in filter_items(reviewed_items, set(INCLUDE_TAGS), set(EXCLUDE_TAGS)):
         item_id = str(item.get("id", "")).strip()
         if item_id:
             vocab_words.add(item_id)
