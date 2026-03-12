@@ -2409,7 +2409,7 @@
     {
       "id": "cand-a1-4b-0177",
       "turkish": "Almanca",
-      "english": "German",
+      "english": "German (language)",
       "priority": 3,
       "tags": [
         "unit-a1-4b",
@@ -2422,7 +2422,7 @@
     {
       "id": "cand-a1-4b-0178",
       "turkish": "Arapça",
-      "english": "Arabic",
+      "english": "Arabic (language)",
       "priority": 3,
       "tags": [
         "unit-a1-4b",
@@ -2435,7 +2435,7 @@
     {
       "id": "cand-a1-4b-0179",
       "turkish": "Arnavutça",
-      "english": "Albanian",
+      "english": "Albanian (language)",
       "priority": 3,
       "tags": [
         "unit-a1-4b",
@@ -2448,7 +2448,7 @@
     {
       "id": "cand-a1-4b-0180",
       "turkish": "Bulgarca",
-      "english": "Bulgarian",
+      "english": "Bulgarian (language)",
       "priority": 3,
       "tags": [
         "unit-a1-4b",
@@ -2462,7 +2462,7 @@
     {
       "id": "cand-a1-4b-0181",
       "turkish": "Fransızca",
-      "english": "French",
+      "english": "French (language)",
       "priority": 3,
       "tags": [
         "unit-a1-4b",
@@ -2475,7 +2475,7 @@
     {
       "id": "cand-a1-4b-0182",
       "turkish": "Gürcüce",
-      "english": "Georgian",
+      "english": "Georgian (language)",
       "priority": 3,
       "tags": [
         "unit-a1-4b",
@@ -2488,7 +2488,7 @@
     {
       "id": "cand-a1-4b-0183",
       "turkish": "Hintçe",
-      "english": "Hindi",
+      "english": "Hindi (language)",
       "priority": 3,
       "tags": [
         "unit-a1-4b",
@@ -2501,7 +2501,7 @@
     {
       "id": "cand-a1-4b-0184",
       "turkish": "Japonca",
-      "english": "Japanese",
+      "english": "Japanese (language)",
       "priority": 3,
       "tags": [
         "unit-a1-4b",
@@ -2514,7 +2514,7 @@
     {
       "id": "cand-a1-4b-0185",
       "turkish": "Macarca",
-      "english": "Hungarian",
+      "english": "Hungarian (language)",
       "priority": 3,
       "tags": [
         "unit-a1-4b",
@@ -2527,7 +2527,7 @@
     {
       "id": "cand-a1-4b-0186",
       "turkish": "Rumca/Yunanca",
-      "english": "Greek/Greek",
+      "english": "Greek (language)",
       "priority": 3,
       "tags": [
         "unit-a1-4b",
@@ -2540,7 +2540,7 @@
     {
       "id": "cand-a1-4b-0187",
       "turkish": "Rusça",
-      "english": "Russian",
+      "english": "Russian (language)",
       "priority": 3,
       "tags": [
         "unit-a1-4b",
@@ -2553,7 +2553,7 @@
     {
       "id": "cand-a1-4b-0188",
       "turkish": "Sırpça",
-      "english": "Serbian",
+      "english": "Serbian (language)",
       "priority": 3,
       "tags": [
         "unit-a1-4b",
@@ -2566,7 +2566,7 @@
     {
       "id": "cand-a1-4b-0189",
       "turkish": "Türkçe",
-      "english": "Turkish",
+      "english": "Turkish (language)",
       "priority": 3,
       "tags": [
         "unit-a1-4b",
@@ -2579,7 +2579,7 @@
     {
       "id": "cand-a1-4b-0190",
       "turkish": "Çekçe",
-      "english": "Czech",
+      "english": "Czech (language)",
       "priority": 3,
       "tags": [
         "unit-a1-4b",
@@ -2592,7 +2592,7 @@
     {
       "id": "cand-a1-4b-0191",
       "turkish": "Çince",
-      "english": "Chinese",
+      "english": "Chinese (language)",
       "priority": 3,
       "tags": [
         "unit-a1-4b",
@@ -2605,7 +2605,7 @@
     {
       "id": "cand-a1-4b-0192",
       "turkish": "İngilizce",
-      "english": "English",
+      "english": "English (language)",
       "priority": 3,
       "tags": [
         "unit-a1-4b",
@@ -2618,7 +2618,7 @@
     {
       "id": "cand-a1-4b-0193",
       "turkish": "İspanyolca",
-      "english": "Spanish",
+      "english": "Spanish (language)",
       "priority": 3,
       "tags": [
         "unit-a1-4b",
@@ -2631,7 +2631,7 @@
     {
       "id": "cand-a1-4b-0194",
       "turkish": "İtalyanca",
-      "english": "Italian",
+      "english": "Italian (language)",
       "priority": 3,
       "tags": [
         "unit-a1-4b",
