@@ -1,0 +1,838 @@
+{
+  "source_file": "A1_-_4C.pdf",
+  "created_at": "2026-03-12T11:55:06.493203+00:00",
+  "items": [
+    {
+      "id": "cand-a1-4c-0001",
+      "turkish": "açmak",
+      "english": "to open",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "verb"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0002",
+      "turkish": "anlamak",
+      "english": "to understand",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "verb"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0003",
+      "turkish": "aramak",
+      "english": "to call/search",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "verb"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0004",
+      "turkish": "beğenmek",
+      "english": "to like",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "verb"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0005",
+      "turkish": "beklemek",
+      "english": "to wait",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "verb"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0006",
+      "turkish": "bilmek",
+      "english": "to know",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "verb"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0007",
+      "turkish": "boyamak",
+      "english": "to paint",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "verb"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0008",
+      "turkish": "çağırmak",
+      "english": "to call",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "verb"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0009",
+      "turkish": "çalmak",
+      "english": "to play/steal",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "verb"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0010",
+      "turkish": "davet etmek",
+      "english": "to invite",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "verb"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0011",
+      "turkish": "denemek",
+      "english": "to try",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "verb"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0012",
+      "turkish": "dilek tutmak / dilek dilemek",
+      "english": "to make a wish",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "verb"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0013",
+      "turkish": "dinlemek",
+      "english": "to listen",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "verb"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0014",
+      "turkish": "düşünmek",
+      "english": "to think",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "verb"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0015",
+      "turkish": "eğlenmek",
+      "english": "to have fun",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "verb"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0016",
+      "turkish": "el öpmek",
+      "english": "to kiss the hand",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "verb"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0017",
+      "turkish": "fark etmek",
+      "english": "to notice",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "verb"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0018",
+      "turkish": "geçmek",
+      "english": "to pass",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "verb"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0019",
+      "turkish": "gezmek",
+      "english": "to stroll/tour",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "verb"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0020",
+      "turkish": "göndermek",
+      "english": "to send",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "verb"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0021",
+      "turkish": "hatırlamak",
+      "english": "to remember",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "verb"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0022",
+      "turkish": "hazırlamak",
+      "english": "to prepare",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "verb"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0023",
+      "turkish": "hissetmek",
+      "english": "to feel",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "verb"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0024",
+      "turkish": "içmek",
+      "english": "to drink",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "verb"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0025",
+      "turkish": "incelemek",
+      "english": "to examine",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "verb"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0026",
+      "turkish": "iptal etmek",
+      "english": "to cancel",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "verb"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0027",
+      "turkish": "izlemek",
+      "english": "to watch",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "verb"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0028",
+      "turkish": "kapatmak",
+      "english": "to close",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "verb"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0029",
+      "turkish": "karşılamak",
+      "english": "to meet",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "verb"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0030",
+      "turkish": "kaybetmek",
+      "english": "to lose",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "verb"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0031",
+      "turkish": "kesmek",
+      "english": "to cut",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "verb"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0032",
+      "turkish": "kırmak",
+      "english": "to break",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "verb"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0033",
+      "turkish": "kontrol etmek",
+      "english": "to check",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "verb"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0034",
+      "turkish": "kullanmak",
+      "english": "to use",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "verb"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0035",
+      "turkish": "kutlamak",
+      "english": "to celebrate",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "verb"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0036",
+      "turkish": "merak etmek",
+      "english": "to wonder",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "verb"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0037",
+      "turkish": "okumak",
+      "english": "to read",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "verb"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0038",
+      "turkish": "ödemek",
+      "english": "to pay",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "verb"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0039",
+      "turkish": "öğrenmek",
+      "english": "to learn",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "verb"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0040",
+      "turkish": "öpmek",
+      "english": "to kiss",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "verb"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0041",
+      "turkish": "özlemek",
+      "english": "to miss",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "verb"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0042",
+      "turkish": "pişirmek",
+      "english": "to cook",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "verb"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0043",
+      "turkish": "seçmek",
+      "english": "to choose",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "verb"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0044",
+      "turkish": "sevmek",
+      "english": "to love",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "verb"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0045",
+      "turkish": "süslemek",
+      "english": "to decorate",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "verb"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0046",
+      "turkish": "uğurlamak",
+      "english": "to bid farewell",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "verb"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0047",
+      "turkish": "unutmak",
+      "english": "to forget",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "verb"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0048",
+      "turkish": "yıkamak",
+      "english": "to wash",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "verb"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0049",
+      "turkish": "ziyaret etmek",
+      "english": "to visit",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "verb"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0050",
+      "turkish": "bayrak",
+      "english": "flag",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "noun"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0051",
+      "turkish": "bayram / dini bayramlar / milli bayramlar",
+      "english": "holidays / religious holidays / national holidays",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "noun"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0052",
+      "turkish": "böcek",
+      "english": "bug",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "noun"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0053",
+      "turkish": "çikolata",
+      "english": "chocolate",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "noun"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0054",
+      "turkish": "gösteri",
+      "english": "show",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "noun"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0055",
+      "turkish": "harçlık",
+      "english": "allowance",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "noun"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0056",
+      "turkish": "hediye",
+      "english": "gift",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "noun"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0057",
+      "turkish": "kartpostal",
+      "english": "postcard",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "noun"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0058",
+      "turkish": "mektup",
+      "english": "letter",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "noun"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0059",
+      "turkish": "mum",
+      "english": "candle",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "noun"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0060",
+      "turkish": "şeker",
+      "english": "sugar",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "noun"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0061",
+      "turkish": "tatil",
+      "english": "holiday",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "noun"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0062",
+      "turkish": "yıl dönümü",
+      "english": "anniversary",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "noun"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0063",
+      "turkish": "geleneksel",
+      "english": "traditional",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "adjective"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    },
+    {
+      "id": "cand-a1-4c-0064",
+      "turkish": "yöresel",
+      "english": "regional",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4c",
+        "adjective"
+      ],
+      "source": "A1_-_4C.pdf",
+      "notes": "",
+      "status": "needs_review"
+    }
+  ]
+}
