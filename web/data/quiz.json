@@ -3707,7 +3707,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3b",
-        "verb"
+        "verb",
+        "unit-a1-4c"
       ]
     },
     {
@@ -3755,7 +3756,7 @@
     {
       "id": "cand-a1-3b-0119",
       "turkish": "(birinden / bir \u015feyden) ho\u015flanmak",
-      "english": "to like sb./sth.",
+      "english": "like / enjoy / be fond of",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
@@ -5114,7 +5115,8 @@
       "tags": [
         "unit-a1-4b",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -5523,8 +5525,7 @@
       "priority": 3,
       "tags": [
         "unit-a1-4b",
-        "country",
-        "today"
+        "country"
       ]
     },
     {
@@ -6735,16 +6736,6 @@
       ]
     },
     {
-      "id": "cand-a1-4c-0002",
-      "turkish": "anlamak",
-      "english": "to understand",
-      "priority": 3,
-      "tags": [
-        "unit-a1-4c",
-        "verb"
-      ]
-    },
-    {
       "id": "cand-a1-4c-0003",
       "turkish": "aramak",
       "english": "to call/search",
@@ -6757,17 +6748,7 @@
     {
       "id": "cand-a1-4c-0004",
       "turkish": "be\u011fenmek",
-      "english": "to like",
-      "priority": 3,
-      "tags": [
-        "unit-a1-4c",
-        "verb"
-      ]
-    },
-    {
-      "id": "cand-a1-4c-0005",
-      "turkish": "beklemek",
-      "english": "to wait",
+      "english": "like / find good / approve of",
       "priority": 3,
       "tags": [
         "unit-a1-4c",
@@ -6845,16 +6826,6 @@
       ]
     },
     {
-      "id": "cand-a1-4c-0014",
-      "turkish": "d\u00fc\u015f\u00fcnmek",
-      "english": "to think",
-      "priority": 3,
-      "tags": [
-        "unit-a1-4c",
-        "verb"
-      ]
-    },
-    {
       "id": "cand-a1-4c-0016",
       "turkish": "el \u00f6pmek",
       "english": "to kiss the hand",
@@ -6868,16 +6839,6 @@
       "id": "cand-a1-4c-0017",
       "turkish": "fark etmek",
       "english": "to notice",
-      "priority": 3,
-      "tags": [
-        "unit-a1-4c",
-        "verb"
-      ]
-    },
-    {
-      "id": "cand-a1-4c-0018",
-      "turkish": "ge\u00e7mek",
-      "english": "to pass",
       "priority": 3,
       "tags": [
         "unit-a1-4c",
@@ -7095,16 +7056,6 @@
       ]
     },
     {
-      "id": "cand-a1-4c-0041",
-      "turkish": "\u00f6zlemek",
-      "english": "to miss",
-      "priority": 3,
-      "tags": [
-        "unit-a1-4c",
-        "verb"
-      ]
-    },
-    {
       "id": "cand-a1-4c-0042",
       "turkish": "pi\u015firmek",
       "english": "to cook",
@@ -7138,16 +7089,6 @@
       "id": "cand-a1-4c-0046",
       "turkish": "u\u011furlamak",
       "english": "to bid farewell",
-      "priority": 3,
-      "tags": [
-        "unit-a1-4c",
-        "verb"
-      ]
-    },
-    {
-      "id": "cand-a1-4c-0047",
-      "turkish": "unutmak",
-      "english": "to forget",
       "priority": 3,
       "tags": [
         "unit-a1-4c",
@@ -7321,7 +7262,8 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-4c"
       ]
     },
     {
@@ -7331,7 +7273,8 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-4c"
       ]
     },
     {
@@ -7364,7 +7307,8 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-4c"
       ]
     },
     {
@@ -7427,7 +7371,8 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-4c"
       ]
     },
     {
@@ -7500,7 +7445,8 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-4c"
       ]
     },
     {
