@@ -556,6 +556,7 @@ const renderPrompt = () => {
     REVEAL.hidden = true;
     ACTIONS.classList.add("hidden");
     GRADE.classList.add("hidden");
+    ANSWER.value = "";
     CORRECT_ANSWER.value = "";
     clearCorrectAnswerState();
     isRevealed = false;
