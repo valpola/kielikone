@@ -5115,8 +5115,7 @@
       "tags": [
         "unit-a1-4b",
         "country",
-        "similar",
-        "today"
+        "similar"
       ]
     },
     {
@@ -6768,7 +6767,7 @@
     {
       "id": "cand-a1-4c-0008",
       "turkish": "\u00e7a\u011f\u0131rmak",
-      "english": "to call",
+      "english": "to call / to invite",
       "priority": 3,
       "tags": [
         "unit-a1-4c",
@@ -6948,11 +6947,12 @@
     {
       "id": "cand-a1-4c-0029",
       "turkish": "kar\u015f\u0131lamak",
-      "english": "to meet",
+      "english": "to meet / to greet",
       "priority": 3,
       "tags": [
         "unit-a1-4c",
-        "verb"
+        "verb",
+        "today"
       ]
     },
     {
