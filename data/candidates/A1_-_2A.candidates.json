@@ -317,7 +317,7 @@
     {
       "id": "cand-a1-2a-0025",
       "turkish": "mağaza",
-      "english": "store",
+      "english": "store / shop",
       "priority": 3,
       "tags": [
         "noun",
@@ -356,7 +356,7 @@
     {
       "id": "cand-a1-2a-0028",
       "turkish": "market",
-      "english": "shop",
+      "english": "grocery store / supermarket",
       "priority": 3,
       "tags": [
         "noun",
