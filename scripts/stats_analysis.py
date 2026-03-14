@@ -338,3 +338,22 @@ for item in score_items:
         print(f"{item_id} = {label}: today-scores.json={score:.3f} live={score_word(item_id, MODE):.3f}")
 
 # %%
+# Sort filtered word+mode pairs by their most recent event and show the oldest 20.
+print("20 least recently seen words:")
+selected_modes = ("en-tr", "tr-en") if MODE == "both" else (MODE,)
+least_recent_words = []
+for word_id in filtered_words:
+    for mode in selected_modes:
+        entries = events_by_key.get((word_id, mode), [])
+        if not entries:
+            continue
+        last_seen = max(timestamp for timestamp, _correct in entries)
+        least_recent_words.append((last_seen, word_id, mode))
+
+least_recent_words.sort(key=lambda x: x[0])
+for timestamp, word_id, mode in least_recent_words[:20]:
+    label_id = canonical_to_ids.get(word_id, [word_id])[0]
+    # Show the word and the score
+    print(f"{timestamp}: {word_id} = {display_label(label_id)}: {score_word(word_id, mode):.3f} ({mode})")
+
+# %%
