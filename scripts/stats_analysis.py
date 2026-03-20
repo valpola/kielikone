@@ -208,29 +208,30 @@ plt.ylabel("Frequency")
 plt.title(f"Histogram of Scores ({MODE})")
 plt.show()
 
-# %%
 print(f"Average score: {sum(scores) / len(scores):.3f}")
 print(f"Proportion > 0: {sum(1 for score in scores if score > 0) / len(scores):.3%}")
 
-# %%
-# Show the top 10 lowest and top 30 highest scoring words (MODE).
 scored_words = []
 for canonical in canonical_vocab_words:
     score = score_word(canonical, MODE)
     scored_words.append((canonical, score))
 
-scored_words.sort(key=lambda x: x[1])
-print(f"Top 10 lowest scoring words ({MODE}):")
-for word_id, score in scored_words[:10]:
-    label_id = canonical_to_ids.get(word_id, [word_id])[0]
-    print(f"{word_id} = {display_label(label_id)}: {score:.3f}")
-
-print(f"Top 30 highest scoring words ({MODE}):")
-for word_id, score in scored_words[-30:]:
-    label_id = canonical_to_ids.get(word_id, [word_id])[0]
-    print(f"{word_id} = {display_label(label_id)}: {score:.3f}")
+print(f"Highest score: {max(score for _, score in scored_words):.3f}")
 
 # %%
+# # Show the top 10 lowest and top 30 highest scoring words (MODE).
+# scored_words.sort(key=lambda x: x[1])
+# print(f"Top 10 lowest scoring words ({MODE}):")
+# for word_id, score in scored_words[:10]:
+#     label_id = canonical_to_ids.get(word_id, [word_id])[0]
+#     print(f"{word_id} = {display_label(label_id)}: {score:.3f}")
+
+# print(f"Top 30 highest scoring words ({MODE}):")
+# for word_id, score in scored_words[-30:]:
+#     label_id = canonical_to_ids.get(word_id, [word_id])[0]
+#     print(f"{word_id} = {display_label(label_id)}: {score:.3f}")
+
+# # %%
 # Filtered scoring summary using INCLUDE_TAGS/EXCLUDE_TAGS and MODE.
 filtered_items = filter_items(
     reviewed_items,
@@ -284,6 +285,25 @@ for word_id, score, representative in filtered_top[:30]:
     label_id = str(representative.get("id", "")).strip() or word_id
     print(f"{word_id} = {display_label(label_id)}: {score:.3f}")
 
+# # %%
+# Sort filtered word+mode pairs by their most recent event and show the oldest 20.
+print("20 least recently seen words:")
+selected_modes = ("en-tr", "tr-en") if MODE == "both" else (MODE,)
+least_recent_words = []
+for word_id in filtered_words:
+    for mode in selected_modes:
+        entries = events_by_key.get((word_id, mode), [])
+        if not entries:
+            continue
+        last_seen = max(timestamp for timestamp, _correct in entries)
+        least_recent_words.append((last_seen, word_id, mode))
+
+least_recent_words.sort(key=lambda x: x[0])
+for timestamp, word_id, mode in least_recent_words[:20]:
+    label_id = canonical_to_ids.get(word_id, [word_id])[0]
+    # Show the word and the score
+    print(f"{timestamp}: {word_id} = {display_label(label_id)}: {score_word(word_id, mode):.3f} ({mode})")
+
 # %%
 # Find the words tagged with "today" and show their scores (MODE).
 print('Words tagged with "today":')
@@ -336,24 +356,5 @@ for item in score_items:
     if "today" in tags:
         label = display_label(item_id)
         print(f"{item_id} = {label}: today-scores.json={score:.3f} live={score_word(item_id, MODE):.3f}")
-
-# %%
-# Sort filtered word+mode pairs by their most recent event and show the oldest 20.
-print("20 least recently seen words:")
-selected_modes = ("en-tr", "tr-en") if MODE == "both" else (MODE,)
-least_recent_words = []
-for word_id in filtered_words:
-    for mode in selected_modes:
-        entries = events_by_key.get((word_id, mode), [])
-        if not entries:
-            continue
-        last_seen = max(timestamp for timestamp, _correct in entries)
-        least_recent_words.append((last_seen, word_id, mode))
-
-least_recent_words.sort(key=lambda x: x[0])
-for timestamp, word_id, mode in least_recent_words[:20]:
-    label_id = canonical_to_ids.get(word_id, [word_id])[0]
-    # Show the word and the score
-    print(f"{timestamp}: {word_id} = {display_label(label_id)}: {score_word(word_id, mode):.3f} ({mode})")
 
 # %%
