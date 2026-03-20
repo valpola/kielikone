@@ -300,7 +300,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-0a"
+        "unit-a1-0a",
+        "unit-a1-5a"
       ]
     },
     {
@@ -1011,7 +1012,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2a"
+        "unit-a1-2a",
+        "unit-a1-5a"
       ]
     },
     {
@@ -1278,11 +1280,12 @@
     {
       "id": "cand-a1-2a-0040",
       "turkish": "saat",
-      "english": "clock",
+      "english": "clock / hour",
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2a"
+        "unit-a1-2a",
+        "unit-a1-5a"
       ]
     },
     {
@@ -3163,7 +3166,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-3a"
+        "unit-a1-3a",
+        "unit-a1-5a"
       ]
     },
     {
@@ -4405,7 +4409,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-4a",
-        "noun"
+        "noun",
+        "unit-a1-5a"
       ]
     },
     {
@@ -5084,8 +5089,7 @@
       "tags": [
         "unit-a1-4b",
         "country",
-        "similar",
-        "today"
+        "similar"
       ]
     },
     {
@@ -5106,8 +5110,7 @@
       "tags": [
         "unit-a1-4b",
         "country",
-        "similar",
-        "today"
+        "similar"
       ]
     },
     {
@@ -5771,7 +5774,8 @@
       "tags": [
         "unit-a1-4b",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -5813,7 +5817,8 @@
       "tags": [
         "unit-a1-4b",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -6643,7 +6648,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-4b",
-        "noun"
+        "noun",
+        "unit-a1-5a"
       ]
     },
     {
@@ -7247,6 +7253,316 @@
       ]
     },
     {
+      "id": "cand-a1-5a-0001",
+      "turkish": "ay",
+      "english": "month / moon",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5a",
+        "noun"
+      ]
+    },
+    {
+      "id": "cand-a1-5a-0003",
+      "turkish": "g\u00fcn",
+      "english": "day",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5a",
+        "noun"
+      ]
+    },
+    {
+      "id": "cand-a1-5a-0004",
+      "turkish": "hafta",
+      "english": "week",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5a",
+        "noun"
+      ]
+    },
+    {
+      "id": "cand-a1-5a-0006",
+      "turkish": "hafta sonu",
+      "english": "weekend",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5a",
+        "noun"
+      ]
+    },
+    {
+      "id": "cand-a1-5a-0007",
+      "turkish": "ilkbahar",
+      "english": "spring",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5a",
+        "noun"
+      ]
+    },
+    {
+      "id": "cand-a1-5a-0008",
+      "turkish": "k\u0131\u015f",
+      "english": "winter",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5a",
+        "noun"
+      ]
+    },
+    {
+      "id": "cand-a1-5a-0011",
+      "turkish": "saniye",
+      "english": "second",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5a",
+        "noun"
+      ]
+    },
+    {
+      "id": "cand-a1-5a-0013",
+      "turkish": "sonbahar / g\u00fcz",
+      "english": "autumn / fall",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5a",
+        "noun"
+      ]
+    },
+    {
+      "id": "cand-a1-5a-0014",
+      "turkish": "yaz",
+      "english": "summer",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5a",
+        "noun"
+      ]
+    },
+    {
+      "id": "cand-a1-5a-0015",
+      "turkish": "y\u0131l",
+      "english": "year",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5a",
+        "noun"
+      ]
+    },
+    {
+      "id": "cand-a1-5a-0017",
+      "turkish": "Pazartesi",
+      "english": "Monday",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5a",
+        "noun"
+      ]
+    },
+    {
+      "id": "cand-a1-5a-0018",
+      "turkish": "Sal\u0131",
+      "english": "Tuesday",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5a",
+        "noun"
+      ]
+    },
+    {
+      "id": "cand-a1-5a-0019",
+      "turkish": "\u00c7ar\u015famba",
+      "english": "Wednesday",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5a",
+        "noun"
+      ]
+    },
+    {
+      "id": "cand-a1-5a-0020",
+      "turkish": "Per\u015fembe",
+      "english": "Thursday",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5a",
+        "noun"
+      ]
+    },
+    {
+      "id": "cand-a1-5a-0021",
+      "turkish": "Cuma",
+      "english": "Friday",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5a",
+        "noun"
+      ]
+    },
+    {
+      "id": "cand-a1-5a-0022",
+      "turkish": "Cumartesi",
+      "english": "Saturday",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5a",
+        "noun"
+      ]
+    },
+    {
+      "id": "cand-a1-5a-0023",
+      "turkish": "Pazar",
+      "english": "Sunday",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5a",
+        "noun"
+      ]
+    },
+    {
+      "id": "cand-a1-5a-0024",
+      "turkish": "Ocak",
+      "english": "January",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5a",
+        "noun"
+      ]
+    },
+    {
+      "id": "cand-a1-5a-0025",
+      "turkish": "\u015eubat",
+      "english": "February",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5a",
+        "noun"
+      ]
+    },
+    {
+      "id": "cand-a1-5a-0026",
+      "turkish": "Mart",
+      "english": "March",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5a",
+        "noun"
+      ]
+    },
+    {
+      "id": "cand-a1-5a-0027",
+      "turkish": "Nisan",
+      "english": "April",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5a",
+        "noun"
+      ]
+    },
+    {
+      "id": "cand-a1-5a-0028",
+      "turkish": "May\u0131s",
+      "english": "May",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5a",
+        "noun"
+      ]
+    },
+    {
+      "id": "cand-a1-5a-0029",
+      "turkish": "Haziran",
+      "english": "June",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5a",
+        "noun"
+      ]
+    },
+    {
+      "id": "cand-a1-5a-0030",
+      "turkish": "Temmuz",
+      "english": "July",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5a",
+        "noun"
+      ]
+    },
+    {
+      "id": "cand-a1-5a-0031",
+      "turkish": "A\u011fustos",
+      "english": "August",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5a",
+        "noun"
+      ]
+    },
+    {
+      "id": "cand-a1-5a-0032",
+      "turkish": "Eyl\u00fcl",
+      "english": "September",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5a",
+        "noun"
+      ]
+    },
+    {
+      "id": "cand-a1-5a-0033",
+      "turkish": "Ekim",
+      "english": "October",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5a",
+        "noun"
+      ]
+    },
+    {
+      "id": "cand-a1-5a-0034",
+      "turkish": "Kas\u0131m",
+      "english": "November",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5a",
+        "noun"
+      ]
+    },
+    {
+      "id": "cand-a1-5a-0035",
+      "turkish": "Aral\u0131k",
+      "english": "December",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5a",
+        "noun"
+      ]
+    },
+    {
+      "id": "cand-a1-5a-0036",
+      "turkish": "yakla\u015f\u0131k",
+      "english": "approximately",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5a",
+        "adverb"
+      ]
+    },
+    {
+      "id": "cand-a1-5a-0037",
+      "turkish": "hemen",
+      "english": "immediately",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5a",
+        "adverb"
+      ]
+    },
+    {
       "id": "cand-a1-cases-0001",
       "turkish": "(bir \u015feyi) anlamak",
       "english": "to understand sth.",
@@ -7835,6 +8151,11 @@
     {
       "id": "unit-a1-4c",
       "label": "Unit A1-4C",
+      "group": "unit"
+    },
+    {
+      "id": "unit-a1-5a",
+      "label": "Unit A1-5A",
       "group": "unit"
     },
     {
