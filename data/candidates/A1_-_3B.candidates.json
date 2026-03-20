@@ -798,7 +798,7 @@
     {
       "id": "cand-a1-3b-0062",
       "turkish": "asla",
-      "english": "never",
+      "english": "never / never ever",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
@@ -850,7 +850,7 @@
     {
       "id": "cand-a1-3b-0066",
       "turkish": "hiçbir zaman",
-      "english": "never",
+      "english": "never / at no time",
       "priority": 3,
       "tags": [
         "unit-a1-3b",

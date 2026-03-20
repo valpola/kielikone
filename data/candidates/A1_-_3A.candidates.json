@@ -395,7 +395,7 @@
     {
       "id": "cand-a1-3a-0031",
       "turkish": "asla",
-      "english": "never",
+      "english": "never / never ever",
       "priority": 3,
       "tags": [
         "adverb",
@@ -447,7 +447,7 @@
     {
       "id": "cand-a1-3a-0035",
       "turkish": "hiçbir zaman",
-      "english": "never",
+      "english": "never / at no time",
       "priority": 3,
       "tags": [
         "adverb",
