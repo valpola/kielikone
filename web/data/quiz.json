@@ -6723,6 +6723,16 @@
       ]
     },
     {
+      "id": "cand-a1-4b-0204",
+      "turkish": "hem ... hem de",
+      "english": "both ... and",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "conjunction"
+      ]
+    },
+    {
       "id": "cand-a1-4c-0001",
       "turkish": "a\u00e7mak",
       "english": "to open",
@@ -8111,6 +8121,11 @@
     {
       "id": "adverb",
       "label": "Adverb",
+      "group": "part_of_speech"
+    },
+    {
+      "id": "conjunction",
+      "label": "Conjunction",
       "group": "part_of_speech"
     },
     {
