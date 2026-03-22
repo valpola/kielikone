@@ -102,6 +102,11 @@
       "group": "part_of_speech"
     },
     {
+      "id": "conjunction",
+      "label": "Conjunction",
+      "group": "part_of_speech"
+    },
+    {
       "id": "time-expression",
       "label": "Expression of time",
       "group": "theme"

@@ -2758,6 +2758,19 @@
       "source": "A1_-_4B.pdf",
       "notes": "",
       "status": "approved"
+    },
+    {
+      "id": "cand-a1-4b-0204",
+      "turkish": "hem ... hem de",
+      "english": "both ... and",
+      "priority": 3,
+      "tags": [
+        "unit-a1-4b",
+        "conjunction"
+      ],
+      "source": "A1_-_4B.pdf",
+      "notes": "",
+      "status": "approved"
     }
   ]
 }
