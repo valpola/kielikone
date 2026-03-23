@@ -259,7 +259,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-0a"
+        "unit-a1-0a",
+        "unit-a1-5b"
       ]
     },
     {
@@ -1073,7 +1074,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2a"
+        "unit-a1-2a",
+        "unit-a1-5b"
       ]
     },
     {
@@ -1224,7 +1226,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2a"
+        "unit-a1-2a",
+        "unit-a1-5b"
       ]
     },
     {
@@ -3190,7 +3193,8 @@
         "noun",
         "unit-a1-3a",
         "unit-a1-3b",
-        "unit-a1-4c"
+        "unit-a1-4c",
+        "unit-a1-5b"
       ]
     },
     {
@@ -3418,7 +3422,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3b",
-        "noun"
+        "noun",
+        "unit-a1-5b"
       ]
     },
     {
@@ -3579,7 +3584,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3b",
-        "verb"
+        "verb",
+        "unit-a1-5b"
       ]
     },
     {
@@ -3798,7 +3804,8 @@
       "tags": [
         "unit-a1-3c",
         "noun",
-        "unit-a1-4a"
+        "unit-a1-4a",
+        "unit-a1-5b"
       ]
     },
     {
@@ -4505,12 +4512,13 @@
     },
     {
       "id": "cand-a1-4a-0036",
-      "turkish": "valiz",
+      "turkish": "valiz / bavul",
       "english": "suitcase",
       "priority": 3,
       "tags": [
         "unit-a1-4a",
-        "noun"
+        "noun",
+        "unit-a1-5b"
       ]
     },
     {
@@ -6829,7 +6837,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-4c",
-        "verb"
+        "verb",
+        "unit-a1-5b"
       ]
     },
     {
@@ -6889,7 +6898,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-4c",
-        "verb"
+        "verb",
+        "unit-a1-5b"
       ]
     },
     {
@@ -7079,7 +7089,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-4c",
-        "verb"
+        "verb",
+        "unit-a1-5b"
       ]
     },
     {
@@ -7573,6 +7584,226 @@
       ]
     },
     {
+      "id": "cand-a1-5b-0002",
+      "turkish": "ge\u00e7irmek",
+      "english": "to spend (time)",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "verb"
+      ]
+    },
+    {
+      "id": "cand-a1-5b-0004",
+      "turkish": "inmek",
+      "english": "to get off / descend",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "verb"
+      ]
+    },
+    {
+      "id": "cand-a1-5b-0007",
+      "turkish": "s\u00f6rf yapmak",
+      "english": "to surf",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "verb"
+      ]
+    },
+    {
+      "id": "cand-a1-5b-0009",
+      "turkish": "varmak",
+      "english": "to arrive",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "verb"
+      ]
+    },
+    {
+      "id": "cand-a1-5b-0010",
+      "turkish": "yola \u00e7\u0131kmak",
+      "english": "to set off / hit the road",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "verb"
+      ]
+    },
+    {
+      "id": "cand-a1-5b-0012",
+      "turkish": "bot",
+      "english": "boat",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "noun"
+      ]
+    },
+    {
+      "id": "cand-a1-5b-0013",
+      "turkish": "c\u00fczdan",
+      "english": "purse",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "noun"
+      ]
+    },
+    {
+      "id": "cand-a1-5b-0014",
+      "turkish": "gar",
+      "english": "train station",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "noun"
+      ]
+    },
+    {
+      "id": "cand-a1-5b-0016",
+      "turkish": "g\u00fcnl\u00fck",
+      "english": "diary",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "noun"
+      ]
+    },
+    {
+      "id": "cand-a1-5b-0018",
+      "turkish": "heykel",
+      "english": "statue",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "noun"
+      ]
+    },
+    {
+      "id": "cand-a1-5b-0019",
+      "turkish": "kale",
+      "english": "castle",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "noun"
+      ]
+    },
+    {
+      "id": "cand-a1-5b-0020",
+      "turkish": "katedral",
+      "english": "cathedral",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "noun"
+      ]
+    },
+    {
+      "id": "cand-a1-5b-0021",
+      "turkish": "kimlik",
+      "english": "identity card / ID",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "noun"
+      ]
+    },
+    {
+      "id": "cand-a1-5b-0023",
+      "turkish": "otob\u00fcs",
+      "english": "bus",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "noun"
+      ]
+    },
+    {
+      "id": "cand-a1-5b-0024",
+      "turkish": "oyun",
+      "english": "game",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "noun"
+      ]
+    },
+    {
+      "id": "cand-a1-5b-0025",
+      "turkish": "pasaport",
+      "english": "passport",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "noun"
+      ]
+    },
+    {
+      "id": "cand-a1-5b-0027",
+      "turkish": "tren",
+      "english": "train",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "noun"
+      ]
+    },
+    {
+      "id": "cand-a1-5b-0028",
+      "turkish": "tur",
+      "english": "tour",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "noun"
+      ]
+    },
+    {
+      "id": "cand-a1-5b-0031",
+      "turkish": "bir sonraki",
+      "english": "next",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "adjective"
+      ]
+    },
+    {
+      "id": "cand-a1-5b-0032",
+      "turkish": "bir s\u00fcr\u00fc",
+      "english": "a lot of",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "adjective"
+      ]
+    },
+    {
+      "id": "cand-a1-5b-0033",
+      "turkish": "bol bol",
+      "english": "plenty / in abundance",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "adverb"
+      ]
+    },
+    {
+      "id": "cand-a1-5b-0034",
+      "turkish": "tabii ki",
+      "english": "of course",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "adverb"
+      ]
+    },
+    {
       "id": "cand-a1-cases-0001",
       "turkish": "(bir \u015feyi) anlamak",
       "english": "to understand sth.",
@@ -7763,7 +7994,8 @@
       "tags": [
         "verb",
         "unit-a1",
-        "unit-a1-4c"
+        "unit-a1-4c",
+        "unit-a1-5b"
       ]
     },
     {
@@ -8171,6 +8403,11 @@
     {
       "id": "unit-a1-5a",
       "label": "Unit A1-5A",
+      "group": "unit"
+    },
+    {
+      "id": "unit-a1-5b",
+      "label": "Unit A1-5B",
       "group": "unit"
     },
     {
