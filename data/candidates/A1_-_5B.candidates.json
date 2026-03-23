@@ -1,0 +1,448 @@
+{
+  "source_file": "A1_-_5B.pdf",
+  "created_at": "2026-03-23T13:37:07.015782+00:00",
+  "items": [
+    {
+      "id": "cand-a1-5b-0001",
+      "turkish": "dinlemek",
+      "english": "to listen",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "verb"
+      ],
+      "source": "A1_-_5B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-5b-0002",
+      "turkish": "geçirmek",
+      "english": "to spend (time)",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "verb"
+      ],
+      "source": "A1_-_5B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-5b-0003",
+      "turkish": "hazırlamak",
+      "english": "to prepare",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "verb"
+      ],
+      "source": "A1_-_5B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-5b-0004",
+      "turkish": "inmek",
+      "english": "to get off / descend",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "verb"
+      ],
+      "source": "A1_-_5B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-5b-0005",
+      "turkish": "katılmak",
+      "english": "to join",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "verb"
+      ],
+      "source": "A1_-_5B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-5b-0006",
+      "turkish": "seçmek",
+      "english": "to choose",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "verb"
+      ],
+      "source": "A1_-_5B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-5b-0007",
+      "turkish": "sörf yapmak",
+      "english": "to surf",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "verb"
+      ],
+      "source": "A1_-_5B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-5b-0008",
+      "turkish": "unutmak",
+      "english": "to forget",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "verb"
+      ],
+      "source": "A1_-_5B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-5b-0009",
+      "turkish": "varmak",
+      "english": "to arrive",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "verb"
+      ],
+      "source": "A1_-_5B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-5b-0010",
+      "turkish": "yola çıkmak",
+      "english": "to set off / hit the road",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "verb"
+      ],
+      "source": "A1_-_5B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-5b-0011",
+      "turkish": "bilet",
+      "english": "ticket",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "noun"
+      ],
+      "source": "A1_-_5B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-5b-0012",
+      "turkish": "bot",
+      "english": "boat",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "noun"
+      ],
+      "source": "A1_-_5B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-5b-0013",
+      "turkish": "cüzdan",
+      "english": "purse",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "noun"
+      ],
+      "source": "A1_-_5B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-5b-0014",
+      "turkish": "gar",
+      "english": "train station",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "noun"
+      ],
+      "source": "A1_-_5B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-5b-0015",
+      "turkish": "gezi",
+      "english": "trip",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "noun"
+      ],
+      "source": "A1_-_5B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-5b-0016",
+      "turkish": "günlük",
+      "english": "diary",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "noun"
+      ],
+      "source": "A1_-_5B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-5b-0017",
+      "turkish": "havaalanı",
+      "english": "airport",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "noun"
+      ],
+      "source": "A1_-_5B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-5b-0018",
+      "turkish": "heykel",
+      "english": "statue",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "noun"
+      ],
+      "source": "A1_-_5B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-5b-0019",
+      "turkish": "kale",
+      "english": "castle",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "noun"
+      ],
+      "source": "A1_-_5B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-5b-0020",
+      "turkish": "katedral",
+      "english": "cathedral",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "noun"
+      ],
+      "source": "A1_-_5B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-5b-0021",
+      "turkish": "kimlik",
+      "english": "identity card / ID",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "noun"
+      ],
+      "source": "A1_-_5B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-5b-0022",
+      "turkish": "otel",
+      "english": "hotel",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "noun"
+      ],
+      "source": "A1_-_5B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-5b-0023",
+      "turkish": "otobüs",
+      "english": "bus",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "noun"
+      ],
+      "source": "A1_-_5B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-5b-0024",
+      "turkish": "oyun",
+      "english": "game",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "noun"
+      ],
+      "source": "A1_-_5B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-5b-0025",
+      "turkish": "pasaport",
+      "english": "passport",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "noun"
+      ],
+      "source": "A1_-_5B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-5b-0026",
+      "turkish": "tatil",
+      "english": "holiday",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "noun"
+      ],
+      "source": "A1_-_5B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-5b-0027",
+      "turkish": "tren",
+      "english": "train",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "noun"
+      ],
+      "source": "A1_-_5B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-5b-0028",
+      "turkish": "tur",
+      "english": "tour",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "noun"
+      ],
+      "source": "A1_-_5B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-5b-0029",
+      "turkish": "uçak",
+      "english": "plane",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "noun"
+      ],
+      "source": "A1_-_5B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-5b-0030",
+      "turkish": "valiz/bavul",
+      "english": "suitcase / luggage",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "noun"
+      ],
+      "source": "A1_-_5B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-5b-0031",
+      "turkish": "bir sonraki",
+      "english": "next",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "adjective"
+      ],
+      "source": "A1_-_5B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-5b-0032",
+      "turkish": "bir sürü",
+      "english": "a lot of",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "adjective"
+      ],
+      "source": "A1_-_5B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-5b-0033",
+      "turkish": "bol bol",
+      "english": "plenty / in abundance",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "adverb"
+      ],
+      "source": "A1_-_5B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-5b-0034",
+      "turkish": "tabii ki",
+      "english": "of course",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "adverb"
+      ],
+      "source": "A1_-_5B.pdf",
+      "notes": "",
+      "status": "approved"
+    }
+  ]
+}
