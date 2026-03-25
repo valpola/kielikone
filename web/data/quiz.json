@@ -5097,7 +5097,8 @@
       "tags": [
         "unit-a1-4b",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -5118,7 +5119,8 @@
       "tags": [
         "unit-a1-4b",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -5782,8 +5784,7 @@
       "tags": [
         "unit-a1-4b",
         "country",
-        "similar",
-        "today"
+        "similar"
       ]
     },
     {
@@ -5825,8 +5826,7 @@
       "tags": [
         "unit-a1-4b",
         "country",
-        "similar",
-        "today"
+        "similar"
       ]
     },
     {
@@ -7804,6 +7804,256 @@
       ]
     },
     {
+      "id": "cand-a1-5c-0002",
+      "turkish": "de\u011fi\u015ftirmek",
+      "english": "to change",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-5c"
+      ]
+    },
+    {
+      "id": "cand-a1-5c-0003",
+      "turkish": "evlenmek",
+      "english": "to marry",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-5c"
+      ]
+    },
+    {
+      "id": "cand-a1-5c-0004",
+      "turkish": "hayal kurmak",
+      "english": "to dream",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-5c"
+      ]
+    },
+    {
+      "id": "cand-a1-5c-0005",
+      "turkish": "hizmet vermek",
+      "english": "serve",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-5c"
+      ]
+    },
+    {
+      "id": "cand-a1-5c-0006",
+      "turkish": "karar almak",
+      "english": "take a decision",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-5c"
+      ]
+    },
+    {
+      "id": "cand-a1-5c-0007",
+      "turkish": "otelde kalmak",
+      "english": "to stay at a hotel",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-5c"
+      ]
+    },
+    {
+      "id": "cand-a1-5c-0008",
+      "turkish": "para biriktirmek",
+      "english": "save money",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-5c"
+      ]
+    },
+    {
+      "id": "cand-a1-5c-0009",
+      "turkish": "para harcamak",
+      "english": "spend money",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-5c"
+      ]
+    },
+    {
+      "id": "cand-a1-5c-0010",
+      "turkish": "plan yapmak",
+      "english": "make plans",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-5c"
+      ]
+    },
+    {
+      "id": "cand-a1-5c-0011",
+      "turkish": "sa\u011fl\u0131kl\u0131 beslenmek",
+      "english": "to eat healthy",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-5c"
+      ]
+    },
+    {
+      "id": "cand-a1-5c-0012",
+      "turkish": "yoga yapmak",
+      "english": "do yoga",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-5c"
+      ]
+    },
+    {
+      "id": "cand-a1-5c-0013",
+      "turkish": "y\u00fcksek lisans/doktora yapmak",
+      "english": "do a master's/doctoral degree",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-5c"
+      ]
+    },
+    {
+      "id": "cand-a1-5c-0014",
+      "turkish": "y\u00fcz y\u00fcze",
+      "english": "face to face",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-5c"
+      ]
+    },
+    {
+      "id": "cand-a1-5c-0015",
+      "turkish": "zaman ay\u0131rmak",
+      "english": "take time",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-5c"
+      ]
+    },
+    {
+      "id": "cand-a1-5c-0016",
+      "turkish": "ama\u00e7",
+      "english": "purpose",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-5c"
+      ]
+    },
+    {
+      "id": "cand-a1-5c-0017",
+      "turkish": "ayr\u0131",
+      "english": "separate",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-5c"
+      ]
+    },
+    {
+      "id": "cand-a1-5c-0018",
+      "turkish": "doktora",
+      "english": "doctorate",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-5c"
+      ]
+    },
+    {
+      "id": "cand-a1-5c-0019",
+      "turkish": "hayal",
+      "english": "dream",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-5c"
+      ]
+    },
+    {
+      "id": "cand-a1-5c-0020",
+      "turkish": "hayat",
+      "english": "life",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-5c"
+      ]
+    },
+    {
+      "id": "cand-a1-5c-0021",
+      "turkish": "hedef",
+      "english": "target",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-5c"
+      ]
+    },
+    {
+      "id": "cand-a1-5c-0022",
+      "turkish": "g\u00fcnlerdir",
+      "english": "for days",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-5c"
+      ]
+    },
+    {
+      "id": "cand-a1-5c-0023",
+      "turkish": "saatlerdir",
+      "english": "for hours",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-5c"
+      ]
+    },
+    {
+      "id": "cand-a1-5c-0024",
+      "turkish": "y\u0131llard\u0131r",
+      "english": "for years",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-5c"
+      ]
+    },
+    {
+      "id": "cand-a1-5c-0026",
+      "turkish": "daha iyi",
+      "english": "better",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-5c"
+      ]
+    },
+    {
+      "id": "cand-a1-5c-0027",
+      "turkish": "sa\u011fl\u0131kl\u0131",
+      "english": "healthy",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-5c"
+      ]
+    },
+    {
       "id": "cand-a1-cases-0001",
       "turkish": "(bir \u015feyi) anlamak",
       "english": "to understand sth.",
@@ -7822,7 +8072,8 @@
       "tags": [
         "verb",
         "unit-a1",
-        "unit-a1-4c"
+        "unit-a1-4c",
+        "unit-a1-5c"
       ]
     },
     {
@@ -8419,6 +8670,11 @@
       "id": "similar",
       "label": "Similar",
       "group": "theme"
+    },
+    {
+      "id": "unit-a1-5c",
+      "label": "Unit A1-5C",
+      "group": "unit"
     }
   ]
 }
