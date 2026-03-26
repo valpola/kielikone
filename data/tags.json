@@ -170,6 +170,11 @@
       "id": "unit-a1-5c",
       "label": "Unit A1-5C",
       "group": "unit"
+    },
+    {
+      "id": "unit-a1-6a",
+      "label": "Unit A1-6A",
+      "group": "unit"
     }
   ]
 }

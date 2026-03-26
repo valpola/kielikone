@@ -1,0 +1,578 @@
+{
+  "source_file": "A1_-_6A.pdf",
+  "created_at": "2026-03-26T17:59:10.444608+00:00",
+  "items": [
+    {
+      "id": "cand-a1-6a-0001",
+      "turkish": "ülke",
+      "english": "country",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a"
+      ],
+      "source": "A1_-_6A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6a-0002",
+      "turkish": "şehir",
+      "english": "city",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a"
+      ],
+      "source": "A1_-_6A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6a-0003",
+      "turkish": "bölge",
+      "english": "region",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a"
+      ],
+      "source": "A1_-_6A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6a-0004",
+      "turkish": "başkent",
+      "english": "capital city",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a"
+      ],
+      "source": "A1_-_6A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6a-0005",
+      "turkish": "meydan",
+      "english": "square",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a"
+      ],
+      "source": "A1_-_6A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6a-0006",
+      "turkish": "kule",
+      "english": "tower",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a"
+      ],
+      "source": "A1_-_6A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6a-0007",
+      "turkish": "köprü",
+      "english": "bridge",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a"
+      ],
+      "source": "A1_-_6A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6a-0008",
+      "turkish": "çarşı",
+      "english": "bazaar",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a"
+      ],
+      "source": "A1_-_6A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6a-0009",
+      "turkish": "kale",
+      "english": "castle",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a"
+      ],
+      "source": "A1_-_6A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6a-0010",
+      "turkish": "ilçe",
+      "english": "county",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a"
+      ],
+      "source": "A1_-_6A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6a-0011",
+      "turkish": "mahalle",
+      "english": "neighbourhood",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a"
+      ],
+      "source": "A1_-_6A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6a-0012",
+      "turkish": "sokak",
+      "english": "street",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a"
+      ],
+      "source": "A1_-_6A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6a-0013",
+      "turkish": "cadde",
+      "english": "main street / avenue",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a"
+      ],
+      "source": "A1_-_6A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6a-0014",
+      "turkish": "bina / apartman",
+      "english": "building",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a"
+      ],
+      "source": "A1_-_6A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6a-0015",
+      "turkish": "daire",
+      "english": "apartment / flat",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a"
+      ],
+      "source": "A1_-_6A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6a-0016",
+      "turkish": "köşe",
+      "english": "corner",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a"
+      ],
+      "source": "A1_-_6A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6a-0017",
+      "turkish": "komşu",
+      "english": "neighbour",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a"
+      ],
+      "source": "A1_-_6A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6a-0018",
+      "turkish": "esnaf",
+      "english": "shopkeeper",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a"
+      ],
+      "source": "A1_-_6A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6a-0019",
+      "turkish": "dükkan",
+      "english": "shop",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a"
+      ],
+      "source": "A1_-_6A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6a-0020",
+      "turkish": "otobüs durağı",
+      "english": "bus stop",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a"
+      ],
+      "source": "A1_-_6A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6a-0021",
+      "turkish": "sokak hayvanları",
+      "english": "street animals",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a"
+      ],
+      "source": "A1_-_6A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6a-0022",
+      "turkish": "önünde",
+      "english": "in front of",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-6a"
+      ],
+      "source": "A1_-_6A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6a-0023",
+      "turkish": "arkasında",
+      "english": "behind",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-6a"
+      ],
+      "source": "A1_-_6A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6a-0024",
+      "turkish": "yanında",
+      "english": "next to",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-6a"
+      ],
+      "source": "A1_-_6A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6a-0025",
+      "turkish": "üstünde",
+      "english": "on",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-6a"
+      ],
+      "source": "A1_-_6A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6a-0026",
+      "turkish": "altında",
+      "english": "under",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-6a"
+      ],
+      "source": "A1_-_6A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6a-0027",
+      "turkish": "kiralamak",
+      "english": "to rent",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-6a"
+      ],
+      "source": "A1_-_6A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6a-0028",
+      "turkish": "satın almak",
+      "english": "to buy",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-6a"
+      ],
+      "source": "A1_-_6A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6a-0029",
+      "turkish": "kiralık",
+      "english": "for rent",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-6a"
+      ],
+      "source": "A1_-_6A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6a-0030",
+      "turkish": "satılık",
+      "english": "for sale",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-6a"
+      ],
+      "source": "A1_-_6A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6a-0031",
+      "turkish": "ücret",
+      "english": "price",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a"
+      ],
+      "source": "A1_-_6A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6a-0032",
+      "turkish": "konum",
+      "english": "location",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a"
+      ],
+      "source": "A1_-_6A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6a-0033",
+      "turkish": "asansör",
+      "english": "elevator",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a"
+      ],
+      "source": "A1_-_6A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6a-0034",
+      "turkish": "zor",
+      "english": "difficult",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-6a"
+      ],
+      "source": "A1_-_6A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6a-0035",
+      "turkish": "kolay",
+      "english": "easy",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-6a"
+      ],
+      "source": "A1_-_6A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6a-0036",
+      "turkish": "yakın",
+      "english": "close",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-6a"
+      ],
+      "source": "A1_-_6A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6a-0037",
+      "turkish": "uzak",
+      "english": "far",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-6a"
+      ],
+      "source": "A1_-_6A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6a-0038",
+      "turkish": "sakin",
+      "english": "calm",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-6a"
+      ],
+      "source": "A1_-_6A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6a-0039",
+      "turkish": "ucuz",
+      "english": "cheap",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-6a"
+      ],
+      "source": "A1_-_6A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6a-0040",
+      "turkish": "pahalı",
+      "english": "expensive",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-6a"
+      ],
+      "source": "A1_-_6A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6a-0041",
+      "turkish": "ferah",
+      "english": "spacious",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-6a"
+      ],
+      "source": "A1_-_6A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6a-0042",
+      "turkish": "konforlu",
+      "english": "comfortable",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-6a"
+      ],
+      "source": "A1_-_6A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6a-0043",
+      "turkish": "önemli",
+      "english": "important",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-6a"
+      ],
+      "source": "A1_-_6A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6a-0044",
+      "turkish": "merkezi",
+      "english": "central",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-6a"
+      ],
+      "source": "A1_-_6A.pdf",
+      "notes": "",
+      "status": "approved"
+    }
+  ]
+}
