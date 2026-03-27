@@ -2389,7 +2389,7 @@
     {
       "id": "cand-a1-2b-0103",
       "turkish": "yak\u0131n",
-      "english": "close",
+      "english": "close / nearby",
       "priority": 3,
       "tags": [
         "adjective",
@@ -2790,7 +2790,7 @@
     {
       "id": "cand-a1-2c-0041",
       "turkish": "sakin",
-      "english": "calm",
+      "english": "calm / quiet",
       "priority": 3,
       "tags": [
         "adjective",
@@ -5122,8 +5122,7 @@
       "tags": [
         "unit-a1-4b",
         "country",
-        "similar",
-        "today"
+        "similar"
       ]
     },
     {
@@ -8101,11 +8100,12 @@
     {
       "id": "cand-a1-6a-0005",
       "turkish": "meydan",
-      "english": "square",
+      "english": "town square / plaza",
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-6a"
+        "unit-a1-6a",
+        "today"
       ]
     },
     {
@@ -8131,7 +8131,7 @@
     {
       "id": "cand-a1-6a-0010",
       "turkish": "il\u00e7e",
-      "english": "county",
+      "english": "district",
       "priority": 3,
       "tags": [
         "noun",
@@ -8211,7 +8211,7 @@
     {
       "id": "cand-a1-6a-0019",
       "turkish": "d\u00fckkan",
-      "english": "shop",
+      "english": "small shop / store",
       "priority": 3,
       "tags": [
         "noun",
@@ -8271,7 +8271,7 @@
     {
       "id": "cand-a1-6a-0025",
       "turkish": "\u00fcst\u00fcnde",
-      "english": "on",
+      "english": "on top of / above",
       "priority": 3,
       "tags": [
         "adverb",
@@ -8331,7 +8331,7 @@
     {
       "id": "cand-a1-6a-0031",
       "turkish": "\u00fccret",
-      "english": "price",
+      "english": "fee / charge",
       "priority": 3,
       "tags": [
         "noun",
@@ -8411,7 +8411,7 @@
     {
       "id": "cand-a1-6a-0041",
       "turkish": "ferah",
-      "english": "spacious",
+      "english": "spacious / airy",
       "priority": 3,
       "tags": [
         "adjective",
