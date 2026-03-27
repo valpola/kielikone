@@ -988,12 +988,13 @@
     },
     {
       "id": "cand-a1-2a-0007",
-      "turkish": "bina",
-      "english": "building",
+      "turkish": "bina / apartman",
+      "english": "building / apartment block",
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-2a"
+        "unit-a1-2a",
+        "unit-a1-6a"
       ]
     },
     {
@@ -8104,8 +8105,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-6a",
-        "today"
+        "unit-a1-6a"
       ]
     },
     {
@@ -8135,7 +8135,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-6a"
+        "unit-a1-6a",
+        "today"
       ]
     },
     {
@@ -8162,16 +8163,6 @@
       "id": "cand-a1-6a-0013",
       "turkish": "cadde",
       "english": "main street / avenue",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a1-6a"
-      ]
-    },
-    {
-      "id": "cand-a1-6a-0014",
-      "turkish": "bina / apartman",
-      "english": "building",
       "priority": 3,
       "tags": [
         "noun",
