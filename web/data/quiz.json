@@ -5123,7 +5123,8 @@
       "tags": [
         "unit-a1-4b",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -7731,7 +7732,7 @@
     {
       "id": "cand-a1-5b-0024",
       "turkish": "oyun",
-      "english": "game",
+      "english": "game / play",
       "priority": 3,
       "tags": [
         "unit-a1-5b",
@@ -8135,8 +8136,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-6a",
-        "today"
+        "unit-a1-6a"
       ]
     },
     {
