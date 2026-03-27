@@ -57,7 +57,7 @@
     {
       "id": "cand-a1-6a-0005",
       "turkish": "meydan",
-      "english": "square",
+      "english": "town square / plaza",
       "priority": 3,
       "tags": [
         "noun",
@@ -122,7 +122,7 @@
     {
       "id": "cand-a1-6a-0010",
       "turkish": "ilçe",
-      "english": "county",
+      "english": "district",
       "priority": 3,
       "tags": [
         "noun",
@@ -239,7 +239,7 @@
     {
       "id": "cand-a1-6a-0019",
       "turkish": "dükkan",
-      "english": "shop",
+      "english": "small shop / store",
       "priority": 3,
       "tags": [
         "noun",
@@ -317,7 +317,7 @@
     {
       "id": "cand-a1-6a-0025",
       "turkish": "üstünde",
-      "english": "on",
+      "english": "on top of / above",
       "priority": 3,
       "tags": [
         "adverb",
@@ -395,7 +395,7 @@
     {
       "id": "cand-a1-6a-0031",
       "turkish": "ücret",
-      "english": "price",
+      "english": "fee / charge",
       "priority": 3,
       "tags": [
         "noun",
@@ -525,7 +525,7 @@
     {
       "id": "cand-a1-6a-0041",
       "turkish": "ferah",
-      "english": "spacious",
+      "english": "spacious / airy",
       "priority": 3,
       "tags": [
         "adjective",
