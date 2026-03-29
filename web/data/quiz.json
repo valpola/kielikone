@@ -3405,7 +3405,8 @@
       "priority": 3,
       "tags": [
         "unit-a1-3b",
-        "verb"
+        "verb",
+        "unit-a1-4c"
       ]
     },
     {
@@ -7071,16 +7072,6 @@
       "id": "cand-a1-4c-0040",
       "turkish": "\u00f6pmek",
       "english": "to kiss",
-      "priority": 3,
-      "tags": [
-        "unit-a1-4c",
-        "verb"
-      ]
-    },
-    {
-      "id": "cand-a1-4c-0042",
-      "turkish": "pi\u015firmek",
-      "english": "to cook",
       "priority": 3,
       "tags": [
         "unit-a1-4c",
