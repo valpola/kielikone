@@ -1,0 +1,422 @@
+{
+  "source_file": "A1_-_6B.pdf",
+  "created_at": "2026-04-01T13:53:56.208496+00:00",
+  "items": [
+    {
+      "id": "cand-a1-6b-0001",
+      "turkish": "ana cadde",
+      "english": "main street",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6b"
+      ],
+      "source": "A1_-_6B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6b-0002",
+      "turkish": "antik kent",
+      "english": "ancient city",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6b"
+      ],
+      "source": "A1_-_6B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6b-0003",
+      "turkish": "apartman",
+      "english": "apartment block",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6b"
+      ],
+      "source": "A1_-_6B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6b-0004",
+      "turkish": "arka",
+      "english": "back / rear",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6b"
+      ],
+      "source": "A1_-_6B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6b-0005",
+      "turkish": "bank",
+      "english": "bench",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6b"
+      ],
+      "source": "A1_-_6B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6b-0006",
+      "turkish": "bina",
+      "english": "building / apartment block",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6b"
+      ],
+      "source": "A1_-_6B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6b-0007",
+      "turkish": "cadde",
+      "english": "main street / avenue",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6b"
+      ],
+      "source": "A1_-_6B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6b-0008",
+      "turkish": "dükkan",
+      "english": "small shop / store",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6b"
+      ],
+      "source": "A1_-_6B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6b-0009",
+      "turkish": "daire",
+      "english": "apartment / flat",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6b"
+      ],
+      "source": "A1_-_6B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6b-0010",
+      "turkish": "esnaf",
+      "english": "shopkeeper / tradesperson",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6b"
+      ],
+      "source": "A1_-_6B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6b-0011",
+      "turkish": "iç",
+      "english": "inside / interior",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-6b"
+      ],
+      "source": "A1_-_6B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6b-0012",
+      "turkish": "kayak merkezi",
+      "english": "ski resort",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6b"
+      ],
+      "source": "A1_-_6B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6b-0013",
+      "turkish": "köşe",
+      "english": "corner",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6b"
+      ],
+      "source": "A1_-_6B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6b-0014",
+      "turkish": "kitabevi",
+      "english": "bookstore",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6b"
+      ],
+      "source": "A1_-_6B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6b-0015",
+      "turkish": "komşu",
+      "english": "neighbor",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6b"
+      ],
+      "source": "A1_-_6B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6b-0016",
+      "turkish": "mahalle",
+      "english": "neighborhood",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6b"
+      ],
+      "source": "A1_-_6B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6b-0017",
+      "turkish": "martı",
+      "english": "seagull",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6b"
+      ],
+      "source": "A1_-_6B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6b-0018",
+      "turkish": "misafirperver",
+      "english": "hospitable",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-6b"
+      ],
+      "source": "A1_-_6B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6b-0019",
+      "turkish": "orta",
+      "english": "middle / center",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-6b"
+      ],
+      "source": "A1_-_6B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6b-0020",
+      "turkish": "otobüs durağı",
+      "english": "bus stop",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6b"
+      ],
+      "source": "A1_-_6B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6b-0021",
+      "turkish": "pasaj",
+      "english": "passage / arcade",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6b"
+      ],
+      "source": "A1_-_6B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6b-0022",
+      "turkish": "pazar",
+      "english": "market / bazaar",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6b"
+      ],
+      "source": "A1_-_6B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6b-0023",
+      "turkish": "plaj",
+      "english": "beach",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6b"
+      ],
+      "source": "A1_-_6B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6b-0024",
+      "turkish": "sokak",
+      "english": "street",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6b"
+      ],
+      "source": "A1_-_6B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6b-0025",
+      "turkish": "sokak hayvanları",
+      "english": "street animals",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6b"
+      ],
+      "source": "A1_-_6B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6b-0026",
+      "turkish": "usta",
+      "english": "master craftsman",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6b"
+      ],
+      "source": "A1_-_6B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6b-0028",
+      "turkish": "altında",
+      "english": "under",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-6b"
+      ],
+      "source": "A1_-_6B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6b-0029",
+      "turkish": "arasında",
+      "english": "between",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-6b"
+      ],
+      "source": "A1_-_6B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6b-0030",
+      "turkish": "dışında",
+      "english": "outside",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-6b"
+      ],
+      "source": "A1_-_6B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6b-0031",
+      "turkish": "önünde",
+      "english": "in front of",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-6b"
+      ],
+      "source": "A1_-_6B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6b-0032",
+      "turkish": "üstünde",
+      "english": "on top of / above",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-6b"
+      ],
+      "source": "A1_-_6B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6b-0033",
+      "turkish": "yanında",
+      "english": "next to / beside",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-6b"
+      ],
+      "source": "A1_-_6B.pdf",
+      "notes": "",
+      "status": "approved"
+    }
+  ]
+}
