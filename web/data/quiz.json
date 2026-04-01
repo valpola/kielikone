@@ -994,7 +994,8 @@
       "tags": [
         "noun",
         "unit-a1-2a",
-        "unit-a1-6a"
+        "unit-a1-6a",
+        "unit-a1-6b"
       ]
     },
     {
@@ -6652,7 +6653,8 @@
       "tags": [
         "unit-a1-4b",
         "noun",
-        "unit-a1-6a"
+        "unit-a1-6a",
+        "unit-a1-6b"
       ]
     },
     {
@@ -8137,7 +8139,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-6a"
+        "unit-a1-6a",
+        "unit-a1-6b"
       ]
     },
     {
@@ -8147,7 +8150,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-6a"
+        "unit-a1-6a",
+        "unit-a1-6b"
       ]
     },
     {
@@ -8157,7 +8161,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-6a"
+        "unit-a1-6a",
+        "unit-a1-6b"
       ]
     },
     {
@@ -8167,7 +8172,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-6a"
+        "unit-a1-6a",
+        "unit-a1-6b"
       ]
     },
     {
@@ -8177,7 +8183,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-6a"
+        "unit-a1-6a",
+        "unit-a1-6b"
       ]
     },
     {
@@ -8187,7 +8194,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-6a"
+        "unit-a1-6a",
+        "unit-a1-6b"
       ]
     },
     {
@@ -8197,7 +8205,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-6a"
+        "unit-a1-6a",
+        "unit-a1-6b"
       ]
     },
     {
@@ -8207,7 +8216,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-6a"
+        "unit-a1-6a",
+        "unit-a1-6b"
       ]
     },
     {
@@ -8217,7 +8227,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-6a"
+        "unit-a1-6a",
+        "unit-a1-6b"
       ]
     },
     {
@@ -8227,7 +8238,8 @@
       "priority": 3,
       "tags": [
         "adverb",
-        "unit-a1-6a"
+        "unit-a1-6a",
+        "unit-a1-6b"
       ]
     },
     {
@@ -8247,7 +8259,8 @@
       "priority": 3,
       "tags": [
         "adverb",
-        "unit-a1-6a"
+        "unit-a1-6a",
+        "unit-a1-6b"
       ]
     },
     {
@@ -8257,7 +8270,8 @@
       "priority": 3,
       "tags": [
         "adverb",
-        "unit-a1-6a"
+        "unit-a1-6a",
+        "unit-a1-6b"
       ]
     },
     {
@@ -8267,7 +8281,8 @@
       "priority": 3,
       "tags": [
         "adverb",
-        "unit-a1-6a"
+        "unit-a1-6a",
+        "unit-a1-6b"
       ]
     },
     {
@@ -8428,6 +8443,166 @@
       "tags": [
         "adjective",
         "unit-a1-6a"
+      ]
+    },
+    {
+      "id": "cand-a1-6b-0001",
+      "turkish": "ana cadde",
+      "english": "main street",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6b"
+      ]
+    },
+    {
+      "id": "cand-a1-6b-0002",
+      "turkish": "antik kent",
+      "english": "ancient city",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6b"
+      ]
+    },
+    {
+      "id": "cand-a1-6b-0004",
+      "turkish": "arka",
+      "english": "back / rear",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6b"
+      ]
+    },
+    {
+      "id": "cand-a1-6b-0005",
+      "turkish": "bank",
+      "english": "bench",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6b"
+      ]
+    },
+    {
+      "id": "cand-a1-6b-0011",
+      "turkish": "i\u00e7",
+      "english": "inside / interior",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-6b"
+      ]
+    },
+    {
+      "id": "cand-a1-6b-0012",
+      "turkish": "kayak merkezi",
+      "english": "ski resort",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6b"
+      ]
+    },
+    {
+      "id": "cand-a1-6b-0014",
+      "turkish": "kitabevi",
+      "english": "bookstore",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6b"
+      ]
+    },
+    {
+      "id": "cand-a1-6b-0017",
+      "turkish": "mart\u0131",
+      "english": "seagull",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6b"
+      ]
+    },
+    {
+      "id": "cand-a1-6b-0018",
+      "turkish": "misafirperver",
+      "english": "hospitable",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-6b"
+      ]
+    },
+    {
+      "id": "cand-a1-6b-0019",
+      "turkish": "orta",
+      "english": "middle / center",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-6b"
+      ]
+    },
+    {
+      "id": "cand-a1-6b-0021",
+      "turkish": "pasaj",
+      "english": "passage / arcade",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6b"
+      ]
+    },
+    {
+      "id": "cand-a1-6b-0022",
+      "turkish": "pazar",
+      "english": "market / bazaar",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6b"
+      ]
+    },
+    {
+      "id": "cand-a1-6b-0023",
+      "turkish": "plaj",
+      "english": "beach",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6b"
+      ]
+    },
+    {
+      "id": "cand-a1-6b-0026",
+      "turkish": "usta",
+      "english": "master craftsman",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6b"
+      ]
+    },
+    {
+      "id": "cand-a1-6b-0029",
+      "turkish": "aras\u0131nda",
+      "english": "between",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-6b"
+      ]
+    },
+    {
+      "id": "cand-a1-6b-0030",
+      "turkish": "d\u0131\u015f\u0131nda",
+      "english": "outside",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-6b"
       ]
     },
     {
@@ -9056,6 +9231,11 @@
     {
       "id": "unit-a1-6a",
       "label": "Unit A1-6A",
+      "group": "unit"
+    },
+    {
+      "id": "unit-a1-6b",
+      "label": "Unit A1-6B",
       "group": "unit"
     }
   ]
