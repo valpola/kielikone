@@ -148,6 +148,12 @@ function doGet(e) {
 ## Notes
 - The API key is required because the endpoint is public.
 - If you change the deployment, update the URL in web/config.js.
+- The web client now keeps a local retry queue for result submissions in
+  localStorage. If a POST fails temporarily, the result stays queued and is
+  retried later instead of being silently dropped.
+- Because retries reuse the original client timestamp, a failed response can
+  occasionally produce a duplicate row with the same timestamp, word_id, mode,
+  and correct value. Those can be cleaned up manually in the sheet if needed.
 - For daily prioritization, export the Results sheet as CSV and pass that URL to
   scripts/build_today.py.
 - The Apps Script URL can return CSV directly after adding the doGet handler

@@ -34,6 +34,7 @@ const SESSION_TARGET_STORAGE = "tr-quiz-session-target";
 const DEFAULT_SESSION_TARGET = 1;
 const TODAY_LIMIT_STORAGE = "tr-quiz-today-limit";
 const TODAY_LIST_STORAGE = "tr-quiz-today-list";
+const RESULTS_QUEUE_STORAGE = "tr-quiz-results-queue";
 const DEFAULT_TODAY_LIMIT = 10;
 const DEBUG_MODE = new URLSearchParams(window.location.search).get("debug") === "1";
 const DEBUG_SCORES_STORAGE = "tr-quiz-debug-scores";
@@ -60,6 +61,92 @@ let loginState = {
   userName: "",
   valid: false,
   checking: false,
+};
+let resultQueueBusy = false;
+
+const loadResultQueue = () => {
+  const raw = localStorage.getItem(RESULTS_QUEUE_STORAGE);
+  if (!raw) return [];
+  try {
+    const parsed = JSON.parse(raw);
+    if (!Array.isArray(parsed)) return [];
+    return parsed.filter(
+      (entry) =>
+        entry &&
+        typeof entry === "object" &&
+        typeof entry.timestamp === "string" &&
+        typeof entry.word_id === "string" &&
+        typeof entry.mode === "string" &&
+        typeof entry.correct === "boolean"
+    );
+  } catch {
+    return [];
+  }
+};
+
+const saveResultQueue = (queue) => {
+  localStorage.setItem(RESULTS_QUEUE_STORAGE, JSON.stringify(queue));
+};
+
+const enqueueResult = (payload) => {
+  const queue = loadResultQueue();
+  queue.push({
+    timestamp: payload.timestamp,
+    word_id: payload.word_id,
+    mode: payload.mode,
+    correct: payload.correct,
+    client_event_id: payload.client_event_id,
+  });
+  saveResultQueue(queue);
+};
+
+const sendQueuedResult = async (endpoint, apiKey, payload) => {
+  const body = new URLSearchParams();
+  Object.entries(payload).forEach(([key, value]) => {
+    body.set(key, String(value));
+  });
+  body.set("api_key", apiKey);
+
+  const response = await fetch(endpoint, {
+    method: "POST",
+    mode: "cors",
+    body,
+    keepalive: true,
+  });
+
+  if (!response.ok) return false;
+
+  const text = (await response.text()).trim();
+  return text === "OK";
+};
+
+const flushResultQueue = async () => {
+  if (resultQueueBusy) return;
+
+  const endpoint = getResultsEndpoint();
+  const apiKey = getApiKey();
+  if (!endpoint || !apiKey || !loginState.valid) return;
+
+  resultQueueBusy = true;
+  try {
+    while (true) {
+      const queue = loadResultQueue();
+      const next = queue[0];
+      if (!next) return;
+
+      try {
+        const ok = await sendQueuedResult(endpoint, apiKey, next);
+        if (!ok) return;
+      } catch {
+        return;
+      }
+
+      queue.shift();
+      saveResultQueue(queue);
+    }
+  } finally {
+    resultQueueBusy = false;
+  }
 };
 
 const getApiKey = () => {
@@ -134,6 +221,7 @@ const validateApiKey = async (apiKey) => {
       loginState.userName = userName;
       loginState.valid = true;
       localStorage.setItem(USER_NAME_STORAGE, userName);
+      void flushResultQueue();
     } else {
       loginState.userName = "";
       loginState.valid = false;
@@ -183,27 +271,10 @@ const sendResult = async (payload) => {
 
   const apiKey = getApiKey();
   if (!apiKey) return;
-  if (!loginState.valid) {
-    return;
-  }
 
-  const body = new URLSearchParams();
-  Object.entries(payload).forEach(([key, value]) => {
-    body.set(key, String(value));
-  });
-  body.set("api_key", apiKey);
-
-  try {
-    const response = await fetch(endpoint, {
-      method: "POST",
-      mode: "cors",
-      body,
-    });
-    if (!response.ok) {
-      return;
-    }
-  } catch (error) {
-  }
+  enqueueResult(payload);
+  if (!loginState.valid) return;
+  await flushResultQueue();
 };
 
 const selectedValues = (container) => {
@@ -628,6 +699,7 @@ const grade = (isCorrect) => {
     word_id: current.id,
     mode,
     correct: isCorrect,
+    client_event_id: `${Date.now()}-${Math.random().toString(36).slice(2)}`,
   });
 
   renderPrompt();
@@ -735,6 +807,16 @@ window.addEventListener("keydown", (event) => {
   }
 });
 
+window.addEventListener("online", () => {
+  void flushResultQueue();
+});
+
+document.addEventListener("visibilitychange", () => {
+  if (document.visibilityState === "visible") {
+    void flushResultQueue();
+  }
+});
+
 const loadData = async () => {
   const response = await fetch(withCacheBust("data/quiz.json"), { cache: "no-store" });
   const data = await response.json();
@@ -757,6 +839,7 @@ const loadData = async () => {
   loadTodayLimit();
   loadMode();
   await initLoginState();
+  void flushResultQueue();
   computedToday = loadStoredToday();
   renderDebugControls();
   renderTagOptions();

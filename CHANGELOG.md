@@ -3,7 +3,8 @@
 All notable changes to this project are documented here.
 
 ## Unreleased
-- (none)
+- Add a durable client-side queue for Google Sheets result logging so transient
+	network or Apps Script failures do not silently drop graded entries.
 
 ## 2026-03-25
 - Add Unit 5C vocabulary (26 items after deduplication).
