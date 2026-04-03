@@ -13,6 +13,7 @@ const EXCLUDE_TAGS = document.getElementById("exclude-tags");
 const SESSION_TARGET = document.getElementById("session-target");
 const TODAY_LIMIT = document.getElementById("today-limit");
 const LOGIN_BTN = document.getElementById("login-btn");
+const QUEUE_STATUS = document.getElementById("queue-status");
 const RECOMPUTE_TODAY = document.getElementById("recompute-today");
 const OPTIONS_GRID = document.querySelector(".options-grid");
 
@@ -84,8 +85,21 @@ const loadResultQueue = () => {
   }
 };
 
+const updateQueueStatusUi = () => {
+  if (!QUEUE_STATUS) return;
+  const pending = loadResultQueue().length;
+  if (pending <= 0) {
+    QUEUE_STATUS.textContent = "";
+    QUEUE_STATUS.classList.add("hidden");
+    return;
+  }
+  QUEUE_STATUS.textContent = `Pending sync: ${pending}`;
+  QUEUE_STATUS.classList.remove("hidden");
+};
+
 const saveResultQueue = (queue) => {
   localStorage.setItem(RESULTS_QUEUE_STORAGE, JSON.stringify(queue));
+  updateQueueStatusUi();
 };
 
 const enqueueResult = (payload) => {
@@ -838,6 +852,7 @@ const loadData = async () => {
   loadSessionTarget();
   loadTodayLimit();
   loadMode();
+  updateQueueStatusUi();
   await initLoginState();
   void flushResultQueue();
   computedToday = loadStoredToday();
