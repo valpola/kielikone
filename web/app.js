@@ -97,9 +97,30 @@ const updateQueueStatusUi = () => {
   QUEUE_STATUS.classList.remove("hidden");
 };
 
+const sameQueuedResult = (left, right) => {
+  if (!left || !right) return false;
+  if (left.client_event_id && right.client_event_id) {
+    return left.client_event_id === right.client_event_id;
+  }
+  return (
+    left.timestamp === right.timestamp &&
+    left.word_id === right.word_id &&
+    left.mode === right.mode &&
+    left.correct === right.correct
+  );
+};
+
 const saveResultQueue = (queue) => {
   localStorage.setItem(RESULTS_QUEUE_STORAGE, JSON.stringify(queue));
   updateQueueStatusUi();
+};
+
+const removeQueuedResult = (payload) => {
+  const queue = loadResultQueue();
+  const index = queue.findIndex((entry) => sameQueuedResult(entry, payload));
+  if (index === -1) return;
+  queue.splice(index, 1);
+  saveResultQueue(queue);
 };
 
 const enqueueResult = (payload) => {
@@ -109,7 +130,8 @@ const enqueueResult = (payload) => {
     word_id: payload.word_id,
     mode: payload.mode,
     correct: payload.correct,
-    client_event_id: payload.client_event_id,
+    client_event_id:
+      payload.client_event_id || `${Date.now()}-${Math.random().toString(36).slice(2)}`,
   });
   saveResultQueue(queue);
 };
@@ -144,8 +166,7 @@ const flushResultQueue = async () => {
   resultQueueBusy = true;
   try {
     while (true) {
-      const queue = loadResultQueue();
-      const next = queue[0];
+      const next = loadResultQueue()[0];
       if (!next) return;
 
       try {
@@ -155,8 +176,7 @@ const flushResultQueue = async () => {
         return;
       }
 
-      queue.shift();
-      saveResultQueue(queue);
+      removeQueuedResult(next);
     }
   } finally {
     resultQueueBusy = false;
