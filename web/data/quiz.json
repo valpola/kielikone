@@ -2396,7 +2396,8 @@
       "tags": [
         "adjective",
         "unit-a1-2b",
-        "unit-a1-6a"
+        "unit-a1-6a",
+        "unit-a1-6c"
       ]
     },
     {
@@ -2797,7 +2798,8 @@
       "tags": [
         "adjective",
         "unit-a1-2c",
-        "unit-a1-6a"
+        "unit-a1-6a",
+        "unit-a1-6c"
       ]
     },
     {
@@ -8292,7 +8294,8 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1-6a"
+        "unit-a1-6a",
+        "unit-a1-6c"
       ]
     },
     {
@@ -8312,7 +8315,8 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1-6a"
+        "unit-a1-6a",
+        "unit-a1-6c"
       ]
     },
     {
@@ -8322,7 +8326,8 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1-6a"
+        "unit-a1-6a",
+        "unit-a1-6c"
       ]
     },
     {
@@ -8332,7 +8337,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-6a"
+        "unit-a1-6a",
+        "unit-a1-6c"
       ]
     },
     {
@@ -8342,7 +8348,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-6a"
+        "unit-a1-6a",
+        "unit-a1-6c"
       ]
     },
     {
@@ -8352,7 +8359,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-6a"
+        "unit-a1-6a",
+        "unit-a1-6c"
       ]
     },
     {
@@ -8372,7 +8380,8 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1-6a"
+        "unit-a1-6a",
+        "unit-a1-6c"
       ]
     },
     {
@@ -8382,7 +8391,8 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1-6a"
+        "unit-a1-6a",
+        "unit-a1-6c"
       ]
     },
     {
@@ -8392,7 +8402,8 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1-6a"
+        "unit-a1-6a",
+        "unit-a1-6c"
       ]
     },
     {
@@ -8402,7 +8413,8 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1-6a"
+        "unit-a1-6a",
+        "unit-a1-6c"
       ]
     },
     {
@@ -8412,7 +8424,8 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1-6a"
+        "unit-a1-6a",
+        "unit-a1-6c"
       ]
     },
     {
@@ -8422,7 +8435,8 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1-6a"
+        "unit-a1-6a",
+        "unit-a1-6c"
       ]
     },
     {
@@ -8432,7 +8446,8 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1-6a"
+        "unit-a1-6a",
+        "unit-a1-6c"
       ]
     },
     {
@@ -8442,7 +8457,8 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1-6a"
+        "unit-a1-6a",
+        "unit-a1-6c"
       ]
     },
     {
@@ -8603,6 +8619,96 @@
       "tags": [
         "adverb",
         "unit-a1-6b"
+      ]
+    },
+    {
+      "id": "cand-a1-6c-0002",
+      "turkish": "civar",
+      "english": "vicinity / surrounding area",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6c"
+      ]
+    },
+    {
+      "id": "cand-a1-6c-0005",
+      "turkish": "kriter",
+      "english": "criterion / criteria",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6c"
+      ]
+    },
+    {
+      "id": "cand-a1-6c-0007",
+      "turkish": "nokta",
+      "english": "point / spot",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6c"
+      ]
+    },
+    {
+      "id": "cand-a1-6c-0010",
+      "turkish": "\u015fehrin g\u00f6be\u011fi",
+      "english": "city center / heart of the city",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6c"
+      ]
+    },
+    {
+      "id": "cand-a1-6c-0011",
+      "turkish": "a\u00e7\u0131k\u00e7as\u0131",
+      "english": "frankly / clearly / obviously",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-6c"
+      ]
+    },
+    {
+      "id": "cand-a1-6c-0012",
+      "turkish": "basit",
+      "english": "simple / basic",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-6c"
+      ]
+    },
+    {
+      "id": "cand-a1-6c-0013",
+      "turkish": "eski",
+      "english": "old / used",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-6c"
+      ]
+    },
+    {
+      "id": "cand-a1-6c-0020",
+      "turkish": "rahat",
+      "english": "comfortable / relaxed",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-6c"
+      ]
+    },
+    {
+      "id": "cand-a1-6c-0024",
+      "turkish": "y\u00fcksek",
+      "english": "high",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-6c"
       ]
     },
     {
@@ -9236,6 +9342,11 @@
     {
       "id": "unit-a1-6b",
       "label": "Unit A1-6B",
+      "group": "unit"
+    },
+    {
+      "id": "unit-a1-6c",
+      "label": "Unit A1-6C",
       "group": "unit"
     }
   ]
