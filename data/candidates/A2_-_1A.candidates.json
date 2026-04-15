@@ -1,0 +1,468 @@
+{
+  "source_file": "A2_-_1A.pdf",
+  "created_at": "2026-04-15T05:46:09.928311+00:00",
+  "items": [
+    {
+      "id": "cand-a2-1a-0001",
+      "turkish": "çarpmak",
+      "english": "to hit / crash into",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2",
+        "unit-a2-1a"
+      ],
+      "source": "A2_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1a-0002",
+      "turkish": "düz gitmek",
+      "english": "to go straight",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2",
+        "unit-a2-1a"
+      ],
+      "source": "A2_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1a-0003",
+      "turkish": "geri gitmek",
+      "english": "to go back / reverse",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2",
+        "unit-a2-1a"
+      ],
+      "source": "A2_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1a-0004",
+      "turkish": "ilerlemek",
+      "english": "to go forward / proceed",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2",
+        "unit-a2-1a"
+      ],
+      "source": "A2_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1a-0005",
+      "turkish": "karşıdan karşıya geçmek",
+      "english": "to cross to the other side",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2",
+        "unit-a2-1a"
+      ],
+      "source": "A2_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1a-0006",
+      "turkish": "kaza yapmak",
+      "english": "to have an accident",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2",
+        "unit-a2-1a"
+      ],
+      "source": "A2_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1a-0007",
+      "turkish": "park etmek",
+      "english": "to park",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2",
+        "unit-a2-1a"
+      ],
+      "source": "A2_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1a-0008",
+      "turkish": "takip etmek",
+      "english": "to follow",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2",
+        "unit-a2-1a"
+      ],
+      "source": "A2_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1a-0009",
+      "turkish": "tarif etmek",
+      "english": "to describe / explain",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2",
+        "unit-a2-1a"
+      ],
+      "source": "A2_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1a-0010",
+      "turkish": "vurmak",
+      "english": "to hit / strike",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2",
+        "unit-a2-1a"
+      ],
+      "source": "A2_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1a-0011",
+      "turkish": "açılış",
+      "english": "opening",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1a"
+      ],
+      "source": "A2_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1a-0012",
+      "turkish": "alt geçit",
+      "english": "underpass / subway",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1a"
+      ],
+      "source": "A2_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1a-0013",
+      "turkish": "ana cadde",
+      "english": "main street",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1a"
+      ],
+      "source": "A2_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1a-0014",
+      "turkish": "araç",
+      "english": "vehicle / tool",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1a"
+      ],
+      "source": "A2_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1a-0015",
+      "turkish": "davet",
+      "english": "invitation",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1a"
+      ],
+      "source": "A2_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1a-0016",
+      "turkish": "davetiye",
+      "english": "written invitation / invitation card",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1a"
+      ],
+      "source": "A2_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1a-0017",
+      "turkish": "davetli",
+      "english": "invited guest / guest",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1a"
+      ],
+      "source": "A2_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1a-0018",
+      "turkish": "dört yol ağzı",
+      "english": "crossroads",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1a"
+      ],
+      "source": "A2_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1a-0019",
+      "turkish": "kilometre (km)",
+      "english": "kilometre",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1a"
+      ],
+      "source": "A2_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1a-0020",
+      "turkish": "kilometre/saat (km/s)",
+      "english": "kilometres per hour (km/h)",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1a"
+      ],
+      "source": "A2_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1a-0021",
+      "turkish": "kavşak",
+      "english": "intersection / junction",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1a"
+      ],
+      "source": "A2_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1a-0022",
+      "turkish": "kulübe",
+      "english": "hut / shed",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1a"
+      ],
+      "source": "A2_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1a-0023",
+      "turkish": "metre (m)",
+      "english": "metre",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1a"
+      ],
+      "source": "A2_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1a-0024",
+      "turkish": "milimetre (mm)",
+      "english": "millimetre",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1a"
+      ],
+      "source": "A2_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1a-0025",
+      "turkish": "navigasyon",
+      "english": "navigation / satnav",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1a"
+      ],
+      "source": "A2_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1a-0026",
+      "turkish": "otopark",
+      "english": "car park / parking lot",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1a"
+      ],
+      "source": "A2_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1a-0027",
+      "turkish": "santimetre (cm)",
+      "english": "centimetre",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1a"
+      ],
+      "source": "A2_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1a-0028",
+      "turkish": "üst geçit",
+      "english": "overpass / flyover",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1a"
+      ],
+      "source": "A2_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1a-0029",
+      "turkish": "yaya geçidi",
+      "english": "crosswalk / pedestrian crossing",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1a"
+      ],
+      "source": "A2_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1a-0030",
+      "turkish": "dar",
+      "english": "narrow / tight",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2",
+        "unit-a2-1a"
+      ],
+      "source": "A2_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1a-0031",
+      "turkish": "dümdüz",
+      "english": "straight ahead / completely straight",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2",
+        "unit-a2-1a"
+      ],
+      "source": "A2_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1a-0032",
+      "turkish": "düz",
+      "english": "straight / flat",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2",
+        "unit-a2-1a"
+      ],
+      "source": "A2_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1a-0033",
+      "turkish": "geniş",
+      "english": "wide / spacious",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2",
+        "unit-a2-1a"
+      ],
+      "source": "A2_-_1A.pdf",
+      "notes": "",
+      "status": "approved"
+    }
+  ]
+}

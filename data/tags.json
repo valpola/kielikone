@@ -57,6 +57,11 @@
       "group": "unit"
     },
     {
+      "id": "unit-a2",
+      "label": "Unit A2",
+      "group": "unit"
+    },
+    {
       "id": "unit-extra",
       "label": "Extra",
       "group": "unit"
@@ -184,6 +189,11 @@
     {
       "id": "unit-a1-6c",
       "label": "Unit A1-6C",
+      "group": "unit"
+    },
+    {
+      "id": "unit-a2-1a",
+      "label": "Unit A2-1A",
       "group": "unit"
     }
   ]
