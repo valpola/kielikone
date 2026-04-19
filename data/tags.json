@@ -195,6 +195,11 @@
       "id": "unit-a2-1a",
       "label": "Unit A2-1A",
       "group": "unit"
+    },
+    {
+      "id": "unit-a2-1b",
+      "label": "Unit A2-1B",
+      "group": "unit"
     }
   ]
 }
