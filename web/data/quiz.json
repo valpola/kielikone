@@ -8,7 +8,8 @@
       "tags": [
         "noun",
         "unit-a1-0a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-2c"
       ]
     },
     {
@@ -19,7 +20,8 @@
       "tags": [
         "noun",
         "unit-a1-0a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-4a"
       ]
     },
     {
@@ -30,7 +32,8 @@
       "tags": [
         "noun",
         "unit-a1-0a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-2a"
       ]
     },
     {
@@ -63,7 +66,8 @@
       "tags": [
         "noun",
         "unit-a1-0a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-1b"
       ]
     },
     {
@@ -74,7 +78,8 @@
       "tags": [
         "noun",
         "unit-a1-0a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-2b"
       ]
     },
     {
@@ -85,7 +90,8 @@
       "tags": [
         "noun",
         "unit-a1-0a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-4a"
       ]
     },
     {
@@ -173,7 +179,9 @@
       "tags": [
         "noun",
         "unit-a1-0a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-1b",
+        "unit-a1-2a"
       ]
     },
     {
@@ -195,7 +203,8 @@
       "tags": [
         "noun",
         "unit-a1-0a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-2a"
       ]
     },
     {
@@ -206,7 +215,8 @@
       "tags": [
         "noun",
         "unit-a1-0a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-2a"
       ]
     },
     {
@@ -239,7 +249,8 @@
       "tags": [
         "noun",
         "unit-a1-0a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-3c"
       ]
     },
     {
@@ -250,7 +261,8 @@
       "tags": [
         "noun",
         "unit-a1-0a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-2b"
       ]
     },
     {
@@ -272,7 +284,8 @@
       "tags": [
         "noun",
         "unit-a1-0a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-5b"
       ]
     },
     {
@@ -283,7 +296,8 @@
       "tags": [
         "noun",
         "unit-a1-0a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-2b"
       ]
     },
     {
@@ -316,7 +330,8 @@
       "tags": [
         "noun",
         "unit-a1-0a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-5a"
       ]
     },
     {
@@ -690,7 +705,8 @@
       "tags": [
         "noun",
         "unit-a1-1b",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-2a"
       ]
     },
     {
@@ -741,17 +757,6 @@
       "id": "cand-a1-1b-0007",
       "turkish": "du\u015f kabini",
       "english": "shower cabin",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a1-1b",
-        "unit-a1"
-      ]
-    },
-    {
-      "id": "cand-a1-1b-0008",
-      "turkish": "ev",
-      "english": "house",
       "priority": 3,
       "tags": [
         "noun",
@@ -862,17 +867,6 @@
       "id": "cand-a1-1b-0018",
       "turkish": "lavabo",
       "english": "sink",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a1-1b",
-        "unit-a1"
-      ]
-    },
-    {
-      "id": "cand-a1-1b-0019",
-      "turkish": "masa",
-      "english": "table",
       "priority": 3,
       "tags": [
         "noun",
@@ -1046,17 +1040,6 @@
       ]
     },
     {
-      "id": "cand-a1-2a-0002",
-      "turkish": "bah\u00e7e",
-      "english": "garden",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a1-2a",
-        "unit-a1"
-      ]
-    },
-    {
       "id": "cand-a1-2a-0003",
       "turkish": "banka",
       "english": "bank",
@@ -1108,18 +1091,9 @@
       "tags": [
         "noun",
         "unit-a1-2a",
-        "unit-a1"
-      ]
-    },
-    {
-      "id": "cand-a1-2a-0008",
-      "turkish": "cami",
-      "english": "mosque",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a1-2a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-6a",
+        "unit-a1-6b"
       ]
     },
     {
@@ -1141,7 +1115,8 @@
       "tags": [
         "noun",
         "unit-a1-2a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-5a"
       ]
     },
     {
@@ -1207,7 +1182,8 @@
       "tags": [
         "noun",
         "unit-a1-2a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-5b"
       ]
     },
     {
@@ -1339,35 +1315,14 @@
       "tags": [
         "noun",
         "unit-a1-2a",
-        "unit-a1"
-      ]
-    },
-    {
-      "id": "cand-a1-2a-0029",
-      "turkish": "masa",
-      "english": "table",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a1-2a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-2b"
       ]
     },
     {
       "id": "cand-a1-2a-0030",
       "turkish": "m\u00fcze",
       "english": "museum",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a1-2a",
-        "unit-a1"
-      ]
-    },
-    {
-      "id": "cand-a1-2a-0031",
-      "turkish": "okul",
-      "english": "school",
       "priority": 3,
       "tags": [
         "noun",
@@ -1394,24 +1349,14 @@
       "tags": [
         "noun",
         "unit-a1-2a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-5b"
       ]
     },
     {
       "id": "cand-a1-2a-0034",
       "turkish": "\u00f6\u011frenci",
       "english": "student",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a1-2a",
-        "unit-a1"
-      ]
-    },
-    {
-      "id": "cand-a1-2a-0035",
-      "turkish": "\u00f6\u011fretmen",
-      "english": "teacher",
       "priority": 3,
       "tags": [
         "noun",
@@ -1471,7 +1416,8 @@
       "tags": [
         "noun",
         "unit-a1-2a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-5a"
       ]
     },
     {
@@ -1548,7 +1494,8 @@
       "tags": [
         "noun",
         "unit-a1-2a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-2b"
       ]
     },
     {
@@ -1691,7 +1638,10 @@
       "tags": [
         "noun",
         "unit-a1-2b",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-3c",
+        "unit-a2",
+        "unit-a2-1b"
       ]
     },
     {
@@ -1713,7 +1663,9 @@
       "tags": [
         "noun",
         "unit-a1-2b",
-        "unit-a1"
+        "unit-a1",
+        "unit-a2",
+        "unit-a2-1b"
       ]
     },
     {
@@ -1724,7 +1676,10 @@
       "tags": [
         "noun",
         "unit-a1-2b",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-3c",
+        "unit-a2",
+        "unit-a2-1b"
       ]
     },
     {
@@ -1856,7 +1811,9 @@
       "tags": [
         "noun",
         "unit-a1-2b",
-        "unit-a1"
+        "unit-a1",
+        "unit-a2",
+        "unit-a2-1b"
       ]
     },
     {
@@ -1889,24 +1846,15 @@
       "tags": [
         "noun",
         "unit-a1-2b",
-        "unit-a1"
+        "unit-a1",
+        "unit-a2",
+        "unit-a2-1b"
       ]
     },
     {
       "id": "cand-a1-2b-0026",
       "turkish": "fas\u00fclye",
       "english": "beans",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a1-2b",
-        "unit-a1"
-      ]
-    },
-    {
-      "id": "cand-a1-2b-0027",
-      "turkish": "fincan",
-      "english": "cup",
       "priority": 3,
       "tags": [
         "noun",
@@ -1988,7 +1936,8 @@
       "tags": [
         "noun",
         "unit-a1-2b",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-3c"
       ]
     },
     {
@@ -2113,17 +2062,6 @@
       ]
     },
     {
-      "id": "cand-a1-2b-0046",
-      "turkish": "kasa",
-      "english": "till / safe / cashbox / crate",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a1-2b",
-        "unit-a1"
-      ]
-    },
-    {
       "id": "cand-a1-2b-0047",
       "turkish": "kasiyer",
       "english": "cashier",
@@ -2153,7 +2091,9 @@
       "tags": [
         "noun",
         "unit-a1-2b",
-        "unit-a1"
+        "unit-a1",
+        "unit-a2",
+        "unit-a2-1b"
       ]
     },
     {
@@ -2289,17 +2229,6 @@
       ]
     },
     {
-      "id": "cand-a1-2b-0062",
-      "turkish": "market",
-      "english": "grocery store / supermarket (food shop)",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a1-2b",
-        "unit-a1"
-      ]
-    },
-    {
       "id": "cand-a1-2b-0063",
       "turkish": "marul",
       "english": "lettuce",
@@ -2340,7 +2269,8 @@
       "tags": [
         "noun",
         "unit-a1-2b",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-3c"
       ]
     },
     {
@@ -2406,7 +2336,9 @@
       "tags": [
         "noun",
         "unit-a1-2b",
-        "unit-a1"
+        "unit-a1",
+        "unit-a2",
+        "unit-a2-1b"
       ]
     },
     {
@@ -2428,7 +2360,9 @@
       "tags": [
         "noun",
         "unit-a1-2b",
-        "unit-a1"
+        "unit-a1",
+        "unit-a2",
+        "unit-a2-1b"
       ]
     },
     {
@@ -2472,7 +2406,9 @@
       "tags": [
         "noun",
         "unit-a1-2b",
-        "unit-a1"
+        "unit-a1",
+        "unit-a2",
+        "unit-a2-1b"
       ]
     },
     {
@@ -2520,17 +2456,6 @@
       ]
     },
     {
-      "id": "cand-a1-2b-0083",
-      "turkish": "\u015fi\u015fe",
-      "english": "bottle",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a1-2b",
-        "unit-a1"
-      ]
-    },
-    {
       "id": "cand-a1-2b-0084",
       "turkish": "sirke",
       "english": "vinegar",
@@ -2538,7 +2463,9 @@
       "tags": [
         "noun",
         "unit-a1-2b",
-        "unit-a1"
+        "unit-a1",
+        "unit-a2",
+        "unit-a2-1b"
       ]
     },
     {
@@ -2560,7 +2487,9 @@
       "tags": [
         "noun",
         "unit-a1-2b",
-        "unit-a1"
+        "unit-a1",
+        "unit-a2",
+        "unit-a2-1b"
       ]
     },
     {
@@ -2593,18 +2522,9 @@
       "tags": [
         "noun",
         "unit-a1-2b",
-        "unit-a1"
-      ]
-    },
-    {
-      "id": "cand-a1-2b-0090",
-      "turkish": "teneff\u00fcs",
-      "english": "break, recess",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a1-2b",
-        "unit-a1"
+        "unit-a1",
+        "unit-a2",
+        "unit-a2-1b"
       ]
     },
     {
@@ -2615,7 +2535,9 @@
       "tags": [
         "noun",
         "unit-a1-2b",
-        "unit-a1"
+        "unit-a1",
+        "unit-a2",
+        "unit-a2-1b"
       ]
     },
     {
@@ -2644,17 +2566,6 @@
       "id": "cand-a1-2b-0094",
       "turkish": "tuvalet ka\u011f\u0131d\u0131",
       "english": "toilet paper",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a1-2b",
-        "unit-a1"
-      ]
-    },
-    {
-      "id": "cand-a1-2b-0095",
-      "turkish": "\u00fcz\u00fcm",
-      "english": "grape",
       "priority": 3,
       "tags": [
         "noun",
@@ -2692,7 +2603,9 @@
       "tags": [
         "noun",
         "unit-a1-2b",
-        "unit-a1"
+        "unit-a1",
+        "unit-a2",
+        "unit-a2-1b"
       ]
     },
     {
@@ -2703,7 +2616,9 @@
       "tags": [
         "noun",
         "unit-a1-2b",
-        "unit-a1"
+        "unit-a1",
+        "unit-a2",
+        "unit-a2-1b"
       ]
     },
     {
@@ -2714,7 +2629,9 @@
       "tags": [
         "noun",
         "unit-a1-2b",
-        "unit-a1"
+        "unit-a1",
+        "unit-a2",
+        "unit-a2-1b"
       ]
     },
     {
@@ -2747,18 +2664,9 @@
       "tags": [
         "adjective",
         "unit-a1-2b",
-        "unit-a1"
-      ]
-    },
-    {
-      "id": "cand-a1-2c-0001",
-      "turkish": "arkada\u015f",
-      "english": "friend",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a1-2c",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-6a",
+        "unit-a1-6c"
       ]
     },
     {
@@ -3198,7 +3106,9 @@
       "tags": [
         "adjective",
         "unit-a1-2c",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-6a",
+        "unit-a1-6c"
       ]
     },
     {
@@ -3396,18 +3306,8 @@
       "tags": [
         "unit-a1-3a",
         "unit-a1",
-        "verb"
-      ]
-    },
-    {
-      "id": "cand-a1-3a-0002",
-      "turkish": "ba\u015flamak",
-      "english": "to start",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3a",
-        "unit-a1",
-        "verb"
+        "verb",
+        "unit-a1-3b"
       ]
     },
     {
@@ -3418,18 +3318,8 @@
       "tags": [
         "unit-a1-3a",
         "unit-a1",
-        "verb"
-      ]
-    },
-    {
-      "id": "cand-a1-3a-0004",
-      "turkish": "bilmek",
-      "english": "to know",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3a",
-        "unit-a1",
-        "verb"
+        "verb",
+        "unit-a1-3b"
       ]
     },
     {
@@ -3440,7 +3330,8 @@
       "tags": [
         "unit-a1-3a",
         "unit-a1",
-        "verb"
+        "verb",
+        "unit-a1-3b"
       ]
     },
     {
@@ -3451,29 +3342,8 @@
       "tags": [
         "unit-a1-3a",
         "unit-a1",
-        "verb"
-      ]
-    },
-    {
-      "id": "cand-a1-3a-0007",
-      "turkish": "cevaplamak",
-      "english": "to answer",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3a",
-        "unit-a1",
-        "verb"
-      ]
-    },
-    {
-      "id": "cand-a1-3a-0008",
-      "turkish": "\u00e7al\u0131\u015fmak",
-      "english": "to work",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3a",
-        "unit-a1",
-        "verb"
+        "verb",
+        "unit-a1-3b"
       ]
     },
     {
@@ -3484,7 +3354,9 @@
       "tags": [
         "unit-a1-3a",
         "unit-a1",
-        "verb"
+        "verb",
+        "unit-a1-3b",
+        "unit-a1-4c"
       ]
     },
     {
@@ -3495,7 +3367,8 @@
       "tags": [
         "unit-a1-3a",
         "unit-a1",
-        "verb"
+        "verb",
+        "unit-a1-3b"
       ]
     },
     {
@@ -3528,18 +3401,8 @@
       "tags": [
         "unit-a1-3a",
         "unit-a1",
-        "verb"
-      ]
-    },
-    {
-      "id": "cand-a1-3a-0014",
-      "turkish": "\u00f6\u011frenmek",
-      "english": "to learn",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3a",
-        "unit-a1",
-        "verb"
+        "verb",
+        "unit-a1-3b"
       ]
     },
     {
@@ -3550,18 +3413,8 @@
       "tags": [
         "unit-a1-3a",
         "unit-a1",
-        "verb"
-      ]
-    },
-    {
-      "id": "cand-a1-3a-0016",
-      "turkish": "sevmek",
-      "english": "to love",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3a",
-        "unit-a1",
-        "verb"
+        "verb",
+        "unit-a1-3b"
       ]
     },
     {
@@ -3572,7 +3425,8 @@
       "tags": [
         "unit-a1-3a",
         "unit-a1",
-        "verb"
+        "verb",
+        "unit-a1-3b"
       ]
     },
     {
@@ -3583,18 +3437,8 @@
       "tags": [
         "unit-a1-3a",
         "unit-a1",
-        "verb"
-      ]
-    },
-    {
-      "id": "cand-a1-3a-0019",
-      "turkish": "telefon etmek",
-      "english": "to call (with a phone)",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3a",
-        "unit-a1",
-        "verb"
+        "verb",
+        "unit-a1-3b"
       ]
     },
     {
@@ -3605,7 +3449,8 @@
       "tags": [
         "unit-a1-3a",
         "unit-a1",
-        "verb"
+        "verb",
+        "unit-a1-3b"
       ]
     },
     {
@@ -3616,7 +3461,8 @@
       "tags": [
         "unit-a1-3a",
         "unit-a1",
-        "verb"
+        "verb",
+        "unit-a1-3b"
       ]
     },
     {
@@ -3627,18 +3473,8 @@
       "tags": [
         "unit-a1-3a",
         "unit-a1",
-        "verb"
-      ]
-    },
-    {
-      "id": "cand-a1-3a-0023",
-      "turkish": "yard\u0131m etmek",
-      "english": "to help",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3a",
-        "unit-a1",
-        "verb"
+        "verb",
+        "unit-a1-3b"
       ]
     },
     {
@@ -3649,7 +3485,8 @@
       "tags": [
         "unit-a1-3a",
         "unit-a1",
-        "verb"
+        "verb",
+        "unit-a1-3b"
       ]
     },
     {
@@ -3660,7 +3497,8 @@
       "tags": [
         "unit-a1-3a",
         "unit-a1",
-        "verb"
+        "verb",
+        "unit-a1-3b"
       ]
     },
     {
@@ -3682,7 +3520,8 @@
       "tags": [
         "noun",
         "unit-a1-3a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-5a"
       ]
     },
     {
@@ -3693,7 +3532,8 @@
       "tags": [
         "noun",
         "unit-a1-3a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-3b"
       ]
     },
     {
@@ -3704,7 +3544,10 @@
       "tags": [
         "noun",
         "unit-a1-3a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-3b",
+        "unit-a1-4c",
+        "unit-a1-5b"
       ]
     },
     {
@@ -3715,7 +3558,8 @@
       "tags": [
         "noun",
         "unit-a1-3a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-3b"
       ]
     },
     {
@@ -3726,7 +3570,8 @@
       "tags": [
         "adverb",
         "unit-a1-3a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-3b"
       ]
     },
     {
@@ -3737,7 +3582,8 @@
       "tags": [
         "adverb",
         "unit-a1-3a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-3b"
       ]
     },
     {
@@ -3748,7 +3594,8 @@
       "tags": [
         "adverb",
         "unit-a1-3a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-3b"
       ]
     },
     {
@@ -3759,7 +3606,8 @@
       "tags": [
         "adverb",
         "unit-a1-3a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-3b"
       ]
     },
     {
@@ -3770,7 +3618,8 @@
       "tags": [
         "adverb",
         "unit-a1-3a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-3b"
       ]
     },
     {
@@ -3781,7 +3630,8 @@
       "tags": [
         "adverb",
         "unit-a1-3a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-3b"
       ]
     },
     {
@@ -3792,18 +3642,8 @@
       "tags": [
         "adverb",
         "unit-a1-3a",
-        "unit-a1"
-      ]
-    },
-    {
-      "id": "cand-a1-3b-0001",
-      "turkish": "bakmak",
-      "english": "to look at",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3b",
         "unit-a1",
-        "verb"
+        "unit-a1-3b"
       ]
     },
     {
@@ -3818,119 +3658,9 @@
       ]
     },
     {
-      "id": "cand-a1-3b-0003",
-      "turkish": "banyo yapmak / du\u015f almak",
-      "english": "to have a bath / to take a shower",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3b",
-        "unit-a1",
-        "verb"
-      ]
-    },
-    {
-      "id": "cand-a1-3b-0004",
-      "turkish": "ba\u015flamak",
-      "english": "to start",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3b",
-        "unit-a1",
-        "verb"
-      ]
-    },
-    {
-      "id": "cand-a1-3b-0005",
-      "turkish": "beslenme haz\u0131rlamak",
-      "english": "to prepare nutrition",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3b",
-        "unit-a1",
-        "verb"
-      ]
-    },
-    {
-      "id": "cand-a1-3b-0006",
-      "turkish": "bilmek",
-      "english": "to know",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3b",
-        "unit-a1",
-        "verb"
-      ]
-    },
-    {
-      "id": "cand-a1-3b-0007",
-      "turkish": "bitmek",
-      "english": "to finish",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3b",
-        "unit-a1",
-        "verb"
-      ]
-    },
-    {
-      "id": "cand-a1-3b-0008",
-      "turkish": "bulu\u015fmak",
-      "english": "to meet",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3b",
-        "unit-a1",
-        "verb"
-      ]
-    },
-    {
-      "id": "cand-a1-3b-0009",
-      "turkish": "cevaplamak",
-      "english": "to answer",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3b",
-        "unit-a1",
-        "verb"
-      ]
-    },
-    {
-      "id": "cand-a1-3b-0010",
-      "turkish": "\u00e7al\u0131\u015fmak",
-      "english": "to work",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3b",
-        "unit-a1",
-        "verb"
-      ]
-    },
-    {
       "id": "cand-a1-3b-0011",
       "turkish": "dans etmek",
       "english": "to dance",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3b",
-        "unit-a1",
-        "verb"
-      ]
-    },
-    {
-      "id": "cand-a1-3b-0012",
-      "turkish": "devam etmek",
-      "english": "to continue",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3b",
-        "unit-a1",
-        "verb"
-      ]
-    },
-    {
-      "id": "cand-a1-3b-0013",
-      "turkish": "e\u011flenmek",
-      "english": "to enjoy",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
@@ -3972,42 +3702,9 @@
       ]
     },
     {
-      "id": "cand-a1-3b-0017",
-      "turkish": "girmek",
-      "english": "to enter",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3b",
-        "unit-a1",
-        "verb"
-      ]
-    },
-    {
       "id": "cand-a1-3b-0018",
       "turkish": "gitmek",
       "english": "to go",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3b",
-        "unit-a1",
-        "verb"
-      ]
-    },
-    {
-      "id": "cand-a1-3b-0019",
-      "turkish": "kahvalt\u0131 etmek / yapmak",
-      "english": "to have breakfast",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3b",
-        "unit-a1",
-        "verb"
-      ]
-    },
-    {
-      "id": "cand-a1-3b-0020",
-      "turkish": "k\u0131zmak",
-      "english": "to get angry",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
@@ -4049,50 +3746,6 @@
       ]
     },
     {
-      "id": "cand-a1-3b-0024",
-      "turkish": "nefret etmek",
-      "english": "to hate",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3b",
-        "unit-a1",
-        "verb"
-      ]
-    },
-    {
-      "id": "cand-a1-3b-0025",
-      "turkish": "\u00f6dev yapmak",
-      "english": "to do homework",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3b",
-        "unit-a1",
-        "verb"
-      ]
-    },
-    {
-      "id": "cand-a1-3b-0026",
-      "turkish": "\u00f6\u011frenmek",
-      "english": "to learn",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3b",
-        "unit-a1",
-        "verb"
-      ]
-    },
-    {
-      "id": "cand-a1-3b-0027",
-      "turkish": "\u00f6\u011fretmek",
-      "english": "to teach",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3b",
-        "unit-a1",
-        "verb"
-      ]
-    },
-    {
       "id": "cand-a1-3b-0028",
       "turkish": "\u00f6z\u00fcr dilemek",
       "english": "to apologize",
@@ -4115,160 +3768,6 @@
       ]
     },
     {
-      "id": "cand-a1-3b-0030",
-      "turkish": "sevmek",
-      "english": "to love",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3b",
-        "unit-a1",
-        "verb"
-      ]
-    },
-    {
-      "id": "cand-a1-3b-0031",
-      "turkish": "s\u0131k\u0131lmak",
-      "english": "to get bored",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3b",
-        "unit-a1",
-        "verb"
-      ]
-    },
-    {
-      "id": "cand-a1-3b-0032",
-      "turkish": "sipari\u015f etmek",
-      "english": "to order",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3b",
-        "unit-a1",
-        "verb"
-      ]
-    },
-    {
-      "id": "cand-a1-3b-0033",
-      "turkish": "sohbet etmek",
-      "english": "to chat",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3b",
-        "unit-a1",
-        "verb"
-      ]
-    },
-    {
-      "id": "cand-a1-3b-0034",
-      "turkish": "sormak",
-      "english": "to ask",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3b",
-        "unit-a1",
-        "verb"
-      ]
-    },
-    {
-      "id": "cand-a1-3b-0035",
-      "turkish": "s\u00fcper kahraman",
-      "english": "superhero",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3b",
-        "unit-a1",
-        "noun"
-      ]
-    },
-    {
-      "id": "cand-a1-3b-0036",
-      "turkish": "tatil",
-      "english": "vacation",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3b",
-        "unit-a1",
-        "noun"
-      ]
-    },
-    {
-      "id": "cand-a1-3b-0037",
-      "turkish": "telefon etmek",
-      "english": "to make a call",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3b",
-        "unit-a1",
-        "verb"
-      ]
-    },
-    {
-      "id": "cand-a1-3b-0038",
-      "turkish": "temizlik yapmak",
-      "english": "to clean",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3b",
-        "unit-a1",
-        "verb"
-      ]
-    },
-    {
-      "id": "cand-a1-3b-0039",
-      "turkish": "uyanmak",
-      "english": "to wake up",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3b",
-        "unit-a1",
-        "verb"
-      ]
-    },
-    {
-      "id": "cand-a1-3b-0040",
-      "turkish": "\u00fct\u00fc yapmak",
-      "english": "to iron",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3b",
-        "unit-a1",
-        "verb"
-      ]
-    },
-    {
-      "id": "cand-a1-3b-0041",
-      "turkish": "vapur",
-      "english": "ferry",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3b",
-        "unit-a1",
-        "noun"
-      ]
-    },
-    {
-      "id": "cand-a1-3b-0042",
-      "turkish": "yard\u0131m etmek",
-      "english": "to help",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3b",
-        "unit-a1",
-        "verb"
-      ]
-    },
-    {
-      "id": "cand-a1-3b-0043",
-      "turkish": "ya\u015famak",
-      "english": "to live",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3b",
-        "unit-a1",
-        "verb"
-      ]
-    },
-    {
       "id": "cand-a1-3b-0044",
       "turkish": "yemek pi\u015firmek",
       "english": "to cook",
@@ -4276,18 +3775,8 @@
       "tags": [
         "unit-a1-3b",
         "unit-a1",
-        "verb"
-      ]
-    },
-    {
-      "id": "cand-a1-3b-0045",
-      "turkish": "yemek yemek",
-      "english": "to eat",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3b",
-        "unit-a1",
-        "verb"
+        "verb",
+        "unit-a1-4c"
       ]
     },
     {
@@ -4309,7 +3798,8 @@
       "tags": [
         "unit-a1-3b",
         "unit-a1",
-        "noun"
+        "noun",
+        "unit-a1-5b"
       ]
     },
     {
@@ -4342,7 +3832,9 @@
       "tags": [
         "unit-a1-3b",
         "unit-a1",
-        "noun"
+        "noun",
+        "unit-a2",
+        "unit-a2-1b"
       ]
     },
     {
@@ -4452,7 +3944,8 @@
       "tags": [
         "unit-a1-3b",
         "unit-a1",
-        "noun"
+        "noun",
+        "unit-a1-6a"
       ]
     },
     {
@@ -4464,83 +3957,6 @@
         "unit-a1-3b",
         "unit-a1",
         "noun"
-      ]
-    },
-    {
-      "id": "cand-a1-3b-0062",
-      "turkish": "asla",
-      "english": "never / never ever",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3b",
-        "unit-a1",
-        "adverb"
-      ]
-    },
-    {
-      "id": "cand-a1-3b-0063",
-      "turkish": "bazen",
-      "english": "sometimes",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3b",
-        "unit-a1",
-        "adverb"
-      ]
-    },
-    {
-      "id": "cand-a1-3b-0064",
-      "turkish": "genellikle",
-      "english": "usually",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3b",
-        "unit-a1",
-        "adverb"
-      ]
-    },
-    {
-      "id": "cand-a1-3b-0065",
-      "turkish": "her zaman",
-      "english": "always",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3b",
-        "unit-a1",
-        "adverb"
-      ]
-    },
-    {
-      "id": "cand-a1-3b-0066",
-      "turkish": "hi\u00e7bir zaman",
-      "english": "never / at no time",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3b",
-        "unit-a1",
-        "adverb"
-      ]
-    },
-    {
-      "id": "cand-a1-3b-0067",
-      "turkish": "nadiren",
-      "english": "rarely",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3b",
-        "unit-a1",
-        "adverb"
-      ]
-    },
-    {
-      "id": "cand-a1-3b-0068",
-      "turkish": "s\u0131k s\u0131k",
-      "english": "often",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3b",
-        "unit-a1",
-        "adverb"
       ]
     },
     {
@@ -4562,7 +3978,8 @@
       "tags": [
         "unit-a1-3b",
         "unit-a1",
-        "verb"
+        "verb",
+        "unit-a1-5b"
       ]
     },
     {
@@ -4617,7 +4034,8 @@
       "tags": [
         "unit-a1-3b",
         "unit-a1",
-        "verb"
+        "verb",
+        "unit-a1-3a"
       ]
     },
     {
@@ -4639,7 +4057,8 @@
       "tags": [
         "unit-a1-3b",
         "unit-a1",
-        "verb"
+        "verb",
+        "unit-a1-3a"
       ]
     },
     {
@@ -4661,7 +4080,8 @@
       "tags": [
         "unit-a1-3b",
         "unit-a1",
-        "verb"
+        "verb",
+        "unit-a1-3a"
       ]
     },
     {
@@ -4694,7 +4114,8 @@
       "tags": [
         "unit-a1-3b",
         "unit-a1",
-        "verb"
+        "verb",
+        "unit-a1-4c"
       ]
     },
     {
@@ -4775,31 +4196,9 @@
       ]
     },
     {
-      "id": "cand-a1-3c-0002",
-      "turkish": "ayran",
-      "english": "ayran",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3c",
-        "unit-a1",
-        "noun"
-      ]
-    },
-    {
       "id": "cand-a1-3c-0003",
       "turkish": "baklava",
       "english": "baklava",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3c",
-        "unit-a1",
-        "noun"
-      ]
-    },
-    {
-      "id": "cand-a1-3c-0004",
-      "turkish": "bal\u0131k",
-      "english": "fish",
       "priority": 3,
       "tags": [
         "unit-a1-3c",
@@ -4815,7 +4214,9 @@
       "tags": [
         "unit-a1-3c",
         "unit-a1",
-        "noun"
+        "noun",
+        "unit-a1-4a",
+        "unit-a1-5b"
       ]
     },
     {
@@ -4870,7 +4271,8 @@
       "tags": [
         "unit-a1-3c",
         "unit-a1",
-        "noun"
+        "noun",
+        "unit-a1-4a"
       ]
     },
     {
@@ -4881,7 +4283,9 @@
       "tags": [
         "unit-a1-3c",
         "unit-a1",
-        "noun"
+        "noun",
+        "unit-a2",
+        "unit-a2-1b"
       ]
     },
     {
@@ -4925,7 +4329,9 @@
       "tags": [
         "unit-a1-3c",
         "unit-a1",
-        "noun"
+        "noun",
+        "unit-a2",
+        "unit-a2-1b"
       ]
     },
     {
@@ -4958,7 +4364,9 @@
       "tags": [
         "unit-a1-3c",
         "unit-a1",
-        "noun"
+        "noun",
+        "unit-a2",
+        "unit-a2-1b"
       ]
     },
     {
@@ -4991,7 +4399,9 @@
       "tags": [
         "unit-a1-3c",
         "unit-a1",
-        "noun"
+        "noun",
+        "unit-a2",
+        "unit-a2-1b"
       ]
     },
     {
@@ -5035,7 +4445,9 @@
       "tags": [
         "unit-a1-3c",
         "unit-a1",
-        "noun"
+        "noun",
+        "unit-a2",
+        "unit-a2-1b"
       ]
     },
     {
@@ -5072,17 +4484,6 @@
       ]
     },
     {
-      "id": "cand-a1-3c-0029",
-      "turkish": "meyve suyu",
-      "english": "juice",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3c",
-        "unit-a1",
-        "noun"
-      ]
-    },
-    {
       "id": "cand-a1-3c-0030",
       "turkish": "palamut",
       "english": "bonito",
@@ -5101,7 +4502,9 @@
       "tags": [
         "unit-a1-3c",
         "unit-a1",
-        "noun"
+        "noun",
+        "unit-a2",
+        "unit-a2-1b"
       ]
     },
     {
@@ -5112,7 +4515,9 @@
       "tags": [
         "unit-a1-3c",
         "unit-a1",
-        "noun"
+        "noun",
+        "unit-a2",
+        "unit-a2-1b"
       ]
     },
     {
@@ -5171,17 +4576,6 @@
       ]
     },
     {
-      "id": "cand-a1-3c-0038",
-      "turkish": "su",
-      "english": "water",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3c",
-        "unit-a1",
-        "noun"
-      ]
-    },
-    {
       "id": "cand-a1-3c-0039",
       "turkish": "s\u00fctla\u00e7",
       "english": "rice pudding",
@@ -5222,7 +4616,9 @@
       "tags": [
         "unit-a1-3c",
         "unit-a1",
-        "noun"
+        "noun",
+        "unit-a2",
+        "unit-a2-1b"
       ]
     },
     {
@@ -5244,24 +4640,15 @@
       "tags": [
         "unit-a1-3c",
         "unit-a1",
-        "noun"
+        "noun",
+        "unit-a2",
+        "unit-a2-1b"
       ]
     },
     {
       "id": "cand-a1-3c-0045",
       "turkish": "\u00f6\u011fle yeme\u011fi",
       "english": "lunch",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3c",
-        "unit-a1",
-        "noun"
-      ]
-    },
-    {
-      "id": "cand-a1-3c-0046",
-      "turkish": "\u0131hlamur",
-      "english": "linden tea",
       "priority": 3,
       "tags": [
         "unit-a1-3c",
@@ -5277,7 +4664,9 @@
       "tags": [
         "unit-a1-3c",
         "unit-a1",
-        "adjective"
+        "adjective",
+        "unit-a2",
+        "unit-a2-1b"
       ]
     },
     {
@@ -5336,31 +4725,9 @@
       ]
     },
     {
-      "id": "cand-a1-4a-0006",
-      "turkish": "baba",
-      "english": "father",
-      "priority": 3,
-      "tags": [
-        "unit-a1-4a",
-        "unit-a1",
-        "noun"
-      ]
-    },
-    {
       "id": "cand-a1-4a-0007",
       "turkish": "babaanne",
       "english": "paternal grandmother",
-      "priority": 3,
-      "tags": [
-        "unit-a1-4a",
-        "unit-a1",
-        "noun"
-      ]
-    },
-    {
-      "id": "cand-a1-4a-0008",
-      "turkish": "bilet",
-      "english": "ticket",
       "priority": 3,
       "tags": [
         "unit-a1-4a",
@@ -5438,28 +4805,6 @@
       "id": "cand-a1-4a-0015",
       "turkish": "eni\u015fte",
       "english": "uncle in law",
-      "priority": 3,
-      "tags": [
-        "unit-a1-4a",
-        "unit-a1",
-        "noun"
-      ]
-    },
-    {
-      "id": "cand-a1-4a-0016",
-      "turkish": "e\u015f",
-      "english": "spouse",
-      "priority": 3,
-      "tags": [
-        "unit-a1-4a",
-        "unit-a1",
-        "noun"
-      ]
-    },
-    {
-      "id": "cand-a1-4a-0017",
-      "turkish": "gazete",
-      "english": "newspaper",
       "priority": 3,
       "tags": [
         "unit-a1-4a",
@@ -5563,7 +4908,8 @@
       "tags": [
         "unit-a1-4a",
         "unit-a1",
-        "noun"
+        "noun",
+        "unit-a1-5a"
       ]
     },
     {
@@ -5673,7 +5019,8 @@
       "tags": [
         "unit-a1-4a",
         "unit-a1",
-        "noun"
+        "noun",
+        "unit-a1-5b"
       ]
     },
     {
@@ -5752,7 +5099,8 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -5764,7 +5112,8 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -5776,7 +5125,8 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -5821,7 +5171,8 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -5833,7 +5184,8 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -5845,7 +5197,8 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -5868,7 +5221,8 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -5880,7 +5234,8 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -5892,7 +5247,8 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -5915,7 +5271,8 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -5927,7 +5284,8 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -5939,7 +5297,8 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -5962,7 +5321,8 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -5985,7 +5345,8 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -6008,7 +5369,8 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -6020,7 +5382,8 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -6032,7 +5395,8 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -6044,7 +5408,8 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -6067,7 +5432,8 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -6079,7 +5445,8 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -6113,7 +5480,8 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -6148,7 +5516,8 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -6160,7 +5529,8 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -6183,7 +5553,8 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -6206,7 +5577,8 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -6229,7 +5601,8 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -6241,7 +5614,8 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -6253,7 +5627,8 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -6276,7 +5651,8 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -6299,7 +5675,8 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -7969,7 +7346,9 @@
       "tags": [
         "unit-a1-4b",
         "unit-a1",
-        "noun"
+        "noun",
+        "unit-a1-6a",
+        "unit-a1-6b"
       ]
     },
     {
@@ -7980,7 +7359,8 @@
       "tags": [
         "unit-a1-4b",
         "unit-a1",
-        "noun"
+        "noun",
+        "unit-a1-5a"
       ]
     },
     {
@@ -8083,17 +7463,6 @@
       ]
     },
     {
-      "id": "cand-a1-4c-0002",
-      "turkish": "anlamak",
-      "english": "to understand",
-      "priority": 3,
-      "tags": [
-        "unit-a1-4c",
-        "unit-a1",
-        "verb"
-      ]
-    },
-    {
       "id": "cand-a1-4c-0003",
       "turkish": "aramak",
       "english": "to call/search",
@@ -8108,28 +7477,6 @@
       "id": "cand-a1-4c-0004",
       "turkish": "be\u011fenmek",
       "english": "like / find good / approve of",
-      "priority": 3,
-      "tags": [
-        "unit-a1-4c",
-        "unit-a1",
-        "verb"
-      ]
-    },
-    {
-      "id": "cand-a1-4c-0005",
-      "turkish": "beklemek",
-      "english": "to wait",
-      "priority": 3,
-      "tags": [
-        "unit-a1-4c",
-        "unit-a1",
-        "verb"
-      ]
-    },
-    {
-      "id": "cand-a1-4c-0006",
-      "turkish": "bilmek",
-      "english": "to know",
       "priority": 3,
       "tags": [
         "unit-a1-4c",
@@ -8211,29 +7558,8 @@
       "tags": [
         "unit-a1-4c",
         "unit-a1",
-        "verb"
-      ]
-    },
-    {
-      "id": "cand-a1-4c-0014",
-      "turkish": "d\u00fc\u015f\u00fcnmek",
-      "english": "to think",
-      "priority": 3,
-      "tags": [
-        "unit-a1-4c",
-        "unit-a1",
-        "verb"
-      ]
-    },
-    {
-      "id": "cand-a1-4c-0015",
-      "turkish": "e\u011flenmek",
-      "english": "to have fun",
-      "priority": 3,
-      "tags": [
-        "unit-a1-4c",
-        "unit-a1",
-        "verb"
+        "verb",
+        "unit-a1-5b"
       ]
     },
     {
@@ -8251,17 +7577,6 @@
       "id": "cand-a1-4c-0017",
       "turkish": "fark etmek",
       "english": "to notice",
-      "priority": 3,
-      "tags": [
-        "unit-a1-4c",
-        "unit-a1",
-        "verb"
-      ]
-    },
-    {
-      "id": "cand-a1-4c-0018",
-      "turkish": "ge\u00e7mek",
-      "english": "to pass",
       "priority": 3,
       "tags": [
         "unit-a1-4c",
@@ -8310,7 +7625,8 @@
       "tags": [
         "unit-a1-4c",
         "unit-a1",
-        "verb"
+        "verb",
+        "unit-a1-5b"
       ]
     },
     {
@@ -8490,42 +7806,9 @@
       ]
     },
     {
-      "id": "cand-a1-4c-0039",
-      "turkish": "\u00f6\u011frenmek",
-      "english": "to learn",
-      "priority": 3,
-      "tags": [
-        "unit-a1-4c",
-        "unit-a1",
-        "verb"
-      ]
-    },
-    {
       "id": "cand-a1-4c-0040",
       "turkish": "\u00f6pmek",
       "english": "to kiss",
-      "priority": 3,
-      "tags": [
-        "unit-a1-4c",
-        "unit-a1",
-        "verb"
-      ]
-    },
-    {
-      "id": "cand-a1-4c-0041",
-      "turkish": "\u00f6zlemek",
-      "english": "to miss",
-      "priority": 3,
-      "tags": [
-        "unit-a1-4c",
-        "unit-a1",
-        "verb"
-      ]
-    },
-    {
-      "id": "cand-a1-4c-0042",
-      "turkish": "pi\u015firmek",
-      "english": "to cook",
       "priority": 3,
       "tags": [
         "unit-a1-4c",
@@ -8541,18 +7824,8 @@
       "tags": [
         "unit-a1-4c",
         "unit-a1",
-        "verb"
-      ]
-    },
-    {
-      "id": "cand-a1-4c-0044",
-      "turkish": "sevmek",
-      "english": "to love",
-      "priority": 3,
-      "tags": [
-        "unit-a1-4c",
-        "unit-a1",
-        "verb"
+        "verb",
+        "unit-a1-5b"
       ]
     },
     {
@@ -8570,17 +7843,6 @@
       "id": "cand-a1-4c-0046",
       "turkish": "u\u011furlamak",
       "english": "to bid farewell",
-      "priority": 3,
-      "tags": [
-        "unit-a1-4c",
-        "unit-a1",
-        "verb"
-      ]
-    },
-    {
-      "id": "cand-a1-4c-0047",
-      "turkish": "unutmak",
-      "english": "to forget",
       "priority": 3,
       "tags": [
         "unit-a1-4c",
@@ -8651,7 +7913,9 @@
       "tags": [
         "unit-a1-4c",
         "unit-a1",
-        "noun"
+        "noun",
+        "unit-a2",
+        "unit-a2-1b"
       ]
     },
     {
@@ -8732,17 +7996,6 @@
       ]
     },
     {
-      "id": "cand-a1-4c-0061",
-      "turkish": "tatil",
-      "english": "holiday",
-      "priority": 3,
-      "tags": [
-        "unit-a1-4c",
-        "unit-a1",
-        "noun"
-      ]
-    },
-    {
       "id": "cand-a1-4c-0062",
       "turkish": "y\u0131l d\u00f6n\u00fcm\u00fc",
       "english": "anniversary",
@@ -8787,17 +8040,6 @@
       ]
     },
     {
-      "id": "cand-a1-5a-0002",
-      "turkish": "dakika",
-      "english": "minute",
-      "priority": 3,
-      "tags": [
-        "unit-a1-5a",
-        "unit-a1",
-        "noun"
-      ]
-    },
-    {
       "id": "cand-a1-5a-0003",
       "turkish": "g\u00fcn",
       "english": "day",
@@ -8812,17 +8054,6 @@
       "id": "cand-a1-5a-0004",
       "turkish": "hafta",
       "english": "week",
-      "priority": 3,
-      "tags": [
-        "unit-a1-5a",
-        "unit-a1",
-        "noun"
-      ]
-    },
-    {
-      "id": "cand-a1-5a-0005",
-      "turkish": "hafta i\u00e7i",
-      "english": "weekdays",
       "priority": 3,
       "tags": [
         "unit-a1-5a",
@@ -8864,42 +8095,9 @@
       ]
     },
     {
-      "id": "cand-a1-5a-0009",
-      "turkish": "mevsim",
-      "english": "season",
-      "priority": 3,
-      "tags": [
-        "unit-a1-5a",
-        "unit-a1",
-        "noun"
-      ]
-    },
-    {
-      "id": "cand-a1-5a-0010",
-      "turkish": "m\u00fchendis",
-      "english": "engineer",
-      "priority": 3,
-      "tags": [
-        "unit-a1-5a",
-        "unit-a1",
-        "noun"
-      ]
-    },
-    {
       "id": "cand-a1-5a-0011",
       "turkish": "saniye",
       "english": "second",
-      "priority": 3,
-      "tags": [
-        "unit-a1-5a",
-        "unit-a1",
-        "noun"
-      ]
-    },
-    {
-      "id": "cand-a1-5a-0012",
-      "turkish": "saat",
-      "english": "hour",
       "priority": 3,
       "tags": [
         "unit-a1-5a",
@@ -8933,17 +8131,6 @@
       "id": "cand-a1-5a-0015",
       "turkish": "y\u0131l",
       "english": "year",
-      "priority": 3,
-      "tags": [
-        "unit-a1-5a",
-        "unit-a1",
-        "noun"
-      ]
-    },
-    {
-      "id": "cand-a1-5a-0016",
-      "turkish": "zaman",
-      "english": "time",
       "priority": 3,
       "tags": [
         "unit-a1-5a",
@@ -9183,31 +8370,9 @@
       ]
     },
     {
-      "id": "cand-a1-5b-0001",
-      "turkish": "dinlemek",
-      "english": "to listen",
-      "priority": 3,
-      "tags": [
-        "unit-a1-5b",
-        "unit-a1",
-        "verb"
-      ]
-    },
-    {
       "id": "cand-a1-5b-0002",
       "turkish": "ge\u00e7irmek",
       "english": "to spend (time)",
-      "priority": 3,
-      "tags": [
-        "unit-a1-5b",
-        "unit-a1",
-        "verb"
-      ]
-    },
-    {
-      "id": "cand-a1-5b-0003",
-      "turkish": "haz\u0131rlamak",
-      "english": "to prepare",
       "priority": 3,
       "tags": [
         "unit-a1-5b",
@@ -9227,42 +8392,9 @@
       ]
     },
     {
-      "id": "cand-a1-5b-0005",
-      "turkish": "kat\u0131lmak",
-      "english": "to join",
-      "priority": 3,
-      "tags": [
-        "unit-a1-5b",
-        "unit-a1",
-        "verb"
-      ]
-    },
-    {
-      "id": "cand-a1-5b-0006",
-      "turkish": "se\u00e7mek",
-      "english": "to choose",
-      "priority": 3,
-      "tags": [
-        "unit-a1-5b",
-        "unit-a1",
-        "verb"
-      ]
-    },
-    {
       "id": "cand-a1-5b-0007",
       "turkish": "s\u00f6rf yapmak",
       "english": "to surf",
-      "priority": 3,
-      "tags": [
-        "unit-a1-5b",
-        "unit-a1",
-        "verb"
-      ]
-    },
-    {
-      "id": "cand-a1-5b-0008",
-      "turkish": "unutmak",
-      "english": "to forget",
       "priority": 3,
       "tags": [
         "unit-a1-5b",
@@ -9290,17 +8422,6 @@
         "unit-a1-5b",
         "unit-a1",
         "verb"
-      ]
-    },
-    {
-      "id": "cand-a1-5b-0011",
-      "turkish": "bilet",
-      "english": "ticket",
-      "priority": 3,
-      "tags": [
-        "unit-a1-5b",
-        "unit-a1",
-        "noun"
       ]
     },
     {
@@ -9337,31 +8458,9 @@
       ]
     },
     {
-      "id": "cand-a1-5b-0015",
-      "turkish": "gezi",
-      "english": "trip",
-      "priority": 3,
-      "tags": [
-        "unit-a1-5b",
-        "unit-a1",
-        "noun"
-      ]
-    },
-    {
       "id": "cand-a1-5b-0016",
       "turkish": "g\u00fcnl\u00fck",
       "english": "diary",
-      "priority": 3,
-      "tags": [
-        "unit-a1-5b",
-        "unit-a1",
-        "noun"
-      ]
-    },
-    {
-      "id": "cand-a1-5b-0017",
-      "turkish": "havaalan\u0131",
-      "english": "airport",
       "priority": 3,
       "tags": [
         "unit-a1-5b",
@@ -9388,7 +8487,8 @@
       "tags": [
         "unit-a1-5b",
         "unit-a1",
-        "noun"
+        "noun",
+        "unit-a1-6a"
       ]
     },
     {
@@ -9406,17 +8506,6 @@
       "id": "cand-a1-5b-0021",
       "turkish": "kimlik",
       "english": "identity card / ID",
-      "priority": 3,
-      "tags": [
-        "unit-a1-5b",
-        "unit-a1",
-        "noun"
-      ]
-    },
-    {
-      "id": "cand-a1-5b-0022",
-      "turkish": "otel",
-      "english": "hotel",
       "priority": 3,
       "tags": [
         "unit-a1-5b",
@@ -9458,17 +8547,6 @@
       ]
     },
     {
-      "id": "cand-a1-5b-0026",
-      "turkish": "tatil",
-      "english": "holiday",
-      "priority": 3,
-      "tags": [
-        "unit-a1-5b",
-        "unit-a1",
-        "noun"
-      ]
-    },
-    {
       "id": "cand-a1-5b-0027",
       "turkish": "tren",
       "english": "train",
@@ -9483,28 +8561,6 @@
       "id": "cand-a1-5b-0028",
       "turkish": "tur",
       "english": "tour",
-      "priority": 3,
-      "tags": [
-        "unit-a1-5b",
-        "unit-a1",
-        "noun"
-      ]
-    },
-    {
-      "id": "cand-a1-5b-0029",
-      "turkish": "u\u00e7ak",
-      "english": "plane",
-      "priority": 3,
-      "tags": [
-        "unit-a1-5b",
-        "unit-a1",
-        "noun"
-      ]
-    },
-    {
-      "id": "cand-a1-5b-0030",
-      "turkish": "valiz/bavul",
-      "english": "suitcase / luggage",
       "priority": 3,
       "tags": [
         "unit-a1-5b",
@@ -9554,17 +8610,6 @@
         "unit-a1-5b",
         "unit-a1",
         "adverb"
-      ]
-    },
-    {
-      "id": "cand-a1-5c-0001",
-      "turkish": "beklemek",
-      "english": "to wait",
-      "priority": 3,
-      "tags": [
-        "verb",
-        "unit-a1-5c",
-        "unit-a1"
       ]
     },
     {
@@ -9909,31 +8954,9 @@
       ]
     },
     {
-      "id": "cand-a1-6a-0007",
-      "turkish": "k\u00f6pr\u00fc",
-      "english": "bridge",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a1-6a",
-        "unit-a1"
-      ]
-    },
-    {
       "id": "cand-a1-6a-0008",
       "turkish": "\u00e7ar\u015f\u0131",
       "english": "bazaar",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a1-6a",
-        "unit-a1"
-      ]
-    },
-    {
-      "id": "cand-a1-6a-0009",
-      "turkish": "kale",
-      "english": "castle",
       "priority": 3,
       "tags": [
         "noun",
@@ -9960,7 +8983,8 @@
       "tags": [
         "noun",
         "unit-a1-6a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-6b"
       ]
     },
     {
@@ -9971,7 +8995,8 @@
       "tags": [
         "noun",
         "unit-a1-6a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-6b"
       ]
     },
     {
@@ -9982,18 +9007,8 @@
       "tags": [
         "noun",
         "unit-a1-6a",
-        "unit-a1"
-      ]
-    },
-    {
-      "id": "cand-a1-6a-0014",
-      "turkish": "bina / apartman",
-      "english": "building",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a1-6a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-6b"
       ]
     },
     {
@@ -10004,7 +9019,8 @@
       "tags": [
         "noun",
         "unit-a1-6a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-6b"
       ]
     },
     {
@@ -10015,18 +9031,8 @@
       "tags": [
         "noun",
         "unit-a1-6a",
-        "unit-a1"
-      ]
-    },
-    {
-      "id": "cand-a1-6a-0017",
-      "turkish": "kom\u015fu",
-      "english": "neighbour",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a1-6a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-6b"
       ]
     },
     {
@@ -10037,7 +9043,8 @@
       "tags": [
         "noun",
         "unit-a1-6a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-6b"
       ]
     },
     {
@@ -10048,7 +9055,8 @@
       "tags": [
         "noun",
         "unit-a1-6a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-6b"
       ]
     },
     {
@@ -10059,7 +9067,8 @@
       "tags": [
         "noun",
         "unit-a1-6a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-6b"
       ]
     },
     {
@@ -10070,7 +9079,8 @@
       "tags": [
         "noun",
         "unit-a1-6a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-6b"
       ]
     },
     {
@@ -10081,7 +9091,8 @@
       "tags": [
         "adverb",
         "unit-a1-6a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-6b"
       ]
     },
     {
@@ -10103,7 +9114,8 @@
       "tags": [
         "adverb",
         "unit-a1-6a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-6b"
       ]
     },
     {
@@ -10114,7 +9126,8 @@
       "tags": [
         "adverb",
         "unit-a1-6a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-6b"
       ]
     },
     {
@@ -10125,7 +9138,8 @@
       "tags": [
         "adverb",
         "unit-a1-6a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-6b"
       ]
     },
     {
@@ -10136,7 +9150,8 @@
       "tags": [
         "verb",
         "unit-a1-6a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-6c"
       ]
     },
     {
@@ -10158,7 +9173,8 @@
       "tags": [
         "adjective",
         "unit-a1-6a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-6c"
       ]
     },
     {
@@ -10169,7 +9185,8 @@
       "tags": [
         "adjective",
         "unit-a1-6a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-6c"
       ]
     },
     {
@@ -10180,7 +9197,8 @@
       "tags": [
         "noun",
         "unit-a1-6a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-6c"
       ]
     },
     {
@@ -10191,7 +9209,8 @@
       "tags": [
         "noun",
         "unit-a1-6a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-6c"
       ]
     },
     {
@@ -10202,7 +9221,8 @@
       "tags": [
         "noun",
         "unit-a1-6a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-6c"
       ]
     },
     {
@@ -10224,18 +9244,8 @@
       "tags": [
         "adjective",
         "unit-a1-6a",
-        "unit-a1"
-      ]
-    },
-    {
-      "id": "cand-a1-6a-0036",
-      "turkish": "yak\u0131n",
-      "english": "close",
-      "priority": 3,
-      "tags": [
-        "adjective",
-        "unit-a1-6a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-6c"
       ]
     },
     {
@@ -10246,18 +9256,8 @@
       "tags": [
         "adjective",
         "unit-a1-6a",
-        "unit-a1"
-      ]
-    },
-    {
-      "id": "cand-a1-6a-0038",
-      "turkish": "sakin",
-      "english": "calm",
-      "priority": 3,
-      "tags": [
-        "adjective",
-        "unit-a1-6a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-6c"
       ]
     },
     {
@@ -10268,7 +9268,8 @@
       "tags": [
         "adjective",
         "unit-a1-6a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-6c"
       ]
     },
     {
@@ -10279,7 +9280,8 @@
       "tags": [
         "adjective",
         "unit-a1-6a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-6c"
       ]
     },
     {
@@ -10290,7 +9292,8 @@
       "tags": [
         "adjective",
         "unit-a1-6a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-6c"
       ]
     },
     {
@@ -10301,7 +9304,8 @@
       "tags": [
         "adjective",
         "unit-a1-6a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-6c"
       ]
     },
     {
@@ -10312,7 +9316,8 @@
       "tags": [
         "adjective",
         "unit-a1-6a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-6c"
       ]
     },
     {
@@ -10323,7 +9328,8 @@
       "tags": [
         "adjective",
         "unit-a1-6a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-6c"
       ]
     },
     {
@@ -10334,24 +9340,15 @@
       "tags": [
         "noun",
         "unit-a1-6b",
-        "unit-a1"
+        "unit-a1",
+        "unit-a2",
+        "unit-a2-1a"
       ]
     },
     {
       "id": "cand-a1-6b-0002",
       "turkish": "antik kent",
       "english": "ancient city",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a1-6b",
-        "unit-a1"
-      ]
-    },
-    {
-      "id": "cand-a1-6b-0003",
-      "turkish": "apartman",
-      "english": "apartment block",
       "priority": 3,
       "tags": [
         "noun",
@@ -10382,61 +9379,6 @@
       ]
     },
     {
-      "id": "cand-a1-6b-0006",
-      "turkish": "bina",
-      "english": "building / apartment block",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a1-6b",
-        "unit-a1"
-      ]
-    },
-    {
-      "id": "cand-a1-6b-0007",
-      "turkish": "cadde",
-      "english": "avenue / broad street",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a1-6b",
-        "unit-a1"
-      ]
-    },
-    {
-      "id": "cand-a1-6b-0008",
-      "turkish": "d\u00fckkan",
-      "english": "small shop / store",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a1-6b",
-        "unit-a1"
-      ]
-    },
-    {
-      "id": "cand-a1-6b-0009",
-      "turkish": "daire",
-      "english": "apartment / flat",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a1-6b",
-        "unit-a1"
-      ]
-    },
-    {
-      "id": "cand-a1-6b-0010",
-      "turkish": "esnaf",
-      "english": "shopkeeper / tradesperson",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a1-6b",
-        "unit-a1"
-      ]
-    },
-    {
       "id": "cand-a1-6b-0011",
       "turkish": "i\u00e7",
       "english": "inside / interior",
@@ -10459,42 +9401,9 @@
       ]
     },
     {
-      "id": "cand-a1-6b-0013",
-      "turkish": "k\u00f6\u015fe",
-      "english": "corner",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a1-6b",
-        "unit-a1"
-      ]
-    },
-    {
       "id": "cand-a1-6b-0014",
       "turkish": "kitabevi",
       "english": "bookstore",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a1-6b",
-        "unit-a1"
-      ]
-    },
-    {
-      "id": "cand-a1-6b-0015",
-      "turkish": "kom\u015fu",
-      "english": "neighbor",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a1-6b",
-        "unit-a1"
-      ]
-    },
-    {
-      "id": "cand-a1-6b-0016",
-      "turkish": "mahalle",
-      "english": "neighborhood",
       "priority": 3,
       "tags": [
         "noun",
@@ -10536,17 +9445,6 @@
       ]
     },
     {
-      "id": "cand-a1-6b-0020",
-      "turkish": "otob\u00fcs dura\u011f\u0131",
-      "english": "bus stop",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a1-6b",
-        "unit-a1"
-      ]
-    },
-    {
       "id": "cand-a1-6b-0021",
       "turkish": "pasaj",
       "english": "passage / arcade",
@@ -10580,45 +9478,12 @@
       ]
     },
     {
-      "id": "cand-a1-6b-0024",
-      "turkish": "sokak",
-      "english": "street",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a1-6b",
-        "unit-a1"
-      ]
-    },
-    {
-      "id": "cand-a1-6b-0025",
-      "turkish": "sokak hayvanlar\u0131",
-      "english": "street animals",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a1-6b",
-        "unit-a1"
-      ]
-    },
-    {
       "id": "cand-a1-6b-0026",
       "turkish": "usta",
       "english": "master craftsman",
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-6b",
-        "unit-a1"
-      ]
-    },
-    {
-      "id": "cand-a1-6b-0028",
-      "turkish": "alt\u0131nda",
-      "english": "under",
-      "priority": 3,
-      "tags": [
-        "adverb",
         "unit-a1-6b",
         "unit-a1"
       ]
@@ -10646,75 +9511,9 @@
       ]
     },
     {
-      "id": "cand-a1-6b-0031",
-      "turkish": "\u00f6n\u00fcnde",
-      "english": "in front of",
-      "priority": 3,
-      "tags": [
-        "adverb",
-        "unit-a1-6b",
-        "unit-a1"
-      ]
-    },
-    {
-      "id": "cand-a1-6b-0032",
-      "turkish": "\u00fcst\u00fcnde",
-      "english": "on top of / above",
-      "priority": 3,
-      "tags": [
-        "adverb",
-        "unit-a1-6b",
-        "unit-a1"
-      ]
-    },
-    {
-      "id": "cand-a1-6b-0033",
-      "turkish": "yan\u0131nda",
-      "english": "next to / beside",
-      "priority": 3,
-      "tags": [
-        "adverb",
-        "unit-a1-6b",
-        "unit-a1"
-      ]
-    },
-    {
-      "id": "cand-a1-6c-0001",
-      "turkish": "asans\u00f6r",
-      "english": "elevator",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a1-6c",
-        "unit-a1"
-      ]
-    },
-    {
       "id": "cand-a1-6c-0002",
       "turkish": "civar",
       "english": "vicinity / surrounding area",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a1-6c",
-        "unit-a1"
-      ]
-    },
-    {
-      "id": "cand-a1-6c-0003",
-      "turkish": "kiralamak",
-      "english": "to rent",
-      "priority": 3,
-      "tags": [
-        "verb",
-        "unit-a1-6c",
-        "unit-a1"
-      ]
-    },
-    {
-      "id": "cand-a1-6c-0004",
-      "turkish": "konum",
-      "english": "location",
       "priority": 3,
       "tags": [
         "noun",
@@ -10734,42 +9533,9 @@
       ]
     },
     {
-      "id": "cand-a1-6c-0006",
-      "turkish": "kiral\u0131k",
-      "english": "for rent",
-      "priority": 3,
-      "tags": [
-        "adjective",
-        "unit-a1-6c",
-        "unit-a1"
-      ]
-    },
-    {
       "id": "cand-a1-6c-0007",
       "turkish": "nokta",
       "english": "point / spot",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a1-6c",
-        "unit-a1"
-      ]
-    },
-    {
-      "id": "cand-a1-6c-0008",
-      "turkish": "sat\u0131l\u0131k",
-      "english": "for sale",
-      "priority": 3,
-      "tags": [
-        "adjective",
-        "unit-a1-6c",
-        "unit-a1"
-      ]
-    },
-    {
-      "id": "cand-a1-6c-0009",
-      "turkish": "\u00fccret",
-      "english": "fee / charge",
       "priority": 3,
       "tags": [
         "noun",
@@ -10822,108 +9588,9 @@
       ]
     },
     {
-      "id": "cand-a1-6c-0014",
-      "turkish": "ferah",
-      "english": "spacious / airy",
-      "priority": 3,
-      "tags": [
-        "adjective",
-        "unit-a1-6c",
-        "unit-a1"
-      ]
-    },
-    {
-      "id": "cand-a1-6c-0015",
-      "turkish": "kolay",
-      "english": "easy",
-      "priority": 3,
-      "tags": [
-        "adjective",
-        "unit-a1-6c",
-        "unit-a1"
-      ]
-    },
-    {
-      "id": "cand-a1-6c-0016",
-      "turkish": "konforlu",
-      "english": "comfortable",
-      "priority": 3,
-      "tags": [
-        "adjective",
-        "unit-a1-6c",
-        "unit-a1"
-      ]
-    },
-    {
-      "id": "cand-a1-6c-0017",
-      "turkish": "merkezi",
-      "english": "central",
-      "priority": 3,
-      "tags": [
-        "adjective",
-        "unit-a1-6c",
-        "unit-a1"
-      ]
-    },
-    {
-      "id": "cand-a1-6c-0018",
-      "turkish": "\u00f6nemli",
-      "english": "important",
-      "priority": 3,
-      "tags": [
-        "adjective",
-        "unit-a1-6c",
-        "unit-a1"
-      ]
-    },
-    {
-      "id": "cand-a1-6c-0019",
-      "turkish": "pahal\u0131",
-      "english": "expensive",
-      "priority": 3,
-      "tags": [
-        "adjective",
-        "unit-a1-6c",
-        "unit-a1"
-      ]
-    },
-    {
       "id": "cand-a1-6c-0020",
       "turkish": "rahat",
       "english": "comfortable / relaxed",
-      "priority": 3,
-      "tags": [
-        "adjective",
-        "unit-a1-6c",
-        "unit-a1"
-      ]
-    },
-    {
-      "id": "cand-a1-6c-0021",
-      "turkish": "sakin",
-      "english": "calm / quiet",
-      "priority": 3,
-      "tags": [
-        "adjective",
-        "unit-a1-6c",
-        "unit-a1"
-      ]
-    },
-    {
-      "id": "cand-a1-6c-0022",
-      "turkish": "ucuz",
-      "english": "cheap",
-      "priority": 3,
-      "tags": [
-        "adjective",
-        "unit-a1-6c",
-        "unit-a1"
-      ]
-    },
-    {
-      "id": "cand-a1-6c-0023",
-      "turkish": "uzak",
-      "english": "far",
       "priority": 3,
       "tags": [
         "adjective",
@@ -10943,24 +9610,14 @@
       ]
     },
     {
-      "id": "cand-a1-6c-0025",
-      "turkish": "yak\u0131n",
-      "english": "close / nearby",
-      "priority": 3,
-      "tags": [
-        "adjective",
-        "unit-a1-6c",
-        "unit-a1"
-      ]
-    },
-    {
       "id": "cand-a1-cases-0001",
       "turkish": "(bir \u015feyi) anlamak",
       "english": "to understand sth.",
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-4c"
       ]
     },
     {
@@ -10970,7 +9627,9 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-4c",
+        "unit-a1-5c"
       ]
     },
     {
@@ -10980,7 +9639,10 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-3b",
+        "unit-a1-3a",
+        "unit-a1-4c"
       ]
     },
     {
@@ -11000,7 +9662,8 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-4c"
       ]
     },
     {
@@ -11040,7 +9703,10 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-3b",
+        "unit-a1-3a",
+        "unit-a1-4c"
       ]
     },
     {
@@ -11060,7 +9726,8 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-4c"
       ]
     },
     {
@@ -11110,7 +9777,10 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-3b",
+        "unit-a1-3a",
+        "unit-a1-4c"
       ]
     },
     {
@@ -11130,7 +9800,9 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-4c",
+        "unit-a1-5b"
       ]
     },
     {
@@ -11170,7 +9842,9 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-3b",
+        "unit-a1-3a"
       ]
     },
     {
@@ -11190,7 +9864,9 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-3b",
+        "unit-a1-3a"
       ]
     },
     {
@@ -11200,7 +9876,8 @@
       "priority": 3,
       "tags": [
         "verb",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-3b"
       ]
     },
     {
@@ -11227,16 +9904,6 @@
       "id": "cand-a1-cases-0028",
       "turkish": "(bir \u015feye) kar\u0131\u015fmak",
       "english": "to meddle in sth.",
-      "priority": 3,
-      "tags": [
-        "verb",
-        "unit-a1"
-      ]
-    },
-    {
-      "id": "cand-a1-cases-0029",
-      "turkish": "(bir \u015feye) k\u0131zmak",
-      "english": "to be angry / mad about sth.",
       "priority": 3,
       "tags": [
         "verb",
@@ -11334,26 +10001,6 @@
       ]
     },
     {
-      "id": "cand-a1-cases-0039",
-      "turkish": "(bir \u015feyden) ho\u015flanmak",
-      "english": "like / enjoy / be fond of",
-      "priority": 3,
-      "tags": [
-        "verb",
-        "unit-a1"
-      ]
-    },
-    {
-      "id": "cand-a1-cases-0040",
-      "turkish": "(bir \u015feyden) korkmak",
-      "english": "to be afraid of sth.",
-      "priority": 3,
-      "tags": [
-        "verb",
-        "unit-a1"
-      ]
-    },
-    {
       "id": "cand-a1-cases-0041",
       "turkish": "(bir \u015feyden) memnun olmak",
       "english": "to be pleased with sth.",
@@ -11364,29 +10011,9 @@
       ]
     },
     {
-      "id": "cand-a1-cases-0042",
-      "turkish": "(bir \u015feyden) nefret etmek",
-      "english": "to hate sth.",
-      "priority": 3,
-      "tags": [
-        "verb",
-        "unit-a1"
-      ]
-    },
-    {
       "id": "cand-a1-cases-0043",
       "turkish": "(bir \u015feyden) rahats\u0131z olmak",
       "english": "to be bothered by sth. / to feel uncomfortable about sth.",
-      "priority": 3,
-      "tags": [
-        "verb",
-        "unit-a1"
-      ]
-    },
-    {
-      "id": "cand-a1-cases-0044",
-      "turkish": "(bir \u015feyden) s\u0131k\u0131lmak",
-      "english": "to get tired of sth.",
       "priority": 3,
       "tags": [
         "verb",
@@ -11548,17 +10175,6 @@
       "id": "cand-a2-1a-0012",
       "turkish": "alt ge\u00e7it",
       "english": "underpass / subway",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a2",
-        "unit-a2-1a"
-      ]
-    },
-    {
-      "id": "cand-a2-1a-0013",
-      "turkish": "ana cadde",
-      "english": "main street",
       "priority": 3,
       "tags": [
         "noun",
@@ -11897,39 +10513,6 @@
       ]
     },
     {
-      "id": "cand-a2-1b-0011",
-      "turkish": "ayran",
-      "english": "ayran / yogurt drink",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a2",
-        "unit-a2-1b"
-      ]
-    },
-    {
-      "id": "cand-a2-1b-0012",
-      "turkish": "bal",
-      "english": "honey",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a2",
-        "unit-a2-1b"
-      ]
-    },
-    {
-      "id": "cand-a2-1b-0013",
-      "turkish": "bal\u0131k",
-      "english": "fish",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a2",
-        "unit-a2-1b"
-      ]
-    },
-    {
       "id": "cand-a2-1b-0014",
       "turkish": "barbek\u00fc sosu",
       "english": "barbecue sauce",
@@ -11996,42 +10579,9 @@
       ]
     },
     {
-      "id": "cand-a2-1b-0020",
-      "turkish": "\u00e7ay",
-      "english": "tea",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a2",
-        "unit-a2-1b"
-      ]
-    },
-    {
-      "id": "cand-a2-1b-0021",
-      "turkish": "\u00e7ikolata",
-      "english": "chocolate",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a2",
-        "unit-a2-1b"
-      ]
-    },
-    {
       "id": "cand-a2-1b-0022",
       "turkish": "\u00e7orap",
       "english": "socks",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a2",
-        "unit-a2-1b"
-      ]
-    },
-    {
-      "id": "cand-a2-1b-0023",
-      "turkish": "\u00e7orba",
-      "english": "soup",
       "priority": 3,
       "tags": [
         "noun",
@@ -12084,31 +10634,9 @@
       ]
     },
     {
-      "id": "cand-a2-1b-0028",
-      "turkish": "ekmek",
-      "english": "bread",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a2",
-        "unit-a2-1b"
-      ]
-    },
-    {
       "id": "cand-a2-1b-0029",
       "turkish": "elbise",
       "english": "dress",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a2",
-        "unit-a2-1b"
-      ]
-    },
-    {
-      "id": "cand-a2-1b-0030",
-      "turkish": "et",
-      "english": "meat",
       "priority": 3,
       "tags": [
         "noun",
@@ -12139,17 +10667,6 @@
       ]
     },
     {
-      "id": "cand-a2-1b-0033",
-      "turkish": "hamburger",
-      "english": "hamburger",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a2",
-        "unit-a2-1b"
-      ]
-    },
-    {
       "id": "cand-a2-1b-0034",
       "turkish": "hardal",
       "english": "mustard",
@@ -12172,42 +10689,9 @@
       ]
     },
     {
-      "id": "cand-a2-1b-0036",
-      "turkish": "kahve",
-      "english": "coffee",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a2",
-        "unit-a2-1b"
-      ]
-    },
-    {
       "id": "cand-a2-1b-0037",
       "turkish": "karides",
       "english": "shrimp",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a2",
-        "unit-a2-1b"
-      ]
-    },
-    {
-      "id": "cand-a2-1b-0038",
-      "turkish": "kek",
-      "english": "cake",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a2",
-        "unit-a2-1b"
-      ]
-    },
-    {
-      "id": "cand-a2-1b-0039",
-      "turkish": "kekik",
-      "english": "thyme",
       "priority": 3,
       "tags": [
         "noun",
@@ -12282,17 +10766,6 @@
       ]
     },
     {
-      "id": "cand-a2-1b-0046",
-      "turkish": "kola",
-      "english": "cola / coke",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a2",
-        "unit-a2-1b"
-      ]
-    },
-    {
       "id": "cand-a2-1b-0047",
       "turkish": "kol saati",
       "english": "watch",
@@ -12329,28 +10802,6 @@
       "id": "cand-a2-1b-0050",
       "turkish": "k\u00fcpe",
       "english": "earrings",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a2",
-        "unit-a2-1b"
-      ]
-    },
-    {
-      "id": "cand-a2-1b-0051",
-      "turkish": "lahmacun",
-      "english": "Turkish pizza",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a2",
-        "unit-a2-1b"
-      ]
-    },
-    {
-      "id": "cand-a2-1b-0052",
-      "turkish": "makarna",
-      "english": "pasta",
       "priority": 3,
       "tags": [
         "noun",
@@ -12458,31 +10909,9 @@
       ]
     },
     {
-      "id": "cand-a2-1b-0062",
-      "turkish": "patates",
-      "english": "potatoes",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a2",
-        "unit-a2-1b"
-      ]
-    },
-    {
       "id": "cand-a2-1b-0063",
       "turkish": "patates k\u0131zartmas\u0131",
       "english": "french fries",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a2",
-        "unit-a2-1b"
-      ]
-    },
-    {
-      "id": "cand-a2-1b-0064",
-      "turkish": "peynir",
-      "english": "cheese",
       "priority": 3,
       "tags": [
         "noun",
@@ -12505,28 +10934,6 @@
       "id": "cand-a2-1b-0066",
       "turkish": "pirin\u00e7",
       "english": "rice (uncooked)",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a2",
-        "unit-a2-1b"
-      ]
-    },
-    {
-      "id": "cand-a2-1b-0067",
-      "turkish": "pizza",
-      "english": "pizza",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a2",
-        "unit-a2-1b"
-      ]
-    },
-    {
-      "id": "cand-a2-1b-0068",
-      "turkish": "re\u00e7el",
-      "english": "jam",
       "priority": 3,
       "tags": [
         "noun",
@@ -12579,17 +10986,6 @@
       ]
     },
     {
-      "id": "cand-a2-1b-0073",
-      "turkish": "sirke",
-      "english": "vinegar",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a2",
-        "unit-a2-1b"
-      ]
-    },
-    {
       "id": "cand-a2-1b-0074",
       "turkish": "somon bal\u0131\u011f\u0131",
       "english": "salmon",
@@ -12626,17 +11022,6 @@
       "id": "cand-a2-1b-0077",
       "turkish": "spor ayakkab\u0131s\u0131",
       "english": "trainers",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a2",
-        "unit-a2-1b"
-      ]
-    },
-    {
-      "id": "cand-a2-1b-0078",
-      "turkish": "s\u00fct",
-      "english": "milk",
       "priority": 3,
       "tags": [
         "noun",
@@ -12692,28 +11077,6 @@
       "id": "cand-a2-1b-0083",
       "turkish": "tatl\u0131",
       "english": "dessert / sweet",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a2",
-        "unit-a2-1b"
-      ]
-    },
-    {
-      "id": "cand-a2-1b-0084",
-      "turkish": "tavuk",
-      "english": "chicken",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a2",
-        "unit-a2-1b"
-      ]
-    },
-    {
-      "id": "cand-a2-1b-0085",
-      "turkish": "tereya\u011f\u0131",
-      "english": "butter",
       "priority": 3,
       "tags": [
         "noun",
@@ -12799,42 +11162,9 @@
       ]
     },
     {
-      "id": "cand-a2-1b-0093",
-      "turkish": "yo\u011furt",
-      "english": "yogurt",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a2",
-        "unit-a2-1b"
-      ]
-    },
-    {
-      "id": "cand-a2-1b-0094",
-      "turkish": "yumurta",
-      "english": "egg",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a2",
-        "unit-a2-1b"
-      ]
-    },
-    {
       "id": "cand-a2-1b-0095",
       "turkish": "y\u00fcz\u00fck",
       "english": "ring",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a2",
-        "unit-a2-1b"
-      ]
-    },
-    {
-      "id": "cand-a2-1b-0096",
-      "turkish": "zeytin",
-      "english": "olive",
       "priority": 3,
       "tags": [
         "noun",
@@ -12986,17 +11316,6 @@
       ]
     },
     {
-      "id": "cand-a2-1b-0110",
-      "turkish": "uygun",
-      "english": "suitable / fitting",
-      "priority": 3,
-      "tags": [
-        "adjective",
-        "unit-a2",
-        "unit-a2-1b"
-      ]
-    },
-    {
       "id": "cand-a2-1b-0111",
       "turkish": "uyumlu",
       "english": "matching",
@@ -13036,17 +11355,6 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a2",
-        "unit-a2-1b"
-      ]
-    },
-    {
-      "id": "cand-a2-1b-0115",
-      "turkish": "pilav",
-      "english": "rice (cooked)",
-      "priority": 3,
-      "tags": [
-        "noun",
         "unit-a2",
         "unit-a2-1b"
       ]
