@@ -2040,13 +2040,15 @@
     },
     {
       "id": "cand-a1-2b-0043",
-      "turkish": "kase",
+      "turkish": "k\u00e2se",
       "english": "bowl",
       "priority": 3,
       "tags": [
         "noun",
         "unit-a1-2b",
-        "unit-a1"
+        "unit-a1",
+        "unit-a2",
+        "unit-a2-1c"
       ]
     },
     {
@@ -5577,8 +5579,7 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar",
-        "today"
+        "similar"
       ]
     },
     {
@@ -5601,8 +5602,7 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar",
-        "today"
+        "similar"
       ]
     },
     {
@@ -5625,8 +5625,7 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar",
-        "today"
+        "similar"
       ]
     },
     {
@@ -5638,8 +5637,7 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar",
-        "today"
+        "similar"
       ]
     },
     {
@@ -5651,8 +5649,7 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar",
-        "today"
+        "similar"
       ]
     },
     {
@@ -5675,8 +5672,7 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar",
-        "today"
+        "similar"
       ]
     },
     {
@@ -5699,8 +5695,7 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar",
-        "today"
+        "similar"
       ]
     },
     {
@@ -11420,7 +11415,8 @@
       "tags": [
         "verb",
         "unit-a2",
-        "unit-a2-1c"
+        "unit-a2-1c",
+        "today"
       ]
     },
     {
@@ -11629,7 +11625,8 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-1c"
+        "unit-a2-1c",
+        "today"
       ]
     },
     {
@@ -11651,18 +11648,8 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-1c"
-      ]
-    },
-    {
-      "id": "cand-a2-1c-0045",
-      "turkish": "k\u00e2se",
-      "english": "bowl",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a2",
-        "unit-a2-1c"
+        "unit-a2-1c",
+        "today"
       ]
     },
     {
@@ -11684,7 +11671,8 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-1c"
+        "unit-a2-1c",
+        "today"
       ]
     },
     {
@@ -11695,7 +11683,8 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-1c"
+        "unit-a2-1c",
+        "today"
       ]
     },
     {
@@ -11706,7 +11695,8 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-1c"
+        "unit-a2-1c",
+        "today"
       ]
     },
     {
@@ -11717,7 +11707,8 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-1c"
+        "unit-a2-1c",
+        "today"
       ]
     },
     {
