@@ -200,6 +200,11 @@
       "id": "unit-a2-1b",
       "label": "Unit A2-1B",
       "group": "unit"
+    },
+    {
+      "id": "unit-a2-1c",
+      "label": "Unit A2-1C",
+      "group": "unit"
     }
   ]
 }

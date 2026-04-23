@@ -1,0 +1,986 @@
+{
+  "source_file": "A2_-_1C.pdf",
+  "created_at": "2026-04-23T05:03:28.474564+00:00",
+  "items": [
+    {
+      "id": "cand-a2-1c-0001",
+      "turkish": "ayırmak",
+      "english": "to separate / set aside",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0002",
+      "turkish": "boşaltmak",
+      "english": "to empty out",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0003",
+      "turkish": "çağırmak",
+      "english": "to call / invite",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0004",
+      "turkish": "çalkalamak",
+      "english": "to shake",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0005",
+      "turkish": "çırpmak",
+      "english": "to whisk",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0006",
+      "turkish": "denemek",
+      "english": "to try / test",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0007",
+      "turkish": "doğramak",
+      "english": "to chop",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0008",
+      "turkish": "dökmek",
+      "english": "to pour",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0009",
+      "turkish": "eklemek",
+      "english": "to add",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0010",
+      "turkish": "ezmek",
+      "english": "to crush",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0011",
+      "turkish": "hamur açmak",
+      "english": "to roll out (dough)",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0012",
+      "turkish": "haşlamak",
+      "english": "to cook in hot water / boil",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0013",
+      "turkish": "karıştırmak",
+      "english": "to mix",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0014",
+      "turkish": "kaynatmak",
+      "english": "to boil",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0015",
+      "turkish": "kesmek",
+      "english": "to cut",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0016",
+      "turkish": "kızartmak",
+      "english": "to fry",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0017",
+      "turkish": "koymak",
+      "english": "to put",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0018",
+      "turkish": "pişirmek",
+      "english": "to cook",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0019",
+      "turkish": "rendelemek",
+      "english": "to grate",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0020",
+      "turkish": "sıkmak",
+      "english": "to squeeze",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0021",
+      "turkish": "sofra kurmak",
+      "english": "to set the table",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0022",
+      "turkish": "süzmek",
+      "english": "to filter / to strain",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0023",
+      "turkish": "tadına bakmak",
+      "english": "to taste",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0024",
+      "turkish": "avuç",
+      "english": "handful",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0025",
+      "turkish": "bardak",
+      "english": "glass",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0026",
+      "turkish": "bıçak",
+      "english": "knife",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0027",
+      "turkish": "çatal",
+      "english": "fork",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0028",
+      "turkish": "çay bardağı",
+      "english": "tea glass",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0029",
+      "turkish": "çay kaşığı",
+      "english": "teaspoon",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0030",
+      "turkish": "çaydanlık",
+      "english": "teapot",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0031",
+      "turkish": "çay kaşığı",
+      "english": "tea spoon",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0032",
+      "turkish": "avuç",
+      "english": "handful",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0033",
+      "turkish": "bardak",
+      "english": "glass",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0034",
+      "turkish": "bıçak",
+      "english": "knife",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0035",
+      "turkish": "çatal",
+      "english": "fork",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0036",
+      "turkish": "çay bardağı",
+      "english": "tea cup",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0037",
+      "turkish": "çay kaşığı",
+      "english": "tea spoon",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0038",
+      "turkish": "çaydanlık",
+      "english": "teapot",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0039",
+      "turkish": "çay kaşığı",
+      "english": "tea spoon",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0040",
+      "turkish": "demet / salkım",
+      "english": "bunch",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0041",
+      "turkish": "dilim",
+      "english": "slice",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0042",
+      "turkish": "fincan",
+      "english": "cup",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0043",
+      "turkish": "ikram",
+      "english": "treat",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0044",
+      "turkish": "kadeh",
+      "english": "wine glass",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0045",
+      "turkish": "kâse",
+      "english": "bowl",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0046",
+      "turkish": "kaşık",
+      "english": "spoon",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0047",
+      "turkish": "kepçe",
+      "english": "ladle / scoop",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0048",
+      "turkish": "kevgir",
+      "english": "colander",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0049",
+      "turkish": "kıvam",
+      "english": "consistency / texture",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0050",
+      "turkish": "kilo",
+      "english": "kilogram",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0051",
+      "turkish": "kupa / fincan",
+      "english": "mug / cup",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0052",
+      "turkish": "kurabiye",
+      "english": "cookie",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0053",
+      "turkish": "lezzet",
+      "english": "flavor / taste",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0054",
+      "turkish": "rende",
+      "english": "grater",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0055",
+      "turkish": "sofra",
+      "english": "table setting / dining table",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0056",
+      "turkish": "su bardağı",
+      "english": "water glass",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0057",
+      "turkish": "süzgeç",
+      "english": "strainer / filter",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0058",
+      "turkish": "şeker kaşığı",
+      "english": "sugar spoon",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0059",
+      "turkish": "şişe / cam şişe",
+      "english": "bottle / glass bottle",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0060",
+      "turkish": "tabak",
+      "english": "plate / dish",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0061",
+      "turkish": "tane",
+      "english": "piece / item",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0062",
+      "turkish": "tatlı",
+      "english": "dessert / sweet",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0063",
+      "turkish": "tatlı çatalı",
+      "english": "dessert fork",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0064",
+      "turkish": "tatlı kaşığı",
+      "english": "dessert spoon",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0065",
+      "turkish": "tarif",
+      "english": "recipe / instructions",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0066",
+      "turkish": "tutam",
+      "english": "pinch",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0067",
+      "turkish": "un",
+      "english": "flour",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0068",
+      "turkish": "yemek kaşığı",
+      "english": "tablespoon",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0069",
+      "turkish": "sert",
+      "english": "hard",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1c-0070",
+      "turkish": "yumuşak",
+      "english": "soft",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2",
+        "unit-a2-1c"
+      ],
+      "source": "A2_-_1C.pdf",
+      "notes": "",
+      "status": "approved"
+    }
+  ]
+}
