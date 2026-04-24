@@ -5627,7 +5627,8 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -5639,7 +5640,8 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -11417,8 +11419,7 @@
       "tags": [
         "verb",
         "unit-a2",
-        "unit-a2-1c",
-        "today"
+        "unit-a2-1c"
       ]
     },
     {
@@ -11627,8 +11628,7 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-1c",
-        "today"
+        "unit-a2-1c"
       ]
     },
     {
@@ -11639,7 +11639,8 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-1c"
+        "unit-a2-1c",
+        "today"
       ]
     },
     {
@@ -11650,8 +11651,7 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-1c",
-        "today"
+        "unit-a2-1c"
       ]
     },
     {
@@ -11662,7 +11662,8 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-1c"
+        "unit-a2-1c",
+        "today"
       ]
     },
     {
@@ -11673,8 +11674,7 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-1c",
-        "today"
+        "unit-a2-1c"
       ]
     },
     {
@@ -11779,8 +11779,8 @@
     },
     {
       "id": "cand-a2-1c-0059",
-      "turkish": "\u015fi\u015fe / cam \u015fi\u015fe",
-      "english": "bottle / glass bottle",
+      "turkish": "cam \u015fi\u015fe",
+      "english": "glass bottle",
       "priority": 3,
       "tags": [
         "noun",
