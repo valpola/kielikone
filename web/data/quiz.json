@@ -5653,7 +5653,8 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -5676,7 +5677,8 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -5699,7 +5701,8 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -11050,7 +11053,7 @@
     {
       "id": "cand-a2-1b-0077",
       "turkish": "spor ayakkab\u0131s\u0131",
-      "english": "trainers",
+      "english": "trainers / sneakers",
       "priority": 3,
       "tags": [
         "noun",
@@ -11639,8 +11642,7 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-1c",
-        "today"
+        "unit-a2-1c"
       ]
     },
     {
@@ -11662,8 +11664,7 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-1c",
-        "today"
+        "unit-a2-1c"
       ]
     },
     {
@@ -11685,8 +11686,7 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-1c",
-        "today"
+        "unit-a2-1c"
       ]
     },
     {
