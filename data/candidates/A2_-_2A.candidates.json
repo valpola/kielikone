@@ -1,0 +1,441 @@
+{
+  "source_file": "A2_-_2A.pdf",
+  "created_at": "2026-05-01T16:35:37.800017+00:00",
+  "items": [
+    {
+      "id": "cand-a2-2a-0001",
+      "turkish": "rastlamak",
+      "english": "to encounter",
+      "priority": 3,
+      "tags": [
+        "unit-a2",
+        "unit-a2-2a",
+        "verb"
+      ],
+      "source": "A2_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2a-0002",
+      "turkish": "uğramak",
+      "english": "to stop by / to visit",
+      "priority": 3,
+      "tags": [
+        "unit-a2",
+        "unit-a2-2a",
+        "verb"
+      ],
+      "source": "A2_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2a-0003",
+      "turkish": "ahşap",
+      "english": "wood / wooden",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "noun",
+        "unit-a2",
+        "unit-a2-2a"
+      ],
+      "source": "A2_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2a-0004",
+      "turkish": "doğa",
+      "english": "nature",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2a"
+      ],
+      "source": "A2_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2a-0005",
+      "turkish": "ısıtıcı",
+      "english": "heater / warmer",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2a"
+      ],
+      "source": "A2_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2a-0006",
+      "turkish": "memleket",
+      "english": "hometown / country",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2a"
+      ],
+      "source": "A2_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2a-0007",
+      "turkish": "soba",
+      "english": "burning stove / heating stove",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2a"
+      ],
+      "source": "A2_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2a-0008",
+      "turkish": "taş",
+      "english": "stone / rock",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2a"
+      ],
+      "source": "A2_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2a-0009",
+      "turkish": "toprak",
+      "english": "soil",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2a"
+      ],
+      "source": "A2_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2a-0010",
+      "turkish": "yıllık izin / senelik izin",
+      "english": "annual leave",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2a"
+      ],
+      "source": "A2_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2a-0011",
+      "turkish": "başka",
+      "english": "different / other",
+      "priority": 3,
+      "tags": [
+        "unit-a2",
+        "unit-a2-2a",
+        "adjective"
+      ],
+      "source": "A2_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2a-0012",
+      "turkish": "eski",
+      "english": "old",
+      "priority": 3,
+      "tags": [
+        "unit-a2",
+        "unit-a2-2a",
+        "adjective"
+      ],
+      "source": "A2_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2a-0013",
+      "turkish": "meşhur / ünlü / popüler",
+      "english": "famous",
+      "priority": 3,
+      "tags": [
+        "unit-a2",
+        "unit-a2-2a",
+        "adjective"
+      ],
+      "source": "A2_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2a-0014",
+      "turkish": "rastgele",
+      "english": "random",
+      "priority": 3,
+      "tags": [
+        "unit-a2",
+        "unit-a2-2a",
+        "adjective"
+      ],
+      "source": "A2_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2a-0015",
+      "turkish": "seyrek",
+      "english": "rare / unusual",
+      "priority": 3,
+      "tags": [
+        "unit-a2",
+        "unit-a2-2a",
+        "adjective"
+      ],
+      "source": "A2_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2a-0016",
+      "turkish": "tehlikeli",
+      "english": "dangerous / hazardous",
+      "priority": 3,
+      "tags": [
+        "unit-a2",
+        "unit-a2-2a",
+        "adjective"
+      ],
+      "source": "A2_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2a-0017",
+      "turkish": "ailece / ailecek",
+      "english": "with the whole family",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2a"
+      ],
+      "source": "A2_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2a-0018",
+      "turkish": "birbiriyle",
+      "english": "with each other / with one another",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2a"
+      ],
+      "source": "A2_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2a-0019",
+      "turkish": "çocukken",
+      "english": "when i was a kid",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2a"
+      ],
+      "source": "A2_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2a-0020",
+      "turkish": "dün",
+      "english": "yesterday",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2a"
+      ],
+      "source": "A2_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2a-0021",
+      "turkish": "erkenden",
+      "english": "early",
+      "priority": 3,
+      "tags": [
+        "unit-a2",
+        "unit-a2-2a",
+        "adverb"
+      ],
+      "source": "A2_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2a-0022",
+      "turkish": "eskiden",
+      "english": "in the past",
+      "priority": 3,
+      "tags": [
+        "unit-a2",
+        "unit-a2-2a",
+        "adverb"
+      ],
+      "source": "A2_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2a-0023",
+      "turkish": "geçen hafta",
+      "english": "last week",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2a"
+      ],
+      "source": "A2_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2a-0024",
+      "turkish": "geçen ay",
+      "english": "last month",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2a"
+      ],
+      "source": "A2_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2a-0025",
+      "turkish": "geçen yıl / geçen sene",
+      "english": "last year",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2a"
+      ],
+      "source": "A2_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2a-0026",
+      "turkish": "gün önce",
+      "english": "… days ago",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2a"
+      ],
+      "source": "A2_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2a-0027",
+      "turkish": "küçükken",
+      "english": "when i was little",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2a"
+      ],
+      "source": "A2_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2a-0028",
+      "turkish": "… sayesinde",
+      "english": "because of / thanks to",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2a"
+      ],
+      "source": "A2_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2a-0029",
+      "turkish": "tek başına / yalnız",
+      "english": "alone / lonely / on one’s own",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2a"
+      ],
+      "source": "A2_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2a-0030",
+      "turkish": "yan yana",
+      "english": "side by side",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2a"
+      ],
+      "source": "A2_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2a-0031",
+      "turkish": "… yüzünden",
+      "english": "because of / due to",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2a"
+      ],
+      "source": "A2_-_2A.pdf",
+      "notes": "",
+      "status": "approved"
+    }
+  ]
+}
