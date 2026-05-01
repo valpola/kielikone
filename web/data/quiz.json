@@ -4061,7 +4061,7 @@
     {
       "id": "cand-a1-3b-0108",
       "turkish": "(bir \u015feye) binmek",
-      "english": "to get on (a vehicle/animal)",
+      "english": "to get on (sth.; a vehicle/animal)",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
@@ -11877,6 +11877,348 @@
       ]
     },
     {
+      "id": "cand-a2-2a-0001",
+      "turkish": "rastlamak",
+      "english": "to encounter",
+      "priority": 3,
+      "tags": [
+        "unit-a2",
+        "unit-a2-2a",
+        "verb"
+      ]
+    },
+    {
+      "id": "cand-a2-2a-0002",
+      "turkish": "u\u011framak",
+      "english": "to stop by / to visit",
+      "priority": 3,
+      "tags": [
+        "unit-a2",
+        "unit-a2-2a",
+        "verb"
+      ]
+    },
+    {
+      "id": "cand-a2-2a-0003",
+      "turkish": "ah\u015fap",
+      "english": "wood / wooden",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "noun",
+        "unit-a2",
+        "unit-a2-2a"
+      ]
+    },
+    {
+      "id": "cand-a2-2a-0004",
+      "turkish": "do\u011fa",
+      "english": "nature",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2a"
+      ]
+    },
+    {
+      "id": "cand-a2-2a-0005",
+      "turkish": "\u0131s\u0131t\u0131c\u0131",
+      "english": "heater / warmer",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2a"
+      ]
+    },
+    {
+      "id": "cand-a2-2a-0006",
+      "turkish": "memleket",
+      "english": "hometown / country",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2a"
+      ]
+    },
+    {
+      "id": "cand-a2-2a-0007",
+      "turkish": "soba",
+      "english": "burning stove / heating stove",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2a"
+      ]
+    },
+    {
+      "id": "cand-a2-2a-0008",
+      "turkish": "ta\u015f",
+      "english": "stone / rock",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2a"
+      ]
+    },
+    {
+      "id": "cand-a2-2a-0009",
+      "turkish": "toprak",
+      "english": "soil",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2a"
+      ]
+    },
+    {
+      "id": "cand-a2-2a-0010",
+      "turkish": "y\u0131ll\u0131k izin / senelik izin",
+      "english": "annual leave",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2a"
+      ]
+    },
+    {
+      "id": "cand-a2-2a-0011",
+      "turkish": "ba\u015fka",
+      "english": "different / other",
+      "priority": 3,
+      "tags": [
+        "unit-a2",
+        "unit-a2-2a",
+        "adjective"
+      ]
+    },
+    {
+      "id": "cand-a2-2a-0012",
+      "turkish": "eski",
+      "english": "old",
+      "priority": 3,
+      "tags": [
+        "unit-a2",
+        "unit-a2-2a",
+        "adjective"
+      ]
+    },
+    {
+      "id": "cand-a2-2a-0013",
+      "turkish": "me\u015fhur / \u00fcnl\u00fc / pop\u00fcler",
+      "english": "famous",
+      "priority": 3,
+      "tags": [
+        "unit-a2",
+        "unit-a2-2a",
+        "adjective"
+      ]
+    },
+    {
+      "id": "cand-a2-2a-0014",
+      "turkish": "rastgele",
+      "english": "random",
+      "priority": 3,
+      "tags": [
+        "unit-a2",
+        "unit-a2-2a",
+        "adjective"
+      ]
+    },
+    {
+      "id": "cand-a2-2a-0015",
+      "turkish": "seyrek",
+      "english": "rare / unusual",
+      "priority": 3,
+      "tags": [
+        "unit-a2",
+        "unit-a2-2a",
+        "adjective"
+      ]
+    },
+    {
+      "id": "cand-a2-2a-0016",
+      "turkish": "tehlikeli",
+      "english": "dangerous / hazardous",
+      "priority": 3,
+      "tags": [
+        "unit-a2",
+        "unit-a2-2a",
+        "adjective"
+      ]
+    },
+    {
+      "id": "cand-a2-2a-0017",
+      "turkish": "ailece / ailecek",
+      "english": "with the whole family",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2a"
+      ]
+    },
+    {
+      "id": "cand-a2-2a-0018",
+      "turkish": "birbiriyle",
+      "english": "with each other / with one another",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2a"
+      ]
+    },
+    {
+      "id": "cand-a2-2a-0019",
+      "turkish": "\u00e7ocukken",
+      "english": "when i was a kid",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2a"
+      ]
+    },
+    {
+      "id": "cand-a2-2a-0020",
+      "turkish": "d\u00fcn",
+      "english": "yesterday",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2a"
+      ]
+    },
+    {
+      "id": "cand-a2-2a-0021",
+      "turkish": "erkenden",
+      "english": "early",
+      "priority": 3,
+      "tags": [
+        "unit-a2",
+        "unit-a2-2a",
+        "adverb"
+      ]
+    },
+    {
+      "id": "cand-a2-2a-0022",
+      "turkish": "eskiden",
+      "english": "in the past",
+      "priority": 3,
+      "tags": [
+        "unit-a2",
+        "unit-a2-2a",
+        "adverb"
+      ]
+    },
+    {
+      "id": "cand-a2-2a-0023",
+      "turkish": "ge\u00e7en hafta",
+      "english": "last week",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2a"
+      ]
+    },
+    {
+      "id": "cand-a2-2a-0024",
+      "turkish": "ge\u00e7en ay",
+      "english": "last month",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2a"
+      ]
+    },
+    {
+      "id": "cand-a2-2a-0025",
+      "turkish": "ge\u00e7en y\u0131l / ge\u00e7en sene",
+      "english": "last year",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2a"
+      ]
+    },
+    {
+      "id": "cand-a2-2a-0026",
+      "turkish": "g\u00fcn \u00f6nce",
+      "english": "\u2026 days ago",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2a"
+      ]
+    },
+    {
+      "id": "cand-a2-2a-0027",
+      "turkish": "k\u00fc\u00e7\u00fckken",
+      "english": "when i was little",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2a"
+      ]
+    },
+    {
+      "id": "cand-a2-2a-0028",
+      "turkish": "\u2026 sayesinde",
+      "english": "because of / thanks to",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2a"
+      ]
+    },
+    {
+      "id": "cand-a2-2a-0029",
+      "turkish": "tek ba\u015f\u0131na / yaln\u0131z",
+      "english": "alone / lonely / on one\u2019s own",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2a"
+      ]
+    },
+    {
+      "id": "cand-a2-2a-0030",
+      "turkish": "yan yana",
+      "english": "side by side",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2a"
+      ]
+    },
+    {
+      "id": "cand-a2-2a-0031",
+      "turkish": "\u2026 y\u00fcz\u00fcnden",
+      "english": "because of / due to",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2a"
+      ]
+    },
+    {
       "id": "extra-0001",
       "turkish": "\u00f6r\u00fcmcek",
       "english": "spider",
@@ -12091,6 +12433,11 @@
     {
       "id": "unit-a2-1c",
       "label": "Unit A2-1C",
+      "group": "unit"
+    },
+    {
+      "id": "unit-a2-2a",
+      "label": "Unit A2-2A",
       "group": "unit"
     }
   ]
