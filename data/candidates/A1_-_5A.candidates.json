@@ -312,7 +312,7 @@
     },
     {
       "id": "cand-a1-5a-0023",
-      "turkish": "Pazar",
+      "turkish": "Pazar (gün)",
       "english": "Sunday",
       "priority": 3,
       "tags": [
@@ -326,7 +326,7 @@
     },
     {
       "id": "cand-a1-5a-0024",
-      "turkish": "Ocak",
+      "turkish": "Ocak (ay)",
       "english": "January",
       "priority": 3,
       "tags": [

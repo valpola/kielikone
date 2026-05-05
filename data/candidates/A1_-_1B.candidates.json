@@ -116,7 +116,7 @@
     },
     {
       "id": "cand-a1-1b-0009",
-      "turkish": "fırın",
+      "turkish": "fırın (ev aleti)",
       "english": "oven",
       "priority": 3,
       "tags": [
@@ -298,7 +298,7 @@
     },
     {
       "id": "cand-a1-1b-0022",
-      "turkish": "ocak",
+      "turkish": "ocak (ısıtıcı)",
       "english": "stove",
       "priority": 3,
       "tags": [

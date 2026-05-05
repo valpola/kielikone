@@ -928,7 +928,7 @@
     },
     {
       "id": "cand-a1-2b-0067",
-      "turkish": "mısır",
+      "turkish": "mısır (tahıl)",
       "english": "corn",
       "priority": 3,
       "tags": [
@@ -1041,7 +1041,7 @@
     {
       "id": "cand-a1-2b-0075",
       "turkish": "portakal",
-      "english": "orange",
+      "english": "orange (fruit)",
       "priority": 3,
       "tags": [
         "noun",
