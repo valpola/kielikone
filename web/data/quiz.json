@@ -770,7 +770,7 @@
     },
     {
       "id": "cand-a1-1b-0009",
-      "turkish": "f\u0131r\u0131n",
+      "turkish": "f\u0131r\u0131n (ev aleti)",
       "english": "oven",
       "priority": 3,
       "tags": [
@@ -902,7 +902,7 @@
     },
     {
       "id": "cand-a1-1b-0022",
-      "turkish": "ocak",
+      "turkish": "ocak (\u0131s\u0131t\u0131c\u0131)",
       "english": "stove",
       "priority": 3,
       "tags": [
@@ -1147,7 +1147,7 @@
     },
     {
       "id": "cand-a1-2a-0013",
-      "turkish": "f\u0131r\u0131n",
+      "turkish": "f\u0131r\u0131n (d\u00fckkan)",
       "english": "bakery",
       "priority": 3,
       "tags": [
@@ -2289,7 +2289,7 @@
     },
     {
       "id": "cand-a1-2b-0067",
-      "turkish": "m\u0131s\u0131r",
+      "turkish": "m\u0131s\u0131r (tah\u0131l)",
       "english": "corn",
       "priority": 3,
       "tags": [
@@ -2382,7 +2382,7 @@
     {
       "id": "cand-a1-2b-0075",
       "turkish": "portakal",
-      "english": "orange",
+      "english": "orange (fruit)",
       "priority": 3,
       "tags": [
         "noun",
@@ -2658,7 +2658,9 @@
       "tags": [
         "noun",
         "unit-a1-2b",
-        "unit-a1"
+        "unit-a1",
+        "unit-a2",
+        "unit-a2-1b"
       ]
     },
     {
@@ -3395,7 +3397,8 @@
       "tags": [
         "unit-a1-3a",
         "unit-a1",
-        "verb"
+        "verb",
+        "unit-a1-3b"
       ]
     },
     {
@@ -3739,17 +3742,6 @@
         "verb",
         "unit-a2",
         "unit-a2-1c"
-      ]
-    },
-    {
-      "id": "cand-a1-3b-0022",
-      "turkish": "makyaj yapmak",
-      "english": "to do makeup",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3b",
-        "unit-a1",
-        "verb"
       ]
     },
     {
@@ -6457,7 +6449,7 @@
     },
     {
       "id": "cand-a1-4b-0117",
-      "turkish": "M\u0131s\u0131r",
+      "turkish": "M\u0131s\u0131r (\u00fclke)",
       "english": "Egypt",
       "priority": 3,
       "tags": [
@@ -7397,7 +7389,9 @@
       "tags": [
         "unit-a1-4b",
         "unit-a1",
-        "noun"
+        "noun",
+        "unit-a2",
+        "unit-a2-2a"
       ]
     },
     {
@@ -8238,7 +8232,7 @@
     },
     {
       "id": "cand-a1-5a-0023",
-      "turkish": "Pazar",
+      "turkish": "Pazar (g\u00fcn)",
       "english": "Sunday",
       "priority": 3,
       "tags": [
@@ -8249,7 +8243,7 @@
     },
     {
       "id": "cand-a1-5a-0024",
-      "turkish": "Ocak",
+      "turkish": "Ocak (ay)",
       "english": "January",
       "priority": 3,
       "tags": [
@@ -9489,7 +9483,7 @@
     },
     {
       "id": "cand-a1-6b-0022",
-      "turkish": "pazar",
+      "turkish": "pazar (yer)",
       "english": "market / bazaar",
       "priority": 3,
       "tags": [
@@ -9616,7 +9610,9 @@
       "tags": [
         "adjective",
         "unit-a1-6c",
-        "unit-a1"
+        "unit-a1",
+        "unit-a2",
+        "unit-a2-2a"
       ]
     },
     {
@@ -11206,17 +11202,6 @@
       ]
     },
     {
-      "id": "cand-a2-1b-0097",
-      "turkish": "zeytin ya\u011f\u0131",
-      "english": "olive oil",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a2",
-        "unit-a2-1b"
-      ]
-    },
-    {
       "id": "cand-a2-1b-0098",
       "turkish": "beyaz",
       "english": "white",
@@ -11340,7 +11325,7 @@
     {
       "id": "cand-a2-1b-0109",
       "turkish": "turuncu",
-      "english": "orange",
+      "english": "orange (colour)",
       "priority": 3,
       "tags": [
         "adjective",
@@ -11911,17 +11896,6 @@
       ]
     },
     {
-      "id": "cand-a2-2a-0004",
-      "turkish": "do\u011fa",
-      "english": "nature",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a2",
-        "unit-a2-2a"
-      ]
-    },
-    {
       "id": "cand-a2-2a-0005",
       "turkish": "\u0131s\u0131t\u0131c\u0131",
       "english": "heater / warmer",
@@ -11991,17 +11965,6 @@
       "id": "cand-a2-2a-0011",
       "turkish": "ba\u015fka",
       "english": "different / other",
-      "priority": 3,
-      "tags": [
-        "unit-a2",
-        "unit-a2-2a",
-        "adjective"
-      ]
-    },
-    {
-      "id": "cand-a2-2a-0012",
-      "turkish": "eski",
-      "english": "old",
       "priority": 3,
       "tags": [
         "unit-a2",
