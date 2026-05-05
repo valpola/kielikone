@@ -49,6 +49,7 @@ def normalize(text: str) -> str:
 
 
 def find_duplicates(items: list[dict[str, Any]]) -> list[list[dict[str, Any]]]:
+    """Same Turkish AND same English — exact duplicates."""
     groups: dict[tuple[str, str], list[dict[str, Any]]] = {}
     for item in items:
         tr = normalize(str(item.get("turkish", "")))
@@ -57,6 +58,42 @@ def find_duplicates(items: list[dict[str, Any]]) -> list[list[dict[str, Any]]]:
             continue
         groups.setdefault((tr, en), []).append(item)
     return [group for group in groups.values() if len(group) > 1]
+
+
+def find_same_turkish_different_english(items: list[dict[str, Any]]) -> list[list[dict[str, Any]]]:
+    """Same Turkish, different English — gloss variant or different sense."""
+    groups: dict[str, list[dict[str, Any]]] = {}
+    for item in items:
+        tr = normalize(str(item.get("turkish", "")))
+        if not tr:
+            continue
+        groups.setdefault(tr, []).append(item)
+    result = []
+    for group in groups.values():
+        if len(group) < 2:
+            continue
+        english_values = {normalize(str(i.get("english", ""))) for i in group}
+        if len(english_values) > 1:
+            result.append(group)
+    return result
+
+
+def find_same_english_different_turkish(items: list[dict[str, Any]]) -> list[list[dict[str, Any]]]:
+    """Same English, different Turkish — synonym or translation error."""
+    groups: dict[str, list[dict[str, Any]]] = {}
+    for item in items:
+        en = normalize(str(item.get("english", "")))
+        if not en:
+            continue
+        groups.setdefault(en, []).append(item)
+    result = []
+    for group in groups.values():
+        if len(group) < 2:
+            continue
+        turkish_values = {normalize(str(i.get("turkish", ""))) for i in group}
+        if len(turkish_values) > 1:
+            result.append(group)
+    return result
 
 
 def canonicalize(item_id: str, aliases: dict[str, str]) -> str:
@@ -168,22 +205,45 @@ def main() -> int:
         did_apply = True
 
     if args.scan or (not args.apply and not args.add):
-        dupes = find_duplicates(items)
-        if not dupes:
-            print("No duplicates found.")
-            return 0
+        exact = find_duplicates(items)
+        same_tr = find_same_turkish_different_english(items)
+        same_en = find_same_english_different_turkish(items)
 
-        print("Duplicate groups:")
-        for group in dupes:
-            label = f"{group[0].get('turkish', '')} / {group[0].get('english', '')}"
-            print(f"- {label}")
+        any_found = exact or same_tr or same_en
+
+        def print_group(group: list[dict[str, Any]]) -> None:
             for item in group:
                 item_id = item.get("id", "")
+                turkish = item.get("turkish", "")
+                english = item.get("english", "")
                 source = item.get("source", "")
                 tags = ", ".join(item.get("tags", []) or [])
-                print(f"  - {item_id} | {source} | {tags}")
+                print(f"  - {item_id} | {turkish} | {english} | {source} | {tags}")
+
+        if exact:
+            print("=== Exact duplicates (same Turkish + same English) → alias ===")
+            for group in exact:
+                label = f"{group[0].get('turkish', '')} / {group[0].get('english', '')}"
+                print(f"- {label}")
+                print_group(group)
+
+        if same_tr:
+            print("\n=== Same Turkish, different English → review (alias or improve gloss) ===")
+            for group in same_tr:
+                print(f"- {group[0].get('turkish', '')}")
+                print_group(group)
+
+        if same_en:
+            print("\n=== Same English, different Turkish → review (synonym or fix) ===")
+            for group in same_en:
+                print(f"- \"{group[0].get('english', '')}\"")
+                print_group(group)
+
+        if not any_found:
+            print("No duplicates found.")
+
         if did_apply:
-            print("Note: scan output reflects the updated items list.")
+            print("\nNote: scan output reflects the updated items list.")
 
     return 0
 
