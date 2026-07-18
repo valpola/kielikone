@@ -19,7 +19,7 @@
     {
       "id": "cand-a2-2b-0002",
       "turkish": "hayal kurmak",
-      "english": "to dream / to imagine",
+      "english": "to daydream / to fantasize",
       "priority": 3,
       "tags": [
         "verb",
@@ -28,6 +28,7 @@
       ],
       "source": "A2_-_2B.pdf",
       "notes": "",
+      "hint_en_tr": "while awake (cf. rüya görmek = sleeping dream)",
       "status": "approved"
     },
     {
@@ -75,7 +76,7 @@
     {
       "id": "cand-a2-2b-0006",
       "turkish": "rüya görmek",
-      "english": "to have a dream",
+      "english": "to have a dream (while sleeping)",
       "priority": 3,
       "tags": [
         "verb",
@@ -84,6 +85,7 @@
       ],
       "source": "A2_-_2B.pdf",
       "notes": "",
+      "hint_en_tr": "sleeping dream (cf. hayal kurmak = daydream)",
       "status": "approved"
     },
     {
@@ -392,7 +394,7 @@
     {
       "id": "cand-a2-2b-0028",
       "turkish": "düş",
-      "english": "dream",
+      "english": "dream (while sleeping)",
       "priority": 3,
       "tags": [
         "noun",
@@ -401,7 +403,7 @@
       ],
       "source": "A2_-_2B.pdf",
       "notes": "",
-      "hint_tr_en": "native Turkish word (cf. rüya, hayal)",
+      "hint_tr_en": "native Turkish word (cf. rüya, hayal = imagination)",
       "status": "approved"
     },
     {
@@ -449,7 +451,7 @@
     {
       "id": "cand-a2-2b-0032",
       "turkish": "hayal",
-      "english": "dream / imagination",
+      "english": "imagination / fantasy",
       "priority": 3,
       "tags": [
         "noun",
@@ -715,7 +717,7 @@
     {
       "id": "cand-a2-2b-0051",
       "turkish": "rüya",
-      "english": "dream",
+      "english": "dream (while sleeping)",
       "priority": 3,
       "tags": [
         "noun",
@@ -724,7 +726,7 @@
       ],
       "source": "A2_-_2B.pdf",
       "notes": "",
-      "hint_tr_en": "Arabic-origin word (cf. düş, hayal)",
+      "hint_tr_en": "Arabic-origin word (cf. düş, hayal = imagination)",
       "status": "approved"
     },
     {
