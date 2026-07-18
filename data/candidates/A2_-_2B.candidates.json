@@ -1,0 +1,804 @@
+{
+  "source_file": "A2_-_2B.pdf",
+  "created_at": "2026-07-18T09:07:41.307251+00:00",
+  "items": [
+    {
+      "id": "cand-a2-2b-0001",
+      "turkish": "bağırmak",
+      "english": "to shout / to yell / to scream",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2b-0002",
+      "turkish": "hayal kurmak",
+      "english": "to dream / to imagine",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2b-0003",
+      "turkish": "(bir şeyle / biriyle) ilgilenmek",
+      "english": "to be interested in",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2b-0004",
+      "turkish": "(bir şeyi) kırmak",
+      "english": "to break",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2b-0005",
+      "turkish": "muhabbet etmek",
+      "english": "to have a conversation",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2b-0006",
+      "turkish": "rüya görmek",
+      "english": "to have a dream",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2b-0007",
+      "turkish": "sanmak / zannetmek",
+      "english": "to suppose / to think",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2b-0008",
+      "turkish": "sır tutmak",
+      "english": "to keep a secret",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2b-0009",
+      "turkish": "sır vermek",
+      "english": "to tell a secret",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2b-0010",
+      "turkish": "şaka yapmak",
+      "english": "to make a joke",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2b-0011",
+      "turkish": "taşımak",
+      "english": "to carry",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2b-0012",
+      "turkish": "zıplamak",
+      "english": "to jump",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2b-0013",
+      "turkish": "beslemek",
+      "english": "to feed",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2b-0014",
+      "turkish": "yem vermek / yemlemek",
+      "english": "to feed (animals)",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2b-0015",
+      "turkish": "bozuk",
+      "english": "broken / out of order",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2b-0016",
+      "turkish": "değişik",
+      "english": "different",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2b-0017",
+      "turkish": "enteresan / ilginç",
+      "english": "interesting",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2b-0018",
+      "turkish": "kırık",
+      "english": "broken",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2b-0019",
+      "turkish": "korkunç",
+      "english": "scary / terrifying",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2b-0020",
+      "turkish": "sağlam",
+      "english": "solid / sturdy",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2b-0021",
+      "turkish": "saçma",
+      "english": "absurd / nonsense",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2b-0022",
+      "turkish": "samimi",
+      "english": "sincere",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2b-0023",
+      "turkish": "tuhaf",
+      "english": "weird / strange",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2b-0024",
+      "turkish": "akvaryum",
+      "english": "aquarium",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2b-0025",
+      "turkish": "aslan",
+      "english": "lion",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2b-0026",
+      "turkish": "at",
+      "english": "horse",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2b-0027",
+      "turkish": "balık",
+      "english": "fish",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2b-0028",
+      "turkish": "düş",
+      "english": "dream",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2b-0029",
+      "turkish": "eşek",
+      "english": "donkey",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2b-0030",
+      "turkish": "fare",
+      "english": "mouse",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2b-0031",
+      "turkish": "fil",
+      "english": "elephant",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2b-0032",
+      "turkish": "hayal",
+      "english": "dream / imagination",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2b-0033",
+      "turkish": "hayvan",
+      "english": "animal",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2b-0034",
+      "turkish": "hayvanat bahçesi",
+      "english": "zoo",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2b-0035",
+      "turkish": "inek",
+      "english": "cow",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2b-0036",
+      "turkish": "kafes",
+      "english": "cage",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2b-0037",
+      "turkish": "kaplan",
+      "english": "tiger",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2b-0038",
+      "turkish": "kaplumbağa",
+      "english": "turtle / tortoise",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2b-0039",
+      "turkish": "keçi",
+      "english": "goat",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2b-0040",
+      "turkish": "kedi",
+      "english": "cat",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2b-0041",
+      "turkish": "koyun",
+      "english": "sheep",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2b-0042",
+      "turkish": "köpek",
+      "english": "dog",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2b-0043",
+      "turkish": "köpek kulübesi",
+      "english": "doghouse",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2b-0044",
+      "turkish": "kurbağa",
+      "english": "frog",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2b-0045",
+      "turkish": "kuş",
+      "english": "bird",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2b-0046",
+      "turkish": "kâbus",
+      "english": "nightmare",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2b-0047",
+      "turkish": "mama",
+      "english": "pet food / animal feed",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2b-0048",
+      "turkish": "maymun",
+      "english": "monkey",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2b-0049",
+      "turkish": "ortam",
+      "english": "setting / atmosphere",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2b-0050",
+      "turkish": "ortak arkadaş",
+      "english": "mutual friend",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2b-0051",
+      "turkish": "rüya",
+      "english": "dream",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2b-0052",
+      "turkish": "sır",
+      "english": "secret",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2b-0053",
+      "turkish": "tavuk",
+      "english": "chicken",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2b-0054",
+      "turkish": "ter",
+      "english": "sweat",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2b-0055",
+      "turkish": "yem",
+      "english": "fodder / animal feed",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2b-0056",
+      "turkish": "yılan",
+      "english": "snake",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2b-0057",
+      "turkish": "zürafa",
+      "english": "giraffe",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "source": "A2_-_2B.pdf",
+      "notes": "",
+      "status": "approved"
+    }
+  ]
+}
