@@ -660,8 +660,8 @@ const renderPrompt = () => {
   if (!current) {
     PROMPT.textContent = "No items match current filters";
     if (HINT) {
-      HINT.textContent = "";
-      HINT.classList.add("hidden");
+      HINT.textContent = "Press Enter to recompute today";
+      HINT.classList.remove("hidden");
     }
     REVEAL.hidden = true;
     ACTIONS.classList.add("hidden");
@@ -797,7 +797,12 @@ LOGIN_BTN.addEventListener("click", handleLoginClick);
 const handleEnterKey = (event) => {
   if (event.key !== "Enter") return false;
   event.preventDefault();
-  if (isRevealed) {
+  if (!current) {
+    // Empty state: an empty Enter triggers a recompute for the next batch.
+    if (!ANSWER.value.trim() && !RECOMPUTE_TODAY.disabled) {
+      recomputeToday();
+    }
+  } else if (isRevealed) {
     grade(isAnswerCorrect());
   } else {
     revealAnswer();
