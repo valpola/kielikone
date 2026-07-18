@@ -714,10 +714,19 @@ const normalizeAnswer = (value) =>
     .replace(/[().! ,]/g, "")
     .toLocaleLowerCase("tr-TR");
 
+// Slash-separated alternatives (e.g. "enteresan / ilginç") match in any order.
+const normalizeAnswerSet = (value) =>
+  String(value || "")
+    .split("/")
+    .map((part) => normalizeAnswer(part))
+    .filter((part) => part.length > 0)
+    .sort()
+    .join("/");
+
 const isAnswerCorrect = () => {
   if (!current) return false;
   const correctText = mode === "tr-en" ? current.english : current.turkish;
-  return normalizeAnswer(ANSWER.value) === normalizeAnswer(correctText);
+  return normalizeAnswerSet(ANSWER.value) === normalizeAnswerSet(correctText);
 };
 
 const grade = (isCorrect) => {
