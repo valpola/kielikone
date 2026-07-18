@@ -672,7 +672,7 @@ const renderPrompt = () => {
   const promptText = mode === "tr-en" ? current.turkish : current.english;
   PROMPT.textContent = promptText;
   if (HINT) {
-    const hintText = mode === "tr-en" ? (current.hint || "") : "";
+    const hintText = mode === "tr-en" ? (current.hint_tr_en || "") : (current.hint_en_tr || "");
     HINT.textContent = hintText;
     HINT.classList.toggle("hidden", !hintText);
   }

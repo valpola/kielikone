@@ -101,8 +101,10 @@ def main() -> None:
             "priority": int(item.get("priority", 1)),
             "tags": item.get("tags", []),
         }
-        if item.get("hint"):
-            entry["hint"] = item["hint"]
+        if item.get("hint_tr_en"):
+            entry["hint_tr_en"] = item["hint_tr_en"]
+        if item.get("hint_en_tr"):
+            entry["hint_en_tr"] = item["hint_en_tr"]
         quiz_items.append(entry)
 
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
