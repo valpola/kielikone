@@ -257,7 +257,7 @@
     {
       "id": "cand-a1-5c-0019",
       "turkish": "hayal",
-      "english": "dream",
+      "english": "dream / imagination",
       "priority": 3,
       "tags": [
         "noun",
@@ -266,6 +266,7 @@
       ],
       "source": "A1_-_5C.pdf",
       "notes": "",
+      "hint": "imagination / daydream (cf. rüya, düş)",
       "status": "approved"
     },
     {

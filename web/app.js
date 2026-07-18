@@ -1,4 +1,5 @@
 const PROMPT = document.getElementById("prompt");
+const HINT = document.getElementById("hint");
 const ANSWER = document.getElementById("answer");
 const CORRECT_ANSWER = document.getElementById("correct-answer");
 const REVEAL = document.getElementById("reveal");
@@ -670,6 +671,11 @@ const renderPrompt = () => {
 
   const promptText = mode === "tr-en" ? current.turkish : current.english;
   PROMPT.textContent = promptText;
+  if (HINT) {
+    const hintText = mode === "tr-en" ? (current.hint || "") : "";
+    HINT.textContent = hintText;
+    HINT.classList.toggle("hidden", !hintText);
+  }
   ANSWER.value = "";
   CORRECT_ANSWER.value = "";
   clearCorrectAnswerState();

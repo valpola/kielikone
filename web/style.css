@@ -131,6 +131,12 @@ body {
   font-weight: 600;
 }
 
+.hint {
+  font-size: 13px;
+  color: var(--muted);
+  margin-top: 4px;
+}
+
 .answer-stack {
   display: grid;
   gap: 10px;

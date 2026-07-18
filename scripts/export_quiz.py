@@ -90,17 +90,20 @@ def main() -> None:
     validate_item_tags(items, tags)
 
     # Keep only fields the web app needs.
-    quiz_items = [
-        {
+    quiz_items = []
+    for item in items:
+        if not item.get("turkish") or not item.get("english"):
+            continue
+        entry = {
             "id": item.get("id", ""),
             "turkish": item.get("turkish", ""),
             "english": item.get("english", ""),
             "priority": int(item.get("priority", 1)),
             "tags": item.get("tags", []),
         }
-        for item in items
-        if item.get("turkish") and item.get("english")
-    ]
+        if item.get("hint"):
+            entry["hint"] = item["hint"]
+        quiz_items.append(entry)
 
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUT_PATH.write_text(
