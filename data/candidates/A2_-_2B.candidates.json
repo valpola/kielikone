@@ -5,7 +5,7 @@
     {
       "id": "cand-a2-2b-0001",
       "turkish": "bağırmak",
-      "english": "to shout",
+      "english": "to shout / to yell / to scream",
       "priority": 3,
       "tags": [
         "verb",
@@ -98,7 +98,7 @@
       ],
       "source": "A2_-_2B.pdf",
       "notes": "",
-      "hint_en_tr": "two synonymous verbs (both expected in answer)",
+      "hint_en_tr": "(both forms)",
       "status": "approved"
     },
     {
@@ -183,7 +183,7 @@
       ],
       "source": "A2_-_2B.pdf",
       "notes": "",
-      "hint_en_tr": "general, non-specific feeding",
+      "hint_en_tr": "(general sense)",
       "status": "approved"
     },
     {
@@ -199,7 +199,7 @@
       "source": "A2_-_2B.pdf",
       "notes": "",
       "hint_tr_en": "with fodder (cf. beslemek)",
-      "hint_en_tr": "two verb forms (both expected in answer)",
+      "hint_en_tr": "(both forms)",
       "status": "approved"
     },
     {
@@ -215,7 +215,7 @@
       "source": "A2_-_2B.pdf",
       "notes": "",
       "hint_tr_en": "malfunctioning, non-working sense (cf. kırık)",
-      "hint_en_tr": "the malfunctioning / non-working sense, not physical damage",
+      "hint_en_tr": "(non-physical)",
       "status": "approved"
     },
     {
@@ -244,13 +244,13 @@
       ],
       "source": "A2_-_2B.pdf",
       "notes": "",
-      "hint_en_tr": "two synonyms expected: the loanword and the native form",
+      "hint_en_tr": "(both forms)",
       "status": "approved"
     },
     {
       "id": "cand-a2-2b-0018",
       "turkish": "kırık",
-      "english": "broken",
+      "english": "broken / damaged",
       "priority": 3,
       "tags": [
         "adjective",
@@ -260,13 +260,13 @@
       "source": "A2_-_2B.pdf",
       "notes": "",
       "hint_tr_en": "cracked / snapped (cf. bozuk)",
-      "hint_en_tr": "the physical / structural damage sense",
+      "hint_en_tr": "(physical damage)",
       "status": "approved"
     },
     {
       "id": "cand-a2-2b-0019",
       "turkish": "korkunç",
-      "english": "scary",
+      "english": "scary / terrifying / frightening",
       "priority": 3,
       "tags": [
         "adjective",
@@ -280,7 +280,7 @@
     {
       "id": "cand-a2-2b-0020",
       "turkish": "sağlam",
-      "english": "sturdy",
+      "english": "sturdy / solid / robust",
       "priority": 3,
       "tags": [
         "adjective",
@@ -294,7 +294,7 @@
     {
       "id": "cand-a2-2b-0021",
       "turkish": "saçma",
-      "english": "absurd",
+      "english": "absurd / nonsensical",
       "priority": 3,
       "tags": [
         "adjective",
@@ -322,7 +322,7 @@
     {
       "id": "cand-a2-2b-0023",
       "turkish": "tuhaf",
-      "english": "strange",
+      "english": "strange / weird / odd",
       "priority": 3,
       "tags": [
         "adjective",
@@ -533,7 +533,7 @@
     {
       "id": "cand-a2-2b-0038",
       "turkish": "kaplumbağa",
-      "english": "turtle",
+      "english": "turtle / tortoise",
       "priority": 3,
       "tags": [
         "noun",
@@ -659,7 +659,7 @@
     {
       "id": "cand-a2-2b-0047",
       "turkish": "mama",
-      "english": "pet food",
+      "english": "pet food / animal feed",
       "priority": 3,
       "tags": [
         "noun",
@@ -687,7 +687,7 @@
     {
       "id": "cand-a2-2b-0049",
       "turkish": "ortam",
-      "english": "setting",
+      "english": "setting / atmosphere / environment",
       "priority": 3,
       "tags": [
         "noun",
@@ -772,7 +772,7 @@
     {
       "id": "cand-a2-2b-0055",
       "turkish": "yem",
-      "english": "fodder",
+      "english": "fodder / animal feed",
       "priority": 3,
       "tags": [
         "noun",
