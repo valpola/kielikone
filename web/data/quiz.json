@@ -5647,7 +5647,8 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -5670,7 +5671,8 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -12194,10 +12196,9 @@
       "tags": [
         "verb",
         "unit-a2",
-        "unit-a2-2b",
-        "today"
+        "unit-a2-2b"
       ],
-      "hint_en_tr": "(with sth. / sb.)"
+      "hint_en_tr": "(sth. / sb.)"
     },
     {
       "id": "cand-a2-2b-0004",
@@ -12265,8 +12266,7 @@
       "tags": [
         "verb",
         "unit-a2",
-        "unit-a2-2b",
-        "today"
+        "unit-a2-2b"
       ]
     },
     {
