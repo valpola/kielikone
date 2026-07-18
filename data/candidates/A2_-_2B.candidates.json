@@ -32,7 +32,7 @@
     },
     {
       "id": "cand-a2-2b-0003",
-      "turkish": "ilgilenmek",
+      "turkish": "(bir şeyle / biriyle) ilgilenmek",
       "english": "to be interested in",
       "priority": 3,
       "tags": [
@@ -230,6 +230,7 @@
       ],
       "source": "A2_-_2B.pdf",
       "notes": "",
+      "hint_en_tr": "(unusual / novel)",
       "status": "approved"
     },
     {
@@ -401,6 +402,7 @@
       ],
       "source": "A2_-_2B.pdf",
       "notes": "",
+      "hint_en_tr": "(sleeping; literary)",
       "status": "approved"
     },
     {
@@ -448,7 +450,7 @@
     {
       "id": "cand-a2-2b-0032",
       "turkish": "hayal",
-      "english": "dream / imagination",
+      "english": "dream",
       "priority": 3,
       "tags": [
         "noun",
@@ -457,6 +459,7 @@
       ],
       "source": "A2_-_2B.pdf",
       "notes": "",
+      "hint_en_tr": "(imagination / daydream)",
       "status": "approved"
     },
     {
@@ -723,6 +726,7 @@
       ],
       "source": "A2_-_2B.pdf",
       "notes": "",
+      "hint_en_tr": "(sleeping; everyday)",
       "status": "approved"
     },
     {
