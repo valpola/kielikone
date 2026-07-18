@@ -12335,8 +12335,7 @@
       "tags": [
         "adjective",
         "unit-a2",
-        "unit-a2-2b",
-        "today"
+        "unit-a2-2b"
       ],
       "hint_tr_en": "malfunctioning, non-working sense (cf. k\u0131r\u0131k)",
       "hint_en_tr": "(non-physical)"
@@ -12424,14 +12423,15 @@
     },
     {
       "id": "cand-a2-2b-0023",
-      "turkish": "tuhaf",
+      "turkish": "tuhaf / garip",
       "english": "strange / weird / odd",
       "priority": 3,
       "tags": [
         "adjective",
         "unit-a2",
         "unit-a2-2b"
-      ]
+      ],
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-a2-2b-0024",
@@ -12552,7 +12552,8 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-2b"
+        "unit-a2-2b",
+        "today"
       ]
     },
     {

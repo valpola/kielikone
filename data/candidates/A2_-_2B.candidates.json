@@ -323,7 +323,7 @@
     },
     {
       "id": "cand-a2-2b-0023",
-      "turkish": "tuhaf",
+      "turkish": "tuhaf / garip",
       "english": "strange / weird / odd",
       "priority": 3,
       "tags": [
@@ -333,6 +333,7 @@
       ],
       "source": "A2_-_2B.pdf",
       "notes": "",
+      "hint_en_tr": "(X / Y)",
       "status": "approved"
     },
     {
