@@ -47,7 +47,7 @@
     {
       "id": "cand-a2-2b-0004",
       "turkish": "(bir şeyi) kırmak",
-      "english": "to break",
+      "english": "to break sth.",
       "priority": 3,
       "tags": [
         "verb",
@@ -98,7 +98,7 @@
       ],
       "source": "A2_-_2B.pdf",
       "notes": "",
-      "hint_en_tr": "(both forms)",
+      "hint_en_tr": "(X / Y)",
       "status": "approved"
     },
     {
@@ -199,7 +199,7 @@
       "source": "A2_-_2B.pdf",
       "notes": "",
       "hint_tr_en": "with fodder (cf. beslemek)",
-      "hint_en_tr": "(both forms)",
+      "hint_en_tr": "(X / Y)",
       "status": "approved"
     },
     {
@@ -244,7 +244,7 @@
       ],
       "source": "A2_-_2B.pdf",
       "notes": "",
-      "hint_en_tr": "(both forms)",
+      "hint_en_tr": "(X / Y)",
       "status": "approved"
     },
     {
