@@ -5,7 +5,7 @@
     {
       "id": "cand-a2-2b-0001",
       "turkish": "bağırmak",
-      "english": "to shout / to yell / to scream",
+      "english": "to shout",
       "priority": 3,
       "tags": [
         "verb",
@@ -14,6 +14,7 @@
       ],
       "source": "A2_-_2B.pdf",
       "notes": "",
+      "hint_tr_en": "also: to yell, to scream",
       "status": "approved"
     },
     {
@@ -32,7 +33,7 @@
     },
     {
       "id": "cand-a2-2b-0003",
-      "turkish": "(bir şeyle / biriyle) ilgilenmek",
+      "turkish": "ilgilenmek",
       "english": "to be interested in",
       "priority": 3,
       "tags": [
@@ -42,6 +43,7 @@
       ],
       "source": "A2_-_2B.pdf",
       "notes": "",
+      "hint_tr_en": "(bir şeyle) ilgilenmek = to be interested in (something)",
       "status": "approved"
     },
     {
@@ -89,7 +91,7 @@
     {
       "id": "cand-a2-2b-0007",
       "turkish": "sanmak / zannetmek",
-      "english": "to suppose / to think",
+      "english": "to suppose",
       "priority": 3,
       "tags": [
         "verb",
@@ -98,6 +100,8 @@
       ],
       "source": "A2_-_2B.pdf",
       "notes": "",
+      "hint_tr_en": "also: zannetmek; also: to think",
+      "hint_en_tr": "sanmak or zannetmek",
       "status": "approved"
     },
     {
@@ -182,12 +186,13 @@
       ],
       "source": "A2_-_2B.pdf",
       "notes": "",
+      "hint_en_tr": "to feed generally (cf. yem vermek = to feed animals with fodder)",
       "status": "approved"
     },
     {
       "id": "cand-a2-2b-0014",
       "turkish": "yem vermek / yemlemek",
-      "english": "to feed (animals)",
+      "english": "to feed animals",
       "priority": 3,
       "tags": [
         "verb",
@@ -196,6 +201,8 @@
       ],
       "source": "A2_-_2B.pdf",
       "notes": "",
+      "hint_tr_en": "with fodder (cf. beslemek = to feed generally)",
+      "hint_en_tr": "yem vermek or yemlemek",
       "status": "approved"
     },
     {
@@ -210,6 +217,8 @@
       ],
       "source": "A2_-_2B.pdf",
       "notes": "",
+      "hint_tr_en": "not working, out of order (cf. kırık = physically broken)",
+      "hint_en_tr": "bozuk (cf. kırık = physically broken)",
       "status": "approved"
     },
     {
@@ -238,6 +247,7 @@
       ],
       "source": "A2_-_2B.pdf",
       "notes": "",
+      "hint_en_tr": "enteresan (loanword) or ilginç",
       "status": "approved"
     },
     {
@@ -252,12 +262,14 @@
       ],
       "source": "A2_-_2B.pdf",
       "notes": "",
+      "hint_tr_en": "physically broken (cf. bozuk = not working)",
+      "hint_en_tr": "kırık (physically; cf. bozuk = broken / not working)",
       "status": "approved"
     },
     {
       "id": "cand-a2-2b-0019",
       "turkish": "korkunç",
-      "english": "scary / terrifying",
+      "english": "scary",
       "priority": 3,
       "tags": [
         "adjective",
@@ -266,12 +278,13 @@
       ],
       "source": "A2_-_2B.pdf",
       "notes": "",
+      "hint_tr_en": "also: terrifying, frightening",
       "status": "approved"
     },
     {
       "id": "cand-a2-2b-0020",
       "turkish": "sağlam",
-      "english": "solid / sturdy",
+      "english": "sturdy",
       "priority": 3,
       "tags": [
         "adjective",
@@ -280,12 +293,13 @@
       ],
       "source": "A2_-_2B.pdf",
       "notes": "",
+      "hint_tr_en": "also: solid, reliable, robust",
       "status": "approved"
     },
     {
       "id": "cand-a2-2b-0021",
       "turkish": "saçma",
-      "english": "absurd / nonsense",
+      "english": "absurd",
       "priority": 3,
       "tags": [
         "adjective",
@@ -294,6 +308,7 @@
       ],
       "source": "A2_-_2B.pdf",
       "notes": "",
+      "hint_tr_en": "also: nonsense",
       "status": "approved"
     },
     {
@@ -313,7 +328,7 @@
     {
       "id": "cand-a2-2b-0023",
       "turkish": "tuhaf",
-      "english": "weird / strange",
+      "english": "strange",
       "priority": 3,
       "tags": [
         "adjective",
@@ -322,6 +337,7 @@
       ],
       "source": "A2_-_2B.pdf",
       "notes": "",
+      "hint_tr_en": "also: weird, odd",
       "status": "approved"
     },
     {
@@ -524,7 +540,7 @@
     {
       "id": "cand-a2-2b-0038",
       "turkish": "kaplumbağa",
-      "english": "turtle / tortoise",
+      "english": "turtle",
       "priority": 3,
       "tags": [
         "noun",
@@ -533,6 +549,7 @@
       ],
       "source": "A2_-_2B.pdf",
       "notes": "",
+      "hint_tr_en": "also: tortoise (kaplumbağa covers both)",
       "status": "approved"
     },
     {
@@ -650,7 +667,7 @@
     {
       "id": "cand-a2-2b-0047",
       "turkish": "mama",
-      "english": "pet food / animal feed",
+      "english": "pet food",
       "priority": 3,
       "tags": [
         "noun",
@@ -659,6 +676,7 @@
       ],
       "source": "A2_-_2B.pdf",
       "notes": "",
+      "hint_tr_en": "also: animal feed",
       "status": "approved"
     },
     {
@@ -678,7 +696,7 @@
     {
       "id": "cand-a2-2b-0049",
       "turkish": "ortam",
-      "english": "setting / atmosphere",
+      "english": "setting",
       "priority": 3,
       "tags": [
         "noun",
@@ -687,6 +705,7 @@
       ],
       "source": "A2_-_2B.pdf",
       "notes": "",
+      "hint_tr_en": "also: atmosphere, environment",
       "status": "approved"
     },
     {
@@ -763,7 +782,7 @@
     {
       "id": "cand-a2-2b-0055",
       "turkish": "yem",
-      "english": "fodder / animal feed",
+      "english": "fodder",
       "priority": 3,
       "tags": [
         "noun",
@@ -772,6 +791,7 @@
       ],
       "source": "A2_-_2B.pdf",
       "notes": "",
+      "hint_tr_en": "also: animal feed",
       "status": "approved"
     },
     {
