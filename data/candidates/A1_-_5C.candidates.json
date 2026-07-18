@@ -47,7 +47,7 @@
     {
       "id": "cand-a1-5c-0004",
       "turkish": "hayal kurmak",
-      "english": "to daydream / to fantasize",
+      "english": "to dream / to daydream",
       "priority": 3,
       "tags": [
         "verb",
@@ -257,7 +257,7 @@
     {
       "id": "cand-a1-5c-0019",
       "turkish": "hayal",
-      "english": "imagination / fantasy",
+      "english": "dream / imagination",
       "priority": 3,
       "tags": [
         "noun",

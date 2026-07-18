@@ -19,7 +19,7 @@
     {
       "id": "cand-a2-2b-0002",
       "turkish": "hayal kurmak",
-      "english": "to daydream / to fantasize",
+      "english": "to dream / to daydream",
       "priority": 3,
       "tags": [
         "verb",
@@ -28,7 +28,7 @@
       ],
       "source": "A2_-_2B.pdf",
       "notes": "",
-      "hint_en_tr": "while awake (cf. rüya görmek = sleeping dream)",
+      "hint_tr_en": "imagination while awake (cf. düş, rüya = sleeping dream)",
       "status": "approved"
     },
     {
@@ -76,7 +76,7 @@
     {
       "id": "cand-a2-2b-0006",
       "turkish": "rüya görmek",
-      "english": "to have a dream (while sleeping)",
+      "english": "to have a dream",
       "priority": 3,
       "tags": [
         "verb",
@@ -85,7 +85,7 @@
       ],
       "source": "A2_-_2B.pdf",
       "notes": "",
-      "hint_en_tr": "sleeping dream (cf. hayal kurmak = daydream)",
+      "hint_tr_en": "sleeping dream (cf. hayal kurmak = daydream)",
       "status": "approved"
     },
     {
@@ -394,7 +394,7 @@
     {
       "id": "cand-a2-2b-0028",
       "turkish": "düş",
-      "english": "dream (while sleeping)",
+      "english": "dream",
       "priority": 3,
       "tags": [
         "noun",
@@ -403,7 +403,7 @@
       ],
       "source": "A2_-_2B.pdf",
       "notes": "",
-      "hint_tr_en": "native Turkish word (cf. rüya, hayal = imagination)",
+      "hint_tr_en": "native Turkish word (cf. rüya, hayal)",
       "status": "approved"
     },
     {
@@ -451,7 +451,7 @@
     {
       "id": "cand-a2-2b-0032",
       "turkish": "hayal",
-      "english": "imagination / fantasy",
+      "english": "dream / imagination",
       "priority": 3,
       "tags": [
         "noun",
@@ -717,7 +717,7 @@
     {
       "id": "cand-a2-2b-0051",
       "turkish": "rüya",
-      "english": "dream (while sleeping)",
+      "english": "dream",
       "priority": 3,
       "tags": [
         "noun",
@@ -726,7 +726,7 @@
       ],
       "source": "A2_-_2B.pdf",
       "notes": "",
-      "hint_tr_en": "Arabic-origin word (cf. düş, hayal = imagination)",
+      "hint_tr_en": "Arabic-origin word (cf. düş, hayal)",
       "status": "approved"
     },
     {
