@@ -5634,7 +5634,8 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -12195,7 +12196,8 @@
         "unit-a2",
         "unit-a2-2b",
         "today"
-      ]
+      ],
+      "hint_en_tr": "(with sth. / sb.)"
     },
     {
       "id": "cand-a2-2b-0004",
@@ -12218,8 +12220,7 @@
       "tags": [
         "verb",
         "unit-a2",
-        "unit-a2-2b",
-        "today"
+        "unit-a2-2b"
       ]
     },
     {
@@ -12230,8 +12231,7 @@
       "tags": [
         "verb",
         "unit-a2",
-        "unit-a2-2b",
-        "today"
+        "unit-a2-2b"
       ]
     },
     {
@@ -12335,7 +12335,8 @@
       "tags": [
         "adjective",
         "unit-a2",
-        "unit-a2-2b"
+        "unit-a2-2b",
+        "today"
       ],
       "hint_tr_en": "malfunctioning, non-working sense (cf. k\u0131r\u0131k)",
       "hint_en_tr": "(non-physical)"
