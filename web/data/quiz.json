@@ -5671,8 +5671,7 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar",
-        "today"
+        "similar"
       ]
     },
     {
@@ -5695,8 +5694,7 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar",
-        "today"
+        "similar"
       ]
     },
     {
@@ -8842,8 +8840,7 @@
         "unit-a1",
         "unit-a2",
         "unit-a2-2b"
-      ],
-      "hint_tr_en": "imagination / daydream (cf. r\u00fcya, d\u00fc\u015f)"
+      ]
     },
     {
       "id": "cand-a1-5c-0020",
@@ -12220,7 +12217,8 @@
       "tags": [
         "verb",
         "unit-a2",
-        "unit-a2-2b"
+        "unit-a2-2b",
+        "today"
       ]
     },
     {
@@ -12242,7 +12240,8 @@
       "tags": [
         "verb",
         "unit-a2",
-        "unit-a2-2b"
+        "unit-a2-2b",
+        "today"
       ],
       "hint_en_tr": "(both forms)"
     },
@@ -12472,8 +12471,7 @@
         "noun",
         "unit-a2",
         "unit-a2-2b"
-      ],
-      "hint_tr_en": "native Turkish word (cf. r\u00fcya, hayal)"
+      ]
     },
     {
       "id": "cand-a2-2b-0029",
@@ -12715,8 +12713,7 @@
         "noun",
         "unit-a2",
         "unit-a2-2b"
-      ],
-      "hint_tr_en": "Arabic-origin word (cf. d\u00fc\u015f, hayal)"
+      ]
     },
     {
       "id": "cand-a2-2b-0052",
