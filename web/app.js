@@ -659,6 +659,10 @@ const renderPrompt = () => {
   current = pickNext();
   if (!current) {
     PROMPT.textContent = "No items match current filters";
+    if (HINT) {
+      HINT.textContent = "";
+      HINT.classList.add("hidden");
+    }
     REVEAL.hidden = true;
     ACTIONS.classList.add("hidden");
     GRADE.classList.add("hidden");
