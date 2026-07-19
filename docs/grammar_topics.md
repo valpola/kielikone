@@ -59,4 +59,20 @@ learner already knows with a target grammar concept, with AI grading of translat
 - Want to: **`-mAk istemek`** (`gelmek istiyorum`)
 - Ability/permission/request: **`-(y)AbilmEk`** → `-(y)Abilir miyim?` (may I…?) / `-(y)Abilir misin(iz)?` (could you…?), + `lütfen`
 
+### Unit 4 — Sahibim / Kendi-Hep / Belirtme (Possessives / Self-All / Accusative)
+
+**4A — Possessives (İyelik)**
+- Genitive **`-(n)In`** + possessive suffixes: `benim …-(I)m`, `senin …-(I)n`, `onun …-(s)I`, `bizim …-(I)mIz`, `sizin …-(I)nIz`, `onların …-lArI`
+- Buffer **`-n-`** before case suffixes on 3rd-person possessives (`evi → evinde`)
+- Vowel-drop / softening in stems (`omuz→omzu`, `fikir→fikri`, `renk→rengi`)
+
+**4B — Reflexive `kendi`, `hep(si)`, Countries/Nationalities/Languages**
+- Reflexive pronoun **`kendi`** + possessive/case (`kendim`, `kendime`, `kendi kendime`…)
+- **`hep` → `hepsi`** (all of it/them) + possessive/case
+- Countries / Nationalities / Languages: nationality **`-lI`** (`Almanyalı`), language **`-CA`** (`Türkçe`, `Fransızca`)
+
+**4C — Accusative Case `-(y)I` (Belirtme Durumu)**
+- Marks the **definite** direct object (`kitap alıyorum` vs `kitabı alıyorum`)
+- Required for: proper nouns, demonstratives + `hangi`/`bütün`/`bazı`, pronouns, and possessive-suffixed objects
+
 *(Further units to be added as they are reviewed.)*

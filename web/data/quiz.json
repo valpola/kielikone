@@ -8559,6 +8559,325 @@
       ]
     },
     {
+      "id": "cand-a1-4cb-0001",
+      "turkish": "erkek karde\u015f",
+      "english": "brother",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-4cb-0002",
+      "turkish": "k\u0131z karde\u015f",
+      "english": "sister",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-4cb-0003",
+      "turkish": "aile",
+      "english": "family",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-4cb-0004",
+      "turkish": "dosya",
+      "english": "file / folder",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-4cb-0005",
+      "turkish": "alb\u00fcm",
+      "english": "album",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-4cb-0006",
+      "turkish": "g\u00f6z",
+      "english": "eye",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-4cb-0007",
+      "turkish": "koku",
+      "english": "smell / scent",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-4cb-0008",
+      "turkish": "\u00fct\u00fc",
+      "english": "iron",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-4cb-0009",
+      "turkish": "omuz",
+      "english": "shoulder",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-4cb-0010",
+      "turkish": "fikir",
+      "english": "idea",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-4cb-0011",
+      "turkish": "boyun",
+      "english": "neck",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-4cb-0012",
+      "turkish": "renk",
+      "english": "colour",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-4cb-0013",
+      "turkish": "g\u00fcl",
+      "english": "rose",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-4cb-0014",
+      "turkish": "melek",
+      "english": "angel",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-4cb-0015",
+      "turkish": "g\u00f6vde",
+      "english": "trunk (of a tree)",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-4cb-0016",
+      "turkish": "kendi",
+      "english": "self / own (reflexive)",
+      "priority": 3,
+      "tags": [
+        "pronoun",
+        "unit-a1-4b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-4cb-0017",
+      "turkish": "dil",
+      "english": "language",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-4cb-0018",
+      "turkish": "Korece",
+      "english": "Korean (language)",
+      "priority": 3,
+      "tags": [
+        "language",
+        "unit-a1-4b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-4cb-0019",
+      "turkish": "Portekizce",
+      "english": "Portuguese (language)",
+      "priority": 3,
+      "tags": [
+        "language",
+        "unit-a1-4b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-4cb-0020",
+      "turkish": "Latince",
+      "english": "Latin (language)",
+      "priority": 3,
+      "tags": [
+        "language",
+        "unit-a1-4b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-4cb-0021",
+      "turkish": "Rus",
+      "english": "Russian (person)",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-4cb-0022",
+      "turkish": "Frans\u0131z",
+      "english": "French (person)",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-4cb-0023",
+      "turkish": "Japon",
+      "english": "Japanese (person)",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-4cb-0024",
+      "turkish": "dilek",
+      "english": "wish",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4c",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-4cb-0025",
+      "turkish": "\u00fcflemek",
+      "english": "to blow (out)",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-4c",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-4cb-0026",
+      "turkish": "yakmak",
+      "english": "to light / burn",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-4c",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-4cb-0027",
+      "turkish": "haber",
+      "english": "news",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4c",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-4cb-0028",
+      "turkish": "k\u0131yafet",
+      "english": "outfit / clothes",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4c",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-4cb-0029",
+      "turkish": "haz\u0131r",
+      "english": "ready",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-4c",
+        "unit-a1"
+      ]
+    },
+    {
       "id": "cand-a1-5a-0001",
       "turkish": "ay",
       "english": "month / moon",
