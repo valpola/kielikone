@@ -44,4 +44,19 @@ learner already knows with a target grammar concept, with AI grading of translat
 - Consonant softening in the suffix ("Ketçap/KTÇP" rule: `genç → gencim`, `kasap → kasabım`)
 - Negation with **`değil`** + personal endings (`avukat değilim`…)
 
+### Unit 3 — Nasıl Gidiyor? / Nereden Nereye / Alabilir miyiz? (How's it going? / From where to where / May we?)
+
+**3A — Present Continuous Tense**
+- **`-Iyor`** (`-ıyor`/`-iyor`/`-uyor`/`-üyor`) + 4-way vowel harmony; buffer **`-y`** after vowel-final stems (`uyu → uyuyor`, `oku → okuyor`)
+- Uses: actions in progress + habits/routines (`her gün` …)
+
+**3B — Dative & Ablative Cases**
+- Dative **`-(y)A`** (to / towards): `masaya`, `İstanbul'a`; pronouns `bana/sana/ona/bize/size/onlara`
+- Ablative **`-DAn`** (from): `evden`, `İstanbul'dan`
+- Case-governed verbs (dative: `bakmak`, `binmek`, `inanmak`, `güvenmek`, `kızmak`…); question forms `Neye? / Kime? / Nereye?`
+
+**3C — Want / Request / Permission**
+- Want to: **`-mAk istemek`** (`gelmek istiyorum`)
+- Ability/permission/request: **`-(y)AbilmEk`** → `-(y)Abilir miyim?` (may I…?) / `-(y)Abilir misin(iz)?` (could you…?), + `lütfen`
+
 *(Further units to be added as they are reviewed.)*

@@ -3673,8 +3673,7 @@
       "tags": [
         "noun",
         "unit-a1-2a",
-        "unit-a1",
-        "today"
+        "unit-a1"
       ]
     },
     {
@@ -3685,8 +3684,7 @@
       "tags": [
         "noun",
         "unit-a1-2a",
-        "unit-a1",
-        "today"
+        "unit-a1"
       ]
     },
     {
@@ -3697,8 +3695,7 @@
       "tags": [
         "noun",
         "unit-a1-2b",
-        "unit-a1",
-        "today"
+        "unit-a1"
       ]
     },
     {
@@ -3709,8 +3706,7 @@
       "tags": [
         "adjective",
         "unit-a1-2c",
-        "unit-a1",
-        "today"
+        "unit-a1"
       ]
     },
     {
@@ -3721,8 +3717,7 @@
       "tags": [
         "noun",
         "unit-a1-2c",
-        "unit-a1",
-        "today"
+        "unit-a1"
       ]
     },
     {
@@ -3733,8 +3728,7 @@
       "tags": [
         "noun",
         "unit-a1-2a",
-        "unit-a1",
-        "today"
+        "unit-a1"
       ]
     },
     {
@@ -5109,6 +5103,114 @@
       ]
     },
     {
+      "id": "cand-a1-3cb-0001",
+      "turkish": "g\u00fclmek",
+      "english": "to laugh",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-3a",
+        "unit-a1",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-3cb-0002",
+      "turkish": "\u00e7al\u0131\u015fan",
+      "english": "employee",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-3b",
+        "unit-a1",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-3cb-0003",
+      "turkish": "tarih",
+      "english": "date / history",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-3c",
+        "unit-a1",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-3web-0001",
+      "turkish": "gelmek",
+      "english": "to come",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-3a",
+        "unit-a1",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-3web-0002",
+      "turkish": "sabah",
+      "english": "morning",
+      "priority": 3,
+      "tags": [
+        "time-expression",
+        "unit-a1-3a",
+        "unit-a1",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-3web-0003",
+      "turkish": "ak\u015fam",
+      "english": "evening",
+      "priority": 3,
+      "tags": [
+        "time-expression",
+        "unit-a1-3a",
+        "unit-a1",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-3web-0004",
+      "turkish": "\u00f6\u011fleden sonra",
+      "english": "afternoon",
+      "priority": 3,
+      "tags": [
+        "time-expression",
+        "unit-a1-3a",
+        "unit-a1",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-3web-0005",
+      "turkish": "bitirmek",
+      "english": "to finish",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-3b",
+        "unit-a1",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-3web-0006",
+      "turkish": "yalan s\u00f6ylemek",
+      "english": "to tell a lie",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-3b",
+        "unit-a1",
+        "today"
+      ]
+    },
+    {
       "id": "cand-a1-4a-0001",
       "turkish": "ka\u00e7mak",
       "english": "to escape",
@@ -5955,8 +6057,7 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar",
-        "today"
+        "similar"
       ]
     },
     {
@@ -5968,8 +6069,7 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar",
-        "today"
+        "similar"
       ]
     },
     {
@@ -5992,8 +6092,7 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar",
-        "today"
+        "similar"
       ]
     },
     {

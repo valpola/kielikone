@@ -1,0 +1,48 @@
+{
+  "source_file": "A1 Unit 3 — Turkishle coursebook (grammar sections)",
+  "created_at": "2026-07-19T14:47:40+00:00",
+  "items": [
+    {
+      "id": "cand-a1-3cb-0001",
+      "turkish": "gülmek",
+      "english": "to laugh",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-3a",
+        "unit-a1"
+      ],
+      "source": "A1-3 grammar sections (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3cb-0002",
+      "turkish": "çalışan",
+      "english": "employee",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-3b",
+        "unit-a1"
+      ],
+      "source": "A1-3 grammar sections (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-3cb-0003",
+      "turkish": "tarih",
+      "english": "date / history",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-3c",
+        "unit-a1"
+      ],
+      "source": "A1-3 grammar sections (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    }
+  ]
+}
