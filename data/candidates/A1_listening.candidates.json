@@ -1,0 +1,283 @@
+{
+  "source_file": "A1 listening/dialogue expressions & vocab (Turkishle)",
+  "created_at": "2026-07-19T15:10:03+00:00",
+  "items": [
+    {
+      "id": "cand-a1-listen-0001",
+      "turkish": "bu arada",
+      "english": "by the way",
+      "priority": 3,
+      "tags": [
+        "expression",
+        "unit-extra"
+      ],
+      "source": "A1 listening/dialogue exercises (Turkishle)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-listen-0002",
+      "turkish": "o zaman",
+      "english": "then / in that case",
+      "priority": 3,
+      "tags": [
+        "expression",
+        "unit-extra"
+      ],
+      "source": "A1 listening/dialogue exercises (Turkishle)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-listen-0003",
+      "turkish": "öyle mi",
+      "english": "really? / is that so?",
+      "priority": 3,
+      "tags": [
+        "expression",
+        "unit-extra"
+      ],
+      "source": "A1 listening/dialogue exercises (Turkishle)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-listen-0004",
+      "turkish": "ne güzel",
+      "english": "how nice!",
+      "priority": 3,
+      "tags": [
+        "expression",
+        "unit-extra"
+      ],
+      "source": "A1 listening/dialogue exercises (Turkishle)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-listen-0005",
+      "turkish": "olur",
+      "english": "okay / sure (agreeing)",
+      "priority": 3,
+      "tags": [
+        "expression",
+        "unit-extra"
+      ],
+      "source": "A1 listening/dialogue exercises (Turkishle)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-listen-0006",
+      "turkish": "aferin",
+      "english": "well done / good job",
+      "priority": 3,
+      "tags": [
+        "expression",
+        "unit-extra"
+      ],
+      "source": "A1 listening/dialogue exercises (Turkishle)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-listen-0007",
+      "turkish": "buyurun",
+      "english": "here you are / go ahead",
+      "priority": 3,
+      "tags": [
+        "expression",
+        "unit-extra"
+      ],
+      "source": "A1 listening/dialogue exercises (Turkishle)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-listen-0008",
+      "turkish": "pardon",
+      "english": "excuse me / sorry",
+      "priority": 3,
+      "tags": [
+        "expression",
+        "unit-extra"
+      ],
+      "source": "A1 listening/dialogue exercises (Turkishle)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-listen-0009",
+      "turkish": "efendim",
+      "english": "pardon? / yes? (answering)",
+      "priority": 3,
+      "tags": [
+        "expression",
+        "unit-extra"
+      ],
+      "source": "A1 listening/dialogue exercises (Turkishle)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-listen-0010",
+      "turkish": "yani",
+      "english": "I mean / so / in other words",
+      "priority": 3,
+      "tags": [
+        "expression",
+        "unit-extra"
+      ],
+      "source": "A1 listening/dialogue exercises (Turkishle)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-listen-0011",
+      "turkish": "peki",
+      "english": "okay / alright / well then",
+      "priority": 3,
+      "tags": [
+        "expression",
+        "unit-extra"
+      ],
+      "source": "A1 listening/dialogue exercises (Turkishle)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-listen-0012",
+      "turkish": "bir şey değil",
+      "english": "you're welcome / no problem",
+      "priority": 3,
+      "tags": [
+        "expression",
+        "unit-extra"
+      ],
+      "source": "A1 listening/dialogue exercises (Turkishle)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-listen-0013",
+      "turkish": "her şey",
+      "english": "everything",
+      "priority": 3,
+      "tags": [
+        "expression",
+        "unit-extra"
+      ],
+      "source": "A1 listening/dialogue exercises (Turkishle)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-listen-0014",
+      "turkish": "tabii",
+      "english": "of course / sure",
+      "priority": 3,
+      "tags": [
+        "expression",
+        "unit-extra"
+      ],
+      "source": "A1 listening/dialogue exercises (Turkishle)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-listen-0015",
+      "turkish": "kusura bakma",
+      "english": "sorry / no offense",
+      "priority": 3,
+      "tags": [
+        "expression",
+        "unit-extra"
+      ],
+      "source": "A1 listening/dialogue exercises (Turkishle)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-listen-0016",
+      "turkish": "ne olsun",
+      "english": "just the usual (reply to 'how are you')",
+      "priority": 3,
+      "tags": [
+        "expression",
+        "unit-extra"
+      ],
+      "source": "A1 listening/dialogue exercises (Turkishle)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-listen-0017",
+      "turkish": "sen bilirsin",
+      "english": "as you wish / you know best",
+      "priority": 3,
+      "tags": [
+        "expression",
+        "unit-extra"
+      ],
+      "source": "A1 listening/dialogue exercises (Turkishle)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-listen-0018",
+      "turkish": "sahil",
+      "english": "shore / seaside",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-3a",
+        "unit-a1"
+      ],
+      "source": "A1 listening/dialogue exercises (Turkishle)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-listen-0019",
+      "turkish": "kurs",
+      "english": "course / class",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-3b",
+        "unit-a1"
+      ],
+      "source": "A1 listening/dialogue exercises (Turkishle)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-listen-0020",
+      "turkish": "boş zaman",
+      "english": "free time",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-3b",
+        "unit-a1"
+      ],
+      "source": "A1 listening/dialogue exercises (Turkishle)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-listen-0021",
+      "turkish": "rezervasyon",
+      "english": "reservation",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b",
+        "unit-a1"
+      ],
+      "source": "A1 listening/dialogue exercises (Turkishle)",
+      "notes": "",
+      "status": "approved"
+    }
+  ]
+}
