@@ -115,7 +115,7 @@
     },
     {
       "id": "cand-lang-0009",
-      "turkish": "Fin / Finlandiyalı",
+      "turkish": "Fin / Finli / Finlandiyalı",
       "english": "Finn / Finnish (person)",
       "priority": 3,
       "tags": [
@@ -124,7 +124,7 @@
       ],
       "source": "Personal addition (Finnish/Polish)",
       "notes": "",
-      "hint_en_tr": "(X / Y)",
+      "hint_en_tr": "(X / Y / Z)",
       "status": "approved"
     },
     {
