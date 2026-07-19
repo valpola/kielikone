@@ -14571,8 +14571,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1",
-        "today"
+        "unit-a1"
       ]
     },
     {
@@ -14692,7 +14691,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1"
+        "unit-a1",
+        "today"
       ]
     },
     {
@@ -16383,7 +16383,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-extra"
+        "unit-a1"
       ]
     },
     {
@@ -16393,7 +16393,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-extra"
+        "unit-a1"
       ]
     },
     {
@@ -16403,7 +16403,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-extra"
+        "unit-a1"
       ]
     }
   ],
