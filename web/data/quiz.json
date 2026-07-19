@@ -4035,7 +4035,7 @@
     {
       "id": "cand-a1-3a-0034",
       "turkish": "her zaman",
-      "english": "always",
+      "english": "always / every time",
       "priority": 3,
       "tags": [
         "adverb",
@@ -6208,7 +6208,8 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -8946,7 +8947,7 @@
     {
       "id": "cand-a1-5a-0011",
       "turkish": "saniye",
-      "english": "second",
+      "english": "second (unit of time)",
       "priority": 3,
       "tags": [
         "unit-a1-5a",
@@ -11478,8 +11479,7 @@
       "tags": [
         "verb",
         "unit-a1-5b",
-        "unit-a1",
-        "today"
+        "unit-a1"
       ]
     },
     {
@@ -14771,7 +14771,7 @@
     {
       "id": "cand-cat-0051",
       "turkish": "ni\u00e7in",
-      "english": "why",
+      "english": "why / what for",
       "priority": 3,
       "tags": [
         "adverb",
@@ -15739,7 +15739,7 @@
     {
       "id": "cand-num-0026",
       "turkish": "ikinci",
-      "english": "second",
+      "english": "second (2nd)",
       "priority": 3,
       "tags": [
         "number",
@@ -15970,7 +15970,7 @@
     {
       "id": "cand-web-0013",
       "turkish": "mola",
-      "english": "break",
+      "english": "break (rest / pause)",
       "priority": 3,
       "tags": [
         "noun",
@@ -16269,7 +16269,7 @@
     {
       "id": "cand-web-0040",
       "turkish": "hep",
-      "english": "always",
+      "english": "always / all the time",
       "priority": 3,
       "tags": [
         "adverb",

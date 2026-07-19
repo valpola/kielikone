@@ -159,7 +159,7 @@
     {
       "id": "cand-web-0013",
       "turkish": "mola",
-      "english": "break",
+      "english": "break (rest / pause)",
       "priority": 3,
       "tags": [
         "noun",
@@ -539,7 +539,7 @@
     {
       "id": "cand-web-0040",
       "turkish": "hep",
-      "english": "always",
+      "english": "always / all the time",
       "priority": 3,
       "tags": [
         "adverb",
