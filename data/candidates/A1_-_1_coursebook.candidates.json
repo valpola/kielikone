@@ -1,0 +1,147 @@
+{
+  "source_file": "A1 Unit 1 — Turkishle coursebook (grammar sections + dialogue/listening transcripts)",
+  "created_at": "2026-07-19T13:03:55+00:00",
+  "items": [
+    {
+      "id": "cand-a1-1cb-0001",
+      "turkish": "naber / ne haber",
+      "english": "what's up? (informal)",
+      "priority": 3,
+      "tags": [
+        "expression",
+        "unit-a1-1a",
+        "unit-a1"
+      ],
+      "source": "A1-1A grammar section (Turkishle coursebook)",
+      "notes": "",
+      "hint_en_tr": "(X / Y)",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1cb-0002",
+      "turkish": "ne var ne yok",
+      "english": "what's up? / how are things?",
+      "priority": 3,
+      "tags": [
+        "expression",
+        "unit-a1-1a",
+        "unit-a1"
+      ],
+      "source": "A1-1A grammar section (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1cb-0003",
+      "turkish": "nasıl gidiyor",
+      "english": "how's it going?",
+      "priority": 3,
+      "tags": [
+        "expression",
+        "unit-a1-1a",
+        "unit-a1"
+      ],
+      "source": "A1-1A grammar section (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1cb-0004",
+      "turkish": "fena",
+      "english": "bad",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-1a",
+        "unit-a1"
+      ],
+      "source": "A1-1A grammar section (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1cb-0005",
+      "turkish": "eh işte",
+      "english": "so-so / meh",
+      "priority": 3,
+      "tags": [
+        "expression",
+        "unit-a1-1a",
+        "unit-a1"
+      ],
+      "source": "A1-1A grammar section (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1cb-0006",
+      "turkish": "isim",
+      "english": "name",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1a",
+        "unit-a1"
+      ],
+      "source": "A1-1A grammar section (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1cb-0007",
+      "turkish": "bebek",
+      "english": "baby",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b",
+        "unit-a1"
+      ],
+      "source": "A1-1B grammar section (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1cb-0008",
+      "turkish": "balkon",
+      "english": "balcony",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b",
+        "unit-a1"
+      ],
+      "source": "A1-1 dialogue/listening transcript (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1cb-0009",
+      "turkish": "uyumak",
+      "english": "to sleep",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-1b",
+        "unit-a1"
+      ],
+      "source": "A1-1 dialogue/listening transcript (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-1cb-0010",
+      "turkish": "soyadı",
+      "english": "surname",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1a",
+        "unit-a1"
+      ],
+      "source": "A1-1 dialogue/listening transcript (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    }
+  ]
+}
