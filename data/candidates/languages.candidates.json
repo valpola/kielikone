@@ -1,0 +1,157 @@
+{
+  "source_file": "Languages — coursebook (A1-4B) + personal (Finnish/Polish)",
+  "created_at": "2026-07-19T16:49:57+00:00",
+  "items": [
+    {
+      "id": "cand-lang-0001",
+      "turkish": "Kazakça",
+      "english": "Kazakh",
+      "priority": 3,
+      "tags": [
+        "language",
+        "unit-a1-4b",
+        "unit-a1"
+      ],
+      "source": "A1-4B Languages table (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-lang-0002",
+      "turkish": "Danca",
+      "english": "Danish",
+      "priority": 3,
+      "tags": [
+        "language",
+        "unit-a1-4b",
+        "unit-a1"
+      ],
+      "source": "A1-4B Languages table (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-lang-0003",
+      "turkish": "Felemenkçe / Hollandaca",
+      "english": "Dutch",
+      "priority": 3,
+      "tags": [
+        "language",
+        "unit-a1-4b",
+        "unit-a1"
+      ],
+      "source": "A1-4B Languages table (Turkishle coursebook)",
+      "notes": "",
+      "hint_en_tr": "(X / Y)",
+      "status": "approved"
+    },
+    {
+      "id": "cand-lang-0004",
+      "turkish": "Farsça",
+      "english": "Persian / Farsi",
+      "priority": 3,
+      "tags": [
+        "language",
+        "unit-a1-4b",
+        "unit-a1"
+      ],
+      "source": "A1-4B Languages table (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-lang-0005",
+      "turkish": "Makedonca",
+      "english": "Macedonian",
+      "priority": 3,
+      "tags": [
+        "language",
+        "unit-a1-4b",
+        "unit-a1"
+      ],
+      "source": "A1-4B Languages table (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-lang-0006",
+      "turkish": "Urduca",
+      "english": "Urdu",
+      "priority": 3,
+      "tags": [
+        "language",
+        "unit-a1-4b",
+        "unit-a1"
+      ],
+      "source": "A1-4B Languages table (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-lang-0007",
+      "turkish": "Fince",
+      "english": "Finnish",
+      "priority": 3,
+      "tags": [
+        "language",
+        "unit-extra"
+      ],
+      "source": "Personal addition (Finnish/Polish)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-lang-0008",
+      "turkish": "Lehçe",
+      "english": "Polish (language)",
+      "priority": 3,
+      "tags": [
+        "language",
+        "unit-extra"
+      ],
+      "source": "Personal addition (Finnish/Polish)",
+      "notes": "Capital Lehçe = Polish; lowercase lehçe = dialect",
+      "status": "approved"
+    },
+    {
+      "id": "cand-lang-0009",
+      "turkish": "Fin / Finlandiyalı",
+      "english": "Finn / Finnish (person)",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-extra"
+      ],
+      "source": "Personal addition (Finnish/Polish)",
+      "notes": "",
+      "hint_en_tr": "(X / Y)",
+      "status": "approved"
+    },
+    {
+      "id": "cand-lang-0010",
+      "turkish": "Polonya",
+      "english": "Poland",
+      "priority": 3,
+      "tags": [
+        "country",
+        "unit-extra"
+      ],
+      "source": "Personal addition (Finnish/Polish)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-lang-0011",
+      "turkish": "Polonyalı",
+      "english": "Pole / Polish (person)",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-extra"
+      ],
+      "source": "Personal addition (Finnish/Polish)",
+      "notes": "",
+      "status": "approved"
+    }
+  ]
+}

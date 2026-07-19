@@ -14020,6 +14020,124 @@
       "hint_en_tr": "(X / Y / Z)"
     },
     {
+      "id": "cand-lang-0001",
+      "turkish": "Kazak\u00e7a",
+      "english": "Kazakh",
+      "priority": 3,
+      "tags": [
+        "language",
+        "unit-a1-4b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-lang-0002",
+      "turkish": "Danca",
+      "english": "Danish",
+      "priority": 3,
+      "tags": [
+        "language",
+        "unit-a1-4b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-lang-0003",
+      "turkish": "Felemenk\u00e7e / Hollandaca",
+      "english": "Dutch",
+      "priority": 3,
+      "tags": [
+        "language",
+        "unit-a1-4b",
+        "unit-a1"
+      ],
+      "hint_en_tr": "(X / Y)"
+    },
+    {
+      "id": "cand-lang-0004",
+      "turkish": "Fars\u00e7a",
+      "english": "Persian / Farsi",
+      "priority": 3,
+      "tags": [
+        "language",
+        "unit-a1-4b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-lang-0005",
+      "turkish": "Makedonca",
+      "english": "Macedonian",
+      "priority": 3,
+      "tags": [
+        "language",
+        "unit-a1-4b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-lang-0006",
+      "turkish": "Urduca",
+      "english": "Urdu",
+      "priority": 3,
+      "tags": [
+        "language",
+        "unit-a1-4b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-lang-0007",
+      "turkish": "Fince",
+      "english": "Finnish",
+      "priority": 3,
+      "tags": [
+        "language",
+        "unit-extra"
+      ]
+    },
+    {
+      "id": "cand-lang-0008",
+      "turkish": "Leh\u00e7e",
+      "english": "Polish (language)",
+      "priority": 3,
+      "tags": [
+        "language",
+        "unit-extra"
+      ]
+    },
+    {
+      "id": "cand-lang-0009",
+      "turkish": "Fin / Finlandiyal\u0131",
+      "english": "Finn / Finnish (person)",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-extra"
+      ],
+      "hint_en_tr": "(X / Y)"
+    },
+    {
+      "id": "cand-lang-0010",
+      "turkish": "Polonya",
+      "english": "Poland",
+      "priority": 3,
+      "tags": [
+        "country",
+        "unit-extra"
+      ]
+    },
+    {
+      "id": "cand-lang-0011",
+      "turkish": "Polonyal\u0131",
+      "english": "Pole / Polish (person)",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-extra"
+      ]
+    },
+    {
       "id": "extra-0001",
       "turkish": "\u00f6r\u00fcmcek",
       "english": "spider",
