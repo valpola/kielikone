@@ -1,0 +1,725 @@
+{
+  "source_file": "Category gap-fill (body, family, colours, clothing, directions, weather, professions, question words)",
+  "created_at": "2026-07-19T00:00:00+00:00",
+  "items": [
+    {
+      "id": "cand-cat-0001",
+      "turkish": "baş",
+      "english": "head",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4a",
+        "unit-a1"
+      ],
+      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "notes": "",
+      "status": "approved",
+      "hint_tr_en": "(vücut)"
+    },
+    {
+      "id": "cand-cat-0002",
+      "turkish": "saç",
+      "english": "hair",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4a",
+        "unit-a1"
+      ],
+      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-cat-0003",
+      "turkish": "kulak",
+      "english": "ear",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4a",
+        "unit-a1"
+      ],
+      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-cat-0004",
+      "turkish": "ağız",
+      "english": "mouth",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4a",
+        "unit-a1"
+      ],
+      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-cat-0005",
+      "turkish": "parmak",
+      "english": "finger",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4a",
+        "unit-a1"
+      ],
+      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-cat-0006",
+      "turkish": "karın",
+      "english": "belly / stomach",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4a",
+        "unit-a1"
+      ],
+      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-cat-0007",
+      "turkish": "bacak",
+      "english": "leg",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4a",
+        "unit-a1"
+      ],
+      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-cat-0008",
+      "turkish": "ayak",
+      "english": "foot",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4a",
+        "unit-a1"
+      ],
+      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-cat-0009",
+      "turkish": "diz",
+      "english": "knee",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4a",
+        "unit-a1"
+      ],
+      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-cat-0010",
+      "turkish": "kalp",
+      "english": "heart",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4a",
+        "unit-a1"
+      ],
+      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-cat-0011",
+      "turkish": "yüz",
+      "english": "face",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4a",
+        "unit-a1"
+      ],
+      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "notes": "",
+      "status": "approved",
+      "hint_tr_en": "(vücut)"
+    },
+    {
+      "id": "cand-cat-0012",
+      "turkish": "nine",
+      "english": "grandmother",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4a",
+        "unit-a1"
+      ],
+      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-cat-0013",
+      "turkish": "kahverengi",
+      "english": "brown",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-1b",
+        "unit-a2"
+      ],
+      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-cat-0014",
+      "turkish": "ceket",
+      "english": "jacket",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-1b",
+        "unit-a2"
+      ],
+      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-cat-0015",
+      "turkish": "şapka",
+      "english": "hat",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-1b",
+        "unit-a2"
+      ],
+      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-cat-0016",
+      "turkish": "etek",
+      "english": "skirt",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-1b",
+        "unit-a2"
+      ],
+      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-cat-0017",
+      "turkish": "kemer",
+      "english": "belt",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-1b",
+        "unit-a2"
+      ],
+      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-cat-0018",
+      "turkish": "eşarp",
+      "english": "headscarf",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-1b",
+        "unit-a2"
+      ],
+      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-cat-0019",
+      "turkish": "bluz",
+      "english": "blouse",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-1b",
+        "unit-a2"
+      ],
+      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-cat-0020",
+      "turkish": "sağ",
+      "english": "right",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1"
+      ],
+      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "notes": "",
+      "status": "approved",
+      "hint_tr_en": "(yön)"
+    },
+    {
+      "id": "cand-cat-0021",
+      "turkish": "sol",
+      "english": "left",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1"
+      ],
+      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "notes": "",
+      "status": "approved",
+      "hint_tr_en": "(yön)"
+    },
+    {
+      "id": "cand-cat-0022",
+      "turkish": "batı",
+      "english": "west",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1"
+      ],
+      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-cat-0023",
+      "turkish": "yukarı",
+      "english": "up / upward",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1"
+      ],
+      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-cat-0024",
+      "turkish": "aşağı",
+      "english": "down / downward",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1"
+      ],
+      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-cat-0025",
+      "turkish": "ileri",
+      "english": "forward / ahead",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1"
+      ],
+      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-cat-0026",
+      "turkish": "yağmur",
+      "english": "rain",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1"
+      ],
+      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-cat-0027",
+      "turkish": "kar",
+      "english": "snow",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1"
+      ],
+      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "notes": "",
+      "status": "approved",
+      "hint_tr_en": "(hava)"
+    },
+    {
+      "id": "cand-cat-0028",
+      "turkish": "rüzgar",
+      "english": "wind",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1"
+      ],
+      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-cat-0029",
+      "turkish": "bulut",
+      "english": "cloud",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1"
+      ],
+      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-cat-0030",
+      "turkish": "fırtına",
+      "english": "storm",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1"
+      ],
+      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-cat-0031",
+      "turkish": "sis",
+      "english": "fog",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1"
+      ],
+      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-cat-0032",
+      "turkish": "güneşli",
+      "english": "sunny",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1"
+      ],
+      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-cat-0033",
+      "turkish": "yağmurlu",
+      "english": "rainy",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1"
+      ],
+      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-cat-0034",
+      "turkish": "karlı",
+      "english": "snowy",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1"
+      ],
+      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-cat-0035",
+      "turkish": "bulutlu",
+      "english": "cloudy",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1"
+      ],
+      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-cat-0036",
+      "turkish": "rüzgarlı",
+      "english": "windy",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1"
+      ],
+      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-cat-0037",
+      "turkish": "doktor",
+      "english": "doctor",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1"
+      ],
+      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-cat-0038",
+      "turkish": "polis",
+      "english": "police officer",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1"
+      ],
+      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-cat-0039",
+      "turkish": "garson",
+      "english": "waiter / waitress",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1"
+      ],
+      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-cat-0040",
+      "turkish": "avukat",
+      "english": "lawyer",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1"
+      ],
+      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-cat-0041",
+      "turkish": "şoför",
+      "english": "driver",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1"
+      ],
+      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-cat-0042",
+      "turkish": "aşçı",
+      "english": "cook / chef",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1"
+      ],
+      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-cat-0043",
+      "turkish": "işçi",
+      "english": "worker",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1"
+      ],
+      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-cat-0044",
+      "turkish": "çiftçi",
+      "english": "farmer",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1"
+      ],
+      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-cat-0045",
+      "turkish": "satıcı",
+      "english": "seller / salesperson",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1"
+      ],
+      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-cat-0046",
+      "turkish": "terzi",
+      "english": "tailor",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1"
+      ],
+      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-cat-0047",
+      "turkish": "kim",
+      "english": "who",
+      "priority": 3,
+      "tags": [
+        "pronoun",
+        "unit-a1-1b",
+        "unit-a1"
+      ],
+      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-cat-0048",
+      "turkish": "kaç",
+      "english": "how many / how much",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2b",
+        "unit-a1"
+      ],
+      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "notes": "",
+      "status": "approved",
+      "hint_tr_en": "(soru)"
+    },
+    {
+      "id": "cand-cat-0049",
+      "turkish": "ne zaman",
+      "english": "when",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1"
+      ],
+      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-cat-0050",
+      "turkish": "neden",
+      "english": "why",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1"
+      ],
+      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "notes": "",
+      "status": "approved",
+      "hint_tr_en": "(soru)"
+    },
+    {
+      "id": "cand-cat-0051",
+      "turkish": "niçin",
+      "english": "why",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1"
+      ],
+      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-cat-0052",
+      "turkish": "açık",
+      "english": "open",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1"
+      ],
+      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "notes": "",
+      "status": "approved",
+      "hint_tr_en": "(kapı vb.)"
+    },
+    {
+      "id": "cand-cat-0053",
+      "turkish": "kapalı",
+      "english": "closed",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1"
+      ],
+      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "notes": "",
+      "status": "approved",
+      "hint_tr_en": "(kapı vb.)"
+    }
+  ]
+}

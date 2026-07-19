@@ -4478,15 +4478,16 @@
     },
     {
       "id": "cand-a1-3b-0109",
-      "turkish": "(birine / bir \u015feye) cevap vermek",
-      "english": "to answer / reply to sb./sth.",
+      "turkish": "cevaplamak / cevap vermek",
+      "english": "to answer / to reply",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
         "unit-a1",
         "verb",
         "unit-a1-3a"
-      ]
+      ],
+      "hint_en_tr": "(iki fiil / two verbs)"
     },
     {
       "id": "cand-a1-3b-0110",
@@ -14239,6 +14240,566 @@
       "hint_en_tr": "(X / Y / Z)"
     },
     {
+      "id": "cand-cat-0001",
+      "turkish": "ba\u015f",
+      "english": "head",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4a",
+        "unit-a1"
+      ],
+      "hint_tr_en": "(v\u00fccut)"
+    },
+    {
+      "id": "cand-cat-0002",
+      "turkish": "sa\u00e7",
+      "english": "hair",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-cat-0003",
+      "turkish": "kulak",
+      "english": "ear",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-cat-0004",
+      "turkish": "a\u011f\u0131z",
+      "english": "mouth",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-cat-0005",
+      "turkish": "parmak",
+      "english": "finger",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-cat-0006",
+      "turkish": "kar\u0131n",
+      "english": "belly / stomach",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-cat-0007",
+      "turkish": "bacak",
+      "english": "leg",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-cat-0008",
+      "turkish": "ayak",
+      "english": "foot",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-cat-0009",
+      "turkish": "diz",
+      "english": "knee",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-cat-0010",
+      "turkish": "kalp",
+      "english": "heart",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-cat-0011",
+      "turkish": "y\u00fcz",
+      "english": "face",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4a",
+        "unit-a1"
+      ],
+      "hint_tr_en": "(v\u00fccut)"
+    },
+    {
+      "id": "cand-cat-0012",
+      "turkish": "nine",
+      "english": "grandmother",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-cat-0013",
+      "turkish": "kahverengi",
+      "english": "brown",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-1b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-cat-0014",
+      "turkish": "ceket",
+      "english": "jacket",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-1b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-cat-0015",
+      "turkish": "\u015fapka",
+      "english": "hat",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-1b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-cat-0016",
+      "turkish": "etek",
+      "english": "skirt",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-1b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-cat-0017",
+      "turkish": "kemer",
+      "english": "belt",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-1b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-cat-0018",
+      "turkish": "e\u015farp",
+      "english": "headscarf",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-1b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-cat-0019",
+      "turkish": "bluz",
+      "english": "blouse",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-1b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-cat-0020",
+      "turkish": "sa\u011f",
+      "english": "right",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1"
+      ],
+      "hint_tr_en": "(y\u00f6n)"
+    },
+    {
+      "id": "cand-cat-0021",
+      "turkish": "sol",
+      "english": "left",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1"
+      ],
+      "hint_tr_en": "(y\u00f6n)"
+    },
+    {
+      "id": "cand-cat-0022",
+      "turkish": "bat\u0131",
+      "english": "west",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-cat-0023",
+      "turkish": "yukar\u0131",
+      "english": "up / upward",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-cat-0024",
+      "turkish": "a\u015fa\u011f\u0131",
+      "english": "down / downward",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-cat-0025",
+      "turkish": "ileri",
+      "english": "forward / ahead",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-cat-0026",
+      "turkish": "ya\u011fmur",
+      "english": "rain",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-cat-0027",
+      "turkish": "kar",
+      "english": "snow",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1"
+      ],
+      "hint_tr_en": "(hava)"
+    },
+    {
+      "id": "cand-cat-0028",
+      "turkish": "r\u00fczgar",
+      "english": "wind",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-cat-0029",
+      "turkish": "bulut",
+      "english": "cloud",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-cat-0030",
+      "turkish": "f\u0131rt\u0131na",
+      "english": "storm",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-cat-0031",
+      "turkish": "sis",
+      "english": "fog",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-cat-0032",
+      "turkish": "g\u00fcne\u015fli",
+      "english": "sunny",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-cat-0033",
+      "turkish": "ya\u011fmurlu",
+      "english": "rainy",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-cat-0034",
+      "turkish": "karl\u0131",
+      "english": "snowy",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-cat-0035",
+      "turkish": "bulutlu",
+      "english": "cloudy",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-cat-0036",
+      "turkish": "r\u00fczgarl\u0131",
+      "english": "windy",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-cat-0037",
+      "turkish": "doktor",
+      "english": "doctor",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-cat-0038",
+      "turkish": "polis",
+      "english": "police officer",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-cat-0039",
+      "turkish": "garson",
+      "english": "waiter / waitress",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-cat-0040",
+      "turkish": "avukat",
+      "english": "lawyer",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-cat-0041",
+      "turkish": "\u015fof\u00f6r",
+      "english": "driver",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-cat-0042",
+      "turkish": "a\u015f\u00e7\u0131",
+      "english": "cook / chef",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-cat-0043",
+      "turkish": "i\u015f\u00e7i",
+      "english": "worker",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-cat-0044",
+      "turkish": "\u00e7ift\u00e7i",
+      "english": "farmer",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-cat-0045",
+      "turkish": "sat\u0131c\u0131",
+      "english": "seller / salesperson",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-cat-0046",
+      "turkish": "terzi",
+      "english": "tailor",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-cat-0047",
+      "turkish": "kim",
+      "english": "who",
+      "priority": 3,
+      "tags": [
+        "pronoun",
+        "unit-a1-1b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-cat-0048",
+      "turkish": "ka\u00e7",
+      "english": "how many / how much",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2b",
+        "unit-a1"
+      ],
+      "hint_tr_en": "(soru)"
+    },
+    {
+      "id": "cand-cat-0049",
+      "turkish": "ne zaman",
+      "english": "when",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-cat-0050",
+      "turkish": "neden",
+      "english": "why",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1"
+      ],
+      "hint_tr_en": "(soru)"
+    },
+    {
+      "id": "cand-cat-0051",
+      "turkish": "ni\u00e7in",
+      "english": "why",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-cat-0052",
+      "turkish": "a\u00e7\u0131k",
+      "english": "open",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1"
+      ],
+      "hint_tr_en": "(kap\u0131 vb.)"
+    },
+    {
+      "id": "cand-cat-0053",
+      "turkish": "kapal\u0131",
+      "english": "closed",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1"
+      ],
+      "hint_tr_en": "(kap\u0131 vb.)"
+    },
+    {
       "id": "cand-lang-0001",
       "turkish": "Kazak\u00e7a",
       "english": "Kazakh (language)",
@@ -14784,7 +15345,8 @@
         "math",
         "noun",
         "unit-extra"
-      ]
+      ],
+      "hint_tr_en": "(matematik)"
     },
     {
       "id": "cand-math-0010",
@@ -15070,7 +15632,8 @@
         "number",
         "unit-a1-2b",
         "unit-a1"
-      ]
+      ],
+      "hint_tr_en": "(say\u0131)"
     },
     {
       "id": "cand-num-0021",
@@ -15081,7 +15644,8 @@
         "number",
         "unit-a1-2b",
         "unit-a1"
-      ]
+      ],
+      "hint_tr_en": "(say\u0131)"
     },
     {
       "id": "cand-num-0022",
@@ -15304,17 +15868,6 @@
       ]
     },
     {
-      "id": "cand-web-0007",
-      "turkish": "cevaplamak",
-      "english": "to answer",
-      "priority": 3,
-      "tags": [
-        "verb",
-        "unit-a1-3b",
-        "unit-a1"
-      ]
-    },
-    {
       "id": "cand-web-0008",
       "turkish": "\u015fark\u0131 s\u00f6ylemek",
       "english": "to sing",
@@ -15488,7 +16041,8 @@
         "noun",
         "unit-a1-2c",
         "unit-a1"
-      ]
+      ],
+      "hint_tr_en": "(isim)"
     },
     {
       "id": "cand-web-0024",
@@ -15565,7 +16119,8 @@
         "adjective",
         "unit-a1-3c",
         "unit-a1"
-      ]
+      ],
+      "hint_tr_en": "(s\u0131fat)"
     },
     {
       "id": "cand-web-0031",

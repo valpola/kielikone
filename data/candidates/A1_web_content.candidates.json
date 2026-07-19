@@ -87,20 +87,6 @@
       "status": "approved"
     },
     {
-      "id": "cand-web-0007",
-      "turkish": "cevaplamak",
-      "english": "to answer",
-      "priority": 3,
-      "tags": [
-        "verb",
-        "unit-a1-3b",
-        "unit-a1"
-      ],
-      "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
-      "notes": "",
-      "status": "approved"
-    },
-    {
       "id": "cand-web-0008",
       "turkish": "şarkı söylemek",
       "english": "to sing",
@@ -322,7 +308,8 @@
       ],
       "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_tr_en": "(isim)"
     },
     {
       "id": "cand-web-0024",
@@ -420,7 +407,8 @@
       ],
       "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_tr_en": "(sıfat)"
     },
     {
       "id": "cand-web-0031",

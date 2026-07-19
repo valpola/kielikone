@@ -116,8 +116,8 @@
     },
     {
       "id": "cand-a1-3b-0109",
-      "turkish": "(birine / bir şeye) cevap vermek",
-      "english": "to answer / reply to sb./sth.",
+      "turkish": "cevaplamak / cevap vermek",
+      "english": "to answer / to reply",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
@@ -125,8 +125,9 @@
         "verb"
       ],
       "source": "Unit_3B_manual",
-      "notes": "manual entry",
-      "status": "approved"
+      "notes": "Combined synonyms: cevaplamak (-i) and cevap vermek (-e). 3A/3B cevaplamak entries alias here.",
+      "status": "approved",
+      "hint_en_tr": "(iki fiil / two verbs)"
     },
     {
       "id": "cand-a1-3b-0110",

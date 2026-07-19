@@ -280,7 +280,8 @@
       ],
       "source": "A1-2B numbers (Turkishle) + standard cardinals to 10^12",
       "notes": "Also 'face'; stem of yüzmek (to swim).",
-      "status": "approved"
+      "status": "approved",
+      "hint_tr_en": "(sayı)"
     },
     {
       "id": "cand-num-0021",
@@ -294,7 +295,8 @@
       ],
       "source": "A1-2B numbers (Turkishle) + standard cardinals to 10^12",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_tr_en": "(sayı)"
     },
     {
       "id": "cand-num-0022",

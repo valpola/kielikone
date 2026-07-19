@@ -126,7 +126,8 @@
       ],
       "source": "Basic mathematics vocabulary (not covered in Turkishle A1/A2/B1)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_tr_en": "(matematik)"
     },
     {
       "id": "cand-math-0010",
