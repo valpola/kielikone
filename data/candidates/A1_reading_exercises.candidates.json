@@ -169,6 +169,48 @@
       "source": "A1-4/5 reading exercise SÖZLÜK (Turkishle web)",
       "notes": "",
       "status": "approved"
+    },
+    {
+      "id": "cand-a1-rd-0013",
+      "turkish": "meşhur",
+      "english": "famous / well-known",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-4b",
+        "unit-a1"
+      ],
+      "source": "A1-4/5 reading exercise SÖZLÜK (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-rd-0014",
+      "turkish": "hem... hem de...",
+      "english": "both... and...",
+      "priority": 3,
+      "tags": [
+        "conjunction",
+        "unit-a1-4b",
+        "unit-a1"
+      ],
+      "source": "A1-4/5 reading exercise SÖZLÜK (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-rd-0015",
+      "turkish": "beklemek",
+      "english": "to wait",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-5c",
+        "unit-a1"
+      ],
+      "source": "A1-4/5 reading exercise SÖZLÜK (Turkishle web)",
+      "notes": "",
+      "status": "approved"
     }
   ]
 }

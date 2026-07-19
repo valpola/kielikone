@@ -11492,6 +11492,39 @@
       ]
     },
     {
+      "id": "cand-a1-rd-0013",
+      "turkish": "me\u015fhur",
+      "english": "famous / well-known",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-4b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-rd-0014",
+      "turkish": "hem... hem de...",
+      "english": "both... and...",
+      "priority": 3,
+      "tags": [
+        "conjunction",
+        "unit-a1-4b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-rd-0015",
+      "turkish": "beklemek",
+      "english": "to wait",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-5c",
+        "unit-a1"
+      ]
+    },
+    {
       "id": "cand-a2-1a-0001",
       "turkish": "\u00e7arpmak",
       "english": "to hit / crash into",
@@ -12798,8 +12831,7 @@
       "tags": [
         "verb",
         "unit-a2",
-        "unit-a2-1c",
-        "today"
+        "unit-a2-1c"
       ]
     },
     {
@@ -14453,7 +14485,8 @@
       "tags": [
         "noun",
         "unit-a1-4b",
-        "unit-a1"
+        "unit-a1",
+        "today"
       ]
     },
     {
