@@ -524,6 +524,17 @@ const recomputeToday = async ({ silent = false } = {}) => {
   const previousLabel = RECOMPUTE_TODAY.textContent;
   RECOMPUTE_TODAY.textContent = "Recomputing...";
 
+  // Visible loading state so the user sees the app reacted (e.g. after an
+  // empty-state Enter). current is nulled so a stray Enter stays inert until
+  // the next word loads (instead of revealing/grading an empty answer).
+  current = null;
+  PROMPT.textContent = "Recomputing today's words…";
+  if (HINT) HINT.classList.add("hidden");
+  REVEAL.hidden = true;
+  ACTIONS.classList.add("hidden");
+  GRADE.classList.add("hidden");
+  ANSWER.value = "";
+
   try {
     const csvText = await fetchResultsCsv();
     if (!csvText) {
@@ -562,7 +573,10 @@ const recomputeToday = async ({ silent = false } = {}) => {
     renderPrompt();
     return true;
   } catch (error) {
-    if (!silent) window.alert("Failed to recompute today list.");
+    if (!silent) {
+      window.alert("Failed to recompute today list.");
+      renderPrompt();
+    }
   } finally {
     RECOMPUTE_TODAY.disabled = false;
     RECOMPUTE_TODAY.textContent = previousLabel;
