@@ -6207,8 +6207,7 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar",
-        "today"
+        "similar"
       ]
     },
     {
@@ -11361,6 +11360,138 @@
       ]
     },
     {
+      "id": "cand-a1-rd-0001",
+      "turkish": "kanal",
+      "english": "channel",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-rd-0002",
+      "turkish": "en az",
+      "english": "at least",
+      "priority": 3,
+      "tags": [
+        "expression",
+        "unit-a1-4a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-rd-0003",
+      "turkish": "Ben ka\u00e7ar!",
+      "english": "I'm off! / I'm out of here!",
+      "priority": 3,
+      "tags": [
+        "expression",
+        "unit-a1-4a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-rd-0004",
+      "turkish": "b\u00fct\u00fcn",
+      "english": "all / whole",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-4b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-rd-0005",
+      "turkish": "h\u00e2l\u00e2",
+      "english": "still",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-4c",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-rd-0006",
+      "turkish": "oru\u00e7 tutmak",
+      "english": "to fast",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-4c",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-rd-0007",
+      "turkish": "hep birlikte",
+      "english": "all together",
+      "priority": 3,
+      "tags": [
+        "expression",
+        "unit-a1-4c",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-rd-0008",
+      "turkish": "dinlenmek",
+      "english": "to rest",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-5a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-rd-0009",
+      "turkish": "teleferik",
+      "english": "cable car",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-5b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-rd-0010",
+      "turkish": "ac\u0131kmak",
+      "english": "to get hungry",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-5b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-rd-0011",
+      "turkish": "meze",
+      "english": "appetizer / starter",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-5b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-rd-0012",
+      "turkish": "tatmak",
+      "english": "to taste",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-5b",
+        "unit-a1"
+      ]
+    },
+    {
       "id": "cand-a2-1a-0001",
       "turkish": "\u00e7arpmak",
       "english": "to hit / crash into",
@@ -12667,7 +12798,8 @@
       "tags": [
         "verb",
         "unit-a2",
-        "unit-a2-1c"
+        "unit-a2-1c",
+        "today"
       ]
     },
     {

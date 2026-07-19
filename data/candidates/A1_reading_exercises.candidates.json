@@ -1,0 +1,174 @@
+{
+  "source_file": "A1 Unit 4-5 reading-exercise glossaries (SÖZLÜK, Turkishle web)",
+  "created_at": "2026-07-19T18:00:57+00:00",
+  "items": [
+    {
+      "id": "cand-a1-rd-0001",
+      "turkish": "kanal",
+      "english": "channel",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4a",
+        "unit-a1"
+      ],
+      "source": "A1-4/5 reading exercise SÖZLÜK (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-rd-0002",
+      "turkish": "en az",
+      "english": "at least",
+      "priority": 3,
+      "tags": [
+        "expression",
+        "unit-a1-4a",
+        "unit-a1"
+      ],
+      "source": "A1-4/5 reading exercise SÖZLÜK (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-rd-0003",
+      "turkish": "Ben kaçar!",
+      "english": "I'm off! / I'm out of here!",
+      "priority": 3,
+      "tags": [
+        "expression",
+        "unit-a1-4a",
+        "unit-a1"
+      ],
+      "source": "A1-4/5 reading exercise SÖZLÜK (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-rd-0004",
+      "turkish": "bütün",
+      "english": "all / whole",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-4b",
+        "unit-a1"
+      ],
+      "source": "A1-4/5 reading exercise SÖZLÜK (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-rd-0005",
+      "turkish": "hâlâ",
+      "english": "still",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-4c",
+        "unit-a1"
+      ],
+      "source": "A1-4/5 reading exercise SÖZLÜK (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-rd-0006",
+      "turkish": "oruç tutmak",
+      "english": "to fast",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-4c",
+        "unit-a1"
+      ],
+      "source": "A1-4/5 reading exercise SÖZLÜK (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-rd-0007",
+      "turkish": "hep birlikte",
+      "english": "all together",
+      "priority": 3,
+      "tags": [
+        "expression",
+        "unit-a1-4c",
+        "unit-a1"
+      ],
+      "source": "A1-4/5 reading exercise SÖZLÜK (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-rd-0008",
+      "turkish": "dinlenmek",
+      "english": "to rest",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-5a",
+        "unit-a1"
+      ],
+      "source": "A1-4/5 reading exercise SÖZLÜK (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-rd-0009",
+      "turkish": "teleferik",
+      "english": "cable car",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-5b",
+        "unit-a1"
+      ],
+      "source": "A1-4/5 reading exercise SÖZLÜK (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-rd-0010",
+      "turkish": "acıkmak",
+      "english": "to get hungry",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-5b",
+        "unit-a1"
+      ],
+      "source": "A1-4/5 reading exercise SÖZLÜK (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-rd-0011",
+      "turkish": "meze",
+      "english": "appetizer / starter",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-5b",
+        "unit-a1"
+      ],
+      "source": "A1-4/5 reading exercise SÖZLÜK (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-rd-0012",
+      "turkish": "tatmak",
+      "english": "to taste",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-5b",
+        "unit-a1"
+      ],
+      "source": "A1-4/5 reading exercise SÖZLÜK (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    }
+  ]
+}
