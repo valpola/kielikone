@@ -11478,7 +11478,8 @@
       "tags": [
         "verb",
         "unit-a1-5b",
-        "unit-a1"
+        "unit-a1",
+        "today"
       ]
     },
     {
@@ -12970,7 +12971,7 @@
     {
       "id": "cand-a2-1c-0023",
       "turkish": "tad\u0131na bakmak",
-      "english": "to taste",
+      "english": "to have a taste of / to sample (food)",
       "priority": 3,
       "tags": [
         "verb",
@@ -15047,8 +15048,7 @@
       "tags": [
         "noun",
         "unit-a1-4b",
-        "unit-a1",
-        "today"
+        "unit-a1"
       ]
     },
     {
