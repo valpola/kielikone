@@ -14800,6 +14800,51 @@
       "hint_tr_en": "(kap\u0131 vb.)"
     },
     {
+      "id": "cand-cat-0054",
+      "turkish": "gelin",
+      "english": "bride / daughter-in-law",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4a",
+        "unit-a1"
+      ],
+      "hint_tr_en": "(aile)"
+    },
+    {
+      "id": "cand-cat-0055",
+      "turkish": "damat",
+      "english": "groom / son-in-law",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-cat-0056",
+      "turkish": "kay\u0131nvalide",
+      "english": "mother-in-law",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-cat-0057",
+      "turkish": "kay\u0131npeder",
+      "english": "father-in-law",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4a",
+        "unit-a1"
+      ]
+    },
+    {
       "id": "cand-lang-0001",
       "turkish": "Kazak\u00e7a",
       "english": "Kazakh (language)",

@@ -1,5 +1,5 @@
 {
-  "source_file": "Category gap-fill (body, family, colours, clothing, directions, weather, professions, question words)",
+  "source_file": "Category vocabulary: coursebook-attested + gap-fill (per-item source field)",
   "created_at": "2026-07-19T00:00:00+00:00",
   "items": [
     {
@@ -12,7 +12,7 @@
         "unit-a1-4a",
         "unit-a1"
       ],
-      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "source": "Turkishle coursebook (A2)",
       "notes": "",
       "status": "approved",
       "hint_tr_en": "(vücut)"
@@ -27,7 +27,7 @@
         "unit-a1-4a",
         "unit-a1"
       ],
-      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "source": "Turkishle coursebook (A1)",
       "notes": "",
       "status": "approved"
     },
@@ -41,7 +41,7 @@
         "unit-a1-4a",
         "unit-a1"
       ],
-      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "source": "Turkishle coursebook (A2)",
       "notes": "",
       "status": "approved"
     },
@@ -55,7 +55,7 @@
         "unit-a1-4a",
         "unit-a1"
       ],
-      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "source": "Turkishle coursebook (A2)",
       "notes": "",
       "status": "approved"
     },
@@ -69,7 +69,7 @@
         "unit-a1-4a",
         "unit-a1"
       ],
-      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "source": "Turkishle coursebook (A2)",
       "notes": "",
       "status": "approved"
     },
@@ -83,7 +83,7 @@
         "unit-a1-4a",
         "unit-a1"
       ],
-      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "source": "gap-fill: standard vocabulary, not found in Turkishle A1/A2/B1 coursebooks",
       "notes": "",
       "status": "approved"
     },
@@ -97,7 +97,7 @@
         "unit-a1-4a",
         "unit-a1"
       ],
-      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "source": "gap-fill: standard vocabulary, not found in Turkishle A1/A2/B1 coursebooks",
       "notes": "",
       "status": "approved"
     },
@@ -111,7 +111,7 @@
         "unit-a1-4a",
         "unit-a1"
       ],
-      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "source": "Turkishle coursebook (B1)",
       "notes": "",
       "status": "approved"
     },
@@ -125,7 +125,7 @@
         "unit-a1-4a",
         "unit-a1"
       ],
-      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "source": "Turkishle coursebook (A2)",
       "notes": "",
       "status": "approved"
     },
@@ -139,7 +139,7 @@
         "unit-a1-4a",
         "unit-a1"
       ],
-      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "source": "Turkishle coursebook (A2)",
       "notes": "",
       "status": "approved"
     },
@@ -153,7 +153,7 @@
         "unit-a1-4a",
         "unit-a1"
       ],
-      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "source": "Turkishle coursebook (A1, A2, B1)",
       "notes": "",
       "status": "approved",
       "hint_tr_en": "(vücut)"
@@ -168,7 +168,7 @@
         "unit-a1-4a",
         "unit-a1"
       ],
-      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "source": "Turkishle coursebook (A1, A2)",
       "notes": "",
       "status": "approved"
     },
@@ -182,7 +182,7 @@
         "unit-a2-1b",
         "unit-a2"
       ],
-      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "source": "Turkishle coursebook (A2)",
       "notes": "",
       "status": "approved"
     },
@@ -196,7 +196,7 @@
         "unit-a2-1b",
         "unit-a2"
       ],
-      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "source": "Turkishle coursebook (A2)",
       "notes": "",
       "status": "approved"
     },
@@ -210,7 +210,7 @@
         "unit-a2-1b",
         "unit-a2"
       ],
-      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "source": "gap-fill: standard vocabulary, not found in Turkishle A1/A2/B1 coursebooks",
       "notes": "",
       "status": "approved"
     },
@@ -224,7 +224,7 @@
         "unit-a2-1b",
         "unit-a2"
       ],
-      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "source": "Turkishle coursebook (B1)",
       "notes": "",
       "status": "approved"
     },
@@ -238,7 +238,7 @@
         "unit-a2-1b",
         "unit-a2"
       ],
-      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "source": "gap-fill: standard vocabulary, not found in Turkishle A1/A2/B1 coursebooks",
       "notes": "",
       "status": "approved"
     },
@@ -252,7 +252,7 @@
         "unit-a2-1b",
         "unit-a2"
       ],
-      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "source": "gap-fill: standard vocabulary, not found in Turkishle A1/A2/B1 coursebooks",
       "notes": "",
       "status": "approved"
     },
@@ -266,7 +266,7 @@
         "unit-a2-1b",
         "unit-a2"
       ],
-      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "source": "gap-fill: standard vocabulary, not found in Turkishle A1/A2/B1 coursebooks",
       "notes": "",
       "status": "approved"
     },
@@ -279,7 +279,7 @@
         "noun",
         "unit-a1"
       ],
-      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "source": "Turkishle coursebook (A1, A2, B1)",
       "notes": "",
       "status": "approved",
       "hint_tr_en": "(yön)"
@@ -293,7 +293,7 @@
         "noun",
         "unit-a1"
       ],
-      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "source": "Turkishle coursebook (A2)",
       "notes": "",
       "status": "approved",
       "hint_tr_en": "(yön)"
@@ -307,7 +307,7 @@
         "noun",
         "unit-a1"
       ],
-      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "source": "gap-fill: standard vocabulary, not found in Turkishle A1/A2/B1 coursebooks",
       "notes": "",
       "status": "approved"
     },
@@ -320,7 +320,7 @@
         "adverb",
         "unit-a1"
       ],
-      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "source": "Turkishle coursebook (B1)",
       "notes": "",
       "status": "approved"
     },
@@ -333,7 +333,7 @@
         "adverb",
         "unit-a1"
       ],
-      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "source": "Turkishle coursebook (A2)",
       "notes": "",
       "status": "approved"
     },
@@ -346,7 +346,7 @@
         "adverb",
         "unit-a1"
       ],
-      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "source": "Turkishle coursebook (A2)",
       "notes": "",
       "status": "approved"
     },
@@ -359,7 +359,7 @@
         "noun",
         "unit-a1"
       ],
-      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "source": "Turkishle coursebook (A1, A2, B1)",
       "notes": "",
       "status": "approved"
     },
@@ -372,7 +372,7 @@
         "noun",
         "unit-a1"
       ],
-      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "source": "Turkishle coursebook (A2, B1)",
       "notes": "",
       "status": "approved",
       "hint_tr_en": "(hava)"
@@ -386,7 +386,7 @@
         "noun",
         "unit-a1"
       ],
-      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "source": "Turkishle coursebook (A1)",
       "notes": "",
       "status": "approved"
     },
@@ -399,7 +399,7 @@
         "noun",
         "unit-a1"
       ],
-      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "source": "Turkishle coursebook (A2)",
       "notes": "",
       "status": "approved"
     },
@@ -412,7 +412,7 @@
         "noun",
         "unit-a1"
       ],
-      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "source": "Turkishle coursebook (A2)",
       "notes": "",
       "status": "approved"
     },
@@ -425,7 +425,7 @@
         "noun",
         "unit-a1"
       ],
-      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "source": "Turkishle coursebook (A2)",
       "notes": "",
       "status": "approved"
     },
@@ -438,7 +438,7 @@
         "adjective",
         "unit-a1"
       ],
-      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "source": "Turkishle coursebook (A2)",
       "notes": "",
       "status": "approved"
     },
@@ -451,7 +451,7 @@
         "adjective",
         "unit-a1"
       ],
-      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "source": "Turkishle coursebook (A2, B1)",
       "notes": "",
       "status": "approved"
     },
@@ -464,7 +464,7 @@
         "adjective",
         "unit-a1"
       ],
-      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "source": "Turkishle coursebook (A2)",
       "notes": "",
       "status": "approved"
     },
@@ -477,7 +477,7 @@
         "adjective",
         "unit-a1"
       ],
-      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "source": "Turkishle coursebook (A2)",
       "notes": "",
       "status": "approved"
     },
@@ -490,7 +490,7 @@
         "adjective",
         "unit-a1"
       ],
-      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "source": "Turkishle coursebook (A2)",
       "notes": "",
       "status": "approved"
     },
@@ -503,7 +503,7 @@
         "noun",
         "unit-a1"
       ],
-      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "source": "Turkishle coursebook (A1, A2)",
       "notes": "",
       "status": "approved"
     },
@@ -516,7 +516,7 @@
         "noun",
         "unit-a1"
       ],
-      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "source": "Turkishle coursebook (A1, B1)",
       "notes": "",
       "status": "approved"
     },
@@ -529,7 +529,7 @@
         "noun",
         "unit-a1"
       ],
-      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "source": "Turkishle coursebook (A1, A2)",
       "notes": "",
       "status": "approved"
     },
@@ -542,7 +542,7 @@
         "noun",
         "unit-a1"
       ],
-      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "source": "Turkishle coursebook (A1, A2)",
       "notes": "",
       "status": "approved"
     },
@@ -555,7 +555,7 @@
         "noun",
         "unit-a1"
       ],
-      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "source": "Turkishle coursebook (A2)",
       "notes": "",
       "status": "approved"
     },
@@ -568,7 +568,7 @@
         "noun",
         "unit-a1"
       ],
-      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "source": "Turkishle coursebook (A2)",
       "notes": "",
       "status": "approved"
     },
@@ -581,7 +581,7 @@
         "noun",
         "unit-a1"
       ],
-      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "source": "Turkishle coursebook (A2, B1)",
       "notes": "",
       "status": "approved"
     },
@@ -594,7 +594,7 @@
         "noun",
         "unit-a1"
       ],
-      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "source": "gap-fill: standard vocabulary, not found in Turkishle A1/A2/B1 coursebooks",
       "notes": "",
       "status": "approved"
     },
@@ -607,7 +607,7 @@
         "noun",
         "unit-a1"
       ],
-      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "source": "Turkishle coursebook (A1)",
       "notes": "",
       "status": "approved"
     },
@@ -620,7 +620,7 @@
         "noun",
         "unit-a1"
       ],
-      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "source": "gap-fill: standard vocabulary, not found in Turkishle A1/A2/B1 coursebooks",
       "notes": "",
       "status": "approved"
     },
@@ -634,7 +634,7 @@
         "unit-a1-1b",
         "unit-a1"
       ],
-      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "source": "Turkishle coursebook (A1, A2, B1)",
       "notes": "",
       "status": "approved"
     },
@@ -648,7 +648,7 @@
         "unit-a1-2b",
         "unit-a1"
       ],
-      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "source": "Turkishle coursebook (A1, A2, B1)",
       "notes": "",
       "status": "approved",
       "hint_tr_en": "(soru)"
@@ -662,7 +662,7 @@
         "adverb",
         "unit-a1"
       ],
-      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "source": "Turkishle coursebook (A1, A2, B1)",
       "notes": "",
       "status": "approved"
     },
@@ -675,7 +675,7 @@
         "adverb",
         "unit-a1"
       ],
-      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "source": "Turkishle coursebook (A1, A2, B1)",
       "notes": "",
       "status": "approved",
       "hint_tr_en": "(soru)"
@@ -689,7 +689,7 @@
         "adverb",
         "unit-a1"
       ],
-      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "source": "gap-fill: standard vocabulary, not found in Turkishle A1/A2/B1 coursebooks",
       "notes": "",
       "status": "approved"
     },
@@ -702,7 +702,7 @@
         "adjective",
         "unit-a1"
       ],
-      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "source": "Turkishle coursebook (A1, A2, B1)",
       "notes": "",
       "status": "approved",
       "hint_tr_en": "(kapı vb.)"
@@ -716,10 +716,67 @@
         "adjective",
         "unit-a1"
       ],
-      "source": "A1 coursebook category lists + standard vocabulary (gap-fill)",
+      "source": "Turkishle coursebook (A1, B1)",
       "notes": "",
       "status": "approved",
       "hint_tr_en": "(kapı vb.)"
+    },
+    {
+      "id": "cand-cat-0054",
+      "turkish": "gelin",
+      "english": "bride / daughter-in-law",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4a",
+        "unit-a1"
+      ],
+      "source": "Turkishle coursebook (B1)",
+      "notes": "",
+      "status": "approved",
+      "hint_tr_en": "(aile)"
+    },
+    {
+      "id": "cand-cat-0055",
+      "turkish": "damat",
+      "english": "groom / son-in-law",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4a",
+        "unit-a1"
+      ],
+      "source": "gap-fill: standard vocabulary; user recalls seeing it online, not in A1/A2/B1 coursebooks",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-cat-0056",
+      "turkish": "kayınvalide",
+      "english": "mother-in-law",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4a",
+        "unit-a1"
+      ],
+      "source": "gap-fill: standard vocabulary; user recalls seeing it online, not in A1/A2/B1 coursebooks",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-cat-0057",
+      "turkish": "kayınpeder",
+      "english": "father-in-law",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4a",
+        "unit-a1"
+      ],
+      "source": "gap-fill: standard vocabulary; user recalls seeing it online, not in A1/A2/B1 coursebooks",
+      "notes": "",
+      "status": "approved"
     }
   ]
 }
