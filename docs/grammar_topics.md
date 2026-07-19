@@ -75,4 +75,18 @@ learner already knows with a target grammar concept, with AI grading of translat
 - Marks the **definite** direct object (`kitap alıyorum` vs `kitabı alıyorum`)
 - Required for: proper nouns, demonstratives + `hangi`/`bütün`/`bazı`, pronouns, and possessive-suffixed objects
 
+### Unit 5 — Türkçe'yi Beş Geçiyor (Telling time / Before-After / Since-For)
+
+**5A — Telling Time (Saatler)**
+- Whole hours (`Saat sekiz`), **`buçuk`** (half past), **`çeyrek geçiyor` / `çeyrek var`** (quarter past / to), `(dakika) geçiyor / var` (minutes past/to)
+- Past = accusative on the hour (`sekizi çeyrek geçiyor`); To = dative on the hour (`sekize çeyrek var`)
+- "at X o'clock" = locative **`-DA`** (`sekizde`); time-of-day words `sabah/öğle/öğleden sonra/akşam/gece`
+- **`-DAn -(y)A kadar`** (from … to/until)
+
+**5B — Before & After**
+- **`-mAdAn önce`** (before doing X); **`-DIktAn sonra`** (after doing X)
+
+**5C — Since & For**
+- **`-DAn beri`** (since a point in time); **`-DIr`** (for a duration) — `geçen yıldan beri`, `sekiz yıldır`
+
 *(Further units to be added as they are reviewed.)*

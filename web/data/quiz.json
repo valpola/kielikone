@@ -6207,7 +6207,8 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -9723,6 +9724,105 @@
       "priority": 3,
       "tags": [
         "adjective",
+        "unit-a1-5c",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-5cb-0001",
+      "turkish": "\u00e7eyrek",
+      "english": "quarter",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-5a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-5cb-0002",
+      "turkish": "bu\u00e7uk",
+      "english": "half past",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-5a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-5cb-0003",
+      "turkish": "saray",
+      "english": "palace",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-5a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-5cb-0004",
+      "turkish": "gelecek",
+      "english": "next / future",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-5b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-5cb-0005",
+      "turkish": "sonunda",
+      "english": "finally / at last",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-5b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-5cb-0006",
+      "turkish": "\u015fark\u0131",
+      "english": "song",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-5b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-5cb-0007",
+      "turkish": "dans",
+      "english": "dance",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-5b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-5cb-0008",
+      "turkish": "hizmet",
+      "english": "service",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-5c",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-5cb-0009",
+      "turkish": "trafik",
+      "english": "traffic",
+      "priority": 3,
+      "tags": [
+        "noun",
         "unit-a1-5c",
         "unit-a1"
       ]
@@ -14102,8 +14202,7 @@
       "priority": 3,
       "tags": [
         "language",
-        "unit-extra",
-        "today"
+        "unit-extra"
       ]
     },
     {
