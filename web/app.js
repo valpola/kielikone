@@ -491,23 +491,23 @@ const fetchResultsCsv = async () => {
   return response.text();
 };
 
-const recomputeToday = async () => {
+const recomputeToday = async ({ silent = false } = {}) => {
   if (typeof TodayScoring === "undefined") {
-    window.alert("Today scoring module is missing.");
+    if (!silent) window.alert("Today scoring module is missing.");
     return;
   }
 
   const endpoint = getResultsEndpoint();
   if (!endpoint) {
-    window.alert("Results endpoint is not configured.");
+    if (!silent) window.alert("Results endpoint is not configured.");
     return;
   }
   if (!getApiKey()) {
-    window.alert("Login is required to fetch results.");
+    if (!silent) window.alert("Login is required to fetch results.");
     return;
   }
   if (!loginState.valid) {
-    window.alert("API key is invalid.");
+    if (!silent) window.alert("API key is invalid.");
     return;
   }
 
@@ -552,7 +552,7 @@ const recomputeToday = async () => {
     sessionCorrect.clear();
     renderPrompt();
   } catch (error) {
-    window.alert("Failed to recompute today list.");
+    if (!silent) window.alert("Failed to recompute today list.");
   } finally {
     RECOMPUTE_TODAY.disabled = false;
     RECOMPUTE_TODAY.textContent = previousLabel;
@@ -786,7 +786,7 @@ TODAY_LIMIT.addEventListener("change", () => {
   saveTodayLimit();
 });
 
-RECOMPUTE_TODAY.addEventListener("click", recomputeToday);
+RECOMPUTE_TODAY.addEventListener("click", () => recomputeToday());
 
 REVEAL.addEventListener("click", revealAnswer);
 NEXT.addEventListener("click", renderPrompt);
@@ -898,12 +898,19 @@ const loadData = async () => {
   loadMode();
   updateQueueStatusUi();
   await initLoginState();
-  void flushResultQueue();
+  const flushed = Promise.resolve(flushResultQueue()).catch(() => {});
   computedToday = loadStoredToday();
   renderDebugControls();
   renderTagOptions();
   renderMode();
   renderPrompt();
+  // Auto-refresh today's list from the latest results (same as a manual
+  // Recompute), so a reload doesn't re-quiz words just answered. Runs silently
+  // and falls back to the stored list if offline / not logged in. Waits for the
+  // result queue to flush first so freshly-graded words are reflected.
+  if (loginState.valid) {
+    flushed.then(() => recomputeToday({ silent: true }));
+  }
 };
 
 loadData().catch(() => {
