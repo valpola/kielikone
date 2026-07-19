@@ -5695,7 +5695,8 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -12549,8 +12550,7 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-2b",
-        "today"
+        "unit-a2-2b"
       ]
     },
     {
@@ -12773,6 +12773,51 @@
         "unit-a2",
         "unit-a2-2b"
       ]
+    },
+    {
+      "id": "cand-a2-2b-conj-0001",
+      "turkish": "ama",
+      "english": "but",
+      "priority": 3,
+      "tags": [
+        "conjunction",
+        "unit-a2",
+        "unit-a2-2b"
+      ]
+    },
+    {
+      "id": "cand-a2-2b-conj-0002",
+      "turkish": "\u00e7\u00fcnk\u00fc",
+      "english": "because",
+      "priority": 3,
+      "tags": [
+        "conjunction",
+        "unit-a2",
+        "unit-a2-2b"
+      ]
+    },
+    {
+      "id": "cand-a2-2b-conj-0003",
+      "turkish": "dolay\u0131s\u0131yla",
+      "english": "consequently / therefore",
+      "priority": 3,
+      "tags": [
+        "conjunction",
+        "unit-a2",
+        "unit-a2-2b"
+      ]
+    },
+    {
+      "id": "cand-a2-2b-conj-0004",
+      "turkish": "bu y\u00fczden / bu nedenle / bu sebeple",
+      "english": "that's why / for this reason",
+      "priority": 3,
+      "tags": [
+        "conjunction",
+        "unit-a2",
+        "unit-a2-2b"
+      ],
+      "hint_en_tr": "(X / Y / Z)"
     },
     {
       "id": "extra-0001",
