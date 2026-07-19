@@ -45,20 +45,6 @@
       "status": "approved"
     },
     {
-      "id": "cand-a1-1web-0004",
-      "turkish": "Hoş buldum",
-      "english": "Glad to be here (reply to Hoş geldin)",
-      "priority": 3,
-      "tags": [
-        "greeting",
-        "unit-a1-1a",
-        "unit-a1"
-      ],
-      "source": "A1-1A Greetings lesson (Turkishle course)",
-      "notes": "",
-      "status": "approved"
-    },
-    {
       "id": "cand-a1-1web-0005",
       "turkish": "Adın ne?",
       "english": "What's your name?",

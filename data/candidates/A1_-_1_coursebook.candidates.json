@@ -47,7 +47,7 @@
     },
     {
       "id": "cand-a1-1cb-0004",
-      "turkish": "fena",
+      "turkish": "kötü / fena",
       "english": "bad",
       "priority": 3,
       "tags": [
@@ -57,6 +57,7 @@
       ],
       "source": "A1-1A grammar section (Turkishle coursebook)",
       "notes": "",
+      "hint_en_tr": "(X / Y)",
       "status": "approved"
     },
     {
@@ -75,7 +76,7 @@
     },
     {
       "id": "cand-a1-1cb-0006",
-      "turkish": "isim",
+      "turkish": "ad / isim",
       "english": "name",
       "priority": 3,
       "tags": [
@@ -85,6 +86,7 @@
       ],
       "source": "A1-1A grammar section (Turkishle coursebook)",
       "notes": "",
+      "hint_en_tr": "(X / Y)",
       "status": "approved"
     },
     {

@@ -117,7 +117,7 @@
     {
       "id": "cand-a1-1b-0009",
       "turkish": "fırın",
-      "english": "oven",
+      "english": "oven / bakery",
       "priority": 3,
       "tags": [
         "noun",
@@ -126,7 +126,6 @@
       ],
       "source": "A1_-_1B.pdf",
       "notes": "",
-      "hint_tr_en": "(ev aleti)",
       "status": "approved"
     },
     {
