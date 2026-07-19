@@ -1193,13 +1193,14 @@
     {
       "id": "cand-a1-1web-0006",
       "turkish": "T\u00fcrk",
-      "english": "Turkish (person)",
+      "english": "Turkish",
       "priority": 3,
       "tags": [
         "noun",
         "unit-a1-1a",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-a1-1web-0007",
@@ -3525,13 +3526,14 @@
     {
       "id": "cand-a1-2c-0054",
       "turkish": "ya\u015fl\u0131",
-      "english": "old (person)",
+      "english": "old",
       "priority": 3,
       "tags": [
         "adjective",
         "unit-a1-2c",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-a1-2c-0055",
@@ -3558,13 +3560,14 @@
     {
       "id": "cand-a1-2c-0057",
       "turkish": "zay\u0131f",
-      "english": "thin (person)",
+      "english": "thin",
       "priority": 3,
       "tags": [
         "adjective",
         "unit-a1-2c",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-a1-2c-0058",
@@ -7675,202 +7678,220 @@
     {
       "id": "cand-a1-4b-0177",
       "turkish": "Almanca",
-      "english": "German (language)",
+      "english": "German",
       "priority": 3,
       "tags": [
         "unit-a1-4b",
         "unit-a1",
         "language"
-      ]
+      ],
+      "hint_en_tr": "(language)"
     },
     {
       "id": "cand-a1-4b-0178",
       "turkish": "Arap\u00e7a",
-      "english": "Arabic (language)",
+      "english": "Arabic",
       "priority": 3,
       "tags": [
         "unit-a1-4b",
         "unit-a1",
         "language"
-      ]
+      ],
+      "hint_en_tr": "(language)"
     },
     {
       "id": "cand-a1-4b-0179",
       "turkish": "Arnavut\u00e7a",
-      "english": "Albanian (language)",
+      "english": "Albanian",
       "priority": 3,
       "tags": [
         "unit-a1-4b",
         "unit-a1",
         "language"
-      ]
+      ],
+      "hint_en_tr": "(language)"
     },
     {
       "id": "cand-a1-4b-0180",
       "turkish": "Bulgarca",
-      "english": "Bulgarian (language)",
+      "english": "Bulgarian",
       "priority": 3,
       "tags": [
         "unit-a1-4b",
         "unit-a1",
         "language",
         "similar"
-      ]
+      ],
+      "hint_en_tr": "(language)"
     },
     {
       "id": "cand-a1-4b-0181",
       "turkish": "Frans\u0131zca",
-      "english": "French (language)",
+      "english": "French",
       "priority": 3,
       "tags": [
         "unit-a1-4b",
         "unit-a1",
         "language"
-      ]
+      ],
+      "hint_en_tr": "(language)"
     },
     {
       "id": "cand-a1-4b-0182",
       "turkish": "G\u00fcrc\u00fcce",
-      "english": "Georgian (language)",
+      "english": "Georgian",
       "priority": 3,
       "tags": [
         "unit-a1-4b",
         "unit-a1",
         "language"
-      ]
+      ],
+      "hint_en_tr": "(language)"
     },
     {
       "id": "cand-a1-4b-0183",
       "turkish": "Hint\u00e7e",
-      "english": "Hindi (language)",
+      "english": "Hindi",
       "priority": 3,
       "tags": [
         "unit-a1-4b",
         "unit-a1",
         "language"
-      ]
+      ],
+      "hint_en_tr": "(language)"
     },
     {
       "id": "cand-a1-4b-0184",
       "turkish": "Japonca",
-      "english": "Japanese (language)",
+      "english": "Japanese",
       "priority": 3,
       "tags": [
         "unit-a1-4b",
         "unit-a1",
         "language"
-      ]
+      ],
+      "hint_en_tr": "(language)"
     },
     {
       "id": "cand-a1-4b-0185",
       "turkish": "Macarca",
-      "english": "Hungarian (language)",
+      "english": "Hungarian",
       "priority": 3,
       "tags": [
         "unit-a1-4b",
         "unit-a1",
         "language"
-      ]
+      ],
+      "hint_en_tr": "(language)"
     },
     {
       "id": "cand-a1-4b-0186",
       "turkish": "Rumca/Yunanca",
-      "english": "Greek (language)",
+      "english": "Greek",
       "priority": 3,
       "tags": [
         "unit-a1-4b",
         "unit-a1",
         "language"
-      ]
+      ],
+      "hint_en_tr": "(language)"
     },
     {
       "id": "cand-a1-4b-0187",
       "turkish": "Rus\u00e7a",
-      "english": "Russian (language)",
+      "english": "Russian",
       "priority": 3,
       "tags": [
         "unit-a1-4b",
         "unit-a1",
         "language"
-      ]
+      ],
+      "hint_en_tr": "(language)"
     },
     {
       "id": "cand-a1-4b-0188",
       "turkish": "S\u0131rp\u00e7a",
-      "english": "Serbian (language)",
+      "english": "Serbian",
       "priority": 3,
       "tags": [
         "unit-a1-4b",
         "unit-a1",
         "language"
-      ]
+      ],
+      "hint_en_tr": "(language)"
     },
     {
       "id": "cand-a1-4b-0189",
       "turkish": "T\u00fcrk\u00e7e",
-      "english": "Turkish (language)",
+      "english": "Turkish",
       "priority": 3,
       "tags": [
         "unit-a1-4b",
         "unit-a1",
         "language"
-      ]
+      ],
+      "hint_en_tr": "(language)"
     },
     {
       "id": "cand-a1-4b-0190",
       "turkish": "\u00c7ek\u00e7e",
-      "english": "Czech (language)",
+      "english": "Czech",
       "priority": 3,
       "tags": [
         "unit-a1-4b",
         "unit-a1",
         "language"
-      ]
+      ],
+      "hint_en_tr": "(language)"
     },
     {
       "id": "cand-a1-4b-0191",
       "turkish": "\u00c7ince",
-      "english": "Chinese (language)",
+      "english": "Chinese",
       "priority": 3,
       "tags": [
         "unit-a1-4b",
         "unit-a1",
         "language"
-      ]
+      ],
+      "hint_en_tr": "(language)"
     },
     {
       "id": "cand-a1-4b-0192",
       "turkish": "\u0130ngilizce",
-      "english": "English (language)",
+      "english": "English",
       "priority": 3,
       "tags": [
         "unit-a1-4b",
         "unit-a1",
         "language"
-      ]
+      ],
+      "hint_en_tr": "(language)"
     },
     {
       "id": "cand-a1-4b-0193",
       "turkish": "\u0130spanyolca",
-      "english": "Spanish (language)",
+      "english": "Spanish",
       "priority": 3,
       "tags": [
         "unit-a1-4b",
         "unit-a1",
         "language"
-      ]
+      ],
+      "hint_en_tr": "(language)"
     },
     {
       "id": "cand-a1-4b-0194",
       "turkish": "\u0130talyanca",
-      "english": "Italian (language)",
+      "english": "Italian",
       "priority": 3,
       "tags": [
         "unit-a1-4b",
         "unit-a1",
         "language",
         "similar"
-      ]
+      ],
+      "hint_en_tr": "(language)"
     },
     {
       "id": "cand-a1-4b-0195",
@@ -8749,68 +8770,74 @@
     {
       "id": "cand-a1-4cb-0018",
       "turkish": "Korece",
-      "english": "Korean (language)",
+      "english": "Korean",
       "priority": 3,
       "tags": [
         "language",
         "unit-a1-4b",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(language)"
     },
     {
       "id": "cand-a1-4cb-0019",
       "turkish": "Portekizce",
-      "english": "Portuguese (language)",
+      "english": "Portuguese",
       "priority": 3,
       "tags": [
         "language",
         "unit-a1-4b",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(language)"
     },
     {
       "id": "cand-a1-4cb-0020",
       "turkish": "Latince",
-      "english": "Latin (language)",
+      "english": "Latin",
       "priority": 3,
       "tags": [
         "language",
         "unit-a1-4b",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(language)"
     },
     {
       "id": "cand-a1-4cb-0021",
       "turkish": "Rus",
-      "english": "Russian (person)",
+      "english": "Russian",
       "priority": 3,
       "tags": [
         "noun",
         "unit-a1-4b",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-a1-4cb-0022",
       "turkish": "Frans\u0131z",
-      "english": "French (person)",
+      "english": "French",
       "priority": 3,
       "tags": [
         "noun",
         "unit-a1-4b",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-a1-4cb-0023",
       "turkish": "Japon",
-      "english": "Japanese (person)",
+      "english": "Japanese",
       "priority": 3,
       "tags": [
         "noun",
         "unit-a1-4b",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-a1-4cb-0024",
@@ -8947,13 +8974,14 @@
     {
       "id": "cand-a1-5a-0011",
       "turkish": "saniye",
-      "english": "second (unit of time)",
+      "english": "second",
       "priority": 3,
       "tags": [
         "unit-a1-5a",
         "unit-a1",
         "noun"
-      ]
+      ],
+      "hint_en_tr": "(unit of time)"
     },
     {
       "id": "cand-a1-5a-0013",
@@ -12971,7 +12999,7 @@
     {
       "id": "cand-a2-1c-0023",
       "turkish": "tad\u0131na bakmak",
-      "english": "to have a taste of / to sample (food)",
+      "english": "to have a taste of / to sample",
       "priority": 3,
       "tags": [
         "verb",
@@ -14841,100 +14869,107 @@
     {
       "id": "cand-lang-0001",
       "turkish": "Kazak\u00e7a",
-      "english": "Kazakh (language)",
-      "priority": 3,
-      "tags": [
-        "language",
-        "unit-a1-4b",
-        "unit-a1"
-      ]
-    },
-    {
-      "id": "cand-lang-0002",
-      "turkish": "Danca",
-      "english": "Danish (language)",
-      "priority": 3,
-      "tags": [
-        "language",
-        "unit-a1-4b",
-        "unit-a1"
-      ]
-    },
-    {
-      "id": "cand-lang-0003",
-      "turkish": "Felemenk\u00e7e / Hollandaca",
-      "english": "Dutch (language)",
+      "english": "Kazakh",
       "priority": 3,
       "tags": [
         "language",
         "unit-a1-4b",
         "unit-a1"
       ],
-      "hint_en_tr": "(X / Y)"
+      "hint_en_tr": "(language)"
+    },
+    {
+      "id": "cand-lang-0002",
+      "turkish": "Danca",
+      "english": "Danish",
+      "priority": 3,
+      "tags": [
+        "language",
+        "unit-a1-4b",
+        "unit-a1"
+      ],
+      "hint_en_tr": "(language)"
+    },
+    {
+      "id": "cand-lang-0003",
+      "turkish": "Felemenk\u00e7e / Hollandaca",
+      "english": "Dutch",
+      "priority": 3,
+      "tags": [
+        "language",
+        "unit-a1-4b",
+        "unit-a1"
+      ],
+      "hint_en_tr": "(language \u2014 X / Y)"
     },
     {
       "id": "cand-lang-0004",
       "turkish": "Fars\u00e7a",
-      "english": "Persian / Farsi (language)",
+      "english": "Persian / Farsi",
       "priority": 3,
       "tags": [
         "language",
         "unit-a1-4b",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(language)"
     },
     {
       "id": "cand-lang-0005",
       "turkish": "Makedonca",
-      "english": "Macedonian (language)",
+      "english": "Macedonian",
       "priority": 3,
       "tags": [
         "language",
         "unit-a1-4b",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(language)"
     },
     {
       "id": "cand-lang-0006",
       "turkish": "Urduca",
-      "english": "Urdu (language)",
+      "english": "Urdu",
       "priority": 3,
       "tags": [
         "language",
         "unit-a1-4b",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(language)"
     },
     {
       "id": "cand-lang-0007",
       "turkish": "Fince",
-      "english": "Finnish (language)",
+      "english": "Finnish",
       "priority": 3,
       "tags": [
         "language",
         "unit-extra"
-      ]
+      ],
+      "hint_en_tr": "(language)"
     },
     {
       "id": "cand-lang-0008",
       "turkish": "Leh\u00e7e",
-      "english": "Polish (language)",
+      "english": "Polish",
       "priority": 3,
       "tags": [
         "language",
         "unit-extra"
-      ]
+      ],
+      "hint_en_tr": "(language)"
     },
     {
       "id": "cand-lang-0009",
       "turkish": "Fin / Finli / Finlandiyal\u0131",
-      "english": "Finnish (person)",
+      "english": "Finnish",
       "priority": 3,
       "tags": [
         "noun",
         "unit-extra"
       ],
-      "hint_en_tr": "(X / Y / Z)"
+      "hint_en_tr": "(person \u2014 X / Y / Z)"
     },
     {
       "id": "cand-lang-0010",
@@ -14949,265 +14984,289 @@
     {
       "id": "cand-lang-0011",
       "turkish": "Polonyal\u0131",
-      "english": "Polish (person)",
+      "english": "Polish",
       "priority": 3,
       "tags": [
         "noun",
         "unit-extra"
-      ]
+      ],
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-lang-0012",
       "turkish": "Alman",
-      "english": "German (person)",
+      "english": "German",
       "priority": 3,
       "tags": [
         "noun",
         "unit-a1-4b",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-lang-0013",
       "turkish": "\u0130spanyol",
-      "english": "Spanish (person)",
+      "english": "Spanish",
       "priority": 3,
       "tags": [
         "noun",
         "unit-a1-4b",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-lang-0014",
       "turkish": "\u0130talyan",
-      "english": "Italian (person)",
+      "english": "Italian",
       "priority": 3,
       "tags": [
         "noun",
         "unit-a1-4b",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-lang-0015",
       "turkish": "\u0130ngiliz",
-      "english": "English (person)",
+      "english": "English",
       "priority": 3,
       "tags": [
         "noun",
         "unit-a1-4b",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-lang-0016",
       "turkish": "\u00c7ek",
-      "english": "Czech (person)",
+      "english": "Czech",
       "priority": 3,
       "tags": [
         "noun",
         "unit-a1-4b",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-lang-0017",
       "turkish": "Yunan",
-      "english": "Greek (person)",
+      "english": "Greek",
       "priority": 3,
       "tags": [
         "noun",
         "unit-a1-4b",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-lang-0018",
       "turkish": "Kazak",
-      "english": "Kazakh (person)",
+      "english": "Kazakh",
       "priority": 3,
       "tags": [
         "noun",
         "unit-a1-4b",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-lang-0019",
       "turkish": "Amerikan",
-      "english": "American (person)",
+      "english": "American",
       "priority": 3,
       "tags": [
         "noun",
         "unit-a1-4b",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-lang-0020",
       "turkish": "Bulgar",
-      "english": "Bulgarian (person)",
+      "english": "Bulgarian",
       "priority": 3,
       "tags": [
         "noun",
         "unit-a1-4b",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-lang-0021",
       "turkish": "G\u00fcrc\u00fc",
-      "english": "Georgian (person)",
+      "english": "Georgian",
       "priority": 3,
       "tags": [
         "noun",
         "unit-a1-4b",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-lang-0022",
       "turkish": "Hint",
-      "english": "Indian (person)",
+      "english": "Indian",
       "priority": 3,
       "tags": [
         "noun",
         "unit-a1-4b",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-lang-0023",
       "turkish": "Macar",
-      "english": "Hungarian (person)",
+      "english": "Hungarian",
       "priority": 3,
       "tags": [
         "noun",
         "unit-a1-4b",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-lang-0024",
       "turkish": "Arnavut",
-      "english": "Albanian (person)",
+      "english": "Albanian",
       "priority": 3,
       "tags": [
         "noun",
         "unit-a1-4b",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-lang-0025",
       "turkish": "Danimarkal\u0131",
-      "english": "Danish (person)",
+      "english": "Danish",
       "priority": 3,
       "tags": [
         "noun",
         "unit-a1-4b",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-lang-0026",
       "turkish": "Bel\u00e7ikal\u0131",
-      "english": "Belgian (person)",
+      "english": "Belgian",
       "priority": 3,
       "tags": [
         "noun",
         "unit-a1-4b",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-lang-0027",
       "turkish": "Hollandal\u0131",
-      "english": "Dutch (person)",
+      "english": "Dutch",
       "priority": 3,
       "tags": [
         "noun",
         "unit-a1-4b",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-lang-0028",
       "turkish": "M\u0131s\u0131rl\u0131",
-      "english": "Egyptian (person)",
+      "english": "Egyptian",
       "priority": 3,
       "tags": [
         "noun",
         "unit-a1-4b",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-lang-0029",
       "turkish": "\u0130ranl\u0131",
-      "english": "Iranian (person)",
+      "english": "Iranian",
       "priority": 3,
       "tags": [
         "noun",
         "unit-a1-4b",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-lang-0030",
       "turkish": "Makedon",
-      "english": "Macedonian (person)",
+      "english": "Macedonian",
       "priority": 3,
       "tags": [
         "noun",
         "unit-a1-4b",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-lang-0031",
       "turkish": "Brezilyal\u0131",
-      "english": "Brazilian (person)",
+      "english": "Brazilian",
       "priority": 3,
       "tags": [
         "noun",
         "unit-a1-4b",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-lang-0032",
       "turkish": "Pakistanl\u0131",
-      "english": "Pakistani (person)",
+      "english": "Pakistani",
       "priority": 3,
       "tags": [
         "noun",
         "unit-a1-4b",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-lang-0033",
       "turkish": "\u00c7inli",
-      "english": "Chinese (person)",
+      "english": "Chinese",
       "priority": 3,
       "tags": [
         "noun",
         "unit-a1-4b",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-lang-0034",
       "turkish": "Irakl\u0131",
-      "english": "Iraqi (person)",
+      "english": "Iraqi",
       "priority": 3,
       "tags": [
         "noun",
         "unit-a1-4b",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-lang-0035",
@@ -15278,7 +15337,7 @@
     {
       "id": "cand-lang-0041",
       "turkish": "Makedonya",
-      "english": "(North) Macedonia",
+      "english": "Macedonia",
       "priority": 3,
       "tags": [
         "country",
@@ -15664,7 +15723,7 @@
     {
       "id": "cand-num-0020",
       "turkish": "y\u00fcz",
-      "english": "(one) hundred",
+      "english": "hundred",
       "priority": 3,
       "tags": [
         "number",
@@ -15676,7 +15735,7 @@
     {
       "id": "cand-num-0021",
       "turkish": "bin",
-      "english": "(one) thousand",
+      "english": "thousand",
       "priority": 3,
       "tags": [
         "number",
@@ -15732,13 +15791,14 @@
     {
       "id": "cand-num-0026",
       "turkish": "ikinci",
-      "english": "second (2nd)",
+      "english": "second",
       "priority": 3,
       "tags": [
         "number",
         "unit-a1-2b",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(2nd / ordinal)"
     },
     {
       "id": "cand-num-0027",
@@ -15875,7 +15935,7 @@
     {
       "id": "cand-web-0004",
       "turkish": "\u00e7ekmek",
-      "english": "to pull / to take (a photo)",
+      "english": "to pull / to draw",
       "priority": 3,
       "tags": [
         "verb",
@@ -15963,13 +16023,14 @@
     {
       "id": "cand-web-0013",
       "turkish": "mola",
-      "english": "break (rest / pause)",
+      "english": "break",
       "priority": 3,
       "tags": [
         "noun",
         "unit-a1-3a",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(rest / pause)"
     },
     {
       "id": "cand-web-0014",
@@ -15996,7 +16057,7 @@
     {
       "id": "cand-web-0016",
       "turkish": "lira",
-      "english": "lira (Turkish currency)",
+      "english": "lira",
       "priority": 3,
       "tags": [
         "noun",
@@ -16273,7 +16334,7 @@
     {
       "id": "cand-web-0041",
       "turkish": "hi\u00e7",
-      "english": "(not) at all / never",
+      "english": "at all / never",
       "priority": 3,
       "tags": [
         "adverb",
@@ -16328,7 +16389,7 @@
     {
       "id": "cand-web-0046",
       "turkish": "de\u011fil",
-      "english": "not (negates nominal sentences)",
+      "english": "not",
       "priority": 3,
       "tags": [
         "unit-a1-2c",

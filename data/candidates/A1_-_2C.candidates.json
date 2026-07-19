@@ -747,7 +747,7 @@
     {
       "id": "cand-a1-2c-0054",
       "turkish": "yaşlı",
-      "english": "old (person)",
+      "english": "old",
       "priority": 3,
       "tags": [
         "adjective",
@@ -756,7 +756,8 @@
       ],
       "source": "A1_-_2C.pdf",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-a1-2c-0055",
@@ -789,7 +790,7 @@
     {
       "id": "cand-a1-2c-0057",
       "turkish": "zayıf",
-      "english": "thin (person)",
+      "english": "thin",
       "priority": 3,
       "tags": [
         "adjective",
@@ -798,7 +799,8 @@
       ],
       "source": "A1_-_2C.pdf",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-a1-2c-0058",

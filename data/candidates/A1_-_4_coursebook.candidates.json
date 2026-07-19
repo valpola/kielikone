@@ -243,7 +243,7 @@
     {
       "id": "cand-a1-4cb-0018",
       "turkish": "Korece",
-      "english": "Korean (language)",
+      "english": "Korean",
       "priority": 3,
       "tags": [
         "language",
@@ -252,12 +252,13 @@
       ],
       "source": "A1-4B grammar/transcript (Turkishle coursebook)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(language)"
     },
     {
       "id": "cand-a1-4cb-0019",
       "turkish": "Portekizce",
-      "english": "Portuguese (language)",
+      "english": "Portuguese",
       "priority": 3,
       "tags": [
         "language",
@@ -266,12 +267,13 @@
       ],
       "source": "A1-4B grammar/transcript (Turkishle coursebook)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(language)"
     },
     {
       "id": "cand-a1-4cb-0020",
       "turkish": "Latince",
-      "english": "Latin (language)",
+      "english": "Latin",
       "priority": 3,
       "tags": [
         "language",
@@ -280,12 +282,13 @@
       ],
       "source": "A1-4B grammar/transcript (Turkishle coursebook)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(language)"
     },
     {
       "id": "cand-a1-4cb-0021",
       "turkish": "Rus",
-      "english": "Russian (person)",
+      "english": "Russian",
       "priority": 3,
       "tags": [
         "noun",
@@ -294,12 +297,13 @@
       ],
       "source": "A1-4B grammar/transcript (Turkishle coursebook)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-a1-4cb-0022",
       "turkish": "Fransız",
-      "english": "French (person)",
+      "english": "French",
       "priority": 3,
       "tags": [
         "noun",
@@ -308,12 +312,13 @@
       ],
       "source": "A1-4B grammar/transcript (Turkishle coursebook)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-a1-4cb-0023",
       "turkish": "Japon",
-      "english": "Japanese (person)",
+      "english": "Japanese",
       "priority": 3,
       "tags": [
         "noun",
@@ -322,7 +327,8 @@
       ],
       "source": "A1-4B grammar/transcript (Turkishle coursebook)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-a1-4cb-0024",

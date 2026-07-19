@@ -145,7 +145,7 @@
     {
       "id": "cand-a1-5a-0011",
       "turkish": "saniye",
-      "english": "second (unit of time)",
+      "english": "second",
       "priority": 3,
       "tags": [
         "unit-a1-5a",
@@ -154,7 +154,8 @@
       ],
       "source": "A1_-_5A.pdf",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(unit of time)"
     },
     {
       "id": "cand-a1-5a-0012",

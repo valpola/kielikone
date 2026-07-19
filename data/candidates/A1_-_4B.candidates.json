@@ -2586,7 +2586,7 @@
     {
       "id": "cand-a1-4b-0177",
       "turkish": "Almanca",
-      "english": "German (language)",
+      "english": "German",
       "priority": 3,
       "tags": [
         "unit-a1-4b",
@@ -2595,12 +2595,13 @@
       ],
       "source": "A1_-_4B.pdf",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(language)"
     },
     {
       "id": "cand-a1-4b-0178",
       "turkish": "Arapça",
-      "english": "Arabic (language)",
+      "english": "Arabic",
       "priority": 3,
       "tags": [
         "unit-a1-4b",
@@ -2609,12 +2610,13 @@
       ],
       "source": "A1_-_4B.pdf",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(language)"
     },
     {
       "id": "cand-a1-4b-0179",
       "turkish": "Arnavutça",
-      "english": "Albanian (language)",
+      "english": "Albanian",
       "priority": 3,
       "tags": [
         "unit-a1-4b",
@@ -2623,12 +2625,13 @@
       ],
       "source": "A1_-_4B.pdf",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(language)"
     },
     {
       "id": "cand-a1-4b-0180",
       "turkish": "Bulgarca",
-      "english": "Bulgarian (language)",
+      "english": "Bulgarian",
       "priority": 3,
       "tags": [
         "unit-a1-4b",
@@ -2638,12 +2641,13 @@
       ],
       "source": "A1_-_4B.pdf",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(language)"
     },
     {
       "id": "cand-a1-4b-0181",
       "turkish": "Fransızca",
-      "english": "French (language)",
+      "english": "French",
       "priority": 3,
       "tags": [
         "unit-a1-4b",
@@ -2652,12 +2656,13 @@
       ],
       "source": "A1_-_4B.pdf",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(language)"
     },
     {
       "id": "cand-a1-4b-0182",
       "turkish": "Gürcüce",
-      "english": "Georgian (language)",
+      "english": "Georgian",
       "priority": 3,
       "tags": [
         "unit-a1-4b",
@@ -2666,12 +2671,13 @@
       ],
       "source": "A1_-_4B.pdf",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(language)"
     },
     {
       "id": "cand-a1-4b-0183",
       "turkish": "Hintçe",
-      "english": "Hindi (language)",
+      "english": "Hindi",
       "priority": 3,
       "tags": [
         "unit-a1-4b",
@@ -2680,12 +2686,13 @@
       ],
       "source": "A1_-_4B.pdf",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(language)"
     },
     {
       "id": "cand-a1-4b-0184",
       "turkish": "Japonca",
-      "english": "Japanese (language)",
+      "english": "Japanese",
       "priority": 3,
       "tags": [
         "unit-a1-4b",
@@ -2694,12 +2701,13 @@
       ],
       "source": "A1_-_4B.pdf",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(language)"
     },
     {
       "id": "cand-a1-4b-0185",
       "turkish": "Macarca",
-      "english": "Hungarian (language)",
+      "english": "Hungarian",
       "priority": 3,
       "tags": [
         "unit-a1-4b",
@@ -2708,12 +2716,13 @@
       ],
       "source": "A1_-_4B.pdf",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(language)"
     },
     {
       "id": "cand-a1-4b-0186",
       "turkish": "Rumca/Yunanca",
-      "english": "Greek (language)",
+      "english": "Greek",
       "priority": 3,
       "tags": [
         "unit-a1-4b",
@@ -2722,12 +2731,13 @@
       ],
       "source": "A1_-_4B.pdf",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(language)"
     },
     {
       "id": "cand-a1-4b-0187",
       "turkish": "Rusça",
-      "english": "Russian (language)",
+      "english": "Russian",
       "priority": 3,
       "tags": [
         "unit-a1-4b",
@@ -2736,12 +2746,13 @@
       ],
       "source": "A1_-_4B.pdf",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(language)"
     },
     {
       "id": "cand-a1-4b-0188",
       "turkish": "Sırpça",
-      "english": "Serbian (language)",
+      "english": "Serbian",
       "priority": 3,
       "tags": [
         "unit-a1-4b",
@@ -2750,12 +2761,13 @@
       ],
       "source": "A1_-_4B.pdf",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(language)"
     },
     {
       "id": "cand-a1-4b-0189",
       "turkish": "Türkçe",
-      "english": "Turkish (language)",
+      "english": "Turkish",
       "priority": 3,
       "tags": [
         "unit-a1-4b",
@@ -2764,12 +2776,13 @@
       ],
       "source": "A1_-_4B.pdf",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(language)"
     },
     {
       "id": "cand-a1-4b-0190",
       "turkish": "Çekçe",
-      "english": "Czech (language)",
+      "english": "Czech",
       "priority": 3,
       "tags": [
         "unit-a1-4b",
@@ -2778,12 +2791,13 @@
       ],
       "source": "A1_-_4B.pdf",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(language)"
     },
     {
       "id": "cand-a1-4b-0191",
       "turkish": "Çince",
-      "english": "Chinese (language)",
+      "english": "Chinese",
       "priority": 3,
       "tags": [
         "unit-a1-4b",
@@ -2792,12 +2806,13 @@
       ],
       "source": "A1_-_4B.pdf",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(language)"
     },
     {
       "id": "cand-a1-4b-0192",
       "turkish": "İngilizce",
-      "english": "English (language)",
+      "english": "English",
       "priority": 3,
       "tags": [
         "unit-a1-4b",
@@ -2806,12 +2821,13 @@
       ],
       "source": "A1_-_4B.pdf",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(language)"
     },
     {
       "id": "cand-a1-4b-0193",
       "turkish": "İspanyolca",
-      "english": "Spanish (language)",
+      "english": "Spanish",
       "priority": 3,
       "tags": [
         "unit-a1-4b",
@@ -2820,12 +2836,13 @@
       ],
       "source": "A1_-_4B.pdf",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(language)"
     },
     {
       "id": "cand-a1-4b-0194",
       "turkish": "İtalyanca",
-      "english": "Italian (language)",
+      "english": "Italian",
       "priority": 3,
       "tags": [
         "unit-a1-4b",
@@ -2835,7 +2852,8 @@
       ],
       "source": "A1_-_4B.pdf",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(language)"
     },
     {
       "id": "cand-a1-4b-0195",

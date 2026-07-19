@@ -47,7 +47,7 @@
     {
       "id": "cand-web-0004",
       "turkish": "çekmek",
-      "english": "to pull / to take (a photo)",
+      "english": "to pull / to draw",
       "priority": 3,
       "tags": [
         "verb",
@@ -159,7 +159,7 @@
     {
       "id": "cand-web-0013",
       "turkish": "mola",
-      "english": "break (rest / pause)",
+      "english": "break",
       "priority": 3,
       "tags": [
         "noun",
@@ -168,7 +168,8 @@
       ],
       "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(rest / pause)"
     },
     {
       "id": "cand-web-0014",
@@ -201,7 +202,7 @@
     {
       "id": "cand-web-0016",
       "turkish": "lira",
-      "english": "lira (Turkish currency)",
+      "english": "lira",
       "priority": 3,
       "tags": [
         "noun",
@@ -553,7 +554,7 @@
     {
       "id": "cand-web-0041",
       "turkish": "hiç",
-      "english": "(not) at all / never",
+      "english": "at all / never",
       "priority": 3,
       "tags": [
         "adverb",
@@ -561,7 +562,7 @@
         "unit-a1"
       ],
       "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
-      "notes": "",
+      "notes": "used with a negative verb",
       "status": "approved"
     },
     {
@@ -623,14 +624,14 @@
     {
       "id": "cand-web-0046",
       "turkish": "değil",
-      "english": "not (negates nominal sentences)",
+      "english": "not",
       "priority": 3,
       "tags": [
         "unit-a1-2c",
         "unit-a1"
       ],
       "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
-      "notes": "",
+      "notes": "negates nominal sentences",
       "status": "approved"
     },
     {

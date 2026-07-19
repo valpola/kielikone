@@ -61,7 +61,7 @@
     {
       "id": "cand-a1-1web-0006",
       "turkish": "Türk",
-      "english": "Turkish (person)",
+      "english": "Turkish",
       "priority": 3,
       "tags": [
         "noun",
@@ -70,7 +70,8 @@
       ],
       "source": "A1-1A Listening exercise (Turkishle course)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-a1-1web-0007",

@@ -271,7 +271,7 @@
     {
       "id": "cand-num-0020",
       "turkish": "yüz",
-      "english": "(one) hundred",
+      "english": "hundred",
       "priority": 3,
       "tags": [
         "number",
@@ -286,7 +286,7 @@
     {
       "id": "cand-num-0021",
       "turkish": "bin",
-      "english": "(one) thousand",
+      "english": "thousand",
       "priority": 3,
       "tags": [
         "number",
@@ -357,7 +357,7 @@
     {
       "id": "cand-num-0026",
       "turkish": "ikinci",
-      "english": "second (2nd)",
+      "english": "second",
       "priority": 3,
       "tags": [
         "number",
@@ -366,7 +366,8 @@
       ],
       "source": "Turkishle coursebook (A1, A2, B1)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(2nd / ordinal)"
     },
     {
       "id": "cand-num-0027",

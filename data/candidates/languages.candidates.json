@@ -5,7 +5,7 @@
     {
       "id": "cand-lang-0001",
       "turkish": "Kazakça",
-      "english": "Kazakh (language)",
+      "english": "Kazakh",
       "priority": 3,
       "tags": [
         "language",
@@ -14,12 +14,13 @@
       ],
       "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(language)"
     },
     {
       "id": "cand-lang-0002",
       "turkish": "Danca",
-      "english": "Danish (language)",
+      "english": "Danish",
       "priority": 3,
       "tags": [
         "language",
@@ -28,12 +29,13 @@
       ],
       "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(language)"
     },
     {
       "id": "cand-lang-0003",
       "turkish": "Felemenkçe / Hollandaca",
-      "english": "Dutch (language)",
+      "english": "Dutch",
       "priority": 3,
       "tags": [
         "language",
@@ -42,13 +44,13 @@
       ],
       "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
       "notes": "",
-      "hint_en_tr": "(X / Y)",
+      "hint_en_tr": "(language — X / Y)",
       "status": "approved"
     },
     {
       "id": "cand-lang-0004",
       "turkish": "Farsça",
-      "english": "Persian / Farsi (language)",
+      "english": "Persian / Farsi",
       "priority": 3,
       "tags": [
         "language",
@@ -57,12 +59,13 @@
       ],
       "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(language)"
     },
     {
       "id": "cand-lang-0005",
       "turkish": "Makedonca",
-      "english": "Macedonian (language)",
+      "english": "Macedonian",
       "priority": 3,
       "tags": [
         "language",
@@ -71,12 +74,13 @@
       ],
       "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(language)"
     },
     {
       "id": "cand-lang-0006",
       "turkish": "Urduca",
-      "english": "Urdu (language)",
+      "english": "Urdu",
       "priority": 3,
       "tags": [
         "language",
@@ -85,12 +89,13 @@
       ],
       "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(language)"
     },
     {
       "id": "cand-lang-0007",
       "turkish": "Fince",
-      "english": "Finnish (language)",
+      "english": "Finnish",
       "priority": 3,
       "tags": [
         "language",
@@ -98,12 +103,13 @@
       ],
       "source": "Personal addition (Finnish/Polish)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(language)"
     },
     {
       "id": "cand-lang-0008",
       "turkish": "Lehçe",
-      "english": "Polish (language)",
+      "english": "Polish",
       "priority": 3,
       "tags": [
         "language",
@@ -111,12 +117,13 @@
       ],
       "source": "Personal addition (Finnish/Polish)",
       "notes": "Capital Lehçe = Polish; lowercase lehçe = dialect",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(language)"
     },
     {
       "id": "cand-lang-0009",
       "turkish": "Fin / Finli / Finlandiyalı",
-      "english": "Finnish (person)",
+      "english": "Finnish",
       "priority": 3,
       "tags": [
         "noun",
@@ -124,7 +131,7 @@
       ],
       "source": "Personal addition (Finnish/Polish)",
       "notes": "",
-      "hint_en_tr": "(X / Y / Z)",
+      "hint_en_tr": "(person — X / Y / Z)",
       "status": "approved"
     },
     {
@@ -143,7 +150,7 @@
     {
       "id": "cand-lang-0011",
       "turkish": "Polonyalı",
-      "english": "Polish (person)",
+      "english": "Polish",
       "priority": 3,
       "tags": [
         "noun",
@@ -151,12 +158,13 @@
       ],
       "source": "Personal addition (Finnish/Polish)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-lang-0012",
       "turkish": "Alman",
-      "english": "German (person)",
+      "english": "German",
       "priority": 3,
       "tags": [
         "noun",
@@ -165,12 +173,13 @@
       ],
       "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-lang-0013",
       "turkish": "İspanyol",
-      "english": "Spanish (person)",
+      "english": "Spanish",
       "priority": 3,
       "tags": [
         "noun",
@@ -179,12 +188,13 @@
       ],
       "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-lang-0014",
       "turkish": "İtalyan",
-      "english": "Italian (person)",
+      "english": "Italian",
       "priority": 3,
       "tags": [
         "noun",
@@ -193,12 +203,13 @@
       ],
       "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-lang-0015",
       "turkish": "İngiliz",
-      "english": "English (person)",
+      "english": "English",
       "priority": 3,
       "tags": [
         "noun",
@@ -207,12 +218,13 @@
       ],
       "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-lang-0016",
       "turkish": "Çek",
-      "english": "Czech (person)",
+      "english": "Czech",
       "priority": 3,
       "tags": [
         "noun",
@@ -221,12 +233,13 @@
       ],
       "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-lang-0017",
       "turkish": "Yunan",
-      "english": "Greek (person)",
+      "english": "Greek",
       "priority": 3,
       "tags": [
         "noun",
@@ -235,12 +248,13 @@
       ],
       "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-lang-0018",
       "turkish": "Kazak",
-      "english": "Kazakh (person)",
+      "english": "Kazakh",
       "priority": 3,
       "tags": [
         "noun",
@@ -249,12 +263,13 @@
       ],
       "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-lang-0019",
       "turkish": "Amerikan",
-      "english": "American (person)",
+      "english": "American",
       "priority": 3,
       "tags": [
         "noun",
@@ -263,12 +278,13 @@
       ],
       "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-lang-0020",
       "turkish": "Bulgar",
-      "english": "Bulgarian (person)",
+      "english": "Bulgarian",
       "priority": 3,
       "tags": [
         "noun",
@@ -277,12 +293,13 @@
       ],
       "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-lang-0021",
       "turkish": "Gürcü",
-      "english": "Georgian (person)",
+      "english": "Georgian",
       "priority": 3,
       "tags": [
         "noun",
@@ -291,12 +308,13 @@
       ],
       "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-lang-0022",
       "turkish": "Hint",
-      "english": "Indian (person)",
+      "english": "Indian",
       "priority": 3,
       "tags": [
         "noun",
@@ -305,12 +323,13 @@
       ],
       "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-lang-0023",
       "turkish": "Macar",
-      "english": "Hungarian (person)",
+      "english": "Hungarian",
       "priority": 3,
       "tags": [
         "noun",
@@ -319,12 +338,13 @@
       ],
       "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-lang-0024",
       "turkish": "Arnavut",
-      "english": "Albanian (person)",
+      "english": "Albanian",
       "priority": 3,
       "tags": [
         "noun",
@@ -333,12 +353,13 @@
       ],
       "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-lang-0025",
       "turkish": "Danimarkalı",
-      "english": "Danish (person)",
+      "english": "Danish",
       "priority": 3,
       "tags": [
         "noun",
@@ -347,12 +368,13 @@
       ],
       "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-lang-0026",
       "turkish": "Belçikalı",
-      "english": "Belgian (person)",
+      "english": "Belgian",
       "priority": 3,
       "tags": [
         "noun",
@@ -361,12 +383,13 @@
       ],
       "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-lang-0027",
       "turkish": "Hollandalı",
-      "english": "Dutch (person)",
+      "english": "Dutch",
       "priority": 3,
       "tags": [
         "noun",
@@ -375,12 +398,13 @@
       ],
       "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-lang-0028",
       "turkish": "Mısırlı",
-      "english": "Egyptian (person)",
+      "english": "Egyptian",
       "priority": 3,
       "tags": [
         "noun",
@@ -389,12 +413,13 @@
       ],
       "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-lang-0029",
       "turkish": "İranlı",
-      "english": "Iranian (person)",
+      "english": "Iranian",
       "priority": 3,
       "tags": [
         "noun",
@@ -403,12 +428,13 @@
       ],
       "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-lang-0030",
       "turkish": "Makedon",
-      "english": "Macedonian (person)",
+      "english": "Macedonian",
       "priority": 3,
       "tags": [
         "noun",
@@ -417,12 +443,13 @@
       ],
       "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-lang-0031",
       "turkish": "Brezilyalı",
-      "english": "Brazilian (person)",
+      "english": "Brazilian",
       "priority": 3,
       "tags": [
         "noun",
@@ -431,12 +458,13 @@
       ],
       "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-lang-0032",
       "turkish": "Pakistanlı",
-      "english": "Pakistani (person)",
+      "english": "Pakistani",
       "priority": 3,
       "tags": [
         "noun",
@@ -445,12 +473,13 @@
       ],
       "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-lang-0033",
       "turkish": "Çinli",
-      "english": "Chinese (person)",
+      "english": "Chinese",
       "priority": 3,
       "tags": [
         "noun",
@@ -459,12 +488,13 @@
       ],
       "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-lang-0034",
       "turkish": "Iraklı",
-      "english": "Iraqi (person)",
+      "english": "Iraqi",
       "priority": 3,
       "tags": [
         "noun",
@@ -473,7 +503,8 @@
       ],
       "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(person)"
     },
     {
       "id": "cand-lang-0035",
@@ -562,7 +593,7 @@
     {
       "id": "cand-lang-0041",
       "turkish": "Makedonya",
-      "english": "(North) Macedonia",
+      "english": "Macedonia",
       "priority": 3,
       "tags": [
         "country",
