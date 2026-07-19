@@ -278,6 +278,202 @@
       "source": "A1 listening/dialogue exercises (Turkishle)",
       "notes": "",
       "status": "approved"
+    },
+    {
+      "id": "cand-a1-listen-0022",
+      "turkish": "gece",
+      "english": "night",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b",
+        "unit-a1"
+      ],
+      "source": "A1 listening/dialogue exercises (Turkishle)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-listen-0023",
+      "turkish": "geliş",
+      "english": "arrival",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b",
+        "unit-a1"
+      ],
+      "source": "A1 listening/dialogue exercises (Turkishle)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-listen-0024",
+      "turkish": "yoga",
+      "english": "yoga",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2c",
+        "unit-a1"
+      ],
+      "source": "A1 listening/dialogue exercises (Turkishle)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-listen-0025",
+      "turkish": "ödev",
+      "english": "homework",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-3a",
+        "unit-a1"
+      ],
+      "source": "A1 listening/dialogue exercises (Turkishle)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-listen-0026",
+      "turkish": "plan",
+      "english": "plan",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-3a",
+        "unit-a1"
+      ],
+      "source": "A1 listening/dialogue exercises (Turkishle)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-listen-0027",
+      "turkish": "konser",
+      "english": "concert",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-3a",
+        "unit-a1"
+      ],
+      "source": "A1 listening/dialogue exercises (Turkishle)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-listen-0028",
+      "turkish": "şirin",
+      "english": "cute",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-3a",
+        "unit-a1"
+      ],
+      "source": "A1 listening/dialogue exercises (Turkishle)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-listen-0029",
+      "turkish": "dizi",
+      "english": "TV series",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-3b",
+        "unit-a1"
+      ],
+      "source": "A1 listening/dialogue exercises (Turkishle)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-listen-0030",
+      "turkish": "kayak",
+      "english": "skiing",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-3b",
+        "unit-a1"
+      ],
+      "source": "A1 listening/dialogue exercises (Turkishle)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-listen-0031",
+      "turkish": "fotoğraf",
+      "english": "photo",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-3b",
+        "unit-a1"
+      ],
+      "source": "A1 listening/dialogue exercises (Turkishle)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-listen-0032",
+      "turkish": "farklı",
+      "english": "different",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-3b",
+        "unit-a1"
+      ],
+      "source": "A1 listening/dialogue exercises (Turkishle)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-listen-0033",
+      "turkish": "seyahat etmek",
+      "english": "to travel",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-3b",
+        "unit-a1"
+      ],
+      "source": "A1 listening/dialogue exercises (Turkishle)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-listen-0034",
+      "turkish": "piyano",
+      "english": "piano",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-3b",
+        "unit-a1"
+      ],
+      "source": "A1 listening/dialogue exercises (Turkishle)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-listen-0035",
+      "turkish": "editör",
+      "english": "editor",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-3b",
+        "unit-a1"
+      ],
+      "source": "A1 listening/dialogue exercises (Turkishle)",
+      "notes": "",
+      "status": "approved"
     }
   ]
 }
