@@ -3633,8 +3633,7 @@
       "tags": [
         "noun",
         "unit-a1-2a",
-        "unit-a1",
-        "today"
+        "unit-a1"
       ]
     },
     {
@@ -3668,6 +3667,66 @@
       "priority": 3,
       "tags": [
         "adjective",
+        "unit-a1-2c",
+        "unit-a1",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-2web-0001",
+      "turkish": "kitapl\u0131k",
+      "english": "bookshelf",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a",
+        "unit-a1",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-2web-0002",
+      "turkish": "alkol",
+      "english": "alcohol",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a",
+        "unit-a1",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-2web-0003",
+      "turkish": "toplam",
+      "english": "total",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b",
+        "unit-a1",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-2web-0004",
+      "turkish": "l\u00fcks",
+      "english": "luxury / luxurious",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c",
+        "unit-a1",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-2web-0005",
+      "turkish": "kenar",
+      "english": "edge / side",
+      "priority": 3,
+      "tags": [
+        "noun",
         "unit-a1-2c",
         "unit-a1",
         "today"
@@ -5783,8 +5842,7 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar",
-        "today"
+        "similar"
       ]
     },
     {
@@ -5807,8 +5865,7 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar",
-        "today"
+        "similar"
       ]
     },
     {
@@ -5820,8 +5877,7 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar",
-        "today"
+        "similar"
       ]
     },
     {
@@ -5855,8 +5911,7 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar",
-        "today"
+        "similar"
       ]
     },
     {

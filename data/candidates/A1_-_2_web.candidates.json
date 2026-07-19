@@ -1,0 +1,76 @@
+{
+  "source_file": "A1 Unit 2 — Turkishle web reading-comprehension lessons",
+  "created_at": "2026-07-19T14:23:03+00:00",
+  "items": [
+    {
+      "id": "cand-a1-2web-0001",
+      "turkish": "kitaplık",
+      "english": "bookshelf",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a",
+        "unit-a1"
+      ],
+      "source": "A1-2A Reading Comprehension (Turkishle web lesson)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2web-0002",
+      "turkish": "alkol",
+      "english": "alcohol",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a",
+        "unit-a1"
+      ],
+      "source": "A1-2A Reading Comprehension (Turkishle web lesson)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2web-0003",
+      "turkish": "toplam",
+      "english": "total",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b",
+        "unit-a1"
+      ],
+      "source": "A1-2B Reading Comprehension (Turkishle web lesson)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2web-0004",
+      "turkish": "lüks",
+      "english": "luxury / luxurious",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c",
+        "unit-a1"
+      ],
+      "source": "A1-2C Reading Comprehension (Turkishle web lesson)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-2web-0005",
+      "turkish": "kenar",
+      "english": "edge / side",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2c",
+        "unit-a1"
+      ],
+      "source": "A1-2C Reading Comprehension (Turkishle web lesson)",
+      "notes": "",
+      "status": "approved"
+    }
+  ]
+}
