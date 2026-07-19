@@ -6208,8 +6208,7 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar",
-        "today"
+        "similar"
       ]
     },
     {
@@ -14303,8 +14302,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-4a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-extra"
       ]
     },
     {
@@ -14314,8 +14313,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-4a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-extra"
       ]
     },
     {
@@ -14403,8 +14402,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a2-1b",
-        "unit-a2"
+        "unit-a2",
+        "unit-a2-extra"
       ]
     },
     {
@@ -14425,8 +14424,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a2-1b",
-        "unit-a2"
+        "unit-a2",
+        "unit-a2-extra"
       ]
     },
     {
@@ -14436,8 +14435,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a2-1b",
-        "unit-a2"
+        "unit-a2",
+        "unit-a2-extra"
       ]
     },
     {
@@ -14447,8 +14446,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a2-1b",
-        "unit-a2"
+        "unit-a2",
+        "unit-a2-extra"
       ]
     },
     {
@@ -14480,7 +14479,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-extra"
       ]
     },
     {
@@ -14571,7 +14571,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1"
+        "unit-a1",
+        "today"
       ]
     },
     {
@@ -14701,7 +14702,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-extra"
       ]
     },
     {
@@ -14721,7 +14723,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-extra"
       ]
     },
     {
@@ -14775,7 +14778,8 @@
       "priority": 3,
       "tags": [
         "adverb",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-extra"
       ]
     },
     {
@@ -14819,8 +14823,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-4a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-extra"
       ]
     },
     {
@@ -14830,8 +14834,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-4a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-extra"
       ]
     },
     {
@@ -14841,8 +14845,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1-4a",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-extra"
       ]
     },
     {
@@ -15721,8 +15725,8 @@
       "priority": 3,
       "tags": [
         "number",
-        "unit-a1-2b",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-extra"
       ]
     },
     {
@@ -15842,8 +15846,8 @@
       "priority": 3,
       "tags": [
         "number",
-        "unit-a1-2b",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-extra"
       ]
     },
     {
@@ -16628,6 +16632,16 @@
       "id": "math",
       "label": "Mathematics",
       "group": "theme"
+    },
+    {
+      "id": "unit-a1-extra",
+      "label": "Unit A1 (extra / off-syllabus)",
+      "group": "unit"
+    },
+    {
+      "id": "unit-a2-extra",
+      "label": "Unit A2 (extra / off-syllabus)",
+      "group": "unit"
     }
   ]
 }

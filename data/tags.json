@@ -225,6 +225,16 @@
       "id": "math",
       "label": "Mathematics",
       "group": "theme"
+    },
+    {
+      "id": "unit-a1-extra",
+      "label": "Unit A1 (extra / off-syllabus)",
+      "group": "unit"
+    },
+    {
+      "id": "unit-a2-extra",
+      "label": "Unit A2 (extra / off-syllabus)",
+      "group": "unit"
     }
   ]
 }
