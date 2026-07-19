@@ -1,46 +1,46 @@
 {
-  "source_file": "Languages — coursebook (A1-4B) + personal (Finnish/Polish)",
-  "created_at": "2026-07-19T16:49:57+00:00",
+  "source_file": "Countries, nationalities & languages — A1-4B coursebook + personal (Finnish/Polish)",
+  "created_at": "2026-07-19T17:22:08+00:00",
   "items": [
     {
       "id": "cand-lang-0001",
       "turkish": "Kazakça",
-      "english": "Kazakh",
+      "english": "Kazakh (language)",
       "priority": 3,
       "tags": [
         "language",
         "unit-a1-4b",
         "unit-a1"
       ],
-      "source": "A1-4B Languages table (Turkishle coursebook)",
+      "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
       "notes": "",
       "status": "approved"
     },
     {
       "id": "cand-lang-0002",
       "turkish": "Danca",
-      "english": "Danish",
+      "english": "Danish (language)",
       "priority": 3,
       "tags": [
         "language",
         "unit-a1-4b",
         "unit-a1"
       ],
-      "source": "A1-4B Languages table (Turkishle coursebook)",
+      "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
       "notes": "",
       "status": "approved"
     },
     {
       "id": "cand-lang-0003",
       "turkish": "Felemenkçe / Hollandaca",
-      "english": "Dutch",
+      "english": "Dutch (language)",
       "priority": 3,
       "tags": [
         "language",
         "unit-a1-4b",
         "unit-a1"
       ],
-      "source": "A1-4B Languages table (Turkishle coursebook)",
+      "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
       "notes": "",
       "hint_en_tr": "(X / Y)",
       "status": "approved"
@@ -48,49 +48,49 @@
     {
       "id": "cand-lang-0004",
       "turkish": "Farsça",
-      "english": "Persian / Farsi",
+      "english": "Persian / Farsi (language)",
       "priority": 3,
       "tags": [
         "language",
         "unit-a1-4b",
         "unit-a1"
       ],
-      "source": "A1-4B Languages table (Turkishle coursebook)",
+      "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
       "notes": "",
       "status": "approved"
     },
     {
       "id": "cand-lang-0005",
       "turkish": "Makedonca",
-      "english": "Macedonian",
+      "english": "Macedonian (language)",
       "priority": 3,
       "tags": [
         "language",
         "unit-a1-4b",
         "unit-a1"
       ],
-      "source": "A1-4B Languages table (Turkishle coursebook)",
+      "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
       "notes": "",
       "status": "approved"
     },
     {
       "id": "cand-lang-0006",
       "turkish": "Urduca",
-      "english": "Urdu",
+      "english": "Urdu (language)",
       "priority": 3,
       "tags": [
         "language",
         "unit-a1-4b",
         "unit-a1"
       ],
-      "source": "A1-4B Languages table (Turkishle coursebook)",
+      "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
       "notes": "",
       "status": "approved"
     },
     {
       "id": "cand-lang-0007",
       "turkish": "Fince",
-      "english": "Finnish",
+      "english": "Finnish (language)",
       "priority": 3,
       "tags": [
         "language",
@@ -116,7 +116,7 @@
     {
       "id": "cand-lang-0009",
       "turkish": "Fin / Finli / Finlandiyalı",
-      "english": "Finn / Finnish (person)",
+      "english": "Finnish (person)",
       "priority": 3,
       "tags": [
         "noun",
@@ -143,13 +143,433 @@
     {
       "id": "cand-lang-0011",
       "turkish": "Polonyalı",
-      "english": "Pole / Polish (person)",
+      "english": "Polish (person)",
       "priority": 3,
       "tags": [
         "noun",
         "unit-extra"
       ],
       "source": "Personal addition (Finnish/Polish)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-lang-0012",
+      "turkish": "Alman",
+      "english": "German (person)",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4b",
+        "unit-a1"
+      ],
+      "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-lang-0013",
+      "turkish": "İspanyol",
+      "english": "Spanish (person)",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4b",
+        "unit-a1"
+      ],
+      "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-lang-0014",
+      "turkish": "İtalyan",
+      "english": "Italian (person)",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4b",
+        "unit-a1"
+      ],
+      "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-lang-0015",
+      "turkish": "İngiliz",
+      "english": "English (person)",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4b",
+        "unit-a1"
+      ],
+      "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-lang-0016",
+      "turkish": "Çek",
+      "english": "Czech (person)",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4b",
+        "unit-a1"
+      ],
+      "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-lang-0017",
+      "turkish": "Yunan",
+      "english": "Greek (person)",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4b",
+        "unit-a1"
+      ],
+      "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-lang-0018",
+      "turkish": "Kazak",
+      "english": "Kazakh (person)",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4b",
+        "unit-a1"
+      ],
+      "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-lang-0019",
+      "turkish": "Amerikan",
+      "english": "American (person)",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4b",
+        "unit-a1"
+      ],
+      "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-lang-0020",
+      "turkish": "Bulgar",
+      "english": "Bulgarian (person)",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4b",
+        "unit-a1"
+      ],
+      "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-lang-0021",
+      "turkish": "Gürcü",
+      "english": "Georgian (person)",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4b",
+        "unit-a1"
+      ],
+      "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-lang-0022",
+      "turkish": "Hint",
+      "english": "Indian (person)",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4b",
+        "unit-a1"
+      ],
+      "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-lang-0023",
+      "turkish": "Macar",
+      "english": "Hungarian (person)",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4b",
+        "unit-a1"
+      ],
+      "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-lang-0024",
+      "turkish": "Arnavut",
+      "english": "Albanian (person)",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4b",
+        "unit-a1"
+      ],
+      "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-lang-0025",
+      "turkish": "Danimarkalı",
+      "english": "Danish (person)",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4b",
+        "unit-a1"
+      ],
+      "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-lang-0026",
+      "turkish": "Belçikalı",
+      "english": "Belgian (person)",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4b",
+        "unit-a1"
+      ],
+      "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-lang-0027",
+      "turkish": "Hollandalı",
+      "english": "Dutch (person)",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4b",
+        "unit-a1"
+      ],
+      "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-lang-0028",
+      "turkish": "Mısırlı",
+      "english": "Egyptian (person)",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4b",
+        "unit-a1"
+      ],
+      "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-lang-0029",
+      "turkish": "İranlı",
+      "english": "Iranian (person)",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4b",
+        "unit-a1"
+      ],
+      "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-lang-0030",
+      "turkish": "Makedon",
+      "english": "Macedonian (person)",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4b",
+        "unit-a1"
+      ],
+      "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-lang-0031",
+      "turkish": "Brezilyalı",
+      "english": "Brazilian (person)",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4b",
+        "unit-a1"
+      ],
+      "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-lang-0032",
+      "turkish": "Pakistanlı",
+      "english": "Pakistani (person)",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4b",
+        "unit-a1"
+      ],
+      "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-lang-0033",
+      "turkish": "Çinli",
+      "english": "Chinese (person)",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4b",
+        "unit-a1"
+      ],
+      "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-lang-0034",
+      "turkish": "Iraklı",
+      "english": "Iraqi (person)",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4b",
+        "unit-a1"
+      ],
+      "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-lang-0035",
+      "turkish": "Türkiye",
+      "english": "Turkey",
+      "priority": 3,
+      "tags": [
+        "country",
+        "unit-a1-4b",
+        "unit-a1"
+      ],
+      "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-lang-0036",
+      "turkish": "İngiltere",
+      "english": "England / the UK",
+      "priority": 3,
+      "tags": [
+        "country",
+        "unit-a1-4b",
+        "unit-a1"
+      ],
+      "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-lang-0037",
+      "turkish": "Amerika",
+      "english": "America / the USA",
+      "priority": 3,
+      "tags": [
+        "country",
+        "unit-a1-4b",
+        "unit-a1"
+      ],
+      "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-lang-0038",
+      "turkish": "Yunanistan",
+      "english": "Greece",
+      "priority": 3,
+      "tags": [
+        "country",
+        "unit-a1-4b",
+        "unit-a1"
+      ],
+      "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-lang-0039",
+      "turkish": "Çekya",
+      "english": "Czechia",
+      "priority": 3,
+      "tags": [
+        "country",
+        "unit-a1-4b",
+        "unit-a1"
+      ],
+      "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-lang-0040",
+      "turkish": "Macaristan",
+      "english": "Hungary",
+      "priority": 3,
+      "tags": [
+        "country",
+        "unit-a1-4b",
+        "unit-a1"
+      ],
+      "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-lang-0041",
+      "turkish": "Makedonya",
+      "english": "(North) Macedonia",
+      "priority": 3,
+      "tags": [
+        "country",
+        "unit-a1-4b",
+        "unit-a1"
+      ],
+      "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
       "notes": "",
       "status": "approved"
     }
