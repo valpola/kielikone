@@ -25,6 +25,32 @@
       "source": "A1-1 exam (Turkishle coursebook)",
       "notes": "",
       "status": "approved"
+    },
+    {
+      "id": "extra-0003",
+      "turkish": "ağaç",
+      "english": "tree",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-extra"
+      ],
+      "source": "A1-1B grammar examples (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "extra-0004",
+      "turkish": "bisiklet",
+      "english": "bicycle",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-extra"
+      ],
+      "source": "A1-1B grammar examples (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
     }
   ]
 }

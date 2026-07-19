@@ -13107,6 +13107,26 @@
         "noun",
         "unit-extra"
       ]
+    },
+    {
+      "id": "extra-0003",
+      "turkish": "a\u011fa\u00e7",
+      "english": "tree",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-extra"
+      ]
+    },
+    {
+      "id": "extra-0004",
+      "turkish": "bisiklet",
+      "english": "bicycle",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-extra"
+      ]
     }
   ],
   "tags": [
