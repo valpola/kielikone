@@ -12,6 +12,19 @@
       "source": "manually_added",
       "notes": "",
       "status": "approved"
+    },
+    {
+      "id": "extra-0002",
+      "turkish": "hoca",
+      "english": "teacher / instructor (respectful term of address)",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-extra"
+      ],
+      "source": "A1-1 exam (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
     }
   ]
 }
