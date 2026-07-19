@@ -1034,6 +1034,174 @@
       ]
     },
     {
+      "id": "cand-a1-1web-0001",
+      "turkish": "Nas\u0131ls\u0131n?",
+      "english": "How are you?",
+      "priority": 3,
+      "tags": [
+        "greeting",
+        "unit-a1-1a",
+        "unit-a1",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-1web-0002",
+      "turkish": "Rica ederim",
+      "english": "You're welcome",
+      "priority": 3,
+      "tags": [
+        "polite",
+        "unit-a1-1a",
+        "unit-a1",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-1web-0003",
+      "turkish": "Memnun oldum",
+      "english": "Nice to meet you",
+      "priority": 3,
+      "tags": [
+        "greeting",
+        "unit-a1-1a",
+        "unit-a1",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-1web-0004",
+      "turkish": "Ho\u015f buldum",
+      "english": "Glad to be here (reply to Ho\u015f geldin)",
+      "priority": 3,
+      "tags": [
+        "greeting",
+        "unit-a1-1a",
+        "unit-a1",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-1web-0005",
+      "turkish": "Ad\u0131n ne?",
+      "english": "What's your name?",
+      "priority": 3,
+      "tags": [
+        "greeting",
+        "unit-a1-1a",
+        "unit-a1",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-1web-0006",
+      "turkish": "T\u00fcrk",
+      "english": "Turk / Turkish",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1a",
+        "unit-a1",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-1web-0007",
+      "turkish": "hadi",
+      "english": "come on / let's",
+      "priority": 3,
+      "tags": [
+        "expression",
+        "unit-a1-1a",
+        "unit-a1",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-1web-0008",
+      "turkish": "\u015fimdi",
+      "english": "now",
+      "priority": 3,
+      "tags": [
+        "time-expression",
+        "unit-a1-1b",
+        "unit-a1",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-1web-0009",
+      "turkish": "soru",
+      "english": "question",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b",
+        "unit-a1",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-1web-0010",
+      "turkish": "kafe",
+      "english": "caf\u00e9",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b",
+        "unit-a1",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-1web-0011",
+      "turkish": "turist",
+      "english": "tourist",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-1b",
+        "unit-a1",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-1web-0012",
+      "turkish": "kalabal\u0131k",
+      "english": "crowded",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-1b",
+        "unit-a1",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-1web-0013",
+      "turkish": "mesela",
+      "english": "for example",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-1b",
+        "unit-a1",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-1web-0014",
+      "turkish": "bence",
+      "english": "in my opinion",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-1b",
+        "unit-a1",
+        "today"
+      ]
+    },
+    {
       "id": "cand-a1-2a-0001",
       "turkish": "al\u0131\u015fveri\u015f merkezi",
       "english": "mall",
@@ -5418,8 +5586,7 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar",
-        "today"
+        "similar"
       ]
     },
     {
@@ -5431,8 +5598,7 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar",
-        "today"
+        "similar"
       ]
     },
     {
@@ -5455,8 +5621,7 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar",
-        "today"
+        "similar"
       ]
     },
     {
@@ -5468,8 +5633,7 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar",
-        "today"
+        "similar"
       ]
     },
     {
@@ -5503,8 +5667,7 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar",
-        "today"
+        "similar"
       ]
     },
     {
@@ -5539,8 +5702,7 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar",
-        "today"
+        "similar"
       ]
     },
     {
@@ -5552,8 +5714,7 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar",
-        "today"
+        "similar"
       ]
     },
     {
@@ -5576,8 +5737,7 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar",
-        "today"
+        "similar"
       ]
     },
     {
@@ -5600,8 +5760,7 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar",
-        "today"
+        "similar"
       ]
     },
     {
@@ -5624,8 +5783,7 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar",
-        "today"
+        "similar"
       ]
     },
     {
@@ -5637,8 +5795,7 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar",
-        "today"
+        "similar"
       ]
     },
     {
@@ -5650,8 +5807,7 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar",
-        "today"
+        "similar"
       ]
     },
     {
@@ -5674,8 +5830,7 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar",
-        "today"
+        "similar"
       ]
     },
     {
@@ -5698,8 +5853,7 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar",
-        "today"
+        "similar"
       ]
     },
     {
