@@ -71,6 +71,20 @@
       "source": "A1-2C Reading Comprehension (Turkishle web lesson)",
       "notes": "",
       "status": "approved"
+    },
+    {
+      "id": "cand-a1-2web-0006",
+      "turkish": "banyo",
+      "english": "bathroom",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a",
+        "unit-a1"
+      ],
+      "source": "A1-2A vocab flashcards (Turkishle web lesson)",
+      "notes": "",
+      "status": "approved"
     }
   ]
 }
