@@ -771,14 +771,14 @@
     {
       "id": "cand-a1-1b-0009",
       "turkish": "f\u0131r\u0131n",
-      "english": "oven / bakery",
+      "english": "oven",
       "priority": 3,
       "tags": [
         "noun",
         "unit-a1-1b",
-        "unit-a1",
-        "unit-a1-2a"
-      ]
+        "unit-a1"
+      ],
+      "hint_tr_en": "(ev aleti)"
     },
     {
       "id": "cand-a1-1b-0010",
@@ -1401,6 +1401,18 @@
         "unit-a1-2a",
         "unit-a1"
       ]
+    },
+    {
+      "id": "cand-a1-2a-0013",
+      "turkish": "f\u0131r\u0131n",
+      "english": "bakery",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a",
+        "unit-a1"
+      ],
+      "hint_tr_en": "(d\u00fckkan)"
     },
     {
       "id": "cand-a1-2a-0014",
@@ -2543,7 +2555,8 @@
         "noun",
         "unit-a1-2b",
         "unit-a1"
-      ]
+      ],
+      "hint_tr_en": "(tah\u0131l)"
     },
     {
       "id": "cand-a1-2b-0068",
@@ -6791,7 +6804,8 @@
         "unit-a1-4b",
         "unit-a1",
         "country"
-      ]
+      ],
+      "hint_tr_en": "(\u00fclke)"
     },
     {
       "id": "cand-a1-4b-0118",
