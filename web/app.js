@@ -484,11 +484,20 @@ const fetchResultsCsv = async () => {
     throw new Error("API key is required to fetch results");
   }
   if (apiKey) url.searchParams.set("api_key", apiKey);
-  const response = await fetch(url.toString(), { cache: "no-store" });
-  if (!response.ok) {
-    throw new Error("Failed to fetch results");
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), 15000);
+  try {
+    const response = await fetch(url.toString(), {
+      cache: "no-store",
+      signal: controller.signal,
+    });
+    if (!response.ok) {
+      throw new Error("Failed to fetch results");
+    }
+    return await response.text();
+  } finally {
+    clearTimeout(timer);
   }
-  return response.text();
 };
 
 const recomputeToday = async ({ silent = false } = {}) => {
@@ -550,14 +559,8 @@ const recomputeToday = async ({ silent = false } = {}) => {
     computedToday = new Set(topIds);
     saveStoredToday(computedToday);
     sessionCorrect.clear();
-    // On a silent auto-refresh (e.g. on load), keep the word already on screen
-    // if it's still in today's list — avoids a jarring swap and preserves a
-    // half-typed answer. The manual Recompute always jumps to a fresh word.
-    if (silent && current && computedToday.has(current.id)) {
-      // keep the current word as-is
-    } else {
-      renderPrompt();
-    }
+    renderPrompt();
+    return true;
   } catch (error) {
     if (!silent) window.alert("Failed to recompute today list.");
   } finally {
@@ -910,13 +913,20 @@ const loadData = async () => {
   renderDebugControls();
   renderTagOptions();
   renderMode();
-  renderPrompt();
-  // Auto-refresh today's list from the latest results (same as a manual
-  // Recompute), so a reload doesn't re-quiz words just answered. Runs silently
-  // and falls back to the stored list if offline / not logged in. Waits for the
-  // result queue to flush first so freshly-graded words are reflected.
   if (loginState.valid) {
-    flushed.then(() => recomputeToday({ silent: true }));
+    // Refresh today's list BEFORE showing any word, so a reload never flashes a
+    // stale word and then swaps it. Wait for the result queue to flush first so
+    // freshly-graded words are reflected. Fall back to the stored list if the
+    // refresh fails or times out.
+    PROMPT.textContent = "Loading today's words…";
+    HINT.classList.add("hidden");
+    REVEAL.hidden = true;
+    ACTIONS.classList.add("hidden");
+    GRADE.classList.add("hidden");
+    const refreshed = await flushed.then(() => recomputeToday({ silent: true }));
+    if (!refreshed) renderPrompt();
+  } else {
+    renderPrompt();
   }
 };
 
