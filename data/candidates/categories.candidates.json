@@ -671,31 +671,17 @@
     },
     {
       "id": "cand-cat-0050",
-      "turkish": "neden",
+      "turkish": "neden / niçin / niye",
       "english": "why",
       "priority": 3,
       "tags": [
         "adverb",
         "unit-a1"
       ],
-      "source": "Turkishle coursebook (A1, A2, B1)",
+      "source": "Turkishle coursebook (neden A1-B1; niye B1) + niçin (standard synonym / gap-fill)",
       "notes": "",
       "status": "approved",
-      "hint_tr_en": "(soru)"
-    },
-    {
-      "id": "cand-cat-0051",
-      "turkish": "niçin",
-      "english": "why / what for",
-      "priority": 3,
-      "tags": [
-        "adverb",
-        "unit-a1",
-        "unit-a1-extra"
-      ],
-      "source": "gap-fill: standard vocabulary, not found in Turkishle A1/A2/B1 coursebooks",
-      "notes": "",
-      "status": "approved"
+      "hint_en_tr": "(X / Y / Z)"
     },
     {
       "id": "cand-cat-0052",

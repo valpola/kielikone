@@ -6208,7 +6208,8 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -14761,25 +14762,14 @@
     },
     {
       "id": "cand-cat-0050",
-      "turkish": "neden",
+      "turkish": "neden / ni\u00e7in / niye",
       "english": "why",
       "priority": 3,
       "tags": [
         "adverb",
         "unit-a1"
       ],
-      "hint_tr_en": "(soru)"
-    },
-    {
-      "id": "cand-cat-0051",
-      "turkish": "ni\u00e7in",
-      "english": "why / what for",
-      "priority": 3,
-      "tags": [
-        "adverb",
-        "unit-a1",
-        "unit-a1-extra"
-      ]
+      "hint_en_tr": "(X / Y / Z)"
     },
     {
       "id": "cand-cat-0052",
@@ -15315,8 +15305,7 @@
       "tags": [
         "math",
         "noun",
-        "unit-extra",
-        "today"
+        "unit-extra"
       ]
     },
     {
