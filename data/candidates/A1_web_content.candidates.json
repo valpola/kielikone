@@ -1,0 +1,675 @@
+{
+  "source_file": "A1-2/3 web content extras",
+  "created_at": "2026-07-19T00:00:00+00:00",
+  "items": [
+    {
+      "id": "cand-web-0001",
+      "turkish": "dönmek",
+      "english": "to return / to go back",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-3b",
+        "unit-a1"
+      ],
+      "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-0002",
+      "turkish": "kalmak",
+      "english": "to stay",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-3b",
+        "unit-a1"
+      ],
+      "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-0003",
+      "turkish": "söylemek",
+      "english": "to say / to tell",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-3b",
+        "unit-a1"
+      ],
+      "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-0004",
+      "turkish": "çekmek",
+      "english": "to pull / to take (a photo)",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-3b",
+        "unit-a1"
+      ],
+      "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-0005",
+      "turkish": "tırmanmak",
+      "english": "to climb",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-3b",
+        "unit-a1"
+      ],
+      "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-0006",
+      "turkish": "sormak",
+      "english": "to ask",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-3b",
+        "unit-a1"
+      ],
+      "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-0007",
+      "turkish": "cevaplamak",
+      "english": "to answer",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-3b",
+        "unit-a1"
+      ],
+      "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-0008",
+      "turkish": "şarkı söylemek",
+      "english": "to sing",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-3b",
+        "unit-a1"
+      ],
+      "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-0009",
+      "turkish": "güneş",
+      "english": "sun",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-3b",
+        "unit-a1"
+      ],
+      "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-0010",
+      "turkish": "ateş",
+      "english": "fire",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-3b",
+        "unit-a1"
+      ],
+      "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-0011",
+      "turkish": "kum",
+      "english": "sand",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-3b",
+        "unit-a1"
+      ],
+      "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-0012",
+      "turkish": "çadır",
+      "english": "tent",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-3b",
+        "unit-a1"
+      ],
+      "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-0013",
+      "turkish": "mola",
+      "english": "break",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-3a",
+        "unit-a1"
+      ],
+      "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-0014",
+      "turkish": "sohbet",
+      "english": "chat / conversation",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-3b",
+        "unit-a1"
+      ],
+      "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-0015",
+      "turkish": "kişi",
+      "english": "person",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-3b",
+        "unit-a1"
+      ],
+      "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-0016",
+      "turkish": "lira",
+      "english": "lira (Turkish currency)",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b",
+        "unit-a1"
+      ],
+      "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-0017",
+      "turkish": "liste",
+      "english": "list",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b",
+        "unit-a1"
+      ],
+      "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-0018",
+      "turkish": "etkinlik",
+      "english": "activity",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-3b",
+        "unit-a1"
+      ],
+      "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-0019",
+      "turkish": "kamp",
+      "english": "camp / camping",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-3b",
+        "unit-a1"
+      ],
+      "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-0020",
+      "turkish": "sörf",
+      "english": "surfing",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-3b",
+        "unit-a1"
+      ],
+      "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-0021",
+      "turkish": "öğle",
+      "english": "noon / midday",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-3a",
+        "unit-a1"
+      ],
+      "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-0022",
+      "turkish": "spor",
+      "english": "sport",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a",
+        "unit-a1"
+      ],
+      "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-0023",
+      "turkish": "yemek",
+      "english": "food / meal",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2c",
+        "unit-a1"
+      ],
+      "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-0024",
+      "turkish": "seyahat",
+      "english": "travel / trip",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-3b",
+        "unit-a1"
+      ],
+      "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-0025",
+      "turkish": "sürü",
+      "english": "herd / flock",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-3b",
+        "unit-a1"
+      ],
+      "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-0026",
+      "turkish": "soğuk",
+      "english": "cold",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c",
+        "unit-a1"
+      ],
+      "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-0027",
+      "turkish": "lezzetli",
+      "english": "delicious / tasty",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c",
+        "unit-a1"
+      ],
+      "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-0028",
+      "turkish": "dolu",
+      "english": "full",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2b",
+        "unit-a1"
+      ],
+      "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-0029",
+      "turkish": "boş",
+      "english": "empty",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2b",
+        "unit-a1"
+      ],
+      "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-0030",
+      "turkish": "aç",
+      "english": "hungry",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-3c",
+        "unit-a1"
+      ],
+      "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-0031",
+      "turkish": "harika",
+      "english": "wonderful / great",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-3b",
+        "unit-a1"
+      ],
+      "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-0032",
+      "turkish": "manzaralı",
+      "english": "with a view",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-3c",
+        "unit-a1"
+      ],
+      "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-0033",
+      "turkish": "sonra",
+      "english": "then / afterwards",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-3a",
+        "unit-a1"
+      ],
+      "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-0034",
+      "turkish": "biraz",
+      "english": "a little / a bit",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-2b",
+        "unit-a1"
+      ],
+      "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-0035",
+      "turkish": "hangi",
+      "english": "which",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-3c",
+        "unit-a1"
+      ],
+      "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-0036",
+      "turkish": "veya",
+      "english": "or",
+      "priority": 3,
+      "tags": [
+        "conjunction",
+        "unit-a1-3a",
+        "unit-a1"
+      ],
+      "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-0037",
+      "turkish": "gibi",
+      "english": "like / as",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-3c",
+        "unit-a1"
+      ],
+      "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-0038",
+      "turkish": "için",
+      "english": "for",
+      "priority": 3,
+      "tags": [
+        "conjunction",
+        "unit-a1-2c",
+        "unit-a1"
+      ],
+      "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-0039",
+      "turkish": "herkes",
+      "english": "everyone",
+      "priority": 3,
+      "tags": [
+        "pronoun",
+        "unit-a1-3a",
+        "unit-a1"
+      ],
+      "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-0040",
+      "turkish": "hep",
+      "english": "always",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-3b",
+        "unit-a1"
+      ],
+      "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-0041",
+      "turkish": "hiç",
+      "english": "(not) at all / never",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-3b",
+        "unit-a1"
+      ],
+      "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-0042",
+      "turkish": "bugün",
+      "english": "today",
+      "priority": 3,
+      "tags": [
+        "time-expression",
+        "unit-a1-2b",
+        "unit-a1"
+      ],
+      "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-0043",
+      "turkish": "hoş",
+      "english": "pleasant / nice",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-3c",
+        "unit-a1"
+      ],
+      "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-0044",
+      "turkish": "ne",
+      "english": "what",
+      "priority": 3,
+      "tags": [
+        "pronoun",
+        "unit-a1-3a",
+        "unit-a1"
+      ],
+      "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-0045",
+      "turkish": "nerede",
+      "english": "where",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-2a",
+        "unit-a1"
+      ],
+      "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-0046",
+      "turkish": "değil",
+      "english": "not (negates nominal sentences)",
+      "priority": 3,
+      "tags": [
+        "unit-a1-2c",
+        "unit-a1"
+      ],
+      "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-0047",
+      "turkish": "var",
+      "english": "there is / there are",
+      "priority": 3,
+      "tags": [
+        "unit-a1-2a",
+        "unit-a1"
+      ],
+      "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-0048",
+      "turkish": "yok",
+      "english": "there isn't / there aren't",
+      "priority": 3,
+      "tags": [
+        "unit-a1-2a",
+        "unit-a1"
+      ],
+      "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    }
+  ]
+}

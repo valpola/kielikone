@@ -14688,6 +14688,1081 @@
       ]
     },
     {
+      "id": "cand-math-0001",
+      "turkish": "art\u0131",
+      "english": "plus",
+      "priority": 3,
+      "tags": [
+        "math",
+        "noun",
+        "unit-extra"
+      ]
+    },
+    {
+      "id": "cand-math-0002",
+      "turkish": "eksi",
+      "english": "minus",
+      "priority": 3,
+      "tags": [
+        "math",
+        "noun",
+        "unit-extra"
+      ]
+    },
+    {
+      "id": "cand-math-0003",
+      "turkish": "\u00e7arp\u0131",
+      "english": "times / multiplied by",
+      "priority": 3,
+      "tags": [
+        "math",
+        "noun",
+        "unit-extra"
+      ]
+    },
+    {
+      "id": "cand-math-0004",
+      "turkish": "b\u00f6l\u00fc",
+      "english": "divided by",
+      "priority": 3,
+      "tags": [
+        "math",
+        "noun",
+        "unit-extra"
+      ]
+    },
+    {
+      "id": "cand-math-0005",
+      "turkish": "e\u015fittir",
+      "english": "equals",
+      "priority": 3,
+      "tags": [
+        "math",
+        "noun",
+        "unit-extra"
+      ]
+    },
+    {
+      "id": "cand-math-0006",
+      "turkish": "say\u0131",
+      "english": "number",
+      "priority": 3,
+      "tags": [
+        "math",
+        "noun",
+        "unit-extra"
+      ]
+    },
+    {
+      "id": "cand-math-0007",
+      "turkish": "matematik",
+      "english": "maths / mathematics",
+      "priority": 3,
+      "tags": [
+        "math",
+        "noun",
+        "unit-extra"
+      ]
+    },
+    {
+      "id": "cand-math-0008",
+      "turkish": "y\u00fczde",
+      "english": "percent",
+      "priority": 3,
+      "tags": [
+        "math",
+        "noun",
+        "unit-extra"
+      ]
+    },
+    {
+      "id": "cand-math-0009",
+      "turkish": "\u00fcs",
+      "english": "power / exponent",
+      "priority": 3,
+      "tags": [
+        "math",
+        "noun",
+        "unit-extra"
+      ]
+    },
+    {
+      "id": "cand-math-0010",
+      "turkish": "toplama",
+      "english": "addition",
+      "priority": 3,
+      "tags": [
+        "math",
+        "noun",
+        "unit-extra"
+      ]
+    },
+    {
+      "id": "cand-math-0011",
+      "turkish": "\u00e7\u0131karma",
+      "english": "subtraction",
+      "priority": 3,
+      "tags": [
+        "math",
+        "noun",
+        "unit-extra"
+      ]
+    },
+    {
+      "id": "cand-math-0012",
+      "turkish": "\u00e7arpma",
+      "english": "multiplication",
+      "priority": 3,
+      "tags": [
+        "math",
+        "noun",
+        "unit-extra"
+      ]
+    },
+    {
+      "id": "cand-math-0013",
+      "turkish": "b\u00f6lme",
+      "english": "division",
+      "priority": 3,
+      "tags": [
+        "math",
+        "noun",
+        "unit-extra"
+      ]
+    },
+    {
+      "id": "cand-math-0014",
+      "turkish": "kare",
+      "english": "square",
+      "priority": 3,
+      "tags": [
+        "math",
+        "noun",
+        "unit-extra"
+      ]
+    },
+    {
+      "id": "cand-math-0015",
+      "turkish": "karek\u00f6k",
+      "english": "square root",
+      "priority": 3,
+      "tags": [
+        "math",
+        "noun",
+        "unit-extra"
+      ]
+    },
+    {
+      "id": "cand-num-0001",
+      "turkish": "s\u0131f\u0131r",
+      "english": "zero",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-num-0002",
+      "turkish": "bir",
+      "english": "one",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-num-0003",
+      "turkish": "iki",
+      "english": "two",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-num-0004",
+      "turkish": "\u00fc\u00e7",
+      "english": "three",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-num-0005",
+      "turkish": "d\u00f6rt",
+      "english": "four",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-num-0006",
+      "turkish": "be\u015f",
+      "english": "five",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-num-0007",
+      "turkish": "alt\u0131",
+      "english": "six",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-num-0008",
+      "turkish": "yedi",
+      "english": "seven",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-num-0009",
+      "turkish": "sekiz",
+      "english": "eight",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-num-0010",
+      "turkish": "dokuz",
+      "english": "nine",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-num-0011",
+      "turkish": "on",
+      "english": "ten",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-num-0012",
+      "turkish": "yirmi",
+      "english": "twenty",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-num-0013",
+      "turkish": "otuz",
+      "english": "thirty",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-num-0014",
+      "turkish": "k\u0131rk",
+      "english": "forty",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-num-0015",
+      "turkish": "elli",
+      "english": "fifty",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-num-0016",
+      "turkish": "altm\u0131\u015f",
+      "english": "sixty",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-num-0017",
+      "turkish": "yetmi\u015f",
+      "english": "seventy",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-num-0018",
+      "turkish": "seksen",
+      "english": "eighty",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-num-0019",
+      "turkish": "doksan",
+      "english": "ninety",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-num-0020",
+      "turkish": "y\u00fcz",
+      "english": "(one) hundred",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-num-0021",
+      "turkish": "bin",
+      "english": "(one) thousand",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-num-0022",
+      "turkish": "milyon",
+      "english": "million",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-num-0023",
+      "turkish": "milyar",
+      "english": "billion",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-num-0024",
+      "turkish": "trilyon",
+      "english": "trillion",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-num-0025",
+      "turkish": "birinci",
+      "english": "first",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-num-0026",
+      "turkish": "ikinci",
+      "english": "second",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-num-0027",
+      "turkish": "\u00fc\u00e7\u00fcnc\u00fc",
+      "english": "third",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-num-0028",
+      "turkish": "d\u00f6rd\u00fcnc\u00fc",
+      "english": "fourth",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-num-0029",
+      "turkish": "be\u015finci",
+      "english": "fifth",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-num-0030",
+      "turkish": "alt\u0131nc\u0131",
+      "english": "sixth",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-num-0031",
+      "turkish": "yedinci",
+      "english": "seventh",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-num-0032",
+      "turkish": "sekizinci",
+      "english": "eighth",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-num-0033",
+      "turkish": "dokuzuncu",
+      "english": "ninth",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-num-0034",
+      "turkish": "onuncu",
+      "english": "tenth",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-num-0035",
+      "turkish": "sonuncu",
+      "english": "last",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-web-0001",
+      "turkish": "d\u00f6nmek",
+      "english": "to return / to go back",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-3b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-web-0002",
+      "turkish": "kalmak",
+      "english": "to stay",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-3b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-web-0003",
+      "turkish": "s\u00f6ylemek",
+      "english": "to say / to tell",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-3b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-web-0004",
+      "turkish": "\u00e7ekmek",
+      "english": "to pull / to take (a photo)",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-3b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-web-0005",
+      "turkish": "t\u0131rmanmak",
+      "english": "to climb",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-3b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-web-0006",
+      "turkish": "sormak",
+      "english": "to ask",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-3b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-web-0007",
+      "turkish": "cevaplamak",
+      "english": "to answer",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-3b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-web-0008",
+      "turkish": "\u015fark\u0131 s\u00f6ylemek",
+      "english": "to sing",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-3b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-web-0009",
+      "turkish": "g\u00fcne\u015f",
+      "english": "sun",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-3b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-web-0010",
+      "turkish": "ate\u015f",
+      "english": "fire",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-3b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-web-0011",
+      "turkish": "kum",
+      "english": "sand",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-3b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-web-0012",
+      "turkish": "\u00e7ad\u0131r",
+      "english": "tent",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-3b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-web-0013",
+      "turkish": "mola",
+      "english": "break",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-3a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-web-0014",
+      "turkish": "sohbet",
+      "english": "chat / conversation",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-3b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-web-0015",
+      "turkish": "ki\u015fi",
+      "english": "person",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-3b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-web-0016",
+      "turkish": "lira",
+      "english": "lira (Turkish currency)",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-web-0017",
+      "turkish": "liste",
+      "english": "list",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-web-0018",
+      "turkish": "etkinlik",
+      "english": "activity",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-3b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-web-0019",
+      "turkish": "kamp",
+      "english": "camp / camping",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-3b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-web-0020",
+      "turkish": "s\u00f6rf",
+      "english": "surfing",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-3b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-web-0021",
+      "turkish": "\u00f6\u011fle",
+      "english": "noon / midday",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-3a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-web-0022",
+      "turkish": "spor",
+      "english": "sport",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-web-0023",
+      "turkish": "yemek",
+      "english": "food / meal",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2c",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-web-0024",
+      "turkish": "seyahat",
+      "english": "travel / trip",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-3b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-web-0025",
+      "turkish": "s\u00fcr\u00fc",
+      "english": "herd / flock",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-3b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-web-0026",
+      "turkish": "so\u011fuk",
+      "english": "cold",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-web-0027",
+      "turkish": "lezzetli",
+      "english": "delicious / tasty",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-web-0028",
+      "turkish": "dolu",
+      "english": "full",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-web-0029",
+      "turkish": "bo\u015f",
+      "english": "empty",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-web-0030",
+      "turkish": "a\u00e7",
+      "english": "hungry",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-3c",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-web-0031",
+      "turkish": "harika",
+      "english": "wonderful / great",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-3b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-web-0032",
+      "turkish": "manzaral\u0131",
+      "english": "with a view",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-3c",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-web-0033",
+      "turkish": "sonra",
+      "english": "then / afterwards",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-3a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-web-0034",
+      "turkish": "biraz",
+      "english": "a little / a bit",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-2b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-web-0035",
+      "turkish": "hangi",
+      "english": "which",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-3c",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-web-0036",
+      "turkish": "veya",
+      "english": "or",
+      "priority": 3,
+      "tags": [
+        "conjunction",
+        "unit-a1-3a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-web-0037",
+      "turkish": "gibi",
+      "english": "like / as",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-3c",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-web-0038",
+      "turkish": "i\u00e7in",
+      "english": "for",
+      "priority": 3,
+      "tags": [
+        "conjunction",
+        "unit-a1-2c",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-web-0039",
+      "turkish": "herkes",
+      "english": "everyone",
+      "priority": 3,
+      "tags": [
+        "pronoun",
+        "unit-a1-3a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-web-0040",
+      "turkish": "hep",
+      "english": "always",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-3b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-web-0041",
+      "turkish": "hi\u00e7",
+      "english": "(not) at all / never",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-3b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-web-0042",
+      "turkish": "bug\u00fcn",
+      "english": "today",
+      "priority": 3,
+      "tags": [
+        "time-expression",
+        "unit-a1-2b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-web-0043",
+      "turkish": "ho\u015f",
+      "english": "pleasant / nice",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-3c",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-web-0044",
+      "turkish": "ne",
+      "english": "what",
+      "priority": 3,
+      "tags": [
+        "pronoun",
+        "unit-a1-3a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-web-0045",
+      "turkish": "nerede",
+      "english": "where",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-2a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-web-0046",
+      "turkish": "de\u011fil",
+      "english": "not (negates nominal sentences)",
+      "priority": 3,
+      "tags": [
+        "unit-a1-2c",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-web-0047",
+      "turkish": "var",
+      "english": "there is / there are",
+      "priority": 3,
+      "tags": [
+        "unit-a1-2a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-web-0048",
+      "turkish": "yok",
+      "english": "there isn't / there aren't",
+      "priority": 3,
+      "tags": [
+        "unit-a1-2a",
+        "unit-a1"
+      ]
+    },
+    {
       "id": "extra-0001",
       "turkish": "\u00f6r\u00fcmcek",
       "english": "spider",
@@ -14943,6 +16018,16 @@
       "id": "unit-a2-2b",
       "label": "Unit A2-2B",
       "group": "unit"
+    },
+    {
+      "id": "number",
+      "label": "Number",
+      "group": "part_of_speech"
+    },
+    {
+      "id": "math",
+      "label": "Mathematics",
+      "group": "theme"
     }
   ]
 }

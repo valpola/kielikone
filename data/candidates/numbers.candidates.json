@@ -1,0 +1,496 @@
+{
+  "source_file": "Cardinal & ordinal numbers",
+  "created_at": "2026-07-19T00:00:00+00:00",
+  "items": [
+    {
+      "id": "cand-num-0001",
+      "turkish": "sıfır",
+      "english": "zero",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ],
+      "source": "A1-2B numbers (Turkishle) + standard cardinals to 10^12",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-num-0002",
+      "turkish": "bir",
+      "english": "one",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ],
+      "source": "A1-2B numbers (Turkishle) + standard cardinals to 10^12",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-num-0003",
+      "turkish": "iki",
+      "english": "two",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ],
+      "source": "A1-2B numbers (Turkishle) + standard cardinals to 10^12",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-num-0004",
+      "turkish": "üç",
+      "english": "three",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ],
+      "source": "A1-2B numbers (Turkishle) + standard cardinals to 10^12",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-num-0005",
+      "turkish": "dört",
+      "english": "four",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ],
+      "source": "A1-2B numbers (Turkishle) + standard cardinals to 10^12",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-num-0006",
+      "turkish": "beş",
+      "english": "five",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ],
+      "source": "A1-2B numbers (Turkishle) + standard cardinals to 10^12",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-num-0007",
+      "turkish": "altı",
+      "english": "six",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ],
+      "source": "A1-2B numbers (Turkishle) + standard cardinals to 10^12",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-num-0008",
+      "turkish": "yedi",
+      "english": "seven",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ],
+      "source": "A1-2B numbers (Turkishle) + standard cardinals to 10^12",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-num-0009",
+      "turkish": "sekiz",
+      "english": "eight",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ],
+      "source": "A1-2B numbers (Turkishle) + standard cardinals to 10^12",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-num-0010",
+      "turkish": "dokuz",
+      "english": "nine",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ],
+      "source": "A1-2B numbers (Turkishle) + standard cardinals to 10^12",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-num-0011",
+      "turkish": "on",
+      "english": "ten",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ],
+      "source": "A1-2B numbers (Turkishle) + standard cardinals to 10^12",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-num-0012",
+      "turkish": "yirmi",
+      "english": "twenty",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ],
+      "source": "A1-2B numbers (Turkishle) + standard cardinals to 10^12",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-num-0013",
+      "turkish": "otuz",
+      "english": "thirty",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ],
+      "source": "A1-2B numbers (Turkishle) + standard cardinals to 10^12",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-num-0014",
+      "turkish": "kırk",
+      "english": "forty",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ],
+      "source": "A1-2B numbers (Turkishle) + standard cardinals to 10^12",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-num-0015",
+      "turkish": "elli",
+      "english": "fifty",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ],
+      "source": "A1-2B numbers (Turkishle) + standard cardinals to 10^12",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-num-0016",
+      "turkish": "altmış",
+      "english": "sixty",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ],
+      "source": "A1-2B numbers (Turkishle) + standard cardinals to 10^12",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-num-0017",
+      "turkish": "yetmiş",
+      "english": "seventy",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ],
+      "source": "A1-2B numbers (Turkishle) + standard cardinals to 10^12",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-num-0018",
+      "turkish": "seksen",
+      "english": "eighty",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ],
+      "source": "A1-2B numbers (Turkishle) + standard cardinals to 10^12",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-num-0019",
+      "turkish": "doksan",
+      "english": "ninety",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ],
+      "source": "A1-2B numbers (Turkishle) + standard cardinals to 10^12",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-num-0020",
+      "turkish": "yüz",
+      "english": "(one) hundred",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ],
+      "source": "A1-2B numbers (Turkishle) + standard cardinals to 10^12",
+      "notes": "Also 'face'; stem of yüzmek (to swim).",
+      "status": "approved"
+    },
+    {
+      "id": "cand-num-0021",
+      "turkish": "bin",
+      "english": "(one) thousand",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ],
+      "source": "A1-2B numbers (Turkishle) + standard cardinals to 10^12",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-num-0022",
+      "turkish": "milyon",
+      "english": "million",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ],
+      "source": "A1-2B numbers (Turkishle) + standard cardinals to 10^12",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-num-0023",
+      "turkish": "milyar",
+      "english": "billion",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ],
+      "source": "A1-2B numbers (Turkishle) + standard cardinals to 10^12",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-num-0024",
+      "turkish": "trilyon",
+      "english": "trillion",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ],
+      "source": "A1-2B numbers (Turkishle) + standard cardinals to 10^12",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-num-0025",
+      "turkish": "birinci",
+      "english": "first",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ],
+      "source": "A1-2B numbers (Turkishle) + standard cardinals to 10^12",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-num-0026",
+      "turkish": "ikinci",
+      "english": "second",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ],
+      "source": "A1-2B numbers (Turkishle) + standard cardinals to 10^12",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-num-0027",
+      "turkish": "üçüncü",
+      "english": "third",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ],
+      "source": "A1-2B numbers (Turkishle) + standard cardinals to 10^12",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-num-0028",
+      "turkish": "dördüncü",
+      "english": "fourth",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ],
+      "source": "A1-2B numbers (Turkishle) + standard cardinals to 10^12",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-num-0029",
+      "turkish": "beşinci",
+      "english": "fifth",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ],
+      "source": "A1-2B numbers (Turkishle) + standard cardinals to 10^12",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-num-0030",
+      "turkish": "altıncı",
+      "english": "sixth",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ],
+      "source": "A1-2B numbers (Turkishle) + standard cardinals to 10^12",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-num-0031",
+      "turkish": "yedinci",
+      "english": "seventh",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ],
+      "source": "A1-2B numbers (Turkishle) + standard cardinals to 10^12",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-num-0032",
+      "turkish": "sekizinci",
+      "english": "eighth",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ],
+      "source": "A1-2B numbers (Turkishle) + standard cardinals to 10^12",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-num-0033",
+      "turkish": "dokuzuncu",
+      "english": "ninth",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ],
+      "source": "A1-2B numbers (Turkishle) + standard cardinals to 10^12",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-num-0034",
+      "turkish": "onuncu",
+      "english": "tenth",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ],
+      "source": "A1-2B numbers (Turkishle) + standard cardinals to 10^12",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-num-0035",
+      "turkish": "sonuncu",
+      "english": "last",
+      "priority": 3,
+      "tags": [
+        "number",
+        "unit-a1-2b",
+        "unit-a1"
+      ],
+      "source": "A1-2B numbers (Turkishle) + standard cardinals to 10^12",
+      "notes": "",
+      "status": "approved"
+    }
+  ]
+}

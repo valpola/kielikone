@@ -1,0 +1,216 @@
+{
+  "source_file": "Basic math vocabulary",
+  "created_at": "2026-07-19T00:00:00+00:00",
+  "items": [
+    {
+      "id": "cand-math-0001",
+      "turkish": "artı",
+      "english": "plus",
+      "priority": 3,
+      "tags": [
+        "math",
+        "noun",
+        "unit-extra"
+      ],
+      "source": "Basic mathematics vocabulary (not covered in Turkishle A1/A2/B1)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-math-0002",
+      "turkish": "eksi",
+      "english": "minus",
+      "priority": 3,
+      "tags": [
+        "math",
+        "noun",
+        "unit-extra"
+      ],
+      "source": "Basic mathematics vocabulary (not covered in Turkishle A1/A2/B1)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-math-0003",
+      "turkish": "çarpı",
+      "english": "times / multiplied by",
+      "priority": 3,
+      "tags": [
+        "math",
+        "noun",
+        "unit-extra"
+      ],
+      "source": "Basic mathematics vocabulary (not covered in Turkishle A1/A2/B1)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-math-0004",
+      "turkish": "bölü",
+      "english": "divided by",
+      "priority": 3,
+      "tags": [
+        "math",
+        "noun",
+        "unit-extra"
+      ],
+      "source": "Basic mathematics vocabulary (not covered in Turkishle A1/A2/B1)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-math-0005",
+      "turkish": "eşittir",
+      "english": "equals",
+      "priority": 3,
+      "tags": [
+        "math",
+        "noun",
+        "unit-extra"
+      ],
+      "source": "Basic mathematics vocabulary (not covered in Turkishle A1/A2/B1)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-math-0006",
+      "turkish": "sayı",
+      "english": "number",
+      "priority": 3,
+      "tags": [
+        "math",
+        "noun",
+        "unit-extra"
+      ],
+      "source": "Basic mathematics vocabulary (not covered in Turkishle A1/A2/B1)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-math-0007",
+      "turkish": "matematik",
+      "english": "maths / mathematics",
+      "priority": 3,
+      "tags": [
+        "math",
+        "noun",
+        "unit-extra"
+      ],
+      "source": "Basic mathematics vocabulary (not covered in Turkishle A1/A2/B1)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-math-0008",
+      "turkish": "yüzde",
+      "english": "percent",
+      "priority": 3,
+      "tags": [
+        "math",
+        "noun",
+        "unit-extra"
+      ],
+      "source": "Basic mathematics vocabulary (not covered in Turkishle A1/A2/B1)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-math-0009",
+      "turkish": "üs",
+      "english": "power / exponent",
+      "priority": 3,
+      "tags": [
+        "math",
+        "noun",
+        "unit-extra"
+      ],
+      "source": "Basic mathematics vocabulary (not covered in Turkishle A1/A2/B1)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-math-0010",
+      "turkish": "toplama",
+      "english": "addition",
+      "priority": 3,
+      "tags": [
+        "math",
+        "noun",
+        "unit-extra"
+      ],
+      "source": "Basic mathematics vocabulary (not covered in Turkishle A1/A2/B1)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-math-0011",
+      "turkish": "çıkarma",
+      "english": "subtraction",
+      "priority": 3,
+      "tags": [
+        "math",
+        "noun",
+        "unit-extra"
+      ],
+      "source": "Basic mathematics vocabulary (not covered in Turkishle A1/A2/B1)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-math-0012",
+      "turkish": "çarpma",
+      "english": "multiplication",
+      "priority": 3,
+      "tags": [
+        "math",
+        "noun",
+        "unit-extra"
+      ],
+      "source": "Basic mathematics vocabulary (not covered in Turkishle A1/A2/B1)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-math-0013",
+      "turkish": "bölme",
+      "english": "division",
+      "priority": 3,
+      "tags": [
+        "math",
+        "noun",
+        "unit-extra"
+      ],
+      "source": "Basic mathematics vocabulary (not covered in Turkishle A1/A2/B1)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-math-0014",
+      "turkish": "kare",
+      "english": "square",
+      "priority": 3,
+      "tags": [
+        "math",
+        "noun",
+        "unit-extra"
+      ],
+      "source": "Basic mathematics vocabulary (not covered in Turkishle A1/A2/B1)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-math-0015",
+      "turkish": "karekök",
+      "english": "square root",
+      "priority": 3,
+      "tags": [
+        "math",
+        "noun",
+        "unit-extra"
+      ],
+      "source": "Basic mathematics vocabulary (not covered in Turkishle A1/A2/B1)",
+      "notes": "",
+      "status": "approved"
+    }
+  ]
+}

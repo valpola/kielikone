@@ -215,6 +215,16 @@
       "id": "unit-a2-2b",
       "label": "Unit A2-2B",
       "group": "unit"
+    },
+    {
+      "id": "number",
+      "label": "Number",
+      "group": "part_of_speech"
+    },
+    {
+      "id": "math",
+      "label": "Mathematics",
+      "group": "theme"
     }
   ]
 }
