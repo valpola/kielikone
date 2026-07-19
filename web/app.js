@@ -550,7 +550,14 @@ const recomputeToday = async ({ silent = false } = {}) => {
     computedToday = new Set(topIds);
     saveStoredToday(computedToday);
     sessionCorrect.clear();
-    renderPrompt();
+    // On a silent auto-refresh (e.g. on load), keep the word already on screen
+    // if it's still in today's list — avoids a jarring swap and preserves a
+    // half-typed answer. The manual Recompute always jumps to a fresh word.
+    if (silent && current && computedToday.has(current.id)) {
+      // keep the current word as-is
+    } else {
+      renderPrompt();
+    }
   } catch (error) {
     if (!silent) window.alert("Failed to recompute today list.");
   } finally {
