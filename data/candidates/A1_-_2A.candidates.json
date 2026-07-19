@@ -172,7 +172,7 @@
     },
     {
       "id": "cand-a1-2a-0013",
-      "turkish": "fırın (dükkan)",
+      "turkish": "fırın",
       "english": "bakery",
       "priority": 3,
       "tags": [
@@ -182,6 +182,7 @@
       ],
       "source": "A1_-_2A.pdf",
       "notes": "",
+      "hint_tr_en": "(dükkan)",
       "status": "approved"
     },
     {

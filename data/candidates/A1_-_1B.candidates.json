@@ -116,7 +116,7 @@
     },
     {
       "id": "cand-a1-1b-0009",
-      "turkish": "fırın (ev aleti)",
+      "turkish": "fırın",
       "english": "oven",
       "priority": 3,
       "tags": [
@@ -126,6 +126,7 @@
       ],
       "source": "A1_-_1B.pdf",
       "notes": "",
+      "hint_tr_en": "(ev aleti)",
       "status": "approved"
     },
     {

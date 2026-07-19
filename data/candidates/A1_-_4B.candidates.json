@@ -1695,7 +1695,7 @@
     },
     {
       "id": "cand-a1-4b-0117",
-      "turkish": "Mısır (ülke)",
+      "turkish": "Mısır",
       "english": "Egypt",
       "priority": 3,
       "tags": [
@@ -1705,6 +1705,7 @@
       ],
       "source": "A1_-_4B.pdf",
       "notes": "",
+      "hint_tr_en": "(ülke)",
       "status": "approved"
     },
     {
