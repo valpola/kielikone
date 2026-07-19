@@ -1041,8 +1041,7 @@
       "tags": [
         "expression",
         "unit-a1-1a",
-        "unit-a1",
-        "today"
+        "unit-a1"
       ],
       "hint_en_tr": "(X / Y)"
     },
@@ -1054,8 +1053,7 @@
       "tags": [
         "expression",
         "unit-a1-1a",
-        "unit-a1",
-        "today"
+        "unit-a1"
       ]
     },
     {
@@ -3611,6 +3609,102 @@
       ]
     },
     {
+      "id": "cand-a1-2cb-0001",
+      "turkish": "ofis",
+      "english": "office",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a",
+        "unit-a1",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-2cb-0002",
+      "turkish": "durak",
+      "english": "(bus) stop",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a",
+        "unit-a1",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-2cb-0003",
+      "turkish": "salon",
+      "english": "living room / hall",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a",
+        "unit-a1",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-2cb-0004",
+      "turkish": "kasap",
+      "english": "butcher",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a",
+        "unit-a1",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-2cb-0005",
+      "turkish": "orman",
+      "english": "forest",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a",
+        "unit-a1",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-2cb-0006",
+      "turkish": "abla",
+      "english": "older sister",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2a",
+        "unit-a1",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-2cb-0007",
+      "turkish": "\u015fampuan",
+      "english": "shampoo",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-2b",
+        "unit-a1",
+        "today"
+      ]
+    },
+    {
+      "id": "cand-a1-2cb-0008",
+      "turkish": "ak\u0131ll\u0131",
+      "english": "smart / clever",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-2c",
+        "unit-a1",
+        "today"
+      ]
+    },
+    {
       "id": "cand-a1-3a-0001",
       "turkish": "banyo yapmak / du\u015f almak",
       "english": "to have a bath / to take a shower",
@@ -5411,8 +5505,7 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar",
-        "today"
+        "similar"
       ]
     },
     {
@@ -5424,8 +5517,7 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar",
-        "today"
+        "similar"
       ]
     },
     {
@@ -5437,8 +5529,7 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar",
-        "today"
+        "similar"
       ]
     },
     {
@@ -5483,8 +5574,7 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar",
-        "today"
+        "similar"
       ]
     },
     {
@@ -5496,8 +5586,7 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar",
-        "today"
+        "similar"
       ]
     },
     {
@@ -5509,8 +5598,7 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar",
-        "today"
+        "similar"
       ]
     },
     {

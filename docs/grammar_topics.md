@@ -26,4 +26,22 @@ learner already knows with a target grammar concept, with AI grading of translat
 - **4-way vowel harmony** (`ı` / `i` / `u` / `ü`)
 - Yes/no question particle **`mI?`** (`mı` / `mi` / `mu` / `mü`); answering with `Evet` / `Hayır, … değil`
 
+### Unit 2 — Nerede? / Kaç? / Sen Kimsin? (Where? / How many? / Who are you?)
+
+**2A — Locative Case & Var/Yok**
+- Locative case suffix **`-DA`** (`-da`/`-de`/`-ta`/`-te`); `Nerede?` (where?), `Kimde?` (who has?)
+- **`Var` / `Yok`** (there is/are — there isn't/aren't); questions `… var mı?` / `… yok mu?`
+- `Ne var?` / `Neler var?` / `Kim var?` / `Kimler var?`
+
+**2B — Numbers**
+- Cardinal numbers (`Sayılar`) and how they combine (`On iki`, `Üç yüz yirmi`, `Bin`…)
+- **`Kaç?`** (how many? / how much?); age (`Kaç yaşındasın?`), phone numbers, price (`ne kadar?`, `kaç para?`)
+- Telling time: `Saat kaç?` → `Saat üç`; **`Kaçta?`** (at what time?)
+- Ordinal numbers (`Sıra Sayıları`)
+
+**2C — Nominal Sentences**
+- Personal suffixes ("to be"): **`-ım/-sın/-Ø/-ız/-sınız/-lAr`** (`avukatım`, `öğretmensin`…)
+- Consonant softening in the suffix ("Ketçap/KTÇP" rule: `genç → gencim`, `kasap → kasabım`)
+- Negation with **`değil`** + personal endings (`avukat değilim`…)
+
 *(Further units to be added as they are reviewed.)*
