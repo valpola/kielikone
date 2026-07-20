@@ -483,7 +483,7 @@
     },
     {
       "id": "cand-web-0036",
-      "turkish": "veya",
+      "turkish": "veya / ya da",
       "english": "or",
       "priority": 3,
       "tags": [
@@ -491,9 +491,10 @@
         "unit-a1-3a",
         "unit-a1"
       ],
-      "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
+      "source": "Turkishle coursebook (veya A1-A2; ya da A1-B1)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-web-0037",

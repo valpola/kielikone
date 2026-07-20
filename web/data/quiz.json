@@ -16278,14 +16278,15 @@
     },
     {
       "id": "cand-web-0036",
-      "turkish": "veya",
+      "turkish": "veya / ya da",
       "english": "or",
       "priority": 3,
       "tags": [
         "conjunction",
         "unit-a1-3a",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-web-0037",
