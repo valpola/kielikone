@@ -6208,8 +6208,7 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar",
-        "today"
+        "similar"
       ]
     },
     {
@@ -6232,8 +6231,7 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar",
-        "today"
+        "similar"
       ]
     },
     {
@@ -13868,7 +13866,7 @@
     {
       "id": "cand-a2-2a-0019",
       "turkish": "\u00e7ocukken",
-      "english": "when i was a kid",
+      "english": "when I was a kid",
       "priority": 3,
       "tags": [
         "noun",
@@ -13956,7 +13954,7 @@
     {
       "id": "cand-a2-2a-0027",
       "turkish": "k\u00fc\u00e7\u00fckken",
-      "english": "when i was little",
+      "english": "when I was little",
       "priority": 3,
       "tags": [
         "noun",
@@ -14681,7 +14679,8 @@
       "tags": [
         "noun",
         "unit-a2-2c",
-        "unit-a2"
+        "unit-a2",
+        "today"
       ]
     },
     {
@@ -14703,7 +14702,8 @@
       "tags": [
         "noun",
         "unit-a2-2c",
-        "unit-a2"
+        "unit-a2",
+        "today"
       ]
     },
     {
@@ -14752,14 +14752,15 @@
     },
     {
       "id": "cand-a2-2sw-0009",
-      "turkish": "mesafe",
+      "turkish": "mesafe / uzakl\u0131k",
       "english": "distance",
       "priority": 3,
       "tags": [
         "noun",
         "unit-a2-2c",
         "unit-a2"
-      ]
+      ],
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-a2-2sw-0010",

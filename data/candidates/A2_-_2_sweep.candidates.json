@@ -116,7 +116,7 @@
     },
     {
       "id": "cand-a2-2sw-0009",
-      "turkish": "mesafe",
+      "turkish": "mesafe / uzaklık",
       "english": "distance",
       "priority": 3,
       "tags": [
@@ -126,7 +126,8 @@
       ],
       "source": "A2-2C vocab-page flashcards (Turkishle web)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-a2-2sw-0010",
