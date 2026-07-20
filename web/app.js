@@ -740,7 +740,11 @@ const normalizeAnswer = (value) =>
     .trim()
     .normalize("NFKC")
     .replace(/[().! ,]/g, "")
-    .toLocaleLowerCase("tr-TR");
+    .toLocaleLowerCase("tr-TR")
+    // circumflex-insensitive: accept a/i/u for â/î/û so learners needn't type the ^
+    .replace(/â/g, "a")
+    .replace(/î/g, "i")
+    .replace(/û/g, "u");
 
 // Slash-separated alternatives (e.g. "enteresan / ilginç") match in any order.
 const normalizeAnswerSet = (value) =>
