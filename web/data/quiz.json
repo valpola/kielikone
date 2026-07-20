@@ -6171,7 +6171,8 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -6183,7 +6184,8 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -6206,7 +6208,8 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -6229,7 +6232,8 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -14789,8 +14793,7 @@
       "tags": [
         "noun",
         "unit-a2-2c",
-        "unit-a2",
-        "today"
+        "unit-a2"
       ]
     },
     {
@@ -14812,8 +14815,7 @@
       "tags": [
         "adjective",
         "unit-a2-2c",
-        "unit-a2",
-        "today"
+        "unit-a2"
       ],
       "hint_en_tr": "(X / Y)"
     },
@@ -14825,8 +14827,7 @@
       "tags": [
         "adjective",
         "unit-a2-2c",
-        "unit-a2",
-        "today"
+        "unit-a2"
       ],
       "hint_en_tr": "(X / Y \u2014 at liberty / unrestricted)"
     },
@@ -14849,8 +14850,7 @@
       "tags": [
         "verb",
         "unit-a2-2c",
-        "unit-a2",
-        "today"
+        "unit-a2"
       ]
     },
     {
@@ -14873,7 +14873,8 @@
         "verb",
         "unit-a2-2c",
         "unit-a2"
-      ]
+      ],
+      "hint_en_tr": "(go out and about; leave the house)"
     },
     {
       "id": "cand-a2-2sw-0020",
@@ -14954,7 +14955,7 @@
     },
     {
       "id": "cand-a2-2sw-0027",
-      "turkish": "tarih\u00ee",
+      "turkish": "tarihi",
       "english": "historical",
       "priority": 3,
       "tags": [

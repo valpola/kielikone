@@ -269,7 +269,8 @@
       ],
       "source": "A2-2C vocab-page flashcards (Turkishle web)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(go out and about; leave the house)"
     },
     {
       "id": "cand-a2-2sw-0020",
@@ -371,7 +372,7 @@
     },
     {
       "id": "cand-a2-2sw-0027",
-      "turkish": "tarihî",
+      "turkish": "tarihi",
       "english": "historical",
       "priority": 3,
       "tags": [
