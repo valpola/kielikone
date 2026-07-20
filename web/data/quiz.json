@@ -6208,7 +6208,8 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -6231,7 +6232,8 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -10732,8 +10734,7 @@
       "tags": [
         "noun",
         "unit-a1-6a",
-        "unit-a1",
-        "today"
+        "unit-a1"
       ]
     },
     {
@@ -10810,8 +10811,7 @@
       "tags": [
         "noun",
         "unit-a1-6a",
-        "unit-a1",
-        "today"
+        "unit-a1"
       ]
     },
     {
@@ -13646,6 +13646,39 @@
       "id": "cand-a2-1rd-0010",
       "turkish": "\u00e7ocukluk",
       "english": "childhood",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-1c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-1rd-0011",
+      "turkish": "ger\u00e7ek",
+      "english": "real / true",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-1c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-1rd-0012",
+      "turkish": "tecr\u00fcbe",
+      "english": "experience",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-1c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-1rd-0013",
+      "turkish": "ba\u015far\u0131",
+      "english": "success",
       "priority": 3,
       "tags": [
         "noun",

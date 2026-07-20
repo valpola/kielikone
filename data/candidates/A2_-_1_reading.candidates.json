@@ -141,6 +141,48 @@
       "source": "A2-1 reading exercise SÖZLÜK (Turkishle web)",
       "notes": "",
       "status": "approved"
+    },
+    {
+      "id": "cand-a2-1rd-0011",
+      "turkish": "gerçek",
+      "english": "real / true",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-1c",
+        "unit-a2"
+      ],
+      "source": "A2-1C coursebook (grammar-section example word, Turkishle)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1rd-0012",
+      "turkish": "tecrübe",
+      "english": "experience",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-1c",
+        "unit-a2"
+      ],
+      "source": "A2-1C coursebook (grammar-section example word, Turkishle)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1rd-0013",
+      "turkish": "başarı",
+      "english": "success",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-1c",
+        "unit-a2"
+      ],
+      "source": "A2-1C coursebook (grammar-section example word, Turkishle)",
+      "notes": "",
+      "status": "approved"
     }
   ]
 }
