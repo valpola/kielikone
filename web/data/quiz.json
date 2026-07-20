@@ -10815,6 +10815,17 @@
       ]
     },
     {
+      "id": "cand-a1-6v-0009",
+      "turkish": "hamur i\u015fi",
+      "english": "pastries / baked goods",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a",
+        "unit-a1"
+      ]
+    },
+    {
       "id": "cand-a1-cases-0001",
       "turkish": "(bir \u015feyi) anlamak",
       "english": "to understand sth.",

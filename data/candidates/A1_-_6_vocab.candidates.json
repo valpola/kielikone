@@ -113,6 +113,20 @@
       "source": "A1-6 coursebook real-estate dialogue/section (Turkishle)",
       "notes": "",
       "status": "approved"
+    },
+    {
+      "id": "cand-a1-6v-0009",
+      "turkish": "hamur işi",
+      "english": "pastries / baked goods",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a",
+        "unit-a1"
+      ],
+      "source": "A1-6 vocab-page flashcards (Turkishle web)",
+      "notes": "dough-based foods (börek, poğaça, etc.)",
+      "status": "approved"
     }
   ]
 }
