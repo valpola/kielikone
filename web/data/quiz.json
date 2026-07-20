@@ -10727,6 +10727,94 @@
       ]
     },
     {
+      "id": "cand-a1-6v-0001",
+      "turkish": "k\u0131ta",
+      "english": "continent",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-6v-0002",
+      "turkish": "tramvay",
+      "english": "tram / streetcar",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-6v-0003",
+      "turkish": "eser",
+      "english": "work / artifact",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-6v-0004",
+      "turkish": "i\u00e7inde",
+      "english": "inside",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-6a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-6v-0005",
+      "turkish": "ortas\u0131nda",
+      "english": "in the middle (of)",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-6a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-6v-0006",
+      "turkish": "kar\u015f\u0131s\u0131nda",
+      "english": "opposite / across from",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-6a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-6v-0007",
+      "turkish": "emlak",
+      "english": "real estate / property",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-6v-0008",
+      "turkish": "emlak\u00e7\u0131",
+      "english": "real estate agent / realtor",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a",
+        "unit-a1"
+      ]
+    },
+    {
       "id": "cand-a1-cases-0001",
       "turkish": "(bir \u015feyi) anlamak",
       "english": "to understand sth.",

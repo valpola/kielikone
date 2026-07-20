@@ -1,0 +1,118 @@
+{
+  "source_file": "A1 Unit 6 vocab-page flashcards + coursebook dialogue extras",
+  "created_at": "2026-07-20T00:00:00+00:00",
+  "items": [
+    {
+      "id": "cand-a1-6v-0001",
+      "turkish": "kıta",
+      "english": "continent",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a",
+        "unit-a1"
+      ],
+      "source": "A1-6 vocab-page flashcards (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6v-0002",
+      "turkish": "tramvay",
+      "english": "tram / streetcar",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a",
+        "unit-a1"
+      ],
+      "source": "A1-6 vocab-page flashcards (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6v-0003",
+      "turkish": "eser",
+      "english": "work / artifact",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a",
+        "unit-a1"
+      ],
+      "source": "A1-6 vocab-page flashcards (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6v-0004",
+      "turkish": "içinde",
+      "english": "inside",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-6a",
+        "unit-a1"
+      ],
+      "source": "A1-6 vocab-page flashcards (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6v-0005",
+      "turkish": "ortasında",
+      "english": "in the middle (of)",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-6a",
+        "unit-a1"
+      ],
+      "source": "A1-6 vocab-page flashcards (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6v-0006",
+      "turkish": "karşısında",
+      "english": "opposite / across from",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-6a",
+        "unit-a1"
+      ],
+      "source": "A1-6 vocab-page flashcards (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6v-0007",
+      "turkish": "emlak",
+      "english": "real estate / property",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a",
+        "unit-a1"
+      ],
+      "source": "A1-6 coursebook real-estate dialogue/section (Turkishle)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6v-0008",
+      "turkish": "emlakçı",
+      "english": "real estate agent / realtor",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a",
+        "unit-a1"
+      ],
+      "source": "A1-6 coursebook real-estate dialogue/section (Turkishle)",
+      "notes": "",
+      "status": "approved"
+    }
+  ]
+}
