@@ -10044,7 +10044,7 @@
     },
     {
       "id": "cand-a1-6a-0019",
-      "turkish": "d\u00fckkan",
+      "turkish": "d\u00fckk\u00e2n",
       "english": "small shop / store",
       "priority": 3,
       "tags": [
@@ -10317,7 +10317,7 @@
     },
     {
       "id": "cand-a1-6a-0044",
-      "turkish": "merkezi",
+      "turkish": "merkez\u00ee",
       "english": "central",
       "priority": 3,
       "tags": [
@@ -14955,7 +14955,7 @@
     },
     {
       "id": "cand-a2-2sw-0027",
-      "turkish": "tarihi",
+      "turkish": "tarih\u00ee",
       "english": "historical",
       "priority": 3,
       "tags": [
@@ -15140,7 +15140,7 @@
     },
     {
       "id": "cand-a2-2sw-0044",
-      "turkish": "ka\u011f\u0131t",
+      "turkish": "k\u00e2\u011f\u0131t",
       "english": "paper",
       "priority": 3,
       "tags": [
@@ -15465,7 +15465,7 @@
     },
     {
       "id": "cand-cat-0028",
-      "turkish": "r\u00fczgar",
+      "turkish": "r\u00fczg\u00e2r",
       "english": "wind",
       "priority": 3,
       "tags": [
@@ -15545,7 +15545,7 @@
     },
     {
       "id": "cand-cat-0036",
-      "turkish": "r\u00fczgarl\u0131",
+      "turkish": "r\u00fczg\u00e2rl\u0131",
       "english": "windy",
       "priority": 3,
       "tags": [
