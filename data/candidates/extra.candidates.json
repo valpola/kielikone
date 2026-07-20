@@ -16,7 +16,7 @@
     {
       "id": "extra-0002",
       "turkish": "hoca",
-      "english": "teacher / instructor (respectful term of address)",
+      "english": "teacher / instructor",
       "priority": 3,
       "tags": [
         "noun",
@@ -25,7 +25,8 @@
       ],
       "source": "A1 SINAV 1 listening text (unit-1 exam), Turkishle coursebook",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(respectful address)"
     },
     {
       "id": "extra-0003",

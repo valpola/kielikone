@@ -57,7 +57,7 @@
     {
       "id": "cand-a1-listen-0005",
       "turkish": "olur",
-      "english": "okay / sure (agreeing)",
+      "english": "okay / sure",
       "priority": 3,
       "tags": [
         "expression",
@@ -65,7 +65,8 @@
       ],
       "source": "A1 listening/dialogue exercises (Turkishle)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(agreeing)"
     },
     {
       "id": "cand-a1-listen-0006",
@@ -109,7 +110,7 @@
     {
       "id": "cand-a1-listen-0009",
       "turkish": "efendim",
-      "english": "pardon? / yes? (answering)",
+      "english": "pardon? / yes?",
       "priority": 3,
       "tags": [
         "expression",
@@ -117,7 +118,8 @@
       ],
       "source": "A1 listening/dialogue exercises (Turkishle)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(answering)"
     },
     {
       "id": "cand-a1-listen-0010",
@@ -200,7 +202,7 @@
     {
       "id": "cand-a1-listen-0016",
       "turkish": "ne olsun",
-      "english": "just the usual (reply to 'how are you')",
+      "english": "just the usual",
       "priority": 3,
       "tags": [
         "expression",
@@ -208,7 +210,8 @@
       ],
       "source": "A1 listening/dialogue exercises (Turkishle)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(reply to 'how are you?')"
     },
     {
       "id": "cand-a1-listen-0017",

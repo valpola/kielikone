@@ -425,7 +425,7 @@
     {
       "id": "cand-a1-3c-0031",
       "turkish": "pilav",
-      "english": "rice (cooked)",
+      "english": "rice",
       "priority": 3,
       "tags": [
         "unit-a1-3c",
@@ -434,7 +434,8 @@
       ],
       "source": "A1_-_3C.pdf",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(cooked)"
     },
     {
       "id": "cand-a1-3c-0032",
@@ -467,7 +468,7 @@
     {
       "id": "cand-a1-3c-0034",
       "turkish": "poğaça",
-      "english": "pastry (savory)",
+      "english": "pastry",
       "priority": 3,
       "tags": [
         "unit-a1-3c",
@@ -476,7 +477,8 @@
       ],
       "source": "A1_-_3C.pdf",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(savoury)"
     },
     {
       "id": "cand-a1-3c-0035",

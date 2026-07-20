@@ -33,7 +33,7 @@
     {
       "id": "cand-a1-4a-0003",
       "turkish": "amca",
-      "english": "uncle (dad's brother)",
+      "english": "uncle",
       "priority": 3,
       "tags": [
         "unit-a1-4a",
@@ -42,7 +42,8 @@
       ],
       "source": "A1_-_4A.pdf",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(dad's brother)"
     },
     {
       "id": "cand-a1-4a-0004",
@@ -145,7 +146,7 @@
     {
       "id": "cand-a1-4a-0011",
       "turkish": "dayı",
-      "english": "uncle (mom's brother)",
+      "english": "uncle",
       "priority": 3,
       "tags": [
         "unit-a1-4a",
@@ -154,7 +155,8 @@
       ],
       "source": "A1_-_4A.pdf",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(mom's brother)"
     },
     {
       "id": "cand-a1-4a-0012",
@@ -257,7 +259,7 @@
     {
       "id": "cand-a1-4a-0019",
       "turkish": "hala",
-      "english": "aunt (dad's sister)",
+      "english": "aunt",
       "priority": 3,
       "tags": [
         "unit-a1-4a",
@@ -266,7 +268,8 @@
       ],
       "source": "A1_-_4A.pdf",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(dad's sister)"
     },
     {
       "id": "cand-a1-4a-0020",
@@ -453,7 +456,7 @@
     {
       "id": "cand-a1-4a-0033",
       "turkish": "teyze",
-      "english": "aunt (mom's sister)",
+      "english": "aunt",
       "priority": 3,
       "tags": [
         "unit-a1-4a",
@@ -462,7 +465,8 @@
       ],
       "source": "A1_-_4A.pdf",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(mom's sister)"
     },
     {
       "id": "cand-a1-4a-0034",

@@ -5,7 +5,7 @@
     {
       "id": "cand-a1-1cb-0001",
       "turkish": "naber / ne haber",
-      "english": "what's up? (informal)",
+      "english": "what's up?",
       "priority": 3,
       "tags": [
         "expression",
@@ -14,7 +14,7 @@
       ],
       "source": "A1-1A grammar section (Turkishle coursebook)",
       "notes": "",
-      "hint_en_tr": "(X / Y)",
+      "hint_en_tr": "(informal)",
       "status": "approved"
     },
     {

@@ -98,7 +98,8 @@
       ],
       "source": "A1_-_3B.pdf",
       "notes": "duplicate of cand-a1-3a-0005",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(intransitive / to end)"
     },
     {
       "id": "cand-a1-3b-0008",
@@ -509,7 +510,7 @@
     {
       "id": "cand-a1-3b-0037",
       "turkish": "telefon etmek",
-      "english": "to make a call",
+      "english": "to call / to phone",
       "priority": 3,
       "tags": [
         "unit-a1-3b",

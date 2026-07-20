@@ -201,7 +201,7 @@
     {
       "id": "cand-a1-4cb-0015",
       "turkish": "gövde",
-      "english": "trunk (of a tree)",
+      "english": "trunk",
       "priority": 3,
       "tags": [
         "noun",
@@ -210,12 +210,13 @@
       ],
       "source": "A1-4A grammar/transcript (Turkishle coursebook)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(of a tree)"
     },
     {
       "id": "cand-a1-4cb-0016",
       "turkish": "kendi",
-      "english": "self / own (reflexive)",
+      "english": "self / own",
       "priority": 3,
       "tags": [
         "pronoun",
@@ -224,7 +225,8 @@
       ],
       "source": "A1-4B grammar/transcript (Turkishle coursebook)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(reflexive)"
     },
     {
       "id": "cand-a1-4cb-0017",
@@ -347,7 +349,7 @@
     {
       "id": "cand-a1-4cb-0025",
       "turkish": "üflemek",
-      "english": "to blow (out)",
+      "english": "to blow",
       "priority": 3,
       "tags": [
         "verb",
@@ -356,7 +358,8 @@
       ],
       "source": "A1-4C grammar/transcript (Turkishle coursebook)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(e.g. out a candle)"
     },
     {
       "id": "cand-a1-4cb-0026",

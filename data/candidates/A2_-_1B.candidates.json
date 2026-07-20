@@ -915,7 +915,7 @@
     {
       "id": "cand-a2-1b-0066",
       "turkish": "pirinç",
-      "english": "rice (uncooked)",
+      "english": "rice",
       "priority": 3,
       "tags": [
         "noun",
@@ -924,12 +924,13 @@
       ],
       "source": "A2_-_1B.pdf",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(uncooked / grain)"
     },
     {
       "id": "cand-a2-1b-0115",
       "turkish": "pilav",
-      "english": "rice (cooked)",
+      "english": "rice",
       "priority": 3,
       "tags": [
         "noun",
@@ -938,7 +939,8 @@
       ],
       "source": "A2_-_1B.pdf",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(cooked)"
     },
     {
       "id": "cand-a2-1b-0067",
@@ -1531,8 +1533,7 @@
     {
       "id": "cand-a2-1b-0109",
       "turkish": "turuncu",
-      "english": "orange (colour)"
-,
+      "english": "orange",
       "priority": 3,
       "tags": [
         "adjective",
@@ -1541,7 +1542,8 @@
       ],
       "source": "A2_-_1B.pdf",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(colour)"
     },
     {
       "id": "cand-a2-1b-0110",

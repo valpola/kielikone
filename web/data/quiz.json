@@ -583,13 +583,14 @@
     {
       "id": "cand-a1-1a-0023",
       "turkish": "Sen de g\u00f6r! / Hep beraber!",
-      "english": "Thank you (reply to \"Bless you!\")!",
+      "english": "Thank you!",
       "priority": 3,
       "tags": [
         "unit-a1-1a",
         "unit-a1",
         "expression"
-      ]
+      ],
+      "hint_en_tr": "(reply to Bless you!)"
     },
     {
       "id": "cand-a1-1a-0024",
@@ -627,13 +628,14 @@
     {
       "id": "cand-a1-1a-0027",
       "turkish": "Affedersiniz!",
-      "english": "Excuse me! (polite)",
+      "english": "Excuse me!",
       "priority": 3,
       "tags": [
         "unit-a1-1a",
         "unit-a1",
         "expression"
-      ]
+      ],
+      "hint_en_tr": "(polite)"
     },
     {
       "id": "cand-a1-1a-0028",
@@ -1036,14 +1038,14 @@
     {
       "id": "cand-a1-1cb-0001",
       "turkish": "naber / ne haber",
-      "english": "what's up? (informal)",
+      "english": "what's up?",
       "priority": 3,
       "tags": [
         "expression",
         "unit-a1-1a",
         "unit-a1"
       ],
-      "hint_en_tr": "(X / Y)"
+      "hint_en_tr": "(informal)"
     },
     {
       "id": "cand-a1-1cb-0002",
@@ -1540,13 +1542,14 @@
     {
       "id": "cand-a1-2a-0025",
       "turkish": "ma\u011faza",
-      "english": "shop / store (general)",
+      "english": "shop / store",
       "priority": 3,
       "tags": [
         "noun",
         "unit-a1-2a",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(general)"
     },
     {
       "id": "cand-a1-2a-0026",
@@ -1573,14 +1576,15 @@
     {
       "id": "cand-a1-2a-0028",
       "turkish": "market",
-      "english": "grocery store / supermarket (food shop)",
+      "english": "grocery store / supermarket",
       "priority": 3,
       "tags": [
         "noun",
         "unit-a1-2a",
         "unit-a1",
         "unit-a1-2b"
-      ]
+      ],
+      "hint_en_tr": "(food shop)"
     },
     {
       "id": "cand-a1-2a-0030",
@@ -1697,13 +1701,14 @@
     {
       "id": "cand-a1-2a-0042",
       "turkish": "s\u0131ra",
-      "english": "(student) desk",
+      "english": "desk",
       "priority": 3,
       "tags": [
         "noun",
         "unit-a1-2a",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(classroom row-desk)"
     },
     {
       "id": "cand-a1-2a-0043",
@@ -1951,7 +1956,7 @@
     {
       "id": "cand-a1-2b-0011",
       "turkish": "bardak",
-      "english": "glass (for drinking)",
+      "english": "glass",
       "priority": 3,
       "tags": [
         "noun",
@@ -1959,7 +1964,8 @@
         "unit-a1",
         "unit-a2",
         "unit-a2-1c"
-      ]
+      ],
+      "hint_en_tr": "(for drinking)"
     },
     {
       "id": "cand-a1-2b-0012",
@@ -2157,13 +2163,14 @@
     {
       "id": "cand-a1-2b-0030",
       "turkish": "g\u0131da",
-      "english": "food (category)",
+      "english": "food",
       "priority": 3,
       "tags": [
         "noun",
         "unit-a1-2b",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(foodstuff / nutrition)"
     },
     {
       "id": "cand-a1-2b-0031",
@@ -2325,7 +2332,7 @@
     {
       "id": "cand-a1-2b-0045",
       "turkish": "kat",
-      "english": "floor (in a building)",
+      "english": "floor / storey",
       "priority": 3,
       "tags": [
         "noun",
@@ -2428,13 +2435,14 @@
     {
       "id": "cand-a1-2b-0055",
       "turkish": "kuru so\u011fan",
-      "english": "onion (bulb)",
+      "english": "onion",
       "priority": 3,
       "tags": [
         "noun",
         "unit-a1-2b",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(dry / bulb)"
     },
     {
       "id": "cand-a1-2b-0056",
@@ -2643,13 +2651,14 @@
     {
       "id": "cand-a1-2b-0075",
       "turkish": "portakal",
-      "english": "orange (fruit)",
+      "english": "orange",
       "priority": 3,
       "tags": [
         "noun",
         "unit-a1-2b",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(fruit)"
     },
     {
       "id": "cand-a1-2b-0076",
@@ -3117,13 +3126,14 @@
     {
       "id": "cand-a1-2c-0017",
       "turkish": "esmer",
-      "english": "brunette (skin)",
+      "english": "brunette",
       "priority": 3,
       "tags": [
         "adjective",
         "unit-a1-2c",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(skin / complexion)"
     },
     {
       "id": "cand-a1-2c-0018",
@@ -3315,13 +3325,14 @@
     {
       "id": "cand-a1-2c-0035",
       "turkish": "kumral",
-      "english": "brunette (hair)",
+      "english": "brunette",
       "priority": 3,
       "tags": [
         "adjective",
         "unit-a1-2c",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(hair)"
     },
     {
       "id": "cand-a1-2c-0036",
@@ -3594,13 +3605,14 @@
     {
       "id": "cand-a1-2cb-0002",
       "turkish": "durak",
-      "english": "(bus) stop",
+      "english": "stop",
       "priority": 3,
       "tags": [
         "noun",
         "unit-a1-2a",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(bus / transit)"
     },
     {
       "id": "cand-a1-2cb-0003",
@@ -3768,7 +3780,8 @@
         "unit-a1",
         "verb",
         "unit-a1-3b"
-      ]
+      ],
+      "hint_en_tr": "(intransitive / to end)"
     },
     {
       "id": "cand-a1-3a-0006",
@@ -4392,13 +4405,14 @@
     {
       "id": "cand-a1-3b-0101",
       "turkish": "(birine / bir \u015feye) k\u0131zmak",
-      "english": "to get angry with (someone) / at (something)",
+      "english": "to get angry with / at",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
         "unit-a1",
         "verb"
-      ]
+      ],
+      "hint_en_tr": "(sb. / sth.)"
     },
     {
       "id": "cand-a1-3b-0102",
@@ -4415,13 +4429,14 @@
     {
       "id": "cand-a1-3b-0103",
       "turkish": "(birine) te\u015fekk\u00fcr etmek",
-      "english": "to thank (sb. politely)",
+      "english": "to thank",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
         "unit-a1",
         "verb"
-      ]
+      ],
+      "hint_en_tr": "(sb.)"
     },
     {
       "id": "cand-a1-3b-0104",
@@ -4448,13 +4463,14 @@
     {
       "id": "cand-a1-3b-0106",
       "turkish": "(birine / bir \u015feye) inanmak",
-      "english": "to believe (someone) / believe in (something)",
+      "english": "to believe / to believe in",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
         "unit-a1",
         "verb"
-      ]
+      ],
+      "hint_en_tr": "(sb. / sth.)"
     },
     {
       "id": "cand-a1-3b-0107",
@@ -4471,13 +4487,14 @@
     {
       "id": "cand-a1-3b-0108",
       "turkish": "(bir \u015feye) binmek",
-      "english": "to get on (sth.; a vehicle/animal)",
+      "english": "to get on / to board",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
         "unit-a1",
         "verb"
-      ]
+      ],
+      "hint_en_tr": "(a vehicle)"
     },
     {
       "id": "cand-a1-3b-0109",
@@ -4495,7 +4512,7 @@
     {
       "id": "cand-a1-3b-0110",
       "turkish": "(birine) soru sormak",
-      "english": "to ask (someone a question)",
+      "english": "to ask a question",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
@@ -4518,24 +4535,26 @@
     {
       "id": "cand-a1-3b-0112",
       "turkish": "(bir yere) girmek",
-      "english": "to enter (a place)",
+      "english": "to enter",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
         "unit-a1",
         "verb"
-      ]
+      ],
+      "hint_en_tr": "(a place)"
     },
     {
       "id": "cand-a1-3b-0113",
       "turkish": "(bir yerden) \u00e7\u0131kmak",
-      "english": "to leave / go out (from a place)",
+      "english": "to leave / to go out",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
         "unit-a1",
         "verb"
-      ]
+      ],
+      "hint_en_tr": "(from a place)"
     },
     {
       "id": "cand-a1-3b-0114",
@@ -4563,13 +4582,14 @@
     {
       "id": "cand-a1-3b-0116",
       "turkish": "(birinden / bir yerden) ayr\u0131lmak",
-      "english": "to leave / separate; to break up (from someone)",
+      "english": "to leave / to separate / to break up",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
         "unit-a1",
         "verb"
-      ]
+      ],
+      "hint_en_tr": "(from sb. / a place)"
     },
     {
       "id": "cand-a1-3b-0117",
@@ -4596,13 +4616,14 @@
     {
       "id": "cand-a1-3b-0119",
       "turkish": "(birinden / bir \u015feyden) ho\u015flanmak",
-      "english": "like / enjoy / be fond of (sb./sth.)",
+      "english": "to like / to enjoy / to be fond of",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
         "unit-a1",
         "verb"
-      ]
+      ],
+      "hint_en_tr": "(sb. / sth.)"
     },
     {
       "id": "cand-a1-3b-0120",
@@ -4932,7 +4953,7 @@
     {
       "id": "cand-a1-3c-0031",
       "turkish": "pilav",
-      "english": "rice (cooked)",
+      "english": "rice",
       "priority": 3,
       "tags": [
         "unit-a1-3c",
@@ -4940,7 +4961,8 @@
         "noun",
         "unit-a2",
         "unit-a2-1b"
-      ]
+      ],
+      "hint_en_tr": "(cooked)"
     },
     {
       "id": "cand-a1-3c-0032",
@@ -4969,13 +4991,14 @@
     {
       "id": "cand-a1-3c-0034",
       "turkish": "po\u011fa\u00e7a",
-      "english": "pastry (savory)",
+      "english": "pastry",
       "priority": 3,
       "tags": [
         "unit-a1-3c",
         "unit-a1",
         "noun"
-      ]
+      ],
+      "hint_en_tr": "(savoury)"
     },
     {
       "id": "cand-a1-3c-0035",
@@ -5192,7 +5215,8 @@
         "verb",
         "unit-a1-3b",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(transitive / to complete sth.)"
     },
     {
       "id": "cand-a1-3web-0006",
@@ -5230,13 +5254,14 @@
     {
       "id": "cand-a1-4a-0003",
       "turkish": "amca",
-      "english": "uncle (dad's brother)",
+      "english": "uncle",
       "priority": 3,
       "tags": [
         "unit-a1-4a",
         "unit-a1",
         "noun"
-      ]
+      ],
+      "hint_en_tr": "(dad's brother)"
     },
     {
       "id": "cand-a1-4a-0004",
@@ -5296,13 +5321,14 @@
     {
       "id": "cand-a1-4a-0011",
       "turkish": "day\u0131",
-      "english": "uncle (mom's brother)",
+      "english": "uncle",
       "priority": 3,
       "tags": [
         "unit-a1-4a",
         "unit-a1",
         "noun"
-      ]
+      ],
+      "hint_en_tr": "(mom's brother)"
     },
     {
       "id": "cand-a1-4a-0012",
@@ -5362,13 +5388,14 @@
     {
       "id": "cand-a1-4a-0019",
       "turkish": "hala",
-      "english": "aunt (dad's sister)",
+      "english": "aunt",
       "priority": 3,
       "tags": [
         "unit-a1-4a",
         "unit-a1",
         "noun"
-      ]
+      ],
+      "hint_en_tr": "(dad's sister)"
     },
     {
       "id": "cand-a1-4a-0020",
@@ -5517,13 +5544,14 @@
     {
       "id": "cand-a1-4a-0033",
       "turkish": "teyze",
-      "english": "aunt (mom's sister)",
+      "english": "aunt",
       "priority": 3,
       "tags": [
         "unit-a1-4a",
         "unit-a1",
         "noun"
-      ]
+      ],
+      "hint_en_tr": "(mom's sister)"
     },
     {
       "id": "cand-a1-4a-0034",
@@ -6211,8 +6239,7 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar",
-        "today"
+        "similar"
       ]
     },
     {
@@ -8737,24 +8764,26 @@
     {
       "id": "cand-a1-4cb-0015",
       "turkish": "g\u00f6vde",
-      "english": "trunk (of a tree)",
+      "english": "trunk",
       "priority": 3,
       "tags": [
         "noun",
         "unit-a1-4a",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(of a tree)"
     },
     {
       "id": "cand-a1-4cb-0016",
       "turkish": "kendi",
-      "english": "self / own (reflexive)",
+      "english": "self / own",
       "priority": 3,
       "tags": [
         "pronoun",
         "unit-a1-4b",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(reflexive)"
     },
     {
       "id": "cand-a1-4cb-0017",
@@ -8853,13 +8882,14 @@
     {
       "id": "cand-a1-4cb-0025",
       "turkish": "\u00fcflemek",
-      "english": "to blow (out)",
+      "english": "to blow",
       "priority": 3,
       "tags": [
         "verb",
         "unit-a1-4c",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(e.g. out a candle)"
     },
     {
       "id": "cand-a1-4cb-0026",
@@ -9250,13 +9280,14 @@
     {
       "id": "cand-a1-5b-0002",
       "turkish": "ge\u00e7irmek",
-      "english": "to spend (time)",
+      "english": "to spend",
       "priority": 3,
       "tags": [
         "unit-a1-5b",
         "unit-a1",
         "verb"
-      ]
+      ],
+      "hint_en_tr": "(time)"
     },
     {
       "id": "cand-a1-5b-0004",
@@ -9787,7 +9818,8 @@
       "tags": [
         "noun",
         "unit-a1-5a",
-        "unit-a1"
+        "unit-a1",
+        "today"
       ]
     },
     {
@@ -11064,12 +11096,13 @@
     {
       "id": "cand-a1-listen-0005",
       "turkish": "olur",
-      "english": "okay / sure (agreeing)",
+      "english": "okay / sure",
       "priority": 3,
       "tags": [
         "expression",
         "unit-extra"
-      ]
+      ],
+      "hint_en_tr": "(agreeing)"
     },
     {
       "id": "cand-a1-listen-0006",
@@ -11104,12 +11137,13 @@
     {
       "id": "cand-a1-listen-0009",
       "turkish": "efendim",
-      "english": "pardon? / yes? (answering)",
+      "english": "pardon? / yes?",
       "priority": 3,
       "tags": [
         "expression",
         "unit-extra"
-      ]
+      ],
+      "hint_en_tr": "(answering)"
     },
     {
       "id": "cand-a1-listen-0010",
@@ -11174,12 +11208,13 @@
     {
       "id": "cand-a1-listen-0016",
       "turkish": "ne olsun",
-      "english": "just the usual (reply to 'how are you')",
+      "english": "just the usual",
       "priority": 3,
       "tags": [
         "expression",
         "unit-extra"
-      ]
+      ],
+      "hint_en_tr": "(reply to 'how are you?')"
     },
     {
       "id": "cand-a1-listen-0017",
@@ -11711,13 +11746,14 @@
     {
       "id": "cand-a2-1a-0020",
       "turkish": "kilometre/saat (km/s)",
-      "english": "kilometres per hour (km/h)",
+      "english": "kilometres per hour",
       "priority": 3,
       "tags": [
         "noun",
         "unit-a2",
         "unit-a2-1a"
-      ]
+      ],
+      "hint_en_tr": "(km/h)"
     },
     {
       "id": "cand-a2-1a-0021",
@@ -12393,13 +12429,14 @@
     {
       "id": "cand-a2-1b-0066",
       "turkish": "pirin\u00e7",
-      "english": "rice (uncooked)",
+      "english": "rice",
       "priority": 3,
       "tags": [
         "noun",
         "unit-a2",
         "unit-a2-1b"
-      ]
+      ],
+      "hint_en_tr": "(uncooked / grain)"
     },
     {
       "id": "cand-a2-1b-0069",
@@ -12757,13 +12794,14 @@
     {
       "id": "cand-a2-1b-0109",
       "turkish": "turuncu",
-      "english": "orange (colour)",
+      "english": "orange",
       "priority": 3,
       "tags": [
         "adjective",
         "unit-a2",
         "unit-a2-1b"
-      ]
+      ],
+      "hint_en_tr": "(colour)"
     },
     {
       "id": "cand-a2-1b-0111",
@@ -12900,7 +12938,7 @@
     {
       "id": "cand-a2-1c-0011",
       "turkish": "hamur a\u00e7mak",
-      "english": "to roll out (dough)",
+      "english": "to roll out dough",
       "priority": 3,
       "tags": [
         "verb",
@@ -13430,13 +13468,14 @@
     {
       "id": "cand-a2-2a-0015",
       "turkish": "seyrek",
-      "english": "rare / sparse / thin (hair)",
+      "english": "sparse / rare",
       "priority": 3,
       "tags": [
         "unit-a2",
         "unit-a2-2a",
         "adjective"
-      ]
+      ],
+      "hint_en_tr": "(thin, of hair)"
     },
     {
       "id": "cand-a2-2a-0016",
@@ -16430,13 +16469,14 @@
     {
       "id": "extra-0002",
       "turkish": "hoca",
-      "english": "teacher / instructor (respectful term of address)",
+      "english": "teacher / instructor",
       "priority": 3,
       "tags": [
         "noun",
         "unit-a1-1a",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(respectful address)"
     },
     {
       "id": "extra-0003",

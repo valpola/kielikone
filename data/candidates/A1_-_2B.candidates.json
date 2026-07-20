@@ -145,7 +145,7 @@
     {
       "id": "cand-a1-2b-0011",
       "turkish": "bardak",
-      "english": "glass (for drinking)",
+      "english": "glass",
       "priority": 3,
       "tags": [
         "noun",
@@ -154,7 +154,8 @@
       ],
       "source": "A1_-_2B.pdf",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(for drinking)"
     },
     {
       "id": "cand-a1-2b-0012",
@@ -411,7 +412,7 @@
     {
       "id": "cand-a1-2b-0030",
       "turkish": "gıda",
-      "english": "food (category)",
+      "english": "food",
       "priority": 3,
       "tags": [
         "noun",
@@ -420,7 +421,8 @@
       ],
       "source": "A1_-_2B.pdf",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(foodstuff / nutrition)"
     },
     {
       "id": "cand-a1-2b-0031",
@@ -621,7 +623,7 @@
     {
       "id": "cand-a1-2b-0045",
       "turkish": "kat",
-      "english": "floor (in a building)",
+      "english": "floor / storey",
       "priority": 3,
       "tags": [
         "noun",
@@ -761,7 +763,7 @@
     {
       "id": "cand-a1-2b-0055",
       "turkish": "kuru soğan",
-      "english": "onion (bulb)",
+      "english": "onion",
       "priority": 3,
       "tags": [
         "noun",
@@ -770,7 +772,8 @@
       ],
       "source": "A1_-_2B.pdf",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(dry / bulb)"
     },
     {
       "id": "cand-a1-2b-0056",
@@ -859,7 +862,7 @@
     {
       "id": "cand-a1-2b-0062",
       "turkish": "market",
-      "english": "grocery store / supermarket (food shop)",
+      "english": "grocery store / supermarket",
       "priority": 3,
       "tags": [
         "noun",
@@ -868,7 +871,8 @@
       ],
       "source": "A1_-_2B.pdf",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(food shop)"
     },
     {
       "id": "cand-a1-2b-0063",
@@ -1042,7 +1046,7 @@
     {
       "id": "cand-a1-2b-0075",
       "turkish": "portakal",
-      "english": "orange (fruit)",
+      "english": "orange",
       "priority": 3,
       "tags": [
         "noun",
@@ -1051,7 +1055,8 @@
       ],
       "source": "A1_-_2B.pdf",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(fruit)"
     },
     {
       "id": "cand-a1-2b-0076",

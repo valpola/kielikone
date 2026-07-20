@@ -19,7 +19,7 @@
     {
       "id": "cand-a1-5b-0002",
       "turkish": "geçirmek",
-      "english": "to spend (time)",
+      "english": "to spend",
       "priority": 3,
       "tags": [
         "unit-a1-5b",
@@ -28,7 +28,8 @@
       ],
       "source": "A1_-_5B.pdf",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(time)"
     },
     {
       "id": "cand-a1-5b-0003",

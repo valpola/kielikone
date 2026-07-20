@@ -203,7 +203,7 @@
     {
       "id": "cand-a2-2a-0015",
       "turkish": "seyrek",
-      "english": "rare / sparse / thin (hair)",
+      "english": "sparse / rare",
       "priority": 3,
       "tags": [
         "unit-a2",
@@ -212,7 +212,8 @@
       ],
       "source": "A2_-_2A.pdf",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(thin, of hair)"
     },
     {
       "id": "cand-a2-2a-0016",

@@ -145,7 +145,7 @@
     {
       "id": "cand-a2-1c-0011",
       "turkish": "hamur açmak",
-      "english": "to roll out (dough)",
+      "english": "to roll out dough",
       "priority": 3,
       "tags": [
         "verb",
@@ -350,7 +350,8 @@
       ],
       "source": "A2_-_1C.pdf",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(for drinking)"
     },
     {
       "id": "cand-a2-1c-0026",
@@ -462,7 +463,8 @@
       ],
       "source": "A2_-_1C.pdf",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(for drinking)"
     },
     {
       "id": "cand-a2-1c-0034",

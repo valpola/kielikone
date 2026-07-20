@@ -117,7 +117,7 @@
     {
       "id": "cand-a1-1a-0023",
       "turkish": "Sen de gör! / Hep beraber!",
-      "english": "Thank you (reply to \"Bless you!\")!",
+      "english": "Thank you!",
       "priority": 3,
       "tags": [
         "unit-a1-1a",
@@ -126,7 +126,8 @@
       ],
       "source": "A1_-_1A.pdf",
       "notes": "daily expressions",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(reply to Bless you!)"
     },
     {
       "id": "cand-a1-1a-0024",
@@ -173,7 +174,7 @@
     {
       "id": "cand-a1-1a-0027",
       "turkish": "Affedersiniz!",
-      "english": "Excuse me! (polite)",
+      "english": "Excuse me!",
       "priority": 3,
       "tags": [
         "unit-a1-1a",
@@ -182,7 +183,8 @@
       ],
       "source": "A1_-_1A.pdf",
       "notes": "daily expressions",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(polite)"
     },
     {
       "id": "cand-a1-1a-0028",

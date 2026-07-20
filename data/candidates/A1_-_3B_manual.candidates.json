@@ -5,7 +5,7 @@
     {
       "id": "cand-a1-3b-0101",
       "turkish": "(birine / bir şeye) kızmak",
-      "english": "to get angry with (someone) / at (something)",
+      "english": "to get angry with / at",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
@@ -14,7 +14,8 @@
       ],
       "source": "Unit_3B_manual",
       "notes": "manual entry",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(sb. / sth.)"
     },
     {
       "id": "cand-a1-3b-0102",
@@ -33,7 +34,7 @@
     {
       "id": "cand-a1-3b-0103",
       "turkish": "(birine) teşekkür etmek",
-      "english": "to thank (sb. politely)",
+      "english": "to thank",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
@@ -42,7 +43,8 @@
       ],
       "source": "Unit_3B_manual",
       "notes": "manual entry",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(sb.)"
     },
     {
       "id": "cand-a1-3b-0104",
@@ -75,7 +77,7 @@
     {
       "id": "cand-a1-3b-0106",
       "turkish": "(birine / bir şeye) inanmak",
-      "english": "to believe (someone) / believe in (something)",
+      "english": "to believe / to believe in",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
@@ -84,7 +86,8 @@
       ],
       "source": "Unit_3B_manual",
       "notes": "manual entry",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(sb. / sth.)"
     },
     {
       "id": "cand-a1-3b-0107",
@@ -103,7 +106,7 @@
     {
       "id": "cand-a1-3b-0108",
       "turkish": "(bir şeye) binmek",
-      "english": "to get on (sth.; a vehicle/animal)",
+      "english": "to get on / to board",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
@@ -112,7 +115,8 @@
       ],
       "source": "Unit_3B_manual",
       "notes": "manual entry",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(a vehicle)"
     },
     {
       "id": "cand-a1-3b-0109",
@@ -132,7 +136,7 @@
     {
       "id": "cand-a1-3b-0110",
       "turkish": "(birine) soru sormak",
-      "english": "to ask (someone a question)",
+      "english": "to ask a question",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
@@ -160,7 +164,7 @@
     {
       "id": "cand-a1-3b-0112",
       "turkish": "(bir yere) girmek",
-      "english": "to enter (a place)",
+      "english": "to enter",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
@@ -169,12 +173,13 @@
       ],
       "source": "Unit_3B_manual",
       "notes": "manual entry",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(a place)"
     },
     {
       "id": "cand-a1-3b-0113",
       "turkish": "(bir yerden) çıkmak",
-      "english": "to leave / go out (from a place)",
+      "english": "to leave / to go out",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
@@ -183,7 +188,8 @@
       ],
       "source": "Unit_3B_manual",
       "notes": "manual entry",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(from a place)"
     },
     {
       "id": "cand-a1-3b-0114",
@@ -216,7 +222,7 @@
     {
       "id": "cand-a1-3b-0116",
       "turkish": "(birinden / bir yerden) ayrılmak",
-      "english": "to leave / separate; to break up (from someone)",
+      "english": "to leave / to separate / to break up",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
@@ -225,7 +231,8 @@
       ],
       "source": "Unit_3B_manual",
       "notes": "manual entry",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(from sb. / a place)"
     },
     {
       "id": "cand-a1-3b-0117",
@@ -258,7 +265,7 @@
     {
       "id": "cand-a1-3b-0119",
       "turkish": "(birinden / bir şeyden) hoşlanmak",
-      "english": "like / enjoy / be fond of (sb./sth.)",
+      "english": "to like / to enjoy / to be fond of",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
@@ -267,7 +274,8 @@
       ],
       "source": "Unit_3B_manual",
       "notes": "manual entry",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(sb. / sth.)"
     },
     {
       "id": "cand-a1-3b-0120",

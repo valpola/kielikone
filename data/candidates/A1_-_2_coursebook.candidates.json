@@ -19,7 +19,7 @@
     {
       "id": "cand-a1-2cb-0002",
       "turkish": "durak",
-      "english": "(bus) stop",
+      "english": "stop",
       "priority": 3,
       "tags": [
         "noun",
@@ -28,7 +28,8 @@
       ],
       "source": "A1-2A grammar/dialogue (Turkishle coursebook)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(bus / transit)"
     },
     {
       "id": "cand-a1-2cb-0003",
