@@ -271,7 +271,7 @@
     {
       "id": "cand-a2-1a-0020",
       "turkish": "kilometre/saat (km/s)",
-      "english": "kilometres per hour",
+      "english": "kilometres per hour (km/h)",
       "priority": 3,
       "tags": [
         "noun",
@@ -280,8 +280,7 @@
       ],
       "source": "A2_-_1A.pdf",
       "notes": "",
-      "status": "approved",
-      "hint_en_tr": "(km/h)"
+      "status": "approved"
     },
     {
       "id": "cand-a2-1a-0021",

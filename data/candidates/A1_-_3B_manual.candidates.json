@@ -29,7 +29,8 @@
       ],
       "source": "Unit_3B_manual",
       "notes": "manual entry",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(sb. / sth.)"
     },
     {
       "id": "cand-a1-3b-0103",
@@ -58,7 +59,8 @@
       ],
       "source": "Unit_3B_manual",
       "notes": "manual entry",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(sb. / sth.)"
     },
     {
       "id": "cand-a1-3b-0105",
@@ -72,7 +74,8 @@
       ],
       "source": "Unit_3B_manual",
       "notes": "manual entry",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(sb.)"
     },
     {
       "id": "cand-a1-3b-0106",
@@ -101,7 +104,8 @@
       ],
       "source": "Unit_3B_manual",
       "notes": "manual entry",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(sb.)"
     },
     {
       "id": "cand-a1-3b-0108",
@@ -116,7 +120,7 @@
       "source": "Unit_3B_manual",
       "notes": "manual entry",
       "status": "approved",
-      "hint_en_tr": "(a vehicle)"
+      "hint_en_tr": "(sth.)"
     },
     {
       "id": "cand-a1-3b-0109",
@@ -145,7 +149,8 @@
       ],
       "source": "Unit_3B_manual",
       "notes": "manual entry",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(sb.)"
     },
     {
       "id": "cand-a1-3b-0111",
@@ -159,7 +164,8 @@
       ],
       "source": "Unit_3B_manual",
       "notes": "manual entry",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(sb.)"
     },
     {
       "id": "cand-a1-3b-0112",
@@ -174,7 +180,7 @@
       "source": "Unit_3B_manual",
       "notes": "manual entry",
       "status": "approved",
-      "hint_en_tr": "(a place)"
+      "hint_en_tr": "(some place)"
     },
     {
       "id": "cand-a1-3b-0113",
@@ -189,7 +195,7 @@
       "source": "Unit_3B_manual",
       "notes": "manual entry",
       "status": "approved",
-      "hint_en_tr": "(from a place)"
+      "hint_en_tr": "(some place)"
     },
     {
       "id": "cand-a1-3b-0114",
@@ -203,7 +209,8 @@
       ],
       "source": "Unit_3B_manual",
       "notes": "manual entry",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(some place)"
     },
     {
       "id": "cand-a1-3b-0115",
@@ -217,7 +224,8 @@
       ],
       "source": "Unit_3B_manual",
       "notes": "manual entry",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(sb. / sth.)"
     },
     {
       "id": "cand-a1-3b-0116",
@@ -232,7 +240,7 @@
       "source": "Unit_3B_manual",
       "notes": "manual entry",
       "status": "approved",
-      "hint_en_tr": "(from sb. / a place)"
+      "hint_en_tr": "(sb. / some place)"
     },
     {
       "id": "cand-a1-3b-0117",
@@ -246,7 +254,8 @@
       ],
       "source": "Unit_3B_manual",
       "notes": "manual entry",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(sb. / sth.)"
     },
     {
       "id": "cand-a1-3b-0118",
@@ -260,7 +269,8 @@
       ],
       "source": "Unit_3B_manual",
       "notes": "manual entry",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(sb. / sth.)"
     },
     {
       "id": "cand-a1-3b-0119",
@@ -289,7 +299,8 @@
       ],
       "source": "Unit_3B_manual",
       "notes": "manual entry",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(sb. / sth.)"
     }
   ]
 }
