@@ -5,7 +5,7 @@
     {
       "id": "cand-a1-3b-0101",
       "turkish": "(birine / bir şeye) kızmak",
-      "english": "to get angry with / at",
+      "english": "to get angry with sb. / at sth.",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
@@ -14,8 +14,7 @@
       ],
       "source": "Unit_3B_manual",
       "notes": "manual entry",
-      "status": "approved",
-      "hint_en_tr": "(sb. / sth.)"
+      "status": "approved"
     },
     {
       "id": "cand-a1-3b-0102",
@@ -29,13 +28,12 @@
       ],
       "source": "Unit_3B_manual",
       "notes": "manual entry",
-      "status": "approved",
-      "hint_en_tr": "(sb. / sth.)"
+      "status": "approved"
     },
     {
       "id": "cand-a1-3b-0103",
       "turkish": "(birine) teşekkür etmek",
-      "english": "to thank",
+      "english": "to thank sb.",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
@@ -44,8 +42,7 @@
       ],
       "source": "Unit_3B_manual",
       "notes": "manual entry",
-      "status": "approved",
-      "hint_en_tr": "(sb.)"
+      "status": "approved"
     },
     {
       "id": "cand-a1-3b-0104",
@@ -59,8 +56,7 @@
       ],
       "source": "Unit_3B_manual",
       "notes": "manual entry",
-      "status": "approved",
-      "hint_en_tr": "(sb. / sth.)"
+      "status": "approved"
     },
     {
       "id": "cand-a1-3b-0105",
@@ -74,13 +70,12 @@
       ],
       "source": "Unit_3B_manual",
       "notes": "manual entry",
-      "status": "approved",
-      "hint_en_tr": "(sb.)"
+      "status": "approved"
     },
     {
       "id": "cand-a1-3b-0106",
       "turkish": "(birine / bir şeye) inanmak",
-      "english": "to believe / to believe in",
+      "english": "to believe sb. / to believe in sth.",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
@@ -89,8 +84,7 @@
       ],
       "source": "Unit_3B_manual",
       "notes": "manual entry",
-      "status": "approved",
-      "hint_en_tr": "(sb. / sth.)"
+      "status": "approved"
     },
     {
       "id": "cand-a1-3b-0107",
@@ -104,13 +98,12 @@
       ],
       "source": "Unit_3B_manual",
       "notes": "manual entry",
-      "status": "approved",
-      "hint_en_tr": "(sb.)"
+      "status": "approved"
     },
     {
       "id": "cand-a1-3b-0108",
       "turkish": "(bir şeye) binmek",
-      "english": "to get on / to board",
+      "english": "to get on / to board sth.",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
@@ -119,8 +112,7 @@
       ],
       "source": "Unit_3B_manual",
       "notes": "manual entry",
-      "status": "approved",
-      "hint_en_tr": "(sth.)"
+      "status": "approved"
     },
     {
       "id": "cand-a1-3b-0109",
@@ -140,7 +132,7 @@
     {
       "id": "cand-a1-3b-0110",
       "turkish": "(birine) soru sormak",
-      "english": "to ask a question",
+      "english": "to ask sb. a question",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
@@ -149,8 +141,7 @@
       ],
       "source": "Unit_3B_manual",
       "notes": "manual entry",
-      "status": "approved",
-      "hint_en_tr": "(sb.)"
+      "status": "approved"
     },
     {
       "id": "cand-a1-3b-0111",
@@ -164,13 +155,12 @@
       ],
       "source": "Unit_3B_manual",
       "notes": "manual entry",
-      "status": "approved",
-      "hint_en_tr": "(sb.)"
+      "status": "approved"
     },
     {
       "id": "cand-a1-3b-0112",
       "turkish": "(bir yere) girmek",
-      "english": "to enter",
+      "english": "to enter a place",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
@@ -179,13 +169,12 @@
       ],
       "source": "Unit_3B_manual",
       "notes": "manual entry",
-      "status": "approved",
-      "hint_en_tr": "(some place)"
+      "status": "approved"
     },
     {
       "id": "cand-a1-3b-0113",
       "turkish": "(bir yerden) çıkmak",
-      "english": "to leave / to go out",
+      "english": "to leave / go out of a place",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
@@ -194,13 +183,12 @@
       ],
       "source": "Unit_3B_manual",
       "notes": "manual entry",
-      "status": "approved",
-      "hint_en_tr": "(some place)"
+      "status": "approved"
     },
     {
       "id": "cand-a1-3b-0114",
       "turkish": "(bir yerden) geçmek",
-      "english": "to pass by / go through / cross sth.",
+      "english": "to pass through a place / to go by",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
@@ -209,8 +197,7 @@
       ],
       "source": "Unit_3B_manual",
       "notes": "manual entry",
-      "status": "approved",
-      "hint_en_tr": "(some place)"
+      "status": "approved"
     },
     {
       "id": "cand-a1-3b-0115",
@@ -224,13 +211,12 @@
       ],
       "source": "Unit_3B_manual",
       "notes": "manual entry",
-      "status": "approved",
-      "hint_en_tr": "(sb. / sth.)"
+      "status": "approved"
     },
     {
       "id": "cand-a1-3b-0116",
       "turkish": "(birinden / bir yerden) ayrılmak",
-      "english": "to leave / to separate / to break up",
+      "english": "to leave / separate from sb. / a place; to break up",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
@@ -239,8 +225,7 @@
       ],
       "source": "Unit_3B_manual",
       "notes": "manual entry",
-      "status": "approved",
-      "hint_en_tr": "(sb. / some place)"
+      "status": "approved"
     },
     {
       "id": "cand-a1-3b-0117",
@@ -254,8 +239,7 @@
       ],
       "source": "Unit_3B_manual",
       "notes": "manual entry",
-      "status": "approved",
-      "hint_en_tr": "(sb. / sth.)"
+      "status": "approved"
     },
     {
       "id": "cand-a1-3b-0118",
@@ -269,13 +253,12 @@
       ],
       "source": "Unit_3B_manual",
       "notes": "manual entry",
-      "status": "approved",
-      "hint_en_tr": "(sb. / sth.)"
+      "status": "approved"
     },
     {
       "id": "cand-a1-3b-0119",
       "turkish": "(birinden / bir şeyden) hoşlanmak",
-      "english": "to like / to enjoy / to be fond of",
+      "english": "to like / enjoy / be fond of sb. / sth.",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
@@ -284,8 +267,7 @@
       ],
       "source": "Unit_3B_manual",
       "notes": "manual entry",
-      "status": "approved",
-      "hint_en_tr": "(sb. / sth.)"
+      "status": "approved"
     },
     {
       "id": "cand-a1-3b-0120",
@@ -299,8 +281,7 @@
       ],
       "source": "Unit_3B_manual",
       "notes": "manual entry",
-      "status": "approved",
-      "hint_en_tr": "(sb. / sth.)"
+      "status": "approved"
     }
   ]
 }

@@ -4405,14 +4405,13 @@
     {
       "id": "cand-a1-3b-0101",
       "turkish": "(birine / bir \u015feye) k\u0131zmak",
-      "english": "to get angry with / at",
+      "english": "to get angry with sb. / at sth.",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
         "unit-a1",
         "verb"
-      ],
-      "hint_en_tr": "(sb. / sth.)"
+      ]
     },
     {
       "id": "cand-a1-3b-0102",
@@ -4424,20 +4423,18 @@
         "unit-a1",
         "verb",
         "unit-a1-5b"
-      ],
-      "hint_en_tr": "(sb. / sth.)"
+      ]
     },
     {
       "id": "cand-a1-3b-0103",
       "turkish": "(birine) te\u015fekk\u00fcr etmek",
-      "english": "to thank",
+      "english": "to thank sb.",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
         "unit-a1",
         "verb"
-      ],
-      "hint_en_tr": "(sb.)"
+      ]
     },
     {
       "id": "cand-a1-3b-0104",
@@ -4448,8 +4445,7 @@
         "unit-a1-3b",
         "unit-a1",
         "verb"
-      ],
-      "hint_en_tr": "(sb. / sth.)"
+      ]
     },
     {
       "id": "cand-a1-3b-0105",
@@ -4460,20 +4456,18 @@
         "unit-a1-3b",
         "unit-a1",
         "verb"
-      ],
-      "hint_en_tr": "(sb.)"
+      ]
     },
     {
       "id": "cand-a1-3b-0106",
       "turkish": "(birine / bir \u015feye) inanmak",
-      "english": "to believe / to believe in",
+      "english": "to believe sb. / to believe in sth.",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
         "unit-a1",
         "verb"
-      ],
-      "hint_en_tr": "(sb. / sth.)"
+      ]
     },
     {
       "id": "cand-a1-3b-0107",
@@ -4485,20 +4479,18 @@
         "unit-a1",
         "verb",
         "unit-a1-3a"
-      ],
-      "hint_en_tr": "(sb.)"
+      ]
     },
     {
       "id": "cand-a1-3b-0108",
       "turkish": "(bir \u015feye) binmek",
-      "english": "to get on / to board",
+      "english": "to get on / to board sth.",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
         "unit-a1",
         "verb"
-      ],
-      "hint_en_tr": "(sth.)"
+      ]
     },
     {
       "id": "cand-a1-3b-0109",
@@ -4516,14 +4508,13 @@
     {
       "id": "cand-a1-3b-0110",
       "turkish": "(birine) soru sormak",
-      "english": "to ask a question",
+      "english": "to ask sb. a question",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
         "unit-a1",
         "verb"
-      ],
-      "hint_en_tr": "(sb.)"
+      ]
     },
     {
       "id": "cand-a1-3b-0111",
@@ -4535,45 +4526,41 @@
         "unit-a1",
         "verb",
         "unit-a1-3a"
-      ],
-      "hint_en_tr": "(sb.)"
+      ]
     },
     {
       "id": "cand-a1-3b-0112",
       "turkish": "(bir yere) girmek",
-      "english": "to enter",
+      "english": "to enter a place",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
         "unit-a1",
         "verb"
-      ],
-      "hint_en_tr": "(some place)"
+      ]
     },
     {
       "id": "cand-a1-3b-0113",
       "turkish": "(bir yerden) \u00e7\u0131kmak",
-      "english": "to leave / to go out",
+      "english": "to leave / go out of a place",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
         "unit-a1",
         "verb"
-      ],
-      "hint_en_tr": "(some place)"
+      ]
     },
     {
       "id": "cand-a1-3b-0114",
       "turkish": "(bir yerden) ge\u00e7mek",
-      "english": "to pass by / go through / cross sth.",
+      "english": "to pass through a place / to go by",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
         "unit-a1",
         "verb",
         "unit-a1-4c"
-      ],
-      "hint_en_tr": "(some place)"
+      ]
     },
     {
       "id": "cand-a1-3b-0115",
@@ -4584,20 +4571,18 @@
         "unit-a1-3b",
         "unit-a1",
         "verb"
-      ],
-      "hint_en_tr": "(sb. / sth.)"
+      ]
     },
     {
       "id": "cand-a1-3b-0116",
       "turkish": "(birinden / bir yerden) ayr\u0131lmak",
-      "english": "to leave / to separate / to break up",
+      "english": "to leave / separate from sb. / a place; to break up",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
         "unit-a1",
         "verb"
-      ],
-      "hint_en_tr": "(sb. / some place)"
+      ]
     },
     {
       "id": "cand-a1-3b-0117",
@@ -4608,8 +4593,7 @@
         "unit-a1-3b",
         "unit-a1",
         "verb"
-      ],
-      "hint_en_tr": "(sb. / sth.)"
+      ]
     },
     {
       "id": "cand-a1-3b-0118",
@@ -4620,20 +4604,18 @@
         "unit-a1-3b",
         "unit-a1",
         "verb"
-      ],
-      "hint_en_tr": "(sb. / sth.)"
+      ]
     },
     {
       "id": "cand-a1-3b-0119",
       "turkish": "(birinden / bir \u015feyden) ho\u015flanmak",
-      "english": "to like / to enjoy / to be fond of",
+      "english": "to like / enjoy / be fond of sb. / sth.",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
         "unit-a1",
         "verb"
-      ],
-      "hint_en_tr": "(sb. / sth.)"
+      ]
     },
     {
       "id": "cand-a1-3b-0120",
@@ -4644,8 +4626,7 @@
         "unit-a1-3b",
         "unit-a1",
         "verb"
-      ],
-      "hint_en_tr": "(sb. / sth.)"
+      ]
     },
     {
       "id": "cand-a1-3c-0001",
@@ -6189,7 +6170,8 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -6201,7 +6183,8 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -6224,7 +6207,8 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -6247,7 +6231,8 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -10628,8 +10613,7 @@
         "verb",
         "unit-a1",
         "unit-a1-4c"
-      ],
-      "hint_en_tr": "(sth.)"
+      ]
     },
     {
       "id": "cand-a1-cases-0002",
@@ -10641,8 +10625,7 @@
         "unit-a1",
         "unit-a1-4c",
         "unit-a1-5c"
-      ],
-      "hint_en_tr": "(sth.)"
+      ]
     },
     {
       "id": "cand-a1-cases-0003",
@@ -10655,8 +10638,7 @@
         "unit-a1-3b",
         "unit-a1-3a",
         "unit-a1-4c"
-      ],
-      "hint_en_tr": "(sth.)"
+      ]
     },
     {
       "id": "cand-a1-cases-0004",
@@ -10666,8 +10648,7 @@
       "tags": [
         "verb",
         "unit-a1"
-      ],
-      "hint_en_tr": "(sth.)"
+      ]
     },
     {
       "id": "cand-a1-cases-0005",
@@ -10678,8 +10659,7 @@
         "verb",
         "unit-a1",
         "unit-a1-4c"
-      ],
-      "hint_en_tr": "(sth.)"
+      ]
     },
     {
       "id": "cand-a1-cases-0006",
@@ -10689,8 +10669,7 @@
       "tags": [
         "verb",
         "unit-a1"
-      ],
-      "hint_en_tr": "(sth.)"
+      ]
     },
     {
       "id": "cand-a1-cases-0007",
@@ -10700,8 +10679,7 @@
       "tags": [
         "verb",
         "unit-a1"
-      ],
-      "hint_en_tr": "(sth.)"
+      ]
     },
     {
       "id": "cand-a1-cases-0008",
@@ -10711,8 +10689,7 @@
       "tags": [
         "verb",
         "unit-a1"
-      ],
-      "hint_en_tr": "(sth.)"
+      ]
     },
     {
       "id": "cand-a1-cases-0009",
@@ -10725,8 +10702,7 @@
         "unit-a1-3b",
         "unit-a1-3a",
         "unit-a1-4c"
-      ],
-      "hint_en_tr": "(sth.)"
+      ]
     },
     {
       "id": "cand-a1-cases-0010",
@@ -10736,8 +10712,7 @@
       "tags": [
         "verb",
         "unit-a1"
-      ],
-      "hint_en_tr": "(sth.)"
+      ]
     },
     {
       "id": "cand-a1-cases-0011",
@@ -10748,8 +10723,7 @@
         "verb",
         "unit-a1",
         "unit-a1-4c"
-      ],
-      "hint_en_tr": "(sth.)"
+      ]
     },
     {
       "id": "cand-a1-cases-0012",
@@ -10759,8 +10733,7 @@
       "tags": [
         "verb",
         "unit-a1"
-      ],
-      "hint_en_tr": "(sth.)"
+      ]
     },
     {
       "id": "cand-a1-cases-0013",
@@ -10770,8 +10743,7 @@
       "tags": [
         "verb",
         "unit-a1"
-      ],
-      "hint_en_tr": "(sb.)"
+      ]
     },
     {
       "id": "cand-a1-cases-0014",
@@ -10781,8 +10753,7 @@
       "tags": [
         "verb",
         "unit-a1"
-      ],
-      "hint_en_tr": "(sth.)"
+      ]
     },
     {
       "id": "cand-a1-cases-0015",
@@ -10792,8 +10763,7 @@
       "tags": [
         "verb",
         "unit-a1"
-      ],
-      "hint_en_tr": "(sth.)"
+      ]
     },
     {
       "id": "cand-a1-cases-0016",
@@ -10806,8 +10776,7 @@
         "unit-a1-3b",
         "unit-a1-3a",
         "unit-a1-4c"
-      ],
-      "hint_en_tr": "(sth.)"
+      ]
     },
     {
       "id": "cand-a1-cases-0017",
@@ -10817,8 +10786,7 @@
       "tags": [
         "verb",
         "unit-a1"
-      ],
-      "hint_en_tr": "(sth.)"
+      ]
     },
     {
       "id": "cand-a1-cases-0018",
@@ -10830,8 +10798,7 @@
         "unit-a1",
         "unit-a1-4c",
         "unit-a1-5b"
-      ],
-      "hint_en_tr": "(sth.)"
+      ]
     },
     {
       "id": "cand-a1-cases-0019",
@@ -10841,8 +10808,7 @@
       "tags": [
         "verb",
         "unit-a1"
-      ],
-      "hint_en_tr": "(sb.)"
+      ]
     },
     {
       "id": "cand-a1-cases-0020",
@@ -10852,8 +10818,7 @@
       "tags": [
         "verb",
         "unit-a1"
-      ],
-      "hint_en_tr": "(sth.)"
+      ]
     },
     {
       "id": "cand-a1-cases-0021",
@@ -10863,8 +10828,7 @@
       "tags": [
         "verb",
         "unit-a1"
-      ],
-      "hint_en_tr": "(sth.)"
+      ]
     },
     {
       "id": "cand-a1-cases-0022",
@@ -10876,8 +10840,7 @@
         "unit-a1",
         "unit-a1-3b",
         "unit-a1-3a"
-      ],
-      "hint_en_tr": "(sth.)"
+      ]
     },
     {
       "id": "cand-a1-cases-0023",
@@ -10887,8 +10850,7 @@
       "tags": [
         "verb",
         "unit-a1"
-      ],
-      "hint_en_tr": "(sth.)"
+      ]
     },
     {
       "id": "cand-a1-cases-0024",
@@ -10900,8 +10862,7 @@
         "unit-a1",
         "unit-a1-3b",
         "unit-a1-3a"
-      ],
-      "hint_en_tr": "(sth.)"
+      ]
     },
     {
       "id": "cand-a1-cases-0025",
@@ -10912,8 +10873,7 @@
         "verb",
         "unit-a1",
         "unit-a1-3b"
-      ],
-      "hint_en_tr": "(sth.)"
+      ]
     },
     {
       "id": "cand-a1-cases-0026",
@@ -10923,8 +10883,7 @@
       "tags": [
         "verb",
         "unit-a1"
-      ],
-      "hint_en_tr": "(sth.)"
+      ]
     },
     {
       "id": "cand-a1-cases-0027",
@@ -10934,8 +10893,7 @@
       "tags": [
         "verb",
         "unit-a1"
-      ],
-      "hint_en_tr": "(sth.)"
+      ]
     },
     {
       "id": "cand-a1-cases-0028",
@@ -10945,8 +10903,7 @@
       "tags": [
         "verb",
         "unit-a1"
-      ],
-      "hint_en_tr": "(sth.)"
+      ]
     },
     {
       "id": "cand-a1-cases-0030",
@@ -10956,8 +10913,7 @@
       "tags": [
         "verb",
         "unit-a1"
-      ],
-      "hint_en_tr": "(sth.)"
+      ]
     },
     {
       "id": "cand-a1-cases-0031",
@@ -10967,8 +10923,7 @@
       "tags": [
         "verb",
         "unit-a1"
-      ],
-      "hint_en_tr": "(sth.)"
+      ]
     },
     {
       "id": "cand-a1-cases-0032",
@@ -10978,8 +10933,7 @@
       "tags": [
         "verb",
         "unit-a1"
-      ],
-      "hint_en_tr": "(sth.)"
+      ]
     },
     {
       "id": "cand-a1-cases-0033",
@@ -10989,8 +10943,7 @@
       "tags": [
         "verb",
         "unit-a1"
-      ],
-      "hint_en_tr": "(sth.)"
+      ]
     },
     {
       "id": "cand-a1-cases-0034",
@@ -11000,8 +10953,7 @@
       "tags": [
         "verb",
         "unit-a1"
-      ],
-      "hint_en_tr": "(sth.)"
+      ]
     },
     {
       "id": "cand-a1-cases-0035",
@@ -11011,8 +10963,7 @@
       "tags": [
         "verb",
         "unit-a1"
-      ],
-      "hint_en_tr": "(sth.)"
+      ]
     },
     {
       "id": "cand-a1-cases-0036",
@@ -11022,8 +10973,7 @@
       "tags": [
         "verb",
         "unit-a1"
-      ],
-      "hint_en_tr": "(sth.)"
+      ]
     },
     {
       "id": "cand-a1-cases-0037",
@@ -11033,8 +10983,7 @@
       "tags": [
         "verb",
         "unit-a1"
-      ],
-      "hint_en_tr": "(sth.)"
+      ]
     },
     {
       "id": "cand-a1-cases-0038",
@@ -11044,8 +10993,7 @@
       "tags": [
         "verb",
         "unit-a1"
-      ],
-      "hint_en_tr": "(sth.)"
+      ]
     },
     {
       "id": "cand-a1-cases-0041",
@@ -11055,8 +11003,7 @@
       "tags": [
         "verb",
         "unit-a1"
-      ],
-      "hint_en_tr": "(sth.)"
+      ]
     },
     {
       "id": "cand-a1-cases-0043",
@@ -11066,8 +11013,7 @@
       "tags": [
         "verb",
         "unit-a1"
-      ],
-      "hint_en_tr": "(sth.)"
+      ]
     },
     {
       "id": "cand-a1-cases-0045",
@@ -11077,8 +11023,7 @@
       "tags": [
         "verb",
         "unit-a1"
-      ],
-      "hint_en_tr": "(sth.)"
+      ]
     },
     {
       "id": "cand-a1-cases-0046",
@@ -11088,8 +11033,7 @@
       "tags": [
         "verb",
         "unit-a1"
-      ],
-      "hint_en_tr": "(sth.)"
+      ]
     },
     {
       "id": "cand-a1-cases-0047",
@@ -11099,8 +11043,7 @@
       "tags": [
         "verb",
         "unit-a1"
-      ],
-      "hint_en_tr": "(sth.)"
+      ]
     },
     {
       "id": "cand-a1-listen-0001",
@@ -11569,8 +11512,7 @@
       "tags": [
         "noun",
         "unit-a1-5b",
-        "unit-a1",
-        "today"
+        "unit-a1"
       ]
     },
     {
@@ -13749,8 +13691,7 @@
         "unit-a2-2b",
         "unit-a1-4c",
         "unit-a1"
-      ],
-      "hint_en_tr": "(sth.)"
+      ]
     },
     {
       "id": "cand-a2-2b-0005",
@@ -14532,8 +14473,7 @@
       "tags": [
         "noun",
         "unit-a2-1b",
-        "unit-a2",
-        "today"
+        "unit-a2"
       ]
     },
     {
@@ -14680,8 +14620,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1",
-        "today"
+        "unit-a1"
       ]
     },
     {
@@ -14801,8 +14740,7 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1",
-        "today"
+        "unit-a1"
       ]
     },
     {
