@@ -235,6 +235,11 @@
       "id": "unit-a2-extra",
       "label": "Unit A2 (extra / off-syllabus)",
       "group": "unit"
+    },
+    {
+      "id": "unit-a2-2c",
+      "label": "Unit A2-2C",
+      "group": "unit"
     }
   ]
 }

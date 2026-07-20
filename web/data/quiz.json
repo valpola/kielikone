@@ -14663,6 +14663,459 @@
       "hint_en_tr": "(X / Y / Z)"
     },
     {
+      "id": "cand-a2-2sw-0001",
+      "turkish": "a\u015f\u0131",
+      "english": "vaccine",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-2c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-2sw-0002",
+      "turkish": "duyuru",
+      "english": "announcement / notice",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-2c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-2sw-0003",
+      "turkish": "hastal\u0131k",
+      "english": "illness / disease",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-2c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-2sw-0004",
+      "turkish": "ihtiya\u00e7",
+      "english": "need / necessity",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-2c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-2sw-0005",
+      "turkish": "kargo",
+      "english": "parcel / cargo / delivery",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-2c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-2sw-0006",
+      "turkish": "koronavir\u00fcs",
+      "english": "coronavirus",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-2c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-2sw-0007",
+      "turkish": "kurye",
+      "english": "courier / delivery person",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-2c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-2sw-0008",
+      "turkish": "maske",
+      "english": "mask",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-2c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-2sw-0009",
+      "turkish": "mesafe",
+      "english": "distance",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-2c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-2sw-0010",
+      "turkish": "sa\u011fl\u0131k",
+      "english": "health",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-2c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-2sw-0011",
+      "turkish": "slogan",
+      "english": "slogan",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-2c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-2sw-0012",
+      "turkish": "pandemi",
+      "english": "pandemic",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-2c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-2sw-0013",
+      "turkish": "yasak",
+      "english": "forbidden / ban",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-2c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-2sw-0014",
+      "turkish": "gerekli / laz\u0131m",
+      "english": "necessary / needed",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-2c",
+        "unit-a2"
+      ],
+      "hint_en_tr": "(X / Y)"
+    },
+    {
+      "id": "cand-a2-2sw-0015",
+      "turkish": "\u00f6zg\u00fcr / serbest",
+      "english": "free",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-2c",
+        "unit-a2"
+      ],
+      "hint_en_tr": "(X / Y)"
+    },
+    {
+      "id": "cand-a2-2sw-0016",
+      "turkish": "g\u00fcvenli",
+      "english": "safe / secure",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-2c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-2sw-0017",
+      "turkish": "a\u015f\u0131 olmak",
+      "english": "to get vaccinated",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-2c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-2sw-0018",
+      "turkish": "g\u00f6r\u00fcnt\u00fcl\u00fc konu\u015fmak",
+      "english": "to video-call / to video chat",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-2c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-2sw-0019",
+      "turkish": "soka\u011fa \u00e7\u0131kmak",
+      "english": "to go outside / to go out",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-2c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-2sw-0020",
+      "turkish": "vedala\u015fmak",
+      "english": "to say goodbye",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-2c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-2sw-0021",
+      "turkish": "ara s\u0131ra",
+      "english": "occasionally / now and then",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a2-2c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-2sw-0022",
+      "turkish": "\u00e7evrim i\u00e7i",
+      "english": "online",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a2-2c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-2sw-0023",
+      "turkish": "\u00e7evrim d\u0131\u015f\u0131",
+      "english": "offline",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a2-2c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-2sw-0024",
+      "turkish": "s\u00fcresince",
+      "english": "during / throughout",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a2-2c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-2sw-0025",
+      "turkish": "tatile girmek",
+      "english": "to go on vacation",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-2a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-2sw-0026",
+      "turkish": "bak\u0131ml\u0131",
+      "english": "well-groomed / well-kept",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-2a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-2sw-0027",
+      "turkish": "tarih\u00ee",
+      "english": "historical",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-2a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-2sw-0028",
+      "turkish": "atmosfer",
+      "english": "atmosphere",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-2a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-2sw-0029",
+      "turkish": "asl\u0131nda",
+      "english": "actually / in fact",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a2-2a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-2sw-0030",
+      "turkish": "donuk",
+      "english": "dull / blank",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-2a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-2sw-0031",
+      "turkish": "m\u00fcstakil ev",
+      "english": "detached house",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-2a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-2sw-0032",
+      "turkish": "k\u00fcmes",
+      "english": "chicken coop",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-2a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-2sw-0033",
+      "turkish": "net",
+      "english": "clear / distinct",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-2b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-2sw-0034",
+      "turkish": "aya\u011fa kalkmak",
+      "english": "to stand up",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-2b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-2sw-0035",
+      "turkish": "k\u00fckremek",
+      "english": "to roar",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-2b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-2sw-0036",
+      "turkish": "yara",
+      "english": "wound / scar",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-2b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-2sw-0037",
+      "turkish": "yalamak",
+      "english": "to lick",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-2b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-2sw-0038",
+      "turkish": "s\u0131cak tutmak",
+      "english": "to keep warm",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-2b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-2sw-0039",
+      "turkish": "d\u00fcnyaca",
+      "english": "worldwide / globally",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a2-2c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-2sw-0040",
+      "turkish": "mesaj vermek",
+      "english": "to give a message / to convey a message",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-2c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-2sw-0041",
+      "turkish": "yeniden",
+      "english": "again / anew",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a2-2c",
+        "unit-a2"
+      ]
+    },
+    {
       "id": "cand-cat-0001",
       "turkish": "ba\u015f",
       "english": "head",
@@ -17091,6 +17544,11 @@
     {
       "id": "unit-a2-extra",
       "label": "Unit A2 (extra / off-syllabus)",
+      "group": "unit"
+    },
+    {
+      "id": "unit-a2-2c",
+      "label": "Unit A2-2C",
       "group": "unit"
     }
   ]
