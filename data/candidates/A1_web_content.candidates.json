@@ -541,7 +541,7 @@
     {
       "id": "cand-web-0040",
       "turkish": "hep",
-      "english": "always / all the time",
+      "english": "always",
       "priority": 3,
       "tags": [
         "adverb",
@@ -550,7 +550,8 @@
       ],
       "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(all the time / continually)"
     },
     {
       "id": "cand-web-0041",

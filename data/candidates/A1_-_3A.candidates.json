@@ -468,7 +468,7 @@
     {
       "id": "cand-a1-3a-0034",
       "turkish": "her zaman",
-      "english": "always / every time",
+      "english": "always",
       "priority": 3,
       "tags": [
         "adverb",
@@ -477,7 +477,8 @@
       ],
       "source": "A1_-_3A.pdf",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(every time)"
     },
     {
       "id": "cand-a1-3a-0035",

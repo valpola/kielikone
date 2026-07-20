@@ -4051,14 +4051,15 @@
     {
       "id": "cand-a1-3a-0034",
       "turkish": "her zaman",
-      "english": "always / every time",
+      "english": "always",
       "priority": 3,
       "tags": [
         "adverb",
         "unit-a1-3a",
         "unit-a1",
         "unit-a1-3b"
-      ]
+      ],
+      "hint_en_tr": "(every time)"
     },
     {
       "id": "cand-a1-3a-0035",
@@ -16354,13 +16355,14 @@
     {
       "id": "cand-web-0040",
       "turkish": "hep",
-      "english": "always / all the time",
+      "english": "always",
       "priority": 3,
       "tags": [
         "adverb",
         "unit-a1-3b",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(all the time / continually)"
     },
     {
       "id": "cand-web-0041",
