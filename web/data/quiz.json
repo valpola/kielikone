@@ -15116,6 +15116,56 @@
       ]
     },
     {
+      "id": "cand-a2-2sw-0042",
+      "turkish": "birka\u00e7",
+      "english": "a few / several",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-2sw-0043",
+      "turkish": "g\u00f6re",
+      "english": "according to / compared to",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-2sw-0044",
+      "turkish": "ka\u011f\u0131t",
+      "english": "paper",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-2sw-0045",
+      "turkish": "e\u011fitim",
+      "english": "education",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-2sw-0046",
+      "turkish": "din\u00e7",
+      "english": "fit / vigorous",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2"
+      ]
+    },
+    {
       "id": "cand-cat-0001",
       "turkish": "ba\u015f",
       "english": "head",

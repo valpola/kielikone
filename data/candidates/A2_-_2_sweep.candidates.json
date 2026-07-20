@@ -577,6 +577,71 @@
       "source": "A2-2C reading exercise SÖZLÜK (Turkishle web)",
       "notes": "",
       "status": "approved"
+    },
+    {
+      "id": "cand-a2-2sw-0042",
+      "turkish": "birkaç",
+      "english": "a few / several",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2"
+      ],
+      "source": "A2-2 coursebook grammar section (Turkishle)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2sw-0043",
+      "turkish": "göre",
+      "english": "according to / compared to",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a2"
+      ],
+      "source": "A2-2 coursebook grammar section (Turkishle)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2sw-0044",
+      "turkish": "kağıt",
+      "english": "paper",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2"
+      ],
+      "source": "A2-2 coursebook grammar section (Turkishle)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2sw-0045",
+      "turkish": "eğitim",
+      "english": "education",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2"
+      ],
+      "source": "A2-2 web dialogue/exercises (Turkishle)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-2sw-0046",
+      "turkish": "dinç",
+      "english": "fit / vigorous",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2"
+      ],
+      "source": "A2-2 web dialogue/exercises (Turkishle)",
+      "notes": "",
+      "status": "approved"
     }
   ]
 }
