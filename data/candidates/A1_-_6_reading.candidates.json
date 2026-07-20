@@ -1,0 +1,132 @@
+{
+  "source_file": "A1 Unit 6 reading-exercise glossaries (SÖZLÜK, Turkishle web)",
+  "created_at": "2026-07-20T00:00:00+00:00",
+  "items": [
+    {
+      "id": "cand-a1-6rd-0001",
+      "turkish": "bile",
+      "english": "even",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-6a",
+        "unit-a1"
+      ],
+      "source": "A1-6 reading exercise SÖZLÜK (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6rd-0002",
+      "turkish": "kültür",
+      "english": "culture",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a",
+        "unit-a1"
+      ],
+      "source": "A1-6 reading exercise SÖZLÜK (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6rd-0003",
+      "turkish": "memur",
+      "english": "civil servant / official",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a",
+        "unit-a1"
+      ],
+      "source": "A1-6 reading exercise SÖZLÜK (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6rd-0004",
+      "turkish": "parça",
+      "english": "piece / part",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a",
+        "unit-a1"
+      ],
+      "source": "A1-6 reading exercise SÖZLÜK (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6rd-0005",
+      "turkish": "aktif",
+      "english": "active",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-6b",
+        "unit-a1"
+      ],
+      "source": "A1-6 reading exercise SÖZLÜK (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6rd-0006",
+      "turkish": "erken",
+      "english": "early",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-6b",
+        "unit-a1"
+      ],
+      "source": "A1-6 reading exercise SÖZLÜK (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6rd-0007",
+      "turkish": "mümkün",
+      "english": "possible",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-6b",
+        "unit-a1"
+      ],
+      "source": "A1-6 reading exercise SÖZLÜK (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6rd-0008",
+      "turkish": "öteki",
+      "english": "the other one",
+      "priority": 3,
+      "tags": [
+        "pronoun",
+        "unit-a1-6c",
+        "unit-a1"
+      ],
+      "source": "A1-6 reading exercise SÖZLÜK (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6rd-0009",
+      "turkish": "bir kenara bırakmak",
+      "english": "to put aside / to set aside",
+      "priority": 3,
+      "tags": [
+        "expression",
+        "unit-a1-6c",
+        "unit-a1"
+      ],
+      "source": "A1-6 reading exercise SÖZLÜK (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    }
+  ]
+}

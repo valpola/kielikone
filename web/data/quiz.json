@@ -10628,6 +10628,105 @@
       ]
     },
     {
+      "id": "cand-a1-6rd-0001",
+      "turkish": "bile",
+      "english": "even",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-6a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-6rd-0002",
+      "turkish": "k\u00fclt\u00fcr",
+      "english": "culture",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-6rd-0003",
+      "turkish": "memur",
+      "english": "civil servant / official",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-6rd-0004",
+      "turkish": "par\u00e7a",
+      "english": "piece / part",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-6rd-0005",
+      "turkish": "aktif",
+      "english": "active",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-6b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-6rd-0006",
+      "turkish": "erken",
+      "english": "early",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-6b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-6rd-0007",
+      "turkish": "m\u00fcmk\u00fcn",
+      "english": "possible",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-6b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-6rd-0008",
+      "turkish": "\u00f6teki",
+      "english": "the other one",
+      "priority": 3,
+      "tags": [
+        "pronoun",
+        "unit-a1-6c",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-6rd-0009",
+      "turkish": "bir kenara b\u0131rakmak",
+      "english": "to put aside / to set aside",
+      "priority": 3,
+      "tags": [
+        "expression",
+        "unit-a1-6c",
+        "unit-a1"
+      ]
+    },
+    {
       "id": "cand-a1-cases-0001",
       "turkish": "(bir \u015feyi) anlamak",
       "english": "to understand sth.",
