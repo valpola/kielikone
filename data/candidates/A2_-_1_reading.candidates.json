@@ -1,0 +1,146 @@
+{
+  "source_file": "A2 Unit 1 reading-exercise glossaries (SÖZLÜK, Turkishle web)",
+  "created_at": "2026-07-20T00:00:00+00:00",
+  "items": [
+    {
+      "id": "cand-a2-1rd-0001",
+      "turkish": "çıkmaz sokak",
+      "english": "dead end",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-1a",
+        "unit-a2"
+      ],
+      "source": "A2-1 reading exercise SÖZLÜK (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1rd-0002",
+      "turkish": "dikkatli",
+      "english": "careful",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-1a",
+        "unit-a2"
+      ],
+      "source": "A2-1 reading exercise SÖZLÜK (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1rd-0003",
+      "turkish": "sayende",
+      "english": "thanks to you",
+      "priority": 3,
+      "tags": [
+        "expression",
+        "unit-a2-1a",
+        "unit-a2"
+      ],
+      "source": "A2-1 reading exercise SÖZLÜK (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1rd-0004",
+      "turkish": "telaş",
+      "english": "rush / haste",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-1b",
+        "unit-a2"
+      ],
+      "source": "A2-1 reading exercise SÖZLÜK (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1rd-0005",
+      "turkish": "bir yandan",
+      "english": "on the one hand",
+      "priority": 3,
+      "tags": [
+        "expression",
+        "unit-a2-1b",
+        "unit-a2"
+      ],
+      "source": "A2-1 reading exercise SÖZLÜK (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1rd-0006",
+      "turkish": "(birini) kırmak",
+      "english": "to hurt sb's feelings / to break sb's heart",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-1b",
+        "unit-a2"
+      ],
+      "source": "A2-1 reading exercise SÖZLÜK (Turkishle web)",
+      "notes": "figurative; cf. (bir şeyi) kırmak = to break sth.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1rd-0007",
+      "turkish": "patron",
+      "english": "boss",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-1c",
+        "unit-a2"
+      ],
+      "source": "A2-1 reading exercise SÖZLÜK (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1rd-0008",
+      "turkish": "tadım",
+      "english": "tasting",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-1c",
+        "unit-a2"
+      ],
+      "source": "A2-1 reading exercise SÖZLÜK (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1rd-0009",
+      "turkish": "oy kullanmak",
+      "english": "to vote",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-1c",
+        "unit-a2"
+      ],
+      "source": "A2-1 reading exercise SÖZLÜK (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-1rd-0010",
+      "turkish": "çocukluk",
+      "english": "childhood",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-1c",
+        "unit-a2"
+      ],
+      "source": "A2-1 reading exercise SÖZLÜK (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    }
+  ]
+}

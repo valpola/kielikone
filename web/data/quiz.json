@@ -6208,8 +6208,7 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar",
-        "today"
+        "similar"
       ]
     },
     {
@@ -6232,8 +6231,7 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar",
-        "today"
+        "similar"
       ]
     },
     {
@@ -10734,7 +10732,8 @@
       "tags": [
         "noun",
         "unit-a1-6a",
-        "unit-a1"
+        "unit-a1",
+        "today"
       ]
     },
     {
@@ -10811,7 +10810,8 @@
       "tags": [
         "noun",
         "unit-a1-6a",
-        "unit-a1"
+        "unit-a1",
+        "today"
       ]
     },
     {
@@ -13541,6 +13541,116 @@
         "adjective",
         "unit-a2",
         "unit-a2-1c"
+      ]
+    },
+    {
+      "id": "cand-a2-1rd-0001",
+      "turkish": "\u00e7\u0131kmaz sokak",
+      "english": "dead end",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-1a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-1rd-0002",
+      "turkish": "dikkatli",
+      "english": "careful",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-1a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-1rd-0003",
+      "turkish": "sayende",
+      "english": "thanks to you",
+      "priority": 3,
+      "tags": [
+        "expression",
+        "unit-a2-1a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-1rd-0004",
+      "turkish": "tela\u015f",
+      "english": "rush / haste",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-1b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-1rd-0005",
+      "turkish": "bir yandan",
+      "english": "on the one hand",
+      "priority": 3,
+      "tags": [
+        "expression",
+        "unit-a2-1b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-1rd-0006",
+      "turkish": "(birini) k\u0131rmak",
+      "english": "to hurt sb's feelings / to break sb's heart",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-1b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-1rd-0007",
+      "turkish": "patron",
+      "english": "boss",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-1c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-1rd-0008",
+      "turkish": "tad\u0131m",
+      "english": "tasting",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-1c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-1rd-0009",
+      "turkish": "oy kullanmak",
+      "english": "to vote",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-1c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-1rd-0010",
+      "turkish": "\u00e7ocukluk",
+      "english": "childhood",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-1c",
+        "unit-a2"
       ]
     },
     {
