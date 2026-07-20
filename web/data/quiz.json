@@ -10505,6 +10505,28 @@
       ]
     },
     {
+      "id": "cand-a1-6b-0034",
+      "turkish": "(birini) tan\u0131mak",
+      "english": "to recognize / to know sb.",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-6b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-a1-6b-0035",
+      "turkish": "(bir \u015feyi) ayd\u0131nlatmak",
+      "english": "to illuminate / to enlighten sth.",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-6b",
+        "unit-a1"
+      ]
+    },
+    {
       "id": "cand-a1-6c-0002",
       "turkish": "civar",
       "english": "vicinity / surrounding area",

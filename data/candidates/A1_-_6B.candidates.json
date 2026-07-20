@@ -449,6 +449,34 @@
       "source": "A1_-_6B.pdf",
       "notes": "",
       "status": "approved"
+    },
+    {
+      "id": "cand-a1-6b-0034",
+      "turkish": "(birini) tanımak",
+      "english": "to recognize / to know sb.",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-6b",
+        "unit-a1"
+      ],
+      "source": "A1-6B coursebook vocab list (Turkishle)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a1-6b-0035",
+      "turkish": "(bir şeyi) aydınlatmak",
+      "english": "to illuminate / to enlighten sth.",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-6b",
+        "unit-a1"
+      ],
+      "source": "A1-6B coursebook vocab list (Turkishle)",
+      "notes": "",
+      "status": "approved"
     }
   ]
 }
