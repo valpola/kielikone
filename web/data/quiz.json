@@ -6158,7 +6158,8 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "today"
       ]
     },
     {
@@ -8410,13 +8411,14 @@
     {
       "id": "cand-a1-4c-0046",
       "turkish": "u\u011furlamak",
-      "english": "to bid farewell",
+      "english": "to see off / to send off",
       "priority": 3,
       "tags": [
         "unit-a1-4c",
         "unit-a1",
         "verb"
-      ]
+      ],
+      "hint_en_tr": "(see sb. off on a journey)"
     },
     {
       "id": "cand-a1-4c-0048",
@@ -14859,8 +14861,7 @@
       "tags": [
         "verb",
         "unit-a2-2c",
-        "unit-a2",
-        "today"
+        "unit-a2"
       ]
     },
     {

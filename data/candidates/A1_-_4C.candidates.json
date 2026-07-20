@@ -635,7 +635,7 @@
     {
       "id": "cand-a1-4c-0046",
       "turkish": "uğurlamak",
-      "english": "to bid farewell",
+      "english": "to see off / to send off",
       "priority": 3,
       "tags": [
         "unit-a1-4c",
@@ -644,7 +644,8 @@
       ],
       "source": "A1_-_4C.pdf",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(see sb. off on a journey)"
     },
     {
       "id": "cand-a1-4c-0047",
