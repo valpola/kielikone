@@ -4495,8 +4495,8 @@
     },
     {
       "id": "cand-a1-3b-0109",
-      "turkish": "cevaplamak / cevap vermek",
-      "english": "to answer / to reply",
+      "turkish": "(bir \u015feyi) cevaplamak / (bir \u015feye) cevap vermek",
+      "english": "to answer / to reply to sth.",
       "priority": 3,
       "tags": [
         "unit-a1-3b",
@@ -4504,7 +4504,7 @@
         "verb",
         "unit-a1-3a"
       ],
-      "hint_en_tr": "(iki fiil / two verbs)"
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-a1-3b-0110",
