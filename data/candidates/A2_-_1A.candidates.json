@@ -257,7 +257,7 @@
     {
       "id": "cand-a2-1a-0019",
       "turkish": "kilometre (km)",
-      "english": "kilometre",
+      "english": "kilometre (km)",
       "priority": 3,
       "tags": [
         "noun",
@@ -313,7 +313,7 @@
     {
       "id": "cand-a2-1a-0023",
       "turkish": "metre (m)",
-      "english": "metre",
+      "english": "metre (m)",
       "priority": 3,
       "tags": [
         "noun",
@@ -327,7 +327,7 @@
     {
       "id": "cand-a2-1a-0024",
       "turkish": "milimetre (mm)",
-      "english": "millimetre",
+      "english": "millimetre (mm)",
       "priority": 3,
       "tags": [
         "noun",
@@ -369,7 +369,7 @@
     {
       "id": "cand-a2-1a-0027",
       "turkish": "santimetre (cm)",
-      "english": "centimetre",
+      "english": "centimetre (cm)",
       "priority": 3,
       "tags": [
         "noun",
