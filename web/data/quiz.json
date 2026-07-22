@@ -9109,14 +9109,15 @@
     },
     {
       "id": "cand-a1-5a-0023",
-      "turkish": "Pazar (g\u00fcn)",
+      "turkish": "Pazar",
       "english": "Sunday",
       "priority": 3,
       "tags": [
         "unit-a1-5a",
         "unit-a1",
         "noun"
-      ]
+      ],
+      "hint_tr_en": "(g\u00fcn)"
     },
     {
       "id": "cand-a1-5a-0024",
@@ -10452,14 +10453,15 @@
     },
     {
       "id": "cand-a1-6b-0022",
-      "turkish": "pazar (yer)",
+      "turkish": "pazar",
       "english": "market / bazaar",
       "priority": 3,
       "tags": [
         "noun",
         "unit-a1-6b",
         "unit-a1"
-      ]
+      ],
+      "hint_tr_en": "(yer)"
     },
     {
       "id": "cand-a1-6b-0023",
@@ -11949,7 +11951,7 @@
     {
       "id": "cand-a2-1a-0019",
       "turkish": "kilometre (km)",
-      "english": "kilometre",
+      "english": "kilometre (km)",
       "priority": 3,
       "tags": [
         "noun",
@@ -11993,7 +11995,7 @@
     {
       "id": "cand-a2-1a-0023",
       "turkish": "metre (m)",
-      "english": "metre",
+      "english": "metre (m)",
       "priority": 3,
       "tags": [
         "noun",
@@ -12004,7 +12006,7 @@
     {
       "id": "cand-a2-1a-0024",
       "turkish": "milimetre (mm)",
-      "english": "millimetre",
+      "english": "millimetre (mm)",
       "priority": 3,
       "tags": [
         "noun",
@@ -12037,7 +12039,7 @@
     {
       "id": "cand-a2-1a-0027",
       "turkish": "santimetre (cm)",
-      "english": "centimetre",
+      "english": "centimetre (cm)",
       "priority": 3,
       "tags": [
         "noun",
@@ -12770,7 +12772,8 @@
         "noun",
         "unit-a2",
         "unit-a2-1b"
-      ]
+      ],
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-a2-1b-0082",
@@ -13985,7 +13988,8 @@
         "noun",
         "unit-a2",
         "unit-a2-2a"
-      ]
+      ],
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-a2-2a-0030",

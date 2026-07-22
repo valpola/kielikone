@@ -298,7 +298,7 @@
     },
     {
       "id": "cand-a1-6b-0022",
-      "turkish": "pazar (yer)",
+      "turkish": "pazar",
       "english": "market / bazaar",
       "priority": 3,
       "tags": [
@@ -308,7 +308,8 @@
       ],
       "source": "A1_-_6B.pdf",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_tr_en": "(yer)"
     },
     {
       "id": "cand-a1-6b-0023",

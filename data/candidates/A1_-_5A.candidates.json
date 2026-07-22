@@ -313,7 +313,7 @@
     },
     {
       "id": "cand-a1-5a-0023",
-      "turkish": "Pazar (gün)",
+      "turkish": "Pazar",
       "english": "Sunday",
       "priority": 3,
       "tags": [
@@ -323,7 +323,8 @@
       ],
       "source": "A1_-_5A.pdf",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_tr_en": "(gün)"
     },
     {
       "id": "cand-a1-5a-0024",
