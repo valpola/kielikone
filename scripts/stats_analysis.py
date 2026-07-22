@@ -218,6 +218,10 @@ for canonical in canonical_vocab_words:
 
 print(f"Highest score: {max(score for _, score in scored_words):.3f}")
 
+for i, e in enumerate(events[:-1]):
+    if e[0] == events[i+1][0]:
+        print("Duplicate event at", i, e)
+
 # %%
 # # Show the top 10 lowest and top 30 highest scoring words (MODE).
 # scored_words.sort(key=lambda x: x[1])
