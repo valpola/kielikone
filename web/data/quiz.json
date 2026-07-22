@@ -905,14 +905,15 @@
     },
     {
       "id": "cand-a1-1b-0022",
-      "turkish": "ocak (\u0131s\u0131t\u0131c\u0131)",
+      "turkish": "ocak",
       "english": "stove",
       "priority": 3,
       "tags": [
         "noun",
         "unit-a1-1b",
         "unit-a1"
-      ]
+      ],
+      "hint_tr_en": "(\u0131s\u0131t\u0131c\u0131)"
     },
     {
       "id": "cand-a1-1b-0023",
@@ -9121,14 +9122,15 @@
     },
     {
       "id": "cand-a1-5a-0024",
-      "turkish": "Ocak (ay)",
+      "turkish": "Ocak",
       "english": "January",
       "priority": 3,
       "tags": [
         "unit-a1-5a",
         "unit-a1",
         "noun"
-      ]
+      ],
+      "hint_tr_en": "(ay)"
     },
     {
       "id": "cand-a1-5a-0025",

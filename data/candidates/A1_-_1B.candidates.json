@@ -299,7 +299,7 @@
     },
     {
       "id": "cand-a1-1b-0022",
-      "turkish": "ocak (ısıtıcı)",
+      "turkish": "ocak",
       "english": "stove",
       "priority": 3,
       "tags": [
@@ -309,7 +309,8 @@
       ],
       "source": "A1_-_1B.pdf",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_tr_en": "(ısıtıcı)"
     },
     {
       "id": "cand-a1-1b-0023",

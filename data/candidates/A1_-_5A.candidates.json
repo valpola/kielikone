@@ -328,7 +328,7 @@
     },
     {
       "id": "cand-a1-5a-0024",
-      "turkish": "Ocak (ay)",
+      "turkish": "Ocak",
       "english": "January",
       "priority": 3,
       "tags": [
@@ -338,7 +338,8 @@
       ],
       "source": "A1_-_5A.pdf",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_tr_en": "(ay)"
     },
     {
       "id": "cand-a1-5a-0025",
