@@ -1070,7 +1070,7 @@
     },
     {
       "id": "cand-a2-1b-0076",
-      "turkish": "sosisli sandviç (sosisli)",
+      "turkish": "sosisli sandviç / sosisli",
       "english": "hotdog",
       "priority": 3,
       "tags": [
@@ -1080,7 +1080,8 @@
       ],
       "source": "A2_-_1B.pdf",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-a2-1b-0077",

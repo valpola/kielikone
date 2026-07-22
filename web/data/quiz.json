@@ -12723,14 +12723,15 @@
     },
     {
       "id": "cand-a2-1b-0076",
-      "turkish": "sosisli sandvi\u00e7 (sosisli)",
+      "turkish": "sosisli sandvi\u00e7 / sosisli",
       "english": "hotdog",
       "priority": 3,
       "tags": [
         "noun",
         "unit-a2",
         "unit-a2-1b"
-      ]
+      ],
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-a2-1b-0077",
