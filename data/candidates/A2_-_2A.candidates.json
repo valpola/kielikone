@@ -401,6 +401,7 @@
       "id": "cand-a2-2a-0029",
       "turkish": "tek başına / yalnız",
       "english": "alone / lonely / on one’s own",
+      "hint_en_tr": "(X / Y)",
       "priority": 3,
       "tags": [
         "noun",

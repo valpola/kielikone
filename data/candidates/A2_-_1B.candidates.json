@@ -1142,6 +1142,7 @@
       "id": "cand-a2-1b-0081",
       "turkish": "takı / aksesuar",
       "english": "jewelry / accessories",
+      "hint_en_tr": "(X / Y)",
       "priority": 3,
       "tags": [
         "noun",
