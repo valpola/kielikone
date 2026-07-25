@@ -17,6 +17,7 @@ const LOGIN_BTN = document.getElementById("login-btn");
 const QUEUE_STATUS = document.getElementById("queue-status");
 const RECOMPUTE_TODAY = document.getElementById("recompute-today");
 const OPTIONS_GRID = document.querySelector(".options-grid");
+const TODAY_STATS = document.getElementById("today-stats");
 
 const MODE_STORAGE = "tr-quiz-mode";
 const DEFAULT_MODE = "en-tr";
@@ -556,6 +557,19 @@ const recomputeToday = async ({ silent = false } = {}) => {
       now: new Date(),
       aliases,
     });
+
+    // Summary stats over the filtered set (shown in the open Options section).
+    if (TODAY_STATS) {
+      if (scored.length) {
+        const scoreValues = scored.map((entry) => entry.score);
+        const avg = scoreValues.reduce((sum, v) => sum + v, 0) / scoreValues.length;
+        const max = Math.max.apply(null, scoreValues);
+        TODAY_STATS.textContent =
+          scored.length + " words in filter · avg " + avg.toFixed(3) + " · max " + max.toFixed(3);
+      } else {
+        TODAY_STATS.textContent = "No words match the current filters.";
+      }
+    }
 
     storeDebugScores({
       generatedAt: new Date().toISOString(),

@@ -357,6 +357,16 @@ button {
   gap: 14px;
 }
 
+.today-stats {
+  font-size: 13px;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.today-stats:empty {
+  display: none;
+}
+
 @keyframes fadeUp {
   from {
     opacity: 0;
