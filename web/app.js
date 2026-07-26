@@ -18,6 +18,10 @@ const QUEUE_STATUS = document.getElementById("queue-status");
 const RECOMPUTE_TODAY = document.getElementById("recompute-today");
 const OPTIONS_GRID = document.querySelector(".options-grid");
 const TODAY_STATS = document.getElementById("today-stats");
+const NOTE_DETAILS = document.getElementById("note");
+const NOTE_INPUT = document.getElementById("note-input");
+const NOTE_SAVE = document.getElementById("note-save");
+const NOTE_STATUS = document.getElementById("note-status");
 
 const MODE_STORAGE = "tr-quiz-mode";
 const DEFAULT_MODE = "en-tr";
@@ -38,6 +42,8 @@ const DEFAULT_SESSION_TARGET = 1;
 const TODAY_LIMIT_STORAGE = "tr-quiz-today-limit";
 const TODAY_LIST_STORAGE = "tr-quiz-today-list";
 const RESULTS_QUEUE_STORAGE = "tr-quiz-results-queue";
+const COMMENT_QUEUE_STORAGE = "tr-quiz-comments-queue";
+const COMMENT_TOKEN_STORAGE = "tr-quiz-github-token";
 const DEFAULT_TODAY_LIMIT = 10;
 const DEBUG_MODE = new URLSearchParams(window.location.search).get("debug") === "1";
 const DEBUG_SCORES_STORAGE = "tr-quiz-debug-scores";
@@ -183,6 +189,150 @@ const flushResultQueue = async () => {
   } finally {
     resultQueueBusy = false;
   }
+};
+
+// ---- Comments: filed as GitHub issues; write token kept in localStorage only ----
+const setNoteStatus = (text) => {
+  if (NOTE_STATUS) NOTE_STATUS.textContent = text || "";
+};
+
+const resetNoteUi = () => {
+  if (NOTE_INPUT) NOTE_INPUT.value = "";
+  setNoteStatus("");
+  if (NOTE_DETAILS) NOTE_DETAILS.open = false;
+};
+
+const getCommentRepo = () =>
+  (typeof APP_CONFIG !== "undefined" && APP_CONFIG.commentRepo) || "";
+const getCommentLabel = () =>
+  (typeof APP_CONFIG !== "undefined" && APP_CONFIG.commentLabel) || "vocab-comment";
+const getCommentToken = () => localStorage.getItem(COMMENT_TOKEN_STORAGE) || "";
+const setCommentToken = (token) => {
+  if (token) localStorage.setItem(COMMENT_TOKEN_STORAGE, token);
+  else localStorage.removeItem(COMMENT_TOKEN_STORAGE);
+};
+
+const loadCommentQueue = () => {
+  try {
+    const parsed = JSON.parse(localStorage.getItem(COMMENT_QUEUE_STORAGE) || "[]");
+    return Array.isArray(parsed) ? parsed : [];
+  } catch {
+    return [];
+  }
+};
+const saveCommentQueue = (queue) => {
+  localStorage.setItem(COMMENT_QUEUE_STORAGE, JSON.stringify(queue));
+};
+const enqueueComment = (payload) => {
+  const queue = loadCommentQueue();
+  queue.push(payload);
+  saveCommentQueue(queue);
+};
+
+const buildIssue = (c) => ({
+  title: ("[note] " + c.turkish).slice(0, 120),
+  body:
+    "**Word:** " + c.turkish + " = " + c.english + "\n" +
+    "**id:** " + c.word_id + "\n" +
+    "**mode:** " + c.mode + "\n" +
+    "**when:** " + c.timestamp + "\n\n" +
+    c.comment,
+  labels: [getCommentLabel()],
+});
+
+const sendQueuedComment = async (token, payload) => {
+  const repo = getCommentRepo();
+  if (!repo) return { ok: false, auth: true };
+  const res = await fetch("https://api.github.com/repos/" + repo + "/issues", {
+    method: "POST",
+    headers: {
+      Authorization: "Bearer " + token,
+      Accept: "application/vnd.github+json",
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(buildIssue(payload)),
+  });
+  // 401/403 => token missing scope or invalid; anything else non-ok => transient.
+  if (res.status === 401 || res.status === 403) return { ok: false, auth: false };
+  return { ok: res.ok, auth: true };
+};
+
+let commentQueueBusy = false;
+const flushCommentQueue = async ({ interactive = false } = {}) => {
+  if (commentQueueBusy) return;
+  if (!loadCommentQueue().length) return;
+
+  let token = getCommentToken();
+  if (!token) {
+    if (!interactive) return; // never prompt during a background flush
+    token = window.prompt(
+      "Paste a GitHub token (fine-grained, Issues: write on " +
+        getCommentRepo() +
+        ").\nStored on this device only."
+    );
+    if (!token) {
+      setNoteStatus("No token entered — note kept in queue.");
+      return;
+    }
+    token = token.trim();
+    setCommentToken(token);
+  }
+
+  commentQueueBusy = true;
+  try {
+    while (true) {
+      const next = loadCommentQueue()[0];
+      if (!next) return;
+
+      let result;
+      try {
+        result = await sendQueuedComment(token, next);
+      } catch {
+        setNoteStatus("Offline — note queued, will retry.");
+        return;
+      }
+
+      if (result.ok) {
+        const queue = loadCommentQueue();
+        queue.shift();
+        saveCommentQueue(queue);
+        const left = loadCommentQueue().length;
+        setNoteStatus("Note saved ✓" + (left ? " (" + left + " queued)" : ""));
+      } else if (!result.auth) {
+        setCommentToken(""); // clear bad/expired token so the next save re-prompts
+        setNoteStatus("Token rejected — cleared. Click Save again to re-enter.");
+        return;
+      } else {
+        setNoteStatus("Save failed — note kept in queue.");
+        return;
+      }
+    }
+  } finally {
+    commentQueueBusy = false;
+  }
+};
+
+const saveNote = () => {
+  if (!current) {
+    setNoteStatus("No word is shown right now.");
+    return;
+  }
+  const text = ((NOTE_INPUT && NOTE_INPUT.value) || "").trim();
+  if (!text) {
+    setNoteStatus("Write a note first.");
+    return;
+  }
+  enqueueComment({
+    word_id: current.id,
+    turkish: current.turkish,
+    english: current.english,
+    mode,
+    comment: text,
+    timestamp: new Date().toISOString(),
+  });
+  if (NOTE_INPUT) NOTE_INPUT.value = "";
+  setNoteStatus("Saving…");
+  void flushCommentQueue({ interactive: true });
 };
 
 const getApiKey = () => {
@@ -694,6 +844,7 @@ const renderTagOptions = () => {
 };
 
 const renderPrompt = () => {
+  resetNoteUi();
   current = pickNext();
   if (!current) {
     PROMPT.textContent = "No items match current filters";
@@ -830,6 +981,14 @@ TODAY_LIMIT.addEventListener("change", () => {
 
 RECOMPUTE_TODAY.addEventListener("click", () => recomputeToday());
 
+if (NOTE_SAVE) {
+  NOTE_SAVE.addEventListener("click", () => saveNote());
+}
+if (NOTE_INPUT) {
+  // Keep global shortcuts (Enter/f/j/n/Tab) from firing while typing a note.
+  NOTE_INPUT.addEventListener("keydown", (event) => event.stopPropagation());
+}
+
 REVEAL.addEventListener("click", revealAnswer);
 NEXT.addEventListener("click", renderPrompt);
 MARK_CORRECT.addEventListener("click", () => grade(true));
@@ -909,11 +1068,13 @@ window.addEventListener("keydown", (event) => {
 
 window.addEventListener("online", () => {
   void flushResultQueue();
+  void flushCommentQueue();
 });
 
 document.addEventListener("visibilitychange", () => {
   if (document.visibilityState === "visible") {
     void flushResultQueue();
+    void flushCommentQueue();
   }
 });
 
@@ -965,3 +1126,6 @@ const loadData = async () => {
 loadData().catch(() => {
   PROMPT.textContent = "Failed to load data/quiz.json";
 });
+
+// Retry any comments queued from a previous (offline) session.
+void flushCommentQueue();
