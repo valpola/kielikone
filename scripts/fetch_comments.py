@@ -41,11 +41,15 @@ def fetch_issues(state):
         if len(batch) < 100:
             break
         page += 1
-    # drop PRs (the issues endpoint includes them) and non-comment issues
+    # drop PRs (the issues endpoint includes them) and non-comment issues; also
+    # filter on each issue's own state, since the list endpoint can lag briefly
+    # after a close and still return a just-closed issue for state=open.
     return [
         i
         for i in issues
-        if "pull_request" not in i and str(i.get("title", "")).startswith(TITLE_PREFIX)
+        if "pull_request" not in i
+        and str(i.get("title", "")).startswith(TITLE_PREFIX)
+        and (state == "all" or i.get("state") == state)
     ]
 
 
