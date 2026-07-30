@@ -1,0 +1,1152 @@
+{
+  "source_file": "A2 Unit 3 (3A/3B/3C) coursebook Kelime Listesi",
+  "created_at": "2026-07-30T00:00:00+00:00",
+  "items": [
+    {
+      "id": "cand-a2-3-0001",
+      "turkish": "arkadaş edinmek",
+      "english": "to make friends",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-3a",
+        "unit-a2"
+      ],
+      "source": "A2-3A Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0002",
+      "turkish": "belirlemek",
+      "english": "to determine",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-3a",
+        "unit-a2"
+      ],
+      "source": "A2-3A Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0003",
+      "turkish": "(birine) eşlik etmek",
+      "english": "to accompany sb.",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-3a",
+        "unit-a2"
+      ],
+      "source": "A2-3A Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0004",
+      "turkish": "günlük tutmak",
+      "english": "to keep a diary",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-3a",
+        "unit-a2"
+      ],
+      "source": "A2-3A Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0005",
+      "turkish": "liste yapmak",
+      "english": "to make a list",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-3a",
+        "unit-a2"
+      ],
+      "source": "A2-3A Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0006",
+      "turkish": "yetmek",
+      "english": "to be enough",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-3a",
+        "unit-a2"
+      ],
+      "source": "A2-3A Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0007",
+      "turkish": "eskimek",
+      "english": "to wear out",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-3a",
+        "unit-a2"
+      ],
+      "source": "A2-3A Kelime Listesi (Turkishle coursebook)",
+      "notes": "distinct from the adjective eski (old)",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0008",
+      "turkish": "ajanda",
+      "english": "planner",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-3a",
+        "unit-a2"
+      ],
+      "source": "A2-3A Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0009",
+      "turkish": "aksiyon",
+      "english": "action",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-3a",
+        "unit-a2"
+      ],
+      "source": "A2-3A Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved",
+      "hint_en_tr": "(film genre)"
+    },
+    {
+      "id": "cand-a2-3-0010",
+      "turkish": "bilim-kurgu",
+      "english": "science fiction",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-3a",
+        "unit-a2"
+      ],
+      "source": "A2-3A Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0011",
+      "turkish": "durum komedisi",
+      "english": "sitcom",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-3a",
+        "unit-a2"
+      ],
+      "source": "A2-3A Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0012",
+      "turkish": "dram",
+      "english": "drama",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-3a",
+        "unit-a2"
+      ],
+      "source": "A2-3A Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0013",
+      "turkish": "fantastik",
+      "english": "fantasy",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-3a",
+        "unit-a2"
+      ],
+      "source": "A2-3A Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved",
+      "hint_en_tr": "(genre)"
+    },
+    {
+      "id": "cand-a2-3-0014",
+      "turkish": "hikaye / öykü",
+      "english": "story",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-3a",
+        "unit-a2"
+      ],
+      "source": "A2-3A Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved",
+      "hint_en_tr": "(X / Y)"
+    },
+    {
+      "id": "cand-a2-3-0015",
+      "turkish": "kişisel gelişim",
+      "english": "personal development",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-3a",
+        "unit-a2"
+      ],
+      "source": "A2-3A Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0016",
+      "turkish": "komedi",
+      "english": "comedy",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-3a",
+        "unit-a2"
+      ],
+      "source": "A2-3A Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0017",
+      "turkish": "korku",
+      "english": "horror",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-3a",
+        "unit-a2"
+      ],
+      "source": "A2-3A Kelime Listesi (Turkishle coursebook)",
+      "notes": "coursebook glosses it 'thriller'; gerilim = thriller",
+      "status": "approved",
+      "hint_en_tr": "(genre; also = fear)"
+    },
+    {
+      "id": "cand-a2-3-0018",
+      "turkish": "macera",
+      "english": "adventure",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-3a",
+        "unit-a2"
+      ],
+      "source": "A2-3A Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0019",
+      "turkish": "madde",
+      "english": "item",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-3a",
+        "unit-a2"
+      ],
+      "source": "A2-3A Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0020",
+      "turkish": "makale",
+      "english": "essay",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-3a",
+        "unit-a2"
+      ],
+      "source": "A2-3A Kelime Listesi (Turkishle coursebook)",
+      "notes": "also 'article' (journal/newspaper piece)",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0021",
+      "turkish": "masal",
+      "english": "fairytale",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-3a",
+        "unit-a2"
+      ],
+      "source": "A2-3A Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0022",
+      "turkish": "müzikal",
+      "english": "musical",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-3a",
+        "unit-a2"
+      ],
+      "source": "A2-3A Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0023",
+      "turkish": "roman",
+      "english": "novel",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-3a",
+        "unit-a2"
+      ],
+      "source": "A2-3A Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0024",
+      "turkish": "romantik",
+      "english": "romantic",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-3a",
+        "unit-a2"
+      ],
+      "source": "A2-3A Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0025",
+      "turkish": "şiir",
+      "english": "poem",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-3a",
+        "unit-a2"
+      ],
+      "source": "A2-3A Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0026",
+      "turkish": "yolculuk",
+      "english": "journey",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-3a",
+        "unit-a2"
+      ],
+      "source": "A2-3A Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0027",
+      "turkish": "sıra",
+      "english": "queue",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-3a",
+        "unit-a2"
+      ],
+      "source": "A2-3A Kelime Listesi (Turkishle coursebook)",
+      "notes": "homograph: sıra (classroom desk) is a separate entry",
+      "status": "approved",
+      "hint_tr_en": "(kuyruk)"
+    },
+    {
+      "id": "cand-a2-3-0028",
+      "turkish": "(biriyle) çıkmak",
+      "english": "to date sb.",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-3b",
+        "unit-a2"
+      ],
+      "source": "A2-3B Kelime Listesi (Turkishle coursebook)",
+      "notes": "homograph: (bir yerden) çıkmak = to leave a place",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0029",
+      "turkish": "randevuya çıkmak",
+      "english": "to go on a date",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-3b",
+        "unit-a2"
+      ],
+      "source": "A2-3B Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0030",
+      "turkish": "çocuk sahibi olmak",
+      "english": "to have children",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-3b",
+        "unit-a2"
+      ],
+      "source": "A2-3B Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0031",
+      "turkish": "hedef koymak",
+      "english": "to set a goal",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-3b",
+        "unit-a2"
+      ],
+      "source": "A2-3B Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0032",
+      "turkish": "mezun olmak",
+      "english": "to graduate",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-3b",
+        "unit-a2"
+      ],
+      "source": "A2-3B Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0033",
+      "turkish": "nişanlanmak",
+      "english": "to get engaged",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-3b",
+        "unit-a2"
+      ],
+      "source": "A2-3B Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0034",
+      "turkish": "sorgulamak",
+      "english": "to question",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-3b",
+        "unit-a2"
+      ],
+      "source": "A2-3B Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0035",
+      "turkish": "yoğun",
+      "english": "busy",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-3b",
+        "unit-a2"
+      ],
+      "source": "A2-3B Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0036",
+      "turkish": "anaokulu",
+      "english": "kindergarten",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-3b",
+        "unit-a2"
+      ],
+      "source": "A2-3B Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0037",
+      "turkish": "ilkokul",
+      "english": "primary school",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-3b",
+        "unit-a2"
+      ],
+      "source": "A2-3B Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0038",
+      "turkish": "ortaokul",
+      "english": "middle school",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-3b",
+        "unit-a2"
+      ],
+      "source": "A2-3B Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0039",
+      "turkish": "lise",
+      "english": "high school",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-3b",
+        "unit-a2"
+      ],
+      "source": "A2-3B Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0040",
+      "turkish": "üniversite",
+      "english": "university",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-3b",
+        "unit-a2"
+      ],
+      "source": "A2-3B Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0041",
+      "turkish": "diploma",
+      "english": "diploma",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-3b",
+        "unit-a2"
+      ],
+      "source": "A2-3B Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0042",
+      "turkish": "mezun",
+      "english": "graduate",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-3b",
+        "unit-a2"
+      ],
+      "source": "A2-3B Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved",
+      "hint_en_tr": "(the person)"
+    },
+    {
+      "id": "cand-a2-3-0043",
+      "turkish": "fırsat",
+      "english": "opportunity",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-3b",
+        "unit-a2"
+      ],
+      "source": "A2-3B Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0044",
+      "turkish": "sevgili",
+      "english": "sweetheart",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-3b",
+        "unit-a2"
+      ],
+      "source": "A2-3B Kelime Listesi (Turkishle coursebook)",
+      "notes": "also 'dear' as a letter opener; sevgilim = my love",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0045",
+      "turkish": "erkek arkadaş",
+      "english": "boyfriend",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-3b",
+        "unit-a2"
+      ],
+      "source": "A2-3B Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0046",
+      "turkish": "kız arkadaş",
+      "english": "girlfriend",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-3b",
+        "unit-a2"
+      ],
+      "source": "A2-3B Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0047",
+      "turkish": "bahçıvan",
+      "english": "gardener",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-3b",
+        "unit-a2"
+      ],
+      "source": "A2-3B Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0048",
+      "turkish": "diş hekimi",
+      "english": "dentist",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-3b",
+        "unit-a2"
+      ],
+      "source": "A2-3B Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0049",
+      "turkish": "mimar",
+      "english": "architect",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-3b",
+        "unit-a2"
+      ],
+      "source": "A2-3B Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0050",
+      "turkish": "sporcu",
+      "english": "athlete",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-3b",
+        "unit-a2"
+      ],
+      "source": "A2-3B Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0051",
+      "turkish": "veteriner",
+      "english": "vet",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-3b",
+        "unit-a2"
+      ],
+      "source": "A2-3B Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0052",
+      "turkish": "yazılımcı",
+      "english": "software developer",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-3b",
+        "unit-a2"
+      ],
+      "source": "A2-3B Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0053",
+      "turkish": "(bir şeye) dokunmak",
+      "english": "to touch sth.",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-3c",
+        "unit-a2"
+      ],
+      "source": "A2-3C Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0054",
+      "turkish": "fal bakmak",
+      "english": "to read fortunes",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-3c",
+        "unit-a2"
+      ],
+      "source": "A2-3C Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0055",
+      "turkish": "fincan kapatmak",
+      "english": "to turn the coffee cup over",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-3c",
+        "unit-a2"
+      ],
+      "source": "A2-3C Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0056",
+      "turkish": "yakalamak",
+      "english": "to catch",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-3c",
+        "unit-a2"
+      ],
+      "source": "A2-3C Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0057",
+      "turkish": "yorumlamak",
+      "english": "to interpret",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-3c",
+        "unit-a2"
+      ],
+      "source": "A2-3C Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0058",
+      "turkish": "büyü",
+      "english": "spell",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-3c",
+        "unit-a2"
+      ],
+      "source": "A2-3C Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved",
+      "hint_en_tr": "(magic)"
+    },
+    {
+      "id": "cand-a2-3-0059",
+      "turkish": "büyücü",
+      "english": "wizard",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-3c",
+        "unit-a2"
+      ],
+      "source": "A2-3C Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0060",
+      "turkish": "fal",
+      "english": "fortune telling",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-3c",
+        "unit-a2"
+      ],
+      "source": "A2-3C Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0061",
+      "turkish": "falcı",
+      "english": "fortune teller",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-3c",
+        "unit-a2"
+      ],
+      "source": "A2-3C Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0062",
+      "turkish": "kahve falı",
+      "english": "coffee-cup fortune telling",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-3c",
+        "unit-a2"
+      ],
+      "source": "A2-3C Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0063",
+      "turkish": "telve",
+      "english": "coffee grounds",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-3c",
+        "unit-a2"
+      ],
+      "source": "A2-3C Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0064",
+      "turkish": "yorum",
+      "english": "interpretation",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-3c",
+        "unit-a2"
+      ],
+      "source": "A2-3C Kelime Listesi (Turkishle coursebook)",
+      "notes": "also 'comment / review'",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0065",
+      "turkish": "tok",
+      "english": "sated",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-3c",
+        "unit-a2"
+      ],
+      "source": "A2-3C Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved",
+      "hint_en_tr": "(not hungry; opposite of aç)"
+    },
+    {
+      "id": "cand-a2-3-0066",
+      "turkish": "yerli",
+      "english": "local",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-3c",
+        "unit-a2"
+      ],
+      "source": "A2-3C Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved",
+      "hint_en_tr": "(native, not foreign)"
+    },
+    {
+      "id": "cand-a2-3-0067",
+      "turkish": "yabancı",
+      "english": "foreign",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-3c",
+        "unit-a2"
+      ],
+      "source": "A2-3C Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved",
+      "hint_en_tr": "(also = foreigner)"
+    },
+    {
+      "id": "cand-a2-3-0068",
+      "turkish": "demode",
+      "english": "outdated",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-3c",
+        "unit-a2"
+      ],
+      "source": "A2-3C Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0069",
+      "turkish": "kaba",
+      "english": "rude",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-3c",
+        "unit-a2"
+      ],
+      "source": "A2-3C Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0070",
+      "turkish": "düzensiz",
+      "english": "messy",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-3c",
+        "unit-a2"
+      ],
+      "source": "A2-3C Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0071",
+      "turkish": "sıkıcı",
+      "english": "boring",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-3c",
+        "unit-a2"
+      ],
+      "source": "A2-3C Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0072",
+      "turkish": "sağlıksız",
+      "english": "unhealthy",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-3c",
+        "unit-a2"
+      ],
+      "source": "A2-3C Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0073",
+      "turkish": "önemsiz",
+      "english": "unimportant",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-3c",
+        "unit-a2"
+      ],
+      "source": "A2-3C Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0074",
+      "turkish": "korkak",
+      "english": "coward",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-3c",
+        "unit-a2"
+      ],
+      "source": "A2-3C Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0075",
+      "turkish": "başarılı",
+      "english": "successful",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-3c",
+        "unit-a2"
+      ],
+      "source": "A2-3C Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0076",
+      "turkish": "başarısız",
+      "english": "unsuccessful",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-3c",
+        "unit-a2"
+      ],
+      "source": "A2-3C Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0077",
+      "turkish": "hafif",
+      "english": "light",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-3c",
+        "unit-a2"
+      ],
+      "source": "A2-3C Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved",
+      "hint_en_tr": "(not heavy)"
+    },
+    {
+      "id": "cand-a2-3-0078",
+      "turkish": "ağır",
+      "english": "heavy",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-3c",
+        "unit-a2"
+      ],
+      "source": "A2-3C Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0079",
+      "turkish": "bol",
+      "english": "loose",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-3c",
+        "unit-a2"
+      ],
+      "source": "A2-3C Kelime Listesi (Turkishle coursebook)",
+      "notes": "",
+      "status": "approved",
+      "hint_en_tr": "(of clothes)"
+    },
+    {
+      "id": "cand-a2-3-0080",
+      "turkish": "pis",
+      "english": "filthy",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-3c",
+        "unit-a2"
+      ],
+      "source": "A2-3C Kelime Listesi (Turkishle coursebook)",
+      "notes": "cf. kirli = dirty",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-3-0081",
+      "turkish": "rahatsız",
+      "english": "uncomfortable",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-3c",
+        "unit-a2"
+      ],
+      "source": "A2-3C Kelime Listesi (Turkishle coursebook)",
+      "notes": "adjective; cf. (bir şeyden) rahatsız olmak",
+      "status": "approved"
+    }
+  ]
+}

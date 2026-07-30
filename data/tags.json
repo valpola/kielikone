@@ -240,6 +240,21 @@
       "id": "unit-a2-2c",
       "label": "Unit A2-2C",
       "group": "unit"
+    },
+    {
+      "id": "unit-a2-3a",
+      "label": "Unit A2-3A",
+      "group": "unit"
+    },
+    {
+      "id": "unit-a2-3b",
+      "label": "Unit A2-3B",
+      "group": "unit"
+    },
+    {
+      "id": "unit-a2-3c",
+      "label": "Unit A2-3C",
+      "group": "unit"
     }
   ]
 }
