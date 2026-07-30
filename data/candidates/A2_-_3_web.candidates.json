@@ -1,0 +1,218 @@
+{
+  "source_file": "A2-3 web sweep (reading SÖZLÜK + vocab pages) + listening-exercise finds",
+  "created_at": "2026-07-30T00:00:00+00:00",
+  "items": [
+    {
+      "id": "cand-web-a23-0001",
+      "turkish": "gözlükçü",
+      "english": "optician",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-3a",
+        "unit-a2"
+      ],
+      "source": "A2-3A reading exercise SÖZLÜK (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-a23-0002",
+      "turkish": "cilt bakımı",
+      "english": "skin care",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-3a",
+        "unit-a2"
+      ],
+      "source": "A2-3A reading exercise SÖZLÜK (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-a23-0003",
+      "turkish": "vakti olmak",
+      "english": "to have time",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-3b",
+        "unit-a2"
+      ],
+      "source": "A2-3B reading exercise SÖZLÜK (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-a23-0004",
+      "turkish": "uyanık olmak",
+      "english": "to be awake / alert",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-3b",
+        "unit-a2"
+      ],
+      "source": "A2-3B reading exercise SÖZLÜK (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-a23-0005",
+      "turkish": "değerlendirmek",
+      "english": "to make use of",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-3b",
+        "unit-a2"
+      ],
+      "source": "A2-3B reading exercise SÖZLÜK (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-a23-0006",
+      "turkish": "engel",
+      "english": "obstacle",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-3b",
+        "unit-a2"
+      ],
+      "source": "A2-3B reading exercise SÖZLÜK (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-a23-0007",
+      "turkish": "nişan",
+      "english": "engagement",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-3b",
+        "unit-a2"
+      ],
+      "source": "A2-3B reading exercise SÖZLÜK (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-a23-0008",
+      "turkish": "altın",
+      "english": "gold",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-3c",
+        "unit-a2"
+      ],
+      "source": "A2-3C reading SÖZLÜK / vocab page (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-a23-0009",
+      "turkish": "rahmetli",
+      "english": "the late",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-3c",
+        "unit-a2"
+      ],
+      "source": "A2-3C reading SÖZLÜK / vocab page (Turkishle web)",
+      "notes": "of a deceased person: rahmetli dedem = my late grandfather",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-a23-0010",
+      "turkish": "çiğ",
+      "english": "raw",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-3c",
+        "unit-a2"
+      ],
+      "source": "A2-3C reading SÖZLÜK / vocab page (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-a23-0011",
+      "turkish": "ekşi",
+      "english": "sour",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-3c",
+        "unit-a2"
+      ],
+      "source": "A2-3C reading SÖZLÜK / vocab page (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-a23-0012",
+      "turkish": "karışık / karmaşık",
+      "english": "complicated",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-3c",
+        "unit-a2"
+      ],
+      "source": "A2-3C reading SÖZLÜK / vocab page (Turkishle web)",
+      "notes": "",
+      "status": "approved",
+      "hint_en_tr": "(X / Y)"
+    },
+    {
+      "id": "cand-web-a23-0013",
+      "turkish": "döner",
+      "english": "döner kebab",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a",
+        "unit-a1"
+      ],
+      "source": "A1-6A listening exercise (Turkishle web)",
+      "notes": "homograph: döner also = 'rotates/returns' (dönmek)",
+      "status": "approved",
+      "hint_tr_en": "(yemek)"
+    },
+    {
+      "id": "cand-web-a23-0014",
+      "turkish": "gündüz",
+      "english": "daytime",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-1b",
+        "unit-a2"
+      ],
+      "source": "A2-1B listening exercise (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-web-a23-0015",
+      "turkish": "böylece",
+      "english": "thus / this way",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-4c",
+        "unit-a1"
+      ],
+      "source": "A1-4C listening exercise (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    }
+  ]
+}

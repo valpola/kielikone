@@ -18237,6 +18237,173 @@
       ]
     },
     {
+      "id": "cand-web-a23-0001",
+      "turkish": "g\u00f6zl\u00fck\u00e7\u00fc",
+      "english": "optician",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-3a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-web-a23-0002",
+      "turkish": "cilt bak\u0131m\u0131",
+      "english": "skin care",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-3a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-web-a23-0003",
+      "turkish": "vakti olmak",
+      "english": "to have time",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-3b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-web-a23-0004",
+      "turkish": "uyan\u0131k olmak",
+      "english": "to be awake / alert",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-3b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-web-a23-0005",
+      "turkish": "de\u011ferlendirmek",
+      "english": "to make use of",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-3b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-web-a23-0006",
+      "turkish": "engel",
+      "english": "obstacle",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-3b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-web-a23-0007",
+      "turkish": "ni\u015fan",
+      "english": "engagement",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-3b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-web-a23-0008",
+      "turkish": "alt\u0131n",
+      "english": "gold",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-3c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-web-a23-0009",
+      "turkish": "rahmetli",
+      "english": "the late",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-3c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-web-a23-0010",
+      "turkish": "\u00e7i\u011f",
+      "english": "raw",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-3c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-web-a23-0011",
+      "turkish": "ek\u015fi",
+      "english": "sour",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-3c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-web-a23-0012",
+      "turkish": "kar\u0131\u015f\u0131k / karma\u015f\u0131k",
+      "english": "complicated",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-3c",
+        "unit-a2"
+      ],
+      "hint_en_tr": "(X / Y)"
+    },
+    {
+      "id": "cand-web-a23-0013",
+      "turkish": "d\u00f6ner",
+      "english": "d\u00f6ner kebab",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a",
+        "unit-a1"
+      ],
+      "hint_tr_en": "(yemek)"
+    },
+    {
+      "id": "cand-web-a23-0014",
+      "turkish": "g\u00fcnd\u00fcz",
+      "english": "daytime",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-1b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-web-a23-0015",
+      "turkish": "b\u00f6ylece",
+      "english": "thus / this way",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1-4c",
+        "unit-a1"
+      ]
+    },
+    {
       "id": "extra-0001",
       "turkish": "\u00f6r\u00fcmcek",
       "english": "spider",
