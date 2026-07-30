@@ -913,7 +913,7 @@
     },
     {
       "id": "cand-a1-4b-0063",
-      "turkish": "Güney Afrika Cumhuriyeti",
+      "turkish": "Güney Afrika",
       "english": "South Africa",
       "priority": 3,
       "tags": [
@@ -922,7 +922,7 @@
         "country"
       ],
       "source": "A1_-_4B.pdf",
-      "notes": "",
+      "notes": "official name: Güney Afrika Cumhuriyeti",
       "status": "approved"
     },
     {

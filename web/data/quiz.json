@@ -468,7 +468,8 @@
         "unit-a1-1a",
         "unit-a1",
         "greeting"
-      ]
+      ],
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-a1-1a-0013",
@@ -556,7 +557,8 @@
         "unit-a1-1a",
         "unit-a1",
         "expression"
-      ]
+      ],
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-a1-1a-0021",
@@ -835,7 +837,8 @@
         "noun",
         "unit-a1-1b",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-a1-1b-0015",
@@ -1359,7 +1362,8 @@
         "unit-a1",
         "unit-a1-6a",
         "unit-a1-6b"
-      ]
+      ],
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-a1-2a-0009",
@@ -1494,7 +1498,8 @@
         "noun",
         "unit-a1-2a",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-a1-2a-0021",
@@ -2852,7 +2857,7 @@
     },
     {
       "id": "cand-a1-2b-0094",
-      "turkish": "tuvalet ka\u011f\u0131d\u0131",
+      "turkish": "tuvalet k\u00e2\u011f\u0131d\u0131",
       "english": "toilet paper",
       "priority": 3,
       "tags": [
@@ -3819,7 +3824,8 @@
         "unit-a1",
         "verb",
         "unit-a1-3b"
-      ]
+      ],
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-a1-3a-0011",
@@ -5236,14 +5242,15 @@
     },
     {
       "id": "cand-a1-4a-0002",
-      "turkish": "a\u011fabey/abi",
+      "turkish": "a\u011fabey / abi",
       "english": "elder brother",
       "priority": 3,
       "tags": [
         "unit-a1-4a",
         "unit-a1",
         "noun"
-      ]
+      ],
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-a1-4a-0003",
@@ -6369,7 +6376,7 @@
     },
     {
       "id": "cand-a1-4b-0063",
-      "turkish": "G\u00fcney Afrika Cumhuriyeti",
+      "turkish": "G\u00fcney Afrika",
       "english": "South Africa",
       "priority": 3,
       "tags": [
@@ -9018,7 +9025,8 @@
         "unit-a1-5a",
         "unit-a1",
         "noun"
-      ]
+      ],
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-a1-5a-0014",

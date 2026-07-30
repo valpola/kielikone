@@ -18,7 +18,7 @@
     },
     {
       "id": "cand-a1-4a-0002",
-      "turkish": "ağabey/abi",
+      "turkish": "ağabey / abi",
       "english": "elder brother",
       "priority": 3,
       "tags": [
@@ -28,7 +28,8 @@
       ],
       "source": "A1_-_4A.pdf",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-a1-4a-0003",
