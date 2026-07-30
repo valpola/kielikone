@@ -40,10 +40,30 @@ scratchpad once per session, then:
 - zsh: build curl loops with an **array** (`IDS=(a b c); for id in $IDS`) — unquoted `$IDS`
   does not word-split.
 
+- **`🎧 Dinleme` carries no vocabulary list** (verified across all A1+A2 listening lessons):
+  - A1 1A–3B are **`turkishle.github.io/turkishle-lessons/lessons/<unit>-listening/lesson.html`**
+    (public, inline `application/json`) — comprehension primitives only
+    (`minimal-pair`, `fill-blank-transcript`, `true-false`, `attribution-table`…).
+    `options[].gloss` are whole-sentence translations; vignette `words[]` are audio timings.
+    Only `rows[].{label,gloss}` are real word pairs (2C's adjectives — already in the deck).
+  - A1-3C onward and all A2 listening are H5P `InteractiveBook`s whose
+    "kelimeleri anlamlarıyla eşleştir" exercises **reuse the unit's own vocab list**.
+  So the web gap source is the **`📰 Okuma` SÖZLÜK**, not Dinleme.
+
 **Curation rules**
-- Dedup by **stem against `data/candidates/*.candidates.json`**, never against
-  `web/data/quiz.json` (which hides aliased-away entries). Be morphology-aware: object
-  frames `(bir şeye) binmek`, softening `ayak→ayağa`, vowel drop `ağız→ağzı`.
+- **Dedup by individual word, then review by hand** (the user's explicit preference —
+  automated verdicts have been wrong twice). For each candidate, search every
+  `data/candidates/*.candidates.json` entry containing *any* word of the candidate
+  (stem-folded) and eyeball the matches. Never trust a bare exact/boundary regex: a
+  stem + right-word-boundary test wrongly reported `karar vermek` absent when the deck had
+  `(bir şeye) karar vermek`. Never dedup against `web/data/quiz.json` (hides aliased-away
+  entries). Be morphology-aware: object frames `(bir şeye) binmek`, softening `ayak→ayağa`,
+  vowel drop `ağız→ağzı`.
+- **Level cap: up to B1, not beyond.** Reading glossaries sometimes gloss words needed only
+  to understand that particular text (literary collocations, specialist terms). Skip those
+  and say so, rather than padding the deck (e.g. skipped `aşkla dolmak`).
+- Don't add words from **unswept units** just because a listening page mentions them —
+  defer them with the unit (e.g. `minibüs`, `yönetmen` belong to A2-4).
 - Skip **transparent** compounds (`çay bahçesi`, `saat kulesi`); keep **non-transparent**
   ones (`hamur işi` = pastries, not "dough work").
 - `source` must be **per item** and truthful: `Turkishle coursebook (A1/A2/B1)`,
@@ -54,7 +74,8 @@ scratchpad once per session, then:
   `hint_en_tr` (EN→TR). Multi-form answers get `(X / Y)`. Keep circumflexes (`kâğıt`,
   `tarihî`) — matching folds `â/î/û`.
 
-**Status:** A1 (0A + units 1–6) and A2 units 1–2 fully swept. A2-3 onward not yet.
+**Status:** A1 (0A + units 1–6) and A2 units 1–3 fully swept (coursebook + web, incl. the
+listening re-check). A2-4 onward not yet. B1.1 not yet.
 
 ## Targeted practice drills
 
