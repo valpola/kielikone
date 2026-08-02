@@ -18,6 +18,8 @@ const QUEUE_STATUS = document.getElementById("queue-status");
 const RECOMPUTE_TODAY = document.getElementById("recompute-today");
 const OPTIONS_GRID = document.querySelector(".options-grid");
 const TODAY_STATS = document.getElementById("today-stats");
+const CACHE_STATUS = document.getElementById("cache-status");
+const PURGE_CACHE = document.getElementById("purge-cache");
 const NOTE_DETAILS = document.getElementById("note");
 const NOTE_INPUT = document.getElementById("note-input");
 const NOTE_SAVE = document.getElementById("note-save");
@@ -44,6 +46,11 @@ const TODAY_LIST_STORAGE = "tr-quiz-today-list";
 const RESULTS_QUEUE_STORAGE = "tr-quiz-results-queue";
 const COMMENT_QUEUE_STORAGE = "tr-quiz-comments-queue";
 const COMMENT_TOKEN_STORAGE = "tr-quiz-github-token";
+// Local copy of the results history: the last CSV we successfully read, plus
+// events answered on this device. Lets recompute work offline and count words
+// answered since the last successful read.
+const HISTORY_SNAPSHOT_STORAGE = "tr-quiz-history-snapshot";
+const LOCAL_EVENTS_STORAGE = "tr-quiz-local-events";
 const DEFAULT_TODAY_LIMIT = 10;
 const DEBUG_MODE = new URLSearchParams(window.location.search).get("debug") === "1";
 const DEBUG_SCORES_STORAGE = "tr-quiz-debug-scores";
@@ -198,6 +205,113 @@ const flushResultQueue = async () => {
   } finally {
     resultQueueBusy = false;
   }
+};
+
+// ---- Local history store -------------------------------------------------
+// Merging is idempotent: a locally recorded event carries the same
+// (timestamp, word_id, mode, correct) tuple as the row that eventually reaches
+// the sheet, and eventStream() drops exact repeats. So we can always score
+// snapshot + local events without tracking what has been confirmed.
+let snapshotWriteFailed = false;
+
+const loadHistorySnapshot = () => {
+  try {
+    const raw = localStorage.getItem(HISTORY_SNAPSHOT_STORAGE);
+    if (!raw) return null;
+    const parsed = JSON.parse(raw);
+    return parsed && typeof parsed.csv === "string" ? parsed : null;
+  } catch {
+    return null;
+  }
+};
+
+const saveHistorySnapshot = (csv) => {
+  try {
+    localStorage.setItem(
+      HISTORY_SNAPSHOT_STORAGE,
+      JSON.stringify({ csv, fetchedAt: new Date().toISOString() })
+    );
+    snapshotWriteFailed = false;
+  } catch {
+    // Quota exceeded: keep working from the network, just without a cache.
+    snapshotWriteFailed = true;
+  }
+};
+
+const loadLocalEvents = () => {
+  try {
+    const parsed = JSON.parse(localStorage.getItem(LOCAL_EVENTS_STORAGE) || "[]");
+    return Array.isArray(parsed) ? parsed : [];
+  } catch {
+    return [];
+  }
+};
+
+const saveLocalEvents = (events) => {
+  try {
+    localStorage.setItem(LOCAL_EVENTS_STORAGE, JSON.stringify(events));
+  } catch {
+    /* ignore */
+  }
+};
+
+const appendLocalEvent = (event) => {
+  const events = loadLocalEvents();
+  events.push(event);
+  saveLocalEvents(events);
+  updateCacheStatusUi();
+};
+
+const eventKey = (timestamp, wordId, mode, correct) => {
+  const time = new Date(timestamp).getTime();
+  return `${time}|${wordId}|${mode}|${String(correct) === "true" || correct === true}`;
+};
+
+// Once an event shows up in a freshly fetched CSV it no longer needs to be
+// replayed locally. (Purely housekeeping — dedupe would handle it anyway.)
+const pruneLocalEvents = (remoteRows) => {
+  const local = loadLocalEvents();
+  if (!local.length) return;
+  const seen = new Set(
+    remoteRows.map((row) => eventKey(row.timestamp, row.word_id, row.mode, row.correct))
+  );
+  const kept = local.filter(
+    (event) => !seen.has(eventKey(event.timestamp, event.word_id, event.mode, event.correct))
+  );
+  if (kept.length !== local.length) saveLocalEvents(kept);
+};
+
+const localEventRows = () =>
+  loadLocalEvents().map((event) => ({
+    timestamp: event.timestamp,
+    word_id: event.word_id,
+    mode: event.mode,
+    correct: String(event.correct),
+  }));
+
+const updateCacheStatusUi = () => {
+  if (!CACHE_STATUS) return;
+  const snapshot = loadHistorySnapshot();
+  const localCount = loadLocalEvents().length;
+  const queued = loadResultQueue().length;
+  const parts = [];
+  if (snapshot) {
+    const rows = Math.max(0, snapshot.csv.split("\n").filter((l) => l.trim()).length - 1);
+    const when = new Date(snapshot.fetchedAt);
+    parts.push(`${rows.toLocaleString()} events cached (${when.toLocaleString()})`);
+  } else {
+    parts.push("no cached history");
+  }
+  if (localCount) parts.push(`+${localCount} local`);
+  if (queued) parts.push(`${queued} queued`);
+  if (snapshotWriteFailed) parts.push("cache write failed (quota)");
+  CACHE_STATUS.textContent = parts.join(" · ");
+};
+
+const purgeHistoryCache = () => {
+  localStorage.removeItem(HISTORY_SNAPSHOT_STORAGE);
+  snapshotWriteFailed = false;
+  updateCacheStatusUi();
 };
 
 // ---- Comments: filed as GitHub issues; write token kept in localStorage only ----
@@ -671,11 +785,13 @@ const recomputeToday = async ({ silent = false } = {}) => {
     if (!silent) window.alert("Results endpoint is not configured.");
     return;
   }
-  if (!getApiKey()) {
+  // With a cached history we can still recompute while offline / not verified.
+  const canUseCache = !!loadHistorySnapshot();
+  if (!getApiKey() && !canUseCache) {
     if (!silent) window.alert("Login is required to fetch results.");
     return;
   }
-  if (!loginState.valid) {
+  if (!loginState.valid && !canUseCache) {
     if (!silent) window.alert("API key is invalid.");
     return;
   }
@@ -696,12 +812,31 @@ const recomputeToday = async ({ silent = false } = {}) => {
   ANSWER.value = "";
 
   try {
-    const csvText = await fetchResultsCsv();
+    // Prefer a fresh read; fall back to the local snapshot so a slow or failing
+    // endpoint no longer breaks recompute.
+    let csvText = "";
+    let usedCache = false;
+    try {
+      csvText = await fetchResultsCsv();
+      if (csvText) saveHistorySnapshot(csvText);
+    } catch {
+      csvText = "";
+    }
+    if (!csvText) {
+      const snapshot = loadHistorySnapshot();
+      if (snapshot) {
+        csvText = snapshot.csv;
+        usedCache = true;
+      }
+    }
     if (!csvText) {
       throw new Error("No results data received");
     }
 
-    const rows = TodayScoring.parseCsv(csvText);
+    const remoteRows = TodayScoring.parseCsv(csvText);
+    if (!usedCache) pruneLocalEvents(remoteRows);
+    // Words answered on this device since the last successful read still count.
+    const rows = remoteRows.concat(localEventRows());
     const events = TodayScoring.eventStream(rows, aliases);
     const eventsByKey = TodayScoring.buildEventsByKey(events);
 
@@ -743,6 +878,10 @@ const recomputeToday = async ({ silent = false } = {}) => {
     computedToday = new Set(topIds);
     saveStoredToday(computedToday);
     sessionCorrect.clear();
+    updateCacheStatusUi();
+    if (usedCache && TODAY_STATS) {
+      TODAY_STATS.textContent += " · from cached history (read failed)";
+    }
     renderPrompt();
     return true;
   } catch (error) {
@@ -949,8 +1088,13 @@ const grade = (isCorrect) => {
     sessionCorrect.set(current.id, count);
   }
 
+  const timestamp = new Date().toISOString();
+  // Record locally as well as remotely, so the next recompute counts this
+  // answer even if the read (or the write) is failing.
+  appendLocalEvent({ timestamp, word_id: current.id, mode, correct: isCorrect });
+
   sendResult({
-    timestamp: new Date().toISOString(),
+    timestamp,
     word_id: current.id,
     mode,
     correct: isCorrect,
@@ -989,6 +1133,13 @@ TODAY_LIMIT.addEventListener("change", () => {
 });
 
 RECOMPUTE_TODAY.addEventListener("click", () => recomputeToday());
+
+if (PURGE_CACHE) {
+  PURGE_CACHE.addEventListener("click", () => {
+    purgeHistoryCache();
+    if (TODAY_STATS) TODAY_STATS.textContent = "";
+  });
+}
 
 if (NOTE_SAVE) {
   NOTE_SAVE.addEventListener("click", () => saveNote());
@@ -1138,3 +1289,6 @@ loadData().catch(() => {
 
 // Retry any comments queued from a previous (offline) session.
 void flushCommentQueue();
+
+// Show cache/queue state as soon as Options is opened.
+updateCacheStatusUi();

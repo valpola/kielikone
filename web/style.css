@@ -367,6 +367,18 @@ button {
   display: none;
 }
 
+.cache-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.cache-row .ghost {
+  padding: 6px 12px;
+  font-size: 12px;
+}
+
 .note {
   margin-top: 4px;
 }
