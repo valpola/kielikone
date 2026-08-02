@@ -224,13 +224,20 @@ print(f"Highest score: {max(score for _, score in scored_words):.3f}")
 # helper formulas in docs/google_sheets.md.
 _dupes = duplicate_rows(rows)
 if _dupes:
-    _extra = sum(count - 1 for _, count in _dupes)
+    _extra = sum(len(_pos) - 1 for _, _pos in _dupes)
     print(
         f"\nDuplicate rows: {len(_dupes)} event(s) recorded more than once "
         f"({_extra} extra row(s) to prune, {_extra / len(rows):.3%} of {len(rows)})"
     )
-    for (_ts, _word_id, _mode, _correct), _count in _dupes:
-        print(f"  x{_count}  {_ts.isoformat()}  {_word_id}  {_mode}  {_correct}")
+    # Sheet row = position + 2 (one header row, and the sheet is 1-based).
+    for (_ts, _word_id, _mode, _correct), _pos in _dupes:
+        _sheet_rows = ", ".join(str(_p + 2) for _p in _pos)
+        print(
+            f"  x{len(_pos)}  {_ts.isoformat()}  {_word_id}  {_mode}  {_correct}"
+            f"   sheet rows: {_sheet_rows}"
+        )
+    _delete = sorted((_p + 2 for _, _pos in _dupes for _p in _pos[1:]), reverse=True)
+    print(f"  delete these sheet rows (bottom-up): {', '.join(str(r) for r in _delete)}")
 else:
     print(f"\nNo duplicate rows ({len(rows)} rows checked).")
 

@@ -167,12 +167,27 @@ with your own `Results_<user_name>` tab.
 
 **Simplest check — list every row whose timestamp appears more than once.**
 Duplicates carry an identical millisecond timestamp, and two real answers never
-do, so one column is enough (and it is far lighter than matching all four):
+do, so one column is enough (and it is far lighter than matching all four).
+Put the **row number** in one cell and the data next to it, using the same
+condition so the two line up (avoids array literals, whose column separator is
+`\` in a Finnish locale):
 
 ```
-=FILTER(Results_ME!A2:D, COUNTIF(Results_ME!A:A, Results_ME!A2:A) > 1)
-=FILTER(Results_ME!A2:D; COUNTIF(Results_ME!A:A; Results_ME!A2:A) > 1)     (fi locale)
+A2:  =FILTER(ROW(Results_ME!A2:A); COUNTIF(Results_ME!A:A; Results_ME!A2:A) > 1)
+B2:  =FILTER(Results_ME!A2:D;      COUNTIF(Results_ME!A:A; Results_ME!A2:A) > 1)
 ```
+
+Comma-locale equivalent: replace each `;` with `,`.
+
+To list **only the redundant copies** (skipping the first occurrence of each) —
+i.e. exactly the rows to delete:
+
+```
+=FILTER(ROW(Results_ME!A2:A); (Results_ME!A2:A<>"") * (MATCH(Results_ME!A2:A; Results_ME!A2:A; 0) <> ROW(Results_ME!A2:A)-1))
+```
+
+`python3 scripts/stats_analysis.py` prints the same row numbers, plus a
+ready-made bottom-up delete list.
 
 **How many extra rows are there:**
 
@@ -188,13 +203,35 @@ do, so one column is enough (and it is far lighter than matching all four):
 =QUERY(Results_ME!A2:D; "select Col1, Col2, Col3, Col4, count(Col1) where Col1 is not null group by Col1, Col2, Col3, Col4 having count(Col1) > 1 label count(Col1) 'copies'"; 0)
 ```
 
-**Row numbers of the redundant copies** (every occurrence after the first), for
-direct deletion — delete **bottom-up** so row numbers do not shift:
+## Actually removing the duplicates
+
+**A formula cannot delete rows.** Sheets formulas are pure: they produce a value
+in the cell that holds them and cannot modify the results sheet. So "show and
+remove in one formula" is not possible. Three ways to do the removal:
+
+**1. Built-in cleanup (easiest, in place, no script).**
+Select the data range on the results sheet, then
+*Data → Data cleanup → Remove duplicates*, with all four columns ticked and
+"Data has header row" checked. It keeps the first occurrence of each identical
+row and deletes the rest — exactly the intended pruning. Do it while the app is
+not syncing, since it rewrites the sheet.
+
+**2. Delete the listed rows by hand.** Use the row numbers from the formula above
+or from `stats_analysis.py`, and delete **bottom-up** so earlier row numbers stay
+valid. Fine when there are only a handful.
+
+**3. Formula-produced clean copy.** On another tab:
 
 ```
-=ARRAYFORMULA(FILTER(ROW(Results_ME!A2:A), (Results_ME!A2:A<>"") * (MATCH(Results_ME!A2:A, Results_ME!A2:A, 0) <> ROW(Results_ME!A2:A)-1)))
-=ARRAYFORMULA(FILTER(ROW(Results_ME!A2:A); (Results_ME!A2:A<>"") * (MATCH(Results_ME!A2:A; Results_ME!A2:A; 0) <> ROW(Results_ME!A2:A)-1)))
+=UNIQUE(Results_ME!A1:D)
 ```
+
+then copy that range and *Paste special → Values only* over the results sheet.
+This rewrites the whole sheet, so prefer option 1 unless you want to inspect the
+cleaned data first.
+
+(A menu-driven Apps Script macro could do it in one click, but that means
+touching the script project, which is deliberately being avoided for now.)
 
 ## Notes
 - The API key is required because the endpoint is public.

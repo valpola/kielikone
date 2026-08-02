@@ -248,25 +248,29 @@ def event_stream(
 
 def duplicate_rows(
     rows: Iterable[dict[str, Any]],
-) -> list[tuple[tuple[datetime, str, str, bool], int]]:
-    """Rows that appear more than once, as ((timestamp, word_id, mode, correct), count).
+) -> list[tuple[tuple[datetime, str, str, bool], list[int]]]:
+    """Rows that appear more than once, as ((timestamp, word_id, mode, correct), positions).
+
+    `positions` are 0-based indices into `rows`. When `rows` came from the sheet
+    CSV (header consumed by DictReader, data starting at sheet row 2), the sheet
+    row number is `position + 2` — which is what makes a duplicate findable.
 
     These come from a retried POST whose response was lost: the row reached the
     sheet but the client never saw the "OK", so it sent the event again.
     event_stream() ignores them when scoring; this reports them so they can be
     pruned in the sheet.
     """
-    counts: Counter[tuple[datetime, str, str, bool]] = Counter()
-    for row in rows:
+    positions: dict[tuple[datetime, str, str, bool], list[int]] = {}
+    for index, row in enumerate(rows):
         ts = parse_timestamp(row.get("timestamp", ""))
         word_id = str(row.get("word_id", "")).strip()
         mode = str(row.get("mode", "")).strip()
         correct = parse_correct(row.get("correct", ""))
         if not ts or not word_id or not mode or correct is None:
             continue
-        counts[(ts, word_id, mode, correct)] += 1
+        positions.setdefault((ts, word_id, mode, correct), []).append(index)
     return sorted(
-        ((key, count) for key, count in counts.items() if count > 1),
+        ((key, found) for key, found in positions.items() if len(found) > 1),
         key=lambda item: item[0][0],
     )
 
