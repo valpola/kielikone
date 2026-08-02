@@ -151,17 +151,26 @@ const sendQueuedResult = async (endpoint, apiKey, payload) => {
   });
   body.set("api_key", apiKey);
 
-  const response = await fetch(endpoint, {
-    method: "POST",
-    mode: "cors",
-    body,
-    keepalive: true,
-  });
+  // Without a timeout a hung POST leaves resultQueueBusy set for as long as the
+  // socket stays open, which silently blocks every later flush until a reload.
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), 20000);
+  try {
+    const response = await fetch(endpoint, {
+      method: "POST",
+      mode: "cors",
+      body,
+      keepalive: true,
+      signal: controller.signal,
+    });
 
-  if (!response.ok) return false;
+    if (!response.ok) return false;
 
-  const text = (await response.text()).trim();
-  return text === "OK";
+    const text = (await response.text()).trim();
+    return text === "OK";
+  } finally {
+    clearTimeout(timer);
+  }
 };
 
 const flushResultQueue = async () => {

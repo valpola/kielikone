@@ -129,12 +129,19 @@
     var events = [];
     if (!Array.isArray(rows)) return events;
 
+    // A retried POST whose response was lost can append the same row twice
+    // (identical timestamp/word/mode/correct), which would double-count that
+    // answer in the score. Drop exact repeats of the raw tuple.
+    var seen = {};
     rows.forEach(function (row) {
       var timestamp = parseTimestamp(row.timestamp);
       var wordId = String(row.word_id || "").trim();
       var mode = String(row.mode || "").trim();
       var correct = parseCorrect(row.correct);
       if (!timestamp || !wordId || !mode || correct === null) return;
+      var dedupeKey = timestamp.getTime() + "|" + wordId + "|" + mode + "|" + correct;
+      if (seen[dedupeKey]) return;
+      seen[dedupeKey] = true;
       var canonicalId = canonicalize(wordId, aliases || {});
       events.push([timestamp, canonicalId, mode, correct]);
     });

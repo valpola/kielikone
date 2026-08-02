@@ -224,6 +224,10 @@ def event_stream(
     aliases: dict[str, str],
 ) -> list[tuple[datetime, str, str, bool]]:
     events: list[tuple[datetime, str, str, bool]] = []
+    # A retried POST whose response was lost can append the same row twice
+    # (identical timestamp/word/mode/correct), which would double-count that
+    # answer in the score. Drop exact repeats of the raw tuple.
+    seen: set[tuple[datetime, str, str, bool]] = set()
     for row in rows:
         ts = parse_timestamp(row.get("timestamp", ""))
         word_id = str(row.get("word_id", "")).strip()
@@ -231,6 +235,10 @@ def event_stream(
         correct = parse_correct(row.get("correct", ""))
         if not ts or not word_id or not mode or correct is None:
             continue
+        dedupe_key = (ts, word_id, mode, correct)
+        if dedupe_key in seen:
+            continue
+        seen.add(dedupe_key)
         canonical_id = canonicalize(word_id, aliases)
         events.append((ts, canonical_id, mode, correct))
     events.sort(key=lambda item: item[0])
