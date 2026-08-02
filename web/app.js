@@ -160,8 +160,10 @@ const sendQueuedResult = async (endpoint, apiKey, payload) => {
 
   // Without a timeout a hung POST leaves resultQueueBusy set for as long as the
   // socket stays open, which silently blocks every later flush until a reload.
+  // Kept generous: the endpoint has been observed taking >60s, and aborting a
+  // request that would have succeeded just appends a duplicate row on retry.
   const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), 20000);
+  const timer = setTimeout(() => controller.abort(), 60000);
   try {
     const response = await fetch(endpoint, {
       method: "POST",
@@ -279,6 +281,21 @@ const pruneLocalEvents = (remoteRows) => {
     (event) => !seen.has(eventKey(event.timestamp, event.word_id, event.mode, event.correct))
   );
   if (kept.length !== local.length) saveLocalEvents(kept);
+};
+
+// Drop queued sends whose event is already in the sheet: the POST landed but its
+// response was lost, so retrying it would append a duplicate row. Safe because a
+// millisecond timestamp identifies one answer — matching tuples are the same event.
+const pruneResultQueue = (remoteRows) => {
+  const queue = loadResultQueue();
+  if (!queue.length) return;
+  const seen = new Set(
+    remoteRows.map((row) => eventKey(row.timestamp, row.word_id, row.mode, row.correct))
+  );
+  const kept = queue.filter(
+    (item) => !seen.has(eventKey(item.timestamp, item.word_id, item.mode, item.correct))
+  );
+  if (kept.length !== queue.length) saveResultQueue(kept);
 };
 
 const localEventRows = () =>
@@ -834,7 +851,10 @@ const recomputeToday = async ({ silent = false } = {}) => {
     }
 
     const remoteRows = TodayScoring.parseCsv(csvText);
-    if (!usedCache) pruneLocalEvents(remoteRows);
+    if (!usedCache) {
+      pruneLocalEvents(remoteRows);
+      pruneResultQueue(remoteRows);
+    }
     // Words answered on this device since the last successful read still count.
     const rows = remoteRows.concat(localEventRows());
     const events = TodayScoring.eventStream(rows, aliases);
