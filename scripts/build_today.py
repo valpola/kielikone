@@ -9,6 +9,7 @@ import os
 import sys
 import urllib.request
 from urllib.parse import parse_qsl, urlencode, urlparse, urlunparse
+from collections import Counter
 from dataclasses import dataclass
 from datetime import UTC, datetime
 from pathlib import Path
@@ -243,6 +244,31 @@ def event_stream(
         events.append((ts, canonical_id, mode, correct))
     events.sort(key=lambda item: item[0])
     return events
+
+
+def duplicate_rows(
+    rows: Iterable[dict[str, Any]],
+) -> list[tuple[tuple[datetime, str, str, bool], int]]:
+    """Rows that appear more than once, as ((timestamp, word_id, mode, correct), count).
+
+    These come from a retried POST whose response was lost: the row reached the
+    sheet but the client never saw the "OK", so it sent the event again.
+    event_stream() ignores them when scoring; this reports them so they can be
+    pruned in the sheet.
+    """
+    counts: Counter[tuple[datetime, str, str, bool]] = Counter()
+    for row in rows:
+        ts = parse_timestamp(row.get("timestamp", ""))
+        word_id = str(row.get("word_id", "")).strip()
+        mode = str(row.get("mode", "")).strip()
+        correct = parse_correct(row.get("correct", ""))
+        if not ts or not word_id or not mode or correct is None:
+            continue
+        counts[(ts, word_id, mode, correct)] += 1
+    return sorted(
+        ((key, count) for key, count in counts.items() if count > 1),
+        key=lambda item: item[0][0],
+    )
 
 
 def decay(score: float, last_time: datetime, current: datetime, tau_days: float) -> float:

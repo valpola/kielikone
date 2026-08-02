@@ -14,6 +14,7 @@ from build_today import (
     build_results_csv_url,
     canonicalize,
     compute_scores,
+    duplicate_rows,
     event_stream,
     filter_items,
     load_aliases,
@@ -218,9 +219,20 @@ for canonical in canonical_vocab_words:
 
 print(f"Highest score: {max(score for _, score in scored_words):.3f}")
 
-for i, e in enumerate(events[:-1]):
-    if e[0] == events[i+1][0]:
-        print("Duplicate event at", i, e)
+# Duplicates are ignored by event_stream when scoring, so report them here
+# explicitly — otherwise they are invisible. Prune them in the sheet with the
+# helper formulas in docs/google_sheets.md.
+_dupes = duplicate_rows(rows)
+if _dupes:
+    _extra = sum(count - 1 for _, count in _dupes)
+    print(
+        f"\nDuplicate rows: {len(_dupes)} event(s) recorded more than once "
+        f"({_extra} extra row(s) to prune, {_extra / len(rows):.3%} of {len(rows)})"
+    )
+    for (_ts, _word_id, _mode, _correct), _count in _dupes:
+        print(f"  x{_count}  {_ts.isoformat()}  {_word_id}  {_mode}  {_correct}")
+else:
+    print(f"\nNo duplicate rows ({len(rows)} rows checked).")
 
 # %%
 # # Show the top 10 lowest and top 30 highest scoring words (MODE).

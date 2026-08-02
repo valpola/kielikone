@@ -145,6 +145,54 @@ function doGet(e) {
 3. Set resultsEnabled to true.
 4. Commit and push.
 
+## Finding duplicate rows in the sheet
+
+A retried POST whose response was lost appends the same row twice (identical
+timestamp, word_id, mode, correct). Scoring ignores them — `event_stream()` in
+`build_today.py` and `eventStream()` in `web/today_scoring.js` drop exact
+repeats — so pruning is hygiene, not a correctness fix.
+`python3 scripts/stats_analysis.py` prints them explicitly.
+
+To find them in the sheet, put these on a **separate sheet** (say `Dupes`), not
+on the results sheet itself: the app appends to the results sheet constantly, and
+a heavy formula there would be recalculated on every write. Replace `Results_ME`
+with your own `Results_<user_name>` tab.
+
+**Counts** (cheap):
+
+```
+=COUNTA(Results_ME!A2:A)                                              total rows
+=ROWS(UNIQUE(FILTER(Results_ME!A2:D, Results_ME!A2:A<>"")))           distinct events
+=COUNTA(Results_ME!A2:A)-ROWS(UNIQUE(FILTER(Results_ME!A2:D, Results_ME!A2:A<>"")))   extra rows
+```
+
+**List the duplicated events with their copy count:**
+
+```
+=QUERY(Results_ME!A2:D,
+  "select Col1, Col2, Col3, Col4, count(Col1)
+   where Col1 is not null
+   group by Col1, Col2, Col3, Col4
+   having count(Col1) > 1
+   label count(Col1) 'copies'", 0)
+```
+
+With only a handful of duplicates, the practical route is: read the timestamps
+off that list, find them in the results sheet (Ctrl/Cmd-F), and delete the extra
+copies.
+
+**Optional — exact row numbers of the redundant copies** (every occurrence after
+the first). Heavier: it is O(n²) internally, so expect a pause on a 10k+ row
+sheet, and delete the results **bottom-up** so row numbers do not shift:
+
+```
+=ARRAYFORMULA(FILTER(ROW(Results_ME!A2:A),
+  (Results_ME!A2:A<>"") *
+  (MATCH(Results_ME!A2:A&"|"&Results_ME!B2:B&"|"&Results_ME!C2:C&"|"&Results_ME!D2:D,
+         Results_ME!A2:A&"|"&Results_ME!B2:B&"|"&Results_ME!C2:C&"|"&Results_ME!D2:D, 0)
+   <> ROW(Results_ME!A2:A)-1)))
+```
+
 ## Notes
 - The API key is required because the endpoint is public.
 - If you change the deployment, update the URL in web/config.js.
