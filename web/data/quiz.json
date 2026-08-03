@@ -17790,7 +17790,8 @@
         "noun",
         "unit-a2-2b",
         "unit-a2"
-      ]
+      ],
+      "hint_en_tr": "(warm, friendly chatting; colloquial)"
     },
     {
       "id": "cand-base-0067",
@@ -17905,7 +17906,7 @@
     {
       "id": "cand-base-0077",
       "turkish": "dilemek",
-      "english": "to wish",
+      "english": "to wish sth. to sb.",
       "priority": 3,
       "tags": [
         "verb",
