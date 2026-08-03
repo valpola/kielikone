@@ -64,8 +64,12 @@ scratchpad once per session, then:
   and say so, rather than padding the deck (e.g. skipped `aşkla dolmak`).
 - Don't add words from **unswept units** just because a listening page mentions them —
   defer them with the unit (e.g. `minibüs`, `yönetmen` belong to A2-4).
-- Skip **transparent** compounds (`çay bahçesi`, `saat kulesi`); keep **non-transparent**
-  ones (`hamur işi` = pastries, not "dough work").
+- **Do not skip "transparent" or cognate words** — this was an early mistake. What looks
+  obvious to a reader is not obvious to the learner until practised, so include cognates
+  (`pop`, `mikrofon`, `klasik müzik`) and compositional compounds (`çay bahçesi`,
+  `saat kulesi`) alike. If a set should be *deprioritised* rather than omitted, that is what
+  the **`similar`** tag is for (the user filters it out; ~118 country names use it) — but
+  apply it only when asked, since an excluded tag hides the word from their practice set.
 - `source` must be **per item** and truthful: `Turkishle coursebook (A1/A2/B1)`,
   `A1-6 reading exercise SÖZLÜK (Turkishle web)`, or `gap-fill: standard vocabulary…`.
 - Off-syllabus adds get the coarse level + an extra tag (`unit-a1` + `unit-a1-extra`),

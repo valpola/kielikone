@@ -18630,6 +18630,292 @@
       ]
     },
     {
+      "id": "cand-transp-0001",
+      "turkish": "\u00e7ay bah\u00e7esi",
+      "english": "tea garden",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-transp-0002",
+      "turkish": "kahve fincan\u0131",
+      "english": "coffee cup",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-transp-0003",
+      "turkish": "T\u00fcrk kahvesi",
+      "english": "Turkish coffee",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-transp-0004",
+      "turkish": "T\u00fcrk mutfa\u011f\u0131",
+      "english": "Turkish cuisine",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-transp-0005",
+      "turkish": "sebze yeme\u011fi",
+      "english": "vegetable dish",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-transp-0006",
+      "turkish": "et yeme\u011fi",
+      "english": "meat dish",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-transp-0007",
+      "turkish": "saat kulesi",
+      "english": "clock tower",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-transp-0008",
+      "turkish": "tarihi eser",
+      "english": "historical artefact",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-transp-0009",
+      "turkish": "\u0130slami takvim",
+      "english": "Islamic calendar",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4c",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-transp-0010",
+      "turkish": "y\u00f6resel \u00fcr\u00fcnler",
+      "english": "local produce",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-5b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-transp-0011",
+      "turkish": "zeytinya\u011fl\u0131 meze",
+      "english": "appetiser in olive oil",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-5b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-transp-0012",
+      "turkish": "tarot kart\u0131",
+      "english": "tarot card",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-3c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-transp-0013",
+      "turkish": "yeni y\u0131l",
+      "english": "new year",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-3a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-transp-0014",
+      "turkish": "okula ba\u015flamak",
+      "english": "to start school",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-3b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-transp-0015",
+      "turkish": "klasik m\u00fczik",
+      "english": "classical music",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-transp-0016",
+      "turkish": "rock m\u00fczik",
+      "english": "rock music",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-transp-0017",
+      "turkish": "metal m\u00fczik",
+      "english": "metal music",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-transp-0018",
+      "turkish": "elektronik m\u00fczik",
+      "english": "electronic music",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-transp-0019",
+      "turkish": "enstr\u00fcmental m\u00fczik",
+      "english": "instrumental music",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-transp-0020",
+      "turkish": "pop",
+      "english": "pop",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-transp-0021",
+      "turkish": "rap",
+      "english": "rap",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-transp-0022",
+      "turkish": "gitar teli",
+      "english": "guitar string",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-transp-0023",
+      "turkish": "\u00f6zel hayat",
+      "english": "private life",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-transp-0024",
+      "turkish": "idol",
+      "english": "idol",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-transp-0025",
+      "turkish": "mikrofon",
+      "english": "microphone",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-transp-0026",
+      "turkish": "zaman ge\u00e7irmek",
+      "english": "to spend time",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-4a",
+        "unit-a2"
+      ]
+    },
+    {
       "id": "cand-web-0001",
       "turkish": "d\u00f6nmek",
       "english": "to return / to go back",
