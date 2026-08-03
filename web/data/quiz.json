@@ -11472,7 +11472,8 @@
       "priority": 3,
       "tags": [
         "expression",
-        "unit-extra"
+        "unit-a1-5b",
+        "unit-a1"
       ]
     },
     {
@@ -15198,8 +15199,8 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a2",
-        "unit-a2-extra"
+        "unit-a2-6a",
+        "unit-a2"
       ]
     },
     {
@@ -15209,8 +15210,8 @@
       "priority": 3,
       "tags": [
         "adverb",
-        "unit-a2",
-        "unit-a2-extra"
+        "unit-a2-4a",
+        "unit-a2"
       ]
     },
     {
@@ -15220,8 +15221,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a2-2c",
-        "unit-a2"
+        "unit-a1-2b",
+        "unit-a1"
       ]
     },
     {
@@ -15242,7 +15243,7 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a2-3b",
+        "unit-a2-3c",
         "unit-a2"
       ]
     },
@@ -18129,7 +18130,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-extra"
       ],
       "hint_tr_en": "(y\u00f6n)"
     },
@@ -18140,7 +18142,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-extra"
       ],
       "hint_tr_en": "(y\u00f6n)"
     },
@@ -18162,7 +18165,8 @@
       "priority": 3,
       "tags": [
         "adverb",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-extra"
       ]
     },
     {
@@ -18172,7 +18176,8 @@
       "priority": 3,
       "tags": [
         "adverb",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-extra"
       ]
     },
     {
@@ -18182,7 +18187,8 @@
       "priority": 3,
       "tags": [
         "adverb",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-extra"
       ]
     },
     {
@@ -18192,7 +18198,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1"
+        "unit-a2-5a",
+        "unit-a2"
       ]
     },
     {
@@ -18202,7 +18209,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1"
+        "unit-a2-5a",
+        "unit-a2"
       ],
       "hint_tr_en": "(hava)"
     },
@@ -18213,7 +18221,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1"
+        "unit-a2-5a",
+        "unit-a2"
       ]
     },
     {
@@ -18223,7 +18232,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1"
+        "unit-a2-5a",
+        "unit-a2"
       ]
     },
     {
@@ -18233,7 +18243,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-extra"
       ]
     },
     {
@@ -18243,7 +18254,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1"
+        "unit-a2-5a",
+        "unit-a2"
       ]
     },
     {
@@ -18253,7 +18265,8 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1"
+        "unit-a2-5a",
+        "unit-a2"
       ]
     },
     {
@@ -18263,7 +18276,8 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1"
+        "unit-a2-5a",
+        "unit-a2"
       ]
     },
     {
@@ -18273,7 +18287,8 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1"
+        "unit-a2-5a",
+        "unit-a2"
       ]
     },
     {
@@ -18283,7 +18298,8 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1"
+        "unit-a2-5a",
+        "unit-a2"
       ]
     },
     {
@@ -18293,7 +18309,8 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1"
+        "unit-a2-5a",
+        "unit-a2"
       ]
     },
     {
@@ -18303,7 +18320,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1"
+        "unit-a2-3b",
+        "unit-a2"
       ]
     },
     {
@@ -18313,7 +18331,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-extra"
       ]
     },
     {
@@ -18323,7 +18342,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-extra"
       ]
     },
     {
@@ -18333,7 +18353,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1"
+        "unit-a2-3b",
+        "unit-a2"
       ]
     },
     {
@@ -18343,7 +18364,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1"
+        "unit-a2-3b",
+        "unit-a2"
       ]
     },
     {
@@ -18353,7 +18375,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1"
+        "unit-a2-3b",
+        "unit-a2"
       ]
     },
     {
@@ -18363,7 +18386,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1"
+        "unit-a2-3b",
+        "unit-a2"
       ]
     },
     {
@@ -18384,7 +18408,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-extra"
       ]
     },
     {
@@ -18428,7 +18453,8 @@
       "priority": 3,
       "tags": [
         "adverb",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-extra"
       ]
     },
     {
@@ -18438,7 +18464,8 @@
       "priority": 3,
       "tags": [
         "adverb",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-extra"
       ],
       "hint_en_tr": "(X / Y / Z)"
     },
@@ -18449,7 +18476,8 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-extra"
       ],
       "hint_tr_en": "(kap\u0131 vb.)"
     },
@@ -18460,7 +18488,8 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-extra"
       ],
       "hint_tr_en": "(kap\u0131 vb.)"
     },
@@ -20861,6 +20890,11 @@
     {
       "id": "unit-a2-4c",
       "label": "Unit A2-4C",
+      "group": "unit"
+    },
+    {
+      "id": "unit-a2-5a",
+      "label": "Unit A2-5A",
       "group": "unit"
     },
     {

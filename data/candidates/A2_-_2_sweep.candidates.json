@@ -587,10 +587,10 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a2",
-        "unit-a2-extra"
+        "unit-a2-6a",
+        "unit-a2"
       ],
-      "source": "A2 coursebook dialogues (A2-6A); not in any unit vocabulary list",
+      "source": "A2-6A coursebook dialogue (not in any unit vocabulary list)",
       "notes": "",
       "status": "approved"
     },
@@ -601,10 +601,10 @@
       "priority": 3,
       "tags": [
         "adverb",
-        "unit-a2",
-        "unit-a2-extra"
+        "unit-a2-4a",
+        "unit-a2"
       ],
-      "source": "A2 coursebook grammar/dialogues across units (1B, 3A, 4A/4B, 5C, 6A); not in any unit vocabulary list",
+      "source": "A2-4A/4B coursebook dialogues (not in any unit vocabulary list)",
       "notes": "",
       "status": "approved"
     },
@@ -615,10 +615,10 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a2-2c",
-        "unit-a2"
+        "unit-a1-2b",
+        "unit-a1"
       ],
-      "source": "A2-2C coursebook text (spelled “kağıt” there; deck keeps the standard circumflex)",
+      "source": "base word of “tuvalet kâğıdı” (A1-2B, Turkishle)",
       "notes": "",
       "status": "approved"
     },
@@ -643,10 +643,10 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a2-3b",
+        "unit-a2-3c",
         "unit-a2"
       ],
-      "source": "A2-3B coursebook vocabulary list (adjective opposites: “dinç x yorgun”)",
+      "source": "A2-3C coursebook vocabulary list (adjective opposites: “dinç x yorgun”)",
       "notes": "",
       "status": "approved"
     }

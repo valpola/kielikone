@@ -277,7 +277,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-extra"
       ],
       "source": "Turkishle coursebook (A1, A2, B1)",
       "notes": "",
@@ -291,7 +292,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-extra"
       ],
       "source": "Turkishle coursebook (A2)",
       "notes": "",
@@ -319,7 +321,8 @@
       "priority": 3,
       "tags": [
         "adverb",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-extra"
       ],
       "source": "Turkishle coursebook (B1)",
       "notes": "",
@@ -332,7 +335,8 @@
       "priority": 3,
       "tags": [
         "adverb",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-extra"
       ],
       "source": "Turkishle coursebook (A2)",
       "notes": "",
@@ -345,7 +349,8 @@
       "priority": 3,
       "tags": [
         "adverb",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-extra"
       ],
       "source": "Turkishle coursebook (A2)",
       "notes": "",
@@ -358,9 +363,10 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1"
+        "unit-a2-5a",
+        "unit-a2"
       ],
-      "source": "Turkishle coursebook (A1, A2, B1)",
+      "source": "base word of “yağmurlu” (A2-5A, Turkishle)",
       "notes": "",
       "status": "approved"
     },
@@ -371,9 +377,10 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1"
+        "unit-a2-5a",
+        "unit-a2"
       ],
-      "source": "Turkishle coursebook (A2, B1)",
+      "source": "base word of “karlı” (A2-5A, Turkishle)",
       "notes": "",
       "status": "approved",
       "hint_tr_en": "(hava)"
@@ -385,9 +392,10 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1"
+        "unit-a2-5a",
+        "unit-a2"
       ],
-      "source": "Turkishle coursebook (A1)",
+      "source": "base word of “rüzgârlı” (A2-5A, Turkishle)",
       "notes": "",
       "status": "approved"
     },
@@ -398,9 +406,10 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1"
+        "unit-a2-5a",
+        "unit-a2"
       ],
-      "source": "Turkishle coursebook (A2)",
+      "source": "A2-5A coursebook vocabulary list (Turkishle)",
       "notes": "",
       "status": "approved"
     },
@@ -411,7 +420,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-extra"
       ],
       "source": "Turkishle coursebook (A2)",
       "notes": "",
@@ -424,9 +434,10 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1"
+        "unit-a2-5a",
+        "unit-a2"
       ],
-      "source": "Turkishle coursebook (A2)",
+      "source": "base word of “sisli” (A2-5A, Turkishle)",
       "notes": "",
       "status": "approved"
     },
@@ -437,9 +448,10 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1"
+        "unit-a2-5a",
+        "unit-a2"
       ],
-      "source": "Turkishle coursebook (A2)",
+      "source": "A2-5A coursebook vocabulary list (Turkishle)",
       "notes": "",
       "status": "approved"
     },
@@ -450,9 +462,10 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1"
+        "unit-a2-5a",
+        "unit-a2"
       ],
-      "source": "Turkishle coursebook (A2, B1)",
+      "source": "A2-5A coursebook vocabulary list (Turkishle)",
       "notes": "",
       "status": "approved"
     },
@@ -463,9 +476,10 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1"
+        "unit-a2-5a",
+        "unit-a2"
       ],
-      "source": "Turkishle coursebook (A2)",
+      "source": "A2-5A coursebook vocabulary list (Turkishle)",
       "notes": "",
       "status": "approved"
     },
@@ -476,9 +490,10 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1"
+        "unit-a2-5a",
+        "unit-a2"
       ],
-      "source": "Turkishle coursebook (A2)",
+      "source": "A2-5A coursebook vocabulary list (Turkishle)",
       "notes": "",
       "status": "approved"
     },
@@ -489,9 +504,10 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1"
+        "unit-a2-5a",
+        "unit-a2"
       ],
-      "source": "Turkishle coursebook (A2)",
+      "source": "A2-5A coursebook vocabulary list (Turkishle)",
       "notes": "",
       "status": "approved"
     },
@@ -502,9 +518,10 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1"
+        "unit-a2-3b",
+        "unit-a2"
       ],
-      "source": "Turkishle coursebook (A1, A2)",
+      "source": "A2-3B coursebook vocabulary list (Turkishle)",
       "notes": "",
       "status": "approved"
     },
@@ -515,7 +532,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-extra"
       ],
       "source": "Turkishle coursebook (A1, B1)",
       "notes": "",
@@ -528,7 +546,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-extra"
       ],
       "source": "Turkishle coursebook (A1, A2)",
       "notes": "",
@@ -541,9 +560,10 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1"
+        "unit-a2-3b",
+        "unit-a2"
       ],
-      "source": "Turkishle coursebook (A1, A2)",
+      "source": "A2-3B coursebook vocabulary list (Turkishle)",
       "notes": "",
       "status": "approved"
     },
@@ -554,9 +574,10 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1"
+        "unit-a2-3b",
+        "unit-a2"
       ],
-      "source": "Turkishle coursebook (A2)",
+      "source": "A2-3B coursebook vocabulary list (Turkishle)",
       "notes": "",
       "status": "approved"
     },
@@ -567,9 +588,10 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1"
+        "unit-a2-3b",
+        "unit-a2"
       ],
-      "source": "Turkishle coursebook (A2)",
+      "source": "A2-3B coursebook vocabulary list (Turkishle)",
       "notes": "",
       "status": "approved"
     },
@@ -580,9 +602,10 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1"
+        "unit-a2-3b",
+        "unit-a2"
       ],
-      "source": "Turkishle coursebook (A2, B1)",
+      "source": "A2-3B coursebook vocabulary list (Turkishle)",
       "notes": "",
       "status": "approved"
     },
@@ -607,7 +630,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-extra"
       ],
       "source": "Turkishle coursebook (A1)",
       "notes": "",
@@ -663,7 +687,8 @@
       "priority": 3,
       "tags": [
         "adverb",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-extra"
       ],
       "source": "Turkishle coursebook (A1, A2, B1)",
       "notes": "",
@@ -676,7 +701,8 @@
       "priority": 3,
       "tags": [
         "adverb",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-extra"
       ],
       "source": "Turkishle coursebook (neden A1-B1; niye B1) + niçin (standard synonym / gap-fill)",
       "notes": "",
@@ -690,7 +716,8 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-extra"
       ],
       "source": "Turkishle coursebook (A1, A2, B1)",
       "notes": "",
@@ -704,7 +731,8 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1"
+        "unit-a1",
+        "unit-a1-extra"
       ],
       "source": "Turkishle coursebook (A1, B1)",
       "notes": "",

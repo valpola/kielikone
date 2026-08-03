@@ -82,11 +82,29 @@ scratchpad once per session, then:
   - **Base words of compounds are not off-syllabus.** Take the subunit of the earliest
     compound they occur in and say so in `source`: `base word of “gitar teli” (A2-4B)`.
     Match morphology-aware — plurals (`ürünler`) and possessives (`teli`) both hide the stem.
-  - Attestation means a **`Kelime / Anlamı` vocabulary-list entry**, not a mere mention: a
-    word appearing in a dialogue or grammar example belongs to no unit's syllabus (`göre`,
-    `birkaç`). Verify with the per-subunit PDFs where they exist (`A1_-_*`, `A2_-_1A…2B`);
-    for the rest, section the master coursebook on `^[1-6][ABC]\b` headings *after* the
-    ~200-line table of contents, and check hits fall inside a vocabulary-list span.
+  - **`-extra` is not a subunit** and must never stand in for one. Before reaching for it,
+    exhaust the vocabulary lists; if the word is only in a dialogue or grammar example, still
+    give it the subunit it occurs in and let `source` say it was a dialogue (`birkaç` →
+    `unit-a2-6a`, "A2-6A coursebook dialogue (not in any unit vocabulary list)"). Reserve
+    `-extra` for words absent from the books altogether (`örümcek`, the maths set).
+
+**Locating a word's subunit** — build the 36 vocabulary lists, then match against them:
+- The **per-subunit PDFs are pure vocabulary lists** (title, `KELİME LİSTESİ`, POS-grouped
+  rows — no prose), covering A1-0A…6C and A2-1A…2B. A hit there *is* attestation.
+- A2-2C…6C exist only in the master coursebook, whose body holds exactly **18
+  `KELİME LİSTESİ` blocks in unit order** (1A…6C) — zip them to that order rather than
+  trusting `^[1-6][ABC]` section marks, which are off by one in several places. Take rows
+  forward from each heading while lines stay row-like (≤46 chars, no `: ; ? !`, no trailing
+  `.`/`)`), stopping after 3 consecutive prose lines.
+- Match **morphology-aware**, or attested words read as missing: final-consonant softening
+  (`kâğıt`→`kağıdı`, so search `kağı[td]`), plurals (`ürünler`), possessives (`teli`). Bound
+  the match on **both** sides — an open right edge makes `göre` match `görev` and `kar` match
+  `kardeş`. A base word often has no row of its own while its derivative does (`yağmur` vs
+  `yağmurlu` in A2-5A) — that still fixes the subunit.
+- `pdftotext` renders **`İ` as a dotless `ı` plus a combining dot, sometimes with a space**,
+  so `İŞÇİ` arrives as `ı̇ şçi` and never matches `işçi`. Strip `U+0307`, close the gap, and
+  fold `ı→i` before comparing. Note `.lower()` *expands* `İ` into `i`+dot, so repair after
+  lowercasing, not before.
 - Glosses carry no parentheticals; disambiguators/format cues go in `hint_tr_en` (TR→EN) or
   `hint_en_tr` (EN→TR). Multi-form answers get `(X / Y)`. Keep circumflexes (`kâğıt`,
   `tarihî`) — matching folds `â/î/û`.
