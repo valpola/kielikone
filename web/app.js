@@ -753,27 +753,26 @@ const fetchUserName = async (apiKey) => {
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), 20000);
   try {
-    const response = await fetch(`${url}/rest/v1/results?select=id`, {
+    // current_app_user() resolves the secret to a user name server-side, so the
+    // name is authoritative and no secrets are exposed to the client.
+    const response = await fetch(`${url}/rest/v1/rpc/current_app_user`, {
+      method: "POST",
       cache: "no-store",
       signal: controller.signal,
       headers: {
         apikey: getSupabaseKey(),
         Authorization: `Bearer ${getSupabaseKey()}`,
         "x-app-secret": apiKey,
-        "Range-Unit": "items",
-        Range: "0-0",
-        Prefer: "count=exact",
+        "Content-Type": "application/json",
       },
+      body: "{}",
     });
     if (!response.ok) return null;
-    const range = response.headers.get("content-range") || "";
-    const total = Number(String(range.split("/")[1] || "0"));
-    if (!Number.isFinite(total) || total <= 0) return "";
-    // A count here reads like a live counter but is only a snapshot, so keep
-    // the label static and report live state in the Options panel instead.
-    return "results logging on";
+    const name = await response.json();
+    // null => the server did not recognise the secret (a real rejection).
+    if (!name || typeof name !== "string") return "";
+    return name;
   } catch (error) {
-    if (error && error.name === "AbortError") return null;
     return null;
   } finally {
     clearTimeout(timer);
