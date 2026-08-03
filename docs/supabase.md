@@ -50,7 +50,30 @@ create policy results_select on public.results
   );
 ```
 
-Note there is deliberately no `update`/`delete` policy: the log is append-only.
+## Correcting mistakes
+
+Making the log strictly append-only was the wrong call: mis-grades happen (wrong
+button), and they used to be fixed by editing the sheet. So a delete policy is
+needed as well — run this too:
+
+```sql
+create policy results_delete on public.results
+  for delete to anon
+  using (
+    current_setting('request.headers', true)::json->>'x-app-secret'
+      = 'APP_SECRET_HERE'
+    and answered_at > now() - interval '7 days'
+  );
+```
+
+The 7-day window is a deliberate compromise: recent mistakes are fixable from
+the app, while a leaked secret still cannot erase years of history. Anything
+older remains editable from the dashboard, exactly as the sheet was.
+
+**A PostgREST trap worth knowing:** a `DELETE` that matches no rows — including
+when *no policy permits it* — returns `204`, as though it had worked. Always send
+`Prefer: return=representation` and count the returned rows. The app does this;
+a bare status check reported false success during testing.
 
 ## 3) Tell me the Project URL + anon key
 
