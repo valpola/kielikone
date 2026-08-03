@@ -23,6 +23,7 @@ const PURGE_CACHE = document.getElementById("purge-cache");
 const PENDING_LIST = document.getElementById("pending-list");
 const RETRY_SYNC = document.getElementById("retry-sync");
 const DISCARD_PENDING = document.getElementById("discard-pending");
+const UNDO_ANSWER = document.getElementById("undo-answer");
 const NOTE_DETAILS = document.getElementById("note");
 const NOTE_INPUT = document.getElementById("note-input");
 const NOTE_SAVE = document.getElementById("note-save");
@@ -55,6 +56,10 @@ const COMMENT_TOKEN_STORAGE = "tr-quiz-github-token";
 const APP_SECRET_STORAGE = "tr-quiz-app-secret";
 const HISTORY_SNAPSHOT_STORAGE = "tr-quiz-history-snapshot";
 const LOCAL_EVENTS_STORAGE = "tr-quiz-local-events";
+// Last few answers with their client_event_id, so a mis-grade can be undone.
+// Kept separate from LOCAL_EVENTS_STORAGE, which is pruned once synced.
+const RECENT_ANSWERS_STORAGE = "tr-quiz-recent-answers";
+const RECENT_ANSWERS_KEPT = 20;
 const DEFAULT_TODAY_LIMIT = 10;
 const DEBUG_MODE = new URLSearchParams(window.location.search).get("debug") === "1";
 const DEBUG_SCORES_STORAGE = "tr-quiz-debug-scores";
@@ -418,6 +423,108 @@ const renderPendingList = () => {
   const attempted = lastSyncAttempt ? `\nlast sync attempt: ${lastSyncAttempt}` : "\nnot tried yet this session";
   const suffix = (lastSyncError ? `\nlast error — ${lastSyncError}` : "") + attempted;
   PENDING_LIST.textContent = `Waiting to sync:\n${lines.join("\n")}${suffix}`;
+};
+
+const loadRecentAnswers = () => {
+  try {
+    const parsed = JSON.parse(localStorage.getItem(RECENT_ANSWERS_STORAGE) || "[]");
+    return Array.isArray(parsed) ? parsed : [];
+  } catch {
+    return [];
+  }
+};
+
+const appendRecentAnswer = (entry) => {
+  const recent = loadRecentAnswers();
+  recent.push(entry);
+  localStorage.setItem(
+    RECENT_ANSWERS_STORAGE,
+    JSON.stringify(recent.slice(-RECENT_ANSWERS_KEPT))
+  );
+};
+
+// Delete an answer everywhere it is remembered: the database, the send queue,
+// the local event list and the cached snapshot.
+const undoLastAnswer = async () => {
+  const recent = loadRecentAnswers();
+  const entry = recent[recent.length - 1];
+  if (!entry) {
+    window.alert("No recent answer to undo on this device.");
+    return;
+  }
+  const item = items.find((candidate) => candidate.id === entry.word_id);
+  const label = item ? `${item.turkish} = ${item.english}` : entry.word_id;
+  const graded = entry.correct ? "correct" : "wrong";
+  if (
+    !window.confirm(
+      `Undo the last answer?\n\n${label}\ngraded ${graded} at ` +
+        `${new Date(entry.timestamp).toLocaleString()}\n\n` +
+        "The answer is removed from the database and from this device."
+    )
+  ) {
+    return;
+  }
+
+  // Ask for the deleted rows back: a missing delete policy otherwise returns
+  // 204 as if it had worked.
+  let deleted = null;
+  try {
+    const response = await fetch(
+      `${getSupabaseUrl()}/rest/v1/results?client_event_id=eq.${encodeURIComponent(entry.client_event_id)}`,
+      {
+        method: "DELETE",
+        headers: { ...supabaseHeaders(), Prefer: "return=representation" },
+      }
+    );
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const rows = await response.json();
+    deleted = Array.isArray(rows) ? rows.length : 0;
+  } catch (error) {
+    window.alert(`Could not reach the database: ${error.message}`);
+    return;
+  }
+
+  if (deleted === 0) {
+    window.alert(
+      "The database refused the delete (no matching row visible).\n\n" +
+        "Either it was never synced, or the delete policy is missing."
+    );
+  }
+
+  // Local traces
+  saveLocalEvents(
+    loadLocalEvents().filter(
+      (event) =>
+        eventKey(event.timestamp, event.word_id, event.mode, event.correct) !==
+        eventKey(entry.timestamp, entry.word_id, entry.mode, entry.correct)
+    )
+  );
+  saveResultQueue(
+    loadResultQueue().filter((queued) => queued.client_event_id !== entry.client_event_id)
+  );
+  const snapshot = loadHistorySnapshot();
+  if (snapshot) {
+    saveHistorySnapshot(
+      snapshot.rows.filter(
+        (row) =>
+          eventKey(row.timestamp, row.word_id, row.mode, row.correct) !==
+          eventKey(entry.timestamp, entry.word_id, entry.mode, entry.correct)
+      )
+    );
+  }
+  const stats = getLocalStats(entry.word_id);
+  if (entry.correct) stats.correct = Math.max(0, (stats.correct || 0) - 1);
+  else stats.wrong = Math.max(0, (stats.wrong || 0) - 1);
+  setLocalStats(entry.word_id, stats);
+  if (entry.correct) {
+    const count = (sessionCorrect.get(entry.word_id) || 0) - 1;
+    if (count > 0) sessionCorrect.set(entry.word_id, count);
+    else sessionCorrect.delete(entry.word_id);
+  }
+  localStorage.setItem(RECENT_ANSWERS_STORAGE, JSON.stringify(recent.slice(0, -1)));
+
+  updateCacheStatusUi();
+  window.alert(deleted ? `Undone: ${label}` : `Removed locally: ${label}`);
 };
 
 const updateCacheStatusUi = () => {
@@ -1211,16 +1318,24 @@ const grade = (isCorrect) => {
   }
 
   const timestamp = new Date().toISOString();
+  const clientEventId = `${Date.now()}-${Math.random().toString(36).slice(2)}`;
   // Record locally as well as remotely, so the next recompute counts this
   // answer even if the read (or the write) is failing.
   appendLocalEvent({ timestamp, word_id: current.id, mode, correct: isCorrect });
+  appendRecentAnswer({
+    client_event_id: clientEventId,
+    timestamp,
+    word_id: current.id,
+    mode,
+    correct: isCorrect,
+  });
 
   sendResult({
     timestamp,
     word_id: current.id,
     mode,
     correct: isCorrect,
-    client_event_id: `${Date.now()}-${Math.random().toString(36).slice(2)}`,
+    client_event_id: clientEventId,
   });
 
   renderPrompt();
@@ -1273,6 +1388,17 @@ if (RETRY_SYNC) {
       RETRY_SYNC.disabled = false;
       RETRY_SYNC.textContent = label;
       updateCacheStatusUi();
+    }
+  });
+}
+
+if (UNDO_ANSWER) {
+  UNDO_ANSWER.addEventListener("click", async () => {
+    UNDO_ANSWER.disabled = true;
+    try {
+      await undoLastAnswer();
+    } finally {
+      UNDO_ANSWER.disabled = false;
     }
   });
 }
