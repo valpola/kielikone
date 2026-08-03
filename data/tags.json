@@ -57,6 +57,11 @@
       "group": "unit"
     },
     {
+      "id": "unit-a1-cases",
+      "label": "Unit A1 Cases & Verbs",
+      "group": "unit"
+    },
+    {
       "id": "unit-a2",
       "label": "Unit A2",
       "group": "unit"
@@ -269,6 +274,11 @@
     {
       "id": "unit-a2-4c",
       "label": "Unit A2-4C",
+      "group": "unit"
+    },
+    {
+      "id": "unit-a2-6a",
+      "label": "Unit A2-6A",
       "group": "unit"
     }
   ]
