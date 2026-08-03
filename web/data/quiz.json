@@ -3061,7 +3061,8 @@
         "adjective",
         "unit-a1-2c",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(untidy, things scattered about)"
     },
     {
       "id": "cand-a1-2c-0011",
@@ -3884,7 +3885,8 @@
         "unit-a1",
         "verb",
         "unit-a1-3b"
-      ]
+      ],
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-a1-3a-0018",
@@ -3908,7 +3910,8 @@
         "unit-a1",
         "verb",
         "unit-a1-3b"
-      ]
+      ],
+      "hint_en_tr": "(do the cleaning, as a chore)"
     },
     {
       "id": "cand-a1-3a-0021",
@@ -4297,7 +4300,8 @@
         "unit-a1-3b",
         "unit-a1",
         "noun"
-      ]
+      ],
+      "hint_en_tr": "(everyday word)"
     },
     {
       "id": "cand-a1-3b-0052",
@@ -5586,7 +5590,8 @@
         "unit-a1",
         "noun",
         "unit-a1-5b"
-      ]
+      ],
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-a1-4a-0037",
@@ -8138,7 +8143,8 @@
         "unit-a1-4c",
         "unit-a1",
         "verb"
-      ]
+      ],
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-a1-4c-0013",
@@ -11207,7 +11213,8 @@
       "tags": [
         "verb",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-a1-cases-0037",
@@ -13799,7 +13806,8 @@
         "noun",
         "unit-a2",
         "unit-a2-2a"
-      ]
+      ],
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-a2-2a-0011",
@@ -13822,7 +13830,8 @@
         "unit-a2",
         "unit-a2-2a",
         "adjective"
-      ]
+      ],
+      "hint_en_tr": "(X / Y / Z)"
     },
     {
       "id": "cand-a2-2a-0014",
@@ -13955,7 +13964,8 @@
         "noun",
         "unit-a2",
         "unit-a2-2a"
-      ]
+      ],
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-a2-2a-0026",
@@ -15715,7 +15725,8 @@
         "noun",
         "unit-a2-3b",
         "unit-a2"
-      ]
+      ],
+      "hint_en_tr": "(formal title)"
     },
     {
       "id": "cand-a2-3-0049",
@@ -15904,7 +15915,7 @@
         "unit-a2-3c",
         "unit-a2"
       ],
-      "hint_en_tr": "(not hungry; opposite of a\u00e7)"
+      "hint_en_tr": "(not hungry)"
     },
     {
       "id": "cand-a2-3-0066",
@@ -15955,13 +15966,14 @@
     {
       "id": "cand-a2-3-0070",
       "turkish": "d\u00fczensiz",
-      "english": "messy",
+      "english": "disorganised",
       "priority": 3,
       "tags": [
         "adjective",
         "unit-a2-3c",
         "unit-a2"
-      ]
+      ],
+      "hint_en_tr": "(not tidy or systematic)"
     },
     {
       "id": "cand-a2-3-0071",
@@ -18327,13 +18339,14 @@
     {
       "id": "cand-web-a23-0009",
       "turkish": "rahmetli",
-      "english": "the late",
+      "english": "deceased",
       "priority": 3,
       "tags": [
         "adjective",
         "unit-a2-3c",
         "unit-a2"
-      ]
+      ],
+      "hint_en_tr": "(as in 'my late grandfather')"
     },
     {
       "id": "cand-web-a23-0010",
@@ -18344,7 +18357,8 @@
         "adjective",
         "unit-a2-3c",
         "unit-a2"
-      ]
+      ],
+      "hint_en_tr": "(uncooked)"
     },
     {
       "id": "cand-web-a23-0011",

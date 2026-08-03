@@ -117,7 +117,7 @@
     {
       "id": "cand-web-a23-0009",
       "turkish": "rahmetli",
-      "english": "the late",
+      "english": "deceased",
       "priority": 3,
       "tags": [
         "adjective",
@@ -126,7 +126,8 @@
       ],
       "source": "A2-3C reading SÖZLÜK / vocab page (Turkishle web)",
       "notes": "of a deceased person: rahmetli dedem = my late grandfather",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(as in 'my late grandfather')"
     },
     {
       "id": "cand-web-a23-0010",
@@ -140,7 +141,8 @@
       ],
       "source": "A2-3C reading SÖZLÜK / vocab page (Turkishle web)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(uncooked)"
     },
     {
       "id": "cand-web-a23-0011",

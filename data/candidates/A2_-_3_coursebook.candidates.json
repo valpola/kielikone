@@ -678,7 +678,8 @@
       ],
       "source": "A2-3B Kelime Listesi (Turkishle coursebook)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(formal title)"
     },
     {
       "id": "cand-a2-3-0049",
@@ -918,7 +919,7 @@
       "source": "A2-3C Kelime Listesi (Turkishle coursebook)",
       "notes": "",
       "status": "approved",
-      "hint_en_tr": "(not hungry; opposite of aç)"
+      "hint_en_tr": "(not hungry)"
     },
     {
       "id": "cand-a2-3-0066",
@@ -981,7 +982,7 @@
     {
       "id": "cand-a2-3-0070",
       "turkish": "düzensiz",
-      "english": "messy",
+      "english": "disorganised",
       "priority": 3,
       "tags": [
         "adjective",
@@ -990,7 +991,8 @@
       ],
       "source": "A2-3C Kelime Listesi (Turkishle coursebook)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(not tidy or systematic)"
     },
     {
       "id": "cand-a2-3-0071",
