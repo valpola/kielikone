@@ -6,5 +6,5 @@ const APP_CONFIG = {
   // The write token is entered once in-app and kept in localStorage only.
   commentRepo: "valpola/kielikone",
   commentLabel: "vocab-comment",
-  cacheBust: "20260802-4",
+  cacheBust: "20260802-5",
 };

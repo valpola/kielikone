@@ -21,6 +21,7 @@ const TODAY_STATS = document.getElementById("today-stats");
 const CACHE_STATUS = document.getElementById("cache-status");
 const PURGE_CACHE = document.getElementById("purge-cache");
 const PENDING_LIST = document.getElementById("pending-list");
+const RETRY_SYNC = document.getElementById("retry-sync");
 const NOTE_DETAILS = document.getElementById("note");
 const NOTE_INPUT = document.getElementById("note-input");
 const NOTE_SAVE = document.getElementById("note-save");
@@ -175,14 +176,15 @@ const sendQueuedResult = async (endpoint, apiKey, payload) => {
       signal: controller.signal,
     });
 
-    if (!response.ok) return false;
-
     const text = (await response.text()).trim();
-    return text === "OK";
+    return { ok: response.ok && text === "OK", status: response.status, text };
   } finally {
     clearTimeout(timer);
   }
 };
+
+// Why the last flush stopped — otherwise a stuck queue gives no clue at all.
+let lastSyncError = "";
 
 const flushResultQueue = async () => {
   if (resultQueueBusy) return;
@@ -193,21 +195,38 @@ const flushResultQueue = async () => {
 
   resultQueueBusy = true;
   try {
-    while (true) {
-      const next = loadResultQueue()[0];
-      if (!next) return;
-
+    // Walk a snapshot of the queue and skip past items that fail, so one entry
+    // the server keeps rejecting cannot block everything queued behind it.
+    // Stop the pass after a few consecutive failures (the endpoint is down or
+    // we are offline) rather than hammering it.
+    const pending = loadResultQueue();
+    let consecutiveFailures = 0;
+    for (const entry of pending) {
+      let result = null;
+      let failure = "";
       try {
-        const ok = await sendQueuedResult(endpoint, apiKey, next);
-        if (!ok) return;
-      } catch {
-        return;
+        result = await sendQueuedResult(endpoint, apiKey, entry);
+        if (!result.ok) {
+          failure = `HTTP ${result.status}${result.text ? ` "${result.text.slice(0, 80)}"` : ""}`;
+        }
+      } catch (error) {
+        failure = error && error.name === "AbortError" ? "timed out" : "network error";
       }
 
-      removeQueuedResult(next);
+      if (failure) {
+        lastSyncError = `${entry.word_id}: ${failure}`;
+        consecutiveFailures += 1;
+        if (consecutiveFailures >= 3) break;
+        continue;
+      }
+
+      consecutiveFailures = 0;
+      lastSyncError = "";
+      removeQueuedResult(entry);
     }
   } finally {
     resultQueueBusy = false;
+    updateCacheStatusUi();
   }
 };
 
@@ -324,7 +343,8 @@ const renderPendingList = () => {
     const time = Number.isNaN(when.getTime()) ? entry.timestamp : when.toLocaleString();
     return `• ${label} — ${entry.mode}, ${entry.correct ? "correct" : "wrong"}, ${time}`;
   });
-  PENDING_LIST.textContent = `Waiting to sync:\n${lines.join("\n")}`;
+  const suffix = lastSyncError ? `\nlast error — ${lastSyncError}` : "";
+  PENDING_LIST.textContent = `Waiting to sync:\n${lines.join("\n")}${suffix}`;
 };
 
 const updateCacheStatusUi = () => {
@@ -1204,6 +1224,27 @@ TODAY_LIMIT.addEventListener("change", () => {
 });
 
 RECOMPUTE_TODAY.addEventListener("click", () => recomputeToday());
+
+if (RETRY_SYNC) {
+  RETRY_SYNC.addEventListener("click", async () => {
+    const before = loadResultQueue().length;
+    if (!before) {
+      lastSyncError = "";
+      updateCacheStatusUi();
+      return;
+    }
+    RETRY_SYNC.disabled = true;
+    const label = RETRY_SYNC.textContent;
+    RETRY_SYNC.textContent = "Syncing…";
+    try {
+      await flushResultQueue();
+    } finally {
+      RETRY_SYNC.disabled = false;
+      RETRY_SYNC.textContent = label;
+      updateCacheStatusUi();
+    }
+  });
+}
 
 if (PURGE_CACHE) {
   PURGE_CACHE.addEventListener("click", () => {
