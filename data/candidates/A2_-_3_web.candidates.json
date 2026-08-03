@@ -32,7 +32,7 @@
     },
     {
       "id": "cand-web-a23-0003",
-      "turkish": "vakti olmak",
+      "turkish": "vakti olmak / zamanı olmak",
       "english": "to have time",
       "priority": 3,
       "tags": [
@@ -42,7 +42,8 @@
       ],
       "source": "A2-3B reading exercise SÖZLÜK (Turkishle web)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-web-a23-0004",

@@ -88,7 +88,7 @@
     },
     {
       "id": "cand-a1-rd-0007",
-      "turkish": "hep birlikte",
+      "turkish": "hep birlikte / hep beraber",
       "english": "all together",
       "priority": 3,
       "tags": [
@@ -98,7 +98,8 @@
       ],
       "source": "A1-4/5 reading exercise SÖZLÜK (Turkishle web)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-a1-rd-0008",

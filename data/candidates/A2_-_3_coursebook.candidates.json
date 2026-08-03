@@ -270,7 +270,8 @@
       ],
       "source": "A2-3A Kelime Listesi (Turkishle coursebook)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(e.g. an entry in a document)"
     },
     {
       "id": "cand-a2-3-0020",

@@ -122,7 +122,7 @@
     },
     {
       "id": "cand-lang-0009",
-      "turkish": "Fin / Finli / Finlandiyalı",
+      "turkish": "Fin / Finlandiyalı",
       "english": "Finnish",
       "priority": 3,
       "tags": [
@@ -130,8 +130,8 @@
         "unit-extra"
       ],
       "source": "Personal addition (Finnish/Polish)",
-      "notes": "",
-      "hint_en_tr": "(person — X / Y / Z)",
+      "notes": "Finli is also heard but non-standard; deliberately omitted",
+      "hint_en_tr": "(person — X / Y)",
       "status": "approved"
     },
     {

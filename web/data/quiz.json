@@ -11725,14 +11725,15 @@
     },
     {
       "id": "cand-a1-rd-0007",
-      "turkish": "hep birlikte",
+      "turkish": "hep birlikte / hep beraber",
       "english": "all together",
       "priority": 3,
       "tags": [
         "expression",
         "unit-a1-4c",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-a1-rd-0008",
@@ -15404,7 +15405,8 @@
         "noun",
         "unit-a2-3a",
         "unit-a2"
-      ]
+      ],
+      "hint_en_tr": "(e.g. an entry in a document)"
     },
     {
       "id": "cand-a2-3-0020",
@@ -16792,14 +16794,14 @@
     },
     {
       "id": "cand-lang-0009",
-      "turkish": "Fin / Finli / Finlandiyal\u0131",
+      "turkish": "Fin / Finlandiyal\u0131",
       "english": "Finnish",
       "priority": 3,
       "tags": [
         "noun",
         "unit-extra"
       ],
-      "hint_en_tr": "(person \u2014 X / Y / Z)"
+      "hint_en_tr": "(person \u2014 X / Y)"
     },
     {
       "id": "cand-lang-0010",
@@ -18272,14 +18274,15 @@
     },
     {
       "id": "cand-web-a23-0003",
-      "turkish": "vakti olmak",
+      "turkish": "vakti olmak / zaman\u0131 olmak",
       "english": "to have time",
       "priority": 3,
       "tags": [
         "verb",
         "unit-a2-3b",
         "unit-a2"
-      ]
+      ],
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-web-a23-0004",
