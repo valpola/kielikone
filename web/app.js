@@ -185,7 +185,10 @@ const sendQueuedResult = async (endpoint, apiKey, payload) => {
 };
 
 // Why the last flush stopped — otherwise a stuck queue gives no clue at all.
+// lastSyncAttempt distinguishes "never tried" from "tried and failed": an empty
+// error with a non-empty queue previously looked identical to both.
 let lastSyncError = "";
+let lastSyncAttempt = "";
 
 const flushResultQueue = async () => {
   if (resultQueueBusy) return;
@@ -201,6 +204,7 @@ const flushResultQueue = async () => {
     // Stop the pass after a few consecutive failures (the endpoint is down or
     // we are offline) rather than hammering it.
     const pending = loadResultQueue();
+    if (pending.length) lastSyncAttempt = new Date().toLocaleTimeString();
     let consecutiveFailures = 0;
     for (const entry of pending) {
       let result = null;
@@ -344,7 +348,8 @@ const renderPendingList = () => {
     const time = Number.isNaN(when.getTime()) ? entry.timestamp : when.toLocaleString();
     return `• ${label} — ${entry.mode}, ${entry.correct ? "correct" : "wrong"}, ${time}`;
   });
-  const suffix = lastSyncError ? `\nlast error — ${lastSyncError}` : "";
+  const attempted = lastSyncAttempt ? `\nlast sync attempt: ${lastSyncAttempt}` : "\nnot tried yet this session";
+  const suffix = (lastSyncError ? `\nlast error — ${lastSyncError}` : "") + attempted;
   PENDING_LIST.textContent = `Waiting to sync:\n${lines.join("\n")}${suffix}`;
 };
 
@@ -1424,3 +1429,12 @@ void flushCommentQueue();
 
 // Show cache/queue state as soon as Options is opened.
 updateCacheStatusUi();
+
+// The queue used to rely entirely on incidental triggers (load, online,
+// tab focus, grading an answer). If none fired, pending results just sat there
+// until the user pressed a button. Retry on a slow timer instead.
+setInterval(() => {
+  if (document.visibilityState !== "visible") return;
+  if (!loadResultQueue().length) return;
+  void flushResultQueue();
+}, 60000);
