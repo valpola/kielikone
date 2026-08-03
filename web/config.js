@@ -6,7 +6,6 @@ const APP_CONFIG = {
   // a lost response can no longer produce a duplicate row.
   supabaseUrl: "https://fzlztsasmovicflapqvw.supabase.co",
   supabaseKey: "sb_publishable_vYave1hiR297p0q4eTAaQQ_Q2BpwZoE",
-  resultsEnabled: true,
   // Legacy Google Sheets endpoint. No longer written to or read by the app;
   // kept so scripts/migrate_results_to_supabase.py can still reach the archive.
   resultsEndpoint:
@@ -15,5 +14,5 @@ const APP_CONFIG = {
   // The write token is entered once in-app and kept in localStorage only.
   commentRepo: "valpola/kielikone",
   commentLabel: "vocab-comment",
-  cacheBust: "20260803-6",
+  cacheBust: "20260803-7",
 };

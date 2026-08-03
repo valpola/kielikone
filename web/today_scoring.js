@@ -20,61 +20,6 @@
     novelty_bonus: 1.0,
   };
 
-  var parseCsvLine = function (line) {
-    var result = [];
-    var current = "";
-    var inQuotes = false;
-
-    for (var i = 0; i < line.length; i += 1) {
-      var char = line[i];
-      if (inQuotes) {
-        if (char === '"') {
-          if (i + 1 < line.length && line[i + 1] === '"') {
-            current += '"';
-            i += 1;
-          } else {
-            inQuotes = false;
-          }
-        } else {
-          current += char;
-        }
-      } else if (char === ',') {
-        result.push(current);
-        current = "";
-      } else if (char === '"') {
-        inQuotes = true;
-      } else {
-        current += char;
-      }
-    }
-
-    result.push(current);
-    return result;
-  };
-
-  var parseCsv = function (text) {
-    if (!text) return [];
-    var lines = String(text).replace(/\r\n?/g, "\n").split("\n");
-    var filtered = lines.filter(function (line) {
-      return line.trim().length > 0;
-    });
-    if (!filtered.length) return [];
-
-    var headers = parseCsvLine(filtered[0]).map(function (header) {
-      return header.trim();
-    });
-    var rows = [];
-    for (var i = 1; i < filtered.length; i += 1) {
-      var values = parseCsvLine(filtered[i]);
-      var row = {};
-      for (var j = 0; j < headers.length; j += 1) {
-        row[headers[j]] = values[j] !== undefined ? values[j] : "";
-      }
-      rows.push(row);
-    }
-    return rows;
-  };
-
   var parseTimestamp = function (value) {
     if (!value) return null;
     var raw = String(value).trim();
@@ -294,7 +239,6 @@
 
   return {
     DEFAULT_CONFIG: DEFAULT_CONFIG,
-    parseCsv: parseCsv,
     parseTimestamp: parseTimestamp,
     parseCorrect: parseCorrect,
     canonicalize: canonicalize,
