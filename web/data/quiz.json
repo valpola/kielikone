@@ -16101,6 +16101,904 @@
       ]
     },
     {
+      "id": "cand-a2-4-0001",
+      "turkish": "(birini) affetmek",
+      "english": "to forgive sb.",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-4a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0002",
+      "turkish": "(birini) ay\u0131plamak",
+      "english": "to shame sb.",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-4a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0003",
+      "turkish": "(birine) a\u015f\u0131k olmak",
+      "english": "to fall in love with sb.",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-4a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0004",
+      "turkish": "ceza almak",
+      "english": "to be punished",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-4a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0005",
+      "turkish": "ceza vermek",
+      "english": "to punish",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-4a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0006",
+      "turkish": "(birine) haber vermek",
+      "english": "to let sb. know",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-4a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0007",
+      "turkish": "kalbini k\u0131rmak",
+      "english": "to break someone's heart",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-4a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0008",
+      "turkish": "(birine) k\u00fcsmek",
+      "english": "to be cross with sb.",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-4a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0009",
+      "turkish": "(bir \u015feye) zarar vermek",
+      "english": "to harm sth.",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-4a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0010",
+      "turkish": "g\u00f6r\u00fc\u015fmek",
+      "english": "to meet / to see each other",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-4a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0011",
+      "turkish": "g\u00f6stermek",
+      "english": "to show",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-4a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0012",
+      "turkish": "yaymak",
+      "english": "to spread",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-4a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0013",
+      "turkish": "yerle\u015fmek",
+      "english": "to settle in",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-4a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0014",
+      "turkish": "\u015fok olmak",
+      "english": "to be shocked",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-4a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0015",
+      "turkish": "dedikodu \u00e7\u0131karmak",
+      "english": "to start a rumour",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-4a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0016",
+      "turkish": "ay\u0131p",
+      "english": "shame",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0017",
+      "turkish": "dedikodu",
+      "english": "gossip",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0018",
+      "turkish": "f\u0131s\u0131lt\u0131",
+      "english": "whisper",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0019",
+      "turkish": "gizem",
+      "english": "mystery",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0020",
+      "turkish": "gizlilik",
+      "english": "privacy",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0021",
+      "turkish": "iftira",
+      "english": "slander",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0022",
+      "turkish": "ipucu",
+      "english": "clue",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0023",
+      "turkish": "yalanc\u0131",
+      "english": "liar",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0024",
+      "turkish": "peruk",
+      "english": "wig",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0025",
+      "turkish": "sahte",
+      "english": "fake",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-4a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0026",
+      "turkish": "ayak\u00fcst\u00fc",
+      "english": "standing up / in haste",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a2-4a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0027",
+      "turkish": "g\u00fcya",
+      "english": "allegedly",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a2-4a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0028",
+      "turkish": "me\u011fer",
+      "english": "as it turns out",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a2-4a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0029",
+      "turkish": "s\u00f6zde",
+      "english": "supposedly",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a2-4a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0030",
+      "turkish": "bo\u015f bo\u015f",
+      "english": "aimlessly",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a2-4a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0031",
+      "turkish": "De\u011fer mi?",
+      "english": "Is it worth it?",
+      "priority": 3,
+      "tags": [
+        "expression",
+        "unit-a2-4a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0032",
+      "turkish": "m\u00fczik",
+      "english": "music",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0033",
+      "turkish": "enstr\u00fcman / m\u00fczik aleti / \u00e7alg\u0131",
+      "english": "musical instrument",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4b",
+        "unit-a2"
+      ],
+      "hint_en_tr": "(X / Y / Z)"
+    },
+    {
+      "id": "cand-a2-4-0034",
+      "turkish": "m\u00fczik t\u00fcr\u00fc",
+      "english": "music genre",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0035",
+      "turkish": "bateri",
+      "english": "drums",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0036",
+      "turkish": "gitar",
+      "english": "guitar",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0037",
+      "turkish": "keman",
+      "english": "violin",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0038",
+      "turkish": "melodi",
+      "english": "melody",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0039",
+      "turkish": "ilahi",
+      "english": "hymn",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0040",
+      "turkish": "t\u00fcrk\u00fc / halk m\u00fczi\u011fi",
+      "english": "folk song",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4b",
+        "unit-a2"
+      ],
+      "hint_en_tr": "(X / Y)"
+    },
+    {
+      "id": "cand-a2-4-0041",
+      "turkish": "tekli",
+      "english": "single",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4b",
+        "unit-a2"
+      ],
+      "hint_en_tr": "(a released track)"
+    },
+    {
+      "id": "cand-a2-4-0042",
+      "turkish": "sahne",
+      "english": "stage",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0043",
+      "turkish": "sanat",
+      "english": "art",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0044",
+      "turkish": "sanat\u00e7\u0131",
+      "english": "artist",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0045",
+      "turkish": "\u015fark\u0131c\u0131",
+      "english": "singer",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0046",
+      "turkish": "m\u00fczisyen",
+      "english": "musician",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0047",
+      "turkish": "oyuncu",
+      "english": "actor",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0048",
+      "turkish": "s\u00f6z yazar\u0131",
+      "english": "songwriter",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0049",
+      "turkish": "dinleyici",
+      "english": "listener",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0050",
+      "turkish": "izleyici",
+      "english": "viewer",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0051",
+      "turkish": "\u00f6d\u00fcl",
+      "english": "award",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0052",
+      "turkish": "magazin",
+      "english": "celebrity gossip media",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0053",
+      "turkish": "tiyatro oyunu",
+      "english": "play",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4b",
+        "unit-a2"
+      ],
+      "hint_en_tr": "(theatre)"
+    },
+    {
+      "id": "cand-a2-4-0054",
+      "turkish": "\u00fcnl\u00fc",
+      "english": "celebrity",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4b",
+        "unit-a2"
+      ],
+      "hint_tr_en": "(isim)"
+    },
+    {
+      "id": "cand-a2-4-0055",
+      "turkish": "alb\u00fcm \u00e7\u0131karmak",
+      "english": "to release an album",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-4b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0056",
+      "turkish": "\u015fark\u0131 \u00e7\u0131karmak",
+      "english": "to release a song",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-4b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0057",
+      "turkish": "\u00e7\u0131k\u0131\u015f yapmak",
+      "english": "to make a debut",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-4b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0058",
+      "turkish": "konser vermek",
+      "english": "to give a concert",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-4b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0059",
+      "turkish": "s\u00f6z yazmak",
+      "english": "to write lyrics",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-4b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0060",
+      "turkish": "filmde / dizide oynamak",
+      "english": "to act in a film / series",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-4b",
+        "unit-a2"
+      ],
+      "hint_en_tr": "(X / Y)"
+    },
+    {
+      "id": "cand-a2-4-0061",
+      "turkish": "bask\u0131n",
+      "english": "dominant",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-4b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0062",
+      "turkish": "tahmin",
+      "english": "guess",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0063",
+      "turkish": "az say\u0131da",
+      "english": "a small number of",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-4b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0064",
+      "turkish": "kavga",
+      "english": "fight",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0065",
+      "turkish": "kavga etmek",
+      "english": "to quarrel",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-4c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0066",
+      "turkish": "kavga \u00e7\u0131kmak",
+      "english": "to break out",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-4c",
+        "unit-a2"
+      ],
+      "hint_en_tr": "(of a fight)"
+    },
+    {
+      "id": "cand-a2-4-0067",
+      "turkish": "(biriyle) kar\u015f\u0131la\u015fmak",
+      "english": "to run into sb.",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-4c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0068",
+      "turkish": "kar\u015f\u0131l\u0131kl\u0131 konu\u015fmak",
+      "english": "to talk to one another",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-4c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0069",
+      "turkish": "g\u00f6z k\u0131rpmak",
+      "english": "to wink",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-4c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0070",
+      "turkish": "g\u00f6z g\u00f6ze gelmek",
+      "english": "to make eye contact",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-4c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0071",
+      "turkish": "(birinden) \u00f6rnek almak",
+      "english": "to follow sb's example",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-4c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0072",
+      "turkish": "(bir \u015feye) engel olmak",
+      "english": "to prevent sth.",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-4c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0073",
+      "turkish": "\u00e7\u00f6p atmak",
+      "english": "to throw away rubbish",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-4c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0074",
+      "turkish": "\u00e7\u00f6p",
+      "english": "rubbish",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0075",
+      "turkish": "\u00e7\u00f6p kutusu",
+      "english": "bin",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0076",
+      "turkish": "olay",
+      "english": "incident",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0077",
+      "turkish": "r\u00f6portaj",
+      "english": "interview",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0078",
+      "turkish": "kariyer",
+      "english": "career",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0079",
+      "turkish": "felaket",
+      "english": "disaster",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0080",
+      "turkish": "can\u0131m",
+      "english": "my dear",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-4-0081",
+      "turkish": "a\u011fz\u0131na kadar dolu",
+      "english": "full to the brim",
+      "priority": 3,
+      "tags": [
+        "expression",
+        "unit-a2-4c",
+        "unit-a2"
+      ]
+    },
+    {
       "id": "cand-cat-0001",
       "turkish": "ba\u015f",
       "english": "head",
@@ -18719,6 +19617,21 @@
     {
       "id": "unit-a2-3c",
       "label": "Unit A2-3C",
+      "group": "unit"
+    },
+    {
+      "id": "unit-a2-4a",
+      "label": "Unit A2-4A",
+      "group": "unit"
+    },
+    {
+      "id": "unit-a2-4b",
+      "label": "Unit A2-4B",
+      "group": "unit"
+    },
+    {
+      "id": "unit-a2-4c",
+      "label": "Unit A2-4C",
       "group": "unit"
     }
   ]
