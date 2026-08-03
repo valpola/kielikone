@@ -19,8 +19,10 @@ from build_today import (
     filter_items,
     load_aliases,
     load_results,
+    load_results_supabase,
     read_api_key,
     resolve_results_source,
+    supabase_config,
 )
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -60,14 +62,22 @@ MODE = ["tr-en", "en-tr"][1]
 aliases = load_aliases()
 results_source = RESULTS_SOURCE
 
-if not results_source:
+if not results_source and not supabase_config():
     raise ValueError(
-        "No results source found. Set RESULTS_SOURCE env var or add a URL to "
-        "resources/access_keys/google_sheets.txt."
+        "No results source found. Configure Supabase in resources/access_keys/ "
+        "(supabase_url.txt, supabase_anon_key.txt, supabase_app_secret.txt), set "
+        "RESULTS_SOURCE, or add a URL to resources/access_keys/google_sheets.txt."
     )
 
-rows = load_results(results_source)
-print(f"Loaded {len(rows)} result rows")
+# Supabase is the live backend; the sheet is a frozen archive, so only fall back
+# to it when Supabase is not configured (or RESULTS_SOURCE forces a source).
+_supabase = supabase_config()
+if _supabase and not os.environ.get("RESULTS_SOURCE", "").strip():
+    rows = load_results_supabase(*_supabase)
+    print(f"Loaded {len(rows)} result rows from Supabase")
+else:
+    rows = load_results(results_source)
+    print(f"Loaded {len(rows)} result rows from {results_source.split('?')[0]}")
 
 # %%
 # Build canonicalized event stream.
