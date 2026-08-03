@@ -828,17 +828,26 @@ const handleLoginClick = async () => {
 };
 
 const initLoginState = async () => {
+  const apiKey = getAppSecret();
+  // A user name stored by the previous (Sheets) backend must not look like a
+  // session: without the app secret the app cannot reach the database at all.
+  if (!apiKey) {
+    localStorage.removeItem(USER_NAME_STORAGE);
+    loginState.userName = "";
+    loginState.valid = false;
+    loginState.checking = false;
+    updateLoginUi();
+    return;
+  }
+
   loginState.userName = getStoredUserName();
-  // Trust a key that already validated on this device, so a failed check at
+  // Trust a secret that already validated on this device, so a failed check at
   // startup does not strand the queue until the next reload.
   loginState.valid = !!loginState.userName;
   loginState.checking = false;
   updateLoginUi();
 
-  const apiKey = getAppSecret();
-  if (apiKey) {
-    await validateApiKey(apiKey);
-  }
+  await validateApiKey(apiKey);
 };
 
 const sendResult = async (payload) => {
