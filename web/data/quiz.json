@@ -8942,6 +8942,18 @@
       ]
     },
     {
+      "id": "cand-a1-4cb-0030",
+      "turkish": "ilk",
+      "english": "first",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-4c",
+        "unit-a1"
+      ],
+      "hint_en_tr": "(the earliest / initial one)"
+    },
+    {
       "id": "cand-a1-5a-0001",
       "turkish": "ay",
       "english": "month / moon",
@@ -10801,7 +10813,8 @@
         "adverb",
         "unit-a1-6a",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(within sth. \u2014 a position)"
     },
     {
       "id": "cand-a1-6v-0005",
@@ -16312,7 +16325,8 @@
         "verb",
         "unit-a2-4a",
         "unit-a2"
-      ]
+      ],
+      "hint_en_tr": "(sth. \u2014 transitive)"
     },
     {
       "id": "cand-a2-4-0013",
@@ -19577,7 +19591,8 @@
         "number",
         "unit-a1-2b",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(1st \u2014 the ordinal)"
     },
     {
       "id": "cand-num-0026",

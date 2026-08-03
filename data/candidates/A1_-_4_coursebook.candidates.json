@@ -416,6 +416,21 @@
       "source": "A1-4C grammar/transcript (Turkishle coursebook)",
       "notes": "",
       "status": "approved"
+    },
+    {
+      "id": "cand-a1-4cb-0030",
+      "turkish": "ilk",
+      "english": "first",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-4c",
+        "unit-a1"
+      ],
+      "source": "A1-4C coursebook dialogue (“bayramın ilk günü”); not in any unit vocabulary list",
+      "notes": "",
+      "status": "approved",
+      "hint_en_tr": "(the earliest / initial one)"
     }
   ]
 }
