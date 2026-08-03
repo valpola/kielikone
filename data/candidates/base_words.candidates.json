@@ -1,0 +1,1101 @@
+{
+  "source_file": "Base words underlying compounds already in the deck",
+  "created_at": "2026-08-03T00:00:00+00:00",
+  "items": [
+    {
+      "id": "cand-base-0001",
+      "turkish": "ürün",
+      "english": "product",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0002",
+      "turkish": "tel",
+      "english": "wire / string",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0003",
+      "turkish": "tür",
+      "english": "kind / genre",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0004",
+      "turkish": "yazar",
+      "english": "writer",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0005",
+      "turkish": "kutu",
+      "english": "box",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0006",
+      "turkish": "sahip",
+      "english": "owner",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0007",
+      "turkish": "hekim",
+      "english": "physician",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0008",
+      "turkish": "makine",
+      "english": "machine",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0009",
+      "turkish": "kabin",
+      "english": "cabin / cubicle",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0010",
+      "turkish": "bakım",
+      "english": "care / maintenance",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0011",
+      "turkish": "iyi",
+      "english": "good",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0012",
+      "turkish": "ben",
+      "english": "I",
+      "priority": 3,
+      "tags": [
+        "pronoun",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0013",
+      "turkish": "sen",
+      "english": "you",
+      "priority": 3,
+      "tags": [
+        "pronoun",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved",
+      "hint_en_tr": "(singular, informal)"
+    },
+    {
+      "id": "cand-base-0014",
+      "turkish": "her",
+      "english": "every",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0015",
+      "turkish": "geç",
+      "english": "late",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0016",
+      "turkish": "önce",
+      "english": "before / ago",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0017",
+      "turkish": "kadar",
+      "english": "until / as much as",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0018",
+      "turkish": "erkek",
+      "english": "man / male",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0019",
+      "turkish": "son",
+      "english": "end",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0020",
+      "turkish": "ara",
+      "english": "interval / break",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0021",
+      "turkish": "yol",
+      "english": "road",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0022",
+      "turkish": "üst",
+      "english": "top",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0023",
+      "turkish": "alt",
+      "english": "bottom",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0024",
+      "turkish": "sos",
+      "english": "sauce",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0025",
+      "turkish": "meyve",
+      "english": "fruit",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0026",
+      "turkish": "cam",
+      "english": "glass",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved",
+      "hint_en_tr": "(the material)"
+    },
+    {
+      "id": "cand-base-0027",
+      "turkish": "duş",
+      "english": "shower",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0028",
+      "turkish": "kol",
+      "english": "arm",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0029",
+      "turkish": "takım",
+      "english": "team / set",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0030",
+      "turkish": "sebze",
+      "english": "vegetable",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0031",
+      "turkish": "takvim",
+      "english": "calendar",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0032",
+      "turkish": "mendil",
+      "english": "tissue",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0033",
+      "turkish": "kredi",
+      "english": "credit",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0034",
+      "turkish": "kent",
+      "english": "city",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0035",
+      "turkish": "şok",
+      "english": "shock",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0036",
+      "turkish": "değer",
+      "english": "value",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0037",
+      "turkish": "söz",
+      "english": "word / promise",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0038",
+      "turkish": "ceza",
+      "english": "punishment",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0039",
+      "turkish": "hamur",
+      "english": "dough",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0040",
+      "turkish": "özür",
+      "english": "apology",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0041",
+      "turkish": "temizlik",
+      "english": "cleaning",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0042",
+      "turkish": "yardım",
+      "english": "help",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0043",
+      "turkish": "makyaj",
+      "english": "make-up",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0044",
+      "turkish": "nefret",
+      "english": "hatred",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0045",
+      "turkish": "devam",
+      "english": "continuation",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0046",
+      "turkish": "enstrüman",
+      "english": "instrument",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0047",
+      "turkish": "kahraman",
+      "english": "hero",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0048",
+      "turkish": "durum",
+      "english": "situation",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0049",
+      "turkish": "gelişim",
+      "english": "development",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0050",
+      "turkish": "geçit",
+      "english": "crossing",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0051",
+      "turkish": "yaya",
+      "english": "pedestrian",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0052",
+      "turkish": "kaza",
+      "english": "accident",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0053",
+      "turkish": "takip",
+      "english": "following / pursuit",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0054",
+      "turkish": "karar",
+      "english": "decision",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0055",
+      "turkish": "mesaj",
+      "english": "message",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0056",
+      "turkish": "şaka",
+      "english": "joke",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0057",
+      "turkish": "oruç",
+      "english": "fast",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved",
+      "hint_en_tr": "(religious fasting)"
+    },
+    {
+      "id": "cand-base-0058",
+      "turkish": "evlilik",
+      "english": "marriage",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0059",
+      "turkish": "bulaşık",
+      "english": "dirty dishes",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0060",
+      "turkish": "fark",
+      "english": "difference",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0061",
+      "turkish": "iptal",
+      "english": "cancellation",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0062",
+      "turkish": "kontrol",
+      "english": "check / control",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0063",
+      "turkish": "merak",
+      "english": "curiosity",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0064",
+      "turkish": "ziyaret",
+      "english": "visit",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0065",
+      "turkish": "cilt",
+      "english": "skin",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0066",
+      "turkish": "muhabbet",
+      "english": "chat",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0067",
+      "turkish": "güney",
+      "english": "south",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0068",
+      "turkish": "kuzey",
+      "english": "north",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0069",
+      "turkish": "doğu",
+      "english": "east",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0070",
+      "turkish": "özel",
+      "english": "special / private",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2",
+        "unit-a2-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0071",
+      "turkish": "klasik",
+      "english": "classical",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2",
+        "unit-a2-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0072",
+      "turkish": "antik",
+      "english": "ancient",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0073",
+      "turkish": "kot",
+      "english": "denim",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0074",
+      "turkish": "süper",
+      "english": "super",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0075",
+      "turkish": "kişisel",
+      "english": "personal",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2",
+        "unit-a2-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0076",
+      "turkish": "tarot",
+      "english": "tarot",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2",
+        "unit-a2-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0077",
+      "turkish": "dilemek",
+      "english": "to wish",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-base-0078",
+      "turkish": "işte",
+      "english": "there you go / well",
+      "priority": 3,
+      "tags": [
+        "expression",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "base word underlying a compound already in the deck (Turkishle syllabus)",
+      "notes": "",
+      "status": "approved"
+    }
+  ]
+}
