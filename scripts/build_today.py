@@ -23,6 +23,10 @@ ALIASES_PATH = ROOT / "data" / "aliases.json"
 ACCESS_KEYS_PATH = ROOT / "resources" / "access_keys" / "google_sheets.txt"
 RESULTS_API_KEY_PATH = ROOT / "resources" / "access_keys" / "personal_key.txt"
 DEFAULT_SHEETS_PARAM = "?format=csv"
+SUPABASE_URL_PATH = ROOT / "resources" / "access_keys" / "supabase_url.txt"
+SUPABASE_ANON_PATH = ROOT / "resources" / "access_keys" / "supabase_anon_key.txt"
+SUPABASE_SECRET_PATH = ROOT / "resources" / "access_keys" / "supabase_app_secret.txt"
+SUPABASE_PAGE = 1000  # PostgREST caps a single response at 1000 rows
 
 
 @dataclass(frozen=True)
@@ -198,6 +202,58 @@ def parse_correct(value: str) -> bool | None:
     return None
 
 
+def supabase_config() -> tuple[str, str, str] | None:
+    """(url, anon key, app secret) when Supabase is configured, else None."""
+    url = read_api_key(SUPABASE_URL_PATH)
+    anon = read_api_key(SUPABASE_ANON_PATH)
+    secret = read_api_key(SUPABASE_SECRET_PATH)
+    if url and anon and secret:
+        return url, anon, secret
+    return None
+
+
+def load_results_supabase(url: str, anon: str, secret: str) -> list[dict[str, Any]]:
+    """Read every event, paging because PostgREST returns at most 1000 rows.
+
+    Returned dicts use the "timestamp" key so the rest of the pipeline
+    (event_stream, duplicate_rows) is unchanged.
+    """
+    endpoint = (
+        url.rstrip("/")
+        + "/rest/v1/results?select=answered_at,word_id,mode,correct&order=answered_at.asc"
+    )
+    rows: list[dict[str, Any]] = []
+    offset = 0
+    while True:
+        request = urllib.request.Request(
+            endpoint,
+            headers={
+                "apikey": anon,
+                "Authorization": f"Bearer {anon}",
+                "x-app-secret": secret,
+                "Range-Unit": "items",
+                "Range": f"{offset}-{offset + SUPABASE_PAGE - 1}",
+            },
+        )
+        with urllib.request.urlopen(request, timeout=60) as response:
+            batch = json.loads(response.read().decode("utf-8"))
+        if not batch:
+            break
+        rows.extend(
+            {
+                "timestamp": item.get("answered_at", ""),
+                "word_id": item.get("word_id", ""),
+                "mode": item.get("mode", ""),
+                "correct": item.get("correct"),
+            }
+            for item in batch
+        )
+        if len(batch) < SUPABASE_PAGE:
+            break
+        offset += len(batch)
+    return rows
+
+
 def load_results(source: str) -> list[dict[str, Any]]:
     text = load_text(source)
     stripped = text.lstrip()
@@ -358,30 +414,7 @@ def filter_items(
     return filtered
 
 
-def main() -> int:
-    args = parse_args()
-    results_source = resolve_results_source(args.results)
-    if not results_source:
-        print("ERROR: --results or RESULTS_SOURCE is required")
-        print("Hint: add the URL to resources/access_keys/google_sheets.txt")
-        return 2
-
-    api_key = read_api_key(RESULTS_API_KEY_PATH)
-    if results_source.startswith("http://") or results_source.startswith("https://"):
-        results_source = build_results_csv_url(results_source, api_key)
-        if not api_key:
-            print(f"WARNING: No API key found in {RESULTS_API_KEY_PATH}.")
-
-    try:
-        rows = load_results(results_source)
-    except Exception as exc:
-        print(f"ERROR: Failed to load results: {exc}")
-        return 2
-    if not rows:
-        print("WARNING: No rows returned from results source.")
-        if api_key:
-            print("Check that the API key is valid and has access.")
-
+def run_with_rows(rows: list[dict[str, Any]], args: argparse.Namespace) -> int:
     aliases = load_aliases()
     events = event_stream(rows, aliases)
     events_by_key: dict[tuple[str, str], list[tuple[datetime, bool]]] = {}
@@ -482,6 +515,44 @@ def main() -> int:
     print(f"Updated {changed} vocab files")
     return 0
 
+
+
+def main() -> int:
+    args = parse_args()
+
+    supabase = supabase_config()
+    if supabase and not args.results:
+        try:
+            rows = load_results_supabase(*supabase)
+        except Exception as exc:
+            print(f"ERROR: Failed to load results from Supabase: {exc}")
+            return 2
+        print(f"Loaded {len(rows)} event(s) from Supabase")
+        return run_with_rows(rows, args)
+
+    results_source = resolve_results_source(args.results)
+    if not results_source:
+        print("ERROR: --results or RESULTS_SOURCE is required")
+        print("Hint: add the URL to resources/access_keys/google_sheets.txt")
+        return 2
+
+    api_key = read_api_key(RESULTS_API_KEY_PATH)
+    if results_source.startswith("http://") or results_source.startswith("https://"):
+        results_source = build_results_csv_url(results_source, api_key)
+        if not api_key:
+            print(f"WARNING: No API key found in {RESULTS_API_KEY_PATH}.")
+
+    try:
+        rows = load_results(results_source)
+    except Exception as exc:
+        print(f"ERROR: Failed to load results: {exc}")
+        return 2
+    if not rows:
+        print("WARNING: No rows returned from results source.")
+        if api_key:
+            print("Check that the API key is valid and has access.")
+
+    return run_with_rows(rows, args)
 
 if __name__ == "__main__":
     raise SystemExit(main())

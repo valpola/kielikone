@@ -102,7 +102,9 @@ def to_records(rows: list[dict[str, str]]) -> list[dict[str, object]]:
 
 
 def insert(records: list[dict[str, object]], url: str, anon: str, secret: str) -> None:
-    endpoint = url.rstrip("/") + "/rest/v1/results"
+    # on_conflict names the unique key so ignore-duplicates actually applies:
+    # without it PostgREST targets the primary key and a repeat raises 409.
+    endpoint = url.rstrip("/") + "/rest/v1/results?on_conflict=client_event_id"
     for start in range(0, len(records), BATCH):
         chunk = records[start : start + BATCH]
         request = urllib.request.Request(
