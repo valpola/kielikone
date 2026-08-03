@@ -73,6 +73,13 @@ scratchpad once per session, then:
 - Glosses carry no parentheticals; disambiguators/format cues go in `hint_tr_en` (TR→EN) or
   `hint_en_tr` (EN→TR). Multi-form answers get `(X / Y)`. Keep circumflexes (`kâğıt`,
   `tarihî`) — matching folds `â/î/û`.
+- **Never pack two unrelated meanings into one gloss.** The user mostly drills EN→TR, so a
+  gloss listing a second sense does not teach it — make it a **separate entry** and give the
+  TR→EN hint to say which sense is meant (e.g. `madde` = "item" `(e.g. an entry in a
+  document)`; "substance" would be its own entry). Slash forms are only for genuine
+  **synonyms** (`hep birlikte / hep beraber`), never for distinct senses.
+- **`hint_en_tr` must not contain Turkish words** — the answer is Turkish, so that leaks.
+  (`hint_tr_en` may be Turkish: there the answer is English.)
 
 **Status:** A1 (0A + units 1–6) and A2 units 1–3 fully swept (coursebook + web, incl. the
 listening re-check). A2-4 onward not yet. B1.1 not yet.
