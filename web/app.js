@@ -270,6 +270,7 @@ const fetchResultRows = async (since) => {
     const controller = new AbortController();
     const timer = setTimeout(() => controller.abort(), 30000);
     let batch;
+    let response_range = "";
     try {
       const response = await fetch(base, {
         cache: "no-store",
@@ -278,12 +279,19 @@ const fetchResultRows = async (since) => {
           ...supabaseHeaders(),
           "Range-Unit": "items",
           Range: `${offset}-${offset + RESULTS_PAGE - 1}`,
+          Prefer: "count=exact",
         },
       });
       if (!response.ok) throw new Error(`results read failed: HTTP ${response.status}`);
+      response_range = response.headers.get("content-range") || "";
       batch = await response.json();
     } finally {
       clearTimeout(timer);
+    }
+    const range = response_range;
+    if (range) {
+      const total = Number(String(range.split("/")[1] || "0"));
+      if (Number.isFinite(total) && total > 0) lastKnownTotal = total;
     }
     if (!Array.isArray(batch) || !batch.length) break;
     batch.forEach((row) =>
@@ -306,6 +314,9 @@ const fetchResultRows = async (since) => {
 // the sheet, and eventStream() drops exact repeats. So we can always score
 // snapshot + local events without tracking what has been confirmed.
 let snapshotWriteFailed = false;
+// Row count last seen in the database, shown in Options (not on the button,
+// where a stale number looks like a broken sync).
+let lastKnownTotal = 0;
 
 const loadHistorySnapshot = () => {
   try {
@@ -540,6 +551,7 @@ const updateCacheStatusUi = () => {
   } else {
     parts.push("no cached history");
   }
+  if (lastKnownTotal) parts.push(`${lastKnownTotal.toLocaleString()} in database`);
   if (localCount) parts.push(`+${localCount} local`);
   if (queued) parts.push(`${queued} queued`);
   if (snapshotWriteFailed) parts.push("cache write failed (quota)");
@@ -757,7 +769,9 @@ const fetchUserName = async (apiKey) => {
     const range = response.headers.get("content-range") || "";
     const total = Number(String(range.split("/")[1] || "0"));
     if (!Number.isFinite(total) || total <= 0) return "";
-    return `synced (${total.toLocaleString()})`;
+    // A count here reads like a live counter but is only a snapshot, so keep
+    // the label static and report live state in the Options panel instead.
+    return "results logging on";
   } catch (error) {
     if (error && error.name === "AbortError") return null;
     return null;
