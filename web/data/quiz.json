@@ -1604,17 +1604,6 @@
       ]
     },
     {
-      "id": "cand-a1-2a-0032",
-      "turkish": "orta okul",
-      "english": "middle school",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a1-2a",
-        "unit-a1"
-      ]
-    },
-    {
       "id": "cand-a1-2a-0033",
       "turkish": "otel",
       "english": "hotel",
@@ -1714,6 +1703,7 @@
         "unit-a1-2a",
         "unit-a1"
       ],
+      "hint_tr_en": "(okul mobilyas\u0131)",
       "hint_en_tr": "(classroom row-desk)"
     },
     {
@@ -15687,7 +15677,9 @@
       "tags": [
         "noun",
         "unit-a2-3b",
-        "unit-a2"
+        "unit-a2",
+        "unit-a1-2a",
+        "unit-a1"
       ]
     },
     {
