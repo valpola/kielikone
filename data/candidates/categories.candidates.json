@@ -714,7 +714,7 @@
     {
       "id": "cand-cat-0054",
       "turkish": "gelin",
-      "english": "bride / daughter-in-law",
+      "english": "bride",
       "priority": 3,
       "tags": [
         "noun",
@@ -722,14 +722,14 @@
         "unit-a1"
       ],
       "source": "Turkishle coursebook (B1)",
-      "notes": "",
+      "notes": "second sense is a separate entry",
       "status": "approved",
-      "hint_tr_en": "(aile)"
+      "hint_tr_en": "(evlenen kadın)"
     },
     {
       "id": "cand-cat-0055",
       "turkish": "damat",
-      "english": "groom / son-in-law",
+      "english": "groom",
       "priority": 3,
       "tags": [
         "noun",
@@ -737,8 +737,9 @@
         "unit-a1-extra"
       ],
       "source": "gap-fill: standard vocabulary; user recalls seeing it online, not in A1/A2/B1 coursebooks",
-      "notes": "",
-      "status": "approved"
+      "notes": "second sense is a separate entry",
+      "status": "approved",
+      "hint_tr_en": "(evlenen erkek)"
     },
     {
       "id": "cand-cat-0056",
@@ -767,6 +768,36 @@
       "source": "gap-fill: standard vocabulary; user recalls seeing it online, not in A1/A2/B1 coursebooks",
       "notes": "",
       "status": "approved"
+    },
+    {
+      "id": "cand-cat-0054b",
+      "turkish": "gelin",
+      "english": "daughter-in-law",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4a",
+        "unit-a1"
+      ],
+      "source": "Turkishle coursebook (B1)",
+      "notes": "second sense is a separate entry",
+      "status": "approved",
+      "hint_tr_en": "(oğlunun eşi)"
+    },
+    {
+      "id": "cand-cat-0055b",
+      "turkish": "damat",
+      "english": "son-in-law",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "gap-fill: standard vocabulary; user recalls seeing it online, not in A1/A2/B1 coursebooks",
+      "notes": "second sense is a separate entry",
+      "status": "approved",
+      "hint_tr_en": "(kızının eşi)"
     }
   ]
 }
