@@ -29,7 +29,8 @@
       "source": "A1_-_5B.pdf",
       "notes": "",
       "status": "approved",
-      "hint_en_tr": "(time)"
+      "hint_en_tr": "(time)",
+      "hint_tr_en": "(zaman)"
     },
     {
       "id": "cand-a1-5b-0003",
@@ -478,6 +479,21 @@
       "source": "A1_-_5B.pdf",
       "notes": "",
       "status": "approved"
+    },
+    {
+      "id": "cand-a1-5b-0035",
+      "turkish": "geçirmek",
+      "english": "to put in",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "unit-a1",
+        "verb"
+      ],
+      "source": "A1_-_5B.pdf (the list glosses geçirmek as “put in”)",
+      "notes": "homograph of geçirmek = to spend (time); A1-5B teaches this sense",
+      "status": "approved",
+      "hint_tr_en": "(bir şeyi bir yere)"
     }
   ]
 }

@@ -9294,8 +9294,11 @@
       "tags": [
         "unit-a1-5b",
         "unit-a1",
-        "verb"
+        "verb",
+        "unit-a2-4a",
+        "unit-a2"
       ],
+      "hint_tr_en": "(zaman)",
       "hint_en_tr": "(time)"
     },
     {
@@ -9529,6 +9532,18 @@
         "unit-a1",
         "adverb"
       ]
+    },
+    {
+      "id": "cand-a1-5b-0035",
+      "turkish": "ge\u00e7irmek",
+      "english": "to put in",
+      "priority": 3,
+      "tags": [
+        "unit-a1-5b",
+        "unit-a1",
+        "verb"
+      ],
+      "hint_tr_en": "(bir \u015feyi bir yere)"
     },
     {
       "id": "cand-a1-5c-0002",
@@ -19948,17 +19963,6 @@
       "tags": [
         "noun",
         "unit-a2-4c",
-        "unit-a2"
-      ]
-    },
-    {
-      "id": "cand-transp-0026",
-      "turkish": "zaman ge\u00e7irmek",
-      "english": "to spend time",
-      "priority": 3,
-      "tags": [
-        "verb",
-        "unit-a2-4a",
         "unit-a2"
       ]
     },
