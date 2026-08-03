@@ -20,6 +20,7 @@ const OPTIONS_GRID = document.querySelector(".options-grid");
 const TODAY_STATS = document.getElementById("today-stats");
 const CACHE_STATUS = document.getElementById("cache-status");
 const PURGE_CACHE = document.getElementById("purge-cache");
+const PENDING_LIST = document.getElementById("pending-list");
 const NOTE_DETAILS = document.getElementById("note");
 const NOTE_INPUT = document.getElementById("note-input");
 const NOTE_SAVE = document.getElementById("note-save");
@@ -110,6 +111,7 @@ const updateQueueStatusUi = () => {
   }
   QUEUE_STATUS.textContent = `Pending sync: ${pending}`;
   QUEUE_STATUS.classList.remove("hidden");
+  renderPendingList();
 };
 
 const sameQueuedResult = (left, right) => {
@@ -306,6 +308,25 @@ const localEventRows = () =>
     correct: String(event.correct),
   }));
 
+// Show which answers are still waiting to sync, so "Pending sync: 6" is not a
+// mystery. Falls back to the id when the word is not in the current deck.
+const renderPendingList = () => {
+  if (!PENDING_LIST) return;
+  const queue = loadResultQueue();
+  if (!queue.length) {
+    PENDING_LIST.textContent = "";
+    return;
+  }
+  const lines = queue.map((entry) => {
+    const item = items.find((candidate) => candidate.id === entry.id || candidate.id === entry.word_id);
+    const label = item ? `${item.turkish} = ${item.english}` : entry.word_id;
+    const when = new Date(entry.timestamp);
+    const time = Number.isNaN(when.getTime()) ? entry.timestamp : when.toLocaleString();
+    return `• ${label} — ${entry.mode}, ${entry.correct ? "correct" : "wrong"}, ${time}`;
+  });
+  PENDING_LIST.textContent = `Waiting to sync:\n${lines.join("\n")}`;
+};
+
 const updateCacheStatusUi = () => {
   if (!CACHE_STATUS) return;
   const snapshot = loadHistorySnapshot();
@@ -323,6 +344,7 @@ const updateCacheStatusUi = () => {
   if (queued) parts.push(`${queued} queued`);
   if (snapshotWriteFailed) parts.push("cache write failed (quota)");
   CACHE_STATUS.textContent = parts.join(" · ");
+  renderPendingList();
 };
 
 const purgeHistoryCache = () => {
@@ -515,16 +537,30 @@ const updateLoginUi = () => {
   }
 };
 
+// Returns the user name, "" when the server actually rejects the key, or null
+// when the check could not be completed (offline, timeout, Apps Script 404).
+// The distinction matters: a transient failure must not mark the key invalid,
+// because that blocks the result queue for the rest of the session.
 const fetchUserName = async (apiKey) => {
   const endpoint = getResultsEndpoint();
   if (!endpoint || !apiKey) return "";
   const url = new URL(endpoint);
   url.searchParams.set("api_key", apiKey);
   url.searchParams.set("action", "whoami");
-  const response = await fetch(url.toString(), { cache: "no-store" });
-  if (!response.ok) return "";
-  const text = await response.text();
-  return text.trim();
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), 20000);
+  try {
+    const response = await fetch(url.toString(), {
+      cache: "no-store",
+      signal: controller.signal,
+    });
+    if (!response.ok) return null;
+    const text = (await response.text()).trim();
+    if (!text || text === "Unauthorized") return "";
+    return text;
+  } finally {
+    clearTimeout(timer);
+  }
 };
 
 const validateApiKey = async (apiKey) => {
@@ -540,6 +576,17 @@ const validateApiKey = async (apiKey) => {
   loginState.checking = true;
   updateLoginUi();
 
+  // A check we could not complete says nothing about the key: stay with what we
+  // already knew, so queued results keep flushing on a flaky connection.
+  const keepPreviousState = () => {
+    const storedName = getStoredUserName();
+    if (storedName) {
+      loginState.userName = storedName;
+      loginState.valid = true;
+      void flushResultQueue();
+    }
+  };
+
   try {
     const userName = await fetchUserName(apiKey);
     loginState.checking = false;
@@ -548,15 +595,17 @@ const validateApiKey = async (apiKey) => {
       loginState.valid = true;
       localStorage.setItem(USER_NAME_STORAGE, userName);
       void flushResultQueue();
-    } else {
+    } else if (userName === "") {
+      // The server explicitly rejected the key.
       loginState.userName = "";
       loginState.valid = false;
       localStorage.removeItem(USER_NAME_STORAGE);
+    } else {
+      keepPreviousState();
     }
   } catch (error) {
     loginState.checking = false;
-    loginState.userName = "";
-    loginState.valid = false;
+    keepPreviousState();
   }
   updateLoginUi();
 };
@@ -581,7 +630,9 @@ const handleLoginClick = async () => {
 
 const initLoginState = async () => {
   loginState.userName = getStoredUserName();
-  loginState.valid = false;
+  // Trust a key that already validated on this device, so a failed check at
+  // startup does not strand the queue until the next reload.
+  loginState.valid = !!loginState.userName;
   loginState.checking = false;
   updateLoginUi();
 
