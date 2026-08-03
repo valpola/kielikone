@@ -22,6 +22,7 @@ const CACHE_STATUS = document.getElementById("cache-status");
 const PURGE_CACHE = document.getElementById("purge-cache");
 const PENDING_LIST = document.getElementById("pending-list");
 const RETRY_SYNC = document.getElementById("retry-sync");
+const DISCARD_PENDING = document.getElementById("discard-pending");
 const NOTE_DETAILS = document.getElementById("note");
 const NOTE_INPUT = document.getElementById("note-input");
 const NOTE_SAVE = document.getElementById("note-save");
@@ -1243,6 +1244,25 @@ if (RETRY_SYNC) {
       RETRY_SYNC.textContent = label;
       updateCacheStatusUi();
     }
+  });
+}
+
+if (DISCARD_PENDING) {
+  // Escape hatch for an entry the server will never accept. The answers are
+  // already in the local history, so scoring is unaffected — only the copy in
+  // the sheet is lost.
+  DISCARD_PENDING.addEventListener("click", () => {
+    const pending = loadResultQueue();
+    if (!pending.length) return;
+    const ok = window.confirm(
+      `Discard ${pending.length} answer(s) waiting to sync?\n\n` +
+        "They stay in this device's history and still count towards scoring, " +
+        "but they will not be written to the sheet."
+    );
+    if (!ok) return;
+    saveResultQueue([]);
+    lastSyncError = "";
+    updateCacheStatusUi();
   });
 }
 
