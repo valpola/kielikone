@@ -52,6 +52,7 @@ const COMMENT_TOKEN_STORAGE = "tr-quiz-github-token";
 // Local copy of the results history: the last CSV we successfully read, plus
 // events answered on this device. Lets recompute work offline and count words
 // answered since the last successful read.
+const APP_SECRET_STORAGE = "tr-quiz-app-secret";
 const HISTORY_SNAPSHOT_STORAGE = "tr-quiz-history-snapshot";
 const LOCAL_EVENTS_STORAGE = "tr-quiz-local-events";
 const DEFAULT_TODAY_LIMIT = 10;
@@ -74,7 +75,6 @@ const setLocalStats = (id, stats) => {
   localStorage.setItem(storageKey(id), JSON.stringify(stats));
 };
 
-const API_KEY_STORAGE = "tr-quiz-api-key";
 const USER_NAME_STORAGE = "tr-quiz-user-name";
 let loginState = {
   userName: "",
@@ -156,29 +156,33 @@ const enqueueResult = (payload) => {
 };
 
 const sendQueuedResult = async (endpoint, apiKey, payload) => {
-  const body = new URLSearchParams();
-  Object.entries(payload).forEach(([key, value]) => {
-    body.set(key, String(value));
-  });
-  body.set("api_key", apiKey);
-
-  // Without a timeout a hung POST leaves resultQueueBusy set for as long as the
-  // socket stays open, which silently blocks every later flush until a reload.
-  // Kept generous: the endpoint has been observed taking >60s, and aborting a
-  // request that would have succeeded just appends a duplicate row on retry.
+  // on_conflict names the unique key so a retry of an event that already landed
+  // is ignored instead of inserted again — the duplicate problem, fixed in the
+  // one place the client cannot otherwise solve it.
+  const url = `${getSupabaseUrl()}/rest/v1/results?on_conflict=client_event_id`;
   const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), 60000);
+  const timer = setTimeout(() => controller.abort(), 30000);
   try {
-    const response = await fetch(endpoint, {
+    const response = await fetch(url, {
       method: "POST",
-      mode: "cors",
-      body,
+      headers: {
+        ...supabaseHeaders(),
+        "Content-Type": "application/json",
+        Prefer: "resolution=ignore-duplicates,return=minimal",
+      },
+      body: JSON.stringify({
+        client_event_id: payload.client_event_id,
+        word_id: payload.word_id,
+        mode: payload.mode,
+        correct: payload.correct === true || payload.correct === "true",
+        answered_at: payload.timestamp,
+      }),
       keepalive: true,
       signal: controller.signal,
     });
-
+    if (response.ok) return { ok: true, status: response.status, text: "" };
     const text = (await response.text()).trim();
-    return { ok: response.ok && text === "OK", status: response.status, text };
+    return { ok: false, status: response.status, text };
   } finally {
     clearTimeout(timer);
   }
@@ -193,8 +197,8 @@ let lastSyncAttempt = "";
 const flushResultQueue = async () => {
   if (resultQueueBusy) return;
 
-  const endpoint = getResultsEndpoint();
-  const apiKey = getApiKey();
+  const endpoint = getSupabaseUrl();
+  const apiKey = getAppSecret();
   if (!endpoint || !apiKey || !loginState.valid) return;
 
   resultQueueBusy = true;
@@ -235,6 +239,62 @@ const flushResultQueue = async () => {
   }
 };
 
+// ---- Supabase results backend --------------------------------------------
+const getSupabaseUrl = () =>
+  String((typeof APP_CONFIG !== "undefined" && APP_CONFIG.supabaseUrl) || "").replace(/\/$/, "");
+const getSupabaseKey = () =>
+  String((typeof APP_CONFIG !== "undefined" && APP_CONFIG.supabaseKey) || "");
+const getAppSecret = () => localStorage.getItem(APP_SECRET_STORAGE) || "";
+const supabaseHeaders = () => ({
+  apikey: getSupabaseKey(),
+  Authorization: `Bearer ${getSupabaseKey()}`,
+  "x-app-secret": getAppSecret(),
+});
+const RESULTS_PAGE = 1000; // PostgREST returns at most 1000 rows per request
+
+// Read events, newest-last. `since` fetches only what we do not already have,
+// which is what keeps this small as the history grows.
+const fetchResultRows = async (since) => {
+  const base =
+    `${getSupabaseUrl()}/rest/v1/results` +
+    "?select=answered_at,word_id,mode,correct&order=answered_at.asc" +
+    (since ? `&answered_at=gt.${encodeURIComponent(since)}` : "");
+  const rows = [];
+  let offset = 0;
+  for (;;) {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), 30000);
+    let batch;
+    try {
+      const response = await fetch(base, {
+        cache: "no-store",
+        signal: controller.signal,
+        headers: {
+          ...supabaseHeaders(),
+          "Range-Unit": "items",
+          Range: `${offset}-${offset + RESULTS_PAGE - 1}`,
+        },
+      });
+      if (!response.ok) throw new Error(`results read failed: HTTP ${response.status}`);
+      batch = await response.json();
+    } finally {
+      clearTimeout(timer);
+    }
+    if (!Array.isArray(batch) || !batch.length) break;
+    batch.forEach((row) =>
+      rows.push({
+        timestamp: row.answered_at,
+        word_id: row.word_id,
+        mode: row.mode,
+        correct: row.correct,
+      })
+    );
+    if (batch.length < RESULTS_PAGE) break;
+    offset += batch.length;
+  }
+  return rows;
+};
+
 // ---- Local history store -------------------------------------------------
 // Merging is idempotent: a locally recorded event carries the same
 // (timestamp, word_id, mode, correct) tuple as the row that eventually reaches
@@ -247,17 +307,24 @@ const loadHistorySnapshot = () => {
     const raw = localStorage.getItem(HISTORY_SNAPSHOT_STORAGE);
     if (!raw) return null;
     const parsed = JSON.parse(raw);
-    return parsed && typeof parsed.csv === "string" ? parsed : null;
+    // Older snapshots stored the Sheets CSV text; ignore those and refetch.
+    if (!parsed || !Array.isArray(parsed.rows)) return null;
+    return parsed;
   } catch {
     return null;
   }
 };
 
-const saveHistorySnapshot = (csv) => {
+const saveHistorySnapshot = (rows) => {
   try {
+    // maxAnsweredAt is what makes the next read incremental.
+    let maxAnsweredAt = "";
+    rows.forEach((row) => {
+      if (row.timestamp && row.timestamp > maxAnsweredAt) maxAnsweredAt = row.timestamp;
+    });
     localStorage.setItem(
       HISTORY_SNAPSHOT_STORAGE,
-      JSON.stringify({ csv, fetchedAt: new Date().toISOString() })
+      JSON.stringify({ rows, maxAnsweredAt, fetchedAt: new Date().toISOString() })
     );
     snapshotWriteFailed = false;
   } catch {
@@ -360,7 +427,7 @@ const updateCacheStatusUi = () => {
   const queued = loadResultQueue().length;
   const parts = [];
   if (snapshot) {
-    const rows = Math.max(0, snapshot.csv.split("\n").filter((l) => l.trim()).length - 1);
+    const rows = snapshot.rows.length;
     const when = new Date(snapshot.fetchedAt);
     parts.push(`${rows.toLocaleString()} events cached (${when.toLocaleString()})`);
   } else {
@@ -523,18 +590,8 @@ const saveNote = () => {
   void flushCommentQueue({ interactive: true });
 };
 
-const getApiKey = () => {
-  return localStorage.getItem(API_KEY_STORAGE) || "";
-};
-
 const getStoredUserName = () => {
   return localStorage.getItem(USER_NAME_STORAGE) || "";
-};
-
-const getResultsEndpoint = () => {
-  if (typeof APP_CONFIG === "undefined") return "";
-  if (!APP_CONFIG.resultsEnabled) return "";
-  return APP_CONFIG.resultsEndpoint || "";
 };
 
 const getCacheBust = () => {
@@ -563,27 +620,40 @@ const updateLoginUi = () => {
   }
 };
 
-// Returns the user name, "" when the server actually rejects the key, or null
-// when the check could not be completed (offline, timeout, Apps Script 404).
-// The distinction matters: a transient failure must not mark the key invalid,
-// because that blocks the result queue for the rest of the session.
+// Returns a label when the secret works, "" when the server rejects it, or null
+// when the check could not be completed (offline/timeout). The distinction
+// matters: a transient failure must not mark the secret invalid, because that
+// blocks the result queue for the rest of the session.
+//
+// RLS filters reads silently rather than erroring, so a wrong secret yields an
+// empty result set. We therefore validate by asking for a count: the history is
+// never empty, so count > 0 means the secret was accepted.
 const fetchUserName = async (apiKey) => {
-  const endpoint = getResultsEndpoint();
-  if (!endpoint || !apiKey) return "";
-  const url = new URL(endpoint);
-  url.searchParams.set("api_key", apiKey);
-  url.searchParams.set("action", "whoami");
+  const url = getSupabaseUrl();
+  if (!url || !apiKey) return "";
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), 20000);
   try {
-    const response = await fetch(url.toString(), {
+    const response = await fetch(`${url}/rest/v1/results?select=id`, {
       cache: "no-store",
       signal: controller.signal,
+      headers: {
+        apikey: getSupabaseKey(),
+        Authorization: `Bearer ${getSupabaseKey()}`,
+        "x-app-secret": apiKey,
+        "Range-Unit": "items",
+        Range: "0-0",
+        Prefer: "count=exact",
+      },
     });
     if (!response.ok) return null;
-    const text = (await response.text()).trim();
-    if (!text || text === "Unauthorized") return "";
-    return text;
+    const range = response.headers.get("content-range") || "";
+    const total = Number(String(range.split("/")[1] || "0"));
+    if (!Number.isFinite(total) || total <= 0) return "";
+    return `synced (${total.toLocaleString()})`;
+  } catch (error) {
+    if (error && error.name === "AbortError") return null;
+    return null;
   } finally {
     clearTimeout(timer);
   }
@@ -594,7 +664,6 @@ const validateApiKey = async (apiKey) => {
     loginState.userName = "";
     loginState.valid = false;
     loginState.checking = false;
-    localStorage.removeItem(USER_NAME_STORAGE);
     updateLoginUi();
     return;
   }
@@ -602,8 +671,6 @@ const validateApiKey = async (apiKey) => {
   loginState.checking = true;
   updateLoginUi();
 
-  // A check we could not complete says nothing about the key: stay with what we
-  // already knew, so queued results keep flushing on a flaky connection.
   const keepPreviousState = () => {
     const storedName = getStoredUserName();
     if (storedName) {
@@ -614,15 +681,14 @@ const validateApiKey = async (apiKey) => {
   };
 
   try {
-    const userName = await fetchUserName(apiKey);
+    const label = await fetchUserName(apiKey);
     loginState.checking = false;
-    if (userName) {
-      loginState.userName = userName;
+    if (label) {
+      loginState.userName = label;
       loginState.valid = true;
-      localStorage.setItem(USER_NAME_STORAGE, userName);
+      localStorage.setItem(USER_NAME_STORAGE, label);
       void flushResultQueue();
-    } else if (userName === "") {
-      // The server explicitly rejected the key.
+    } else if (label === "") {
       loginState.userName = "";
       loginState.valid = false;
       localStorage.removeItem(USER_NAME_STORAGE);
@@ -637,12 +703,12 @@ const validateApiKey = async (apiKey) => {
 };
 
 const handleLoginClick = async () => {
-  const currentKey = getApiKey();
-  const value = window.prompt("Enter API key for results logging:", currentKey);
+  const currentKey = getAppSecret();
+  const value = window.prompt("Enter the app secret for results logging:", currentKey);
   if (value === null) return;
   const nextKey = value.trim();
   if (!nextKey) {
-    localStorage.removeItem(API_KEY_STORAGE);
+    localStorage.removeItem(APP_SECRET_STORAGE);
     localStorage.removeItem(USER_NAME_STORAGE);
     loginState.userName = "";
     loginState.valid = false;
@@ -650,7 +716,7 @@ const handleLoginClick = async () => {
     return;
   }
 
-  localStorage.setItem(API_KEY_STORAGE, nextKey);
+  localStorage.setItem(APP_SECRET_STORAGE, nextKey);
   await validateApiKey(nextKey);
 };
 
@@ -662,18 +728,15 @@ const initLoginState = async () => {
   loginState.checking = false;
   updateLoginUi();
 
-  const apiKey = getApiKey();
+  const apiKey = getAppSecret();
   if (apiKey) {
     await validateApiKey(apiKey);
   }
 };
 
 const sendResult = async (payload) => {
-  const endpoint = getResultsEndpoint();
-  if (!endpoint) return;
-
-  const apiKey = getApiKey();
-  if (!apiKey) return;
+  if (!getSupabaseUrl()) return;
+  if (!getAppSecret()) return;
 
   enqueueResult(payload);
   if (!loginState.valid) return;
@@ -836,57 +899,24 @@ const filterItemsByTags = (allItems, include, exclude) => {
   });
 };
 
-const getResultsCsvEndpoint = () => {
-  const endpoint = getResultsEndpoint();
-  if (!endpoint) return "";
-  if (endpoint.includes("?")) return `${endpoint}&format=csv`;
-  return `${endpoint}?format=csv`;
-};
-
-const fetchResultsCsv = async () => {
-  const endpoint = getResultsCsvEndpoint();
-  if (!endpoint) return "";
-  const url = new URL(endpoint);
-  const apiKey = getApiKey();
-  if (!apiKey || !loginState.valid) {
-    throw new Error("API key is required to fetch results");
-  }
-  if (apiKey) url.searchParams.set("api_key", apiKey);
-  const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), 15000);
-  try {
-    const response = await fetch(url.toString(), {
-      cache: "no-store",
-      signal: controller.signal,
-    });
-    if (!response.ok) {
-      throw new Error("Failed to fetch results");
-    }
-    return await response.text();
-  } finally {
-    clearTimeout(timer);
-  }
-};
-
 const recomputeToday = async ({ silent = false } = {}) => {
   if (typeof TodayScoring === "undefined") {
     if (!silent) window.alert("Today scoring module is missing.");
     return;
   }
 
-  const endpoint = getResultsEndpoint();
-  if (!endpoint) {
-    if (!silent) window.alert("Results endpoint is not configured.");
+  if (!getSupabaseUrl()) {
+    if (!silent) window.alert("Results backend is not configured.");
     return;
   }
   // With a cached history we can still recompute while offline / not verified.
   const canUseCache = !!loadHistorySnapshot();
-  if (!getApiKey() && !canUseCache) {
+  if (!getAppSecret() && !canUseCache) {
     if (!silent) window.alert("Login is required to fetch results.");
     return;
   }
   if (!loginState.valid && !canUseCache) {
-    if (!silent) window.alert("API key is invalid.");
+    if (!silent) window.alert("App secret is invalid.");
     return;
   }
 
@@ -906,28 +936,23 @@ const recomputeToday = async ({ silent = false } = {}) => {
   ANSWER.value = "";
 
   try {
-    // Prefer a fresh read; fall back to the local snapshot so a slow or failing
-    // endpoint no longer breaks recompute.
-    let csvText = "";
+    // Fetch only what the snapshot does not already have, then merge. Falls back
+    // to the snapshot alone if the read fails, so recompute still works offline.
+    const snapshot = loadHistorySnapshot();
+    let remoteRows = (snapshot && snapshot.rows) || [];
     let usedCache = false;
     try {
-      csvText = await fetchResultsCsv();
-      if (csvText) saveHistorySnapshot(csvText);
-    } catch {
-      csvText = "";
-    }
-    if (!csvText) {
-      const snapshot = loadHistorySnapshot();
-      if (snapshot) {
-        csvText = snapshot.csv;
-        usedCache = true;
+      const fresh = await fetchResultRows(snapshot && snapshot.maxAnsweredAt);
+      if (fresh.length || !snapshot) {
+        remoteRows = remoteRows.concat(fresh);
+        saveHistorySnapshot(remoteRows);
       }
+    } catch {
+      usedCache = true;
     }
-    if (!csvText) {
+    if (!remoteRows.length) {
       throw new Error("No results data received");
     }
-
-    const remoteRows = TodayScoring.parseCsv(csvText);
     if (!usedCache) {
       pruneLocalEvents(remoteRows);
       pruneResultQueue(remoteRows);
