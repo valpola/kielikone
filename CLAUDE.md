@@ -74,6 +74,19 @@ scratchpad once per session, then:
   `A1-6 reading exercise SÖZLÜK (Turkishle web)`, or `gap-fill: standard vocabulary…`.
 - Off-syllabus adds get the coarse level + an extra tag (`unit-a1` + `unit-a1-extra`),
   never a definite subunit. New tags must be added to `data/tags.json` or the export aborts.
+- **Every item wants a unit-*level* marker**, so the deck can be filtered by where a word
+  came from. A bare `unit-a1`/`unit-a2` is never the finished state — it means the source
+  wasn't traced. In order of preference: a **subunit** (`unit-a2-4b`); a **source-set tag**
+  when the source is a real list with no subunit (`unit-a1-cases` = the A1 Cases & Verbs
+  cross-unit supplement); or the **`-extra`** marker for genuinely off-syllabus words.
+  - **Base words of compounds are not off-syllabus.** Take the subunit of the earliest
+    compound they occur in and say so in `source`: `base word of “gitar teli” (A2-4B)`.
+    Match morphology-aware — plurals (`ürünler`) and possessives (`teli`) both hide the stem.
+  - Attestation means a **`Kelime / Anlamı` vocabulary-list entry**, not a mere mention: a
+    word appearing in a dialogue or grammar example belongs to no unit's syllabus (`göre`,
+    `birkaç`). Verify with the per-subunit PDFs where they exist (`A1_-_*`, `A2_-_1A…2B`);
+    for the rest, section the master coursebook on `^[1-6][ABC]\b` headings *after* the
+    ~200-line table of contents, and check hits fall inside a vocabulary-list span.
 - Glosses carry no parentheticals; disambiguators/format cues go in `hint_tr_en` (TR→EN) or
   `hint_en_tr` (EN→TR). Multi-form answers get `(X / Y)`. Keep circumflexes (`kâğıt`,
   `tarihî`) — matching folds `â/î/û`.
