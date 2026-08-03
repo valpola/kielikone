@@ -270,7 +270,6 @@ const fetchResultRows = async (since) => {
     const controller = new AbortController();
     const timer = setTimeout(() => controller.abort(), 30000);
     let batch;
-    let response_range = "";
     try {
       const response = await fetch(base, {
         cache: "no-store",
@@ -279,19 +278,12 @@ const fetchResultRows = async (since) => {
           ...supabaseHeaders(),
           "Range-Unit": "items",
           Range: `${offset}-${offset + RESULTS_PAGE - 1}`,
-          Prefer: "count=exact",
         },
       });
       if (!response.ok) throw new Error(`results read failed: HTTP ${response.status}`);
-      response_range = response.headers.get("content-range") || "";
       batch = await response.json();
     } finally {
       clearTimeout(timer);
-    }
-    const range = response_range;
-    if (range) {
-      const total = Number(String(range.split("/")[1] || "0"));
-      if (Number.isFinite(total) && total > 0) lastKnownTotal = total;
     }
     if (!Array.isArray(batch) || !batch.length) break;
     batch.forEach((row) =>
@@ -306,6 +298,24 @@ const fetchResultRows = async (since) => {
     offset += batch.length;
   }
   return rows;
+};
+
+// How many events this user has in the database. Counted with its own
+// unfiltered request: taking it from the incremental read's content-range
+// reported only the number of *new* rows.
+const fetchResultsTotal = async () => {
+  try {
+    const response = await fetch(`${getSupabaseUrl()}/rest/v1/results?select=id`, {
+      cache: "no-store",
+      headers: { ...supabaseHeaders(), "Range-Unit": "items", Range: "0-0", Prefer: "count=exact" },
+    });
+    if (!response.ok) return 0;
+    const range = response.headers.get("content-range") || "";
+    const total = Number(String(range.split("/")[1] || "0"));
+    return Number.isFinite(total) ? total : 0;
+  } catch {
+    return 0;
+  }
 };
 
 // ---- Local history store -------------------------------------------------
@@ -536,7 +546,14 @@ const updateCacheStatusUi = () => {
   } else {
     parts.push("no cached history");
   }
-  if (lastKnownTotal) parts.push(`${lastKnownTotal.toLocaleString()} in database`);
+  if (lastKnownTotal) {
+    const cached = snapshot ? snapshot.rows.length : 0;
+    const gap = lastKnownTotal - cached;
+    parts.push(
+      `${lastKnownTotal.toLocaleString()} in database` +
+        (snapshot && gap !== 0 ? ` (${gap > 0 ? "+" : ""}${gap} vs cache)` : "")
+    );
+  }
   if (localCount) parts.push(`+${localCount} local`);
   if (queued) parts.push(`${queued} queued`);
   if (snapshotWriteFailed) parts.push("cache write failed (quota)");
@@ -1061,6 +1078,7 @@ const recomputeToday = async ({ silent = false } = {}) => {
         remoteRows = remoteRows.concat(fresh);
         saveHistorySnapshot(remoteRows);
       }
+      lastKnownTotal = await fetchResultsTotal();
     } catch {
       usedCache = true;
     }
