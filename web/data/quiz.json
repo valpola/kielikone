@@ -3262,7 +3262,8 @@
         "adjective",
         "unit-a1-2c",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(nice, polite)"
     },
     {
       "id": "cand-a1-2c-0030",
@@ -4750,7 +4751,8 @@
         "unit-a1-3c",
         "unit-a1",
         "noun"
-      ]
+      ],
+      "hint_en_tr": "(in a restaurant)"
     },
     {
       "id": "cand-a1-3c-0013",
@@ -10314,7 +10316,8 @@
         "unit-a1-6a",
         "unit-a1",
         "unit-a1-6c"
-      ]
+      ],
+      "hint_en_tr": "(well-appointed, of a place or vehicle)"
     },
     {
       "id": "cand-a1-6a-0043",
@@ -17906,13 +17909,14 @@
     {
       "id": "cand-base-0077",
       "turkish": "dilemek",
-      "english": "to wish sth. to sb.",
+      "english": "to wish",
       "priority": 3,
       "tags": [
         "verb",
         "unit-a1-3b",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(sth. to sb.)"
     },
     {
       "id": "cand-base-0078",

@@ -1074,7 +1074,7 @@
     {
       "id": "cand-base-0077",
       "turkish": "dilemek",
-      "english": "to wish sth. to sb.",
+      "english": "to wish",
       "priority": 3,
       "tags": [
         "verb",
@@ -1083,7 +1083,8 @@
       ],
       "source": "base word of “özür dilemek” (A1-3B, Turkishle)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(sth. to sb.)"
     },
     {
       "id": "cand-base-0078",
