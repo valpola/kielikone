@@ -82,11 +82,20 @@ scratchpad once per session, then:
   - **Base words of compounds are not off-syllabus.** Take the subunit of the earliest
     compound they occur in and say so in `source`: `base word of “gitar teli” (A2-4B)`.
     Match morphology-aware — plurals (`ürünler`) and possessives (`teli`) both hide the stem.
-  - **`-extra` is not a subunit** and must never stand in for one. Before reaching for it,
-    exhaust the vocabulary lists; if the word is only in a dialogue or grammar example, still
-    give it the subunit it occurs in and let `source` say it was a dialogue (`birkaç` →
-    `unit-a2-6a`, "A2-6A coursebook dialogue (not in any unit vocabulary list)"). Reserve
-    `-extra` for words absent from the books altogether (`örümcek`, the maths set).
+  - **`-extra` is not a subunit** and must never stand in for one — the two are orthogonal:
+    the subunit says *where it belongs in the syllabus*, `-extra` says *it isn't from the
+    book*. Every item gets a subunit; gap-fills get a subunit **and** `-extra`.
+    - In the books, in the **taught sense** → subunit of first occurrence, no `-extra`;
+      `source` says whether it was a vocabulary list or a dialogue (`birkaç` → `unit-a2-6a`,
+      "A2-6A coursebook dialogue (not in any unit vocabulary list)").
+    - Absent, or present only **in another sense** → the subunit whose list owns that topic,
+      plus `-extra`, with `source` naming the group and the reason: `fırtına` → `unit-a2-5a`
+      ("filed with the A2-5A weather list"); `kapalı` → `unit-a1-6a`, since only the place
+      name *Kapalı Çarşı* occurs; `sağ` → `unit-a2-1a`, since only *sağ ol* (thanks) occurs.
+    - Find the owning subunit by looking up **peer words**, not the word itself: clothing →
+      A2-1B, professions → A2-3B, weather → A2-5A, family → A1-4A, animals → A2-2B,
+      countries/languages → A1-4B, relative directions → A2-1A (`yol tarifi`), numbers and
+      arithmetic → A1-2B, greetings/politeness → A1-1A.
 
 **Locating a word's subunit** — build the 36 vocabulary lists, then match against them:
 - The **per-subunit PDFs are pure vocabulary lists** (title, `KELİME LİSTESİ`, POS-grouped

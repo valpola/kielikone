@@ -80,10 +80,11 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1",
-        "unit-a1-extra"
+        "unit-a2-2c",
+        "unit-a2",
+        "unit-a2-extra"
       ],
-      "source": "gap-fill: standard vocabulary, not found in Turkishle A1/A2/B1 coursebooks",
+      "source": "gap-fill: not in the coursebooks; filed with the A2-2C health vocabulary",
       "notes": "",
       "status": "approved"
     },
@@ -94,10 +95,11 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1",
-        "unit-a1-extra"
+        "unit-a2-2c",
+        "unit-a2",
+        "unit-a2-extra"
       ],
-      "source": "gap-fill: standard vocabulary, not found in Turkishle A1/A2/B1 coursebooks",
+      "source": "gap-fill: not in the coursebooks; filed with the A2-2C health vocabulary",
       "notes": "",
       "status": "approved"
     },
@@ -207,10 +209,11 @@
       "priority": 3,
       "tags": [
         "noun",
+        "unit-a2-1b",
         "unit-a2",
         "unit-a2-extra"
       ],
-      "source": "gap-fill: standard vocabulary, not found in Turkishle A1/A2/B1 coursebooks",
+      "source": "gap-fill: not in the coursebooks; filed with the A2-1B clothing vocabulary",
       "notes": "",
       "status": "approved"
     },
@@ -235,10 +238,11 @@
       "priority": 3,
       "tags": [
         "noun",
+        "unit-a2-1b",
         "unit-a2",
         "unit-a2-extra"
       ],
-      "source": "gap-fill: standard vocabulary, not found in Turkishle A1/A2/B1 coursebooks",
+      "source": "gap-fill: not in the coursebooks; filed with the A2-1B clothing vocabulary",
       "notes": "",
       "status": "approved"
     },
@@ -249,10 +253,11 @@
       "priority": 3,
       "tags": [
         "noun",
+        "unit-a2-1b",
         "unit-a2",
         "unit-a2-extra"
       ],
-      "source": "gap-fill: standard vocabulary, not found in Turkishle A1/A2/B1 coursebooks",
+      "source": "gap-fill: not in the coursebooks; filed with the A2-1B clothing vocabulary",
       "notes": "",
       "status": "approved"
     },
@@ -263,10 +268,11 @@
       "priority": 3,
       "tags": [
         "noun",
+        "unit-a2-1b",
         "unit-a2",
         "unit-a2-extra"
       ],
-      "source": "gap-fill: standard vocabulary, not found in Turkishle A1/A2/B1 coursebooks",
+      "source": "gap-fill: not in the coursebooks; filed with the A2-1B clothing vocabulary",
       "notes": "",
       "status": "approved"
     },
@@ -277,10 +283,11 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1",
-        "unit-a1-extra"
+        "unit-a2-1a",
+        "unit-a2",
+        "unit-a2-extra"
       ],
-      "source": "Turkishle coursebook (A1, A2, B1)",
+      "source": "gap-fill: not in the coursebooks; only “sağ ol” (thanks) occurs in the books; filed with the A2-1A directions lesson",
       "notes": "",
       "status": "approved",
       "hint_tr_en": "(yön)"
@@ -292,10 +299,11 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1",
-        "unit-a1-extra"
+        "unit-a2-1a",
+        "unit-a2",
+        "unit-a2-extra"
       ],
-      "source": "Turkishle coursebook (A2)",
+      "source": "gap-fill: not in the coursebooks; filed with the A2-1A directions lesson",
       "notes": "",
       "status": "approved",
       "hint_tr_en": "(yön)"
@@ -307,10 +315,11 @@
       "priority": 3,
       "tags": [
         "noun",
+        "unit-a1-4b",
         "unit-a1",
         "unit-a1-extra"
       ],
-      "source": "gap-fill: standard vocabulary, not found in Turkishle A1/A2/B1 coursebooks",
+      "source": "gap-fill: not in the coursebooks; filed with the A1-4B compass/country vocabulary",
       "notes": "",
       "status": "approved"
     },
@@ -321,10 +330,11 @@
       "priority": 3,
       "tags": [
         "adverb",
-        "unit-a1",
-        "unit-a1-extra"
+        "unit-a2-1a",
+        "unit-a2",
+        "unit-a2-extra"
       ],
-      "source": "Turkishle coursebook (B1)",
+      "source": "gap-fill: not in the coursebooks; filed with the A2-1A directions lesson",
       "notes": "",
       "status": "approved"
     },
@@ -335,10 +345,11 @@
       "priority": 3,
       "tags": [
         "adverb",
-        "unit-a1",
-        "unit-a1-extra"
+        "unit-a2-1a",
+        "unit-a2",
+        "unit-a2-extra"
       ],
-      "source": "Turkishle coursebook (A2)",
+      "source": "gap-fill: not in the coursebooks; occurs only as an exercise instruction; filed with the A2-1A directions lesson",
       "notes": "",
       "status": "approved"
     },
@@ -349,10 +360,11 @@
       "priority": 3,
       "tags": [
         "adverb",
-        "unit-a1",
-        "unit-a1-extra"
+        "unit-a2-1a",
+        "unit-a2",
+        "unit-a2-extra"
       ],
-      "source": "Turkishle coursebook (A2)",
+      "source": "gap-fill: not in the coursebooks; only “ileri seviye” (advanced) occurs in the books; filed with the A2-1A directions lesson",
       "notes": "",
       "status": "approved"
     },
@@ -420,10 +432,11 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1",
-        "unit-a1-extra"
+        "unit-a2-5a",
+        "unit-a2",
+        "unit-a2-extra"
       ],
-      "source": "Turkishle coursebook (A2)",
+      "source": "gap-fill: not in the coursebooks; filed with the A2-5A weather list",
       "notes": "",
       "status": "approved"
     },
@@ -532,10 +545,11 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1",
-        "unit-a1-extra"
+        "unit-a2-3b",
+        "unit-a2",
+        "unit-a2-extra"
       ],
-      "source": "Turkishle coursebook (A1, B1)",
+      "source": "gap-fill: not in the coursebooks; filed with the A2-3B professions list",
       "notes": "",
       "status": "approved"
     },
@@ -546,10 +560,10 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1",
-        "unit-a1-extra"
+        "unit-a1-3c",
+        "unit-a1"
       ],
-      "source": "Turkishle coursebook (A1, A2)",
+      "source": "A1-3C coursebook dialogue (not in any unit vocabulary list)",
       "notes": "",
       "status": "approved"
     },
@@ -616,10 +630,11 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1",
-        "unit-a1-extra"
+        "unit-a2-3b",
+        "unit-a2",
+        "unit-a2-extra"
       ],
-      "source": "gap-fill: standard vocabulary, not found in Turkishle A1/A2/B1 coursebooks",
+      "source": "gap-fill: not in the coursebooks; filed with the A2-3B professions list",
       "notes": "",
       "status": "approved"
     },
@@ -630,10 +645,10 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1",
-        "unit-a1-extra"
+        "unit-a1-1a",
+        "unit-a1"
       ],
-      "source": "Turkishle coursebook (A1)",
+      "source": "A1-1A coursebook dialogue (not in any unit vocabulary list)",
       "notes": "",
       "status": "approved"
     },
@@ -644,10 +659,11 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1",
-        "unit-a1-extra"
+        "unit-a2-3b",
+        "unit-a2",
+        "unit-a2-extra"
       ],
-      "source": "gap-fill: standard vocabulary, not found in Turkishle A1/A2/B1 coursebooks",
+      "source": "gap-fill: not in the coursebooks; filed with the A2-3B professions list",
       "notes": "",
       "status": "approved"
     },
@@ -687,10 +703,10 @@
       "priority": 3,
       "tags": [
         "adverb",
-        "unit-a1",
-        "unit-a1-extra"
+        "unit-a1-2c",
+        "unit-a1"
       ],
-      "source": "Turkishle coursebook (A1, A2, B1)",
+      "source": "A1-2C coursebook dialogue (not in any unit vocabulary list)",
       "notes": "",
       "status": "approved"
     },
@@ -701,10 +717,11 @@
       "priority": 3,
       "tags": [
         "adverb",
+        "unit-a1-0a",
         "unit-a1",
         "unit-a1-extra"
       ],
-      "source": "Turkishle coursebook (neden A1-B1; niye B1) + niçin (standard synonym / gap-fill)",
+      "source": "A1-0A alphabet example word (neden); no unit vocabulary-list entry; niçin added as a standard synonym",
       "notes": "",
       "status": "approved",
       "hint_en_tr": "(X / Y / Z)"
@@ -716,10 +733,10 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1",
-        "unit-a1-extra"
+        "unit-a1-6a",
+        "unit-a1"
       ],
-      "source": "Turkishle coursebook (A1, A2, B1)",
+      "source": "A1-6A coursebook dialogue (not in any unit vocabulary list)",
       "notes": "",
       "status": "approved",
       "hint_tr_en": "(kapı vb.)"
@@ -731,10 +748,11 @@
       "priority": 3,
       "tags": [
         "adjective",
+        "unit-a1-6a",
         "unit-a1",
         "unit-a1-extra"
       ],
-      "source": "Turkishle coursebook (A1, B1)",
+      "source": "gap-fill: not in the coursebooks; only the place name “Kapalı Çarşı” occurs in the books; filed with A1-6A, where its opposite “açık” is attested",
       "notes": "",
       "status": "approved",
       "hint_tr_en": "(kapı vb.)"
@@ -761,10 +779,11 @@
       "priority": 3,
       "tags": [
         "noun",
+        "unit-a1-4a",
         "unit-a1",
         "unit-a1-extra"
       ],
-      "source": "gap-fill: standard vocabulary; user recalls seeing it online, not in A1/A2/B1 coursebooks",
+      "source": "gap-fill: not in the coursebooks; filed with the A1-4A family vocabulary",
       "notes": "second sense is a separate entry",
       "status": "approved",
       "hint_tr_en": "(evlenen erkek)"
@@ -776,10 +795,11 @@
       "priority": 3,
       "tags": [
         "noun",
+        "unit-a1-4a",
         "unit-a1",
         "unit-a1-extra"
       ],
-      "source": "gap-fill: standard vocabulary; user recalls seeing it online, not in A1/A2/B1 coursebooks",
+      "source": "gap-fill: not in the coursebooks; filed with the A1-4A family vocabulary",
       "notes": "",
       "status": "approved"
     },
@@ -790,10 +810,11 @@
       "priority": 3,
       "tags": [
         "noun",
+        "unit-a1-4a",
         "unit-a1",
         "unit-a1-extra"
       ],
-      "source": "gap-fill: standard vocabulary; user recalls seeing it online, not in A1/A2/B1 coursebooks",
+      "source": "gap-fill: not in the coursebooks; filed with the A1-4A family vocabulary",
       "notes": "",
       "status": "approved"
     },
@@ -819,10 +840,11 @@
       "priority": 3,
       "tags": [
         "noun",
+        "unit-a1-4a",
         "unit-a1",
         "unit-a1-extra"
       ],
-      "source": "gap-fill: standard vocabulary; user recalls seeing it online, not in A1/A2/B1 coursebooks",
+      "source": "gap-fill: not in the coursebooks; filed with the A1-4A family vocabulary",
       "notes": "second sense is a separate entry",
       "status": "approved",
       "hint_tr_en": "(kızının eşi)"

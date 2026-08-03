@@ -333,10 +333,11 @@
       "priority": 3,
       "tags": [
         "number",
+        "unit-a1-2b",
         "unit-a1",
         "unit-a1-extra"
       ],
-      "source": "gap-fill: standard cardinal extension to 10^12, not in Turkishle A1/A2/B1 coursebooks",
+      "source": "gap-fill: not in Turkishle A1/A2/B1; filed with the A1-2B numbers list",
       "notes": "",
       "status": "approved"
     },
@@ -488,10 +489,11 @@
       "priority": 3,
       "tags": [
         "number",
+        "unit-a1-2b",
         "unit-a1",
         "unit-a1-extra"
       ],
-      "source": "gap-fill: standard vocabulary, not in Turkishle A1/A2/B1 coursebooks",
+      "source": "gap-fill: not in Turkishle A1/A2/B1; filed with the A1-2B numbers list",
       "notes": "",
       "status": "approved"
     }

@@ -99,9 +99,11 @@
       "priority": 3,
       "tags": [
         "language",
-        "unit-extra"
+        "unit-a1-4b",
+        "unit-a1",
+        "unit-a1-extra"
       ],
-      "source": "Personal addition (Finnish/Polish)",
+      "source": "gap-fill: not in the coursebooks; filed with the A1-4B country/language list",
       "notes": "",
       "status": "approved",
       "hint_en_tr": "(language)"
@@ -113,9 +115,11 @@
       "priority": 3,
       "tags": [
         "language",
-        "unit-extra"
+        "unit-a1-4b",
+        "unit-a1",
+        "unit-a1-extra"
       ],
-      "source": "Personal addition (Finnish/Polish)",
+      "source": "gap-fill: not in the coursebooks; filed with the A1-4B country/language list",
       "notes": "Capital Lehçe = Polish; lowercase lehçe = dialect",
       "status": "approved",
       "hint_en_tr": "(language)"
@@ -127,9 +131,11 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-extra"
+        "unit-a1-4b",
+        "unit-a1",
+        "unit-a1-extra"
       ],
-      "source": "Personal addition (Finnish/Polish)",
+      "source": "gap-fill: not in the coursebooks; filed with the A1-4B country/language list",
       "notes": "Finli is also heard but non-standard; deliberately omitted",
       "hint_en_tr": "(person — X / Y)",
       "status": "approved"
@@ -141,9 +147,11 @@
       "priority": 3,
       "tags": [
         "country",
-        "unit-extra"
+        "unit-a1-4b",
+        "unit-a1",
+        "unit-a1-extra"
       ],
-      "source": "Personal addition (Finnish/Polish)",
+      "source": "gap-fill: not in the coursebooks; filed with the A1-4B country/language list",
       "notes": "",
       "status": "approved"
     },
@@ -154,9 +162,11 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-extra"
+        "unit-a1-4b",
+        "unit-a1",
+        "unit-a1-extra"
       ],
-      "source": "Personal addition (Finnish/Polish)",
+      "source": "gap-fill: not in the coursebooks; filed with the A1-4B country/language list",
       "notes": "",
       "status": "approved",
       "hint_en_tr": "(person)"

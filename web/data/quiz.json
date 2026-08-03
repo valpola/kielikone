@@ -11340,7 +11340,8 @@
       "priority": 3,
       "tags": [
         "expression",
-        "unit-extra"
+        "unit-a1-1b",
+        "unit-a1"
       ]
     },
     {
@@ -11350,7 +11351,8 @@
       "priority": 3,
       "tags": [
         "expression",
-        "unit-extra"
+        "unit-a1-2b",
+        "unit-a1"
       ]
     },
     {
@@ -11360,7 +11362,8 @@
       "priority": 3,
       "tags": [
         "expression",
-        "unit-extra"
+        "unit-a1-2a",
+        "unit-a1"
       ]
     },
     {
@@ -11370,7 +11373,8 @@
       "priority": 3,
       "tags": [
         "expression",
-        "unit-extra"
+        "unit-a1-2a",
+        "unit-a1"
       ]
     },
     {
@@ -11380,7 +11384,8 @@
       "priority": 3,
       "tags": [
         "expression",
-        "unit-extra"
+        "unit-a1-1b",
+        "unit-a1"
       ],
       "hint_en_tr": "(agreeing)"
     },
@@ -11391,7 +11396,9 @@
       "priority": 3,
       "tags": [
         "expression",
-        "unit-extra"
+        "unit-a1-1a",
+        "unit-a1",
+        "unit-a1-extra"
       ]
     },
     {
@@ -11401,7 +11408,8 @@
       "priority": 3,
       "tags": [
         "expression",
-        "unit-extra"
+        "unit-a1-1a",
+        "unit-a1"
       ]
     },
     {
@@ -11411,7 +11419,8 @@
       "priority": 3,
       "tags": [
         "expression",
-        "unit-extra"
+        "unit-a1-2a",
+        "unit-a1"
       ]
     },
     {
@@ -11421,7 +11430,8 @@
       "priority": 3,
       "tags": [
         "expression",
-        "unit-extra"
+        "unit-a1-2c",
+        "unit-a1"
       ],
       "hint_en_tr": "(answering)"
     },
@@ -11432,7 +11442,8 @@
       "priority": 3,
       "tags": [
         "expression",
-        "unit-extra"
+        "unit-a1-2b",
+        "unit-a1"
       ]
     },
     {
@@ -11442,7 +11453,8 @@
       "priority": 3,
       "tags": [
         "expression",
-        "unit-extra"
+        "unit-a1-2c",
+        "unit-a1"
       ]
     },
     {
@@ -11452,7 +11464,9 @@
       "priority": 3,
       "tags": [
         "expression",
-        "unit-extra"
+        "unit-a1-1a",
+        "unit-a1",
+        "unit-a1-extra"
       ]
     },
     {
@@ -11462,7 +11476,8 @@
       "priority": 3,
       "tags": [
         "expression",
-        "unit-extra"
+        "unit-a1-2c",
+        "unit-a1"
       ]
     },
     {
@@ -11483,7 +11498,8 @@
       "priority": 3,
       "tags": [
         "expression",
-        "unit-extra"
+        "unit-a1-5c",
+        "unit-a1"
       ]
     },
     {
@@ -11493,7 +11509,8 @@
       "priority": 3,
       "tags": [
         "expression",
-        "unit-extra"
+        "unit-a1-1b",
+        "unit-a1"
       ],
       "hint_en_tr": "(reply to 'how are you?')"
     },
@@ -11504,7 +11521,8 @@
       "priority": 3,
       "tags": [
         "expression",
-        "unit-extra"
+        "unit-a1-2b",
+        "unit-a1"
       ]
     },
     {
@@ -17975,8 +17993,9 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1",
-        "unit-a1-extra"
+        "unit-a2-2c",
+        "unit-a2",
+        "unit-a2-extra"
       ]
     },
     {
@@ -17986,8 +18005,9 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1",
-        "unit-a1-extra"
+        "unit-a2-2c",
+        "unit-a2",
+        "unit-a2-extra"
       ]
     },
     {
@@ -18075,6 +18095,7 @@
       "priority": 3,
       "tags": [
         "noun",
+        "unit-a2-1b",
         "unit-a2",
         "unit-a2-extra"
       ]
@@ -18097,6 +18118,7 @@
       "priority": 3,
       "tags": [
         "noun",
+        "unit-a2-1b",
         "unit-a2",
         "unit-a2-extra"
       ]
@@ -18108,6 +18130,7 @@
       "priority": 3,
       "tags": [
         "noun",
+        "unit-a2-1b",
         "unit-a2",
         "unit-a2-extra"
       ]
@@ -18119,6 +18142,7 @@
       "priority": 3,
       "tags": [
         "noun",
+        "unit-a2-1b",
         "unit-a2",
         "unit-a2-extra"
       ]
@@ -18130,8 +18154,9 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1",
-        "unit-a1-extra"
+        "unit-a2-1a",
+        "unit-a2",
+        "unit-a2-extra"
       ],
       "hint_tr_en": "(y\u00f6n)"
     },
@@ -18142,8 +18167,9 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1",
-        "unit-a1-extra"
+        "unit-a2-1a",
+        "unit-a2",
+        "unit-a2-extra"
       ],
       "hint_tr_en": "(y\u00f6n)"
     },
@@ -18154,6 +18180,7 @@
       "priority": 3,
       "tags": [
         "noun",
+        "unit-a1-4b",
         "unit-a1",
         "unit-a1-extra"
       ]
@@ -18165,8 +18192,9 @@
       "priority": 3,
       "tags": [
         "adverb",
-        "unit-a1",
-        "unit-a1-extra"
+        "unit-a2-1a",
+        "unit-a2",
+        "unit-a2-extra"
       ]
     },
     {
@@ -18176,8 +18204,9 @@
       "priority": 3,
       "tags": [
         "adverb",
-        "unit-a1",
-        "unit-a1-extra"
+        "unit-a2-1a",
+        "unit-a2",
+        "unit-a2-extra"
       ]
     },
     {
@@ -18187,8 +18216,9 @@
       "priority": 3,
       "tags": [
         "adverb",
-        "unit-a1",
-        "unit-a1-extra"
+        "unit-a2-1a",
+        "unit-a2",
+        "unit-a2-extra"
       ]
     },
     {
@@ -18243,8 +18273,9 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1",
-        "unit-a1-extra"
+        "unit-a2-5a",
+        "unit-a2",
+        "unit-a2-extra"
       ]
     },
     {
@@ -18331,8 +18362,9 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1",
-        "unit-a1-extra"
+        "unit-a2-3b",
+        "unit-a2",
+        "unit-a2-extra"
       ]
     },
     {
@@ -18342,8 +18374,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1",
-        "unit-a1-extra"
+        "unit-a1-3c",
+        "unit-a1"
       ]
     },
     {
@@ -18397,8 +18429,9 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1",
-        "unit-a1-extra"
+        "unit-a2-3b",
+        "unit-a2",
+        "unit-a2-extra"
       ]
     },
     {
@@ -18408,8 +18441,8 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1",
-        "unit-a1-extra"
+        "unit-a1-1a",
+        "unit-a1"
       ]
     },
     {
@@ -18419,8 +18452,9 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-a1",
-        "unit-a1-extra"
+        "unit-a2-3b",
+        "unit-a2",
+        "unit-a2-extra"
       ]
     },
     {
@@ -18453,8 +18487,8 @@
       "priority": 3,
       "tags": [
         "adverb",
-        "unit-a1",
-        "unit-a1-extra"
+        "unit-a1-2c",
+        "unit-a1"
       ]
     },
     {
@@ -18464,6 +18498,7 @@
       "priority": 3,
       "tags": [
         "adverb",
+        "unit-a1-0a",
         "unit-a1",
         "unit-a1-extra"
       ],
@@ -18476,8 +18511,8 @@
       "priority": 3,
       "tags": [
         "adjective",
-        "unit-a1",
-        "unit-a1-extra"
+        "unit-a1-6a",
+        "unit-a1"
       ],
       "hint_tr_en": "(kap\u0131 vb.)"
     },
@@ -18488,6 +18523,7 @@
       "priority": 3,
       "tags": [
         "adjective",
+        "unit-a1-6a",
         "unit-a1",
         "unit-a1-extra"
       ],
@@ -18524,6 +18560,7 @@
       "priority": 3,
       "tags": [
         "noun",
+        "unit-a1-4a",
         "unit-a1",
         "unit-a1-extra"
       ],
@@ -18536,6 +18573,7 @@
       "priority": 3,
       "tags": [
         "noun",
+        "unit-a1-4a",
         "unit-a1",
         "unit-a1-extra"
       ],
@@ -18548,6 +18586,7 @@
       "priority": 3,
       "tags": [
         "noun",
+        "unit-a1-4a",
         "unit-a1",
         "unit-a1-extra"
       ]
@@ -18559,6 +18598,7 @@
       "priority": 3,
       "tags": [
         "noun",
+        "unit-a1-4a",
         "unit-a1",
         "unit-a1-extra"
       ]
@@ -18642,7 +18682,9 @@
       "priority": 3,
       "tags": [
         "language",
-        "unit-extra"
+        "unit-a1-4b",
+        "unit-a1",
+        "unit-a1-extra"
       ],
       "hint_en_tr": "(language)"
     },
@@ -18653,7 +18695,9 @@
       "priority": 3,
       "tags": [
         "language",
-        "unit-extra"
+        "unit-a1-4b",
+        "unit-a1",
+        "unit-a1-extra"
       ],
       "hint_en_tr": "(language)"
     },
@@ -18664,7 +18708,9 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-extra"
+        "unit-a1-4b",
+        "unit-a1",
+        "unit-a1-extra"
       ],
       "hint_en_tr": "(person \u2014 X / Y)"
     },
@@ -18675,7 +18721,9 @@
       "priority": 3,
       "tags": [
         "country",
-        "unit-extra"
+        "unit-a1-4b",
+        "unit-a1",
+        "unit-a1-extra"
       ]
     },
     {
@@ -18685,7 +18733,9 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-extra"
+        "unit-a1-4b",
+        "unit-a1",
+        "unit-a1-extra"
       ],
       "hint_en_tr": "(person)"
     },
@@ -19050,7 +19100,8 @@
       "tags": [
         "math",
         "noun",
-        "unit-extra"
+        "unit-a2-1c",
+        "unit-a2"
       ]
     },
     {
@@ -19061,7 +19112,9 @@
       "tags": [
         "math",
         "noun",
-        "unit-extra"
+        "unit-a1-2b",
+        "unit-a1",
+        "unit-a1-extra"
       ]
     },
     {
@@ -19072,7 +19125,9 @@
       "tags": [
         "math",
         "noun",
-        "unit-extra"
+        "unit-a1-2b",
+        "unit-a1",
+        "unit-a1-extra"
       ]
     },
     {
@@ -19083,7 +19138,9 @@
       "tags": [
         "math",
         "noun",
-        "unit-extra"
+        "unit-a1-2b",
+        "unit-a1",
+        "unit-a1-extra"
       ]
     },
     {
@@ -19094,7 +19151,9 @@
       "tags": [
         "math",
         "noun",
-        "unit-extra"
+        "unit-a1-2b",
+        "unit-a1",
+        "unit-a1-extra"
       ]
     },
     {
@@ -19105,7 +19164,9 @@
       "tags": [
         "math",
         "noun",
-        "unit-extra"
+        "unit-a1-2b",
+        "unit-a1",
+        "unit-a1-extra"
       ]
     },
     {
@@ -19116,7 +19177,9 @@
       "tags": [
         "math",
         "noun",
-        "unit-extra"
+        "unit-a1-2b",
+        "unit-a1",
+        "unit-a1-extra"
       ]
     },
     {
@@ -19127,7 +19190,9 @@
       "tags": [
         "math",
         "noun",
-        "unit-extra"
+        "unit-a1-2b",
+        "unit-a1",
+        "unit-a1-extra"
       ]
     },
     {
@@ -19138,7 +19203,9 @@
       "tags": [
         "math",
         "noun",
-        "unit-extra"
+        "unit-a1-2b",
+        "unit-a1",
+        "unit-a1-extra"
       ],
       "hint_tr_en": "(matematik)"
     },
@@ -19150,7 +19217,9 @@
       "tags": [
         "math",
         "noun",
-        "unit-extra"
+        "unit-a1-2b",
+        "unit-a1",
+        "unit-a1-extra"
       ]
     },
     {
@@ -19161,7 +19230,9 @@
       "tags": [
         "math",
         "noun",
-        "unit-extra"
+        "unit-a1-2b",
+        "unit-a1",
+        "unit-a1-extra"
       ]
     },
     {
@@ -19172,7 +19243,9 @@
       "tags": [
         "math",
         "noun",
-        "unit-extra"
+        "unit-a1-2b",
+        "unit-a1",
+        "unit-a1-extra"
       ]
     },
     {
@@ -19183,7 +19256,9 @@
       "tags": [
         "math",
         "noun",
-        "unit-extra"
+        "unit-a1-2b",
+        "unit-a1",
+        "unit-a1-extra"
       ]
     },
     {
@@ -19194,7 +19269,9 @@
       "tags": [
         "math",
         "noun",
-        "unit-extra"
+        "unit-a1-2b",
+        "unit-a1",
+        "unit-a1-extra"
       ]
     },
     {
@@ -19205,7 +19282,9 @@
       "tags": [
         "math",
         "noun",
-        "unit-extra"
+        "unit-a1-2b",
+        "unit-a1",
+        "unit-a1-extra"
       ]
     },
     {
@@ -19470,6 +19549,7 @@
       "priority": 3,
       "tags": [
         "number",
+        "unit-a1-2b",
         "unit-a1",
         "unit-a1-extra"
       ]
@@ -19592,6 +19672,7 @@
       "priority": 3,
       "tags": [
         "number",
+        "unit-a1-2b",
         "unit-a1",
         "unit-a1-extra"
       ]
@@ -20578,7 +20659,9 @@
       "priority": 3,
       "tags": [
         "noun",
-        "unit-extra"
+        "unit-a2-2b",
+        "unit-a2",
+        "unit-a2-extra"
       ]
     },
     {
