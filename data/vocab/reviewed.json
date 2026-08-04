@@ -22942,6 +22942,281 @@
       "status": "approved"
     },
     {
+      "id": "cand-card-0031",
+      "turkish": "Akdeniz",
+      "english": "the Mediterranean",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "geography",
+        "unit-a1-6a",
+        "unit-a1"
+      ],
+      "source": "A1-6A vocabulary card (Turkishle web); the unit teaches them as compound-noun examples",
+      "notes": "Place name from the A1-6A card list. Kept as vocabulary rather than skipped as a proper noun: these are the names you meet travelling in Turkey. Its parts \u2014 deniz, b\u00f6lge, g\u00f6l \u2014 are already in the deck, which is the point the unit is making about ad tamlamas\u0131.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-card-0032",
+      "turkish": "Karadeniz",
+      "english": "the Black Sea",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "geography",
+        "unit-a1-6a",
+        "unit-a1"
+      ],
+      "source": "A1-6A vocabulary card (Turkishle web); the unit teaches them as compound-noun examples",
+      "notes": "Place name from the A1-6A card list. Kept as vocabulary rather than skipped as a proper noun: these are the names you meet travelling in Turkey. Its parts \u2014 deniz, b\u00f6lge, g\u00f6l \u2014 are already in the deck, which is the point the unit is making about ad tamlamas\u0131.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-card-0033",
+      "turkish": "Ege Denizi",
+      "english": "the Aegean Sea",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "geography",
+        "unit-a1-6a",
+        "unit-a1"
+      ],
+      "source": "A1-6A vocabulary card (Turkishle web); the unit teaches them as compound-noun examples",
+      "notes": "Place name from the A1-6A card list. Kept as vocabulary rather than skipped as a proper noun: these are the names you meet travelling in Turkey. Its parts \u2014 deniz, b\u00f6lge, g\u00f6l \u2014 are already in the deck, which is the point the unit is making about ad tamlamas\u0131.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-card-0034",
+      "turkish": "Marmara Denizi",
+      "english": "the Sea of Marmara",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "geography",
+        "unit-a1-6a",
+        "unit-a1"
+      ],
+      "source": "A1-6A vocabulary card (Turkishle web); the unit teaches them as compound-noun examples",
+      "notes": "Place name from the A1-6A card list. Kept as vocabulary rather than skipped as a proper noun: these are the names you meet travelling in Turkey. Its parts \u2014 deniz, b\u00f6lge, g\u00f6l \u2014 are already in the deck, which is the point the unit is making about ad tamlamas\u0131.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-card-0035",
+      "turkish": "Marmara B\u00f6lgesi",
+      "english": "the Marmara Region",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "geography",
+        "unit-a1-6a",
+        "unit-a1"
+      ],
+      "source": "A1-6A vocabulary card (Turkishle web); the unit teaches them as compound-noun examples",
+      "notes": "Place name from the A1-6A card list. Kept as vocabulary rather than skipped as a proper noun: these are the names you meet travelling in Turkey. Its parts \u2014 deniz, b\u00f6lge, g\u00f6l \u2014 are already in the deck, which is the point the unit is making about ad tamlamas\u0131.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-card-0036",
+      "turkish": "Ege B\u00f6lgesi",
+      "english": "the Aegean Region",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "geography",
+        "unit-a1-6a",
+        "unit-a1"
+      ],
+      "source": "A1-6A vocabulary card (Turkishle web); the unit teaches them as compound-noun examples",
+      "notes": "Place name from the A1-6A card list. Kept as vocabulary rather than skipped as a proper noun: these are the names you meet travelling in Turkey. Its parts \u2014 deniz, b\u00f6lge, g\u00f6l \u2014 are already in the deck, which is the point the unit is making about ad tamlamas\u0131.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-card-0037",
+      "turkish": "Akdeniz B\u00f6lgesi",
+      "english": "the Mediterranean Region",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "geography",
+        "unit-a1-6a",
+        "unit-a1"
+      ],
+      "source": "A1-6A vocabulary card (Turkishle web); the unit teaches them as compound-noun examples",
+      "notes": "Place name from the A1-6A card list. Kept as vocabulary rather than skipped as a proper noun: these are the names you meet travelling in Turkey. Its parts \u2014 deniz, b\u00f6lge, g\u00f6l \u2014 are already in the deck, which is the point the unit is making about ad tamlamas\u0131.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-card-0038",
+      "turkish": "Karadeniz B\u00f6lgesi",
+      "english": "the Black Sea Region",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "geography",
+        "unit-a1-6a",
+        "unit-a1"
+      ],
+      "source": "A1-6A vocabulary card (Turkishle web); the unit teaches them as compound-noun examples",
+      "notes": "Place name from the A1-6A card list. Kept as vocabulary rather than skipped as a proper noun: these are the names you meet travelling in Turkey. Its parts \u2014 deniz, b\u00f6lge, g\u00f6l \u2014 are already in the deck, which is the point the unit is making about ad tamlamas\u0131.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-card-0039",
+      "turkish": "\u0130\u00e7 Anadolu B\u00f6lgesi",
+      "english": "the Central Anatolia Region",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "geography",
+        "unit-a1-6a",
+        "unit-a1"
+      ],
+      "source": "A1-6A vocabulary card (Turkishle web); the unit teaches them as compound-noun examples",
+      "notes": "Place name from the A1-6A card list. Kept as vocabulary rather than skipped as a proper noun: these are the names you meet travelling in Turkey. Its parts \u2014 deniz, b\u00f6lge, g\u00f6l \u2014 are already in the deck, which is the point the unit is making about ad tamlamas\u0131.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-card-0040",
+      "turkish": "Do\u011fu Anadolu B\u00f6lgesi",
+      "english": "the Eastern Anatolia Region",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "geography",
+        "unit-a1-6a",
+        "unit-a1"
+      ],
+      "source": "A1-6A vocabulary card (Turkishle web); the unit teaches them as compound-noun examples",
+      "notes": "Place name from the A1-6A card list. Kept as vocabulary rather than skipped as a proper noun: these are the names you meet travelling in Turkey. Its parts \u2014 deniz, b\u00f6lge, g\u00f6l \u2014 are already in the deck, which is the point the unit is making about ad tamlamas\u0131.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-card-0041",
+      "turkish": "G\u00fcneydo\u011fu Anadolu B\u00f6lgesi",
+      "english": "the Southeastern Anatolia Region",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "geography",
+        "unit-a1-6a",
+        "unit-a1"
+      ],
+      "source": "A1-6A vocabulary card (Turkishle web); the unit teaches them as compound-noun examples",
+      "notes": "Place name from the A1-6A card list. Kept as vocabulary rather than skipped as a proper noun: these are the names you meet travelling in Turkey. Its parts \u2014 deniz, b\u00f6lge, g\u00f6l \u2014 are already in the deck, which is the point the unit is making about ad tamlamas\u0131.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-card-0042",
+      "turkish": "Van G\u00f6l\u00fc",
+      "english": "Lake Van",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "geography",
+        "unit-a1-6a",
+        "unit-a1"
+      ],
+      "source": "A1-6A vocabulary card (Turkishle web); the unit teaches them as compound-noun examples",
+      "notes": "Place name from the A1-6A card list. Kept as vocabulary rather than skipped as a proper noun: these are the names you meet travelling in Turkey. Its parts \u2014 deniz, b\u00f6lge, g\u00f6l \u2014 are already in the deck, which is the point the unit is making about ad tamlamas\u0131.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-card-0043",
+      "turkish": "Fatih Sultan Mehmet K\u00f6pr\u00fcs\u00fc",
+      "english": "the Fatih Sultan Mehmet Bridge",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "geography",
+        "unit-a1-6a",
+        "unit-a1"
+      ],
+      "source": "A1-6A vocabulary card (Turkishle web); the unit teaches them as compound-noun examples",
+      "notes": "Place name from the A1-6A card list. Kept as vocabulary rather than skipped as a proper noun: these are the names you meet travelling in Turkey. Its parts \u2014 deniz, b\u00f6lge, g\u00f6l \u2014 are already in the deck, which is the point the unit is making about ad tamlamas\u0131.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-card-0044",
+      "turkish": "Balt\u0131k Denizi",
+      "english": "the Baltic Sea",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "geography",
+        "unit-a1-4b",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "gap-fill: Finnish geography, requested; filed with the A1-4B country vocabulary",
+      "notes": "Not in any Turkishle source. Added on request so Finnish places can be talked about in Turkish.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-card-0045",
+      "turkish": "Laponya",
+      "english": "Lapland",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "geography",
+        "unit-a1-4b",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "gap-fill: Finnish geography, requested; filed with the A1-4B country vocabulary",
+      "notes": "Not in any Turkishle source. Added on request so Finnish places can be talked about in Turkish.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-card-0046",
+      "turkish": "Finlandiya K\u00f6rfezi",
+      "english": "the Gulf of Finland",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "geography",
+        "unit-a1-4b",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "gap-fill: Finnish geography, requested; filed with the A1-4B country vocabulary",
+      "notes": "Not in any Turkishle source. Added on request so Finnish places can be talked about in Turkish.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-card-0047",
+      "turkish": "k\u00f6rfez",
+      "english": "gulf",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "geography",
+        "unit-a1-4b",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "gap-fill: Finnish geography, requested; filed with the A1-4B country vocabulary",
+      "notes": "Base word of Finlandiya K\u00f6rfezi. deniz, g\u00f6l and ada's peers are in the deck; k\u00f6rfez was not.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-card-0048",
+      "turkish": "\u0130skandinavya",
+      "english": "Scandinavia",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "geography",
+        "unit-a1-4b",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "gap-fill: Finnish geography, requested; filed with the A1-4B country vocabulary",
+      "notes": "Not in any Turkishle source. Added on request so Finnish places can be talked about in Turkish.",
+      "status": "approved"
+    },
+    {
       "id": "cand-cat-0001",
       "turkish": "ba\u015f",
       "english": "head",
@@ -25135,6 +25410,380 @@
       "source": "gap-fill: not in Turkishle A1/A2/B1; filed with the A1-2B numbers list",
       "notes": "",
       "status": "approved"
+    },
+    {
+      "id": "cand-sent-0061",
+      "turkish": "l\u00fctfen",
+      "english": "please",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a2-1a",
+        "unit-a2"
+      ],
+      "source": "example sentence on the A2-1A vocabulary card (Turkishle web); in no unit vocabulary list",
+      "notes": "Mined from the card example sentences, which the earlier sweeps discarded \u2014 the lists teach the headwords, the sentences carry the connective vocabulary around them. Absent from the deck entirely, despite being basic; it appears in 12 example sentences.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-sent-0062",
+      "turkish": "acaba",
+      "english": "I wonder",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a2-1a",
+        "unit-a2"
+      ],
+      "source": "example sentence on the A2-1A vocabulary card (Turkishle web); in no unit vocabulary list",
+      "notes": "Mined from the card example sentences, which the earlier sweeps discarded \u2014 the lists teach the headwords, the sentences carry the connective vocabulary around them.",
+      "status": "approved",
+      "hint_en_tr": "(softening a question)"
+    },
+    {
+      "id": "cand-sent-0063",
+      "turkish": "b\u00f6yle",
+      "english": "like this",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a2-1b",
+        "unit-a2"
+      ],
+      "source": "example sentence on the A2-1B vocabulary card (Turkishle web); in no unit vocabulary list",
+      "notes": "Mined from the card example sentences, which the earlier sweeps discarded \u2014 the lists teach the headwords, the sentences carry the connective vocabulary around them.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-sent-0064",
+      "turkish": "yoksa",
+      "english": "or",
+      "priority": 3,
+      "tags": [
+        "conjunction",
+        "unit-a2-1b",
+        "unit-a2"
+      ],
+      "source": "example sentence on the A2-1B vocabulary card (Turkishle web); in no unit vocabulary list",
+      "notes": "Mined from the card example sentences, which the earlier sweeps discarded \u2014 the lists teach the headwords, the sentences carry the connective vocabulary around them. Distinct from veya / ya da, which join alternatives in a statement.",
+      "status": "approved",
+      "hint_en_tr": "(offering an alternative in a question)"
+    },
+    {
+      "id": "cand-sent-0065",
+      "turkish": "\u00e7e\u015fit",
+      "english": "variety",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-1b",
+        "unit-a2"
+      ],
+      "source": "example sentence on the A2-1B vocabulary card (Turkishle web); in no unit vocabulary list",
+      "notes": "Mined from the card example sentences, which the earlier sweeps discarded \u2014 the lists teach the headwords, the sentences carry the connective vocabulary around them. Glossed 'variety' rather than 'kind' so it does not collide with t\u00fcr.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-sent-0066",
+      "turkish": "al\u0131\u015fkanl\u0131k",
+      "english": "habit",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-1b",
+        "unit-a2"
+      ],
+      "source": "example sentence on the A2-1B vocabulary card (Turkishle web); in no unit vocabulary list",
+      "notes": "Mined from the card example sentences, which the earlier sweeps discarded \u2014 the lists teach the headwords, the sentences carry the connective vocabulary around them.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-sent-0067",
+      "turkish": "helal",
+      "english": "halal",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-1b",
+        "unit-a2"
+      ],
+      "source": "example sentence on the A2-1B vocabulary card (Turkishle web); in no unit vocabulary list",
+      "notes": "Mined from the card example sentences, which the earlier sweeps discarded \u2014 the lists teach the headwords, the sentences carry the connective vocabulary around them.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-sent-0068",
+      "turkish": "favori",
+      "english": "favourite",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-1b",
+        "unit-a2"
+      ],
+      "source": "example sentence on the A2-1B vocabulary card (Turkishle web); in no unit vocabulary list",
+      "notes": "Mined from the card example sentences, which the earlier sweeps discarded \u2014 the lists teach the headwords, the sentences carry the connective vocabulary around them.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-sent-0069",
+      "turkish": "\u00e7abuk",
+      "english": "quickly",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a2-1c",
+        "unit-a2"
+      ],
+      "source": "example sentence on the A2-1C vocabulary card (Turkishle web); in no unit vocabulary list",
+      "notes": "Mined from the card example sentences, which the earlier sweeps discarded \u2014 the lists teach the headwords, the sentences carry the connective vocabulary around them. Adverb, against h\u0131zl\u0131 = fast, which is the adjective.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-sent-0070",
+      "turkish": "avantajl\u0131",
+      "english": "advantageous",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-1a",
+        "unit-a2"
+      ],
+      "source": "example sentence on the A2-1A vocabulary card (Turkishle web); in no unit vocabulary list",
+      "notes": "Mined from the card example sentences, which the earlier sweeps discarded \u2014 the lists teach the headwords, the sentences carry the connective vocabulary around them.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-sent-0071",
+      "turkish": "yurt d\u0131\u015f\u0131",
+      "english": "abroad",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-2a",
+        "unit-a2"
+      ],
+      "source": "example sentence on the A2-2A vocabulary card (Turkishle web); in no unit vocabulary list",
+      "notes": "Mined from the card example sentences, which the earlier sweeps discarded \u2014 the lists teach the headwords, the sentences carry the connective vocabulary around them.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-sent-0072",
+      "turkish": "ilgili",
+      "english": "related",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-2b",
+        "unit-a2"
+      ],
+      "source": "example sentence on the A2-2B vocabulary card (Turkishle web); in no unit vocabulary list",
+      "notes": "Mined from the card example sentences, which the earlier sweeps discarded \u2014 the lists teach the headwords, the sentences carry the connective vocabulary around them. Adjective; the deck has the verb (bir \u015feyle) ilgilenmek.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-sent-0073",
+      "turkish": "baz\u0131",
+      "english": "some",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-2b",
+        "unit-a2"
+      ],
+      "source": "example sentence on the A2-2B vocabulary card (Turkishle web); in no unit vocabulary list",
+      "notes": "Mined from the card example sentences, which the earlier sweeps discarded \u2014 the lists teach the headwords, the sentences carry the connective vocabulary around them. Against birka\u00e7 = a few, which counts rather than selects.",
+      "status": "approved",
+      "hint_en_tr": "(of a group)"
+    },
+    {
+      "id": "cand-sent-0074",
+      "turkish": "anlatmak",
+      "english": "to tell",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-2b",
+        "unit-a2"
+      ],
+      "source": "example sentence on the A2-2B vocabulary card (Turkishle web); in no unit vocabulary list",
+      "notes": "Mined from the card example sentences, which the earlier sweeps discarded \u2014 the lists teach the headwords, the sentences carry the connective vocabulary around them. Against s\u00f6ylemek = to say / to tell. anlatmak is telling at length, explaining.",
+      "status": "approved",
+      "hint_en_tr": "(transitive \u2014 to relate or explain)"
+    },
+    {
+      "id": "cand-sent-0075",
+      "turkish": "sosyal",
+      "english": "social",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-2c",
+        "unit-a2"
+      ],
+      "source": "example sentence on the A2-2C vocabulary card (Turkishle web); in no unit vocabulary list",
+      "notes": "Mined from the card example sentences, which the earlier sweeps discarded \u2014 the lists teach the headwords, the sentences carry the connective vocabulary around them.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-sent-0076",
+      "turkish": "etkilemek",
+      "english": "to affect",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-2c",
+        "unit-a2"
+      ],
+      "source": "example sentence on the A2-2C vocabulary card (Turkishle web); in no unit vocabulary list",
+      "notes": "Mined from the card example sentences, which the earlier sweeps discarded \u2014 the lists teach the headwords, the sentences carry the connective vocabulary around them.",
+      "status": "approved",
+      "hint_en_tr": "(transitive)"
+    },
+    {
+      "id": "cand-sent-0077",
+      "turkish": "s\u00fcrekli",
+      "english": "constantly",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a2-4a",
+        "unit-a2"
+      ],
+      "source": "example sentence on the A2-4A vocabulary card (Turkishle web); in no unit vocabulary list",
+      "notes": "Mined from the card example sentences, which the earlier sweeps discarded \u2014 the lists teach the headwords, the sentences carry the connective vocabulary around them.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-sent-0078",
+      "turkish": "sence",
+      "english": "in your opinion",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a2-4a",
+        "unit-a2"
+      ],
+      "source": "example sentence on the A2-4A vocabulary card (Turkishle web); in no unit vocabulary list",
+      "notes": "Mined from the card example sentences, which the earlier sweeps discarded \u2014 the lists teach the headwords, the sentences carry the connective vocabulary around them. sen + -ce. Worth its own entry: it is how opinions are asked for.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-sent-0079",
+      "turkish": "problem",
+      "english": "problem",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6c",
+        "unit-a1"
+      ],
+      "source": "example sentence on the A1-6C vocabulary card (Turkishle web); in no unit vocabulary list",
+      "notes": "Mined from the card example sentences, which the earlier sweeps discarded \u2014 the lists teach the headwords, the sentences carry the connective vocabulary around them.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-sent-0080",
+      "turkish": "bulmaca",
+      "english": "puzzle",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6c",
+        "unit-a1"
+      ],
+      "source": "example sentence on the A1-6C vocabulary card (Turkishle web); in no unit vocabulary list",
+      "notes": "Mined from the card example sentences, which the earlier sweeps discarded \u2014 the lists teach the headwords, the sentences carry the connective vocabulary around them.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-sent-0081",
+      "turkish": "neresi",
+      "english": "which place",
+      "priority": 3,
+      "tags": [
+        "pronoun",
+        "unit-a1-6c",
+        "unit-a1"
+      ],
+      "source": "example sentence on the A1-6C vocabulary card (Turkishle web); in no unit vocabulary list",
+      "notes": "Mined from the card example sentences, which the earlier sweeps discarded \u2014 the lists teach the headwords, the sentences carry the connective vocabulary around them. Against nerede = where. neresi asks which place something is.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-sent-0082",
+      "turkish": "numara",
+      "english": "number",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-1b",
+        "unit-a2"
+      ],
+      "source": "example sentence on the A2-1B vocabulary card (Turkishle web); in no unit vocabulary list",
+      "notes": "Mined from the card example sentences, which the earlier sweeps discarded \u2014 the lists teach the headwords, the sentences carry the connective vocabulary around them. Against say\u0131 = number, which counts. numara identifies.",
+      "status": "approved",
+      "hint_en_tr": "(a shoe size or a phone number)"
+    },
+    {
+      "id": "cand-sent-0083",
+      "turkish": "vakit",
+      "english": "time",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-1b",
+        "unit-a2"
+      ],
+      "source": "example sentence on the A2-1B vocabulary card (Turkishle web); in no unit vocabulary list",
+      "notes": "Mined from the card example sentences, which the earlier sweeps discarded \u2014 the lists teach the headwords, the sentences carry the connective vocabulary around them. Synonym of zaman, which keeps the unmarked prompt. The A2-4A card offers 'zaman / vakit ge\u00e7irmek'.",
+      "status": "approved",
+      "hint_en_tr": "(the less everyday synonym)"
+    },
+    {
+      "id": "cand-sent-0084",
+      "turkish": "anla\u015fmak",
+      "english": "to get along",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-1b",
+        "unit-a2"
+      ],
+      "source": "example sentence on the A2-1B vocabulary card (Turkishle web); in no unit vocabulary list",
+      "notes": "Mined from the card example sentences, which the earlier sweeps discarded \u2014 the lists teach the headwords, the sentences carry the connective vocabulary around them.",
+      "status": "approved",
+      "hint_en_tr": "(intransitive \u2014 with sb.)"
+    },
+    {
+      "id": "cand-sent-0085",
+      "turkish": "geli\u015ftirmek",
+      "english": "to improve",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-2c",
+        "unit-a2"
+      ],
+      "source": "example sentence on the A2-2C vocabulary card (Turkishle web); in no unit vocabulary list",
+      "notes": "Mined from the card example sentences, which the earlier sweeps discarded \u2014 the lists teach the headwords, the sentences carry the connective vocabulary around them. In the A2-6A list too, but that unit is unswept; filed at A2-2C where the sentence occurs (\u201cYaz s\u00fcresince kendini geli\u015ftir\u201d). Its intransitive partner geli\u015fmek is added alongside.",
+      "status": "approved",
+      "hint_en_tr": "(transitive)"
+    },
+    {
+      "id": "cand-sent-0086",
+      "turkish": "geli\u015fmek",
+      "english": "to improve",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-2c",
+        "unit-a2"
+      ],
+      "source": "example sentence on the A2-2C vocabulary card (Turkishle web); in no unit vocabulary list",
+      "notes": "Mined from the card example sentences, which the earlier sweeps discarded \u2014 the lists teach the headwords, the sentences carry the connective vocabulary around them. Not attested anywhere; added as the intransitive counterpart of geli\u015ftirmek so the pair is drillable.",
+      "status": "approved",
+      "hint_en_tr": "(intransitive)"
     },
     {
       "id": "cand-transp-0001",

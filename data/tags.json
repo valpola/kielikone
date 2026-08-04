@@ -270,6 +270,11 @@
       "id": "unit-a2-6a",
       "label": "Unit A2-6A",
       "group": "unit"
+    },
+    {
+      "id": "geography",
+      "label": "Geography",
+      "group": "theme"
     }
   ]
 }
