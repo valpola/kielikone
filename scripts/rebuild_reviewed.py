@@ -23,7 +23,7 @@ def load_candidates() -> list[dict]:
             entry.pop("today_score_debug", None)
             tags = entry.get("tags") or []
             if tags:
-                entry["tags"] = [tag for tag in tags if tag != "today"]
+                entry["tags"] = [tag for tag in tags if tag not in ("practice", "today")]
             items.append(entry)
     items.sort(key=lambda item: str(item.get("id", "")))
     return items

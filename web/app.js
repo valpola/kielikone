@@ -38,6 +38,11 @@ let current = null;
 let isRevealed = false;
 const sessionCorrect = new Map();
 let computedToday = new Set();
+// Id of the tag marking the current practice set. It is never shipped in the deck:
+// each device computes the set locally from its own history. Renamed from "today",
+// which implied a fixed daily batch; saved filter selections are migrated below.
+const SESSION_TAG = "practice";
+const LEGACY_SESSION_TAG = "today";
 let aliases = {};
 
 const storageKey = (id) => `tr-quiz-${id}`;
@@ -887,7 +892,17 @@ const loadSelection = (key) => {
   if (!raw) return new Set();
   try {
     const parsed = JSON.parse(raw);
-    if (Array.isArray(parsed)) return new Set(parsed);
+    if (Array.isArray(parsed)) {
+      // A selection saved before the rename still says "today"; carry it over so
+      // the filter a device was using does not silently become an unknown tag.
+      const migrated = parsed.map((tagId) =>
+        tagId === LEGACY_SESSION_TAG ? SESSION_TAG : tagId
+      );
+      if (parsed.includes(LEGACY_SESSION_TAG)) {
+        localStorage.setItem(key, JSON.stringify(migrated));
+      }
+      return new Set(migrated);
+    }
   } catch {
     return new Set();
   }
@@ -992,10 +1007,10 @@ const getFilteredItems = () => {
     const itemTags = new Set(item.tags || []);
     const isToday = hasComputedToday
       ? computedToday.has(item.id)
-      : itemTags.has("today") || computedToday.has(item.id);
+      : itemTags.has(SESSION_TAG) || computedToday.has(item.id);
 
     for (const tagId of include) {
-      if (tagId === "today") {
+      if (tagId === SESSION_TAG) {
         if (!isToday) return false;
         continue;
       }
@@ -1003,7 +1018,7 @@ const getFilteredItems = () => {
     }
 
     for (const tagId of exclude) {
-      if (tagId === "today") {
+      if (tagId === SESSION_TAG) {
         if (isToday) return false;
         continue;
       }
@@ -1095,8 +1110,8 @@ const recomputeToday = async ({ silent = false } = {}) => {
 
     const include = selectedValues(INCLUDE_TAGS);
     const exclude = selectedValues(EXCLUDE_TAGS);
-    include.delete("today");
-    exclude.delete("today");
+    include.delete(SESSION_TAG);
+    exclude.delete(SESSION_TAG);
 
     const filtered = filterItemsByTags(items, include, exclude);
     const scored = TodayScoring.scoreItems(filtered, eventsByKey, {
@@ -1140,7 +1155,7 @@ const recomputeToday = async ({ silent = false } = {}) => {
     return true;
   } catch (error) {
     if (!silent) {
-      window.alert("Failed to recompute today list.");
+      window.alert("Failed to recompute the practice set.");
       renderPrompt();
     }
   } finally {
@@ -1201,7 +1216,7 @@ const renderMode = () => {
   });
 };
 
-// isInitial: only the first render seeds the default "today" filter. Re-rendering
+// isInitial: only the first render seeds the default practice-set filter. Re-rendering
 // after a change must not, or unticking the last include tag would re-tick it.
 const renderTagOptions = (isInitial) => {
   const existing = new Map(
@@ -1217,8 +1232,8 @@ const renderTagOptions = (isInitial) => {
   const includeSelection = loadSelection(INCLUDE_STORAGE);
   const excludeSelection = loadSelection(EXCLUDE_STORAGE);
 
-  if (isInitial && !includeSelection.size && tagIds.includes("today")) {
-    includeSelection.add("today");
+  if (isInitial && !includeSelection.size && tagIds.includes(SESSION_TAG)) {
+    includeSelection.add(SESSION_TAG);
     saveSelection(INCLUDE_STORAGE, includeSelection);
   }
 
@@ -1233,7 +1248,7 @@ const renderTagOptions = (isInitial) => {
   // The study batch lives on this device, not in the deck, so count the local list
   // rather than any tag the deck happened to ship with. Matches getFilteredItems.
   if (computedToday && computedToday.size) {
-    tagCounts.set("today", computedToday.size);
+    tagCounts.set(SESSION_TAG, computedToday.size);
   }
 
   const buildTag = (tagId, selected) => {

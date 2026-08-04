@@ -20759,8 +20759,8 @@
       "group": "unit"
     },
     {
-      "id": "today",
-      "label": "Today",
+      "id": "practice",
+      "label": "Practice set",
       "group": "system"
     },
     {

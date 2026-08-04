@@ -16,7 +16,7 @@ OUT_ALIASES_PATH = ROOT / "web" / "data" / "aliases.json"
 # Stripped from every exported item: this tag marks the current study batch, which
 # each device recomputes locally. build_today.py still writes it into the vocab
 # files for offline analysis; it just never ships.
-SESSION_TAG = "today"
+SESSION_TAG = "practice"
 
 
 def load_tags() -> list[dict[str, Any]]:

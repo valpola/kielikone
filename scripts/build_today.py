@@ -71,7 +71,7 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--today-tag",
-        default=os.environ.get("TODAY_TAG", "today"),
+        default=os.environ.get("TODAY_TAG", "practice"),
         help="Tag id to apply for today's list (default: today).",
     )
     parser.add_argument(
