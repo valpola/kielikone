@@ -523,6 +523,12 @@ const undoLastAnswer = async () => {
       )
     );
   }
+  // The row is gone from the database too, so the remembered total has to follow.
+  // Without this the cache looks one row short and the status line claims the
+  // database is ahead — the exact opposite of what just happened.
+  if (deleted && lastKnownTotal) {
+    lastKnownTotal = Math.max(0, lastKnownTotal - deleted);
+  }
   const stats = getLocalStats(entry.word_id);
   if (entry.correct) stats.correct = Math.max(0, (stats.correct || 0) - 1);
   else stats.wrong = Math.max(0, (stats.wrong || 0) - 1);

@@ -54,7 +54,7 @@ RESULTS_SOURCE = resolve_results_source_with_key()
 # %%
 # Filter settings for scoring subsets.
 INCLUDE_TAGS = ["verb"][:0]
-EXCLUDE_TAGS: list[str] = ["similar", "unit-a2-4c", "unit-a2-4b", "unit-a2-4a"][:3]
+EXCLUDE_TAGS: list[str] = ["similar", "unit-a2-4c", "unit-a2-4b", "unit-a2-4a"][:2]
 MODE = ["tr-en", "en-tr"][1]
 
 # %%
@@ -220,7 +220,7 @@ plt.title(f"Histogram of Scores ({MODE})")
 plt.show()
 
 print(f"Average score: {sum(scores) / len(scores):.3f}")
-print(f"Proportion > 0: {sum(1 for score in scores if score > 0) / len(scores):.3%}")
+print(f"Number > 0: {sum(1 for score in scores if score > 0)}")
 
 scored_words = []
 for canonical in canonical_vocab_words:
@@ -248,8 +248,6 @@ if _dupes:
         )
     _delete = sorted((_p + 2 for _, _pos in _dupes for _p in _pos[1:]), reverse=True)
     print(f"  delete these sheet rows (bottom-up): {', '.join(str(r) for r in _delete)}")
-else:
-    print(f"\nNo duplicate rows ({len(rows)} rows checked).")
 
 # %%
 # # Show the top 10 lowest and top 30 highest scoring words (MODE).
