@@ -1051,18 +1051,26 @@ const recomputeToday = async ({ silent = false } = {}) => {
     return;
   }
 
-  if (!getSupabaseUrl()) {
+  // An account is optional. Answers are always kept on this device, so the set can
+  // be built from those alone; logging in only adds history from other devices.
+  const canUseCache = !!loadHistorySnapshot();
+  const hasLocalHistory = localEventRows().length > 0;
+  const canWorkLocally = canUseCache || hasLocalHistory;
+
+  if (!getSupabaseUrl() && !canWorkLocally) {
     if (!silent) window.alert("Results backend is not configured.");
     return;
   }
-  // With a cached history we can still recompute while offline / not verified.
-  const canUseCache = !!loadHistorySnapshot();
-  if (!getAppSecret() && !canUseCache) {
-    if (!silent) window.alert("Login is required to fetch results.");
+  if (getAppSecret() && !loginState.valid && !canWorkLocally) {
+    if (!silent) window.alert("App secret is invalid.");
     return;
   }
-  if (!loginState.valid && !canUseCache) {
-    if (!silent) window.alert("App secret is invalid.");
+  if (!getAppSecret() && !canWorkLocally) {
+    if (!silent) {
+      window.alert(
+        "Nothing to work from yet — answer a few words first, or log in to use your saved history."
+      );
+    }
     return;
   }
 
@@ -1087,24 +1095,30 @@ const recomputeToday = async ({ silent = false } = {}) => {
     const snapshot = loadHistorySnapshot();
     let remoteRows = (snapshot && snapshot.rows) || [];
     let usedCache = false;
-    try {
-      const fresh = await fetchResultRows(snapshot && snapshot.maxAnsweredAt);
-      if (fresh.length || !snapshot) {
-        remoteRows = remoteRows.concat(fresh);
-        saveHistorySnapshot(remoteRows);
+    const canReadRemote = !!getSupabaseUrl() && !!getAppSecret();
+    if (canReadRemote) {
+      try {
+        const fresh = await fetchResultRows(snapshot && snapshot.maxAnsweredAt);
+        if (fresh.length || !snapshot) {
+          remoteRows = remoteRows.concat(fresh);
+          saveHistorySnapshot(remoteRows);
+        }
+        lastKnownTotal = await fetchResultsTotal();
+      } catch {
+        usedCache = true;
       }
-      lastKnownTotal = await fetchResultsTotal();
-    } catch {
-      usedCache = true;
     }
-    if (!remoteRows.length) {
+    const localRows = localEventRows();
+    if (!remoteRows.length && !localRows.length) {
       throw new Error("No results data received");
     }
-    if (!usedCache) pruneLocalEvents(remoteRows);
+    // Only prune against a read that actually happened: with no account the
+    // local events are the whole history and must never be dropped.
+    if (canReadRemote && !usedCache) pruneLocalEvents(remoteRows);
     // Words answered on this device since the last successful read still count.
     // Local events can overlap the snapshot when the read failed (pruning only
     // runs after a successful one), so eventStream's dedupe is load-bearing here.
-    const rows = remoteRows.concat(localEventRows());
+    const rows = remoteRows.concat(localRows);
     const events = TodayScoring.eventStream(rows, aliases);
     const eventsByKey = TodayScoring.buildEventsByKey(events);
 
@@ -1232,7 +1246,7 @@ const renderTagOptions = (isInitial) => {
   const includeSelection = loadSelection(INCLUDE_STORAGE);
   const excludeSelection = loadSelection(EXCLUDE_STORAGE);
 
-  if (isInitial && !includeSelection.size && tagIds.includes(SESSION_TAG)) {
+  if (isInitial && !includeSelection.size && computedToday.size && tagIds.includes(SESSION_TAG)) {
     includeSelection.add(SESSION_TAG);
     saveSelection(INCLUDE_STORAGE, includeSelection);
   }

@@ -131,6 +131,14 @@ Three things worth knowing before touching the sync path:
   send `Prefer: return=representation` and count the returned rows, or you will believe a
   delete worked when the row is still there.
 
+**An account is optional.** `grade()` writes every answer to `localStorage` whether or not
+anyone is logged in, and recompute falls back to those local events alone — so the quiz is
+fully usable with no backend at all, just confined to one browser. Signing in adds central
+storage and cross-device history. Two consequences worth preserving: never prune local events
+against a read that did not happen (with no account they are the entire history), and do not
+seed the practice-set filter before a set exists, or a new user meets an empty quiz with no
+way to answer anything to build one.
+
 The device keeps a history snapshot and a queue of unsent answers in `localStorage`, which is
 what makes offline work. Local events are pruned only after a successful read, so they can
 overlap the snapshot — the dedupe inside `eventStream` is load-bearing, not belt-and-braces.

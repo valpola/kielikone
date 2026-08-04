@@ -30,13 +30,18 @@ frame, such as `(birine) teşekkür etmek`, the frame is part of the answer: the
 | n | Next word (after reveal) |
 | Tab | Next word (any time) |
 
-## Logging in
+## With or without an account
 
-Results are only recorded once you log in. The button in the corner shows who you are; if it
+**You do not need an account.** Answers are always kept on this device, and the practice set
+is built from them, so the quiz works fully on its own — it just stays on this browser.
+
+Logging in adds one thing: your history is stored centrally, so it follows you between
+devices and survives clearing the browser. The button in the corner shows who you are; if it
 says "Login to record results", press it and enter your app secret. It is stored on the
 device, so you do this once per browser.
 
-Without logging in the quiz still works — it just does not save anything.
+Starting fresh, you are quizzed on the whole vocabulary. Answer a few words, press
+"Recompute practice set", and from then on it can pick what you most need to practise.
 
 ## The practice set
 
@@ -82,6 +87,9 @@ be acted on later. This is the best way to flag a problem — it captures which 
 looking at and in which direction.
 
 ## Syncing, and being offline
+
+This section only applies once you have logged in; without an account nothing is sent
+anywhere and there is nothing to sync.
 
 Answers are saved to the server as you go. If the connection is poor they queue up on the
 device and go out later; "Pending sync: n" in the corner tells you how many are waiting.
