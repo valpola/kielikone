@@ -258,7 +258,9 @@ global.APP_CONFIG = {
 localStorage.setItem("tr-quiz-app-secret", "test-secret");
 localStorage.setItem("tr-quiz-user-name", "test");
 localStorage.setItem("tr-quiz-include-tags", JSON.stringify(["verb"]));
-localStorage.setItem("tr-quiz-exclude-tags", JSON.stringify([]));
+// Pre-rename selection: loadSelection must migrate "today" to "practice" and
+// write it back, or a device upgrading would be left filtering on a dead tag.
+localStorage.setItem("tr-quiz-exclude-tags", JSON.stringify(["today"]));
 
 require(path.resolve(__dirname, "..", "..", "web", "app.js"));
 
@@ -304,6 +306,12 @@ const waitForLoad = () =>
     assert.ok(item, `missing item for ${id}`);
     assert.ok((item.tags || []).includes("verb"), `item ${id} is not tagged verb`);
   });
+
+  assert.deepStrictEqual(
+    JSON.parse(localStorage.getItem("tr-quiz-exclude-tags")),
+    ["practice"],
+    "expected the legacy 'today' tag to be migrated to 'practice' and saved"
+  );
 
   console.log("App recompute today filter test passed.");
   // app.js installs a 60s retry interval; without this the process never exits.

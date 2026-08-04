@@ -1396,30 +1396,11 @@ const setCorrectAnswerState = (isCorrect) => {
   CORRECT_ANSWER.classList.add(isCorrect ? "is-correct" : "is-incorrect");
 };
 
-const normalizeAnswer = (value) =>
-  String(value || "")
-    .trim()
-    .normalize("NFKC")
-    .replace(/[().! ,]/g, "")
-    .toLocaleLowerCase("tr-TR")
-    // circumflex-insensitive: accept a/i/u for â/î/û so learners needn't type the ^
-    .replace(/â/g, "a")
-    .replace(/î/g, "i")
-    .replace(/û/g, "u");
-
-// Slash-separated alternatives (e.g. "enteresan / ilginç") match in any order.
-const normalizeAnswerSet = (value) =>
-  String(value || "")
-    .split("/")
-    .map((part) => normalizeAnswer(part))
-    .filter((part) => part.length > 0)
-    .sort()
-    .join("/");
-
+// Answer matching lives in web/answers.js so it can be tested on its own.
 const isAnswerCorrect = () => {
   if (!current) return false;
   const correctText = mode === "tr-en" ? current.english : current.turkish;
-  return normalizeAnswerSet(ANSWER.value) === normalizeAnswerSet(correctText);
+  return AnswerMatching.matches(ANSWER.value, correctText);
 };
 
 const grade = (isCorrect) => {

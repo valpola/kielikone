@@ -23,7 +23,7 @@ A static site plus a Postgres database. No backend of our own:
 | `data/vocab/reviewed.json` | Generated: all candidates merged, aliases applied |
 | `data/tags.json` | The tag registry. A tag not listed here fails the export |
 | `data/aliases.json` | `alias id -> canonical id`, for merging duplicate entries |
-| `web/` | The app. `app.js`, `today_scoring.js`, `config.js`, `style.css` |
+| `web/` | The app. `app.js`, `today_scoring.js`, `answers.js`, `config.js`, `style.css` |
 | `web/data/quiz.json` | Generated: what the app actually loads |
 | `scripts/` | The pipeline and one-off tools |
 | `resources/originals/` | Coursebook PDFs — gitignored, do not commit |
@@ -31,6 +31,11 @@ A static site plus a Postgres database. No backend of our own:
 Edit candidate files, never `reviewed.json` or `quiz.json`; both are regenerated.
 
 ## Content pipeline
+
+```bash
+make build     # runs the four steps below, in order
+make test      # then check nothing broke
+```
 
 ```bash
 .venv/bin/python scripts/rebuild_reviewed.py     # candidates -> data/vocab/reviewed.json
@@ -145,22 +150,32 @@ Act on each, then close it. The write token lives in `resources/github_token.txt
 ## Testing
 
 ```bash
-node scripts/tests/test_today_scoring_offline.js   # scoring maths against fixtures
-node scripts/tests/test_today_filters_offline.js   # tag filtering
-node scripts/tests/test_recompute_today_app.js     # app.js recompute, stubbed DOM and fetch
+make test
 ```
 
-All three pass. The fixtures are CSV transcripts of the old Google Sheet; since the app no
-longer parses CSV, `scripts/tests/csv_rows.js` does that for the harness.
+| Suite | Covers |
+| --- | --- |
+| `test_answer_matching.js` | `web/answers.js` — casing, circumflex folding, punctuation, slash sets |
+| `test_today_scoring_offline.js` | the scoring maths, against fixtures |
+| `test_today_filters_offline.js` | include/exclude tag filtering |
+| `test_recompute_today_app.js` | `app.js` end to end: load, recompute, legacy tag migration |
+| `test_deck_invariants.py` | the content rules, against the exported deck |
 
-**Retired and not runnable:** `scripts/test_results_endpoint.py`,
-`scripts/test_results_whoami.py` and `scripts/tests/compare_today_scoring_integration.py` all
-target the Apps Script endpoint, so `make test-all` and `make test-results` fail. They need
-porting to Supabase or deleting.
+`test_deck_invariants.py` is the one worth knowing about. It asserts the rules this project
+keeps rediscovering the hard way: every item findable by unit, no two items sharing an EN→TR
+prompt, every homograph carrying a TR→EN hint, no `hint_en_tr` leaking Turkish letters, no
+practice-set tag shipped. Each check is there because breaking it produced a defect that
+reached the phone. It reads `web/data/quiz.json`, so build before testing.
 
-The `Makefile` predates the current pipeline too: `make publish` does not run
-`rebuild_reviewed`/`dedupe`, and `make rebuild-reviewed-today` still bakes in a practice set.
-Prefer the explicit commands above.
+Answer matching lives in its own module purely so it can be tested directly: it is the code
+that decides right from wrong, and a silent change there misgrades every session after it.
+
+Anything time-dependent must pin `now`. `test_recompute_today_app.js` freezes the clock at
+its fixture's date — without that the decay terms fall to zero as the fixture ages, and
+selection quietly collapses to the novelty bonus.
+
+The fixtures are CSV transcripts of the old Google Sheet. The app no longer parses CSV, so
+`scripts/tests/csv_rows.js` does it for the harness.
 
 ## History
 

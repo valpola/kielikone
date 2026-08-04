@@ -2,7 +2,9 @@
 
 Personal Turkish vocabulary quiz (static site on GitHub Pages: `valpola.github.io/kielikone`).
 Deck source is `data/candidates/*.candidates.json`; the pipeline rebuilds `web/data/quiz.json`
-(`rebuild_reviewed.py` → `dedupe_vocab.py --apply` → `validate_tags.py` → `export_quiz.py`).
+(`rebuild_reviewed.py` → `dedupe_vocab.py --apply` → `validate_tags.py` → `export_quiz.py`,
+i.e. `make build`; then `make test`, whose `test_deck_invariants.py` enforces the content
+rules below — unit-level tags, no colliding prompts, hints that do not leak the answer).
 The study batch is **not** part of that pipeline: each device computes it locally from the
 live history, and `export_quiz.py` strips the tag (`SESSION_TAG`) from every exported item,
 so a shipped batch can never override what the device worked out. `build_today.py` remains
