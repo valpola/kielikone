@@ -1200,7 +1200,9 @@ const renderMode = () => {
   });
 };
 
-const renderTagOptions = () => {
+// isInitial: only the first render seeds the default "today" filter. Re-rendering
+// after a change must not, or unticking the last include tag would re-tick it.
+const renderTagOptions = (isInitial) => {
   const existing = new Map(
     tagRegistry.map((tag) => [tag.id, tag.label || tag.id])
   );
@@ -1214,10 +1216,19 @@ const renderTagOptions = () => {
   const includeSelection = loadSelection(INCLUDE_STORAGE);
   const excludeSelection = loadSelection(EXCLUDE_STORAGE);
 
-  if (!includeSelection.size && tagIds.includes("today")) {
+  if (isInitial && !includeSelection.size && tagIds.includes("today")) {
     includeSelection.add("today");
     saveSelection(INCLUDE_STORAGE, includeSelection);
   }
+
+  // How many words carry each tag, so a tag that can never match is visible as "(0)"
+  // rather than silently emptying the filter.
+  const tagCounts = new Map();
+  items.forEach((item) => {
+    (item.tags || []).forEach((tagId) => {
+      tagCounts.set(tagId, (tagCounts.get(tagId) || 0) + 1);
+    });
+  });
 
   const buildTag = (tagId, selected) => {
     const label = document.createElement("label");
@@ -1231,17 +1242,51 @@ const renderTagOptions = () => {
     const text = document.createElement("span");
     text.textContent = existing.get(tagId) || tagId;
 
+    const count = document.createElement("span");
+    count.className = "tag-count";
+    count.textContent = tagCounts.get(tagId) || 0;
+
     label.appendChild(input);
     label.appendChild(text);
+    label.appendChild(count);
     return label;
   };
 
-  INCLUDE_TAGS.innerHTML = "";
-  EXCLUDE_TAGS.innerHTML = "";
-  tagIds.forEach((tagId) => {
-    INCLUDE_TAGS.appendChild(buildTag(tagId, includeSelection));
-    EXCLUDE_TAGS.appendChild(buildTag(tagId, excludeSelection));
-  });
+  // The tag list is long enough that a stray tick scrolls out of sight, and since
+  // include-tags are ANDed one stray tick empties the whole filter. So the ticked
+  // ones are pulled out into their own group at the top of each list.
+  const renderList = (container, selection) => {
+    container.innerHTML = "";
+    const chosen = tagIds.filter((tagId) => selection.has(tagId));
+    const rest = tagIds.filter((tagId) => !selection.has(tagId));
+
+    const heading = document.createElement("div");
+    heading.className = "tag-group-head";
+    heading.textContent = chosen.length
+      ? "Selected (" + chosen.length + ")"
+      : "Selected (none)";
+    container.appendChild(heading);
+
+    if (chosen.length) {
+      const picked = document.createElement("div");
+      picked.className = "tag-group tag-group-selected";
+      chosen.forEach((tagId) => picked.appendChild(buildTag(tagId, selection)));
+      container.appendChild(picked);
+    }
+
+    const restHead = document.createElement("div");
+    restHead.className = "tag-group-head";
+    restHead.textContent = "Available";
+    container.appendChild(restHead);
+
+    const others = document.createElement("div");
+    others.className = "tag-group";
+    rest.forEach((tagId) => others.appendChild(buildTag(tagId, selection)));
+    container.appendChild(others);
+  };
+
+  renderList(INCLUDE_TAGS, includeSelection);
+  renderList(EXCLUDE_TAGS, excludeSelection);
 };
 
 const renderPrompt = () => {
@@ -1376,11 +1421,13 @@ MODE_BTNS.forEach((btn) => {
 
 INCLUDE_TAGS.addEventListener("change", () => {
   saveSelection(INCLUDE_STORAGE, selectedValues(INCLUDE_TAGS));
+  renderTagOptions();
   renderPrompt();
 });
 
 EXCLUDE_TAGS.addEventListener("change", () => {
   saveSelection(EXCLUDE_STORAGE, selectedValues(EXCLUDE_TAGS));
+  renderTagOptions();
   renderPrompt();
 });
 
@@ -1576,7 +1623,7 @@ const loadData = async () => {
   const flushed = Promise.resolve(flushResultQueue()).catch(() => {});
   computedToday = loadStoredToday();
   renderDebugControls();
-  renderTagOptions();
+  renderTagOptions(true);
   renderMode();
   if (loginState.valid) {
     // Refresh today's list BEFORE showing any word, so a reload never flashes a
