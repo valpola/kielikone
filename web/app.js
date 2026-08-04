@@ -742,7 +742,7 @@ const updateLoginUi = () => {
   if (loginState.valid && loginState.userName) {
     LOGIN_BTN.textContent = loginState.userName;
   } else {
-    LOGIN_BTN.textContent = "Login to record results";
+    LOGIN_BTN.textContent = "Log in to sync";
   }
 };
 
@@ -831,7 +831,10 @@ const validateApiKey = async (apiKey) => {
 
 const handleLoginClick = async () => {
   const currentKey = getAppSecret();
-  const value = window.prompt("Enter the app secret for results logging:", currentKey);
+  const value = window.prompt(
+    "Enter your app secret to sync this device's history. Practice works without one.",
+    currentKey
+  );
   if (value === null) return;
   const nextKey = value.trim();
   if (!nextKey) {
