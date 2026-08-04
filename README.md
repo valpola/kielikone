@@ -1,133 +1,103 @@
-# Turkish Vocab Quiz (MVP)
+# Turkish Vocab Quiz
 
-Personal Turkish vocabulary study tool with:
-- Canonical word list in JSON
-- Python export script
-- Static web quiz that runs on iPhone Safari
+A personal Turkish vocabulary quiz. Open it in any browser, on the phone or the desktop:
 
-## Structure
-- data/vocab/*.json: canonical vocab split into multiple files
-- data/tags.json: finite editable tag registry
-- data/aliases.json: alias -> canonical ID mapping for dedupe
-- data/candidates/*.candidates.json: extracted items pending review
-- scripts/export_quiz.py: exports web/data/quiz.json
-- scripts/dedupe_vocab.py: scans and applies duplicate merges
-- web/: static quiz app
-- resources/originals/: source PDFs (ignored by git)
+**https://valpola.github.io/kielikone/**
 
-## Default usage: GitHub Pages (recommended)
-1. Export quiz data:
-   python3 scripts/export_quiz.py
-2. Commit and push the updated web/data/quiz.json.
-3. GitHub Pages is already configured via Actions.
-4. Open the Pages URL in Chrome (desktop or phone):
-   https://valpola.github.io/kielikone/
+Everything below is about *using* the quiz. If you want to know how it is built, or you
+intend to change it, see [docs/developer.md](docs/developer.md).
 
-## Setup (desktop)
-1. Create and activate a virtualenv (required for make targets):
-   python3 -m venv .venv
-   source .venv/bin/activate
+## Answering a question
 
-## Updating vocab
-1. Edit data/vocab/*.json
-2. (Optional) Scan and merge duplicates:
-   python3 scripts/dedupe_vocab.py --scan
-   python3 scripts/dedupe_vocab.py --apply
-3. Run export:
-   python3 scripts/export_quiz.py
-4. Refresh the web app
+The card shows a word — Turkish or English, depending on the direction — and you type the
+translation. Press Enter to reveal the answer, then Enter again to grade yourself, or use
+the "I was correct" / "I was incorrect" buttons.
 
-## Publish checklist
-1. python3 scripts/export_quiz.py
-2. git add data/vocab data/tags.json web/data/quiz.json
-3. git commit -m "Update vocab" && git push
+Typing an answer is optional: you can reveal it and grade honestly from memory.
 
-## Make publish
-Run:
-   make publish
+Some answers accept more than one form. A tip like `(X / Y)` means both forms are wanted,
+in either order — `hep birlikte / hep beraber`. Where a Turkish verb is shown with an object
+frame, such as `(birine) teşekkür etmek`, the frame is part of the answer: the `sb.` or
+`sth.` in the English gloss is the signal that you are expected to know the case too.
 
-## Daily prioritization (today tag)
-1. Export the Google Sheet as CSV (or provide a CSV URL).
-2. Run:
-   python3 scripts/build_today.py --results "<csv-or-url>" --limit 30
-3. Export and publish:
-   make publish
+### Shortcuts
 
-Notes:
-- The script overwrites the today tag on each run.
-- Set RESULTS_SOURCE and TODAY_LIMIT env vars to avoid passing flags.
-- If resources/access_keys/google_sheets.txt contains the Apps Script URL,
-  build_today will use it automatically (expects a CSV response).
-- If the results endpoint requires an API key, put it in
-   resources/access_keys/personal_key.txt.
-- If data/aliases.json exists, build_today uses it to merge results across
-   duplicate IDs.
+| Key | Action |
+| --- | --- |
+| Enter | Reveal the answer, or grade it once revealed |
+| f | I was correct (after reveal) |
+| j | I was incorrect (after reveal) |
+| n | Next word (after reveal) |
+| Tab | Next word (any time) |
 
-## Web today recompute
-- The web app can recompute daily words locally using the Apps Script doGet CSV.
-- Run `python3 scripts/export_quiz.py` so the web app has `web/data/aliases.json`.
-- Use the Options menu to set the daily limit and click "Recompute today".
-- The computed list is stored in localStorage only.
-- Recompute resets session progress for the "correct to finish" counter.
+## Logging in
 
-## Today scoring tests
-- Offline (fixture-based):
-   node scripts/tests/test_today_scoring_offline.js
-- Live integration (hits Google Sheet):
-   python3 scripts/tests/compare_today_scoring_integration.py
-- Optional env vars:
-   RESULTS_ENDPOINT=https://script.google.com/.../exec
-   RESULTS_API_KEY=your_key
-   TODAY_LIMIT=30
-   TODAY_MODE=en-tr
-   TODAY_SCORE_TOLERANCE=1e-4
+Results are only recorded once you log in. The button in the corner shows who you are; if it
+says "Login to record results", press it and enter your app secret. It is stored on the
+device, so you do this once per browser.
 
-## Test results endpoint
-Run:
-   make test-results
+Without logging in the quiz still works — it just does not save anything.
 
-Optional overrides:
-- TR_QUIZ_API_KEY=your_key
-- RESULTS_ENDPOINT=https://script.google.com/.../exec
+## The practice set
 
-## Notes
-- resources/originals is ignored to avoid committing copyrighted PDFs.
-- Quiz stats are stored in localStorage on the device.
+"Recompute practice set" picks the words most worth practising next, based on how you have
+answered them before: words you get wrong come back sooner, words you get right recede, and
+words you have never seen get a nudge so they surface at all.
 
-## Keyboard shortcuts
-- Enter: show answer (or auto-grade after reveal)
-- f: I was correct (after reveal)
-- j: I was incorrect (after reveal)
-- n: next (after reveal)
-- Tab: next (any time)
+The set is worked out **on this device**, from your full history, and stored here. It does
+not travel with the vocabulary and does not affect your other devices. "Words per practice
+set" controls how many are picked — around ten works well, so you can take a break between
+batches.
 
-## Mobile UX
-- After showing the answer, the input blurs so the keyboard hides.
-- The "Show Answer" button hides after reveal to keep the layout clean.
-- "Correct to finish" in Options controls how many correct answers are needed
-   before a word is skipped for the rest of the session.
+Recomputing also resets the "correct to finish" counters for the session.
 
-## Tag filters (include/exclude)
-- Add/edit allowed tags in data/tags.json.
-- Assign tag IDs to each vocab item in data/vocab/*.json.
-- In the quiz UI, use Include tags and Exclude tags to filter what is quizzed.
+## Filtering what you are asked
 
-## Extraction review pipeline
-1. Extract candidates from a source file:
-   make extract-candidates INPUT="resources/originals/A1_-_1A.pdf"
-2. Review the generated file in data/candidates/*.candidates.json.
-3. Mark accepted items with status: approved.
-4. Merge approved items:
-   make merge-candidates CANDIDATE="data/candidates/A1_-_1A.candidates.json"
-5. Validate tags and export:
-   make validate-tags
-   make publish
+Two lists in Options control which words can come up:
 
-## Google Sheets results logging
-See [docs/google_sheets.md](docs/google_sheets.md) to enable syncing quiz results.
+- **Include tags** — a word must have **all** of them.
+- **Exclude tags** — a word must have **none** of them.
 
-## Developer notes
-See [docs/handover.md](docs/handover.md) for developer-oriented setup and maintenance notes.
+Because Include is an "all", ticking two units asks for words belonging to *both*, which is
+usually nothing at all. If the quiz says nothing matches, that is almost always why.
 
-## Changelog
-See [CHANGELOG.md](CHANGELOG.md) for recent changes.
+Ticked tags are listed first under **Selected**, so you can see at a glance what is filtering
+your practice, and the number beside each tag is how many words carry it. A tag showing `0`
+can never match.
+
+Most words are tagged with the coursebook unit they come from, so you can revise a single
+unit — `Unit A2-5A` for the weather words, say. Tags marked *(extra / off-syllabus)* are
+words added to fill a gap rather than taken from the books.
+
+## Session target
+
+"Correct to finish" sets how many times you must get a word right before it stops coming up
+for the rest of the session. It resets when you reload or recompute the practice set.
+
+## Notes on a word
+
+If a gloss looks wrong, a tip is misleading, or two words seem to collide, open
+"+ Note on this word" and write it down. The note is filed against that exact word and can
+be acted on later. This is the best way to flag a problem — it captures which word you were
+looking at and in which direction.
+
+## Syncing, and being offline
+
+Answers are saved to the server as you go. If the connection is poor they queue up on the
+device and go out later; "Pending sync: n" in the corner tells you how many are waiting.
+Nothing is lost — you can keep quizzing offline and the queue drains when you are back.
+
+Under Options, below the quiz controls:
+
+- **Undo last answer** — removes the most recent answer, for when you fat-finger a grade.
+- **Retry sync now** — pushes the queue immediately instead of waiting.
+- **Discard pending** — throws the queue away. Only if it is stuck and you do not care.
+- **Purge cached history** — drops the local copy of your history and re-reads it.
+
+Recomputing works offline too, from the cached history; it will say so when it does.
+
+## If something looks stale
+
+The app caches its files. A reload usually fixes it. If the vocabulary looks out of date
+after an update, reload once more — the deck is fetched fresh on each load, but the browser
+can hold on to the page itself.

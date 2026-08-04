@@ -4,6 +4,7 @@ const fs = require("fs");
 const path = require("path");
 const assert = require("assert");
 const TodayScoring = require(path.resolve(__dirname, "..", "..", "web", "today_scoring.js"));
+const { parseCsvRows } = require(path.resolve(__dirname, "csv_rows.js"));
 
 const fixtureDir = path.resolve(__dirname, "fixtures");
 const resultsCsv = fs.readFileSync(path.join(fixtureDir, "results.csv"), "utf8");
@@ -11,7 +12,7 @@ const quiz = JSON.parse(fs.readFileSync(path.join(fixtureDir, "quiz.json"), "utf
 const aliases = JSON.parse(fs.readFileSync(path.join(fixtureDir, "aliases.json"), "utf8"));
 const expected = JSON.parse(fs.readFileSync(path.join(fixtureDir, "expected.json"), "utf8"));
 
-const rows = TodayScoring.parseCsv(resultsCsv);
+const rows = parseCsvRows(resultsCsv);
 assert.strictEqual(rows.length, expected.rows_count, "rows count mismatch");
 
 const events = TodayScoring.eventStream(rows, aliases.aliases || {});

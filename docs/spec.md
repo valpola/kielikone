@@ -1,5 +1,14 @@
 # Language Learning App (Turkish) - MVP Spec
 
+> **Historical.** This is the original MVP spec, last revised 2026-02-23, two days after the
+> project started. It is kept to record what was intended, not what exists. Several of its
+> non-goals are now built (multi-user auth, a hosted database), the Google Sheets backend it
+> describes was retired in August 2026, and the "today" list it specifies is now computed in
+> the browser and named `practice`.
+>
+> For the system as it is: [developer.md](developer.md). For using the quiz:
+> [the README](../README.md).
+
 ## Goals
 - Build a personal Turkish vocab study tool with fast iteration on a computer and a simple quiz web app for iPhone.
 - Use PDFs in resources/originals as the initial content source, with VLM-assisted extraction and manual cleanup.

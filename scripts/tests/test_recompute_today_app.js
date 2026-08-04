@@ -3,10 +3,20 @@
 const fs = require("fs");
 const path = require("path");
 const assert = require("assert");
+const RealDate = Date;
 
 const fixtureDir = path.resolve(__dirname, "fixtures");
 const quiz = JSON.parse(fs.readFileSync(path.join(fixtureDir, "filters_quiz.json"), "utf8"));
 const resultsCsv = fs.readFileSync(path.join(fixtureDir, "filters_results.csv"), "utf8");
+const { parseCsvRows } = require(path.resolve(__dirname, "csv_rows.js"));
+// The fixture is a transcript of the old Sheet; reshape it into the columns
+// PostgREST returns so the app sees exactly what Supabase would send.
+const resultRows = parseCsvRows(resultsCsv).map((row) => ({
+  answered_at: row.timestamp,
+  word_id: row.word_id,
+  mode: row.mode,
+  correct: row.correct === "true",
+}));
 
 const storage = new Map();
 const localStorage = {
@@ -47,14 +57,28 @@ const makeCheckbox = (value, checked) => ({
 
 const makeContainer = () => ({
   inputs: [],
-  innerHTML: "",
+  _innerHTML: "",
+  get innerHTML() {
+    return this._innerHTML;
+  },
+  // renderTagOptions clears the list by assigning innerHTML = "" before each
+  // render, and it now re-renders on every change — so the stub has to drop the
+  // old checkboxes too, or they accumulate across renders.
+  set innerHTML(value) {
+    this._innerHTML = value;
+    if (!value) this.inputs = [];
+  },
   addEventListener: function (event, handler) {
     this._handlers = this._handlers || {};
     this._handlers[event] = handler;
   },
-  appendChild: function (label) {
-    if (label && label.input) {
-      this.inputs.push(label.input);
+  appendChild: function (child) {
+    if (child && child.input) {
+      this.inputs.push(child.input);
+    }
+    // group divs hold the labels; hoist their checkboxes into the container
+    if (child && Array.isArray(child.inputs)) {
+      child.inputs.forEach((input) => this.inputs.push(input));
     }
   },
   querySelectorAll: function (selector) {
@@ -122,6 +146,11 @@ const document = {
   getElementById: (id) => elementById[id] || makeElement(id),
   querySelectorAll: (selector) => (selector === ".mode-btn" ? modeButtons : []),
   querySelector: () => null,
+  // app.js listens for visibilitychange to retry a stalled sync; the stub only
+  // needs to accept the registration, not fire it.
+  addEventListener: () => {},
+  hidden: false,
+  visibilityState: "visible",
   createElement: (tag) => {
     if (tag === "label") {
       return {
@@ -137,6 +166,18 @@ const document = {
     }
     if (tag === "span") {
       return { textContent: "" };
+    }
+    if (tag === "div") {
+      // renderTagOptions wraps the tag labels in group divs (Selected / Available),
+      // so a div has to collect the checkboxes appended to it.
+      return {
+        className: "",
+        textContent: "",
+        inputs: [],
+        appendChild: function (child) {
+          if (child && child.input) this.inputs.push(child.input);
+        },
+      };
     }
     if (tag === "a") {
       return { href: "", download: "", click: () => {}, remove: () => {} };
@@ -154,13 +195,29 @@ const fetch = async (url) => {
   if (target.includes("data/aliases.json")) {
     return { ok: true, json: async () => ({ aliases: {} }) };
   }
-  if (target.includes("format=csv")) {
-    return { ok: true, text: async () => resultsCsv };
+  // Supabase reads: one page of result rows, then the count-only probe.
+  if (target.includes("/rest/v1/results")) {
+    if (target.includes("select=id")) {
+      return {
+        ok: true,
+        status: 206,
+        headers: { get: (name) => (String(name).toLowerCase() === "content-range" ? `0-0/${resultRows.length}` : null) },
+        json: async () => [],
+        text: async () => "",
+      };
+    }
+    return {
+      ok: true,
+      status: 200,
+      headers: { get: () => null },
+      json: async () => resultRows,
+      text: async () => "",
+    };
   }
-  if (target.includes("action=whoami")) {
-    return { ok: true, text: async () => "test" };
+  if (target.includes("/rest/v1/rpc/current_app_user")) {
+    return { ok: true, status: 200, headers: { get: () => null }, json: async () => "test", text: async () => '"test"' };
   }
-  return { ok: false, text: async () => "" };
+  return { ok: false, status: 404, headers: { get: () => null }, text: async () => "" };
 };
 
 const windowObj = {
@@ -168,6 +225,20 @@ const windowObj = {
   alert: () => {},
   prompt: () => "dummy-key",
   addEventListener: () => {},
+};
+
+// The fixture is dated February 2026 and the app scores against the wall clock,
+// so without pinning "now" the decay terms fall to ~0 and selection collapses to
+// the novelty bonus 1/(1+events) — which picks whichever word has been practised
+// least, not the one that needs practice. Freeze time at the fixture's own "now".
+const FIXED_NOW = new RealDate("2026-02-25T00:00:00Z").getTime();
+global.Date = class extends RealDate {
+  constructor(...args) {
+    super(...(args.length ? args : [FIXED_NOW]));
+  }
+  static now() {
+    return FIXED_NOW;
+  }
 };
 
 global.document = document;
@@ -179,12 +250,13 @@ global.Blob = function () {};
 global.TodayScoring = require(path.resolve(__dirname, "..", "..", "web", "today_scoring.js"));
 
 global.APP_CONFIG = {
-  resultsEnabled: true,
-  resultsEndpoint: "https://example.test/results",
+  supabaseUrl: "https://example.test",
+  supabaseKey: "test-publishable-key",
   cacheBust: "",
 };
 
-localStorage.setItem("tr-quiz-api-key", "test");
+localStorage.setItem("tr-quiz-app-secret", "test-secret");
+localStorage.setItem("tr-quiz-user-name", "test");
 localStorage.setItem("tr-quiz-include-tags", JSON.stringify(["verb"]));
 localStorage.setItem("tr-quiz-exclude-tags", JSON.stringify([]));
 
@@ -234,6 +306,8 @@ const waitForLoad = () =>
   });
 
   console.log("App recompute today filter test passed.");
+  // app.js installs a 60s retry interval; without this the process never exits.
+  process.exit(0);
 })().catch((error) => {
   console.error(error);
   process.exit(1);
