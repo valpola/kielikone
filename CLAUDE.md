@@ -119,6 +119,9 @@ scratchpad once per session, then:
   so `İŞÇİ` arrives as `ı̇ şçi` and never matches `işçi`. Strip `U+0307`, close the gap, and
   fold `ı→i` before comparing. Note `.lower()` *expands* `İ` into `i`+dot, so repair after
   lowercasing, not before.
+- **A list row offering two forms (`süresinde / süresince`, `tecrübe / deneyim`) must keep
+  both**, as `X / Y` with `hint_en_tr: (X / Y)`. Recording only one silently drops a word the
+  book teaches. To audit: split every list row on ` / ` and check both sides against the deck.
 - Glosses carry no parentheticals; disambiguators/format cues go in `hint_tr_en` (TR→EN) or
   `hint_en_tr` (EN→TR). Multi-form answers get `(X / Y)`. Keep circumflexes (`kâğıt`,
   `tarihî`) — matching folds `â/î/û`.

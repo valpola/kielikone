@@ -54,7 +54,7 @@ RESULTS_SOURCE = resolve_results_source_with_key()
 # %%
 # Filter settings for scoring subsets.
 INCLUDE_TAGS = ["verb"][:0]
-EXCLUDE_TAGS: list[str] = ["similar", "unit-a2-4c", "unit-a2-4b", "unit-a2-4a"][:2]
+EXCLUDE_TAGS: list[str] = ["similar"][:1]
 MODE = ["tr-en", "en-tr"][1]
 
 # %%

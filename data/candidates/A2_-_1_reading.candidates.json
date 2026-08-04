@@ -158,7 +158,7 @@
     },
     {
       "id": "cand-a2-1rd-0012",
-      "turkish": "tecrübe",
+      "turkish": "tecrübe / deneyim",
       "english": "experience",
       "priority": 3,
       "tags": [
@@ -166,9 +166,10 @@
         "unit-a2-1c",
         "unit-a2"
       ],
-      "source": "A2-1C coursebook (grammar-section example word, Turkishle)",
+      "source": "A2-6A coursebook vocabulary list lists both forms together (Turkishle)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-a2-1rd-0013",

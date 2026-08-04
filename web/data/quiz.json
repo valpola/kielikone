@@ -13747,14 +13747,15 @@
     },
     {
       "id": "cand-a2-1rd-0012",
-      "turkish": "tecr\u00fcbe",
+      "turkish": "tecr\u00fcbe / deneyim",
       "english": "experience",
       "priority": 3,
       "tags": [
         "noun",
         "unit-a2-1c",
         "unit-a2"
-      ]
+      ],
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-a2-1rd-0013",
@@ -15006,14 +15007,15 @@
     },
     {
       "id": "cand-a2-2sw-0024",
-      "turkish": "s\u00fcresince",
+      "turkish": "s\u00fcresinde / s\u00fcresince",
       "english": "during / throughout",
       "priority": 3,
       "tags": [
         "adverb",
         "unit-a2-2c",
         "unit-a2"
-      ]
+      ],
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-a2-2sw-0025",

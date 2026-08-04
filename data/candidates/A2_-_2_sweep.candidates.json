@@ -330,7 +330,7 @@
     },
     {
       "id": "cand-a2-2sw-0024",
-      "turkish": "süresince",
+      "turkish": "süresinde / süresince",
       "english": "during / throughout",
       "priority": 3,
       "tags": [
@@ -338,9 +338,10 @@
         "unit-a2-2c",
         "unit-a2"
       ],
-      "source": "A2-2C vocab-page flashcards (Turkishle web)",
+      "source": "A2-2C coursebook vocabulary list, which lists both forms together (Turkishle web + coursebook)",
       "notes": "",
-      "status": "approved"
+      "status": "approved",
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-a2-2sw-0025",
