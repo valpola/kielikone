@@ -413,7 +413,7 @@
     },
     {
       "id": "cand-a1-0a-0029",
-      "turkish": "zaman",
+      "turkish": "zaman / vakit",
       "english": "time",
       "priority": 3,
       "tags": [
@@ -423,8 +423,9 @@
         "unit-a1-5a"
       ],
       "source": "A1_-_0A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "vakit folded in as an alternative rather than kept as its own entry: the two are interchangeable for 'time', and a separate entry meant two prompts for one meaning. The A2-4A card offers them the same way, as \u201czaman / vakit ge\u00e7irmek\u201d. This entry keeps the id and the history.",
+      "status": "approved",
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-a1-1a-0001",
@@ -25724,21 +25725,6 @@
       "notes": "Mined from the card example sentences, which the earlier sweeps discarded \u2014 the lists teach the headwords, the sentences carry the connective vocabulary around them. Against say\u0131 = number, which counts. numara identifies.",
       "status": "approved",
       "hint_en_tr": "(a shoe size or a phone number)"
-    },
-    {
-      "id": "cand-sent-0083",
-      "turkish": "vakit",
-      "english": "time",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a2-1b",
-        "unit-a2"
-      ],
-      "source": "example sentence on the A2-1B vocabulary card (Turkishle web); in no unit vocabulary list",
-      "notes": "Mined from the card example sentences, which the earlier sweeps discarded \u2014 the lists teach the headwords, the sentences carry the connective vocabulary around them. Synonym of zaman, which keeps the unmarked prompt. The A2-4A card offers 'zaman / vakit ge\u00e7irmek'.",
-      "status": "approved",
-      "hint_en_tr": "(the less everyday synonym)"
     },
     {
       "id": "cand-sent-0084",

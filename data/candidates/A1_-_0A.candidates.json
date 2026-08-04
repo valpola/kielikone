@@ -396,7 +396,7 @@
     },
     {
       "id": "cand-a1-0a-0029",
-      "turkish": "zaman",
+      "turkish": "zaman / vakit",
       "english": "time",
       "priority": 3,
       "tags": [
@@ -405,8 +405,9 @@
         "unit-a1"
       ],
       "source": "A1_-_0A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "vakit folded in as an alternative rather than kept as its own entry: the two are interchangeable for 'time', and a separate entry meant two prompts for one meaning. The A2-4A card offers them the same way, as “zaman / vakit geçirmek”. This entry keeps the id and the history.",
+      "status": "approved",
+      "hint_en_tr": "(X / Y)"
     }
   ]
 }

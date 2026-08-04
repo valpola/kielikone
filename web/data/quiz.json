@@ -328,7 +328,7 @@
     },
     {
       "id": "cand-a1-0a-0029",
-      "turkish": "zaman",
+      "turkish": "zaman / vakit",
       "english": "time",
       "priority": 3,
       "tags": [
@@ -336,7 +336,8 @@
         "unit-a1-0a",
         "unit-a1",
         "unit-a1-5a"
-      ]
+      ],
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-a1-1a-0001",
@@ -20359,18 +20360,6 @@
         "unit-a2"
       ],
       "hint_en_tr": "(a shoe size or a phone number)"
-    },
-    {
-      "id": "cand-sent-0083",
-      "turkish": "vakit",
-      "english": "time",
-      "priority": 3,
-      "tags": [
-        "noun",
-        "unit-a2-1b",
-        "unit-a2"
-      ],
-      "hint_en_tr": "(the less everyday synonym)"
     },
     {
       "id": "cand-sent-0084",
