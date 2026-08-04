@@ -23933,11 +23933,10 @@
       "tags": [
         "adverb",
         "unit-a1-0a",
-        "unit-a1",
-        "unit-a1-extra"
+        "unit-a1"
       ],
       "source": "A1-0A alphabet example word (neden); no unit vocabulary-list entry; ni\u00e7in added as a standard synonym",
-      "notes": "",
+      "notes": "neden is an A1-0A alphabet example and niye appears in the books, so the entry is the course's; ni\u00e7in is my addition as a standard synonym. The -extra marker was removed because it would have hidden an attested word whenever off-syllabus items are filtered out \u2014 the marker describes the entry, not one of its forms.",
       "status": "approved",
       "hint_en_tr": "(X / Y / Z)"
     },
@@ -25980,10 +25979,11 @@
       "tags": [
         "verb",
         "unit-a2-2c",
-        "unit-a2"
+        "unit-a2",
+        "unit-a2-extra"
       ],
-      "source": "example sentence on the A2-2C vocabulary card (Turkishle web); in no unit vocabulary list",
-      "notes": "Mined from the card example sentences, which the earlier sweeps discarded \u2014 the lists teach the headwords, the sentences carry the connective vocabulary around them. Not attested anywhere; added as the intransitive counterpart of geli\u015ftirmek so the pair is drillable.",
+      "source": "gap-fill: the intransitive counterpart of geli\u015ftirmek; the verb itself occurs in no Turkishle source, only the noun geli\u015fim (A2-3A prose)",
+      "notes": "Added so the transitive/intransitive pair is drillable: geli\u015ftirmek is taught (A2-2C sentence, A2-6A list) but its counterpart is not. Filed at A2-2C with the -extra marker, since it is my addition rather than the course's. The source field previously claimed the A2-2C sentence, which teaches geli\u015ftir, not geli\u015fmek.",
       "status": "approved",
       "hint_en_tr": "(intransitive)"
     },

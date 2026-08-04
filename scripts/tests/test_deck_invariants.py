@@ -126,6 +126,28 @@ def main() -> int:
         "move the qualifier into hint_tr_en / hint_en_tr, or make it part of the gloss",
     )
 
+    # A gap-fill is my addition, not the course's, and must say so both ways: the
+    # source field and the -extra marker have to agree. gelişmek carried a source
+    # copied from its batch, claiming an attestation it did not have.
+    #
+    # Read from the candidate files, not the deck: export_quiz.py drops `source`,
+    # so checking the exported items would call everything attested.
+    sourced = []
+    for path in sorted((ROOT / "data" / "candidates").glob("*.candidates.json")):
+        sourced.extend(json.loads(path.read_text(encoding="utf-8"))["items"])
+    check(
+        "the -extra marker agrees with the source",
+        [
+            f'{it["turkish"]} ({it["id"]}): '
+            + ("source says gap-fill, no -extra tag" if it.get("source", "").lower().startswith("gap-fill")
+               else "carries -extra, but the source claims an attestation")
+            for it in sourced
+            if it.get("source", "").lower().startswith("gap-fill")
+            != any(t.endswith("-extra") for t in it.get("tags", []))
+        ],
+        "a gap-fill needs the -extra marker; an attested word must not carry it",
+    )
+
     # ids are the key the answer history hangs on.
     dupe_ids = [i for i, n in Counter(it["id"] for it in items).items() if n > 1]
     check("ids are unique", sorted(dupe_ids))

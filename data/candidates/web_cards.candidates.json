@@ -847,10 +847,11 @@
       "tags": [
         "verb",
         "unit-a2-2c",
-        "unit-a2"
+        "unit-a2",
+        "unit-a2-extra"
       ],
-      "source": "example sentence on the A2-2C vocabulary card (Turkishle web); in no unit vocabulary list",
-      "notes": "Mined from the card example sentences, which the earlier sweeps discarded — the lists teach the headwords, the sentences carry the connective vocabulary around them. Not attested anywhere; added as the intransitive counterpart of geliştirmek so the pair is drillable.",
+      "source": "gap-fill: the intransitive counterpart of geliştirmek; the verb itself occurs in no Turkishle source, only the noun gelişim (A2-3A prose)",
+      "notes": "Added so the transitive/intransitive pair is drillable: geliştirmek is taught (A2-2C sentence, A2-6A list) but its counterpart is not. Filed at A2-2C with the -extra marker, since it is my addition rather than the course's. The source field previously claimed the A2-2C sentence, which teaches geliştir, not gelişmek.",
       "status": "approved",
       "hint_en_tr": "(intransitive)"
     },

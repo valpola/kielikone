@@ -718,11 +718,10 @@
       "tags": [
         "adverb",
         "unit-a1-0a",
-        "unit-a1",
-        "unit-a1-extra"
+        "unit-a1"
       ],
       "source": "A1-0A alphabet example word (neden); no unit vocabulary-list entry; niçin added as a standard synonym",
-      "notes": "",
+      "notes": "neden is an A1-0A alphabet example and niye appears in the books, so the entry is the course's; niçin is my addition as a standard synonym. The -extra marker was removed because it would have hidden an attested word whenever off-syllabus items are filtered out — the marker describes the entry, not one of its forms.",
       "status": "approved",
       "hint_en_tr": "(X / Y / Z)"
     },
