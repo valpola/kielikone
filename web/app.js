@@ -551,13 +551,20 @@ const updateCacheStatusUi = () => {
   } else {
     parts.push("no cached history");
   }
+  // The database total is only worth showing when it disagrees with the cache —
+  // which means either another device has answered words this one has not fetched,
+  // or an undo removed rows the cache still has. Equal numbers say nothing, and
+  // this line has to stay short enough not to push "Next word" off a phone screen.
   if (lastKnownTotal) {
     const cached = snapshot ? snapshot.rows.length : 0;
     const gap = lastKnownTotal - cached;
-    parts.push(
-      `${lastKnownTotal.toLocaleString()} in database` +
-        (snapshot && gap !== 0 ? ` (${gap > 0 ? "+" : ""}${gap} vs cache)` : "")
-    );
+    if (!snapshot) {
+      parts.push(`${lastKnownTotal.toLocaleString()} in database`);
+    } else if (gap > 0) {
+      parts.push(`${gap.toLocaleString()} more in database`);
+    } else if (gap < 0) {
+      parts.push(`${(-gap).toLocaleString()} fewer in database`);
+    }
   }
   if (localCount) parts.push(`+${localCount} local`);
   if (queued) parts.push(`${queued} queued`);

@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Space+Grotesk:wght@400;600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css?v=20260803-29" />
+    <link rel="stylesheet" href="style.css?v=20260803-30" />
   </head>
   <body>
     <div class="bg-glow"></div>
@@ -52,7 +52,7 @@
           </div>
 
           <div class="login-area">
-            <button id="login-btn" class="ghost login-btn">Login to record results</button>
+            <button id="login-btn" class="ghost login-btn">Log in to sync</button>
             <span id="queue-status" class="queue-status hidden" aria-live="polite"></span>
           </div>
         </div>
@@ -162,6 +162,34 @@
             stored here: it never travels with the vocabulary and never affects your other
             devices, so each device can be working on its own batch.
           </p>
+          <h4>What the numbers mean</h4>
+          <p>
+            After a recompute, Options shows something like
+            <em>1823 words in filter · avg -0.505 · max 2.000</em>. The first is how many
+            words your current tag filters allow. The other two are the priority score,
+            averaged over those words and at its highest.
+          </p>
+          <p>
+            A higher score means a word is more in need of practice. Three anchors make the
+            rest readable:
+          </p>
+          <ul>
+            <li><strong>2.0</strong> — you just got it wrong</li>
+            <li><strong>1.0</strong> — you have never been asked it</li>
+            <li><strong>-0.5</strong> — you just got it right</li>
+          </ul>
+          <p>
+            Scores drift back toward zero as time passes, a wrong answer fading more slowly
+            than a right one, so a word you missed weeks ago still outranks one you answered
+            correctly yesterday. An average below zero means most of the words in your filter
+            are in good shape.
+          </p>
+          <p>
+            The line below it describes your stored history: how many answers are cached on
+            this device, and — only when the two disagree — how many more or fewer the
+            database holds. They differ when another device has answered words this one has
+            not fetched yet, or just after an undo.
+          </p>
           <h4>Session target</h4>
           <p>
             "Correct to finish" controls how many correct answers are required before a
@@ -172,9 +200,9 @@
       </details>
     </main>
 
-    <script src="config.js?v=20260803-29"></script>
-    <script src="today_scoring.js?v=20260803-29"></script>
-    <script src="answers.js?v=20260803-29"></script>
-    <script src="app.js?v=20260803-29"></script>
+    <script src="config.js?v=20260803-30"></script>
+    <script src="today_scoring.js?v=20260803-30"></script>
+    <script src="answers.js?v=20260803-30"></script>
+    <script src="app.js?v=20260803-30"></script>
   </body>
 </html>
