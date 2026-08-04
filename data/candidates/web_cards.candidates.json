@@ -985,6 +985,118 @@
       "notes": "Grammar words belong in the deck: this is for learning Turkish, not only its nouns. The paradigm was half-present — ben and sen were in, the rest were not. Irregular alongside bana: sen + -e gives sana.",
       "status": "approved",
       "hint_tr_en": "(yönelme durumu)"
+    },
+    {
+      "id": "cand-gram-0101",
+      "turkish": "sabahtan beri",
+      "english": "since this morning",
+      "priority": 3,
+      "tags": [
+        "expression",
+        "unit-a1-5c",
+        "unit-a1"
+      ],
+      "source": "A1-5C grammar lesson (-DAn beri); phrase from the A2-3C card sentence “Sabahtan beri ders çalışıyorum”",
+      "notes": "A grammar construction stored as a use case rather than a bare gloss: an isolated 'beri' or '-DAn daha' teaches nothing, while a phrase shows the suffix doing its work. Follows the existing “hem ... hem de” entry. The -DAn beri construction had no representation at all. Two forms are stored so the suffix is seen on different stems.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-gram-0102",
+      "turkish": "geçen yıldan beri",
+      "english": "since last year",
+      "priority": 3,
+      "tags": [
+        "expression",
+        "unit-a1-5c",
+        "unit-a1"
+      ],
+      "source": "A1-5C coursebook grammar section, which gives this as its own example of -DAn beri",
+      "notes": "A grammar construction stored as a use case rather than a bare gloss: an isolated 'beri' or '-DAn daha' teaches nothing, while a phrase shows the suffix doing its work. Follows the existing “hem ... hem de” entry. Second use case for -DAn beri, from the coursebook itself.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-gram-0103",
+      "turkish": "ya ... ya da",
+      "english": "either ... or",
+      "priority": 3,
+      "tags": [
+        "conjunction",
+        "unit-a2-4c",
+        "unit-a2"
+      ],
+      "source": "A2-4C coursebook grammar section (correlatives)",
+      "notes": "A grammar construction stored as a use case rather than a bare gloss: an isolated 'beri' or '-DAn daha' teaches nothing, while a phrase shows the suffix doing its work. Follows the existing “hem ... hem de” entry. Stored like the existing “hem ... hem de”. Distinct from veya / ya da, which joins two alternatives once rather than marking both.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-gram-0104",
+      "turkish": "ne ... ne de",
+      "english": "neither ... nor",
+      "priority": 3,
+      "tags": [
+        "conjunction",
+        "unit-a2-4c",
+        "unit-a2"
+      ],
+      "source": "A2-4C coursebook grammar section (correlatives)",
+      "notes": "A grammar construction stored as a use case rather than a bare gloss: an isolated 'beri' or '-DAn daha' teaches nothing, while a phrase shows the suffix doing its work. Follows the existing “hem ... hem de” entry. Takes an affirmative verb in Turkish though English needs a negative — worth drilling for that alone.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-gram-0105",
+      "turkish": "Kaçta?",
+      "english": "At what time?",
+      "priority": 3,
+      "tags": [
+        "expression",
+        "unit-a1-2b",
+        "unit-a1"
+      ],
+      "source": "A1-2B coursebook grammar section (telling the time)",
+      "notes": "A grammar construction stored as a use case rather than a bare gloss: an isolated 'beri' or '-DAn daha' teaches nothing, while a phrase shows the suffix doing its work. Follows the existing “hem ... hem de” entry. The deck had saat kaç? but not the locative question. Kaçta asks at what time, saat kaç? what time it is.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-gram-0106",
+      "turkish": "Nerelisin?",
+      "english": "Where are you from?",
+      "priority": 3,
+      "tags": [
+        "expression",
+        "unit-a1-1a",
+        "unit-a1"
+      ],
+      "source": "A1-1A coursebook grammar section (asking origin, with the -lI suffix)",
+      "notes": "A grammar construction stored as a use case rather than a bare gloss: an isolated 'beri' or '-DAn daha' teaches nothing, while a phrase shows the suffix doing its work. Follows the existing “hem ... hem de” entry. Absent despite being one of the first things the course teaches.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-gram-0107",
+      "turkish": "en yakın",
+      "english": "the nearest",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-6c",
+        "unit-a1"
+      ],
+      "source": "A1-6C coursebook grammar section, which gives it as an example of the superlative en + adjective",
+      "notes": "A grammar construction stored as a use case rather than a bare gloss: an isolated 'beri' or '-DAn daha' teaches nothing, while a phrase shows the suffix doing its work. Follows the existing “hem ... hem de” entry. Use case for the superlative. The deck had en az (at least), which uses en without showing the pattern.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-gram-0108",
+      "turkish": "benden daha uzun",
+      "english": "taller than me",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-6c",
+        "unit-a1"
+      ],
+      "source": "A1-6C coursebook grammar section (comparative -DAn daha + adjective)",
+      "notes": "A grammar construction stored as a use case rather than a bare gloss: an isolated 'beri' or '-DAn daha' teaches nothing, while a phrase shows the suffix doing its work. Follows the existing “hem ... hem de” entry. Use case for the comparative. The deck had daha iyi, which shows daha but not the ablative it compares against.",
+      "status": "approved"
     }
   ]
 }

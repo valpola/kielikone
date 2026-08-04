@@ -92,6 +92,12 @@ without fetching. Only the *lesson map* needs the login; embeds are public by id
   discarded as "grammar", which is how the deck came to hold `ben` and `sen` but not `o`,
   `biz`, `siz` or `onlar`. When a shared English gloss makes two entries look redundant, first
   ask whether Turkish is drawing a distinction English has lost.
+- **Store a grammar feature as a use case, not a bare gloss.** An isolated `beri` teaches
+  nothing; `sabahtan beri` = "since this morning" shows the suffix working. The deck already
+  did this for `-DIr` (`günlerdir`, `yıllardır`) and `-(y)ken` (`küçükken`) — follow that.
+  `docs/grammar_topics.md` lists the constructions per unit; check each has at least one
+  entry showing it in use. Pure conjugation patterns (`-Iyordu`, `-mAlIydI`) stay out — those
+  belong in the interactive drills.
 - **Level cap: up to B1, not beyond.** Reading glossaries sometimes gloss words needed only
   to understand that particular text (literary collocations, specialist terms). Skip those
   and say so, rather than padding the deck (e.g. skipped `aşkla dolmak`).

@@ -19132,6 +19132,94 @@
       "hint_tr_en": "(y\u00f6nelme durumu)"
     },
     {
+      "id": "cand-gram-0101",
+      "turkish": "sabahtan beri",
+      "english": "since this morning",
+      "priority": 3,
+      "tags": [
+        "expression",
+        "unit-a1-5c",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-gram-0102",
+      "turkish": "ge\u00e7en y\u0131ldan beri",
+      "english": "since last year",
+      "priority": 3,
+      "tags": [
+        "expression",
+        "unit-a1-5c",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-gram-0103",
+      "turkish": "ya ... ya da",
+      "english": "either ... or",
+      "priority": 3,
+      "tags": [
+        "conjunction",
+        "unit-a2-4c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-gram-0104",
+      "turkish": "ne ... ne de",
+      "english": "neither ... nor",
+      "priority": 3,
+      "tags": [
+        "conjunction",
+        "unit-a2-4c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-gram-0105",
+      "turkish": "Ka\u00e7ta?",
+      "english": "At what time?",
+      "priority": 3,
+      "tags": [
+        "expression",
+        "unit-a1-2b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-gram-0106",
+      "turkish": "Nerelisin?",
+      "english": "Where are you from?",
+      "priority": 3,
+      "tags": [
+        "expression",
+        "unit-a1-1a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-gram-0107",
+      "turkish": "en yak\u0131n",
+      "english": "the nearest",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-6c",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-gram-0108",
+      "turkish": "benden daha uzun",
+      "english": "taller than me",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a1-6c",
+        "unit-a1"
+      ]
+    },
+    {
       "id": "cand-lang-0001",
       "turkish": "Kazak\u00e7a",
       "english": "Kazakh",
