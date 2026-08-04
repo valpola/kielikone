@@ -426,9 +426,9 @@
         "verb"
       ],
       "source": "A1_-_4C.pdf",
-      "notes": "Transitivity tip: the English gloss reads either way, the Turkish verb does not. Knowing which is meant is what lets the counterpart be derived — the -Il-/-In- form for the intransitive, the causative for the transitive.",
+      "notes": "Tip added (issue #52) so 'to lose' cannot be read as being defeated.",
       "status": "approved",
-      "hint_en_tr": "(transitive)"
+      "hint_en_tr": "(transitive — a possession, not a match)"
     },
     {
       "id": "cand-a1-4c-0031",

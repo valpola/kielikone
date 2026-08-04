@@ -390,7 +390,7 @@
     {
       "id": "cand-a2-2a-0028",
       "turkish": "… sayesinde",
-      "english": "because of / thanks to",
+      "english": "thanks to",
       "priority": 3,
       "tags": [
         "noun",
@@ -398,8 +398,9 @@
         "unit-a2-2a"
       ],
       "source": "A2_-_2A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Glosses split by polarity (issues #53/#54): both entries used to read 'because of', which collided and forced TR->EN to type two phrases. sayesinde credits, yüzünden blames. The '…' marks the noun it attaches to; NFKC turns it into dots, which the matcher strips, so it need not be typed.",
+      "status": "approved",
+      "hint_en_tr": "(for something that turned out well)"
     },
     {
       "id": "cand-a2-2a-0029",
@@ -433,7 +434,7 @@
     {
       "id": "cand-a2-2a-0031",
       "turkish": "… yüzünden",
-      "english": "because of / due to",
+      "english": "because of",
       "priority": 3,
       "tags": [
         "noun",
@@ -441,8 +442,9 @@
         "unit-a2-2a"
       ],
       "source": "A2_-_2A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "See … sayesinde (issues #53/#54).",
+      "status": "approved",
+      "hint_en_tr": "(for something that went wrong)"
     }
   ]
 }

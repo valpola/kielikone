@@ -41,8 +41,10 @@
         "unit-a1"
       ],
       "source": "A1-5B vocabulary card (Turkishle web); not in any coursebook list",
-      "notes": "Card only, in the travel unit, so the departure sense is the taught one. kalkmak also means 'to get up' — not in the deck, so no colliding prompt; add that sense separately if it ever appears in a list.",
-      "status": "approved"
+      "notes": "Tips both ways (issues #55, #57). kalkmak is a vehicle setting off; leaving a person or place is (birinden / bir yerden) ayrılmak, and standing up is ayağa kalkmak — both already in the deck.",
+      "status": "approved",
+      "hint_en_tr": "(of a bus, train or plane setting off)",
+      "hint_tr_en": "(otobüs, tren, uçak)"
     },
     {
       "id": "cand-card-0005",
@@ -85,36 +87,6 @@
       "source": "base word of “Van Gölü” (A1-6A vocabulary card, Turkishle web)",
       "notes": "Base word of the compound the card teaches. deniz and köprü, its peers in that lesson, are already in the deck.",
       "status": "approved"
-    },
-    {
-      "id": "cand-card-0010",
-      "turkish": "sayesinde",
-      "english": "thanks to",
-      "priority": 3,
-      "tags": [
-        "adverb",
-        "unit-a2-2a",
-        "unit-a2"
-      ],
-      "source": "A2-2A coursebook vocabulary list; also an A2-2A vocabulary card (Turkishle web)",
-      "notes": "Both sources gloss it 'because of / thanks to', which would collide with yüzünden. Split by polarity instead: sayesinde is for a welcome outcome, yüzünden for an unwelcome one.",
-      "status": "approved",
-      "hint_en_tr": "(for something that turned out well)"
-    },
-    {
-      "id": "cand-card-0011",
-      "turkish": "yüzünden",
-      "english": "because of",
-      "priority": 3,
-      "tags": [
-        "adverb",
-        "unit-a2-2a",
-        "unit-a2"
-      ],
-      "source": "A2-2A coursebook vocabulary list; also an A2-2A vocabulary card (Turkishle web)",
-      "notes": "See sayesinde: same gloss in both sources, separated here by polarity. yüzünden blames, sayesinde credits.",
-      "status": "approved",
-      "hint_en_tr": "(for something that went wrong)"
     },
     {
       "id": "cand-card-0012",
@@ -175,7 +147,7 @@
     {
       "id": "cand-card-0017",
       "turkish": "türkü",
-      "english": "folk song",
+      "english": "Turkish folk song",
       "priority": 3,
       "tags": [
         "noun",
@@ -183,7 +155,7 @@
         "unit-a2"
       ],
       "source": "A2-4B coursebook vocabulary list, carded as “türkü / halk müziği”",
-      "notes": "Split from halk müziği (issue #48): a türkü is one song, halk müziği the genre. Deck already has şarkı = song.",
+      "notes": "A türkü is specifically a Turkish/Anatolian folk song, not folk song in general (issue #56). Gloss narrowed to say so.",
       "status": "approved"
     },
     {

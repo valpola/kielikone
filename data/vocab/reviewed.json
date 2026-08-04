@@ -10447,9 +10447,9 @@
         "verb"
       ],
       "source": "A1_-_4C.pdf",
-      "notes": "Transitivity tip: the English gloss reads either way, the Turkish verb does not. Knowing which is meant is what lets the counterpart be derived \u2014 the -Il-/-In- form for the intransitive, the causative for the transitive.",
+      "notes": "Tip added (issue #52) so 'to lose' cannot be read as being defeated.",
       "status": "approved",
-      "hint_en_tr": "(transitive)"
+      "hint_en_tr": "(transitive \u2014 a possession, not a match)"
     },
     {
       "id": "cand-a1-4c-0031",
@@ -17781,7 +17781,7 @@
     {
       "id": "cand-a2-2a-0028",
       "turkish": "\u2026 sayesinde",
-      "english": "because of / thanks to",
+      "english": "thanks to",
       "priority": 3,
       "tags": [
         "noun",
@@ -17789,8 +17789,9 @@
         "unit-a2-2a"
       ],
       "source": "A2_-_2A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Glosses split by polarity (issues #53/#54): both entries used to read 'because of', which collided and forced TR->EN to type two phrases. sayesinde credits, y\u00fcz\u00fcnden blames. The '\u2026' marks the noun it attaches to; NFKC turns it into dots, which the matcher strips, so it need not be typed.",
+      "status": "approved",
+      "hint_en_tr": "(for something that turned out well)"
     },
     {
       "id": "cand-a2-2a-0029",
@@ -17824,7 +17825,7 @@
     {
       "id": "cand-a2-2a-0031",
       "turkish": "\u2026 y\u00fcz\u00fcnden",
-      "english": "because of / due to",
+      "english": "because of",
       "priority": 3,
       "tags": [
         "noun",
@@ -17832,8 +17833,9 @@
         "unit-a2-2a"
       ],
       "source": "A2_-_2A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "See \u2026 sayesinde (issues #53/#54).",
+      "status": "approved",
+      "hint_en_tr": "(for something that went wrong)"
     },
     {
       "id": "cand-a2-2b-0001",
@@ -22744,8 +22746,10 @@
         "unit-a1"
       ],
       "source": "A1-5B vocabulary card (Turkishle web); not in any coursebook list",
-      "notes": "Card only, in the travel unit, so the departure sense is the taught one. kalkmak also means 'to get up' \u2014 not in the deck, so no colliding prompt; add that sense separately if it ever appears in a list.",
-      "status": "approved"
+      "notes": "Tips both ways (issues #55, #57). kalkmak is a vehicle setting off; leaving a person or place is (birinden / bir yerden) ayr\u0131lmak, and standing up is aya\u011fa kalkmak \u2014 both already in the deck.",
+      "status": "approved",
+      "hint_en_tr": "(of a bus, train or plane setting off)",
+      "hint_tr_en": "(otob\u00fcs, tren, u\u00e7ak)"
     },
     {
       "id": "cand-card-0005",
@@ -22788,36 +22792,6 @@
       "source": "base word of \u201cVan G\u00f6l\u00fc\u201d (A1-6A vocabulary card, Turkishle web)",
       "notes": "Base word of the compound the card teaches. deniz and k\u00f6pr\u00fc, its peers in that lesson, are already in the deck.",
       "status": "approved"
-    },
-    {
-      "id": "cand-card-0010",
-      "turkish": "sayesinde",
-      "english": "thanks to",
-      "priority": 3,
-      "tags": [
-        "adverb",
-        "unit-a2-2a",
-        "unit-a2"
-      ],
-      "source": "A2-2A coursebook vocabulary list; also an A2-2A vocabulary card (Turkishle web)",
-      "notes": "Both sources gloss it 'because of / thanks to', which would collide with y\u00fcz\u00fcnden. Split by polarity instead: sayesinde is for a welcome outcome, y\u00fcz\u00fcnden for an unwelcome one.",
-      "status": "approved",
-      "hint_en_tr": "(for something that turned out well)"
-    },
-    {
-      "id": "cand-card-0011",
-      "turkish": "y\u00fcz\u00fcnden",
-      "english": "because of",
-      "priority": 3,
-      "tags": [
-        "adverb",
-        "unit-a2-2a",
-        "unit-a2"
-      ],
-      "source": "A2-2A coursebook vocabulary list; also an A2-2A vocabulary card (Turkishle web)",
-      "notes": "See sayesinde: same gloss in both sources, separated here by polarity. y\u00fcz\u00fcnden blames, sayesinde credits.",
-      "status": "approved",
-      "hint_en_tr": "(for something that went wrong)"
     },
     {
       "id": "cand-card-0012",
@@ -22878,7 +22852,7 @@
     {
       "id": "cand-card-0017",
       "turkish": "t\u00fcrk\u00fc",
-      "english": "folk song",
+      "english": "Turkish folk song",
       "priority": 3,
       "tags": [
         "noun",
@@ -22886,7 +22860,7 @@
         "unit-a2"
       ],
       "source": "A2-4B coursebook vocabulary list, carded as \u201ct\u00fcrk\u00fc / halk m\u00fczi\u011fi\u201d",
-      "notes": "Split from halk m\u00fczi\u011fi (issue #48): a t\u00fcrk\u00fc is one song, halk m\u00fczi\u011fi the genre. Deck already has \u015fark\u0131 = song.",
+      "notes": "A t\u00fcrk\u00fc is specifically a Turkish/Anatolian folk song, not folk song in general (issue #56). Gloss narrowed to say so.",
       "status": "approved"
     },
     {

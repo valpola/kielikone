@@ -69,6 +69,10 @@ def main():
         for line in str(i.get("body") or "").splitlines():
             print(f"    {line}")
         print(f"  {i['html_url']}\n")
+    # Repeated at the end on purpose. GitHub lists newest first, so piping this
+    # through `tail` hides the most recent notes — which is how six of them went
+    # unread while the count at the top scrolled away.
+    print(f"— {len(issues)} {state} comment(s): {', '.join('#'+str(i['number']) for i in issues)}")
 
 
 if __name__ == "__main__":

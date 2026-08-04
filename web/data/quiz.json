@@ -8288,7 +8288,7 @@
         "unit-a1",
         "verb"
       ],
-      "hint_en_tr": "(transitive)"
+      "hint_en_tr": "(transitive \u2014 a possession, not a match)"
     },
     {
       "id": "cand-a1-4c-0031",
@@ -14075,13 +14075,14 @@
     {
       "id": "cand-a2-2a-0028",
       "turkish": "\u2026 sayesinde",
-      "english": "because of / thanks to",
+      "english": "thanks to",
       "priority": 3,
       "tags": [
         "noun",
         "unit-a2",
         "unit-a2-2a"
-      ]
+      ],
+      "hint_en_tr": "(for something that turned out well)"
     },
     {
       "id": "cand-a2-2a-0029",
@@ -14109,13 +14110,14 @@
     {
       "id": "cand-a2-2a-0031",
       "turkish": "\u2026 y\u00fcz\u00fcnden",
-      "english": "because of / due to",
+      "english": "because of",
       "priority": 3,
       "tags": [
         "noun",
         "unit-a2",
         "unit-a2-2a"
-      ]
+      ],
+      "hint_en_tr": "(for something that went wrong)"
     },
     {
       "id": "cand-a2-2b-0001",
@@ -17986,7 +17988,9 @@
         "verb",
         "unit-a1-5b",
         "unit-a1"
-      ]
+      ],
+      "hint_tr_en": "(otob\u00fcs, tren, u\u00e7ak)",
+      "hint_en_tr": "(of a bus, train or plane setting off)"
     },
     {
       "id": "cand-card-0005",
@@ -18020,30 +18024,6 @@
         "unit-a1-6a",
         "unit-a1"
       ]
-    },
-    {
-      "id": "cand-card-0010",
-      "turkish": "sayesinde",
-      "english": "thanks to",
-      "priority": 3,
-      "tags": [
-        "adverb",
-        "unit-a2-2a",
-        "unit-a2"
-      ],
-      "hint_en_tr": "(for something that turned out well)"
-    },
-    {
-      "id": "cand-card-0011",
-      "turkish": "y\u00fcz\u00fcnden",
-      "english": "because of",
-      "priority": 3,
-      "tags": [
-        "adverb",
-        "unit-a2-2a",
-        "unit-a2"
-      ],
-      "hint_en_tr": "(for something that went wrong)"
     },
     {
       "id": "cand-card-0012",
@@ -18092,7 +18072,7 @@
     {
       "id": "cand-card-0017",
       "turkish": "t\u00fcrk\u00fc",
-      "english": "folk song",
+      "english": "Turkish folk song",
       "priority": 3,
       "tags": [
         "noun",
