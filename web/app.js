@@ -975,7 +975,7 @@ const storeDebugScores = (payload) => {
 const downloadDebugScores = () => {
   const raw = localStorage.getItem(DEBUG_SCORES_STORAGE);
   if (!raw) {
-    window.alert("No debug scores saved yet. Run recompute today first.");
+    window.alert("No debug scores saved yet. Recompute the practice set first.");
     return;
   }
   const blob = new Blob([raw], { type: "application/json" });
@@ -1047,7 +1047,7 @@ const filterItemsByTags = (allItems, include, exclude) => {
 
 const recomputeToday = async ({ silent = false } = {}) => {
   if (typeof TodayScoring === "undefined") {
-    if (!silent) window.alert("Today scoring module is missing.");
+    if (!silent) window.alert("Scoring module is missing.");
     return;
   }
 
@@ -1074,7 +1074,7 @@ const recomputeToday = async ({ silent = false } = {}) => {
   // empty-state Enter). current is nulled so a stray Enter stays inert until
   // the next word loads (instead of revealing/grading an empty answer).
   current = null;
-  PROMPT.textContent = "Recomputing today's words…";
+  PROMPT.textContent = "Recomputing the practice set…";
   if (HINT) HINT.classList.add("hidden");
   REVEAL.hidden = true;
   ACTIONS.classList.add("hidden");
@@ -1275,48 +1275,77 @@ const renderTagOptions = (isInitial) => {
 
   // The tag list is long enough that a stray tick scrolls out of sight, and since
   // include-tags are ANDed one stray tick empties the whole filter. So the ticked
-  // ones are pulled out into their own group at the top of each list.
+  // ones are pulled out into their own group, which stays put: only the Available
+  // group scrolls, so what you are filtering by is always on screen.
   const renderList = (container, selection) => {
     container.innerHTML = "";
     const chosen = tagIds.filter((tagId) => selection.has(tagId));
     const rest = tagIds.filter((tagId) => !selection.has(tagId));
 
-    const heading = document.createElement("div");
-    heading.className = "tag-group-head";
-    heading.textContent = chosen.length
-      ? "Selected (" + chosen.length + ")"
-      : "Selected (none)";
-    container.appendChild(heading);
+    const selectedHead = document.createElement("div");
+    selectedHead.className = "tag-group-head";
 
-    if (chosen.length) {
-      const picked = document.createElement("div");
-      picked.className = "tag-group tag-group-selected";
-      chosen.forEach((tagId) => picked.appendChild(buildTag(tagId, selection)));
-      container.appendChild(picked);
-    }
+    const selectedBox = document.createElement("div");
+    selectedBox.className = "tag-group tag-group-selected";
+    chosen.forEach((tagId) => selectedBox.appendChild(buildTag(tagId, selection)));
 
-    const restHead = document.createElement("div");
-    restHead.className = "tag-group-head";
-    restHead.textContent = "Available";
-    container.appendChild(restHead);
+    const availableHead = document.createElement("div");
+    availableHead.className = "tag-group-head";
+    availableHead.textContent = "Available";
 
-    const others = document.createElement("div");
-    others.className = "tag-group";
-    rest.forEach((tagId) => others.appendChild(buildTag(tagId, selection)));
-    container.appendChild(others);
+    const availableBox = document.createElement("div");
+    availableBox.className = "tag-group tag-scroll";
+    rest.forEach((tagId) => availableBox.appendChild(buildTag(tagId, selection)));
+
+    // Fill the groups before attaching them: the test harness records checkboxes
+    // as they are appended, so an empty box attached first would record nothing.
+    container.appendChild(selectedHead);
+    container.appendChild(selectedBox);
+    container.appendChild(availableHead);
+    container.appendChild(availableBox);
+
+    container._parts = { selectedHead, selectedBox, availableBox };
+    syncTagGroups(container);
   };
 
   renderList(INCLUDE_TAGS, includeSelection);
   renderList(EXCLUDE_TAGS, excludeSelection);
 };
 
-const renderPrompt = () => {
+// Move a just-toggled tag between the Selected and Available groups in place.
+// Rebuilding the lists instead would reset the scroll position and destroy the
+// checkbox the user just clicked, which is what made the page jump.
+const syncTagGroups = (container) => {
+  const parts = container && container._parts;
+  if (!parts || !parts.selectedBox || !parts.availableBox) return;
+
+  const move = (from, to, wantChecked) => {
+    Array.from(from.children || []).forEach((label) => {
+      const input = label.querySelector && label.querySelector("input");
+      if (input && input.checked === wantChecked) to.appendChild(label);
+    });
+  };
+  move(parts.availableBox, parts.selectedBox, true);
+  move(parts.selectedBox, parts.availableBox, false);
+
+  const count = (parts.selectedBox.children || []).length;
+  parts.selectedHead.textContent = count
+    ? "Selected (" + count + ")"
+    : "Selected (none)";
+  parts.selectedBox.classList.toggle("is-empty", !count);
+};
+
+// keepFocus=false: the user is working in the Options panel, so leave focus where
+// it is. Focusing the answer field scrolls it into view, which yanked the page to
+// the top on every tag tick.
+const renderPrompt = (options) => {
+  const keepFocus = !options || options.keepFocus !== false;
   resetNoteUi();
   current = pickNext();
   if (!current) {
     PROMPT.textContent = "No items match current filters";
     if (HINT) {
-      HINT.textContent = "Press Enter to recompute today";
+      HINT.textContent = "Press Enter to recompute the practice set";
       HINT.classList.remove("hidden");
     }
     REVEAL.hidden = true;
@@ -1342,7 +1371,7 @@ const renderPrompt = () => {
   REVEAL.hidden = false;
   ACTIONS.classList.remove("hidden");
   GRADE.classList.add("hidden");
-  ANSWER.focus();
+  if (keepFocus) ANSWER.focus();
   isRevealed = false;
 };
 
@@ -1442,14 +1471,14 @@ MODE_BTNS.forEach((btn) => {
 
 INCLUDE_TAGS.addEventListener("change", () => {
   saveSelection(INCLUDE_STORAGE, selectedValues(INCLUDE_TAGS));
-  renderTagOptions();
-  renderPrompt();
+  syncTagGroups(INCLUDE_TAGS);
+  renderPrompt({ keepFocus: false });
 });
 
 EXCLUDE_TAGS.addEventListener("change", () => {
   saveSelection(EXCLUDE_STORAGE, selectedValues(EXCLUDE_TAGS));
-  renderTagOptions();
-  renderPrompt();
+  syncTagGroups(EXCLUDE_TAGS);
+  renderPrompt({ keepFocus: false });
 });
 
 SESSION_TARGET.addEventListener("change", () => {
@@ -1651,7 +1680,7 @@ const loadData = async () => {
     // stale word and then swaps it. Wait for the result queue to flush first so
     // freshly-graded words are reflected. Fall back to the stored list if the
     // refresh fails or times out.
-    PROMPT.textContent = "Loading today's words…";
+    PROMPT.textContent = "Loading the practice set…";
     HINT.classList.add("hidden");
     REVEAL.hidden = true;
     ACTIONS.classList.add("hidden");
