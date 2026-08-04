@@ -27,9 +27,9 @@
         "unit-a1"
       ],
       "source": "A1_-_5C.pdf",
-      "notes": "Transitivity tip added on request (issue #46). Turkish splits this: değiştirmek changes something, değişmek changes by itself. değişmek is in no coursebook list and is not yet in the deck.",
+      "notes": "Transitivity tip added on request (issue #46). Turkish splits this: değiştirmek changes something, değişmek changes by itself. değişmek is in no coursebook list and is not yet in the deck. Transitivity tip: the English gloss reads either way, the Turkish verb does not. Knowing which is meant is what lets the counterpart be derived — the -Il-/-In- form for the intransitive, the causative for the transitive.",
       "status": "approved",
-      "hint_en_tr": "(sth. — transitive)"
+      "hint_en_tr": "(transitive)"
     },
     {
       "id": "cand-a1-5c-0003",
@@ -42,8 +42,9 @@
         "unit-a1"
       ],
       "source": "A1_-_5C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Transitivity tip: the English gloss reads either way, the Turkish verb does not. Knowing which is meant is what lets the counterpart be derived — the -Il-/-In- form for the intransitive, the causative for the transitive.",
+      "status": "approved",
+      "hint_en_tr": "(intransitive)"
     },
     {
       "id": "cand-a1-5c-0004",

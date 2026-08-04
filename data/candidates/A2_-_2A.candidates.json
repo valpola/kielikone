@@ -27,8 +27,9 @@
         "verb"
       ],
       "source": "A2_-_2A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Transitivity tip: the English gloss reads either way, the Turkish verb does not. Knowing which is meant is what lets the counterpart be derived — the -Il-/-In- form for the intransitive, the causative for the transitive.",
+      "status": "approved",
+      "hint_en_tr": "(intransitive)"
     },
     {
       "id": "cand-a2-2a-0003",

@@ -4793,8 +4793,9 @@
         "unit-a1-3b"
       ],
       "source": "A1_-_3A.pdf",
-      "notes": "duplicate of cand-a1-3a-0006",
-      "status": "approved"
+      "notes": "Transitivity tip: the English gloss reads either way, the Turkish verb does not. Knowing which is meant is what lets the counterpart be derived \u2014 the -Il-/-In- form for the intransitive, the causative for the transitive.",
+      "status": "approved",
+      "hint_en_tr": "(intransitive)"
     },
     {
       "id": "cand-a1-3a-0009",
@@ -4946,8 +4947,9 @@
         "unit-a1-3b"
       ],
       "source": "A1_-_3A.pdf",
-      "notes": "duplicate of cand-a1-3a-0021",
-      "status": "approved"
+      "notes": "Transitivity tip: the English gloss reads either way, the Turkish verb does not. Knowing which is meant is what lets the counterpart be derived \u2014 the -Il-/-In- form for the intransitive, the causative for the transitive.",
+      "status": "approved",
+      "hint_en_tr": "(intransitive)"
     },
     {
       "id": "cand-a1-3a-0022",
@@ -6613,8 +6615,9 @@
         "verb"
       ],
       "source": "A1_-_4A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Transitivity tip: the English gloss reads either way, the Turkish verb does not. Knowing which is meant is what lets the counterpart be derived \u2014 the -Il-/-In- form for the intransitive, the causative for the transitive.",
+      "status": "approved",
+      "hint_en_tr": "(intransitive)"
     },
     {
       "id": "cand-a1-4a-0002",
@@ -10109,8 +10112,9 @@
         "verb"
       ],
       "source": "A1_-_4C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Transitivity tip: the English gloss reads either way, the Turkish verb does not. Knowing which is meant is what lets the counterpart be derived \u2014 the -Il-/-In- form for the intransitive, the causative for the transitive.",
+      "status": "approved",
+      "hint_en_tr": "(transitive)"
     },
     {
       "id": "cand-a1-4c-0003",
@@ -10181,8 +10185,9 @@
         "verb"
       ],
       "source": "A1_-_4C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Transitivity tip: the English gloss reads either way, the Turkish verb does not. Knowing which is meant is what lets the counterpart be derived \u2014 the -Il-/-In- form for the intransitive, the causative for the transitive.",
+      "status": "approved",
+      "hint_en_tr": "(transitive)"
     },
     {
       "id": "cand-a1-4c-0010",
@@ -10326,8 +10331,9 @@
         "unit-a1-5b"
       ],
       "source": "A1_-_4C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Transitivity tip: the English gloss reads either way, the Turkish verb does not. Knowing which is meant is what lets the counterpart be derived \u2014 the -Il-/-In- form for the intransitive, the causative for the transitive.",
+      "status": "approved",
+      "hint_en_tr": "(transitive)"
     },
     {
       "id": "cand-a1-4c-0023",
@@ -10410,8 +10416,9 @@
         "verb"
       ],
       "source": "A1_-_4C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Transitivity tip: the English gloss reads either way, the Turkish verb does not. Knowing which is meant is what lets the counterpart be derived \u2014 the -Il-/-In- form for the intransitive, the causative for the transitive.",
+      "status": "approved",
+      "hint_en_tr": "(transitive)"
     },
     {
       "id": "cand-a1-4c-0029",
@@ -10424,8 +10431,9 @@
         "verb"
       ],
       "source": "A1_-_4C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Transitivity tip: the English gloss reads either way, the Turkish verb does not. Knowing which is meant is what lets the counterpart be derived \u2014 the -Il-/-In- form for the intransitive, the causative for the transitive.",
+      "status": "approved",
+      "hint_en_tr": "(transitive)"
     },
     {
       "id": "cand-a1-4c-0030",
@@ -10438,8 +10446,9 @@
         "verb"
       ],
       "source": "A1_-_4C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Transitivity tip: the English gloss reads either way, the Turkish verb does not. Knowing which is meant is what lets the counterpart be derived \u2014 the -Il-/-In- form for the intransitive, the causative for the transitive.",
+      "status": "approved",
+      "hint_en_tr": "(transitive)"
     },
     {
       "id": "cand-a1-4c-0031",
@@ -10610,8 +10619,9 @@
         "verb"
       ],
       "source": "A1_-_4C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Transitivity tip: the English gloss reads either way, the Turkish verb does not. Knowing which is meant is what lets the counterpart be derived \u2014 the -Il-/-In- form for the intransitive, the causative for the transitive.",
+      "status": "approved",
+      "hint_en_tr": "(transitive)"
     },
     {
       "id": "cand-a1-4c-0049",
@@ -11195,8 +11205,9 @@
         "unit-a1"
       ],
       "source": "A1-4C grammar/transcript (Turkishle coursebook)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Transitivity tip: the English gloss reads either way, the Turkish verb does not. Knowing which is meant is what lets the counterpart be derived \u2014 the -Il-/-In- form for the intransitive, the causative for the transitive.",
+      "status": "approved",
+      "hint_en_tr": "(transitive)"
     },
     {
       "id": "cand-a1-4cb-0027",
@@ -12032,9 +12043,9 @@
         "unit-a1"
       ],
       "source": "A1_-_5C.pdf",
-      "notes": "Transitivity tip added on request (issue #46). Turkish splits this: de\u011fi\u015ftirmek changes something, de\u011fi\u015fmek changes by itself. de\u011fi\u015fmek is in no coursebook list and is not yet in the deck.",
+      "notes": "Transitivity tip added on request (issue #46). Turkish splits this: de\u011fi\u015ftirmek changes something, de\u011fi\u015fmek changes by itself. de\u011fi\u015fmek is in no coursebook list and is not yet in the deck. Transitivity tip: the English gloss reads either way, the Turkish verb does not. Knowing which is meant is what lets the counterpart be derived \u2014 the -Il-/-In- form for the intransitive, the causative for the transitive.",
       "status": "approved",
-      "hint_en_tr": "(sth. \u2014 transitive)"
+      "hint_en_tr": "(transitive)"
     },
     {
       "id": "cand-a1-5c-0003",
@@ -12047,8 +12058,9 @@
         "unit-a1"
       ],
       "source": "A1_-_5C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Transitivity tip: the English gloss reads either way, the Turkish verb does not. Knowing which is meant is what lets the counterpart be derived \u2014 the -Il-/-In- form for the intransitive, the causative for the transitive.",
+      "status": "approved",
+      "hint_en_tr": "(intransitive)"
     },
     {
       "id": "cand-a1-5c-0005",
@@ -12821,8 +12833,9 @@
         "unit-a1-6c"
       ],
       "source": "A1_-_6A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Transitivity tip: the English gloss reads either way, the Turkish verb does not. Knowing which is meant is what lets the counterpart be derived \u2014 the -Il-/-In- form for the intransitive, the causative for the transitive.",
+      "status": "approved",
+      "hint_en_tr": "(transitive)"
     },
     {
       "id": "cand-a1-6a-0028",
@@ -15403,8 +15416,9 @@
         "unit-a2-1b"
       ],
       "source": "A2_-_1B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Transitivity tip: the English gloss reads either way, the Turkish verb does not. Knowing which is meant is what lets the counterpart be derived \u2014 the -Il-/-In- form for the intransitive, the causative for the transitive.",
+      "status": "approved",
+      "hint_en_tr": "(transitive)"
     },
     {
       "id": "cand-a2-1b-0002",
@@ -16612,8 +16626,9 @@
         "unit-a2-1c"
       ],
       "source": "A2_-_1C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Transitivity tip: the English gloss reads either way, the Turkish verb does not. Knowing which is meant is what lets the counterpart be derived \u2014 the -Il-/-In- form for the intransitive, the causative for the transitive.",
+      "status": "approved",
+      "hint_en_tr": "(transitive)"
     },
     {
       "id": "cand-a2-1c-0002",
@@ -16626,8 +16641,9 @@
         "unit-a2-1c"
       ],
       "source": "A2_-_1C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Transitivity tip: the English gloss reads either way, the Turkish verb does not. Knowing which is meant is what lets the counterpart be derived \u2014 the -Il-/-In- form for the intransitive, the causative for the transitive.",
+      "status": "approved",
+      "hint_en_tr": "(transitive)"
     },
     {
       "id": "cand-a2-1c-0004",
@@ -16640,8 +16656,9 @@
         "unit-a2-1c"
       ],
       "source": "A2_-_1C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Transitivity tip: the English gloss reads either way, the Turkish verb does not. Knowing which is meant is what lets the counterpart be derived \u2014 the -Il-/-In- form for the intransitive, the causative for the transitive.",
+      "status": "approved",
+      "hint_en_tr": "(transitive)"
     },
     {
       "id": "cand-a2-1c-0005",
@@ -16738,8 +16755,9 @@
         "unit-a2-1c"
       ],
       "source": "A2_-_1C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Transitivity tip: the English gloss reads either way, the Turkish verb does not. Knowing which is meant is what lets the counterpart be derived \u2014 the -Il-/-In- form for the intransitive, the causative for the transitive.",
+      "status": "approved",
+      "hint_en_tr": "(transitive)"
     },
     {
       "id": "cand-a2-1c-0013",
@@ -16752,8 +16770,9 @@
         "unit-a2-1c"
       ],
       "source": "A2_-_1C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Transitivity tip: the English gloss reads either way, the Turkish verb does not. Knowing which is meant is what lets the counterpart be derived \u2014 the -Il-/-In- form for the intransitive, the causative for the transitive.",
+      "status": "approved",
+      "hint_en_tr": "(transitive)"
     },
     {
       "id": "cand-a2-1c-0014",
@@ -16766,8 +16785,9 @@
         "unit-a2-1c"
       ],
       "source": "A2_-_1C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Transitivity tip: the English gloss reads either way, the Turkish verb does not. Knowing which is meant is what lets the counterpart be derived \u2014 the -Il-/-In- form for the intransitive, the causative for the transitive.",
+      "status": "approved",
+      "hint_en_tr": "(transitive)"
     },
     {
       "id": "cand-a2-1c-0016",
@@ -17425,8 +17445,9 @@
         "verb"
       ],
       "source": "A2_-_2A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Transitivity tip: the English gloss reads either way, the Turkish verb does not. Knowing which is meant is what lets the counterpart be derived \u2014 the -Il-/-In- form for the intransitive, the causative for the transitive.",
+      "status": "approved",
+      "hint_en_tr": "(intransitive)"
     },
     {
       "id": "cand-a2-2a-0003",
@@ -20579,8 +20600,9 @@
         "unit-a2"
       ],
       "source": "A2-4A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Transitivity tip: the English gloss reads either way, the Turkish verb does not. Knowing which is meant is what lets the counterpart be derived \u2014 the -Il-/-In- form for the intransitive, the causative for the transitive.",
+      "status": "approved",
+      "hint_en_tr": "(intransitive)"
     },
     {
       "id": "cand-a2-4-0011",
@@ -20607,9 +20629,9 @@
         "unit-a2"
       ],
       "source": "A2-4A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "of news, rumours",
+      "notes": "of news, rumours Transitivity tip: the English gloss reads either way, the Turkish verb does not. Knowing which is meant is what lets the counterpart be derived \u2014 the -Il-/-In- form for the intransitive, the causative for the transitive.",
       "status": "approved",
-      "hint_en_tr": "(sth. \u2014 transitive)"
+      "hint_en_tr": "(transitive)"
     },
     {
       "id": "cand-a2-4-0013",
@@ -20622,8 +20644,9 @@
         "unit-a2"
       ],
       "source": "A2-4A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Transitivity tip: the English gloss reads either way, the Turkish verb does not. Knowing which is meant is what lets the counterpart be derived \u2014 the -Il-/-In- form for the intransitive, the causative for the transitive.",
+      "status": "approved",
+      "hint_en_tr": "(intransitive)"
     },
     {
       "id": "cand-a2-4-0014",
@@ -25450,8 +25473,9 @@
         "unit-a1"
       ],
       "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Transitivity tip: the English gloss reads either way, the Turkish verb does not. Knowing which is meant is what lets the counterpart be derived \u2014 the -Il-/-In- form for the intransitive, the causative for the transitive.",
+      "status": "approved",
+      "hint_en_tr": "(intransitive)"
     },
     {
       "id": "cand-web-0002",

@@ -3791,7 +3791,8 @@
         "unit-a1",
         "verb",
         "unit-a1-3b"
-      ]
+      ],
+      "hint_en_tr": "(intransitive)"
     },
     {
       "id": "cand-a1-3a-0009",
@@ -3914,7 +3915,8 @@
         "unit-a1",
         "verb",
         "unit-a1-3b"
-      ]
+      ],
+      "hint_en_tr": "(intransitive)"
     },
     {
       "id": "cand-a1-3a-0022",
@@ -5239,7 +5241,8 @@
         "unit-a1-4a",
         "unit-a1",
         "verb"
-      ]
+      ],
+      "hint_en_tr": "(intransitive)"
     },
     {
       "id": "cand-a1-4a-0002",
@@ -8018,7 +8021,8 @@
         "unit-a1-4c",
         "unit-a1",
         "verb"
-      ]
+      ],
+      "hint_en_tr": "(transitive)"
     },
     {
       "id": "cand-a1-4c-0003",
@@ -8075,7 +8079,8 @@
         "unit-a1-4c",
         "unit-a1",
         "verb"
-      ]
+      ],
+      "hint_en_tr": "(transitive)"
     },
     {
       "id": "cand-a1-4c-0010",
@@ -8190,7 +8195,8 @@
         "unit-a1",
         "verb",
         "unit-a1-5b"
-      ]
+      ],
+      "hint_en_tr": "(transitive)"
     },
     {
       "id": "cand-a1-4c-0023",
@@ -8256,7 +8262,8 @@
         "unit-a1-4c",
         "unit-a1",
         "verb"
-      ]
+      ],
+      "hint_en_tr": "(transitive)"
     },
     {
       "id": "cand-a1-4c-0029",
@@ -8267,7 +8274,8 @@
         "unit-a1-4c",
         "unit-a1",
         "verb"
-      ]
+      ],
+      "hint_en_tr": "(transitive)"
     },
     {
       "id": "cand-a1-4c-0030",
@@ -8278,7 +8286,8 @@
         "unit-a1-4c",
         "unit-a1",
         "verb"
-      ]
+      ],
+      "hint_en_tr": "(transitive)"
     },
     {
       "id": "cand-a1-4c-0031",
@@ -8414,7 +8423,8 @@
         "unit-a1-4c",
         "unit-a1",
         "verb"
-      ]
+      ],
+      "hint_en_tr": "(transitive)"
     },
     {
       "id": "cand-a1-4c-0049",
@@ -8876,7 +8886,8 @@
         "verb",
         "unit-a1-4c",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(transitive)"
     },
     {
       "id": "cand-a1-4cb-0027",
@@ -9537,7 +9548,7 @@
         "unit-a1-5c",
         "unit-a1"
       ],
-      "hint_en_tr": "(sth. \u2014 transitive)"
+      "hint_en_tr": "(transitive)"
     },
     {
       "id": "cand-a1-5c-0003",
@@ -9548,7 +9559,8 @@
         "verb",
         "unit-a1-5c",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(intransitive)"
     },
     {
       "id": "cand-a1-5c-0005",
@@ -10160,7 +10172,8 @@
         "unit-a1-6a",
         "unit-a1",
         "unit-a1-6c"
-      ]
+      ],
+      "hint_en_tr": "(transitive)"
     },
     {
       "id": "cand-a1-6a-0028",
@@ -12199,7 +12212,8 @@
         "verb",
         "unit-a2",
         "unit-a2-1b"
-      ]
+      ],
+      "hint_en_tr": "(transitive)"
     },
     {
       "id": "cand-a2-1b-0002",
@@ -13150,7 +13164,8 @@
         "verb",
         "unit-a2",
         "unit-a2-1c"
-      ]
+      ],
+      "hint_en_tr": "(transitive)"
     },
     {
       "id": "cand-a2-1c-0002",
@@ -13161,7 +13176,8 @@
         "verb",
         "unit-a2",
         "unit-a2-1c"
-      ]
+      ],
+      "hint_en_tr": "(transitive)"
     },
     {
       "id": "cand-a2-1c-0004",
@@ -13172,7 +13188,8 @@
         "verb",
         "unit-a2",
         "unit-a2-1c"
-      ]
+      ],
+      "hint_en_tr": "(transitive)"
     },
     {
       "id": "cand-a2-1c-0005",
@@ -13249,7 +13266,8 @@
         "verb",
         "unit-a2",
         "unit-a2-1c"
-      ]
+      ],
+      "hint_en_tr": "(transitive)"
     },
     {
       "id": "cand-a2-1c-0013",
@@ -13260,7 +13278,8 @@
         "verb",
         "unit-a2",
         "unit-a2-1c"
-      ]
+      ],
+      "hint_en_tr": "(transitive)"
     },
     {
       "id": "cand-a2-1c-0014",
@@ -13271,7 +13290,8 @@
         "verb",
         "unit-a2",
         "unit-a2-1c"
-      ]
+      ],
+      "hint_en_tr": "(transitive)"
     },
     {
       "id": "cand-a2-1c-0016",
@@ -13789,7 +13809,8 @@
         "unit-a2",
         "unit-a2-2a",
         "verb"
-      ]
+      ],
+      "hint_en_tr": "(intransitive)"
     },
     {
       "id": "cand-a2-2a-0003",
@@ -16277,7 +16298,8 @@
         "verb",
         "unit-a2-4a",
         "unit-a2"
-      ]
+      ],
+      "hint_en_tr": "(intransitive)"
     },
     {
       "id": "cand-a2-4-0011",
@@ -16300,7 +16322,7 @@
         "unit-a2-4a",
         "unit-a2"
       ],
-      "hint_en_tr": "(sth. \u2014 transitive)"
+      "hint_en_tr": "(transitive)"
     },
     {
       "id": "cand-a2-4-0013",
@@ -16311,7 +16333,8 @@
         "verb",
         "unit-a2-4a",
         "unit-a2"
-      ]
+      ],
+      "hint_en_tr": "(intransitive)"
     },
     {
       "id": "cand-a2-4-0014",
@@ -20131,7 +20154,8 @@
         "verb",
         "unit-a1-3b",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(intransitive)"
     },
     {
       "id": "cand-web-0002",

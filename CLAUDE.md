@@ -150,6 +150,12 @@ without fetching. Only the *lesson map* needs the login; embeds are public by id
 - Glosses carry no parentheticals; disambiguators/format cues go in `hint_tr_en` (TR→EN) or
   `hint_en_tr` (EN→TR). Multi-form answers get `(X / Y)`. Keep circumflexes (`kâğıt`,
   `tarihî`) — matching folds `â/î/û`.
+- **If the English verb reads either way, the tip must say which** — `(transitive)` or
+  `(intransitive)`. A Turkish verb is nearly always one or the other, and knowing which is
+  what lets the counterpart be derived: the `-Il-`/`-In-` form for the intransitive of a
+  transitive verb, the causative for the transitive of an intransitive one. So `yaymak` =
+  "to spread `(transitive)`" also teaches `yayılmak`, without a second entry. Skip phrases
+  that already carry their object (`hamur açmak`, `okula başlamak`) — those are unambiguous.
 - **Never pack two unrelated meanings into one gloss.** The user mostly drills EN→TR, so a
   gloss listing a second sense does not teach it — make it a **separate entry** and give the
   TR→EN hint to say which sense is meant (e.g. `madde` = "item" `(e.g. an entry in a
