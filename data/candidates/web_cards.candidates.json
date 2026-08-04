@@ -171,6 +171,49 @@
       "source": "A2-1A vocabulary card (Turkishle web), carded as the imperative “Sola dön”",
       "notes": "See sağa dönmek.",
       "status": "approved"
+    },
+    {
+      "id": "cand-card-0017",
+      "turkish": "türkü",
+      "english": "folk song",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4b",
+        "unit-a2"
+      ],
+      "source": "A2-4B coursebook vocabulary list, carded as “türkü / halk müziği”",
+      "notes": "Split from halk müziği (issue #48): a türkü is one song, halk müziği the genre. Deck already has şarkı = song.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-card-0018",
+      "turkish": "göre",
+      "english": "compared to",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a2-4a",
+        "unit-a2"
+      ],
+      "source": "A2-4A/4B coursebook dialogues (not in any unit vocabulary list)",
+      "notes": "The second sense split out of “according to / compared to” (issue #47). Same word, so both entries carry a TR->EN hint to say which reading is wanted.",
+      "status": "approved",
+      "hint_tr_en": "(karşılaştırma)"
+    },
+    {
+      "id": "cand-card-0019",
+      "turkish": "halk",
+      "english": "the public",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4b",
+        "unit-a2"
+      ],
+      "source": "A2-4B coursebook vocabulary list; also the base word of “halk müziği”",
+      "notes": "Base word of halk müziği, and a list row in its own right. Glossed 'the public' rather than 'people' to avoid colliding with insanlar.",
+      "status": "approved"
     }
   ]
 }

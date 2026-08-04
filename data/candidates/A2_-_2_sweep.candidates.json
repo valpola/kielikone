@@ -598,7 +598,7 @@
     {
       "id": "cand-a2-2sw-0043",
       "turkish": "göre",
-      "english": "according to / compared to",
+      "english": "according to",
       "priority": 3,
       "tags": [
         "adverb",
@@ -606,8 +606,9 @@
         "unit-a2"
       ],
       "source": "A2-4A/4B coursebook dialogues (not in any unit vocabulary list)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Split from the 'compared to' sense (issue #47): two different meanings in one gloss, which also forced TR->EN to type both. göre is in no vocabulary list — it occurs in the A2-4A/4B dialogues — so both senses are filed at A2-4A.",
+      "status": "approved",
+      "hint_tr_en": "(birinin fikri)"
     },
     {
       "id": "cand-a2-2sw-0044",

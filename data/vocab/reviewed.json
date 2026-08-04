@@ -12032,8 +12032,9 @@
         "unit-a1"
       ],
       "source": "A1_-_5C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Transitivity tip added on request (issue #46). Turkish splits this: de\u011fi\u015ftirmek changes something, de\u011fi\u015fmek changes by itself. de\u011fi\u015fmek is in no coursebook list and is not yet in the deck.",
+      "status": "approved",
+      "hint_en_tr": "(sth. \u2014 transitive)"
     },
     {
       "id": "cand-a1-5c-0003",
@@ -19236,7 +19237,7 @@
     {
       "id": "cand-a2-2sw-0043",
       "turkish": "g\u00f6re",
-      "english": "according to / compared to",
+      "english": "according to",
       "priority": 3,
       "tags": [
         "adverb",
@@ -19244,8 +19245,9 @@
         "unit-a2"
       ],
       "source": "A2-4A/4B coursebook dialogues (not in any unit vocabulary list)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Split from the 'compared to' sense (issue #47): two different meanings in one gloss, which also forced TR->EN to type both. g\u00f6re is in no vocabulary list \u2014 it occurs in the A2-4A/4B dialogues \u2014 so both senses are filed at A2-4A.",
+      "status": "approved",
+      "hint_tr_en": "(birinin fikri)"
     },
     {
       "id": "cand-a2-2sw-0044",
@@ -20990,18 +20992,17 @@
     },
     {
       "id": "cand-a2-4-0040",
-      "turkish": "t\u00fcrk\u00fc / halk m\u00fczi\u011fi",
-      "english": "folk song",
+      "turkish": "halk m\u00fczi\u011fi",
+      "english": "folk music",
       "priority": 3,
       "tags": [
         "noun",
         "unit-a2-4b",
         "unit-a2"
       ],
-      "source": "A2-4B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "",
-      "status": "approved",
-      "hint_en_tr": "(X / Y)"
+      "source": "A2-4B coursebook vocabulary list, carded as \u201ct\u00fcrk\u00fc / halk m\u00fczi\u011fi\u201d in a list of music genres",
+      "notes": "Split from t\u00fcrk\u00fc (issue #48). The row pairs them, but they are not synonyms: halk m\u00fczi\u011fi is the genre, listed beside klasik m\u00fczik and rock m\u00fczik; t\u00fcrk\u00fc is a single folk song. A slash entry would also have demanded both forms for one prompt.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-4-0041",
@@ -22848,6 +22849,49 @@
       ],
       "source": "A2-1A vocabulary card (Turkishle web), carded as the imperative \u201cSola d\u00f6n\u201d",
       "notes": "See sa\u011fa d\u00f6nmek.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-card-0017",
+      "turkish": "t\u00fcrk\u00fc",
+      "english": "folk song",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4b",
+        "unit-a2"
+      ],
+      "source": "A2-4B coursebook vocabulary list, carded as \u201ct\u00fcrk\u00fc / halk m\u00fczi\u011fi\u201d",
+      "notes": "Split from halk m\u00fczi\u011fi (issue #48): a t\u00fcrk\u00fc is one song, halk m\u00fczi\u011fi the genre. Deck already has \u015fark\u0131 = song.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-card-0018",
+      "turkish": "g\u00f6re",
+      "english": "compared to",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a2-4a",
+        "unit-a2"
+      ],
+      "source": "A2-4A/4B coursebook dialogues (not in any unit vocabulary list)",
+      "notes": "The second sense split out of \u201caccording to / compared to\u201d (issue #47). Same word, so both entries carry a TR->EN hint to say which reading is wanted.",
+      "status": "approved",
+      "hint_tr_en": "(kar\u015f\u0131la\u015ft\u0131rma)"
+    },
+    {
+      "id": "cand-card-0019",
+      "turkish": "halk",
+      "english": "the public",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4b",
+        "unit-a2"
+      ],
+      "source": "A2-4B coursebook vocabulary list; also the base word of \u201chalk m\u00fczi\u011fi\u201d",
+      "notes": "Base word of halk m\u00fczi\u011fi, and a list row in its own right. Glossed 'the public' rather than 'people' to avoid colliding with insanlar.",
       "status": "approved"
     },
     {

@@ -552,18 +552,17 @@
     },
     {
       "id": "cand-a2-4-0040",
-      "turkish": "türkü / halk müziği",
-      "english": "folk song",
+      "turkish": "halk müziği",
+      "english": "folk music",
       "priority": 3,
       "tags": [
         "noun",
         "unit-a2-4b",
         "unit-a2"
       ],
-      "source": "A2-4B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "",
-      "status": "approved",
-      "hint_en_tr": "(X / Y)"
+      "source": "A2-4B coursebook vocabulary list, carded as “türkü / halk müziği” in a list of music genres",
+      "notes": "Split from türkü (issue #48). The row pairs them, but they are not synonyms: halk müziği is the genre, listed beside klasik müzik and rock müzik; türkü is a single folk song. A slash entry would also have demanded both forms for one prompt.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-4-0041",

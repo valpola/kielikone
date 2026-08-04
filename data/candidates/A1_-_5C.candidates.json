@@ -27,8 +27,9 @@
         "unit-a1"
       ],
       "source": "A1_-_5C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Transitivity tip added on request (issue #46). Turkish splits this: değiştirmek changes something, değişmek changes by itself. değişmek is in no coursebook list and is not yet in the deck.",
+      "status": "approved",
+      "hint_en_tr": "(sth. — transitive)"
     },
     {
       "id": "cand-a1-5c-0003",
