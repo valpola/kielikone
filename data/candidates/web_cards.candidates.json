@@ -1016,31 +1016,32 @@
     },
     {
       "id": "cand-gram-0103",
-      "turkish": "ya ... ya da",
-      "english": "either ... or",
+      "turkish": "Ya kahve ya da çay içelim.",
+      "english": "Let's drink either coffee or tea.",
       "priority": 3,
       "tags": [
-        "conjunction",
         "unit-a2-4c",
-        "unit-a2"
+        "unit-a2",
+        "expression"
       ],
       "source": "A2-4C coursebook grammar section (correlatives)",
-      "notes": "A grammar construction stored as a use case rather than a bare gloss: an isolated 'beri' or '-DAn daha' teaches nothing, while a phrase shows the suffix doing its work. Follows the existing “hem ... hem de” entry. Stored like the existing “hem ... hem de”. Distinct from veya / ya da, which joins two alternatives once rather than marking both.",
+      "notes": "Stored as a sentence for the same reason as the ne ... ne de card, and with the same plain vocabulary so the two can be compared directly. Distinct from veya / ya da, which joins two alternatives once rather than marking both. A2-4C.",
       "status": "approved"
     },
     {
       "id": "cand-gram-0104",
-      "turkish": "ne ... ne de",
-      "english": "neither ... nor",
+      "turkish": "Ne kahve ne de çay istiyorum.",
+      "english": "I want neither coffee nor tea.",
       "priority": 3,
       "tags": [
-        "conjunction",
         "unit-a2-4c",
-        "unit-a2"
+        "unit-a2",
+        "expression"
       ],
       "source": "A2-4C coursebook grammar section (correlatives)",
-      "notes": "A grammar construction stored as a use case rather than a bare gloss: an isolated 'beri' or '-DAn daha' teaches nothing, while a phrase shows the suffix doing its work. Follows the existing “hem ... hem de” entry. Takes an affirmative verb in Turkish though English needs a negative — worth drilling for that alone.",
-      "status": "approved"
+      "notes": "Stored as a sentence, not the bare pattern “ne ... ne de”: the difficulty is that Turkish keeps the verb affirmative where English negates it, and a pattern card cannot show that. Vocabulary kept deliberately plain — kahve, çay, istemek are all long-known — so the attention falls on the grammar. A2-4C.",
+      "status": "approved",
+      "hint_en_tr": "(the Turkish verb stays affirmative)"
     },
     {
       "id": "cand-gram-0105",

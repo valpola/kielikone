@@ -19155,25 +19155,26 @@
     },
     {
       "id": "cand-gram-0103",
-      "turkish": "ya ... ya da",
-      "english": "either ... or",
+      "turkish": "Ya kahve ya da \u00e7ay i\u00e7elim.",
+      "english": "Let's drink either coffee or tea.",
       "priority": 3,
       "tags": [
-        "conjunction",
         "unit-a2-4c",
-        "unit-a2"
+        "unit-a2",
+        "expression"
       ]
     },
     {
       "id": "cand-gram-0104",
-      "turkish": "ne ... ne de",
-      "english": "neither ... nor",
+      "turkish": "Ne kahve ne de \u00e7ay istiyorum.",
+      "english": "I want neither coffee nor tea.",
       "priority": 3,
       "tags": [
-        "conjunction",
         "unit-a2-4c",
-        "unit-a2"
-      ]
+        "unit-a2",
+        "expression"
+      ],
+      "hint_en_tr": "(the Turkish verb stays affirmative)"
     },
     {
       "id": "cand-gram-0105",

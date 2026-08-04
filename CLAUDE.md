@@ -98,6 +98,12 @@ without fetching. Only the *lesson map* needs the login; embeds are public by id
   `docs/grammar_topics.md` lists the constructions per unit; check each has at least one
   entry showing it in use. Pure conjugation patterns (`-Iyordu`, `-mAlIydI`) stay out — those
   belong in the interactive drills.
+  - Where the construction has a **trap**, the card should be a full sentence that springs it,
+    not the pattern: `Ne kahve ne de çay istiyorum.` teaches that Turkish keeps the verb
+    affirmative, which `ne … ne de` = "neither … nor" cannot. A drill can come later; a card
+    is the start.
+  - Keep the **vocabulary in such a sentence deliberately plain** — words long since learned —
+    so the attention falls on the grammar and not on decoding the example.
 - **Level cap: up to B1, not beyond.** Reading glossaries sometimes gloss words needed only
   to understand that particular text (literary collocations, specialist terms). Skip those
   and say so, rather than padding the deck (e.g. skipped `aşkla dolmak`).
