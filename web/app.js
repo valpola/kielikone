@@ -1132,6 +1132,7 @@ const recomputeToday = async ({ silent = false } = {}) => {
     saveStoredToday(computedToday);
     sessionCorrect.clear();
     updateCacheStatusUi();
+    renderTagOptions();  // the batch size just changed, so refresh its tag count
     if (usedCache && TODAY_STATS) {
       TODAY_STATS.textContent += " · from cached history (read failed)";
     }
@@ -1229,6 +1230,11 @@ const renderTagOptions = (isInitial) => {
       tagCounts.set(tagId, (tagCounts.get(tagId) || 0) + 1);
     });
   });
+  // The study batch lives on this device, not in the deck, so count the local list
+  // rather than any tag the deck happened to ship with. Matches getFilteredItems.
+  if (computedToday && computedToday.size) {
+    tagCounts.set("today", computedToday.size);
+  }
 
   const buildTag = (tagId, selected) => {
     const label = document.createElement("label");

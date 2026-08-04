@@ -13,6 +13,11 @@ ALIASES_PATH = ROOT / "data" / "aliases.json"
 OUT_PATH = ROOT / "web" / "data" / "quiz.json"
 OUT_ALIASES_PATH = ROOT / "web" / "data" / "aliases.json"
 
+# Stripped from every exported item: this tag marks the current study batch, which
+# each device recomputes locally. build_today.py still writes it into the vocab
+# files for offline analysis; it just never ships.
+SESSION_TAG = "today"
+
 
 def load_tags() -> list[dict[str, Any]]:
     if not TAGS_PATH.exists():
@@ -99,7 +104,10 @@ def main() -> None:
             "turkish": item.get("turkish", ""),
             "english": item.get("english", ""),
             "priority": int(item.get("priority", 1)),
-            "tags": item.get("tags", []),
+            # The session list is computed in the app, per device, from the live
+            # history — never baked into the deck. A shipped one would be stale on
+            # arrival and would silently override what the device worked out.
+            "tags": [t for t in (item.get("tags", []) or []) if t != SESSION_TAG],
         }
         if item.get("hint_tr_en"):
             entry["hint_tr_en"] = item["hint_tr_en"]

@@ -2,8 +2,11 @@
 
 Personal Turkish vocabulary quiz (static site on GitHub Pages: `valpola.github.io/kielikone`).
 Deck source is `data/candidates/*.candidates.json`; the pipeline rebuilds `web/data/quiz.json`
-(`rebuild_reviewed.py` → `dedupe_vocab.py --apply` → `build_today.py --limit 30` →
-`validate_tags.py` → `export_quiz.py`). On each deploy bump `cacheBust` in `web/config.js`
+(`rebuild_reviewed.py` → `dedupe_vocab.py --apply` → `validate_tags.py` → `export_quiz.py`).
+The study batch is **not** part of that pipeline: each device computes it locally from the
+live history, and `export_quiz.py` strips the tag (`SESSION_TAG`) from every exported item,
+so a shipped batch can never override what the device worked out. `build_today.py` remains
+for offline scoring analysis. On each deploy bump `cacheBust` in `web/config.js`
 and the `?v=` in `web/index.html`, then commit + push (GitHub Pages serves `main`).
 
 ## Vocabulary extraction (unit sweeps)
