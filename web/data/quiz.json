@@ -8073,14 +8073,15 @@
     {
       "id": "cand-a1-4c-0009",
       "turkish": "\u00e7almak",
-      "english": "to play/steal",
+      "english": "to play",
       "priority": 3,
       "tags": [
         "unit-a1-4c",
         "unit-a1",
         "verb"
       ],
-      "hint_en_tr": "(transitive)"
+      "hint_tr_en": "(enstr\u00fcman)",
+      "hint_en_tr": "(an instrument)"
     },
     {
       "id": "cand-a1-4c-0010",
@@ -18120,6 +18121,56 @@
         "noun",
         "unit-a2-4b",
         "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-card-0020",
+      "turkish": "\u00e7almak",
+      "english": "to steal",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-4c",
+        "unit-a1"
+      ],
+      "hint_tr_en": "(h\u0131rs\u0131zl\u0131k)"
+    },
+    {
+      "id": "cand-card-0021",
+      "turkish": "itmek",
+      "english": "to push",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-3b",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "hint_en_tr": "(transitive)"
+    },
+    {
+      "id": "cand-card-0022",
+      "turkish": "basmak",
+      "english": "to press",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-3b",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "hint_en_tr": "(transitive \u2014 as in pressing a button)"
+    },
+    {
+      "id": "cand-card-0023",
+      "turkish": "burun",
+      "english": "nose",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-2c",
+        "unit-a2",
+        "unit-a2-extra"
       ]
     },
     {

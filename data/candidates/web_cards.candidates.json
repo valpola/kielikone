@@ -214,6 +214,68 @@
       "source": "A2-4B coursebook vocabulary list; also the base word of “halk müziği”",
       "notes": "Base word of halk müziği, and a list row in its own right. Glossed 'the public' rather than 'people' to avoid colliding with insanlar.",
       "status": "approved"
+    },
+    {
+      "id": "cand-card-0020",
+      "turkish": "çalmak",
+      "english": "to steal",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-4c",
+        "unit-a1"
+      ],
+      "source": "A1-4C coursebook vocabulary list, glossed there as “to play/steal”",
+      "notes": "New entry so it starts unlearned: this is the sense that needs practice. Its pair, çalmak = to play, keeps the original id and history. Both are transitive.",
+      "status": "approved",
+      "hint_tr_en": "(hırsızlık)"
+    },
+    {
+      "id": "cand-card-0021",
+      "turkish": "itmek",
+      "english": "to push",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-3b",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "gap-fill: in no Turkishle list or card; filed with the A1-3B verbs, where its opposite çekmek is taught",
+      "notes": "Asked about in issue #50 and genuinely absent. çekmek (to pull) is in A1-3B, so its opposite belongs beside it.",
+      "status": "approved",
+      "hint_en_tr": "(transitive)"
+    },
+    {
+      "id": "cand-card-0022",
+      "turkish": "basmak",
+      "english": "to press",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-3b",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "gap-fill: in no Turkishle list or card; filed with the A1-3B verbs",
+      "notes": "Asked about in issue #50 and genuinely absent. Not to be confused with baskın (dominant), which is in the deck and is what prompted the question.",
+      "status": "approved",
+      "hint_en_tr": "(transitive — as in pressing a button)"
+    },
+    {
+      "id": "cand-card-0023",
+      "turkish": "burun",
+      "english": "nose",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-2c",
+        "unit-a2",
+        "unit-a2-extra"
+      ],
+      "source": "gap-fill: in no Turkishle list or card; filed with the A2-2C health vocabulary, as karın and bacak are",
+      "notes": "Asked about in issue #50. A list search appeared to find it in A1-4B, but that was Burundi and Yeşil Burun Adaları — the body part is absent. Body parts have no list of their own anywhere in A1/A2.",
+      "status": "approved"
     }
   ]
 }

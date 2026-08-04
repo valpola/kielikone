@@ -10177,7 +10177,7 @@
     {
       "id": "cand-a1-4c-0009",
       "turkish": "\u00e7almak",
-      "english": "to play/steal",
+      "english": "to play",
       "priority": 3,
       "tags": [
         "unit-a1-4c",
@@ -10185,9 +10185,10 @@
         "verb"
       ],
       "source": "A1_-_4C.pdf",
-      "notes": "Transitivity tip: the English gloss reads either way, the Turkish verb does not. Knowing which is meant is what lets the counterpart be derived \u2014 the -Il-/-In- form for the intransitive, the causative for the transitive.",
+      "notes": "Split into two senses on request. This entry keeps the instrument sense and its id, so the history stays with the meaning already learned; 'to steal' is a new entry starting unlearned. The ringing sense (telefon \u00e7al\u0131yor) is not on the card and was left out.",
       "status": "approved",
-      "hint_en_tr": "(transitive)"
+      "hint_en_tr": "(an instrument)",
+      "hint_tr_en": "(enstr\u00fcman)"
     },
     {
       "id": "cand-a1-4c-0010",
@@ -22915,6 +22916,68 @@
       ],
       "source": "A2-4B coursebook vocabulary list; also the base word of \u201chalk m\u00fczi\u011fi\u201d",
       "notes": "Base word of halk m\u00fczi\u011fi, and a list row in its own right. Glossed 'the public' rather than 'people' to avoid colliding with insanlar.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-card-0020",
+      "turkish": "\u00e7almak",
+      "english": "to steal",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-4c",
+        "unit-a1"
+      ],
+      "source": "A1-4C coursebook vocabulary list, glossed there as \u201cto play/steal\u201d",
+      "notes": "New entry so it starts unlearned: this is the sense that needs practice. Its pair, \u00e7almak = to play, keeps the original id and history. Both are transitive.",
+      "status": "approved",
+      "hint_tr_en": "(h\u0131rs\u0131zl\u0131k)"
+    },
+    {
+      "id": "cand-card-0021",
+      "turkish": "itmek",
+      "english": "to push",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-3b",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "gap-fill: in no Turkishle list or card; filed with the A1-3B verbs, where its opposite \u00e7ekmek is taught",
+      "notes": "Asked about in issue #50 and genuinely absent. \u00e7ekmek (to pull) is in A1-3B, so its opposite belongs beside it.",
+      "status": "approved",
+      "hint_en_tr": "(transitive)"
+    },
+    {
+      "id": "cand-card-0022",
+      "turkish": "basmak",
+      "english": "to press",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-3b",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "gap-fill: in no Turkishle list or card; filed with the A1-3B verbs",
+      "notes": "Asked about in issue #50 and genuinely absent. Not to be confused with bask\u0131n (dominant), which is in the deck and is what prompted the question.",
+      "status": "approved",
+      "hint_en_tr": "(transitive \u2014 as in pressing a button)"
+    },
+    {
+      "id": "cand-card-0023",
+      "turkish": "burun",
+      "english": "nose",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-2c",
+        "unit-a2",
+        "unit-a2-extra"
+      ],
+      "source": "gap-fill: in no Turkishle list or card; filed with the A2-2C health vocabulary, as kar\u0131n and bacak are",
+      "notes": "Asked about in issue #50. A list search appeared to find it in A1-4B, but that was Burundi and Ye\u015fil Burun Adalar\u0131 \u2014 the body part is absent. Body parts have no list of their own anywhere in A1/A2.",
       "status": "approved"
     },
     {

@@ -118,7 +118,7 @@
     {
       "id": "cand-a1-4c-0009",
       "turkish": "çalmak",
-      "english": "to play/steal",
+      "english": "to play",
       "priority": 3,
       "tags": [
         "unit-a1-4c",
@@ -126,9 +126,10 @@
         "verb"
       ],
       "source": "A1_-_4C.pdf",
-      "notes": "Transitivity tip: the English gloss reads either way, the Turkish verb does not. Knowing which is meant is what lets the counterpart be derived — the -Il-/-In- form for the intransitive, the causative for the transitive.",
+      "notes": "Split into two senses on request. This entry keeps the instrument sense and its id, so the history stays with the meaning already learned; 'to steal' is a new entry starting unlearned. The ringing sense (telefon çalıyor) is not on the card and was left out.",
       "status": "approved",
-      "hint_en_tr": "(transitive)"
+      "hint_en_tr": "(an instrument)",
+      "hint_tr_en": "(enstrüman)"
     },
     {
       "id": "cand-a1-4c-0010",
