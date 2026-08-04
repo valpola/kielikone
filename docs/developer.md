@@ -160,6 +160,7 @@ make test
 | `test_today_filters_offline.js` | include/exclude tag filtering |
 | `test_recompute_today_app.js` | `app.js` end to end: load, recompute, legacy tag migration |
 | `test_deck_invariants.py` | the content rules, against the exported deck |
+| `test_supabase_sync.py` | the live sync path: writes, retries, incremental reads, undo, RLS |
 
 `test_deck_invariants.py` is the one worth knowing about. It asserts the rules this project
 keeps rediscovering the hard way: every item findable by unit, no two items sharing an EN→TR
@@ -176,6 +177,19 @@ selection quietly collapses to the novelty bonus.
 
 The fixtures are CSV transcripts of the old Google Sheet. The app no longer parses CSV, so
 `scripts/tests/csv_rows.js` does it for the harness.
+
+`test_supabase_sync.py` is the only test that touches the network. It runs against the real
+project as the **test** user, whose secret is in
+`resources/access_keys/supabase_test_secret.txt` (gitignored). RLS keeps that user's rows
+separate, and the test refuses to write unless `current_app_user()` actually returns `test`,
+so a misplaced production secret cannot make it write real rows. Every row it creates is
+tagged `word_id = selftest-sync` and deleted again, with the cleanup asserted.
+
+It exists because these three failures all happened in production and none is reachable
+offline: a retry adding a duplicate row, an incremental read re-fetching everything, and a
+DELETE returning 204 for a row it did not delete. It skips cleanly — printing `SKIP` and
+exiting 0 — when the credentials are absent or Supabase is unreachable, so a checkout
+without secrets still passes `make test`.
 
 ## History
 

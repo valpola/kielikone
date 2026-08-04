@@ -31,6 +31,7 @@ test: check-venv
 	node scripts/tests/test_today_filters_offline.js
 	node scripts/tests/test_recompute_today_app.js
 	$(PYTHON) scripts/tests/test_deck_invariants.py
+	$(PYTHON) scripts/tests/test_supabase_sync.py
 
 validate-tags: check-venv
 	$(PYTHON) scripts/validate_tags.py
