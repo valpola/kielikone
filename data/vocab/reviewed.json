@@ -11706,7 +11706,7 @@
         "unit-a2"
       ],
       "source": "A1_-_5B.pdf",
-      "notes": "",
+      "notes": "A1-5B's list glosses ge\u00e7irmek 'put in'; that sense is cand-a1-5b-0035. This entry keeps the 'spend (time)' sense it was learned under. The A2-4A card offers 'zaman / vakit ge\u00e7irmek', so vakit is an accepted alternative for the object.",
       "status": "approved",
       "hint_en_tr": "(time)",
       "hint_tr_en": "(zaman)"
@@ -18969,7 +18969,7 @@
     {
       "id": "cand-a2-2sw-0024",
       "turkish": "s\u00fcresinde / s\u00fcresince",
-      "english": "during / throughout",
+      "english": "during",
       "priority": 3,
       "tags": [
         "adverb",
@@ -18977,7 +18977,7 @@
         "unit-a2"
       ],
       "source": "A2-2C coursebook vocabulary list, which lists both forms together (Turkishle web + coursebook)",
-      "notes": "",
+      "notes": "Both sources gloss it simply 'during' \u2014 the A2-2C coursebook list and the A2-2C card. 'throughout' was my own addition and is removed: a slash gloss requires typing every part, so it demanded more of TR->EN than the course teaches.",
       "status": "approved",
       "hint_en_tr": "(X / Y)"
     },
@@ -22678,6 +22678,176 @@
       ],
       "source": "base word of \u201ceh i\u015fte\u201d (A1-1A, Turkishle)",
       "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-card-0001",
+      "turkish": "akraba",
+      "english": "relative",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4a",
+        "unit-a1"
+      ],
+      "source": "A1-4A vocabulary card (Turkishle web); not in any coursebook list",
+      "notes": "Card only. Filed at A1-4A, the family unit, where its peers (yenge, kuzen, hala) live.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-card-0002",
+      "turkish": "kolonya",
+      "english": "cologne",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4c",
+        "unit-a1"
+      ],
+      "source": "A1-4C vocabulary card (Turkishle web); not in any coursebook list",
+      "notes": "Card only. Kept despite being a near-cognate: the transparency rule says practise it anyway.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-card-0004",
+      "turkish": "kalkmak",
+      "english": "to depart",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-5b",
+        "unit-a1"
+      ],
+      "source": "A1-5B vocabulary card (Turkishle web); not in any coursebook list",
+      "notes": "Card only, in the travel unit, so the departure sense is the taught one. kalkmak also means 'to get up' \u2014 not in the deck, so no colliding prompt; add that sense separately if it ever appears in a list.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-card-0005",
+      "turkish": "terminal",
+      "english": "bus terminal",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-5b",
+        "unit-a1"
+      ],
+      "source": "A1-5B vocabulary card (Turkishle web), carded as \u201cgar / terminal\u201d; not in any coursebook list",
+      "notes": "The card pairs it with gar, which the deck already has as 'train station'. Glossed 'bus terminal' rather than 'terminal' so the two prompts stay distinguishable.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-card-0008",
+      "turkish": "il",
+      "english": "province",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a",
+        "unit-a1"
+      ],
+      "source": "A1-6A vocabulary card (Turkishle web), carded as \u201c\u015eehir / \u0130l\u201d; not in any coursebook list",
+      "notes": "The card glosses it 'city', which would collide with \u015fehir, already in the deck. Glossed 'province' \u2014 the administrative sense that actually distinguishes it.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-card-0009",
+      "turkish": "g\u00f6l",
+      "english": "lake",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a",
+        "unit-a1"
+      ],
+      "source": "base word of \u201cVan G\u00f6l\u00fc\u201d (A1-6A vocabulary card, Turkishle web)",
+      "notes": "Base word of the compound the card teaches. deniz and k\u00f6pr\u00fc, its peers in that lesson, are already in the deck.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-card-0010",
+      "turkish": "sayesinde",
+      "english": "thanks to",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a2-2a",
+        "unit-a2"
+      ],
+      "source": "A2-2A coursebook vocabulary list; also an A2-2A vocabulary card (Turkishle web)",
+      "notes": "Both sources gloss it 'because of / thanks to', which would collide with y\u00fcz\u00fcnden. Split by polarity instead: sayesinde is for a welcome outcome, y\u00fcz\u00fcnden for an unwelcome one.",
+      "status": "approved",
+      "hint_en_tr": "(for something that turned out well)"
+    },
+    {
+      "id": "cand-card-0011",
+      "turkish": "y\u00fcz\u00fcnden",
+      "english": "because of",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a2-2a",
+        "unit-a2"
+      ],
+      "source": "A2-2A coursebook vocabulary list; also an A2-2A vocabulary card (Turkishle web)",
+      "notes": "See sayesinde: same gloss in both sources, separated here by polarity. y\u00fcz\u00fcnden blames, sayesinde credits.",
+      "status": "approved",
+      "hint_en_tr": "(for something that went wrong)"
+    },
+    {
+      "id": "cand-card-0012",
+      "turkish": "Gerek yok.",
+      "english": "There's no need.",
+      "priority": 3,
+      "tags": [
+        "expression",
+        "unit-a2-2c",
+        "unit-a2"
+      ],
+      "source": "A2-2C vocabulary card (Turkishle web); not in any coursebook list",
+      "notes": "Set phrase. The deck has gerekli / laz\u0131m as adjectives but not this response form.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-card-0013",
+      "turkish": "\u0130htiyac\u0131m var.",
+      "english": "I need it.",
+      "priority": 3,
+      "tags": [
+        "expression",
+        "unit-a2-2c",
+        "unit-a2"
+      ],
+      "source": "A2-2C vocabulary card (Turkishle web); not in any coursebook list",
+      "notes": "Set phrase, carded in the first person as the way the need is expressed. The deck has the noun ihtiya\u00e7 already.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-card-0015",
+      "turkish": "sa\u011fa d\u00f6nmek",
+      "english": "to turn right",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-1a",
+        "unit-a2"
+      ],
+      "source": "A2-1A vocabulary card (Turkishle web), carded as the imperative \u201cSa\u011fa d\u00f6n\u201d",
+      "notes": "Carded as an imperative because A2-1A is the imperative lesson; stored as an infinitive to match the rest of the deck. Deck already has d\u00f6nmek alone ('to return').",
+      "status": "approved"
+    },
+    {
+      "id": "cand-card-0016",
+      "turkish": "sola d\u00f6nmek",
+      "english": "to turn left",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-1a",
+        "unit-a2"
+      ],
+      "source": "A2-1A vocabulary card (Turkishle web), carded as the imperative \u201cSola d\u00f6n\u201d",
+      "notes": "See sa\u011fa d\u00f6nmek.",
       "status": "approved"
     },
     {

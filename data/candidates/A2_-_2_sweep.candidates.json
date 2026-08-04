@@ -331,7 +331,7 @@
     {
       "id": "cand-a2-2sw-0024",
       "turkish": "süresinde / süresince",
-      "english": "during / throughout",
+      "english": "during",
       "priority": 3,
       "tags": [
         "adverb",
@@ -339,7 +339,7 @@
         "unit-a2"
       ],
       "source": "A2-2C coursebook vocabulary list, which lists both forms together (Turkishle web + coursebook)",
-      "notes": "",
+      "notes": "Both sources gloss it simply 'during' — the A2-2C coursebook list and the A2-2C card. 'throughout' was my own addition and is removed: a slash gloss requires typing every part, so it demanded more of TR->EN than the course teaches.",
       "status": "approved",
       "hint_en_tr": "(X / Y)"
     },

@@ -15008,7 +15008,7 @@
     {
       "id": "cand-a2-2sw-0024",
       "turkish": "s\u00fcresinde / s\u00fcresince",
-      "english": "during / throughout",
+      "english": "during",
       "priority": 3,
       "tags": [
         "adverb",
@@ -17928,6 +17928,140 @@
         "expression",
         "unit-a1-1a",
         "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-card-0001",
+      "turkish": "akraba",
+      "english": "relative",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-card-0002",
+      "turkish": "kolonya",
+      "english": "cologne",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4c",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-card-0004",
+      "turkish": "kalkmak",
+      "english": "to depart",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-5b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-card-0005",
+      "turkish": "terminal",
+      "english": "bus terminal",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-5b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-card-0008",
+      "turkish": "il",
+      "english": "province",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-card-0009",
+      "turkish": "g\u00f6l",
+      "english": "lake",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-card-0010",
+      "turkish": "sayesinde",
+      "english": "thanks to",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a2-2a",
+        "unit-a2"
+      ],
+      "hint_en_tr": "(for something that turned out well)"
+    },
+    {
+      "id": "cand-card-0011",
+      "turkish": "y\u00fcz\u00fcnden",
+      "english": "because of",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a2-2a",
+        "unit-a2"
+      ],
+      "hint_en_tr": "(for something that went wrong)"
+    },
+    {
+      "id": "cand-card-0012",
+      "turkish": "Gerek yok.",
+      "english": "There's no need.",
+      "priority": 3,
+      "tags": [
+        "expression",
+        "unit-a2-2c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-card-0013",
+      "turkish": "\u0130htiyac\u0131m var.",
+      "english": "I need it.",
+      "priority": 3,
+      "tags": [
+        "expression",
+        "unit-a2-2c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-card-0015",
+      "turkish": "sa\u011fa d\u00f6nmek",
+      "english": "to turn right",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-1a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-card-0016",
+      "turkish": "sola d\u00f6nmek",
+      "english": "to turn left",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-1a",
+        "unit-a2"
       ]
     },
     {

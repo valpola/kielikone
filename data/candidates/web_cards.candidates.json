@@ -1,0 +1,176 @@
+{
+  "source_file": "Turkishle web vocabulary cards (📝 Kelime Listesi) — headwords missing from the deck (4 candidates dropped after review: already in the deck under a different spelling or inside a combined entry)",
+  "created_at": "2026-08-04T00:00:00Z",
+  "items": [
+    {
+      "id": "cand-card-0001",
+      "turkish": "akraba",
+      "english": "relative",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4a",
+        "unit-a1"
+      ],
+      "source": "A1-4A vocabulary card (Turkishle web); not in any coursebook list",
+      "notes": "Card only. Filed at A1-4A, the family unit, where its peers (yenge, kuzen, hala) live.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-card-0002",
+      "turkish": "kolonya",
+      "english": "cologne",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4c",
+        "unit-a1"
+      ],
+      "source": "A1-4C vocabulary card (Turkishle web); not in any coursebook list",
+      "notes": "Card only. Kept despite being a near-cognate: the transparency rule says practise it anyway.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-card-0004",
+      "turkish": "kalkmak",
+      "english": "to depart",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a1-5b",
+        "unit-a1"
+      ],
+      "source": "A1-5B vocabulary card (Turkishle web); not in any coursebook list",
+      "notes": "Card only, in the travel unit, so the departure sense is the taught one. kalkmak also means 'to get up' — not in the deck, so no colliding prompt; add that sense separately if it ever appears in a list.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-card-0005",
+      "turkish": "terminal",
+      "english": "bus terminal",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-5b",
+        "unit-a1"
+      ],
+      "source": "A1-5B vocabulary card (Turkishle web), carded as “gar / terminal”; not in any coursebook list",
+      "notes": "The card pairs it with gar, which the deck already has as 'train station'. Glossed 'bus terminal' rather than 'terminal' so the two prompts stay distinguishable.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-card-0008",
+      "turkish": "il",
+      "english": "province",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a",
+        "unit-a1"
+      ],
+      "source": "A1-6A vocabulary card (Turkishle web), carded as “Şehir / İl”; not in any coursebook list",
+      "notes": "The card glosses it 'city', which would collide with şehir, already in the deck. Glossed 'province' — the administrative sense that actually distinguishes it.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-card-0009",
+      "turkish": "göl",
+      "english": "lake",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-6a",
+        "unit-a1"
+      ],
+      "source": "base word of “Van Gölü” (A1-6A vocabulary card, Turkishle web)",
+      "notes": "Base word of the compound the card teaches. deniz and köprü, its peers in that lesson, are already in the deck.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-card-0010",
+      "turkish": "sayesinde",
+      "english": "thanks to",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a2-2a",
+        "unit-a2"
+      ],
+      "source": "A2-2A coursebook vocabulary list; also an A2-2A vocabulary card (Turkishle web)",
+      "notes": "Both sources gloss it 'because of / thanks to', which would collide with yüzünden. Split by polarity instead: sayesinde is for a welcome outcome, yüzünden for an unwelcome one.",
+      "status": "approved",
+      "hint_en_tr": "(for something that turned out well)"
+    },
+    {
+      "id": "cand-card-0011",
+      "turkish": "yüzünden",
+      "english": "because of",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a2-2a",
+        "unit-a2"
+      ],
+      "source": "A2-2A coursebook vocabulary list; also an A2-2A vocabulary card (Turkishle web)",
+      "notes": "See sayesinde: same gloss in both sources, separated here by polarity. yüzünden blames, sayesinde credits.",
+      "status": "approved",
+      "hint_en_tr": "(for something that went wrong)"
+    },
+    {
+      "id": "cand-card-0012",
+      "turkish": "Gerek yok.",
+      "english": "There's no need.",
+      "priority": 3,
+      "tags": [
+        "expression",
+        "unit-a2-2c",
+        "unit-a2"
+      ],
+      "source": "A2-2C vocabulary card (Turkishle web); not in any coursebook list",
+      "notes": "Set phrase. The deck has gerekli / lazım as adjectives but not this response form.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-card-0013",
+      "turkish": "İhtiyacım var.",
+      "english": "I need it.",
+      "priority": 3,
+      "tags": [
+        "expression",
+        "unit-a2-2c",
+        "unit-a2"
+      ],
+      "source": "A2-2C vocabulary card (Turkishle web); not in any coursebook list",
+      "notes": "Set phrase, carded in the first person as the way the need is expressed. The deck has the noun ihtiyaç already.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-card-0015",
+      "turkish": "sağa dönmek",
+      "english": "to turn right",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-1a",
+        "unit-a2"
+      ],
+      "source": "A2-1A vocabulary card (Turkishle web), carded as the imperative “Sağa dön”",
+      "notes": "Carded as an imperative because A2-1A is the imperative lesson; stored as an infinitive to match the rest of the deck. Deck already has dönmek alone ('to return').",
+      "status": "approved"
+    },
+    {
+      "id": "cand-card-0016",
+      "turkish": "sola dönmek",
+      "english": "to turn left",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-1a",
+        "unit-a2"
+      ],
+      "source": "A2-1A vocabulary card (Turkishle web), carded as the imperative “Sola dön”",
+      "notes": "See sağa dönmek.",
+      "status": "approved"
+    }
+  ]
+}

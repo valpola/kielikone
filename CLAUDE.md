@@ -91,6 +91,15 @@ without fetching. Only the *lesson map* needs the login; embeds are public by id
   `saat kulesi`) alike. If a set should be *deprioritised* rather than omitted, that is what
   the **`similar`** tag is for (the user filters it out; ~118 country names use it) — but
   apply it only when asked, since an excluded tag hides the word from their practice set.
+- **Record the decision in `notes`**, not just the source: which sources were consulted, why
+  this gloss, why a candidate was dropped. `source` says where a word came from; `notes` says
+  why the entry looks the way it does, so the call can be audited later instead of re-derived.
+- **Check both sources before deciding.** The coursebook list and the web card can differ —
+  one may carry two forms where the other carries one, or gloss the same word differently.
+  A card's subunit loses to a coursebook list's when they disagree.
+- **A second English word in a gloss is not free**: a slash gloss requires typing *every*
+  part for TR→EN. If a word has a secondary translation, put it in a hint or leave it out —
+  do not silently widen what the learner must produce (this was my error on `süresince`).
 - `source` must be **per item** and truthful: `Turkishle coursebook (A1/A2/B1)`,
   `A1-6 reading exercise SÖZLÜK (Turkishle web)`, or `gap-fill: standard vocabulary…`.
 - Off-syllabus adds get the coarse level + an extra tag (`unit-a1` + `unit-a1-extra`),
