@@ -21,6 +21,7 @@ const TODAY_STATS = document.getElementById("today-stats");
 const CACHE_STATUS = document.getElementById("cache-status");
 const PURGE_CACHE = document.getElementById("purge-cache");
 const PENDING_LIST = document.getElementById("pending-list");
+const SYNC_WARNING = document.getElementById("sync-warning");
 const RETRY_SYNC = document.getElementById("retry-sync");
 const DISCARD_PENDING = document.getElementById("discard-pending");
 const UNDO_ANSWER = document.getElementById("undo-answer");
@@ -92,6 +93,16 @@ let loginState = {
   checking: false,
 };
 let resultQueueBusy = false;
+// True once a sync attempt has failed. Shown on the login button, because that is
+// where the user looks to see whether their answers are going anywhere.
+let syncOffline = false;
+
+const setSyncOffline = (value) => {
+  const next = !!value;
+  if (syncOffline === next) return;
+  syncOffline = next;
+  updateLoginUi();
+};
 
 const loadResultQueue = () => {
   const raw = localStorage.getItem(RESULTS_QUEUE_STORAGE);
@@ -407,6 +418,32 @@ const pruneLocalEvents = (remoteRows) => {
   if (kept.length !== local.length) saveLocalEvents(kept);
 };
 
+// Pull anything new into the cached snapshot and return the merged rows. Throws
+// if the read fails, so callers can fall back to the cache and flag being offline.
+const refreshHistoryFromRemote = async () => {
+  const snapshot = loadHistorySnapshot();
+  let rows = (snapshot && snapshot.rows) || [];
+  const fresh = await fetchResultRows(snapshot && snapshot.maxAnsweredAt);
+  if (fresh.length || !snapshot) {
+    rows = rows.concat(fresh);
+    saveHistorySnapshot(rows);
+  }
+  lastKnownTotal = await fetchResultsTotal();
+  // The incremental read asks for answered_at > the newest we hold, so an answer
+  // made earlier but synced later — a queued answer from a patchy connection —
+  // lands below that mark and would be skipped for good. When the totals
+  // disagree, re-read the lot once and replace the snapshot.
+  if (lastKnownTotal && lastKnownTotal !== rows.length) {
+    const everything = await fetchResultRows(null);
+    if (everything.length) {
+      rows = everything;
+      saveHistorySnapshot(rows);
+    }
+  }
+  pruneLocalEvents(rows);
+  return rows;
+};
+
 const localEventRows = () =>
   loadLocalEvents().map((event) => ({
     timestamp: event.timestamp,
@@ -561,21 +598,42 @@ const updateCacheStatusUi = () => {
   // which means either another device has answered words this one has not fetched,
   // or an undo removed rows the cache still has. Equal numbers say nothing, and
   // this line has to stay short enough not to push "Next word" off a phone screen.
+  // A disagreement between the cache and the database is an anomaly, not a
+  // number worth printing every time: it is reported on the warning row below.
+  let warnGap = 0;
   if (lastKnownTotal) {
-    const cached = snapshot ? snapshot.rows.length : 0;
-    const gap = lastKnownTotal - cached;
     if (!snapshot) {
       parts.push(`${lastKnownTotal.toLocaleString()} in database`);
-    } else if (gap > 0) {
-      parts.push(`${gap.toLocaleString()} more in database`);
-    } else if (gap < 0) {
-      parts.push(`${(-gap).toLocaleString()} fewer in database`);
+    } else {
+      warnGap = lastKnownTotal - snapshot.rows.length;
     }
   }
   if (localCount) parts.push(`+${localCount} local`);
   if (queued) parts.push(`${queued} queued`);
-  if (snapshotWriteFailed) parts.push("cache write failed (quota)");
   CACHE_STATUS.textContent = parts.join(" · ");
+
+  // Anything below is a fault, not a status: give it its own row so it does not
+  // hide among the ordinary counts, and colour it accordingly.
+  if (SYNC_WARNING) {
+    const problems = [];
+    if (snapshotWriteFailed) {
+      problems.push("Could not save the cached history — browser storage is full.");
+    }
+    const answers = (n) => `${n.toLocaleString()} answer${n === 1 ? "" : "s"}`;
+    if (warnGap > 0) {
+      problems.push(
+        `The database holds ${answers(warnGap)} this device has not got. ` +
+          "The next sync should collect them."
+      );
+    } else if (warnGap < 0) {
+      problems.push(
+        `This device is holding ${answers(-warnGap)} the database no longer has. ` +
+          "The next sync should reconcile them."
+      );
+    }
+    SYNC_WARNING.textContent = problems.join(" ");
+    SYNC_WARNING.classList.toggle("hidden", !problems.length);
+  }
   renderPendingList();
 };
 
@@ -753,8 +811,14 @@ const updateLoginUi = () => {
     return;
   }
   if (loginState.valid && loginState.userName) {
-    LOGIN_BTN.textContent = loginState.userName;
-  } else {
+    LOGIN_BTN.textContent = syncOffline
+      ? `${loginState.userName} · offline`
+      : loginState.userName;
+    LOGIN_BTN.classList.toggle("is-offline", syncOffline);
+    return;
+  }
+  LOGIN_BTN.classList.remove("is-offline");
+  {
     LOGIN_BTN.textContent = "Log in to sync";
   }
 };
@@ -1108,40 +1172,23 @@ const recomputeToday = async ({ silent = false } = {}) => {
   try {
     // Fetch only what the snapshot does not already have, then merge. Falls back
     // to the snapshot alone if the read fails, so recompute still works offline.
-    const snapshot = loadHistorySnapshot();
-    let remoteRows = (snapshot && snapshot.rows) || [];
-    let usedCache = false;
     const canReadRemote = !!getSupabaseUrl() && !!getAppSecret();
+    let remoteRows = (loadHistorySnapshot() || {}).rows || [];
+    let usedCache = false;
     if (canReadRemote) {
       try {
-        const fresh = await fetchResultRows(snapshot && snapshot.maxAnsweredAt);
-        if (fresh.length || !snapshot) {
-          remoteRows = remoteRows.concat(fresh);
-          saveHistorySnapshot(remoteRows);
-        }
-        lastKnownTotal = await fetchResultsTotal();
-        // The incremental read asks for answered_at > the newest we hold, so an
-        // answer made earlier but synced later — a queued answer from a patchy
-        // connection — lands below that mark and would be skipped for good. When
-        // the totals disagree, re-read the lot once and replace the snapshot.
-        if (lastKnownTotal && lastKnownTotal !== remoteRows.length) {
-          const everything = await fetchResultRows(null);
-          if (everything.length) {
-            remoteRows = everything;
-            saveHistorySnapshot(remoteRows);
-          }
-        }
+        remoteRows = await refreshHistoryFromRemote();
+        setSyncOffline(false);
       } catch {
         usedCache = true;
+        setSyncOffline(true);
       }
     }
     const localRows = localEventRows();
     if (!remoteRows.length && !localRows.length) {
       throw new Error("No results data received");
     }
-    // Only prune against a read that actually happened: with no account the
-    // local events are the whole history and must never be dropped.
-    if (canReadRemote && !usedCache) pruneLocalEvents(remoteRows);
+
     // Words answered on this device since the last successful read still count.
     // Local events can overlap the snapshot when the read failed (pruning only
     // runs after a successful one), so eventStream's dedupe is load-bearing here.
@@ -1658,13 +1705,17 @@ window.addEventListener("keydown", (event) => {
 });
 
 window.addEventListener("online", () => {
-  void flushResultQueue();
+  void backgroundSync(true);
   void flushCommentQueue();
+});
+
+window.addEventListener("offline", () => {
+  setSyncOffline(true);
 });
 
 document.addEventListener("visibilitychange", () => {
   if (document.visibilityState === "visible") {
-    void flushResultQueue();
+    void backgroundSync();
     void flushCommentQueue();
   }
 });
@@ -1724,11 +1775,38 @@ void flushCommentQueue();
 // Show cache/queue state as soon as Options is opened.
 updateCacheStatusUi();
 
+// Sync runs on its own now, rather than only as a side effect of recomputing.
+// A read costs one request that usually returns an empty array — the query asks
+// for answers newer than the newest one held — so pulling on a timer is cheap,
+// and it means answers from another device turn up without being asked for.
+const PULL_INTERVAL_MS = 180000; // 3 minutes
+let lastPullAt = 0;
+
+const backgroundSync = async (force) => {
+  if (!getSupabaseUrl() || !getAppSecret() || !loginState.valid) return;
+  if (!force && document.visibilityState !== "visible") return;
+
+  const queued = loadResultQueue().length;
+  const duePull = force || Date.now() - lastPullAt >= PULL_INTERVAL_MS;
+  if (!queued && !duePull) return;
+
+  if (queued) await flushResultQueue();
+  if (!duePull) return;
+  try {
+    await refreshHistoryFromRemote();
+    lastPullAt = Date.now();
+    setSyncOffline(false);
+  } catch {
+    // Leave lastPullAt alone so the next tick retries rather than waiting out
+    // the full interval.
+    setSyncOffline(true);
+  }
+  updateCacheStatusUi();
+};
+
 // The queue used to rely entirely on incidental triggers (load, online,
 // tab focus, grading an answer). If none fired, pending results just sat there
 // until the user pressed a button. Retry on a slow timer instead.
 setInterval(() => {
-  if (document.visibilityState !== "visible") return;
-  if (!loadResultQueue().length) return;
-  void flushResultQueue();
+  void backgroundSync();
 }, 60000);

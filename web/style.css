@@ -510,3 +510,22 @@ button {
 .pending-list:empty {
   display: none;
 }
+
+/* Sync faults, kept off the ordinary status line so they read as problems
+   rather than as more counters. */
+.sync-warning {
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid #fca5a5;
+  background: #fef2f2;
+  color: #991b1b;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+/* Answers are not reaching the server: say so where the user looks for it. */
+.login-btn.is-offline {
+  border-color: #f59e0b;
+  background: #fffbeb;
+  color: #92400e;
+}

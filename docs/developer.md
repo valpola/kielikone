@@ -143,6 +143,12 @@ against a read that did not happen (with no account they are the entire history)
 seed the practice-set filter before a set exists, or a new user meets an empty quiz with no
 way to answer anything to build one.
 
+Sync runs on a timer of its own (`backgroundSync`, every 60s for the queue and every 3
+minutes for a pull), not only as a side effect of recomputing, so answers from another device
+turn up unprompted. A pull is one request that normally returns an empty array. A failed
+attempt sets `syncOffline`, which appends "· offline" to the login button — the place a user
+looks to see whether anything is getting through.
+
 The device keeps a history snapshot and a queue of unsent answers in `localStorage`, which is
 what makes offline work. Local events are pruned only after a successful read, so they can
 overlap the snapshot — the dedupe inside `eventStream` is load-bearing, not belt-and-braces.
