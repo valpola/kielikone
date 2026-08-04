@@ -525,20 +525,6 @@
       "status": "approved"
     },
     {
-      "id": "cand-sent-0061",
-      "turkish": "lütfen",
-      "english": "please",
-      "priority": 3,
-      "tags": [
-        "adverb",
-        "unit-a2-1a",
-        "unit-a2"
-      ],
-      "source": "example sentence on the A2-1A vocabulary card (Turkishle web); in no unit vocabulary list",
-      "notes": "Mined from the card example sentences, which the earlier sweeps discarded — the lists teach the headwords, the sentences carry the connective vocabulary around them. Absent from the deck entirely, despite being basic; it appears in 12 example sentences.",
-      "status": "approved"
-    },
-    {
       "id": "cand-sent-0062",
       "turkish": "acaba",
       "english": "I wonder",

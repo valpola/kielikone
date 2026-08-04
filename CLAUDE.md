@@ -72,6 +72,11 @@ without fetching. Only the *lesson map* needs the login; embeds are public by id
   So the web gap source is the **`📰 Okuma` SÖZLÜK**, not Dinleme.
 
 **Curation rules**
+- **Compare on letters only.** Strip case, circumflexes, parentheses, spaces *and
+  punctuation* before matching. Three duplicates got in this way, each defeated by one
+  character the fold did not remove: `yıl dönümü` (a space), `… sayesinde` (an ellipsis),
+  `Lütfen!` (an exclamation mark). Also split slash forms and check each side: `yüksek
+  lisans yapmak` was hidden inside a combined entry.
 - **Dedup by individual word, then review by hand** (the user's explicit preference —
   automated verdicts have been wrong twice). For each candidate, search every
   `data/candidates/*.candidates.json` entry containing *any* word of the candidate
