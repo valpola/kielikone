@@ -25442,6 +25442,21 @@
       "status": "approved"
     },
     {
+      "id": "cand-sent-0064",
+      "turkish": "yoksa",
+      "english": "or",
+      "priority": 3,
+      "tags": [
+        "conjunction",
+        "unit-a2-1b",
+        "unit-a2"
+      ],
+      "source": "example sentences on the A2-1B vocabulary cards; in no unit vocabulary list",
+      "notes": "Not interchangeable with veya / ya da, which is why it is a separate entry rather than a duplicate: Turkish splits 'or' exactly as Finnish splits tai and vai. yoksa joins the alternatives inside a question \u2014 \u201cSiyah zeytin mi yoksa ye\u015fil zeytin mi?\u201d \u2014 while veya / ya da joins them in a statement. Dropped once as a duplicate and restored: the shared English gloss hides a distinction Turkish makes.",
+      "status": "approved",
+      "hint_en_tr": "(joining the alternatives inside a question)"
+    },
+    {
       "id": "cand-sent-0065",
       "turkish": "\u00e7e\u015fit",
       "english": "variety",
@@ -26583,9 +26598,9 @@
         "unit-a1"
       ],
       "source": "Turkishle coursebook (veya A1-A2; ya da A1-B1)",
-      "notes": "",
+      "notes": "Tipped to separate it from yoksa. English 'or' covers both; Turkish does not. veya / ya da is the statement form (Finnish tai), yoksa the question form (vai).",
       "status": "approved",
-      "hint_en_tr": "(X / Y)"
+      "hint_en_tr": "(X / Y \u2014 joining alternatives in a statement)"
     },
     {
       "id": "cand-web-0037",

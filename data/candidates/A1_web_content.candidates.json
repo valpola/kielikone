@@ -493,9 +493,9 @@
         "unit-a1"
       ],
       "source": "Turkishle coursebook (veya A1-A2; ya da A1-B1)",
-      "notes": "",
+      "notes": "Tipped to separate it from yoksa. English 'or' covers both; Turkish does not. veya / ya da is the statement form (Finnish tai), yoksa the question form (vai).",
       "status": "approved",
-      "hint_en_tr": "(X / Y)"
+      "hint_en_tr": "(X / Y — joining alternatives in a statement)"
     },
     {
       "id": "cand-web-0037",

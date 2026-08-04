@@ -20137,6 +20137,18 @@
       ]
     },
     {
+      "id": "cand-sent-0064",
+      "turkish": "yoksa",
+      "english": "or",
+      "priority": 3,
+      "tags": [
+        "conjunction",
+        "unit-a2-1b",
+        "unit-a2"
+      ],
+      "hint_en_tr": "(joining the alternatives inside a question)"
+    },
+    {
       "id": "cand-sent-0065",
       "turkish": "\u00e7e\u015fit",
       "english": "variety",
@@ -21037,7 +21049,7 @@
         "unit-a1-3a",
         "unit-a1"
       ],
-      "hint_en_tr": "(X / Y)"
+      "hint_en_tr": "(X / Y \u2014 joining alternatives in a statement)"
     },
     {
       "id": "cand-web-0037",
