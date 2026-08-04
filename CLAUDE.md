@@ -45,6 +45,22 @@ scratchpad once per session, then:
 - zsh: build curl loops with an **array** (`IDS=(a b c); for id in $IDS`) — unquoted `$IDS`
   does not word-split.
 
+**The course is cached locally — do not re-download it.** `resources/turkishle_cache/`
+(gitignored) holds every widget and what has been parsed out of it:
+`lessons.json` (416 lessons across A1/A2/B1, with unit codes and widget ids),
+`embeds/<id>.html` (all 590 raw embeds, 30 MB), `cards.json`, `prose.json`.
+`python3 scripts/fetch_turkishle.py` fetches only what is missing; `--parse` re-parses
+without fetching. Only the *lesson map* needs the login; embeds are public by id.
+- **A card is a bilingual pair, not just a headword.** `<strong>` is the headword, each
+  `<em>` an example line, and the two sides run in parallel — so `cards.json` carries
+  `{headword, meaning, sentences:[{tr,en}]}`. 1120 cards, **1062 sentence pairs**. Earlier
+  sweeps took the headword and discarded the sentence, which is where the usage lives.
+- Match Dialogcards **on shape, not on `library`**: for these widgets `jsonContent` *is* the
+  dialogcards object, and the library name sits in `H5PIntegration.contents[key]`. Keying on
+  `library` finds four cards out of 1120.
+- B1 lesson titles carry no `1A`-style code; its modules are positional, each opening with a
+  `📕 Kelime Listesi & Kartları` page, so number them in curriculum order (`B1-M1`…`B1-M5`).
+
 - **`🎧 Dinleme` carries no vocabulary list** (verified across all A1+A2 listening lessons):
   - A1 1A–3B are **`turkishle.github.io/turkishle-lessons/lessons/<unit>-listening/lesson.html`**
     (public, inline `application/json`) — comprehension primitives only
