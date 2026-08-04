@@ -868,6 +868,123 @@
       "notes": "Not interchangeable with veya / ya da, which is why it is a separate entry rather than a duplicate: Turkish splits 'or' exactly as Finnish splits tai and vai. yoksa joins the alternatives inside a question — “Siyah zeytin mi yoksa yeşil zeytin mi?” — while veya / ya da joins them in a statement. Dropped once as a duplicate and restored: the shared English gloss hides a distinction Turkish makes.",
       "status": "approved",
       "hint_en_tr": "(joining the alternatives inside a question)"
+    },
+    {
+      "id": "cand-gram-0091",
+      "turkish": "o",
+      "english": "he",
+      "priority": 3,
+      "tags": [
+        "pronoun",
+        "unit-a1-1a",
+        "unit-a1"
+      ],
+      "source": "A1-1A grammar lesson (Turkishle); in no unit vocabulary list",
+      "notes": "Grammar words belong in the deck: this is for learning Turkish, not only its nouns. The paradigm was half-present — ben and sen were in, the rest were not. Glossed 'he' with the rest in the tip rather than 'he / she / it', which would have demanded all three words for one prompt.",
+      "status": "approved",
+      "hint_en_tr": "(also she and it — Turkish has one word)"
+    },
+    {
+      "id": "cand-gram-0092",
+      "turkish": "biz",
+      "english": "we",
+      "priority": 3,
+      "tags": [
+        "pronoun",
+        "unit-a1-1a",
+        "unit-a1"
+      ],
+      "source": "A1-1A grammar lesson (Turkishle); in no unit vocabulary list",
+      "notes": "Grammar words belong in the deck: this is for learning Turkish, not only its nouns. The paradigm was half-present — ben and sen were in, the rest were not.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-gram-0093",
+      "turkish": "siz",
+      "english": "you",
+      "priority": 3,
+      "tags": [
+        "pronoun",
+        "unit-a1-1a",
+        "unit-a1"
+      ],
+      "source": "A1-1A grammar lesson (Turkishle); in no unit vocabulary list",
+      "notes": "Grammar words belong in the deck: this is for learning Turkish, not only its nouns. The paradigm was half-present — ben and sen were in, the rest were not. Against sen, which is one person informally; both now carry the tip.",
+      "status": "approved",
+      "hint_en_tr": "(more than one person, or one person formally)"
+    },
+    {
+      "id": "cand-gram-0094",
+      "turkish": "onlar",
+      "english": "they",
+      "priority": 3,
+      "tags": [
+        "pronoun",
+        "unit-a1-1a",
+        "unit-a1"
+      ],
+      "source": "A1-1A grammar lesson (Turkishle); in no unit vocabulary list",
+      "notes": "Grammar words belong in the deck: this is for learning Turkish, not only its nouns. The paradigm was half-present — ben and sen were in, the rest were not.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-gram-0095",
+      "turkish": "bu",
+      "english": "this",
+      "priority": 3,
+      "tags": [
+        "pronoun",
+        "unit-a1-1b",
+        "unit-a1"
+      ],
+      "source": "A1-1B grammar lesson (Turkishle); in no unit vocabulary list",
+      "notes": "Grammar words belong in the deck: this is for learning Turkish, not only its nouns. The paradigm was half-present — ben and sen were in, the rest were not. From the 1B demonstrative-pronoun lesson.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-gram-0096",
+      "turkish": "şu",
+      "english": "that",
+      "priority": 3,
+      "tags": [
+        "pronoun",
+        "unit-a1-1b",
+        "unit-a1"
+      ],
+      "source": "A1-1B grammar lesson (Turkishle); in no unit vocabulary list",
+      "notes": "Grammar words belong in the deck: this is for learning Turkish, not only its nouns. The paradigm was half-present — ben and sen were in, the rest were not. Turkish grades distance three ways where English has two.",
+      "status": "approved",
+      "hint_en_tr": "(at middle distance — Turkish grades nearness in three steps, not two)"
+    },
+    {
+      "id": "cand-gram-0097",
+      "turkish": "bana",
+      "english": "to me",
+      "priority": 3,
+      "tags": [
+        "pronoun",
+        "unit-a1-3b",
+        "unit-a1"
+      ],
+      "source": "A1-3B grammar lesson (Turkishle); in no unit vocabulary list",
+      "notes": "Grammar words belong in the deck: this is for learning Turkish, not only its nouns. The paradigm was half-present — ben and sen were in, the rest were not. Irregular: ben + -e gives bana, not *bene. Worth knowing as a form; the regular datives are derivable.",
+      "status": "approved",
+      "hint_tr_en": "(yönelme durumu)"
+    },
+    {
+      "id": "cand-gram-0098",
+      "turkish": "sana",
+      "english": "to you",
+      "priority": 3,
+      "tags": [
+        "pronoun",
+        "unit-a1-3b",
+        "unit-a1"
+      ],
+      "source": "A1-3B grammar lesson (Turkishle); in no unit vocabulary list",
+      "notes": "Grammar words belong in the deck: this is for learning Turkish, not only its nouns. The paradigm was half-present — ben and sen were in, the rest were not. Irregular alongside bana: sen + -e gives sana.",
+      "status": "approved",
+      "hint_tr_en": "(yönelme durumu)"
     }
   ]
 }

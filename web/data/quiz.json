@@ -17226,7 +17226,7 @@
         "unit-a1-1a",
         "unit-a1"
       ],
-      "hint_en_tr": "(singular, informal)"
+      "hint_en_tr": "(one person, informally)"
     },
     {
       "id": "cand-base-0014",
@@ -19037,6 +19037,99 @@
         "unit-a1",
         "unit-a1-extra"
       ]
+    },
+    {
+      "id": "cand-gram-0091",
+      "turkish": "o",
+      "english": "he",
+      "priority": 3,
+      "tags": [
+        "pronoun",
+        "unit-a1-1a",
+        "unit-a1"
+      ],
+      "hint_en_tr": "(also she and it \u2014 Turkish has one word)"
+    },
+    {
+      "id": "cand-gram-0092",
+      "turkish": "biz",
+      "english": "we",
+      "priority": 3,
+      "tags": [
+        "pronoun",
+        "unit-a1-1a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-gram-0093",
+      "turkish": "siz",
+      "english": "you",
+      "priority": 3,
+      "tags": [
+        "pronoun",
+        "unit-a1-1a",
+        "unit-a1"
+      ],
+      "hint_en_tr": "(more than one person, or one person formally)"
+    },
+    {
+      "id": "cand-gram-0094",
+      "turkish": "onlar",
+      "english": "they",
+      "priority": 3,
+      "tags": [
+        "pronoun",
+        "unit-a1-1a",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-gram-0095",
+      "turkish": "bu",
+      "english": "this",
+      "priority": 3,
+      "tags": [
+        "pronoun",
+        "unit-a1-1b",
+        "unit-a1"
+      ]
+    },
+    {
+      "id": "cand-gram-0096",
+      "turkish": "\u015fu",
+      "english": "that",
+      "priority": 3,
+      "tags": [
+        "pronoun",
+        "unit-a1-1b",
+        "unit-a1"
+      ],
+      "hint_en_tr": "(at middle distance \u2014 Turkish grades nearness in three steps, not two)"
+    },
+    {
+      "id": "cand-gram-0097",
+      "turkish": "bana",
+      "english": "to me",
+      "priority": 3,
+      "tags": [
+        "pronoun",
+        "unit-a1-3b",
+        "unit-a1"
+      ],
+      "hint_tr_en": "(y\u00f6nelme durumu)"
+    },
+    {
+      "id": "cand-gram-0098",
+      "turkish": "sana",
+      "english": "to you",
+      "priority": 3,
+      "tags": [
+        "pronoun",
+        "unit-a1-3b",
+        "unit-a1"
+      ],
+      "hint_tr_en": "(y\u00f6nelme durumu)"
     },
     {
       "id": "cand-lang-0001",

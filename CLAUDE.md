@@ -85,6 +85,13 @@ without fetching. Only the *lesson map* needs the login; embeds are public by id
   `(bir şeye) karar vermek`. Never dedup against `web/data/quiz.json` (hides aliased-away
   entries). Be morphology-aware: object frames `(bir şeye) binmek`, softening `ayak→ayağa`,
   vowel drop `ağız→ağzı`.
+- **Grammar words belong in the deck.** This is for learning Turkish, not only its nouns, so
+  pronouns, particles, postpositions and case forms are content, not noise to filter out.
+  Two mistakes came from forgetting this: `yoksa` was deleted as a duplicate of `veya / ya da`
+  when the pair is exactly Finnish `vai` / `tai`, and a whole sweep of pronoun forms was
+  discarded as "grammar", which is how the deck came to hold `ben` and `sen` but not `o`,
+  `biz`, `siz` or `onlar`. When a shared English gloss makes two entries look redundant, first
+  ask whether Turkish is drawing a distinction English has lost.
 - **Level cap: up to B1, not beyond.** Reading glossaries sometimes gloss words needed only
   to understand that particular text (literary collocations, specialist terms). Skip those
   and say so, rather than padding the deck (e.g. skipped `aşkla dolmak`).
