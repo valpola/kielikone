@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Space+Grotesk:wght@400;600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css?v=20260803-30" />
+    <link rel="stylesheet" href="style.css?v=20260803-31" />
   </head>
   <body>
     <div class="bg-glow"></div>
@@ -187,8 +187,11 @@
           <p>
             The line below it describes your stored history: how many answers are cached on
             this device, and — only when the two disagree — how many more or fewer the
-            database holds. They differ when another device has answered words this one has
-            not fetched yet, or just after an undo.
+            database holds. Answers from your other devices are picked up automatically, so
+            normally these agree. A difference means something arrived out of order, usually an
+            answer that waited on a bad connection before syncing, or that an undo has just
+            removed a row this device still has cached. Either way the next recompute reloads
+            the full history and the numbers settle.
           </p>
           <h4>Session target</h4>
           <p>
@@ -200,9 +203,9 @@
       </details>
     </main>
 
-    <script src="config.js?v=20260803-30"></script>
-    <script src="today_scoring.js?v=20260803-30"></script>
-    <script src="answers.js?v=20260803-30"></script>
-    <script src="app.js?v=20260803-30"></script>
+    <script src="config.js?v=20260803-31"></script>
+    <script src="today_scoring.js?v=20260803-31"></script>
+    <script src="answers.js?v=20260803-31"></script>
+    <script src="app.js?v=20260803-31"></script>
   </body>
 </html>

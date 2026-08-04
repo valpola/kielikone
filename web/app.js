@@ -1114,6 +1114,17 @@ const recomputeToday = async ({ silent = false } = {}) => {
           saveHistorySnapshot(remoteRows);
         }
         lastKnownTotal = await fetchResultsTotal();
+        // The incremental read asks for answered_at > the newest we hold, so an
+        // answer made earlier but synced later — a queued answer from a patchy
+        // connection — lands below that mark and would be skipped for good. When
+        // the totals disagree, re-read the lot once and replace the snapshot.
+        if (lastKnownTotal && lastKnownTotal !== remoteRows.length) {
+          const everything = await fetchResultRows(null);
+          if (everything.length) {
+            remoteRows = everything;
+            saveHistorySnapshot(remoteRows);
+          }
+        }
       } catch {
         usedCache = true;
       }

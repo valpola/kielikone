@@ -156,6 +156,33 @@ def main() -> int:
             f"rows={rows}",
         )
 
+        # The incremental read keys on answered_at, so a row inserted with a
+        # timestamp older than the newest one held is invisible to it — a queued
+        # answer syncing late. The app notices via the row count and re-reads
+        # everything; this pins the behaviour that makes that necessary.
+        backdated = (stamp - timedelta(hours=6)).isoformat()
+        post(f"{event_id}-late", backdated)
+        _, _, missed = client.call(
+            "GET",
+            f"/rest/v1/results?select=answered_at&word_id=eq.{MARKER}"
+            f"&answered_at=gt.{urllib.parse.quote(newer)}&order=answered_at.asc",
+        )
+        check(
+            "a back-dated row is invisible to an incremental read",
+            len(missed) == 0,
+            f"rows={missed}",
+        )
+        check(
+            "but the total reveals it, which is what triggers the full re-read",
+            count() == 3,
+            f"count={count()}",
+        )
+        _, _, everything = client.call(
+            "GET",
+            f"/rest/v1/results?select=answered_at&word_id=eq.{MARKER}&order=answered_at.asc",
+        )
+        check("a full read finds it", len(everything) == 3, f"rows={everything}")
+
         # Undo. A DELETE matching nothing also returns 204, so the app counts the
         # returned rows instead of trusting the status.
         _, _, deleted = client.call(

@@ -126,7 +126,11 @@ Three things worth knowing before touching the sync path:
   response was lost is a no-op. Omitting `on_conflict` silently reverts this to a 409.
 - **Reads are incremental and paged.** PostgREST caps a response at 1000 rows, so
   `fetchResultRows` pages with `Range` headers, asking only for `answered_at=gt.<last seen>`
-  and merging into a local snapshot.
+  and merging into a local snapshot. That high-water mark is on **answered_at, not on
+  insertion time**, so a row that arrives back-dated — a queued answer syncing after a bad
+  connection — lands below the mark and is invisible to every later incremental read. The
+  recompute therefore compares the row count against the total and re-reads everything once
+  when they disagree; without that the answer is lost until the cache is purged.
 - **A DELETE that matches nothing returns 204**, including when no policy permits it. Always
   send `Prefer: return=representation` and count the returned rows, or you will believe a
   delete worked when the row is still there.
