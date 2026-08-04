@@ -568,21 +568,6 @@
       "status": "approved"
     },
     {
-      "id": "cand-sent-0064",
-      "turkish": "yoksa",
-      "english": "or",
-      "priority": 3,
-      "tags": [
-        "conjunction",
-        "unit-a2-1b",
-        "unit-a2"
-      ],
-      "source": "example sentence on the A2-1B vocabulary card (Turkishle web); in no unit vocabulary list",
-      "notes": "Mined from the card example sentences, which the earlier sweeps discarded — the lists teach the headwords, the sentences carry the connective vocabulary around them. Distinct from veya / ya da, which join alternatives in a statement.",
-      "status": "approved",
-      "hint_en_tr": "(offering an alternative in a question)"
-    },
-    {
       "id": "cand-sent-0065",
       "turkish": "çeşit",
       "english": "variety",
