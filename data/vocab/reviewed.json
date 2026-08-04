@@ -5207,20 +5207,6 @@
       "status": "approved"
     },
     {
-      "id": "cand-a1-3b-0014",
-      "turkish": "enstr\u00fcman \u00e7almak",
-      "english": "to play an instrument",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3b",
-        "unit-a1",
-        "verb"
-      ],
-      "source": "A1_-_3B.pdf",
-      "notes": "",
-      "status": "approved"
-    },
-    {
       "id": "cand-a1-3b-0015",
       "turkish": "foto\u011fraf \u00e7ekmek",
       "english": "to take a photograph",
@@ -10182,10 +10168,11 @@
       "tags": [
         "unit-a1-4c",
         "unit-a1",
-        "verb"
+        "verb",
+        "unit-a1-3b"
       ],
       "source": "A1_-_4C.pdf",
-      "notes": "Split into two senses on request. This entry keeps the instrument sense and its id, so the history stays with the meaning already learned; 'to steal' is a new entry starting unlearned. The ringing sense (telefon \u00e7al\u0131yor) is not on the card and was left out.",
+      "notes": "Split into two senses on request. This entry keeps the instrument sense and its id, so the history stays with the meaning already learned; 'to steal' is a new entry starting unlearned. The ringing sense (telefon \u00e7al\u0131yor) is not on the card and was left out. enstr\u00fcman \u00e7almak (A1-3B) is aliased onto this entry: the two prompts were near-identical. The bare verb is kept as canonical because it transfers (gitar \u00e7almak, piyano \u00e7almak) and because it holds the history.",
       "status": "approved",
       "hint_en_tr": "(an instrument)",
       "hint_tr_en": "(enstr\u00fcman)"

@@ -4123,17 +4123,6 @@
       ]
     },
     {
-      "id": "cand-a1-3b-0014",
-      "turkish": "enstr\u00fcman \u00e7almak",
-      "english": "to play an instrument",
-      "priority": 3,
-      "tags": [
-        "unit-a1-3b",
-        "unit-a1",
-        "verb"
-      ]
-    },
-    {
       "id": "cand-a1-3b-0015",
       "turkish": "foto\u011fraf \u00e7ekmek",
       "english": "to take a photograph",
@@ -8078,7 +8067,8 @@
       "tags": [
         "unit-a1-4c",
         "unit-a1",
-        "verb"
+        "verb",
+        "unit-a1-3b"
       ],
       "hint_tr_en": "(enstr\u00fcman)",
       "hint_en_tr": "(an instrument)"
