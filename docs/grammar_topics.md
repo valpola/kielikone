@@ -5,6 +5,14 @@ compiled from the coursebook PDFs. Intended as the map for future grammar-practi
 workflows (e.g. an in-repo agentic exercise generator that combines vocabulary the
 learner already knows with a target grammar concept, with AI grading of translations).
 
+Entries marked **⊕ GAP** are *not* taught by Turkishle. They come from the learner,
+who met them in a prior commercial course and flagged them as worth knowing. Each is
+filed under the Turkishle unit where it would naturally belong, roughly matching where
+that other course introduced it. Verified absent across all 27 coursebook PDFs, the
+3582 cached web-lesson prose blocks and the 1120 vocabulary cards — so "absent" means
+absent from the material, though anything taught only in a Turkishle grammar *video*
+would not show up in that check.
+
 ## A1
 
 ### Unit 1 — Tanışma (Introduction)
@@ -89,6 +97,16 @@ learner already knows with a target grammar concept, with AI grading of translat
 **5C — Since & For**
 - **`-DAn beri`** (since a point in time); **`-DIr`** (for a duration) — `geçen yıldan beri`, `sekiz yıldır`
 
+**⊕ GAP — the clitic `dE` (also / too / and)**
+- Written **separately** from its host word and only ever `de` / `da` — never `te`/`ta`. That is
+  the giveaway distinguishing it from the locative `-DA`, which *is* suffixed and *does* harden:
+  `evde` (at home) vs `ev de` (the house too).
+- **Position carries the meaning**: it follows whatever it adds to. `Ben de su istiyorum` = *I*
+  too want water; `Su da istiyorum` = I want water *too*.
+- Turkishle glosses it once in passing in A1 ("Remember: 'de' gives the meaning of 'also'", in
+  the `Naber?` dialogue) and teaches it only inside `hem … hem de` (A2-4C). The standalone
+  clitic, its placement, and the contrast with the locative are never covered.
+
 ### Unit 6 — Şehir & Konum (City & Location)
 
 **6A — Compound Nouns (Ad Tamlamaları)**
@@ -123,6 +141,13 @@ learner already knows with a target grammar concept, with AI grading of translat
 - **`-lI`** (with/having; 4-way): qualities (`hızlı`), origin (`İstanbullu`), flavour/material (`çilekli`, `tavuklu`), weather (`yağmurlu`), people (`mavi gözlü`, `uzun boylu`).
 - **`-sIz`** (-less/without): `şekersiz` (sugarless), `başarısız`, `sensiz`.
 - **`-lIk`** (noun-maker): abstractions (`gençlik`, `güzellik`), tools (`gözlük`, `kulaklık`), places (`çöplük`), professions (`öğretmenlik`), allocation (`kışlık`, `aylık`, `dört kişilik`).
+
+**⊕ GAP — intensifying adjectives by syllable reduplication (pekiştirme)**
+- The first syllable is repeated with a consonant inserted, intensifying the adjective —
+  most visibly with colours: `mavi → masmavi` (deep blue), `kırmızı → kıpkırmızı` (bright red),
+  `beyaz → bembeyaz`, `yeşil → yemyeşil`, `siyah → simsiyah`, `sarı → sapsarı`.
+- **The inserted consonant is not predictable** (`m`, `p`, `r`, `s` depending on the word), so
+  these are learned per item rather than derived — which makes them deck material, not a rule.
 
 ### Unit 2 — Geçmiş Zaman & İle (Past Tense & "with/and")
 
@@ -161,6 +186,15 @@ learner already knows with a target grammar concept, with AI grading of translat
 **4C — Direct Speech & Correlative Conjunctions (Dolaysız Anlatım & Bağıntılı Bağlaçlar)**
 - Direct speech via **`demek`** conjugated (`diyor / der / dedi / demiş` — tense signals witnessed vs. hearsay); **`diye`** (`demek` + dative) subordinates a quote before saying/thinking verbs (`diye sordu`, `diye düşündü`).
 - Correlatives: **`hem … hem (de)`** (both…and), **`ne … ne (de)`** (neither…nor — *affirmative* verb, negative meaning), **`ya … ya (da)`** (either…or). `ne … ne` between opposite adjectives = an in-between state (`ne sıcak ne soğuk`).
+
+**⊕ GAP — vagueness markers: `falan` / `filan` and m-reduplication**
+- **`falan` / `filan`** after a word = "and so on / and such": `Salata falan yapıyorum` (I'm
+  making salad and so on). Both together, `falan filan`, is very common in speech.
+- **m-reduplication**: repeat the word with initial `m` to the same effect — `Ekmek mekmek
+  alacağım` (I'll buy bread and such), `Film milm izledik`. If the word already starts with `m`,
+  this is impossible and `falan`/`filan` is used instead.
+- Turkishle never explains either, yet *uses* `falan` unglossed in a B1.1 dialogue
+  (`elbise, şort falan alamadım`) — so the learner meets it without being taught it.
 
 ### Unit 5 — Geniş Zaman & `-DIr` (Aorist & the `-DIr` Suffix)
 
@@ -224,3 +258,25 @@ learner already knows with a target grammar concept, with AI grading of translat
 - Verbal noun **`-mA` + possessive** (gerund "his reading"): `Onun okuması çok yavaş`; heads noun clauses whose case is set by the governing verb — `benim gelmemi istiyorsan`, `bağırmalarından bıktım`.
 
 *(Further units to be added as they are reviewed.)*
+
+## ⊕ Not covered by either course
+
+Verb-deriving voice suffixes are absent from Turkishle A1–B1.1 *and* from the prior course, so
+nothing in the learner's material teaches them. They are grouped here rather than under a unit
+because there is no unit that introduces them.
+
+- **Passive `-Il` / `-In`** — `yapmak` (to do) → `yapılmak` (to be done); after `l` or a vowel
+  the form is `-In` (`bilmek → bilinmek`, `okumak → okunmak`).
+- **Causative `-DIr` / `-t` / `-Ir`** — `ölmek` (to die) → `öldürmek` (to kill), `temizlemek` →
+  `temizletmek` (to have cleaned), `içmek` → `içirmek` (to make drink). Note this `-DIr` is a
+  *different* suffix from the evidential `-DIr` in A2-5C.
+
+Worth prioritising for two reasons. First, the learner's stated preference is to meet
+derivational suffixes early, since they govern how a known root can actually be used. Second,
+the deck already depends on this: the transitivity tips (`to spread (transitive)`) exist so that
+the counterpart can be *derived* rather than carded separately — the intransitive of a
+transitive verb via `-Il`/`-In`, the transitive of an intransitive one via the causative. That
+payoff only lands once the derivation itself is known.
+
+Turkish voice morphology is close enough to Finnish (`-ttaa`/`-ttää` causatives, passive) that
+these may be quick wins rather than heavy grammar.
