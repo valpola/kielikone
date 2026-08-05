@@ -550,8 +550,9 @@
         "unit-a2"
       ],
       "source": "example sentence on the A2-1B vocabulary card (Turkishle web); in no unit vocabulary list",
-      "notes": "Mined from the card example sentences, which the earlier sweeps discarded — the lists teach the headwords, the sentences carry the connective vocabulary around them.",
-      "status": "approved"
+      "notes": "Mined from the card example sentences, which the earlier sweeps discarded — the lists teach the headwords, the sentences carry the connective vocabulary around them. Added a length cue on the learner's note (#62): \"like this\" also invites the two-word phrase bunun gibi, which is not what this card wants. The cue cannot leak the answer.",
+      "status": "approved",
+      "hint_en_tr": "(one word)"
     },
     {
       "id": "cand-sent-0065",
@@ -606,8 +607,9 @@
         "unit-a2"
       ],
       "source": "example sentence on the A2-1B vocabulary card (Turkishle web); in no unit vocabulary list",
-      "notes": "Mined from the card example sentences, which the earlier sweeps discarded — the lists teach the headwords, the sentences carry the connective vocabulary around them.",
-      "status": "approved"
+      "notes": "Mined from the card example sentences, which the earlier sweeps discarded — the lists teach the headwords, the sentences carry the connective vocabulary around them. Added a length cue on the learner's note (#63), which asked whether \"en sevdiği\" also works. It is a different construction — a superlative relative clause needing a possessive that agrees (en sevdiğim = my favourite) — not a drop-in synonym for this loanword adjective, so the cue steers to the single word.",
+      "status": "approved",
+      "hint_en_tr": "(one word)"
     },
     {
       "id": "cand-sent-0069",
@@ -754,7 +756,7 @@
     },
     {
       "id": "cand-sent-0079",
-      "turkish": "problem",
+      "turkish": "problem / sorun",
       "english": "problem",
       "priority": 3,
       "tags": [
@@ -763,8 +765,9 @@
         "unit-a1"
       ],
       "source": "example sentence on the A1-6C vocabulary card (Turkishle web); in no unit vocabulary list",
-      "notes": "Mined from the card example sentences, which the earlier sweeps discarded — the lists teach the headwords, the sentences carry the connective vocabulary around them.",
-      "status": "approved"
+      "notes": "Mined from the card example sentences, which the earlier sweeps discarded — the lists teach the headwords, the sentences carry the connective vocabulary around them. Combined with the native synonym on the learner's note (#64): sorun and problem are interchangeable here, the first Turkish and the second a loanword. Follows the zaman / vakit precedent — genuine synonyms share one card as X / Y.",
+      "status": "approved",
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-sent-0080",
@@ -910,9 +913,9 @@
         "unit-a1"
       ],
       "source": "A1-1A grammar lesson (Turkishle); in no unit vocabulary list",
-      "notes": "Grammar words belong in the deck: this is for learning Turkish, not only its nouns. The paradigm was half-present — ben and sen were in, the rest were not. Against sen, which is one person informally; both now carry the tip.",
+      "notes": "Grammar words belong in the deck: this is for learning Turkish, not only its nouns. The paradigm was half-present — ben and sen were in, the rest were not. Against sen, which is one person informally; both now carry the tip. Tip shortened to (pl.) on the learner's note (#61). It also covers formal singular, but that nuance belongs in a drill, not on the prompt; sen keeps its own tip so the two \"you\" prompts stay distinct.",
       "status": "approved",
-      "hint_en_tr": "(more than one person, or one person formally)"
+      "hint_en_tr": "(pl.)"
     },
     {
       "id": "cand-gram-0094",
@@ -953,9 +956,9 @@
         "unit-a1"
       ],
       "source": "A1-1B grammar lesson (Turkishle); in no unit vocabulary list",
-      "notes": "Grammar words belong in the deck: this is for learning Turkish, not only its nouns. The paradigm was half-present — ben and sen were in, the rest were not. Turkish grades distance three ways where English has two.",
+      "notes": "Grammar words belong in the deck: this is for learning Turkish, not only its nouns. The paradigm was half-present — ben and sen were in, the rest were not. Turkish grades distance three ways where English has two. Tip trimmed on the learner's note (#59): a card should quiz the word, not explain the three-way distance system; \"at middle distance\" is enough to pick şu over bu and o.",
       "status": "approved",
-      "hint_en_tr": "(at middle distance — Turkish grades nearness in three steps, not two)"
+      "hint_en_tr": "(at middle distance)"
     },
     {
       "id": "cand-gram-0097",
@@ -983,9 +986,10 @@
         "unit-a1"
       ],
       "source": "A1-3B grammar lesson (Turkishle); in no unit vocabulary list",
-      "notes": "Grammar words belong in the deck: this is for learning Turkish, not only its nouns. The paradigm was half-present — ben and sen were in, the rest were not. Irregular alongside bana: sen + -e gives sana.",
+      "notes": "Grammar words belong in the deck: this is for learning Turkish, not only its nouns. The paradigm was half-present — ben and sen were in, the rest were not. Irregular alongside bana: sen + -e gives sana. Added (sg.) on the learner's note (#60): English \"to you\" does not show number, so the prompt was unanswerable without guessing.",
       "status": "approved",
-      "hint_tr_en": "(yönelme durumu)"
+      "hint_tr_en": "(yönelme durumu)",
+      "hint_en_tr": "(sg.)"
     },
     {
       "id": "cand-gram-0101",

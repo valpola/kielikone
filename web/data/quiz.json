@@ -19070,7 +19070,7 @@
         "unit-a1-1a",
         "unit-a1"
       ],
-      "hint_en_tr": "(more than one person, or one person formally)"
+      "hint_en_tr": "(pl.)"
     },
     {
       "id": "cand-gram-0094",
@@ -19104,7 +19104,7 @@
         "unit-a1-1b",
         "unit-a1"
       ],
-      "hint_en_tr": "(at middle distance \u2014 Turkish grades nearness in three steps, not two)"
+      "hint_en_tr": "(at middle distance)"
     },
     {
       "id": "cand-gram-0097",
@@ -19128,7 +19128,8 @@
         "unit-a1-3b",
         "unit-a1"
       ],
-      "hint_tr_en": "(y\u00f6nelme durumu)"
+      "hint_tr_en": "(y\u00f6nelme durumu)",
+      "hint_en_tr": "(sg.)"
     },
     {
       "id": "cand-gram-0101",
@@ -20315,7 +20316,8 @@
         "adverb",
         "unit-a2-1b",
         "unit-a2"
-      ]
+      ],
+      "hint_en_tr": "(one word)"
     },
     {
       "id": "cand-sent-0064",
@@ -20371,7 +20373,8 @@
         "adjective",
         "unit-a2-1b",
         "unit-a2"
-      ]
+      ],
+      "hint_en_tr": "(one word)"
     },
     {
       "id": "cand-sent-0069",
@@ -20488,14 +20491,15 @@
     },
     {
       "id": "cand-sent-0079",
-      "turkish": "problem",
+      "turkish": "problem / sorun",
       "english": "problem",
       "priority": 3,
       "tags": [
         "noun",
         "unit-a1-6c",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-sent-0080",
