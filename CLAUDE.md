@@ -71,6 +71,15 @@ without fetching. Only the *lesson map* needs the login; embeds are public by id
     "kelimeleri anlamlarıyla eşleştir" exercises **reuse the unit's own vocab list**.
   So the web gap source is the **`📰 Okuma` SÖZLÜK**, not Dinleme.
 
+**3. The prior app (reference only)** — `resources/prior_app_cache/` (gitignored) holds the
+user's 2193 learned items from its Turkish course, dumped 2026-08-05, plus the subsets
+absent from the deck. **Nothing from it has been added**; it is a coverage reference to review
+by hand. Its glosses contain errors (`sempatik` = "sympathetic", a false friend) and much of it
+is off-syllabus thematic vocabulary, so treat every item as a candidate. See the README there
+for how the scrape works — and note that one pass silently dropped 10 items while a second at a
+different page size recovered them, so **scan twice and merge**. Never change the learning
+language in its UI: it has erased this history before.
+
 **Curation rules**
 - **Compare on letters only.** Strip case, circumflexes, parentheses, spaces *and
   punctuation* before matching. Three duplicates got in this way, each defeated by one
