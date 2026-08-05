@@ -71,14 +71,55 @@ without fetching. Only the *lesson map* needs the login; embeds are public by id
     "kelimeleri anlamlarıyla eşleştir" exercises **reuse the unit's own vocab list**.
   So the web gap source is the **`📰 Okuma` SÖZLÜK**, not Dinleme.
 
-**3. The prior app (reference only)** — `resources/prior_app_cache/` (gitignored) holds the
-user's 2193 learned items from its Turkish course, dumped 2026-08-05, plus the subsets
-absent from the deck. **Nothing from it has been added**; it is a coverage reference to review
-by hand. Its glosses contain errors (`sempatik` = "sympathetic", a false friend) and much of it
-is off-syllabus thematic vocabulary, so treat every item as a candidate. See the README there
-for how the scrape works — and note that one pass silently dropped 10 items while a second at a
-different page size recovered them, so **scan twice and merge**. Never change the learning
-language in its UI: it has erased this history before.
+**3. The prior app (reference only)** — the subscription course the user studied before
+switching to Turkishle. `resources/prior_app_cache/` (gitignored) holds its material: 2193
+learned items dumped 2026-08-05, plus the subsets absent from the deck. **Nothing from it has
+been added**; it is a coverage reference to review by hand. Its glosses contain errors
+(`sempatik` = "sympathetic", a false friend) and much of it is off-syllabus thematic vocabulary,
+so treat every item as a candidate. See the README there for how the extraction works — and note
+that one pass silently dropped 10 items while a second at a different page size recovered them,
+so **scan twice and merge**. Never change the learning language in its UI: that has erased this
+history before.
+
+`lessons.json` there is the **whole course catalogue, 580 rows / 565 distinct lessons** (not the
+271 of the learning plan), read from `localStorage[…:curriculum]`. Take the lesson id from
+`component.data.contentId` — `component.id` is the *component* id and every URL built from it
+404s. Rows exceed distinct lessons because a lesson can be listed in two paths, and ten
+Words-and-Sentences lessons appear both in the intro unit and in their thematic unit. For those
+271 rows `data.topics` *is* the vocabulary in English, so the catalogue is a coverage check by
+itself: **89 of those lessons are wholly untouched** (339 glosses never offered for review),
+worst in Society, Feelings and Attitudes, Life.
+
+**Harvest by opening lessons, not by playing them.** Merely loading a lesson caches its whole
+payload in IndexedDB (`learner-activity` → `sessions` → `sessionData.trainers[].item_groups[]
+.items[]`), each item carrying `learn_language_text` (Turkish, focus word in `((…))`),
+`display_language_text` and a `sound.id`. So harvesting is *navigate, wait, read* — no answering
+and **no change to account state**. Two things that do *not* work: the one-request-per-lesson
+content API is AWS SigV4-signed, and the UI's `To next trainer` button exists *only* in lessons
+already completed, so clicking through an unseen lesson is impossible without answering every
+exercise. Audio: the CDN path `/v1.0.0/sounds/<id>/normal.mp3` is public, but the id is the
+item's `sound.id`, never the vocabulary row id (that 403s). macOS also ships a Turkish TTS
+voice, `say -v Yelda`, which covers the whole deck rather than just that app's words.
+
+`completion.json` is the pre-change snapshot (2026-08-05): **452/580 lessons completed**, all of
+A1/A2/Grammar/Specials plus 143 of the 271 Words-and-Sentences rows, each named with its id.
+Nothing is partially complete — the plan renders only `Redo lesson` / `Start lesson`. Opening
+lessons does not alter this; verified after the sweep, the reported percentage was unchanged to
+twelve decimals.
+
+**The whole course is extracted** (all 565 distinct lessons, 2026-08-05). Raw payloads in
+`lessons_raw/`, and `scripts/parse_prior_app_lessons.py` renders `coursebook.md` (every
+explanation, 9790 lines), `grammar_index.md` (583 explanation cards), `lesson_vocabulary.json`
+(10964 items with sound ids) and `uncarded_words.json` (1795 headwords). **60% of the words and
+94% of the dialogue sentences never become review cards**, which is the concrete reason that app
+was hard to study from. All the grammar sits in A1/A2/Grammar/Specials — the 261 distinct
+Words-and-Sentences lessons added no explanation cards at all. When capturing, batch the
+navigations but **attribute records by their `createdAt`, never by `getAll()` order** — the store
+is keyed on a random uuid, and position-based attribution put 166 of 175 lessons on the wrong
+record, undetectably.
+
+**Its material is reference only and must stay out of the repo.** `resources/` is gitignored;
+keep the corpus there and keep the vendor's name out of tracked files and commit messages.
 
 **Curation rules**
 - **Compare on letters only.** Strip case, circumflexes, parentheses, spaces *and
