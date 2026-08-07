@@ -570,7 +570,8 @@
         "unit-a1-1a",
         "unit-a1",
         "expression"
-      ]
+      ],
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-a1-1a-0022",
@@ -1669,7 +1670,8 @@
         "noun",
         "unit-a1-2a",
         "unit-a1"
-      ]
+      ],
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-a1-2a-0040",
@@ -5727,8 +5729,7 @@
       "tags": [
         "unit-a1-4b",
         "unit-a1",
-        "country",
-        "similar"
+        "country"
       ]
     },
     {
@@ -5926,8 +5927,7 @@
       "tags": [
         "unit-a1-4b",
         "unit-a1",
-        "country",
-        "similar"
+        "country"
       ]
     },
     {
@@ -9029,14 +9029,15 @@
     },
     {
       "id": "cand-a1-5a-0015",
-      "turkish": "y\u0131l",
+      "turkish": "y\u0131l / sene",
       "english": "year",
       "priority": 3,
       "tags": [
         "unit-a1-5a",
         "unit-a1",
         "noun"
-      ]
+      ],
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-a1-5a-0017",
@@ -13393,7 +13394,8 @@
         "noun",
         "unit-a2",
         "unit-a2-1c"
-      ]
+      ],
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-a2-1c-0043",
@@ -13950,7 +13952,8 @@
         "noun",
         "unit-a2",
         "unit-a2-2a"
-      ]
+      ],
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-a2-2a-0018",
@@ -16615,7 +16618,8 @@
         "noun",
         "unit-a2-4b",
         "unit-a2"
-      ]
+      ],
+      "hint_tr_en": "(a religious song)"
     },
     {
       "id": "cand-a2-4-0040",
@@ -20309,7 +20313,7 @@
     },
     {
       "id": "cand-sent-0063",
-      "turkish": "b\u00f6yle",
+      "turkish": "b\u00f6yle / bunun gibi",
       "english": "like this",
       "priority": 3,
       "tags": [
@@ -20317,7 +20321,7 @@
         "unit-a2-1b",
         "unit-a2"
       ],
-      "hint_en_tr": "(one word)"
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-sent-0064",
@@ -20373,8 +20377,7 @@
         "adjective",
         "unit-a2-1b",
         "unit-a2"
-      ],
-      "hint_en_tr": "(one word)"
+      ]
     },
     {
       "id": "cand-sent-0069",

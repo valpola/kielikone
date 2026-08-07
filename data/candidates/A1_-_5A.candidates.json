@@ -202,7 +202,7 @@
     },
     {
       "id": "cand-a1-5a-0015",
-      "turkish": "yıl",
+      "turkish": "yıl / sene",
       "english": "year",
       "priority": 3,
       "tags": [
@@ -211,8 +211,9 @@
         "noun"
       ],
       "source": "A1_-_5A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Merged with sene on the learner's note (#66) — interchangeable for \"year\", the second of Arabic origin. Follows the zaman / vakit and problem / sorun precedent. This widens the card: both words must now be typed.",
+      "status": "approved",
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-a1-5a-0016",

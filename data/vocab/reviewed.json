@@ -720,8 +720,9 @@
         "expression"
       ],
       "source": "A1_-_1A.pdf",
-      "notes": "daily expressions",
-      "status": "approved"
+      "notes": "daily expressions Added the missing (X / Y) cue on the learner's note (#67): the answer has two forms and the prompt gave no sign of it. Object frames like (birine / bir \u015feye) and enumerations were deliberately left alone \u2014 there the slash is not a choice between answers.",
+      "status": "approved",
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-a1-1a-0022",
@@ -1726,7 +1727,7 @@
         "unit-a1-6b"
       ],
       "source": "A1_-_2A.pdf",
-      "notes": "",
+      "notes": "Added the missing (X / Y) cue on the learner's note (#67): the answer has two forms and the prompt gave no sign of it. Object frames like (birine / bir \u015feye) and enumerations were deliberately left alone \u2014 there the slash is not a choice between answers.",
       "status": "approved",
       "hint_en_tr": "(X / Y)"
     },
@@ -2113,8 +2114,9 @@
         "unit-a1"
       ],
       "source": "A1_-_2A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Added the missing (X / Y) cue on the learner's note (#67): the answer has two forms and the prompt gave no sign of it. Object frames like (birine / bir \u015feye) and enumerations were deliberately left alone \u2014 there the slash is not a choice between answers.",
+      "status": "approved",
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-a1-2a-0040",
@@ -4826,7 +4828,7 @@
         "unit-a1-3b"
       ],
       "source": "A1_-_3A.pdf",
-      "notes": "duplicate of cand-a1-3a-0010",
+      "notes": "duplicate of cand-a1-3a-0010 Added the missing (X / Y) cue on the learner's note (#67): the answer has two forms and the prompt gave no sign of it. Object frames like (birine / bir \u015feye) and enumerations were deliberately left alone \u2014 there the slash is not a choice between answers.",
       "status": "approved",
       "hint_en_tr": "(X / Y)"
     },
@@ -7228,11 +7230,10 @@
       "tags": [
         "unit-a1-4b",
         "unit-a1",
-        "country",
-        "similar"
+        "country"
       ],
       "source": "A1_-_4B.pdf",
-      "notes": "",
+      "notes": "Dropped the similar tag on the learner's note: the Turkish is not recoverable from the English here. The tag never tracked resemblance anyway \u2014 Avustralya and \u0130talya resemble their English forms more closely and were untagged.",
       "status": "approved"
     },
     {
@@ -7478,11 +7479,10 @@
       "tags": [
         "unit-a1-4b",
         "unit-a1",
-        "country",
-        "similar"
+        "country"
       ],
       "source": "A1_-_4B.pdf",
-      "notes": "",
+      "notes": "Dropped the similar tag on the learner's note: the Turkish is not recoverable from the English here. The tag never tracked resemblance anyway \u2014 Avustralya and \u0130talya resemble their English forms more closely and were untagged.",
       "status": "approved"
     },
     {
@@ -11385,7 +11385,7 @@
     },
     {
       "id": "cand-a1-5a-0015",
-      "turkish": "y\u0131l",
+      "turkish": "y\u0131l / sene",
       "english": "year",
       "priority": 3,
       "tags": [
@@ -11394,8 +11394,9 @@
         "noun"
       ],
       "source": "A1_-_5A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Merged with sene on the learner's note (#66) \u2014 interchangeable for \"year\", the second of Arabic origin. Follows the zaman / vakit and problem / sorun precedent. This widens the card: both words must now be typed.",
+      "status": "approved",
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-a1-5a-0017",
@@ -16915,8 +16916,9 @@
         "unit-a2-1c"
       ],
       "source": "A2_-_1C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Added the missing (X / Y) cue on the learner's note (#67): the answer has two forms and the prompt gave no sign of it. Object frames like (birine / bir \u015feye) and enumerations were deliberately left alone \u2014 there the slash is not a choice between answers.",
+      "status": "approved",
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-a2-1c-0043",
@@ -17622,8 +17624,9 @@
         "unit-a2-2a"
       ],
       "source": "A2_-_2A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Added the missing (X / Y) cue on the learner's note (#67): the answer has two forms and the prompt gave no sign of it. Object frames like (birine / bir \u015feye) and enumerations were deliberately left alone \u2014 there the slash is not a choice between answers.",
+      "status": "approved",
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-a2-2a-0018",
@@ -21001,8 +21004,9 @@
         "unit-a2"
       ],
       "source": "A2-4B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Spelling checked against the A2 master coursebook on the learner's note (#65): the list has \"\u0130lahi\" with no circumflexes, glossed \"chant\". il\u00e2h\u00ee (divine) is a different word \u2014 hence the TR\u2192EN tip naming the sense. Gloss left as \"hymn\", which is accurate; recording the coursebook's \"chant\" here rather than re-glossing a card that already has history.",
+      "status": "approved",
+      "hint_tr_en": "(a religious song)"
     },
     {
       "id": "cand-a2-4-0040",
@@ -24103,7 +24107,7 @@
         "unit-a1"
       ],
       "source": "A1-1A grammar lesson (Turkishle); in no unit vocabulary list",
-      "notes": "Grammar words belong in the deck: this is for learning Turkish, not only its nouns. The paradigm was half-present \u2014 ben and sen were in, the rest were not. Against sen, which is one person informally; both now carry the tip. Tip shortened to (pl.) on the learner's note (#61). It also covers formal singular, but that nuance belongs in a drill, not on the prompt; sen keeps its own tip so the two \"you\" prompts stay distinct.",
+      "notes": "Grammar words belong in the deck: this is for learning Turkish, not only its nouns. The paradigm was half-present \u2014 ben and sen were in, the rest were not. Against sen, which is one person informally; both now carry the tip. Tip shortened to (pl.) on the learner's note (#61). It also covers formal singular, but that nuance belongs in a drill, not on the prompt; sen keeps its own tip so the two \"you\" prompts stay distinct. The polite-singular sense is a second meaning and would in principle be its own card; the learner has decided not to add it, so (pl.) stands. Do not \"fix\" this.",
       "status": "approved",
       "hint_en_tr": "(pl.)"
     },
@@ -25659,7 +25663,7 @@
     },
     {
       "id": "cand-sent-0063",
-      "turkish": "b\u00f6yle",
+      "turkish": "b\u00f6yle / bunun gibi",
       "english": "like this",
       "priority": 3,
       "tags": [
@@ -25668,9 +25672,9 @@
         "unit-a2"
       ],
       "source": "example sentence on the A2-1B vocabulary card (Turkishle web); in no unit vocabulary list",
-      "notes": "Mined from the card example sentences, which the earlier sweeps discarded \u2014 the lists teach the headwords, the sentences carry the connective vocabulary around them. Added a length cue on the learner's note (#62): \"like this\" also invites the two-word phrase bunun gibi, which is not what this card wants. The cue cannot leak the answer.",
+      "notes": "Mined from the card example sentences, which the earlier sweeps discarded \u2014 the lists teach the headwords, the sentences carry the connective vocabulary around them. Added a length cue on the learner's note (#62): \"like this\" also invites the two-word phrase bunun gibi, which is not what this card wants. The cue cannot leak the answer. Replaced the (one word) cue with an X / Y merge on the learner's rule: if the only tip you can write singles out one alternative arbitrarily, the alternatives are synonymous enough to share a card. bunun gibi also earns its place by showing gibi with a genitive pronoun.",
       "status": "approved",
-      "hint_en_tr": "(one word)"
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-sent-0064",
@@ -25740,9 +25744,8 @@
         "unit-a2"
       ],
       "source": "example sentence on the A2-1B vocabulary card (Turkishle web); in no unit vocabulary list",
-      "notes": "Mined from the card example sentences, which the earlier sweeps discarded \u2014 the lists teach the headwords, the sentences carry the connective vocabulary around them. Added a length cue on the learner's note (#63), which asked whether \"en sevdi\u011fi\" also works. It is a different construction \u2014 a superlative relative clause needing a possessive that agrees (en sevdi\u011fim = my favourite) \u2014 not a drop-in synonym for this loanword adjective, so the cue steers to the single word.",
-      "status": "approved",
-      "hint_en_tr": "(one word)"
+      "notes": "Mined from the card example sentences, which the earlier sweeps discarded \u2014 the lists teach the headwords, the sentences carry the connective vocabulary around them. Added a length cue on the learner's note (#63), which asked whether \"en sevdi\u011fi\" also works. It is a different construction \u2014 a superlative relative clause needing a possessive that agrees (en sevdi\u011fim = my favourite) \u2014 not a drop-in synonym for this loanword adjective, so the cue steers to the single word. Dropped the (one word) cue: it was an arbitrary length hint, which the learner rejected as a pattern. No X / Y merge either, because en sevdi\u011fi is not a synonym \u2014 it is a superlative relative clause carrying a possessive that agrees with its owner (en sevdi\u011fim = my favourite), so it cannot stand as the bare adjective.",
+      "status": "approved"
     },
     {
       "id": "cand-sent-0069",

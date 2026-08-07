@@ -196,8 +196,9 @@
         "unit-a1"
       ],
       "source": "A1_-_6A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Added the missing (X / Y) cue on the learner's note (#67): the answer has two forms and the prompt gave no sign of it. Object frames like (birine / bir şeye) and enumerations were deliberately left alone — there the slash is not a choice between answers.",
+      "status": "approved",
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-a1-6a-0015",

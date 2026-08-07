@@ -541,7 +541,7 @@
     },
     {
       "id": "cand-sent-0063",
-      "turkish": "böyle",
+      "turkish": "böyle / bunun gibi",
       "english": "like this",
       "priority": 3,
       "tags": [
@@ -550,9 +550,9 @@
         "unit-a2"
       ],
       "source": "example sentence on the A2-1B vocabulary card (Turkishle web); in no unit vocabulary list",
-      "notes": "Mined from the card example sentences, which the earlier sweeps discarded — the lists teach the headwords, the sentences carry the connective vocabulary around them. Added a length cue on the learner's note (#62): \"like this\" also invites the two-word phrase bunun gibi, which is not what this card wants. The cue cannot leak the answer.",
+      "notes": "Mined from the card example sentences, which the earlier sweeps discarded — the lists teach the headwords, the sentences carry the connective vocabulary around them. Added a length cue on the learner's note (#62): \"like this\" also invites the two-word phrase bunun gibi, which is not what this card wants. The cue cannot leak the answer. Replaced the (one word) cue with an X / Y merge on the learner's rule: if the only tip you can write singles out one alternative arbitrarily, the alternatives are synonymous enough to share a card. bunun gibi also earns its place by showing gibi with a genitive pronoun.",
       "status": "approved",
-      "hint_en_tr": "(one word)"
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-sent-0065",
@@ -607,9 +607,8 @@
         "unit-a2"
       ],
       "source": "example sentence on the A2-1B vocabulary card (Turkishle web); in no unit vocabulary list",
-      "notes": "Mined from the card example sentences, which the earlier sweeps discarded — the lists teach the headwords, the sentences carry the connective vocabulary around them. Added a length cue on the learner's note (#63), which asked whether \"en sevdiği\" also works. It is a different construction — a superlative relative clause needing a possessive that agrees (en sevdiğim = my favourite) — not a drop-in synonym for this loanword adjective, so the cue steers to the single word.",
-      "status": "approved",
-      "hint_en_tr": "(one word)"
+      "notes": "Mined from the card example sentences, which the earlier sweeps discarded — the lists teach the headwords, the sentences carry the connective vocabulary around them. Added a length cue on the learner's note (#63), which asked whether \"en sevdiği\" also works. It is a different construction — a superlative relative clause needing a possessive that agrees (en sevdiğim = my favourite) — not a drop-in synonym for this loanword adjective, so the cue steers to the single word. Dropped the (one word) cue: it was an arbitrary length hint, which the learner rejected as a pattern. No X / Y merge either, because en sevdiği is not a synonym — it is a superlative relative clause carrying a possessive that agrees with its owner (en sevdiğim = my favourite), so it cannot stand as the bare adjective.",
+      "status": "approved"
     },
     {
       "id": "cand-sent-0069",
@@ -913,7 +912,7 @@
         "unit-a1"
       ],
       "source": "A1-1A grammar lesson (Turkishle); in no unit vocabulary list",
-      "notes": "Grammar words belong in the deck: this is for learning Turkish, not only its nouns. The paradigm was half-present — ben and sen were in, the rest were not. Against sen, which is one person informally; both now carry the tip. Tip shortened to (pl.) on the learner's note (#61). It also covers formal singular, but that nuance belongs in a drill, not on the prompt; sen keeps its own tip so the two \"you\" prompts stay distinct.",
+      "notes": "Grammar words belong in the deck: this is for learning Turkish, not only its nouns. The paradigm was half-present — ben and sen were in, the rest were not. Against sen, which is one person informally; both now carry the tip. Tip shortened to (pl.) on the learner's note (#61). It also covers formal singular, but that nuance belongs in a drill, not on the prompt; sen keeps its own tip so the two \"you\" prompts stay distinct. The polite-singular sense is a second meaning and would in principle be its own card; the learner has decided not to add it, so (pl.) stands. Do not \"fix\" this.",
       "status": "approved",
       "hint_en_tr": "(pl.)"
     },

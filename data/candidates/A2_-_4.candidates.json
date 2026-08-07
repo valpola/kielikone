@@ -549,8 +549,9 @@
         "unit-a2"
       ],
       "source": "A2-4B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Spelling checked against the A2 master coursebook on the learner's note (#65): the list has \"İlahi\" with no circumflexes, glossed \"chant\". ilâhî (divine) is a different word — hence the TR→EN tip naming the sense. Gloss left as \"hymn\", which is accurate; recording the coursebook's \"chant\" here rather than re-glossing a card that already has history.",
+      "status": "approved",
+      "hint_tr_en": "(a religious song)"
     },
     {
       "id": "cand-a2-4-0040",

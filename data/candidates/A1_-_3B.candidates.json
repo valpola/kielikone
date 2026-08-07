@@ -267,8 +267,9 @@
         "verb"
       ],
       "source": "A1_-_3B.pdf",
-      "notes": "duplicate of cand-a1-3a-0010",
-      "status": "approved"
+      "notes": "duplicate of cand-a1-3a-0010 Added the missing (X / Y) cue on the learner's note (#67): the answer has two forms and the prompt gave no sign of it. Object frames like (birine / bir şeye) and enumerations were deliberately left alone — there the slash is not a choice between answers.",
+      "status": "approved",
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-a1-3b-0020",
