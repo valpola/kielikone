@@ -7601,11 +7601,10 @@
       "tags": [
         "unit-a1-4b",
         "unit-a1",
-        "country",
-        "similar"
+        "country"
       ],
       "source": "A1_-_4B.pdf",
-      "notes": "",
+      "notes": "Dropped the similar tag on the learner's note (#70): Denmark \u2192 Danimarka inserts a vowel and adds a final -a, neither predictable from the English. Third country flagged this way after Avusturya and Bulgaristan, which is why the whole tagged set was then audited.",
       "status": "approved"
     },
     {
