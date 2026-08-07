@@ -240,9 +240,9 @@
         "pronunciation"
       ],
       "source": "A1_-_6C.pdf",
-      "notes": "Pronunciation added as a first sample of the pron_tr field. TDK merkezi: — the Arabic nisba -î is long, which the circumflex records. IPA transcribed by hand from TDK's telaffuz field, converting its notation (apostrophe after the stressed vowel, colon for length) into IPA (ˈ before the stressed syllable, ː for length). Tagged \"pronunciation\" so these can be quizzed as a set.",
+      "notes": "Shows three things spelling hides at once: the first e is the open [æ] of a closed syllable before r, the second the close [e] of an open syllable; the k is palatalised to [c] before a front vowel; the Arabic nisba -î is long. Convention: IPA, with ˈ before the stressed syllable, ː for length, [æ] vs [e] for the two e qualities, [c]/[ɟ] for palatalised k/g, and [l] vs [ɫ] for clear and dark l. Transcribed by hand — TDK supplies length, stress and a prose note on l, but not the vowel allophony or the k/g palatalisation, so this cannot be generated.",
       "status": "approved",
-      "pron_tr": "meɾkeˈziː"
+      "pron_tr": "mæɾceˈziː"
     },
     {
       "id": "cand-a1-6c-0018",

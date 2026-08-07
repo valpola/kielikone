@@ -1447,9 +1447,9 @@
         "pronunciation"
       ],
       "source": "A2_-_1B.pdf",
-      "notes": "Pronunciation added as a first sample of the pron_tr field. TDK la:civert, \"l ince okunur\" — long first vowel and a front (clear) l, neither of which the spelling shows. IPA transcribed by hand from TDK's telaffuz field, converting its notation (apostrophe after the stressed vowel, colon for length) into IPA (ˈ before the stressed syllable, ː for length). Tagged \"pronunciation\" so these can be quizzed as a set.",
+      "notes": "Long first vowel, and TDK notes the l is the clear [l] rather than the dark [ɫ] a following back vowel would normally give. Final e is open [æ], closed by rt. Convention: IPA, with ˈ before the stressed syllable, ː for length, [æ] vs [e] for the two e qualities, [c]/[ɟ] for palatalised k/g, and [l] vs [ɫ] for clear and dark l. Transcribed by hand — TDK supplies length, stress and a prose note on l, but not the vowel allophony or the k/g palatalisation, so this cannot be generated.",
       "status": "approved",
-      "pron_tr": "lɑːdʒiˈveɾt"
+      "pron_tr": "lɑːdʒiˈvæɾt"
     },
     {
       "id": "cand-a2-1b-0103",

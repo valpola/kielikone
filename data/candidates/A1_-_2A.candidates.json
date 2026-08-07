@@ -680,9 +680,9 @@
         "pronunciation"
       ],
       "source": "A1_-_2A.pdf",
-      "notes": "Pronunciation added as a first sample of the pron_tr field. TDK tiya'tro — stressed on the second syllable, against the default. IPA transcribed by hand from TDK's telaffuz field, converting its notation (apostrophe after the stressed vowel, colon for length) into IPA (ˈ before the stressed syllable, ː for length). Tagged \"pronunciation\" so these can be quizzed as a set.",
+      "notes": "Stressed on the second syllable, against the default. Convention: IPA, with ˈ before the stressed syllable, ː for length, [æ] vs [e] for the two e qualities, [c]/[ɟ] for palatalised k/g, and [l] vs [ɫ] for clear and dark l. Transcribed by hand — TDK supplies length, stress and a prose note on l, but not the vowel allophony or the k/g palatalisation, so this cannot be generated.",
       "status": "approved",
-      "pron_tr": "tiˈjatɾo"
+      "pron_tr": "tiˈjɑtɾo"
     },
     {
       "id": "cand-a1-2a-0049",
@@ -724,7 +724,7 @@
         "pronunciation"
       ],
       "source": "A1_-_2A.pdf",
-      "notes": "Pronunciation added as a first sample of the pron_tr field. TDK bi'rçok — stressed on the first syllable, against the Turkish default. IPA transcribed by hand from TDK's telaffuz field, converting its notation (apostrophe after the stressed vowel, colon for length) into IPA (ˈ before the stressed syllable, ː for length). Tagged \"pronunciation\" so these can be quizzed as a set.",
+      "notes": "Stressed on the first syllable, against the Turkish default of final stress. Convention: IPA, with ˈ before the stressed syllable, ː for length, [æ] vs [e] for the two e qualities, [c]/[ɟ] for palatalised k/g, and [l] vs [ɫ] for clear and dark l. Transcribed by hand — TDK supplies length, stress and a prose note on l, but not the vowel allophony or the k/g palatalisation, so this cannot be generated.",
       "status": "approved",
       "pron_tr": "ˈbiɾtʃok"
     },

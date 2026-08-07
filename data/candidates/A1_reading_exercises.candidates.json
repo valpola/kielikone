@@ -70,9 +70,9 @@
         "pronunciation"
       ],
       "source": "A1-4/5 reading exercise SÖZLÜK (Turkishle web)",
-      "notes": "Pronunciation added as a first sample of the pron_tr field. TDK ha:lâ: — both vowels long, no stress mark so regular final stress. The length is the whole point: hala (paternal aunt) is ˈhɑ.lɑ, stressed on the first syllable and short. IPA transcribed by hand from TDK's telaffuz field, converting its notation (apostrophe after the stressed vowel, colon for length) into IPA (ˈ before the stressed syllable, ː for length). Tagged \"pronunciation\" so these can be quizzed as a set.",
+      "notes": "Both vowels long, and the l is the dark [ɫ] it becomes next to back vowels. Against hala (paternal aunt), ˈhɑ.ɫɑ — same shape, short, stressed on the first syllable. Convention: IPA, with ˈ before the stressed syllable, ː for length, [æ] vs [e] for the two e qualities, [c]/[ɟ] for palatalised k/g, and [l] vs [ɫ] for clear and dark l. Transcribed by hand — TDK supplies length, stress and a prose note on l, but not the vowel allophony or the k/g palatalisation, so this cannot be generated.",
       "status": "approved",
-      "pron_tr": "hɑːˈlɑː"
+      "pron_tr": "hɑːˈɫɑː"
     },
     {
       "id": "cand-a1-rd-0006",

@@ -1776,7 +1776,7 @@
         "unit-a1",
         "pronunciation"
       ],
-      "pron_tr": "ti\u02c8jat\u027eo"
+      "pron_tr": "ti\u02c8j\u0251t\u027eo"
     },
     {
       "id": "cand-a1-2a-0049",
@@ -5361,8 +5361,10 @@
       "tags": [
         "unit-a1-4a",
         "unit-a1",
-        "noun"
-      ]
+        "noun",
+        "pronunciation"
+      ],
+      "pron_tr": "d\u00e6\u027es"
     },
     {
       "id": "cand-a1-4a-0015",
@@ -10351,7 +10353,7 @@
         "pronunciation",
         "unit-a1-6c"
       ],
-      "pron_tr": "me\u027eke\u02c8zi\u02d0"
+      "pron_tr": "m\u00e6\u027ece\u02c8zi\u02d0"
     },
     {
       "id": "cand-a1-6b-0001",
@@ -11783,7 +11785,7 @@
         "unit-a1",
         "pronunciation"
       ],
-      "pron_tr": "h\u0251\u02d0\u02c8l\u0251\u02d0"
+      "pron_tr": "h\u0251\u02d0\u02c8\u026b\u0251\u02d0"
     },
     {
       "id": "cand-a1-rd-0006",
@@ -13034,7 +13036,7 @@
         "unit-a2-1b",
         "pronunciation"
       ],
-      "pron_tr": "l\u0251\u02d0d\u0292i\u02c8ve\u027et"
+      "pron_tr": "l\u0251\u02d0d\u0292i\u02c8v\u00e6\u027et"
     },
     {
       "id": "cand-a2-1b-0103",
@@ -14552,8 +14554,10 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-2b"
-      ]
+        "unit-a2-2b",
+        "pronunciation"
+      ],
+      "pron_tr": "ce\u02c8di"
     },
     {
       "id": "cand-a2-2b-0041",
@@ -17227,8 +17231,10 @@
       "tags": [
         "pronoun",
         "unit-a1-4a",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "b\u00e6n"
     },
     {
       "id": "cand-base-0013",
@@ -18704,7 +18710,7 @@
         "unit-a2",
         "pronunciation"
       ],
-      "pron_tr": "\u027eyz\u02c8\u025fa\u027e"
+      "pron_tr": "\u027eyz\u02c8\u025f\u0251\u027e"
     },
     {
       "id": "cand-cat-0029",

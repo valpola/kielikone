@@ -121,6 +121,33 @@ record, undetectably.
 **Its material is reference only and must stay out of the repo.** `resources/` is gitignored;
 keep the corpus there and keep the vendor's name out of tracked files and commit messages.
 
+## Pronunciation (`pron_tr`)
+
+Turkish spelling hides three things, none of them derivable, so they are stored per word in
+`pron_tr` and the word is tagged **`pronunciation`** so the set can be quizzed on its own.
+`export_quiz.py` carries the field; the app shows it **only after reveal**, so it can never hand
+over a Turkish spelling in EN→TR.
+
+- **Vowel length** in Arabic/Persian loans (`merkezî` → `meɾceˈziː`), which is also what the few
+  circumflexes in the deck record.
+- **Palatalised `k`/`g`** before front vowels — `[c]`/`[ɟ]`, not `[k]`/`[ɡ]`: `kedi` → `ceˈdi`,
+  `rüzgâr` → `ɾyzˈɟɑɾ`.
+- **Stress**, where it is not final: `birçok` → `ˈbiɾtʃok`.
+- **The two `e` qualities** (the learner's observation, and it matches the standard rule): a
+  closed syllable gives the open `[æ]`, an open syllable the close `[e]` — `ben` → `bæn`,
+  `ders` → `dæɾs` against `kedi` → `ceˈdi`. `merkezî` has both, `mæɾceˈziː`.
+- Also **`[l]` vs `[ɫ]`**, clear next to front vowels and dark next to back ones.
+
+**This is hand work, word by word — do not try to generate it.** TDK
+(`sozluk.gov.tr/gts?ara=<word>`, needs a browser User-Agent or `curl`) is useful only as
+*triage*: it returns a `telaffuz` field for irregular words and nothing for regular ones (~29% of
+single-word entries), giving length and stress plus a prose note on `l`. It does **not** give the
+vowel allophony or the k/g palatalisation, which is most of the value. Its notation is also not
+IPA — the apostrophe follows the stressed *vowel* (`sine'ma`, `a'nkara`) where IPA's `ˈ` precedes
+the *syllable* — so it must be converted, not copied. That reading of the convention is inferred
+from examples, not documentation; native audio in `resources/pron_samples/` was sent to the
+learner to confirm it.
+
 **Curation rules**
 - **Compare on letters only.** Strip case, circumflexes, parentheses, spaces *and
   punctuation* before matching. Three duplicates got in this way, each defeated by one

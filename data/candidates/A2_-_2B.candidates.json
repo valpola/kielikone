@@ -567,11 +567,13 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-2b"
+        "unit-a2-2b",
+        "pronunciation"
       ],
       "source": "A2_-_2B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "The counterpart to ders: open syllables give the close [e]. Also palatalises k to [c] before a front vowel, so the first consonant is not the [k] of kitap. Convention: IPA, with ˈ before the stressed syllable, ː for length, [æ] vs [e] for the two e qualities, [c]/[ɟ] for palatalised k/g, and [l] vs [ɫ] for clear and dark l. Transcribed by hand — TDK supplies length, stress and a prose note on l, but not the vowel allophony or the k/g palatalisation, so this cannot be generated.",
+      "status": "approved",
+      "pron_tr": "ceˈdi"
     },
     {
       "id": "cand-a2-2b-0041",

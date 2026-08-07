@@ -196,11 +196,13 @@
       "tags": [
         "unit-a1-4a",
         "unit-a1",
-        "noun"
+        "noun",
+        "pronunciation"
       ],
       "source": "A1_-_4A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Closed syllable before r, so the open [æ] again — the same vowel as ben, not the close [e] of an open syllable like kedi. Convention: IPA, with ˈ before the stressed syllable, ː for length, [æ] vs [e] for the two e qualities, [c]/[ɟ] for palatalised k/g, and [l] vs [ɫ] for clear and dark l. Transcribed by hand — TDK supplies length, stress and a prose note on l, but not the vowel allophony or the k/g palatalisation, so this cannot be generated.",
+      "status": "approved",
+      "pron_tr": "dæɾs"
     },
     {
       "id": "cand-a1-4a-0015",

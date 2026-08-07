@@ -2246,9 +2246,9 @@
         "pronunciation"
       ],
       "source": "A1_-_2A.pdf",
-      "notes": "Pronunciation added as a first sample of the pron_tr field. TDK tiya'tro \u2014 stressed on the second syllable, against the default. IPA transcribed by hand from TDK's telaffuz field, converting its notation (apostrophe after the stressed vowel, colon for length) into IPA (\u02c8 before the stressed syllable, \u02d0 for length). Tagged \"pronunciation\" so these can be quizzed as a set.",
+      "notes": "Stressed on the second syllable, against the default. Convention: IPA, with \u02c8 before the stressed syllable, \u02d0 for length, [\u00e6] vs [e] for the two e qualities, [c]/[\u025f] for palatalised k/g, and [l] vs [\u026b] for clear and dark l. Transcribed by hand \u2014 TDK supplies length, stress and a prose note on l, but not the vowel allophony or the k/g palatalisation, so this cannot be generated.",
       "status": "approved",
-      "pron_tr": "ti\u02c8jat\u027eo"
+      "pron_tr": "ti\u02c8j\u0251t\u027eo"
     },
     {
       "id": "cand-a1-2a-0049",
@@ -2290,7 +2290,7 @@
         "pronunciation"
       ],
       "source": "A1_-_2A.pdf",
-      "notes": "Pronunciation added as a first sample of the pron_tr field. TDK bi'r\u00e7ok \u2014 stressed on the first syllable, against the Turkish default. IPA transcribed by hand from TDK's telaffuz field, converting its notation (apostrophe after the stressed vowel, colon for length) into IPA (\u02c8 before the stressed syllable, \u02d0 for length). Tagged \"pronunciation\" so these can be quizzed as a set.",
+      "notes": "Stressed on the first syllable, against the Turkish default of final stress. Convention: IPA, with \u02c8 before the stressed syllable, \u02d0 for length, [\u00e6] vs [e] for the two e qualities, [c]/[\u025f] for palatalised k/g, and [l] vs [\u026b] for clear and dark l. Transcribed by hand \u2014 TDK supplies length, stress and a prose note on l, but not the vowel allophony or the k/g palatalisation, so this cannot be generated.",
       "status": "approved",
       "pron_tr": "\u02c8bi\u027et\u0283ok"
     },
@@ -6763,11 +6763,13 @@
       "tags": [
         "unit-a1-4a",
         "unit-a1",
-        "noun"
+        "noun",
+        "pronunciation"
       ],
       "source": "A1_-_4A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Closed syllable before r, so the open [\u00e6] again \u2014 the same vowel as ben, not the close [e] of an open syllable like kedi. Convention: IPA, with \u02c8 before the stressed syllable, \u02d0 for length, [\u00e6] vs [e] for the two e qualities, [c]/[\u025f] for palatalised k/g, and [l] vs [\u026b] for clear and dark l. Transcribed by hand \u2014 TDK supplies length, stress and a prose note on l, but not the vowel allophony or the k/g palatalisation, so this cannot be generated.",
+      "status": "approved",
+      "pron_tr": "d\u00e6\u027es"
     },
     {
       "id": "cand-a1-4a-0015",
@@ -13053,9 +13055,9 @@
         "unit-a1-6c"
       ],
       "source": "A1_-_6A.pdf",
-      "notes": "Pronunciation added as a first sample of the pron_tr field. TDK merkezi: \u2014 the Arabic nisba -\u00ee is long, which the circumflex records. IPA transcribed by hand from TDK's telaffuz field, converting its notation (apostrophe after the stressed vowel, colon for length) into IPA (\u02c8 before the stressed syllable, \u02d0 for length). Tagged \"pronunciation\" so these can be quizzed as a set.",
+      "notes": "Shows three things spelling hides at once: the first e is the open [\u00e6] of a closed syllable before r, the second the close [e] of an open syllable; the k is palatalised to [c] before a front vowel; the Arabic nisba -\u00ee is long. Convention: IPA, with \u02c8 before the stressed syllable, \u02d0 for length, [\u00e6] vs [e] for the two e qualities, [c]/[\u025f] for palatalised k/g, and [l] vs [\u026b] for clear and dark l. Transcribed by hand \u2014 TDK supplies length, stress and a prose note on l, but not the vowel allophony or the k/g palatalisation, so this cannot be generated.",
       "status": "approved",
-      "pron_tr": "me\u027eke\u02c8zi\u02d0"
+      "pron_tr": "m\u00e6\u027ece\u02c8zi\u02d0"
     },
     {
       "id": "cand-a1-6b-0001",
@@ -14866,9 +14868,9 @@
         "pronunciation"
       ],
       "source": "A1-4/5 reading exercise S\u00d6ZL\u00dcK (Turkishle web)",
-      "notes": "Pronunciation added as a first sample of the pron_tr field. TDK ha:l\u00e2: \u2014 both vowels long, no stress mark so regular final stress. The length is the whole point: hala (paternal aunt) is \u02c8h\u0251.l\u0251, stressed on the first syllable and short. IPA transcribed by hand from TDK's telaffuz field, converting its notation (apostrophe after the stressed vowel, colon for length) into IPA (\u02c8 before the stressed syllable, \u02d0 for length). Tagged \"pronunciation\" so these can be quizzed as a set.",
+      "notes": "Both vowels long, and the l is the dark [\u026b] it becomes next to back vowels. Against hala (paternal aunt), \u02c8h\u0251.\u026b\u0251 \u2014 same shape, short, stressed on the first syllable. Convention: IPA, with \u02c8 before the stressed syllable, \u02d0 for length, [\u00e6] vs [e] for the two e qualities, [c]/[\u025f] for palatalised k/g, and [l] vs [\u026b] for clear and dark l. Transcribed by hand \u2014 TDK supplies length, stress and a prose note on l, but not the vowel allophony or the k/g palatalisation, so this cannot be generated.",
       "status": "approved",
-      "pron_tr": "h\u0251\u02d0\u02c8l\u0251\u02d0"
+      "pron_tr": "h\u0251\u02d0\u02c8\u026b\u0251\u02d0"
     },
     {
       "id": "cand-a1-rd-0006",
@@ -16456,9 +16458,9 @@
         "pronunciation"
       ],
       "source": "A2_-_1B.pdf",
-      "notes": "Pronunciation added as a first sample of the pron_tr field. TDK la:civert, \"l ince okunur\" \u2014 long first vowel and a front (clear) l, neither of which the spelling shows. IPA transcribed by hand from TDK's telaffuz field, converting its notation (apostrophe after the stressed vowel, colon for length) into IPA (\u02c8 before the stressed syllable, \u02d0 for length). Tagged \"pronunciation\" so these can be quizzed as a set.",
+      "notes": "Long first vowel, and TDK notes the l is the clear [l] rather than the dark [\u026b] a following back vowel would normally give. Final e is open [\u00e6], closed by rt. Convention: IPA, with \u02c8 before the stressed syllable, \u02d0 for length, [\u00e6] vs [e] for the two e qualities, [c]/[\u025f] for palatalised k/g, and [l] vs [\u026b] for clear and dark l. Transcribed by hand \u2014 TDK supplies length, stress and a prose note on l, but not the vowel allophony or the k/g palatalisation, so this cannot be generated.",
       "status": "approved",
-      "pron_tr": "l\u0251\u02d0d\u0292i\u02c8ve\u027et"
+      "pron_tr": "l\u0251\u02d0d\u0292i\u02c8v\u00e6\u027et"
     },
     {
       "id": "cand-a2-1b-0103",
@@ -18378,11 +18380,13 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-2b"
+        "unit-a2-2b",
+        "pronunciation"
       ],
       "source": "A2_-_2B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "The counterpart to ders: open syllables give the close [e]. Also palatalises k to [c] before a front vowel, so the first consonant is not the [k] of kitap. Convention: IPA, with \u02c8 before the stressed syllable, \u02d0 for length, [\u00e6] vs [e] for the two e qualities, [c]/[\u025f] for palatalised k/g, and [l] vs [\u026b] for clear and dark l. Transcribed by hand \u2014 TDK supplies length, stress and a prose note on l, but not the vowel allophony or the k/g palatalisation, so this cannot be generated.",
+      "status": "approved",
+      "pron_tr": "ce\u02c8di"
     },
     {
       "id": "cand-a2-2b-0041",
@@ -21773,11 +21777,13 @@
       "tags": [
         "pronoun",
         "unit-a1-4a",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "base word of \u201cBen ka\u00e7ar!\u201d (A1-4A, Turkishle)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Added for the e allophony: a closed syllable before n gives the open [\u00e6], so this sounds closer to Finnish \"b\u00e4n\" than \"ben\". One of the first words a learner meets and one of the easiest to say with the wrong vowel. Convention: IPA, with \u02c8 before the stressed syllable, \u02d0 for length, [\u00e6] vs [e] for the two e qualities, [c]/[\u025f] for palatalised k/g, and [l] vs [\u026b] for clear and dark l. Transcribed by hand \u2014 TDK supplies length, stress and a prose note on l, but not the vowel allophony or the k/g palatalisation, so this cannot be generated.",
+      "status": "approved",
+      "pron_tr": "b\u00e6n"
     },
     {
       "id": "cand-base-0013",
@@ -23638,9 +23644,9 @@
         "pronunciation"
       ],
       "source": "base word of \u201cr\u00fczg\u00e2rl\u0131\u201d (A2-5A, Turkishle)",
-      "notes": "Pronunciation added as a first sample of the pron_tr field. The \u00e2 marks a palatalised g: \u025f, not the velar \u0261. Regular final stress. IPA transcribed by hand from TDK's telaffuz field, converting its notation (apostrophe after the stressed vowel, colon for length) into IPA (\u02c8 before the stressed syllable, \u02d0 for length). Tagged \"pronunciation\" so these can be quizzed as a set.",
+      "notes": "The \u00e2 marks a palatalised g: [\u025f], not the velar [\u0261]. Convention: IPA, with \u02c8 before the stressed syllable, \u02d0 for length, [\u00e6] vs [e] for the two e qualities, [c]/[\u025f] for palatalised k/g, and [l] vs [\u026b] for clear and dark l. Transcribed by hand \u2014 TDK supplies length, stress and a prose note on l, but not the vowel allophony or the k/g palatalisation, so this cannot be generated.",
       "status": "approved",
-      "pron_tr": "\u027eyz\u02c8\u025fa\u027e"
+      "pron_tr": "\u027eyz\u02c8\u025f\u0251\u027e"
     },
     {
       "id": "cand-cat-0029",
