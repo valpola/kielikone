@@ -21004,7 +21004,7 @@
         "unit-a2"
       ],
       "source": "A2-4B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Spelling checked against the A2 master coursebook on the learner's note (#65): the list has \"\u0130lahi\" with no circumflexes, glossed \"chant\". il\u00e2h\u00ee (divine) is a different word \u2014 hence the TR\u2192EN tip naming the sense. Gloss left as \"hymn\", which is accurate; recording the coursebook's \"chant\" here rather than re-glossing a card that already has history.",
+      "notes": "Spelling checked against the A2 master coursebook and then TDK: the list has \"\u0130lahi\" unaccented, glossed \"chant\". Circumflexes would be wrong here, and not merely unnecessary. TDK lists every sense as one Arabic word (il\u0101h\u012b) and spells both the adjective and the noun plain \"ilahi\"; only the vocative \"Ey Allah'\u0131m\" takes \u0130lah\u00ee. The senses differ in sound, not spelling: the adjective \"divine\" is ila:hi: with a LONG final i, this noun is ila:hi with a SHORT one, and the interjection is i'la:hi, stressed on the first syllable. So an \u00ee on this card would assert length the hymn does not have. In all senses the l is palatalised (\"l ince okunur\"). Corrects an earlier note of mine that called il\u00e2h\u00ee a different word \u2014 it is the same word, and that is not TDK's spelling of it.",
       "status": "approved",
       "hint_tr_en": "(a religious song)"
     },
