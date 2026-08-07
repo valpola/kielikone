@@ -275,6 +275,11 @@
       "id": "geography",
       "label": "Geography",
       "group": "theme"
+    },
+    {
+      "id": "pronunciation",
+      "label": "Pronunciation not obvious",
+      "group": "theme"
     }
   ]
 }

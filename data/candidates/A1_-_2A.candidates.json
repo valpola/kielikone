@@ -676,11 +676,13 @@
       "tags": [
         "noun",
         "unit-a1-2a",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1_-_2A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation added as a first sample of the pron_tr field. TDK tiya'tro — stressed on the second syllable, against the default. IPA transcribed by hand from TDK's telaffuz field, converting its notation (apostrophe after the stressed vowel, colon for length) into IPA (ˈ before the stressed syllable, ː for length). Tagged \"pronunciation\" so these can be quizzed as a set.",
+      "status": "approved",
+      "pron_tr": "tiˈjatɾo"
     },
     {
       "id": "cand-a1-2a-0049",
@@ -718,11 +720,13 @@
       "tags": [
         "adjective",
         "unit-a1-2a",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1_-_2A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation added as a first sample of the pron_tr field. TDK bi'rçok — stressed on the first syllable, against the Turkish default. IPA transcribed by hand from TDK's telaffuz field, converting its notation (apostrophe after the stressed vowel, colon for length) into IPA (ˈ before the stressed syllable, ː for length). Tagged \"pronunciation\" so these can be quizzed as a set.",
+      "status": "approved",
+      "pron_tr": "ˈbiɾtʃok"
     },
     {
       "id": "cand-a1-2a-0052",

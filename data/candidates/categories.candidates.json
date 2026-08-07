@@ -405,11 +405,13 @@
       "tags": [
         "noun",
         "unit-a2-5a",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "base word of “rüzgârlı” (A2-5A, Turkishle)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation added as a first sample of the pron_tr field. The â marks a palatalised g: ɟ, not the velar ɡ. Regular final stress. IPA transcribed by hand from TDK's telaffuz field, converting its notation (apostrophe after the stressed vowel, colon for length) into IPA (ˈ before the stressed syllable, ː for length). Tagged \"pronunciation\" so these can be quizzed as a set.",
+      "status": "approved",
+      "pron_tr": "ɾyzˈɟaɾ"
     },
     {
       "id": "cand-cat-0029",

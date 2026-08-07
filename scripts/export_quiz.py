@@ -113,6 +113,9 @@ def main() -> None:
             entry["hint_tr_en"] = item["hint_tr_en"]
         if item.get("hint_en_tr"):
             entry["hint_en_tr"] = item["hint_en_tr"]
+        # Pronunciation is shown only on reveal, so it can never leak the answer.
+        if item.get("pron_tr"):
+            entry["pron_tr"] = item["pron_tr"]
         quiz_items.append(entry)
 
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)

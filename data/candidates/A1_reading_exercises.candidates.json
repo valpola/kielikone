@@ -66,11 +66,13 @@
       "tags": [
         "adverb",
         "unit-a1-4c",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1-4/5 reading exercise SÖZLÜK (Turkishle web)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation added as a first sample of the pron_tr field. TDK ha:lâ: — both vowels long, no stress mark so regular final stress. The length is the whole point: hala (paternal aunt) is ˈhɑ.lɑ, stressed on the first syllable and short. IPA transcribed by hand from TDK's telaffuz field, converting its notation (apostrophe after the stressed vowel, colon for length) into IPA (ˈ before the stressed syllable, ː for length). Tagged \"pronunciation\" so these can be quizzed as a set.",
+      "status": "approved",
+      "pron_tr": "hɑːˈlɑː"
     },
     {
       "id": "cand-a1-rd-0006",

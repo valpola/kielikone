@@ -529,3 +529,17 @@ button {
   background: #fffbeb;
   color: #92400e;
 }
+
+/* Pronunciation, shown only after the answer is revealed. Monospace so the IPA
+   stress mark and length colon stay legible next to the Turkish. */
+.pron {
+  margin-top: 0.4rem;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.95rem;
+  opacity: 0.75;
+  letter-spacing: 0.01em;
+}
+
+.pron.hidden {
+  display: none;
+}

@@ -1773,8 +1773,10 @@
       "tags": [
         "noun",
         "unit-a1-2a",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "ti\u02c8jat\u027eo"
     },
     {
       "id": "cand-a1-2a-0049",
@@ -1806,8 +1808,10 @@
       "tags": [
         "adjective",
         "unit-a1-2a",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "\u02c8bi\u027et\u0283ok"
     },
     {
       "id": "cand-a1-2a-0052",
@@ -10344,8 +10348,10 @@
         "adjective",
         "unit-a1-6a",
         "unit-a1",
+        "pronunciation",
         "unit-a1-6c"
-      ]
+      ],
+      "pron_tr": "me\u027eke\u02c8zi\u02d0"
     },
     {
       "id": "cand-a1-6b-0001",
@@ -11774,8 +11780,10 @@
       "tags": [
         "adverb",
         "unit-a1-4c",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "h\u0251\u02d0\u02c8l\u0251\u02d0"
     },
     {
       "id": "cand-a1-rd-0006",
@@ -13023,8 +13031,10 @@
       "tags": [
         "adjective",
         "unit-a2",
-        "unit-a2-1b"
-      ]
+        "unit-a2-1b",
+        "pronunciation"
+      ],
+      "pron_tr": "l\u0251\u02d0d\u0292i\u02c8ve\u027et"
     },
     {
       "id": "cand-a2-1b-0103",
@@ -18691,8 +18701,10 @@
       "tags": [
         "noun",
         "unit-a2-5a",
-        "unit-a2"
-      ]
+        "unit-a2",
+        "pronunciation"
+      ],
+      "pron_tr": "\u027eyz\u02c8\u025fa\u027e"
     },
     {
       "id": "cand-cat-0029",
@@ -21861,6 +21873,11 @@
     {
       "id": "geography",
       "label": "Geography",
+      "group": "theme"
+    },
+    {
+      "id": "pronunciation",
+      "label": "Pronunciation not obvious",
       "group": "theme"
     }
   ]

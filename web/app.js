@@ -2,6 +2,7 @@ const PROMPT = document.getElementById("prompt");
 const HINT = document.getElementById("hint");
 const ANSWER = document.getElementById("answer");
 const CORRECT_ANSWER = document.getElementById("correct-answer");
+const PRON = document.getElementById("pron");
 const REVEAL = document.getElementById("reveal");
 const ACTIONS = document.getElementById("actions");
 const GRADE = document.getElementById("grade");
@@ -1442,6 +1443,7 @@ const renderPrompt = (options) => {
     ANSWER.value = "";
     CORRECT_ANSWER.value = "";
     clearCorrectAnswerState();
+    hidePron();
     isRevealed = false;
     return;
   }
@@ -1456,6 +1458,7 @@ const renderPrompt = (options) => {
   ANSWER.value = "";
   CORRECT_ANSWER.value = "";
   clearCorrectAnswerState();
+  hidePron();
   REVEAL.hidden = false;
   ACTIONS.classList.remove("hidden");
   GRADE.classList.add("hidden");
@@ -1472,7 +1475,23 @@ const revealAnswer = () => {
   ACTIONS.classList.add("hidden");
   GRADE.classList.remove("hidden");
   ANSWER.focus();
+  showPron();
   isRevealed = true;
+};
+
+// Pronunciation only appears once the answer is out, so it cannot give away a
+// Turkish spelling in EN->TR mode. It is on the Turkish word in either direction.
+const hidePron = () => {
+  if (!PRON) return;
+  PRON.textContent = "";
+  PRON.classList.add("hidden");
+};
+
+const showPron = () => {
+  if (!PRON) return;
+  const p = current && current.pron_tr;
+  PRON.textContent = p ? `${current.turkish}  ${p}` : "";
+  PRON.classList.toggle("hidden", !p);
 };
 
 const clearCorrectAnswerState = () => {

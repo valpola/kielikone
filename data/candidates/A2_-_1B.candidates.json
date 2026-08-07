@@ -1443,11 +1443,13 @@
       "tags": [
         "adjective",
         "unit-a2",
-        "unit-a2-1b"
+        "unit-a2-1b",
+        "pronunciation"
       ],
       "source": "A2_-_1B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation added as a first sample of the pron_tr field. TDK la:civert, \"l ince okunur\" — long first vowel and a front (clear) l, neither of which the spelling shows. IPA transcribed by hand from TDK's telaffuz field, converting its notation (apostrophe after the stressed vowel, colon for length) into IPA (ˈ before the stressed syllable, ː for length). Tagged \"pronunciation\" so these can be quizzed as a set.",
+      "status": "approved",
+      "pron_tr": "lɑːdʒiˈveɾt"
     },
     {
       "id": "cand-a2-1b-0103",
