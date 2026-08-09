@@ -138,6 +138,11 @@ over a Turkish spelling in EN→TR.
   `ders` → `dæɾs` against `kedi` → `ceˈdi`. `merkezî` has both, `mæɾceˈziː`.
 - Also **`[l]` vs `[ɫ]`**, clear next to front vowels and dark next to back ones.
 
+**Coverage:** every A2-5 entry carries `pron_tr`; earlier units have it only on a handful of
+worked examples. The **`pronunciation` tag is not on everything** — it marks the words that defy
+their spelling (irregular stress, phonemic length, a `ğ` that lengthens rather than sounds), so
+the tag stays a useful filter rather than a synonym for "has a transcription".
+
 **This is hand work, word by word — do not try to generate it.** TDK
 (`sozluk.gov.tr/gts?ara=<word>`, needs a browser User-Agent or `curl`) is useful only as
 *triage*: it returns a `telaffuz` field for irregular words and nothing for regular ones (~29% of

@@ -13,8 +13,9 @@
         "unit-a2"
       ],
       "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand.",
+      "status": "approved",
+      "pron_tr": "ɑˈɫɑn"
     },
     {
       "id": "cand-a2-5-0002",
@@ -27,8 +28,9 @@
         "unit-a2"
       ],
       "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Coursebook says glacier, the web card \"glacier / icecap\"; kept the single word, since a slash gloss would require typing both for TR->EN.",
-      "status": "approved"
+      "notes": "Coursebook says glacier, the web card \"glacier / icecap\"; kept the single word, since a slash gloss would require typing both for TR->EN. Pronunciation transcribed by hand.",
+      "status": "approved",
+      "pron_tr": "buˈzuɫ"
     },
     {
       "id": "cand-a2-5-0003",
@@ -41,8 +43,9 @@
         "unit-a2"
       ],
       "source": "A2-5A reading exercise SÖZLÜK (Turkishle web)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand.",
+      "status": "approved",
+      "pron_tr": "dyzˈlyc"
     },
     {
       "id": "cand-a2-5-0004",
@@ -55,8 +58,9 @@
         "unit-a2"
       ],
       "source": "A2-5A reading exercise SÖZLÜK (Turkishle web)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand.",
+      "status": "approved",
+      "pron_tr": "ævˈdʒil"
     },
     {
       "id": "cand-a2-5-0005",
@@ -69,8 +73,9 @@
         "unit-a2"
       ],
       "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "The sound of thunder. Paired against yıldırım (the bolt) and şimşek (the flash), which the sources blur.",
-      "status": "approved"
+      "notes": "The sound of thunder. Paired against yıldırım (the bolt) and şimşek (the flash), which the sources blur. Pronunciation transcribed by hand.",
+      "status": "approved",
+      "pron_tr": "ɟøc ɟyɾyltyˈsy"
     },
     {
       "id": "cand-a2-5-0006",
@@ -80,11 +85,13 @@
       "tags": [
         "noun",
         "unit-a2-5a",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Tagged pronunciation because the word defies its spelling: stressed on the first syllable. Confirmed against TDK where it lists a telaffuz.",
+      "status": "approved",
+      "pron_tr": "ˈɟøcjyzy"
     },
     {
       "id": "cand-a2-5-0007",
@@ -94,11 +101,13 @@
       "tags": [
         "noun",
         "unit-a2-5a",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Tagged pronunciation because the word defies its spelling: the ğ lengthens rather than sounding. Confirmed against TDK where it lists a telaffuz.",
+      "status": "approved",
+      "pron_tr": "ɟyn ɯʃɯˈɯː"
     },
     {
       "id": "cand-a2-5-0008",
@@ -111,8 +120,9 @@
         "unit-a2"
       ],
       "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Glossed \"weather\" by both sources, but hava alone already means weather and is in the deck; durumu makes it the forecast/report, so this avoids two cards sharing one prompt.",
-      "status": "approved"
+      "notes": "Glossed \"weather\" by both sources, but hava alone already means weather and is in the deck; durumu makes it the forecast/report, so this avoids two cards sharing one prompt. Pronunciation transcribed by hand.",
+      "status": "approved",
+      "pron_tr": "hɑˈvɑ duɾuˈmu"
     },
     {
       "id": "cand-a2-5-0009",
@@ -125,8 +135,9 @@
         "unit-a2"
       ],
       "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand.",
+      "status": "approved",
+      "pron_tr": "icˈlim"
     },
     {
       "id": "cand-a2-5-0010",
@@ -139,8 +150,9 @@
         "unit-a2"
       ],
       "source": "A2-5A reading exercise SÖZLÜK (Turkishle web)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand.",
+      "status": "approved",
+      "pron_tr": "koɾuˈmɑk"
     },
     {
       "id": "cand-a2-5-0011",
@@ -153,8 +165,9 @@
         "unit-a2"
       ],
       "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Both sources say \"dry\", which would collide with kuru in the same list. kurak is dryness of land or climate, kuru of an object, so arid separates them.",
-      "status": "approved"
+      "notes": "Both sources say \"dry\", which would collide with kuru in the same list. kurak is dryness of land or climate, kuru of an object, so arid separates them. Pronunciation transcribed by hand.",
+      "status": "approved",
+      "pron_tr": "kuˈɾɑk"
     },
     {
       "id": "cand-a2-5-0012",
@@ -167,8 +180,9 @@
         "unit-a2"
       ],
       "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand.",
+      "status": "approved",
+      "pron_tr": "kuɾɑkˈɫɯk"
     },
     {
       "id": "cand-a2-5-0013",
@@ -181,8 +195,9 @@
         "unit-a2"
       ],
       "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Absent as a standalone entry: the deck had only kuru soğan, so the word-inside-a-phrase test hid it.",
-      "status": "approved"
+      "notes": "Absent as a standalone entry: the deck had only kuru soğan, so the word-inside-a-phrase test hid it. Pronunciation transcribed by hand.",
+      "status": "approved",
+      "pron_tr": "kuˈɾu"
     },
     {
       "id": "cand-a2-5-0014",
@@ -195,8 +210,9 @@
         "unit-a2"
       ],
       "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand.",
+      "status": "approved",
+      "pron_tr": "cyɾeˈsæl ɯsɯnˈmɑ"
     },
     {
       "id": "cand-a2-5-0015",
@@ -209,8 +225,9 @@
         "unit-a2"
       ],
       "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Sources gloss it literally as \"winter sleep\"; hibernation is the English word for it and keeps the prompt answerable.",
-      "status": "approved"
+      "notes": "Sources gloss it literally as \"winter sleep\"; hibernation is the English word for it and keeps the prompt answerable. Pronunciation transcribed by hand.",
+      "status": "approved",
+      "pron_tr": "kɯʃ ujkuˈsu"
     },
     {
       "id": "cand-a2-5-0016",
@@ -223,8 +240,9 @@
         "unit-a2"
       ],
       "source": "A2-5A reading exercise SÖZLÜK (Turkishle web)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand.",
+      "status": "approved",
+      "pron_tr": "ˈot"
     },
     {
       "id": "cand-a2-5-0017",
@@ -237,8 +255,9 @@
         "unit-a2"
       ],
       "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand.",
+      "status": "approved",
+      "pron_tr": "sisˈli"
     },
     {
       "id": "cand-a2-5-0018",
@@ -248,11 +267,13 @@
       "tags": [
         "adjective",
         "unit-a2-5a",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-5A reading exercise SÖZLÜK (Turkishle web)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Tagged pronunciation because the word defies its spelling: a long final vowel. Confirmed against TDK where it lists a telaffuz.",
+      "status": "approved",
+      "pron_tr": "vɑhˈʃiː"
     },
     {
       "id": "cand-a2-5-0019",
@@ -262,11 +283,13 @@
       "tags": [
         "noun",
         "unit-a2-5a",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "The sources disagree — coursebook \"thunder\", web card \"lightning\" — and both would collide with şimşek or gök gürültüsü. yıldırım is the strike itself, so thunderbolt keeps all three distinct.",
-      "status": "approved"
+      "notes": "The sources disagree — coursebook \"thunder\", web card \"lightning\" — and both would collide with şimşek or gök gürültüsü. yıldırım is the strike itself, so thunderbolt keeps all three distinct. Tagged pronunciation because the word defies its spelling: stressed on the first syllable. Confirmed against TDK where it lists a telaffuz.",
+      "status": "approved",
+      "pron_tr": "ˈjɯɫdɯɾɯm"
     },
     {
       "id": "cand-a2-5-0020",
@@ -279,8 +302,9 @@
         "unit-a2"
       ],
       "source": "A2-5A reading exercise SÖZLÜK (Turkishle web)",
-      "notes": "SÖZLÜK gives \"stripe/line\"; a slash gloss would demand both words for TR->EN, so the commoner sense stands alone.",
-      "status": "approved"
+      "notes": "SÖZLÜK gives \"stripe/line\"; a slash gloss would demand both words for TR->EN, so the commoner sense stands alone. Pronunciation transcribed by hand.",
+      "status": "approved",
+      "pron_tr": "tʃizˈɟi"
     },
     {
       "id": "cand-a2-5-0021",
@@ -293,8 +317,9 @@
         "unit-a2"
       ],
       "source": "A2-5A reading exercise SÖZLÜK (Turkishle web)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand.",
+      "status": "approved",
+      "pron_tr": "ˈtʃøl"
     },
     {
       "id": "cand-a2-5-0022",
@@ -307,8 +332,9 @@
         "unit-a2"
       ],
       "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Absent as a standalone entry: the deck had only ıslak mendil.",
-      "status": "approved"
+      "notes": "Absent as a standalone entry: the deck had only ıslak mendil. Pronunciation transcribed by hand.",
+      "status": "approved",
+      "pron_tr": "ɯsˈɫɑk"
     },
     {
       "id": "cand-a2-5-0023",
@@ -321,8 +347,9 @@
         "unit-a2"
       ],
       "source": "A2-5A reading exercise SÖZLÜK (Turkishle web)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand.",
+      "status": "approved",
+      "pron_tr": "ˈʃɑɾt"
     },
     {
       "id": "cand-a2-5-0024",
@@ -335,8 +362,9 @@
         "unit-a2"
       ],
       "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand.",
+      "status": "approved",
+      "pron_tr": "ʃimˈʃæc"
     },
     {
       "id": "cand-a2-5-0025",
@@ -349,8 +377,9 @@
         "unit-a2"
       ],
       "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand.",
+      "status": "approved",
+      "pron_tr": "ɑnɫɑjɯʃˈɫɯ"
     },
     {
       "id": "cand-a2-5-0026",
@@ -363,8 +392,9 @@
         "unit-a2"
       ],
       "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "The web card misspells this \"inconsidirate\"; coursebook spelling used.",
-      "status": "approved"
+      "notes": "The web card misspells this \"inconsidirate\"; coursebook spelling used. Pronunciation transcribed by hand.",
+      "status": "approved",
+      "pron_tr": "ɑnɫɑjɯʃˈsɯz"
     },
     {
       "id": "cand-a2-5-0027",
@@ -374,11 +404,13 @@
       "tags": [
         "adjective",
         "unit-a2-5b",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Tagged pronunciation because the word defies its spelling: stressed on the first syllable. Confirmed against TDK where it lists a telaffuz.",
+      "status": "approved",
+      "pron_tr": "ˈɑjnɯ"
     },
     {
       "id": "cand-a2-5-0028",
@@ -391,8 +423,9 @@
         "unit-a2"
       ],
       "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand.",
+      "status": "approved",
+      "pron_tr": "bænˈzæɾ"
     },
     {
       "id": "cand-a2-5-0029",
@@ -405,8 +438,9 @@
         "unit-a2"
       ],
       "source": "A2-5B reading exercise SÖZLÜK (Turkishle web)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand.",
+      "status": "approved",
+      "pron_tr": "byjyleˈmæc"
     },
     {
       "id": "cand-a2-5-0030",
@@ -419,8 +453,9 @@
         "unit-a2"
       ],
       "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand.",
+      "status": "approved",
+      "pron_tr": "dʒimˈɾi"
     },
     {
       "id": "cand-a2-5-0031",
@@ -433,8 +468,9 @@
         "unit-a2"
       ],
       "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand.",
+      "status": "approved",
+      "pron_tr": "dʒøˈmæɾt"
     },
     {
       "id": "cand-a2-5-0032",
@@ -447,8 +483,9 @@
         "unit-a2"
       ],
       "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Web card says \"in detail\", which is the adverb; detaylı is an adjective.",
-      "status": "approved"
+      "notes": "Web card says \"in detail\", which is the adverb; detaylı is an adjective. Pronunciation transcribed by hand.",
+      "status": "approved",
+      "pron_tr": "detɑjˈɫɯ"
     },
     {
       "id": "cand-a2-5-0033",
@@ -458,12 +495,14 @@
       "tags": [
         "adjective",
         "unit-a2-5b",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "A list row offering two forms, so both are kept.",
+      "notes": "A list row offering two forms, so both are kept. Tagged pronunciation because the word defies its spelling: the ğ in doğrudan lengthens the preceding o. Confirmed against TDK where it lists a telaffuz.",
       "status": "approved",
-      "hint_en_tr": "(X / Y)"
+      "hint_en_tr": "(X / Y)",
+      "pron_tr": "diˈɾækt / doːɾuˈdɑn"
     },
     {
       "id": "cand-a2-5-0034",
@@ -476,8 +515,9 @@
         "unit-a2"
       ],
       "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand.",
+      "status": "approved",
+      "pron_tr": "hɯɾsˈɫɯ"
     },
     {
       "id": "cand-a2-5-0035",
@@ -490,8 +530,9 @@
         "unit-a2"
       ],
       "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "The coursebook lemma. The web card gives the inflected sentence \"İlgimi çeker.\" instead, which is an example rather than a headword.",
-      "status": "approved"
+      "notes": "The coursebook lemma. The web card gives the inflected sentence \"İlgimi çeker.\" instead, which is an example rather than a headword. Pronunciation transcribed by hand.",
+      "status": "approved",
+      "pron_tr": "ilɟisiˈni tʃæcˈmæc"
     },
     {
       "id": "cand-a2-5-0036",
@@ -504,9 +545,10 @@
         "unit-a2"
       ],
       "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "A list row offering two forms, so both are kept.",
+      "notes": "A list row offering two forms, so both are kept. Pronunciation transcribed by hand.",
       "status": "approved",
-      "hint_en_tr": "(X / Y)"
+      "hint_en_tr": "(X / Y)",
+      "pron_tr": "kɑɾɑkˈtæɾ / ciʃiˈlic"
     },
     {
       "id": "cand-a2-5-0037",
@@ -519,8 +561,9 @@
         "unit-a2"
       ],
       "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand.",
+      "status": "approved",
+      "pron_tr": "kɑɾɑɾˈɫɯ"
     },
     {
       "id": "cand-a2-5-0038",
@@ -533,8 +576,9 @@
         "unit-a2"
       ],
       "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Web card says \"irresolute\"; coursebook wording is the commoner English.",
-      "status": "approved"
+      "notes": "Web card says \"irresolute\"; coursebook wording is the commoner English. Pronunciation transcribed by hand.",
+      "status": "approved",
+      "pron_tr": "kɑɾɑɾˈsɯz"
     },
     {
       "id": "cand-a2-5-0039",
@@ -547,8 +591,9 @@
         "unit-a2"
       ],
       "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Coursebook \"to focus on\", web \"to focus\". Kept the object frame: the verb is intransitive and takes a dative, so the English preposition mirrors it.",
-      "status": "approved"
+      "notes": "Coursebook \"to focus on\", web \"to focus\". Kept the object frame: the verb is intransitive and takes a dative, so the English preposition mirrors it. Pronunciation transcribed by hand.",
+      "status": "approved",
+      "pron_tr": "odɑkɫɑnˈmɑk"
     },
     {
       "id": "cand-a2-5-0040",
@@ -561,8 +606,9 @@
         "unit-a2"
       ],
       "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand.",
+      "status": "approved",
+      "pron_tr": "sævˈɟi doˈɫu"
     },
     {
       "id": "cand-a2-5-0041",
@@ -575,8 +621,9 @@
         "unit-a2"
       ],
       "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Both sources write \"save money\" without \"to\"; normalised to the deck's infinitive convention.",
-      "status": "approved"
+      "notes": "Both sources write \"save money\" without \"to\"; normalised to the deck's infinitive convention. Pronunciation transcribed by hand.",
+      "status": "approved",
+      "pron_tr": "tɑsɑˈruf jɑpˈmɑk"
     },
     {
       "id": "cand-a2-5-0042",
@@ -589,8 +636,9 @@
         "unit-a2"
       ],
       "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand.",
+      "status": "approved",
+      "pron_tr": "utɑnˈɡɑtʃ"
     },
     {
       "id": "cand-a2-5-0043",
@@ -603,8 +651,9 @@
         "unit-a2"
       ],
       "source": "A2-5B reading exercise SÖZLÜK (Turkishle web)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand.",
+      "status": "approved",
+      "pron_tr": "utʃuɾtˈmɑ utʃuɾˈmɑk"
     },
     {
       "id": "cand-a2-5-0044",
@@ -614,11 +663,13 @@
       "tags": [
         "verb",
         "unit-a2-5b",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Tagged pronunciation because the word defies its spelling: the ğ in öğüt reduces to a glide. Confirmed against TDK where it lists a telaffuz.",
+      "status": "approved",
+      "pron_tr": "øˈjyt væɾˈmæc"
     },
     {
       "id": "cand-a2-5-0045",
@@ -631,10 +682,11 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "",
+      "notes": "Pronunciation transcribed by hand.",
       "status": "approved",
       "hint_tr_en": "(the star sign; the word also means scorpion)",
-      "hint_en_tr": "(star sign)"
+      "hint_en_tr": "(star sign)",
+      "pron_tr": "ɑkˈɾæp"
     },
     {
       "id": "cand-a2-5-0046",
@@ -644,11 +696,13 @@
       "tags": [
         "adverb",
         "unit-a2-5c",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Tagged pronunciation because the word defies its spelling: stressed on the first syllable. Confirmed against TDK where it lists a telaffuz.",
+      "status": "approved",
+      "pron_tr": "ˈɑjnæn"
     },
     {
       "id": "cand-a2-5-0047",
@@ -661,10 +715,11 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "",
+      "notes": "Pronunciation transcribed by hand.",
       "status": "approved",
       "hint_tr_en": "(the star sign; the word also means ear of grain)",
-      "hint_en_tr": "(star sign)"
+      "hint_en_tr": "(star sign)",
+      "pron_tr": "bɑˈʃɑk"
     },
     {
       "id": "cand-a2-5-0048",
@@ -677,8 +732,9 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand.",
+      "status": "approved",
+      "pron_tr": "bɑʃɑɾˈmɑk"
     },
     {
       "id": "cand-a2-5-0049",
@@ -688,11 +744,13 @@
       "tags": [
         "adverb",
         "unit-a2-5c",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Tagged pronunciation because the word defies its spelling: stressed on the first syllable. Confirmed against TDK where it lists a telaffuz.",
+      "status": "approved",
+      "pron_tr": "ˈbælci"
     },
     {
       "id": "cand-a2-5-0050",
@@ -702,13 +760,15 @@
       "tags": [
         "noun",
         "unit-a2-5c",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "",
+      "notes": "Tagged pronunciation because the word defies its spelling: the ğ is not a consonant here — it lengthens the vowel around it. Confirmed against TDK where it lists a telaffuz.",
       "status": "approved",
       "hint_tr_en": "(the star sign; the word also means bull)",
-      "hint_en_tr": "(star sign)"
+      "hint_en_tr": "(star sign)",
+      "pron_tr": "boˈɑː"
     },
     {
       "id": "cand-a2-5-0051",
@@ -721,8 +781,9 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand.",
+      "status": "approved",
+      "pron_tr": "buɾtʃˈɫɑɾ"
     },
     {
       "id": "cand-a2-5-0052",
@@ -735,8 +796,9 @@
         "unit-a2"
       ],
       "source": "A2-5C reading exercise SÖZLÜK (Turkishle web)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand.",
+      "status": "approved",
+      "pron_tr": "dʒɑˈnɯ sɯkɯɫˈmɑk"
     },
     {
       "id": "cand-a2-5-0053",
@@ -746,11 +808,13 @@
       "tags": [
         "noun",
         "unit-a2-5c",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Tagged pronunciation because the word defies its spelling: the ğ between front vowels reduces to a glide. Confirmed against TDK where it lists a telaffuz.",
+      "status": "approved",
+      "pron_tr": "deiˈʃim"
     },
     {
       "id": "cand-a2-5-0054",
@@ -763,8 +827,9 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand.",
+      "status": "approved",
+      "pron_tr": "eleˈmænt"
     },
     {
       "id": "cand-a2-5-0055",
@@ -774,11 +839,13 @@
       "tags": [
         "noun",
         "unit-a2-5c",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-5C reading exercise SÖZLÜK (Turkishle web)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Tagged pronunciation because the word defies its spelling: stressed on the first syllable. Confirmed against TDK where it lists a telaffuz.",
+      "status": "approved",
+      "pron_tr": "ˈɟøzjɑʃɯ"
     },
     {
       "id": "cand-a2-5-0056",
@@ -791,8 +858,9 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand.",
+      "status": "approved",
+      "pron_tr": "hɑzɯɾɫɑnˈmɑk"
     },
     {
       "id": "cand-a2-5-0057",
@@ -802,11 +870,13 @@
       "tags": [
         "adverb",
         "unit-a2-5c",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Both herhalde and muhtemelen are glossed \"probably\" by the sources, which would give two cards one prompt; presumably keeps this one answerable.",
-      "status": "approved"
+      "notes": "Both herhalde and muhtemelen are glossed \"probably\" by the sources, which would give two cards one prompt; presumably keeps this one answerable. Tagged pronunciation because the word defies its spelling: stressed on the first syllable and carries a long â the spelling now omits. Confirmed against TDK where it lists a telaffuz.",
+      "status": "approved",
+      "pron_tr": "ˈhæɾhɑːɫde"
     },
     {
       "id": "cand-a2-5-0058",
@@ -819,8 +889,9 @@
         "unit-a2"
       ],
       "source": "A2-5C reading exercise SÖZLÜK (Turkishle web)",
-      "notes": "Glossed \"related\" by the SÖZLÜK, which collides with the deck's ilgili = related. The two are close but not the same: ilgili is about relevance or concern (ilgili kişi = the person concerned), ilişkili about a connection between things. \"connected\" keeps both prompts answerable.",
-      "status": "approved"
+      "notes": "Glossed \"related\" by the SÖZLÜK, which collides with the deck's ilgili = related. The two are close but not the same: ilgili is about relevance or concern (ilgili kişi = the person concerned), ilişkili about a connection between things. \"connected\" keeps both prompts answerable. Pronunciation transcribed by hand.",
+      "status": "approved",
+      "pron_tr": "iliʃciˈli"
     },
     {
       "id": "cand-a2-5-0059",
@@ -833,10 +904,11 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "",
+      "notes": "Pronunciation transcribed by hand.",
       "status": "approved",
       "hint_tr_en": "(the star sign; the word also means twins)",
-      "hint_en_tr": "(star sign)"
+      "hint_en_tr": "(star sign)",
+      "pron_tr": "icizˈlæɾ"
     },
     {
       "id": "cand-a2-5-0060",
@@ -849,8 +921,9 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand.",
+      "status": "approved",
+      "pron_tr": "ceˈsin"
     },
     {
       "id": "cand-a2-5-0061",
@@ -860,11 +933,13 @@
       "tags": [
         "adverb",
         "unit-a2-5c",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Tagged pronunciation because the word defies its spelling: stressed on the third syllable. Confirmed against TDK where it lists a telaffuz.",
+      "status": "approved",
+      "pron_tr": "cesinˈlicle"
     },
     {
       "id": "cand-a2-5-0062",
@@ -877,10 +952,11 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "",
+      "notes": "Pronunciation transcribed by hand.",
       "status": "approved",
       "hint_tr_en": "(the star sign; the word also means bucket)",
-      "hint_en_tr": "(star sign)"
+      "hint_en_tr": "(star sign)",
+      "pron_tr": "koˈvɑ"
     },
     {
       "id": "cand-a2-5-0063",
@@ -893,10 +969,11 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "",
+      "notes": "Pronunciation transcribed by hand.",
       "status": "approved",
       "hint_tr_en": "(the star sign; the word also means ram)",
-      "hint_en_tr": "(star sign)"
+      "hint_en_tr": "(star sign)",
+      "pron_tr": "ˈkotʃ"
     },
     {
       "id": "cand-a2-5-0064",
@@ -909,8 +986,9 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand.",
+      "status": "approved",
+      "pron_tr": "kɯˈsɑ syɾˈmæc"
     },
     {
       "id": "cand-a2-5-0065",
@@ -920,11 +998,13 @@
       "tags": [
         "adverb",
         "unit-a2-5c",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Tagged pronunciation because the word defies its spelling: stressed on the third syllable. Confirmed against TDK where it lists a telaffuz.",
+      "status": "approved",
+      "pron_tr": "muhteˈmelæn"
     },
     {
       "id": "cand-a2-5-0066",
@@ -934,11 +1014,13 @@
       "tags": [
         "adverb",
         "unit-a2-5c",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Sources give \"for sure, absolutely\", which overlaps kesinlikle; without fail is the distinct sense and keeps the prompts separate.",
-      "status": "approved"
+      "notes": "Sources give \"for sure, absolutely\", which overlaps kesinlikle; without fail is the distinct sense and keeps the prompts separate. Tagged pronunciation because the word defies its spelling: stressed on the first syllable and ends in a long vowel. Confirmed against TDK where it lists a telaffuz.",
+      "status": "approved",
+      "pron_tr": "ˈmutɫɑkɑː"
     },
     {
       "id": "cand-a2-5-0067",
@@ -948,13 +1030,15 @@
       "tags": [
         "noun",
         "unit-a2-5c",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "",
+      "notes": "Tagged pronunciation because the word defies its spelling: the ğ lengthens the preceding o rather than being pronounced. Confirmed against TDK where it lists a telaffuz.",
       "status": "approved",
       "hint_tr_en": "(the star sign; the word also means kid goat)",
-      "hint_en_tr": "(star sign)"
+      "hint_en_tr": "(star sign)",
+      "pron_tr": "oːˈɫɑk"
     },
     {
       "id": "cand-a2-5-0068",
@@ -967,8 +1051,9 @@
         "unit-a2"
       ],
       "source": "A2-5C reading exercise SÖZLÜK (Turkishle web)",
-      "notes": "Causative of sinirlenmek, so transitive — you annoy someone.",
-      "status": "approved"
+      "notes": "Causative of sinirlenmek, so transitive — you annoy someone. Pronunciation transcribed by hand.",
+      "status": "approved",
+      "pron_tr": "siniɾlændiɾˈmæc"
     },
     {
       "id": "cand-a2-5-0069",
@@ -981,8 +1066,9 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand.",
+      "status": "approved",
+      "pron_tr": "teˈmæl"
     },
     {
       "id": "cand-a2-5-0070",
@@ -992,13 +1078,15 @@
       "tags": [
         "noun",
         "unit-a2-5c",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "",
+      "notes": "Tagged pronunciation because the word defies its spelling: a long vowel in the second syllable. Confirmed against TDK where it lists a telaffuz.",
       "status": "approved",
       "hint_tr_en": "(the star sign; the word also means scales)",
-      "hint_en_tr": "(star sign)"
+      "hint_en_tr": "(star sign)",
+      "pron_tr": "teɾɑːˈzi"
     },
     {
       "id": "cand-a2-5-0071",
@@ -1011,8 +1099,9 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand.",
+      "status": "approved",
+      "pron_tr": "uˈzun syɾˈmæc"
     },
     {
       "id": "cand-a2-5-0072",
@@ -1025,8 +1114,9 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand.",
+      "status": "approved",
+      "pron_tr": "jɑkɯnˈdɑ"
     },
     {
       "id": "cand-a2-5-0073",
@@ -1039,10 +1129,11 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "",
+      "notes": "Pronunciation transcribed by hand.",
       "status": "approved",
       "hint_tr_en": "(the star sign; the word also means bow)",
-      "hint_en_tr": "(star sign)"
+      "hint_en_tr": "(star sign)",
+      "pron_tr": "ˈjɑj"
     },
     {
       "id": "cand-a2-5-0074",
@@ -1055,10 +1146,11 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "",
+      "notes": "Pronunciation transcribed by hand.",
       "status": "approved",
       "hint_tr_en": "(the star sign; the word also means crab)",
-      "hint_en_tr": "(star sign)"
+      "hint_en_tr": "(star sign)",
+      "pron_tr": "jænˈɟætʃ"
     },
     {
       "id": "cand-a2-5-0075",
@@ -1068,11 +1160,13 @@
       "tags": [
         "adverb",
         "unit-a2-5c",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Tagged pronunciation because the word defies its spelling: stressed on the first syllable. Confirmed against TDK where it lists a telaffuz.",
+      "status": "approved",
+      "pron_tr": "ˈjine"
     },
     {
       "id": "cand-a2-5-0076",
@@ -1085,8 +1179,9 @@
         "unit-a2"
       ],
       "source": "A2-5C reading exercise SÖZLÜK (Turkishle web)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand.",
+      "status": "approved",
+      "pron_tr": "jycsælˈmæc"
     },
     {
       "id": "cand-a2-5-0077",
@@ -1099,8 +1194,9 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand.",
+      "status": "approved",
+      "pron_tr": "tʃokˈtɑn"
     },
     {
       "id": "cand-a2-5-0078",
@@ -1110,11 +1206,13 @@
       "tags": [
         "verb",
         "unit-a2-5c",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Tagged pronunciation because the word defies its spelling: şahit has a long first vowel. Confirmed against TDK where it lists a telaffuz.",
+      "status": "approved",
+      "pron_tr": "ʃɑːˈhit oɫˈmɑk"
     },
     {
       "id": "cand-a2-5-0079",
@@ -1127,10 +1225,11 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Same spelling as the deck's aslan = lion but a different sense, so it is its own card rather than a second gloss. The form-based presence test hid it: the word was in the deck, the meaning was not.",
+      "notes": "Same spelling as the deck's aslan = lion but a different sense, so it is its own card rather than a second gloss. The form-based presence test hid it: the word was in the deck, the meaning was not. Pronunciation transcribed by hand.",
       "status": "approved",
       "hint_tr_en": "(the star sign)",
-      "hint_en_tr": "(star sign)"
+      "hint_en_tr": "(star sign)",
+      "pron_tr": "ɑsˈɫɑn"
     },
     {
       "id": "cand-a2-5-0080",
@@ -1143,10 +1242,11 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Same spelling as the deck's balık = fish but a different sense. Hidden by the same form-based test as aslan.",
+      "notes": "Same spelling as the deck's balık = fish but a different sense. Hidden by the same form-based test as aslan. Pronunciation transcribed by hand.",
       "status": "approved",
       "hint_tr_en": "(the star sign)",
-      "hint_en_tr": "(star sign)"
+      "hint_en_tr": "(star sign)",
+      "pron_tr": "bɑˈɫɯk"
     },
     {
       "id": "cand-a2-5-0081",
@@ -1159,9 +1259,10 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "The deck has madde = item (an entry in a document); A2-5C teaches the material sense. CLAUDE.md already anticipated this split, and the form-based test hid it.",
+      "notes": "The deck has madde = item (an entry in a document); A2-5C teaches the material sense. CLAUDE.md already anticipated this split, and the form-based test hid it. Pronunciation transcribed by hand.",
       "status": "approved",
-      "hint_tr_en": "(a material)"
+      "hint_tr_en": "(a material)",
+      "pron_tr": "mɑdˈde"
     }
   ]
 }
