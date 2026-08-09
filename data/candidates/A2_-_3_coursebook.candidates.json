@@ -269,9 +269,10 @@
         "unit-a2"
       ],
       "source": "A2-3A Kelime Listesi (Turkishle coursebook)",
-      "notes": "",
+      "notes": "Tip added when A2-5C introduced madde = substance: the two senses share a spelling, so TR->EN has to say which is wanted.",
       "status": "approved",
-      "hint_en_tr": "(e.g. an entry in a document)"
+      "hint_en_tr": "(e.g. an entry in a document)",
+      "hint_tr_en": "(e.g. an entry in a document)"
     },
     {
       "id": "cand-a2-3-0020",

@@ -154,6 +154,7 @@ learner to confirm it.
   character the fold did not remove: `yıl dönümü` (a space), `… sayesinde` (an ellipsis),
   `Lütfen!` (an exclamation mark). Also split slash forms and check each side: `yüksek
   lisans yapmak` was hidden inside a combined entry.
+- **A form already in the deck does not mean the *sense* is.** Presence tests match spellings, so a homograph reads as covered: `aslan` (lion → Leo), `balık` (fish → Pisces) and `madde` (item → substance) were all filtered out as "already present" until the A2-5 candidates were re-checked gloss by gloss. After any diff, list the forms it called present and compare the two glosses.
 - **Dedup by individual word, then review by hand** (the user's explicit preference —
   automated verdicts have been wrong twice). For each candidate, search every
   `data/candidates/*.candidates.json` entry containing *any* word of the candidate
@@ -265,8 +266,8 @@ learner to confirm it.
 - **`hint_en_tr` must not contain Turkish words** — the answer is Turkish, so that leaks.
   (`hint_tr_en` may be Turkish: there the answer is English.)
 
-**Status:** A1 (0A + units 1–6) and A2 units 1–4 fully swept (coursebook + web, incl. the
-listening re-check). A2-5 onward not yet. B1.1 not yet.
+**Status:** A1 (0A + units 1–6) and A2 units 1–5 fully swept (coursebook + web, incl. the
+listening re-check). A2-6 onward not yet. B1.1 not yet.
 
 ## Targeted practice drills
 

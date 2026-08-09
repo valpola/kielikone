@@ -1954,7 +1954,8 @@
         "unit-a2",
         "unit-a2-1b",
         "unit-a2-2b"
-      ]
+      ],
+      "hint_tr_en": "(the animal)"
     },
     {
       "id": "cand-a1-2b-0011",
@@ -14406,7 +14407,8 @@
         "noun",
         "unit-a2",
         "unit-a2-2b"
-      ]
+      ],
+      "hint_tr_en": "(the animal)"
     },
     {
       "id": "cand-a2-2b-0026",
@@ -15500,6 +15502,7 @@
         "unit-a2-3a",
         "unit-a2"
       ],
+      "hint_tr_en": "(e.g. an entry in a document)",
       "hint_en_tr": "(e.g. an entry in a document)"
     },
     {
@@ -17096,6 +17099,924 @@
         "unit-a2-4c",
         "unit-a2"
       ]
+    },
+    {
+      "id": "cand-a2-5-0001",
+      "turkish": "alan",
+      "english": "area",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0002",
+      "turkish": "buzul",
+      "english": "glacier",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0003",
+      "turkish": "d\u00fczl\u00fck",
+      "english": "flat land",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0004",
+      "turkish": "evcil",
+      "english": "domesticated",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-5a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0005",
+      "turkish": "g\u00f6k g\u00fcr\u00fclt\u00fcs\u00fc",
+      "english": "thunder",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0006",
+      "turkish": "g\u00f6ky\u00fcz\u00fc",
+      "english": "sky",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0007",
+      "turkish": "g\u00fcn \u0131\u015f\u0131\u011f\u0131",
+      "english": "daylight",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0008",
+      "turkish": "hava durumu",
+      "english": "weather forecast",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0009",
+      "turkish": "iklim",
+      "english": "climate",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0010",
+      "turkish": "korumak",
+      "english": "to protect",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-5a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0011",
+      "turkish": "kurak",
+      "english": "arid",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-5a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0012",
+      "turkish": "kurakl\u0131k",
+      "english": "drought",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0013",
+      "turkish": "kuru",
+      "english": "dry",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-5a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0014",
+      "turkish": "k\u00fcresel \u0131s\u0131nma",
+      "english": "global warming",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0015",
+      "turkish": "k\u0131\u015f uykusu",
+      "english": "hibernation",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0016",
+      "turkish": "ot",
+      "english": "grass",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0017",
+      "turkish": "sisli",
+      "english": "foggy",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-5a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0018",
+      "turkish": "vah\u015fi",
+      "english": "wild",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-5a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0019",
+      "turkish": "y\u0131ld\u0131r\u0131m",
+      "english": "thunderbolt",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0020",
+      "turkish": "\u00e7izgi",
+      "english": "line",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0021",
+      "turkish": "\u00e7\u00f6l",
+      "english": "desert",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0022",
+      "turkish": "\u0131slak",
+      "english": "wet",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-5a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0023",
+      "turkish": "\u015fart",
+      "english": "condition",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0024",
+      "turkish": "\u015fim\u015fek",
+      "english": "lightning",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5a",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0025",
+      "turkish": "anlay\u0131\u015fl\u0131",
+      "english": "understanding",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-5b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0026",
+      "turkish": "anlay\u0131\u015fs\u0131z",
+      "english": "inconsiderate",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-5b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0027",
+      "turkish": "ayn\u0131",
+      "english": "same",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-5b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0028",
+      "turkish": "benzer",
+      "english": "similar",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-5b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0029",
+      "turkish": "b\u00fcy\u00fclemek",
+      "english": "to enthral",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-5b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0030",
+      "turkish": "cimri",
+      "english": "stingy",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-5b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0031",
+      "turkish": "c\u00f6mert",
+      "english": "generous",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-5b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0032",
+      "turkish": "detayl\u0131",
+      "english": "detailed",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-5b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0033",
+      "turkish": "direkt / do\u011frudan",
+      "english": "direct",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-5b",
+        "unit-a2"
+      ],
+      "hint_en_tr": "(X / Y)"
+    },
+    {
+      "id": "cand-a2-5-0034",
+      "turkish": "h\u0131rsl\u0131",
+      "english": "ambitious",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-5b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0035",
+      "turkish": "ilgisini \u00e7ekmek",
+      "english": "to catch someone's attention",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-5b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0036",
+      "turkish": "karakter / ki\u015filik",
+      "english": "character",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5b",
+        "unit-a2"
+      ],
+      "hint_en_tr": "(X / Y)"
+    },
+    {
+      "id": "cand-a2-5-0037",
+      "turkish": "kararl\u0131",
+      "english": "determined",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-5b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0038",
+      "turkish": "karars\u0131z",
+      "english": "indecisive",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-5b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0039",
+      "turkish": "odaklanmak",
+      "english": "to focus on",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-5b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0040",
+      "turkish": "sevgi dolu",
+      "english": "adoring",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-5b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0041",
+      "turkish": "tasarruf yapmak",
+      "english": "to save money",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-5b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0042",
+      "turkish": "utanga\u00e7",
+      "english": "shy",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-5b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0043",
+      "turkish": "u\u00e7urtma u\u00e7urmak",
+      "english": "to fly a kite",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-5b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0044",
+      "turkish": "\u00f6\u011f\u00fct vermek",
+      "english": "to give advice",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-5b",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0045",
+      "turkish": "akrep",
+      "english": "Scorpio",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5c",
+        "unit-a2"
+      ],
+      "hint_tr_en": "(the star sign; the word also means scorpion)",
+      "hint_en_tr": "(star sign)"
+    },
+    {
+      "id": "cand-a2-5-0046",
+      "turkish": "aynen",
+      "english": "exactly",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a2-5c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0047",
+      "turkish": "ba\u015fak",
+      "english": "Virgo",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5c",
+        "unit-a2"
+      ],
+      "hint_tr_en": "(the star sign; the word also means ear of grain)",
+      "hint_en_tr": "(star sign)"
+    },
+    {
+      "id": "cand-a2-5-0048",
+      "turkish": "ba\u015farmak",
+      "english": "to achieve",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-5c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0049",
+      "turkish": "belki",
+      "english": "maybe",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a2-5c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0050",
+      "turkish": "bo\u011fa",
+      "english": "Taurus",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5c",
+        "unit-a2"
+      ],
+      "hint_tr_en": "(the star sign; the word also means bull)",
+      "hint_en_tr": "(star sign)"
+    },
+    {
+      "id": "cand-a2-5-0051",
+      "turkish": "bur\u00e7lar",
+      "english": "the signs of the zodiac",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0052",
+      "turkish": "can\u0131 s\u0131k\u0131lmak",
+      "english": "to be bored",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-5c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0053",
+      "turkish": "de\u011fi\u015fim",
+      "english": "change",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0054",
+      "turkish": "element",
+      "english": "element",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0055",
+      "turkish": "g\u00f6zya\u015f\u0131",
+      "english": "tear",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0056",
+      "turkish": "haz\u0131rlanmak",
+      "english": "to get ready",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-5c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0057",
+      "turkish": "herhalde",
+      "english": "presumably",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a2-5c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0058",
+      "turkish": "ili\u015fkili",
+      "english": "connected",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-5c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0059",
+      "turkish": "ikizler",
+      "english": "Gemini",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5c",
+        "unit-a2"
+      ],
+      "hint_tr_en": "(the star sign; the word also means twins)",
+      "hint_en_tr": "(star sign)"
+    },
+    {
+      "id": "cand-a2-5-0060",
+      "turkish": "kesin",
+      "english": "definitely",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a2-5c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0061",
+      "turkish": "kesinlikle",
+      "english": "absolutely",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a2-5c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0062",
+      "turkish": "kova",
+      "english": "Aquarius",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5c",
+        "unit-a2"
+      ],
+      "hint_tr_en": "(the star sign; the word also means bucket)",
+      "hint_en_tr": "(star sign)"
+    },
+    {
+      "id": "cand-a2-5-0063",
+      "turkish": "ko\u00e7",
+      "english": "Aries",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5c",
+        "unit-a2"
+      ],
+      "hint_tr_en": "(the star sign; the word also means ram)",
+      "hint_en_tr": "(star sign)"
+    },
+    {
+      "id": "cand-a2-5-0064",
+      "turkish": "k\u0131sa s\u00fcrmek",
+      "english": "to last a short time",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-5c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0065",
+      "turkish": "muhtemelen",
+      "english": "probably",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a2-5c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0066",
+      "turkish": "mutlaka",
+      "english": "without fail",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a2-5c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0067",
+      "turkish": "o\u011flak",
+      "english": "Capricorn",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5c",
+        "unit-a2"
+      ],
+      "hint_tr_en": "(the star sign; the word also means kid goat)",
+      "hint_en_tr": "(star sign)"
+    },
+    {
+      "id": "cand-a2-5-0068",
+      "turkish": "sinirlendirmek",
+      "english": "to annoy",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-5c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0069",
+      "turkish": "temel",
+      "english": "basis",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0070",
+      "turkish": "terazi",
+      "english": "Libra",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5c",
+        "unit-a2"
+      ],
+      "hint_tr_en": "(the star sign; the word also means scales)",
+      "hint_en_tr": "(star sign)"
+    },
+    {
+      "id": "cand-a2-5-0071",
+      "turkish": "uzun s\u00fcrmek",
+      "english": "to last long",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-5c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0072",
+      "turkish": "yak\u0131nda",
+      "english": "soon",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a2-5c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0073",
+      "turkish": "yay",
+      "english": "Sagittarius",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5c",
+        "unit-a2"
+      ],
+      "hint_tr_en": "(the star sign; the word also means bow)",
+      "hint_en_tr": "(star sign)"
+    },
+    {
+      "id": "cand-a2-5-0074",
+      "turkish": "yenge\u00e7",
+      "english": "Cancer",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5c",
+        "unit-a2"
+      ],
+      "hint_tr_en": "(the star sign; the word also means crab)",
+      "hint_en_tr": "(star sign)"
+    },
+    {
+      "id": "cand-a2-5-0075",
+      "turkish": "yine",
+      "english": "again",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a2-5c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0076",
+      "turkish": "y\u00fckselmek",
+      "english": "to rise",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-5c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0077",
+      "turkish": "\u00e7oktan",
+      "english": "already",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a2-5c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0078",
+      "turkish": "\u015fahit olmak",
+      "english": "to witness",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-5c",
+        "unit-a2"
+      ]
+    },
+    {
+      "id": "cand-a2-5-0079",
+      "turkish": "aslan",
+      "english": "Leo",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5c",
+        "unit-a2"
+      ],
+      "hint_tr_en": "(the star sign)",
+      "hint_en_tr": "(star sign)"
+    },
+    {
+      "id": "cand-a2-5-0080",
+      "turkish": "bal\u0131k",
+      "english": "Pisces",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5c",
+        "unit-a2"
+      ],
+      "hint_tr_en": "(the star sign)",
+      "hint_en_tr": "(star sign)"
+    },
+    {
+      "id": "cand-a2-5-0081",
+      "turkish": "madde",
+      "english": "substance",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5c",
+        "unit-a2"
+      ],
+      "hint_tr_en": "(a material)"
     },
     {
       "id": "cand-base-0001",
@@ -21880,6 +22801,16 @@
       "id": "pronunciation",
       "label": "Pronunciation not obvious",
       "group": "theme"
+    },
+    {
+      "id": "unit-a2-5b",
+      "label": "Unit A2-5B",
+      "group": "unit"
+    },
+    {
+      "id": "unit-a2-5c",
+      "label": "Unit A2-5C",
+      "group": "unit"
     }
   ]
 }

@@ -280,6 +280,16 @@
       "id": "pronunciation",
       "label": "Pronunciation not obvious",
       "group": "theme"
+    },
+    {
+      "id": "unit-a2-5b",
+      "label": "Unit A2-5B",
+      "group": "unit"
+    },
+    {
+      "id": "unit-a2-5c",
+      "label": "Unit A2-5C",
+      "group": "unit"
     }
   ]
 }

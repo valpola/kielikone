@@ -1,0 +1,1167 @@
+{
+  "source_file": "A2 Unit 5 (5A/5B/5C): coursebook Kelime Listesi + web vocabulary cards + reading SÖZLÜKs",
+  "created_at": "2026-08-07T00:00:00Z",
+  "items": [
+    {
+      "id": "cand-a2-5-0001",
+      "turkish": "alan",
+      "english": "area",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5a",
+        "unit-a2"
+      ],
+      "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0002",
+      "turkish": "buzul",
+      "english": "glacier",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5a",
+        "unit-a2"
+      ],
+      "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "Coursebook says glacier, the web card \"glacier / icecap\"; kept the single word, since a slash gloss would require typing both for TR->EN.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0003",
+      "turkish": "düzlük",
+      "english": "flat land",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5a",
+        "unit-a2"
+      ],
+      "source": "A2-5A reading exercise SÖZLÜK (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0004",
+      "turkish": "evcil",
+      "english": "domesticated",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-5a",
+        "unit-a2"
+      ],
+      "source": "A2-5A reading exercise SÖZLÜK (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0005",
+      "turkish": "gök gürültüsü",
+      "english": "thunder",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5a",
+        "unit-a2"
+      ],
+      "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "The sound of thunder. Paired against yıldırım (the bolt) and şimşek (the flash), which the sources blur.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0006",
+      "turkish": "gökyüzü",
+      "english": "sky",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5a",
+        "unit-a2"
+      ],
+      "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0007",
+      "turkish": "gün ışığı",
+      "english": "daylight",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5a",
+        "unit-a2"
+      ],
+      "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0008",
+      "turkish": "hava durumu",
+      "english": "weather forecast",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5a",
+        "unit-a2"
+      ],
+      "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "Glossed \"weather\" by both sources, but hava alone already means weather and is in the deck; durumu makes it the forecast/report, so this avoids two cards sharing one prompt.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0009",
+      "turkish": "iklim",
+      "english": "climate",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5a",
+        "unit-a2"
+      ],
+      "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0010",
+      "turkish": "korumak",
+      "english": "to protect",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-5a",
+        "unit-a2"
+      ],
+      "source": "A2-5A reading exercise SÖZLÜK (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0011",
+      "turkish": "kurak",
+      "english": "arid",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-5a",
+        "unit-a2"
+      ],
+      "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "Both sources say \"dry\", which would collide with kuru in the same list. kurak is dryness of land or climate, kuru of an object, so arid separates them.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0012",
+      "turkish": "kuraklık",
+      "english": "drought",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5a",
+        "unit-a2"
+      ],
+      "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0013",
+      "turkish": "kuru",
+      "english": "dry",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-5a",
+        "unit-a2"
+      ],
+      "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "Absent as a standalone entry: the deck had only kuru soğan, so the word-inside-a-phrase test hid it.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0014",
+      "turkish": "küresel ısınma",
+      "english": "global warming",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5a",
+        "unit-a2"
+      ],
+      "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0015",
+      "turkish": "kış uykusu",
+      "english": "hibernation",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5a",
+        "unit-a2"
+      ],
+      "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "Sources gloss it literally as \"winter sleep\"; hibernation is the English word for it and keeps the prompt answerable.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0016",
+      "turkish": "ot",
+      "english": "grass",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5a",
+        "unit-a2"
+      ],
+      "source": "A2-5A reading exercise SÖZLÜK (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0017",
+      "turkish": "sisli",
+      "english": "foggy",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-5a",
+        "unit-a2"
+      ],
+      "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0018",
+      "turkish": "vahşi",
+      "english": "wild",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-5a",
+        "unit-a2"
+      ],
+      "source": "A2-5A reading exercise SÖZLÜK (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0019",
+      "turkish": "yıldırım",
+      "english": "thunderbolt",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5a",
+        "unit-a2"
+      ],
+      "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "The sources disagree — coursebook \"thunder\", web card \"lightning\" — and both would collide with şimşek or gök gürültüsü. yıldırım is the strike itself, so thunderbolt keeps all three distinct.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0020",
+      "turkish": "çizgi",
+      "english": "line",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5a",
+        "unit-a2"
+      ],
+      "source": "A2-5A reading exercise SÖZLÜK (Turkishle web)",
+      "notes": "SÖZLÜK gives \"stripe/line\"; a slash gloss would demand both words for TR->EN, so the commoner sense stands alone.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0021",
+      "turkish": "çöl",
+      "english": "desert",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5a",
+        "unit-a2"
+      ],
+      "source": "A2-5A reading exercise SÖZLÜK (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0022",
+      "turkish": "ıslak",
+      "english": "wet",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-5a",
+        "unit-a2"
+      ],
+      "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "Absent as a standalone entry: the deck had only ıslak mendil.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0023",
+      "turkish": "şart",
+      "english": "condition",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5a",
+        "unit-a2"
+      ],
+      "source": "A2-5A reading exercise SÖZLÜK (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0024",
+      "turkish": "şimşek",
+      "english": "lightning",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5a",
+        "unit-a2"
+      ],
+      "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0025",
+      "turkish": "anlayışlı",
+      "english": "understanding",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-5b",
+        "unit-a2"
+      ],
+      "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0026",
+      "turkish": "anlayışsız",
+      "english": "inconsiderate",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-5b",
+        "unit-a2"
+      ],
+      "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "The web card misspells this \"inconsidirate\"; coursebook spelling used.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0027",
+      "turkish": "aynı",
+      "english": "same",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-5b",
+        "unit-a2"
+      ],
+      "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0028",
+      "turkish": "benzer",
+      "english": "similar",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-5b",
+        "unit-a2"
+      ],
+      "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0029",
+      "turkish": "büyülemek",
+      "english": "to enthral",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-5b",
+        "unit-a2"
+      ],
+      "source": "A2-5B reading exercise SÖZLÜK (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0030",
+      "turkish": "cimri",
+      "english": "stingy",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-5b",
+        "unit-a2"
+      ],
+      "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0031",
+      "turkish": "cömert",
+      "english": "generous",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-5b",
+        "unit-a2"
+      ],
+      "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0032",
+      "turkish": "detaylı",
+      "english": "detailed",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-5b",
+        "unit-a2"
+      ],
+      "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "Web card says \"in detail\", which is the adverb; detaylı is an adjective.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0033",
+      "turkish": "direkt / doğrudan",
+      "english": "direct",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-5b",
+        "unit-a2"
+      ],
+      "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "A list row offering two forms, so both are kept.",
+      "status": "approved",
+      "hint_en_tr": "(X / Y)"
+    },
+    {
+      "id": "cand-a2-5-0034",
+      "turkish": "hırslı",
+      "english": "ambitious",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-5b",
+        "unit-a2"
+      ],
+      "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0035",
+      "turkish": "ilgisini çekmek",
+      "english": "to catch someone's attention",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-5b",
+        "unit-a2"
+      ],
+      "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "The coursebook lemma. The web card gives the inflected sentence \"İlgimi çeker.\" instead, which is an example rather than a headword.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0036",
+      "turkish": "karakter / kişilik",
+      "english": "character",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5b",
+        "unit-a2"
+      ],
+      "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "A list row offering two forms, so both are kept.",
+      "status": "approved",
+      "hint_en_tr": "(X / Y)"
+    },
+    {
+      "id": "cand-a2-5-0037",
+      "turkish": "kararlı",
+      "english": "determined",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-5b",
+        "unit-a2"
+      ],
+      "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0038",
+      "turkish": "kararsız",
+      "english": "indecisive",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-5b",
+        "unit-a2"
+      ],
+      "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "Web card says \"irresolute\"; coursebook wording is the commoner English.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0039",
+      "turkish": "odaklanmak",
+      "english": "to focus on",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-5b",
+        "unit-a2"
+      ],
+      "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "Coursebook \"to focus on\", web \"to focus\". Kept the object frame: the verb is intransitive and takes a dative, so the English preposition mirrors it.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0040",
+      "turkish": "sevgi dolu",
+      "english": "adoring",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-5b",
+        "unit-a2"
+      ],
+      "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0041",
+      "turkish": "tasarruf yapmak",
+      "english": "to save money",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-5b",
+        "unit-a2"
+      ],
+      "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "Both sources write \"save money\" without \"to\"; normalised to the deck's infinitive convention.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0042",
+      "turkish": "utangaç",
+      "english": "shy",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-5b",
+        "unit-a2"
+      ],
+      "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0043",
+      "turkish": "uçurtma uçurmak",
+      "english": "to fly a kite",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-5b",
+        "unit-a2"
+      ],
+      "source": "A2-5B reading exercise SÖZLÜK (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0044",
+      "turkish": "öğüt vermek",
+      "english": "to give advice",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-5b",
+        "unit-a2"
+      ],
+      "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0045",
+      "turkish": "akrep",
+      "english": "Scorpio",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5c",
+        "unit-a2"
+      ],
+      "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "",
+      "status": "approved",
+      "hint_tr_en": "(the star sign; the word also means scorpion)",
+      "hint_en_tr": "(star sign)"
+    },
+    {
+      "id": "cand-a2-5-0046",
+      "turkish": "aynen",
+      "english": "exactly",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a2-5c",
+        "unit-a2"
+      ],
+      "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0047",
+      "turkish": "başak",
+      "english": "Virgo",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5c",
+        "unit-a2"
+      ],
+      "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "",
+      "status": "approved",
+      "hint_tr_en": "(the star sign; the word also means ear of grain)",
+      "hint_en_tr": "(star sign)"
+    },
+    {
+      "id": "cand-a2-5-0048",
+      "turkish": "başarmak",
+      "english": "to achieve",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-5c",
+        "unit-a2"
+      ],
+      "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0049",
+      "turkish": "belki",
+      "english": "maybe",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a2-5c",
+        "unit-a2"
+      ],
+      "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0050",
+      "turkish": "boğa",
+      "english": "Taurus",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5c",
+        "unit-a2"
+      ],
+      "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "",
+      "status": "approved",
+      "hint_tr_en": "(the star sign; the word also means bull)",
+      "hint_en_tr": "(star sign)"
+    },
+    {
+      "id": "cand-a2-5-0051",
+      "turkish": "burçlar",
+      "english": "the signs of the zodiac",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5c",
+        "unit-a2"
+      ],
+      "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0052",
+      "turkish": "canı sıkılmak",
+      "english": "to be bored",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-5c",
+        "unit-a2"
+      ],
+      "source": "A2-5C reading exercise SÖZLÜK (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0053",
+      "turkish": "değişim",
+      "english": "change",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5c",
+        "unit-a2"
+      ],
+      "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0054",
+      "turkish": "element",
+      "english": "element",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5c",
+        "unit-a2"
+      ],
+      "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0055",
+      "turkish": "gözyaşı",
+      "english": "tear",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5c",
+        "unit-a2"
+      ],
+      "source": "A2-5C reading exercise SÖZLÜK (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0056",
+      "turkish": "hazırlanmak",
+      "english": "to get ready",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-5c",
+        "unit-a2"
+      ],
+      "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0057",
+      "turkish": "herhalde",
+      "english": "presumably",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a2-5c",
+        "unit-a2"
+      ],
+      "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "Both herhalde and muhtemelen are glossed \"probably\" by the sources, which would give two cards one prompt; presumably keeps this one answerable.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0058",
+      "turkish": "ilişkili",
+      "english": "connected",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-5c",
+        "unit-a2"
+      ],
+      "source": "A2-5C reading exercise SÖZLÜK (Turkishle web)",
+      "notes": "Glossed \"related\" by the SÖZLÜK, which collides with the deck's ilgili = related. The two are close but not the same: ilgili is about relevance or concern (ilgili kişi = the person concerned), ilişkili about a connection between things. \"connected\" keeps both prompts answerable.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0059",
+      "turkish": "ikizler",
+      "english": "Gemini",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5c",
+        "unit-a2"
+      ],
+      "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "",
+      "status": "approved",
+      "hint_tr_en": "(the star sign; the word also means twins)",
+      "hint_en_tr": "(star sign)"
+    },
+    {
+      "id": "cand-a2-5-0060",
+      "turkish": "kesin",
+      "english": "definitely",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a2-5c",
+        "unit-a2"
+      ],
+      "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0061",
+      "turkish": "kesinlikle",
+      "english": "absolutely",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a2-5c",
+        "unit-a2"
+      ],
+      "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0062",
+      "turkish": "kova",
+      "english": "Aquarius",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5c",
+        "unit-a2"
+      ],
+      "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "",
+      "status": "approved",
+      "hint_tr_en": "(the star sign; the word also means bucket)",
+      "hint_en_tr": "(star sign)"
+    },
+    {
+      "id": "cand-a2-5-0063",
+      "turkish": "koç",
+      "english": "Aries",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5c",
+        "unit-a2"
+      ],
+      "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "",
+      "status": "approved",
+      "hint_tr_en": "(the star sign; the word also means ram)",
+      "hint_en_tr": "(star sign)"
+    },
+    {
+      "id": "cand-a2-5-0064",
+      "turkish": "kısa sürmek",
+      "english": "to last a short time",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-5c",
+        "unit-a2"
+      ],
+      "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0065",
+      "turkish": "muhtemelen",
+      "english": "probably",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a2-5c",
+        "unit-a2"
+      ],
+      "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0066",
+      "turkish": "mutlaka",
+      "english": "without fail",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a2-5c",
+        "unit-a2"
+      ],
+      "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "Sources give \"for sure, absolutely\", which overlaps kesinlikle; without fail is the distinct sense and keeps the prompts separate.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0067",
+      "turkish": "oğlak",
+      "english": "Capricorn",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5c",
+        "unit-a2"
+      ],
+      "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "",
+      "status": "approved",
+      "hint_tr_en": "(the star sign; the word also means kid goat)",
+      "hint_en_tr": "(star sign)"
+    },
+    {
+      "id": "cand-a2-5-0068",
+      "turkish": "sinirlendirmek",
+      "english": "to annoy",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-5c",
+        "unit-a2"
+      ],
+      "source": "A2-5C reading exercise SÖZLÜK (Turkishle web)",
+      "notes": "Causative of sinirlenmek, so transitive — you annoy someone.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0069",
+      "turkish": "temel",
+      "english": "basis",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5c",
+        "unit-a2"
+      ],
+      "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0070",
+      "turkish": "terazi",
+      "english": "Libra",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5c",
+        "unit-a2"
+      ],
+      "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "",
+      "status": "approved",
+      "hint_tr_en": "(the star sign; the word also means scales)",
+      "hint_en_tr": "(star sign)"
+    },
+    {
+      "id": "cand-a2-5-0071",
+      "turkish": "uzun sürmek",
+      "english": "to last long",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-5c",
+        "unit-a2"
+      ],
+      "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0072",
+      "turkish": "yakında",
+      "english": "soon",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a2-5c",
+        "unit-a2"
+      ],
+      "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0073",
+      "turkish": "yay",
+      "english": "Sagittarius",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5c",
+        "unit-a2"
+      ],
+      "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "",
+      "status": "approved",
+      "hint_tr_en": "(the star sign; the word also means bow)",
+      "hint_en_tr": "(star sign)"
+    },
+    {
+      "id": "cand-a2-5-0074",
+      "turkish": "yengeç",
+      "english": "Cancer",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5c",
+        "unit-a2"
+      ],
+      "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "",
+      "status": "approved",
+      "hint_tr_en": "(the star sign; the word also means crab)",
+      "hint_en_tr": "(star sign)"
+    },
+    {
+      "id": "cand-a2-5-0075",
+      "turkish": "yine",
+      "english": "again",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a2-5c",
+        "unit-a2"
+      ],
+      "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0076",
+      "turkish": "yükselmek",
+      "english": "to rise",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-5c",
+        "unit-a2"
+      ],
+      "source": "A2-5C reading exercise SÖZLÜK (Turkishle web)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0077",
+      "turkish": "çoktan",
+      "english": "already",
+      "priority": 3,
+      "tags": [
+        "adverb",
+        "unit-a2-5c",
+        "unit-a2"
+      ],
+      "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0078",
+      "turkish": "şahit olmak",
+      "english": "to witness",
+      "priority": 3,
+      "tags": [
+        "verb",
+        "unit-a2-5c",
+        "unit-a2"
+      ],
+      "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "",
+      "status": "approved"
+    },
+    {
+      "id": "cand-a2-5-0079",
+      "turkish": "aslan",
+      "english": "Leo",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5c",
+        "unit-a2"
+      ],
+      "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "Same spelling as the deck's aslan = lion but a different sense, so it is its own card rather than a second gloss. The form-based presence test hid it: the word was in the deck, the meaning was not.",
+      "status": "approved",
+      "hint_tr_en": "(the star sign)",
+      "hint_en_tr": "(star sign)"
+    },
+    {
+      "id": "cand-a2-5-0080",
+      "turkish": "balık",
+      "english": "Pisces",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5c",
+        "unit-a2"
+      ],
+      "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "Same spelling as the deck's balık = fish but a different sense. Hidden by the same form-based test as aslan.",
+      "status": "approved",
+      "hint_tr_en": "(the star sign)",
+      "hint_en_tr": "(star sign)"
+    },
+    {
+      "id": "cand-a2-5-0081",
+      "turkish": "madde",
+      "english": "substance",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-5c",
+        "unit-a2"
+      ],
+      "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
+      "notes": "The deck has madde = item (an entry in a document); A2-5C teaches the material sense. CLAUDE.md already anticipated this split, and the form-based test hid it.",
+      "status": "approved",
+      "hint_tr_en": "(a material)"
+    }
+  ]
+}
