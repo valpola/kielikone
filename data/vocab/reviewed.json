@@ -21716,9 +21716,9 @@
         "pronunciation"
       ],
       "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Tagged pronunciation because the word defies its spelling: the \u011f lengthens rather than sounding. Confirmed against TDK where it lists a telaffuz.",
+      "notes": "Tagged pronunciation because the word defies its spelling: the \u011f lengthens rather than sounding. Confirmed against TDK where it lists a telaffuz. Corrected from \u025fyn \u026f\u0283\u026f\u02c8\u026f\u02d0 to \u025fyn \u026f\u0283\u026f\u02d0\u02c8\u026f on the learner's ear: the \u011f lengthens the preceding \u0131; same class as o\u011flak and do\u011frudan. The first transcription put the length on the following vowel, contradicting the rule applied to o\u011flak and do\u011frudan in the same batch.",
       "status": "approved",
-      "pron_tr": "\u025fyn \u026f\u0283\u026f\u02c8\u026f\u02d0"
+      "pron_tr": "\u025fyn \u026f\u0283\u026f\u02d0\u02c8\u026f"
     },
     {
       "id": "cand-a2-5-0008",
@@ -22375,11 +22375,11 @@
         "pronunciation"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Tagged pronunciation because the word defies its spelling: the \u011f is not a consonant here \u2014 it lengthens the vowel around it. Confirmed against TDK where it lists a telaffuz.",
+      "notes": "Tagged pronunciation because the word defies its spelling: the \u011f is not a consonant here \u2014 it lengthens the vowel around it. Confirmed against TDK where it lists a telaffuz. Corrected from bo\u02c8\u0251\u02d0 to bo\u02d0\u02c8\u0251 on the learner's ear: the \u011f lengthens the preceding o and is not itself pronounced. The first transcription put the length on the following vowel, contradicting the rule applied to o\u011flak and do\u011frudan in the same batch.",
       "status": "approved",
       "hint_tr_en": "(the star sign; the word also means bull)",
       "hint_en_tr": "(star sign)",
-      "pron_tr": "bo\u02c8\u0251\u02d0"
+      "pron_tr": "bo\u02d0\u02c8\u0251"
     },
     {
       "id": "cand-a2-5-0051",

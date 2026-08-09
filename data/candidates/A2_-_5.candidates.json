@@ -105,9 +105,9 @@
         "pronunciation"
       ],
       "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Tagged pronunciation because the word defies its spelling: the ğ lengthens rather than sounding. Confirmed against TDK where it lists a telaffuz.",
+      "notes": "Tagged pronunciation because the word defies its spelling: the ğ lengthens rather than sounding. Confirmed against TDK where it lists a telaffuz. Corrected from ɟyn ɯʃɯˈɯː to ɟyn ɯʃɯːˈɯ on the learner's ear: the ğ lengthens the preceding ı; same class as oğlak and doğrudan. The first transcription put the length on the following vowel, contradicting the rule applied to oğlak and doğrudan in the same batch.",
       "status": "approved",
-      "pron_tr": "ɟyn ɯʃɯˈɯː"
+      "pron_tr": "ɟyn ɯʃɯːˈɯ"
     },
     {
       "id": "cand-a2-5-0008",
@@ -764,11 +764,11 @@
         "pronunciation"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Tagged pronunciation because the word defies its spelling: the ğ is not a consonant here — it lengthens the vowel around it. Confirmed against TDK where it lists a telaffuz.",
+      "notes": "Tagged pronunciation because the word defies its spelling: the ğ is not a consonant here — it lengthens the vowel around it. Confirmed against TDK where it lists a telaffuz. Corrected from boˈɑː to boːˈɑ on the learner's ear: the ğ lengthens the preceding o and is not itself pronounced. The first transcription put the length on the following vowel, contradicting the rule applied to oğlak and doğrudan in the same batch.",
       "status": "approved",
       "hint_tr_en": "(the star sign; the word also means bull)",
       "hint_en_tr": "(star sign)",
-      "pron_tr": "boˈɑː"
+      "pron_tr": "boːˈɑ"
     },
     {
       "id": "cand-a2-5-0051",
