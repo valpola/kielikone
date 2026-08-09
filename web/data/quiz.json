@@ -594,7 +594,7 @@
         "unit-a1",
         "expression"
       ],
-      "hint_en_tr": "(reply to Bless you!)"
+      "hint_en_tr": "(X / Y \u2014 reply to Bless you!)"
     },
     {
       "id": "cand-a1-1a-0024",
@@ -7125,8 +7125,7 @@
       "tags": [
         "unit-a1-4b",
         "unit-a1",
-        "country",
-        "similar"
+        "country"
       ]
     },
     {
@@ -13235,7 +13234,8 @@
         "verb",
         "unit-a2",
         "unit-a2-1c"
-      ]
+      ],
+      "hint_en_tr": "(append or attach, not sum)"
     },
     {
       "id": "cand-a2-1c-0010",
@@ -18887,13 +18887,26 @@
     {
       "id": "cand-base-0070",
       "turkish": "\u00f6zel",
-      "english": "special / private",
+      "english": "special",
       "priority": 3,
       "tags": [
         "adjective",
         "unit-a2-4b",
         "unit-a2"
-      ]
+      ],
+      "hint_tr_en": "(as in a special occasion)"
+    },
+    {
+      "id": "cand-base-0070b",
+      "turkish": "\u00f6zel",
+      "english": "private",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-4b",
+        "unit-a2"
+      ],
+      "hint_tr_en": "(as in private property, not state-owned)"
     },
     {
       "id": "cand-base-0071",

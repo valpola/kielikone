@@ -128,8 +128,9 @@
         "unit-a2-1c"
       ],
       "source": "A2_-_1C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Added a sense tip on the learner's note (#72): \"to add\" also covers arithmetic, which is a different Turkish verb. The tip names the sense in English only, so it cannot leak the answer. That other verb is not yet in the deck.",
+      "status": "approved",
+      "hint_en_tr": "(append or attach, not sum)"
     },
     {
       "id": "cand-a2-1c-0010",

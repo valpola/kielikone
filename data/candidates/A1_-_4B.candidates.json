@@ -1888,11 +1888,10 @@
       "tags": [
         "unit-a1-4b",
         "unit-a1",
-        "country",
-        "similar"
+        "country"
       ],
       "source": "A1_-_4B.pdf",
-      "notes": "",
+      "notes": "Dropped the similar tag on the learner's note (#74): Uzbekistan → Özbekistan changes the first vowel, which the English does not signal.",
       "status": "approved"
     },
     {

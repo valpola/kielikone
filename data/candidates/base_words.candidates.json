@@ -978,7 +978,7 @@
     {
       "id": "cand-base-0070",
       "turkish": "özel",
-      "english": "special / private",
+      "english": "special",
       "priority": 3,
       "tags": [
         "adjective",
@@ -986,8 +986,9 @@
         "unit-a2"
       ],
       "source": "base word of “özel hayat” (A2-4B, Turkishle)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Split on the learner's note (#75): \"special / private\" packed two senses into one gloss, and a slash gloss is for synonyms, not distinct meanings. This entry keeps \"special\" and its answer history; \"private\" became a separate card. Both carry a TR→EN tip, since the Turkish is now a homograph across two entries.",
+      "status": "approved",
+      "hint_tr_en": "(as in a special occasion)"
     },
     {
       "id": "cand-base-0071",
@@ -1101,6 +1102,21 @@
       "source": "base word of “eh işte” (A1-1A, Turkishle)",
       "notes": "",
       "status": "approved"
+    },
+    {
+      "id": "cand-base-0070b",
+      "turkish": "özel",
+      "english": "private",
+      "priority": 3,
+      "tags": [
+        "adjective",
+        "unit-a2-4b",
+        "unit-a2"
+      ],
+      "source": "base word of “özel hayat” (A2-4B, Turkishle)",
+      "notes": "Second sense of a card that had packed \"special / private\" into one gloss (learner note #75). Split off so each sense can be learned and scored on its own; the \"special\" sense kept the original id and its history.",
+      "status": "approved",
+      "hint_tr_en": "(as in private property, not state-owned)"
     }
   ]
 }
