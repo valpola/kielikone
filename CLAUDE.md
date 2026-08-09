@@ -133,15 +133,24 @@ over a Turkish spelling in EN→TR.
 - **Palatalised `k`/`g`** before front vowels — `[c]`/`[ɟ]`, not `[k]`/`[ɡ]`: `kedi` → `ceˈdi`,
   `rüzgâr` → `ɾyzˈɟɑɾ`.
 - **Stress**, where it is not final: `birçok` → `ˈbiɾtʃok`.
-- **The two `e` qualities** (the learner's observation, and it matches the standard rule): a
-  closed syllable gives the open `[æ]`, an open syllable the close `[e]` — `ben` → `bæn`,
-  `ders` → `dæɾs` against `kedi` → `ceˈdi`. `merkezî` has both, `mæɾceˈziː`.
+- **The two `e` qualities.** The open `[æ]` is conditioned by a **following sonorant** — `ders`
+  is `dæɾs`, `benzer` is `benˈzæɾ` with `[æ]` only before the `r`. It is *not* "any closed
+  syllable": before an obstruent the vowel stays close-mid, so `direkt`, `akrep`, `şimşek` and
+  `evcil` all take `[e]`. Getting this rule wrong produced eleven bad transcriptions in one
+  batch, including `bæn` for `ben`, which Wiktionary gives as `/ˈben/`.
 - Also **`[l]` vs `[ɫ]`**, clear next to front vowels and dark next to back ones.
 
 **Coverage:** every A2-5 entry carries `pron_tr`; earlier units have it only on a handful of
 worked examples. The **`pronunciation` tag is not on everything** — it marks the words that defy
 their spelling (irregular stress, phonemic length, a `ğ` that lengthens rather than sounds), so
 the tag stays a useful filter rather than a synonym for "has a transcription".
+
+**Verify every transcription against a source before it goes in** — `scripts/check_pron.py`
+looks each word up on en.wiktionary (Turkish section) and tr.wiktionary and prints their IPA
+beside the deck's. Two hand-written batches were checked this way and most of both had to be
+withdrawn, because rules that look safe over-generate: 85 transcriptions came down to the 16 a
+source actually corroborated. Note the sites disagree with each other (`element` is `/eleˈmænt/`
+on en, `/e.ɫe.ment/` on tr), so a single hit is corroboration, not proof.
 
 **Leave the field empty rather than guess.** A wrong transcription teaches something false with
 the same confidence as a right one, so an absent `pron_tr` is strictly better than an inferred

@@ -28,9 +28,8 @@
         "unit-a2"
       ],
       "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Coursebook says glacier, the web card \"glacier / icecap\"; kept the single word, since a slash gloss would require typing both for TR->EN. Pronunciation transcribed by hand.",
-      "status": "approved",
-      "pron_tr": "buˈzuɫ"
+      "notes": "Coursebook says glacier, the web card \"glacier / icecap\"; kept the single word, since a slash gloss would require typing both for TR->EN. Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0003",
@@ -58,9 +57,8 @@
         "unit-a2"
       ],
       "source": "A2-5A reading exercise SÖZLÜK (Turkishle web)",
-      "notes": "Pronunciation transcribed by hand.",
-      "status": "approved",
-      "pron_tr": "ævˈdʒil"
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0005",
@@ -73,9 +71,8 @@
         "unit-a2"
       ],
       "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "The sound of thunder. Paired against yıldırım (the bolt) and şimşek (the flash), which the sources blur. Pronunciation transcribed by hand.",
-      "status": "approved",
-      "pron_tr": "ɟøc ɟyɾyltyˈsy"
+      "notes": "The sound of thunder. Paired against yıldırım (the bolt) and şimşek (the flash), which the sources blur. Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0006",
@@ -85,13 +82,11 @@
       "tags": [
         "noun",
         "unit-a2-5a",
-        "unit-a2",
-        "pronunciation"
+        "unit-a2"
       ],
       "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Tagged pronunciation because the word defies its spelling: stressed on the first syllable. Confirmed against TDK where it lists a telaffuz.",
-      "status": "approved",
-      "pron_tr": "ˈɟøcjyzy"
+      "notes": "Tagged pronunciation because the word defies its spelling: stressed on the first syllable. Confirmed against TDK where it lists a telaffuz. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0007",
@@ -118,9 +113,8 @@
         "unit-a2"
       ],
       "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Glossed \"weather\" by both sources, but hava alone already means weather and is in the deck; durumu makes it the forecast/report, so this avoids two cards sharing one prompt. Pronunciation transcribed by hand.",
-      "status": "approved",
-      "pron_tr": "hɑˈvɑ duɾuˈmu"
+      "notes": "Glossed \"weather\" by both sources, but hava alone already means weather and is in the deck; durumu makes it the forecast/report, so this avoids two cards sharing one prompt. Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0009",
@@ -133,9 +127,8 @@
         "unit-a2"
       ],
       "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand.",
-      "status": "approved",
-      "pron_tr": "icˈlim"
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0010",
@@ -148,9 +141,8 @@
         "unit-a2"
       ],
       "source": "A2-5A reading exercise SÖZLÜK (Turkishle web)",
-      "notes": "Pronunciation transcribed by hand.",
-      "status": "approved",
-      "pron_tr": "koɾuˈmɑk"
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0011",
@@ -163,9 +155,8 @@
         "unit-a2"
       ],
       "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Both sources say \"dry\", which would collide with kuru in the same list. kurak is dryness of land or climate, kuru of an object, so arid separates them. Pronunciation transcribed by hand.",
-      "status": "approved",
-      "pron_tr": "kuˈɾɑk"
+      "notes": "Both sources say \"dry\", which would collide with kuru in the same list. kurak is dryness of land or climate, kuru of an object, so arid separates them. Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0012",
@@ -178,9 +169,8 @@
         "unit-a2"
       ],
       "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand.",
-      "status": "approved",
-      "pron_tr": "kuɾɑkˈɫɯk"
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0013",
@@ -208,9 +198,8 @@
         "unit-a2"
       ],
       "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand.",
-      "status": "approved",
-      "pron_tr": "cyɾeˈsæl ɯsɯnˈmɑ"
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0015",
@@ -223,9 +212,8 @@
         "unit-a2"
       ],
       "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Sources gloss it literally as \"winter sleep\"; hibernation is the English word for it and keeps the prompt answerable. Pronunciation transcribed by hand.",
-      "status": "approved",
-      "pron_tr": "kɯʃ ujkuˈsu"
+      "notes": "Sources gloss it literally as \"winter sleep\"; hibernation is the English word for it and keeps the prompt answerable. Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0016",
@@ -253,9 +241,8 @@
         "unit-a2"
       ],
       "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand.",
-      "status": "approved",
-      "pron_tr": "sisˈli"
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0018",
@@ -265,13 +252,11 @@
       "tags": [
         "adjective",
         "unit-a2-5a",
-        "unit-a2",
-        "pronunciation"
+        "unit-a2"
       ],
       "source": "A2-5A reading exercise SÖZLÜK (Turkishle web)",
-      "notes": "Tagged pronunciation because the word defies its spelling: a long final vowel. Confirmed against TDK where it lists a telaffuz.",
-      "status": "approved",
-      "pron_tr": "vɑhˈʃiː"
+      "notes": "Tagged pronunciation because the word defies its spelling: a long final vowel. Confirmed against TDK where it lists a telaffuz. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0019",
@@ -281,13 +266,11 @@
       "tags": [
         "noun",
         "unit-a2-5a",
-        "unit-a2",
-        "pronunciation"
+        "unit-a2"
       ],
       "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "The sources disagree — coursebook \"thunder\", web card \"lightning\" — and both would collide with şimşek or gök gürültüsü. yıldırım is the strike itself, so thunderbolt keeps all three distinct. Tagged pronunciation because the word defies its spelling: stressed on the first syllable. Confirmed against TDK where it lists a telaffuz.",
-      "status": "approved",
-      "pron_tr": "ˈjɯɫdɯɾɯm"
+      "notes": "The sources disagree — coursebook \"thunder\", web card \"lightning\" — and both would collide with şimşek or gök gürültüsü. yıldırım is the strike itself, so thunderbolt keeps all three distinct. Tagged pronunciation because the word defies its spelling: stressed on the first syllable. Confirmed against TDK where it lists a telaffuz. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0020",
@@ -300,9 +283,8 @@
         "unit-a2"
       ],
       "source": "A2-5A reading exercise SÖZLÜK (Turkishle web)",
-      "notes": "SÖZLÜK gives \"stripe/line\"; a slash gloss would demand both words for TR->EN, so the commoner sense stands alone. Pronunciation transcribed by hand.",
-      "status": "approved",
-      "pron_tr": "tʃizˈɟi"
+      "notes": "SÖZLÜK gives \"stripe/line\"; a slash gloss would demand both words for TR->EN, so the commoner sense stands alone. Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0021",
@@ -315,9 +297,8 @@
         "unit-a2"
       ],
       "source": "A2-5A reading exercise SÖZLÜK (Turkishle web)",
-      "notes": "Pronunciation transcribed by hand.",
-      "status": "approved",
-      "pron_tr": "ˈtʃøl"
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0022",
@@ -330,9 +311,8 @@
         "unit-a2"
       ],
       "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Absent as a standalone entry: the deck had only ıslak mendil. Pronunciation transcribed by hand.",
-      "status": "approved",
-      "pron_tr": "ɯsˈɫɑk"
+      "notes": "Absent as a standalone entry: the deck had only ıslak mendil. Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0023",
@@ -345,9 +325,8 @@
         "unit-a2"
       ],
       "source": "A2-5A reading exercise SÖZLÜK (Turkishle web)",
-      "notes": "Pronunciation transcribed by hand.",
-      "status": "approved",
-      "pron_tr": "ˈʃɑɾt"
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0024",
@@ -360,9 +339,8 @@
         "unit-a2"
       ],
       "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand.",
-      "status": "approved",
-      "pron_tr": "ʃimˈʃæc"
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0025",
@@ -402,13 +380,11 @@
       "tags": [
         "adjective",
         "unit-a2-5b",
-        "unit-a2",
-        "pronunciation"
+        "unit-a2"
       ],
       "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Tagged pronunciation because the word defies its spelling: stressed on the first syllable. Confirmed against TDK where it lists a telaffuz.",
-      "status": "approved",
-      "pron_tr": "ˈɑjnɯ"
+      "notes": "Tagged pronunciation because the word defies its spelling: stressed on the first syllable. Confirmed against TDK where it lists a telaffuz. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0028",
@@ -421,9 +397,8 @@
         "unit-a2"
       ],
       "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand.",
-      "status": "approved",
-      "pron_tr": "bænˈzæɾ"
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0029",
@@ -436,9 +411,8 @@
         "unit-a2"
       ],
       "source": "A2-5B reading exercise SÖZLÜK (Turkishle web)",
-      "notes": "Pronunciation transcribed by hand.",
-      "status": "approved",
-      "pron_tr": "byjyleˈmæc"
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0030",
@@ -451,9 +425,8 @@
         "unit-a2"
       ],
       "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand.",
-      "status": "approved",
-      "pron_tr": "dʒimˈɾi"
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0031",
@@ -466,9 +439,8 @@
         "unit-a2"
       ],
       "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand.",
-      "status": "approved",
-      "pron_tr": "dʒøˈmæɾt"
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0032",
@@ -481,9 +453,8 @@
         "unit-a2"
       ],
       "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Web card says \"in detail\", which is the adverb; detaylı is an adjective. Pronunciation transcribed by hand.",
-      "status": "approved",
-      "pron_tr": "detɑjˈɫɯ"
+      "notes": "Web card says \"in detail\", which is the adverb; detaylı is an adjective. Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0033",
@@ -526,9 +497,8 @@
         "unit-a2"
       ],
       "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "The coursebook lemma. The web card gives the inflected sentence \"İlgimi çeker.\" instead, which is an example rather than a headword. Pronunciation transcribed by hand.",
-      "status": "approved",
-      "pron_tr": "ilɟisiˈni tʃæcˈmæc"
+      "notes": "The coursebook lemma. The web card gives the inflected sentence \"İlgimi çeker.\" instead, which is an example rather than a headword. Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0036",
@@ -541,10 +511,9 @@
         "unit-a2"
       ],
       "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "A list row offering two forms, so both are kept. Pronunciation transcribed by hand.",
+      "notes": "A list row offering two forms, so both are kept. Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
       "status": "approved",
-      "hint_en_tr": "(X / Y)",
-      "pron_tr": "kɑɾɑkˈtæɾ / ciʃiˈlic"
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-a2-5-0037",
@@ -557,9 +526,8 @@
         "unit-a2"
       ],
       "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand.",
-      "status": "approved",
-      "pron_tr": "kɑɾɑɾˈɫɯ"
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0038",
@@ -587,9 +555,8 @@
         "unit-a2"
       ],
       "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Coursebook \"to focus on\", web \"to focus\". Kept the object frame: the verb is intransitive and takes a dative, so the English preposition mirrors it. Pronunciation transcribed by hand.",
-      "status": "approved",
-      "pron_tr": "odɑkɫɑnˈmɑk"
+      "notes": "Coursebook \"to focus on\", web \"to focus\". Kept the object frame: the verb is intransitive and takes a dative, so the English preposition mirrors it. Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0040",
@@ -602,9 +569,8 @@
         "unit-a2"
       ],
       "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand.",
-      "status": "approved",
-      "pron_tr": "sævˈɟi doˈɫu"
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0041",
@@ -617,9 +583,8 @@
         "unit-a2"
       ],
       "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Both sources write \"save money\" without \"to\"; normalised to the deck's infinitive convention. Pronunciation transcribed by hand.",
-      "status": "approved",
-      "pron_tr": "tɑsɑˈruf jɑpˈmɑk"
+      "notes": "Both sources write \"save money\" without \"to\"; normalised to the deck's infinitive convention. Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0042",
@@ -632,9 +597,8 @@
         "unit-a2"
       ],
       "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand.",
-      "status": "approved",
-      "pron_tr": "utɑnˈɡɑtʃ"
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0043",
@@ -647,9 +611,8 @@
         "unit-a2"
       ],
       "source": "A2-5B reading exercise SÖZLÜK (Turkishle web)",
-      "notes": "Pronunciation transcribed by hand.",
-      "status": "approved",
-      "pron_tr": "utʃuɾtˈmɑ utʃuɾˈmɑk"
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0044",
@@ -676,11 +639,10 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand.",
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
       "status": "approved",
       "hint_tr_en": "(the star sign; the word also means scorpion)",
-      "hint_en_tr": "(star sign)",
-      "pron_tr": "ɑkˈɾæp"
+      "hint_en_tr": "(star sign)"
     },
     {
       "id": "cand-a2-5-0046",
@@ -690,13 +652,11 @@
       "tags": [
         "adverb",
         "unit-a2-5c",
-        "unit-a2",
-        "pronunciation"
+        "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Tagged pronunciation because the word defies its spelling: stressed on the first syllable. Confirmed against TDK where it lists a telaffuz.",
-      "status": "approved",
-      "pron_tr": "ˈɑjnæn"
+      "notes": "Tagged pronunciation because the word defies its spelling: stressed on the first syllable. Confirmed against TDK where it lists a telaffuz. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0047",
@@ -709,11 +669,10 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand.",
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
       "status": "approved",
       "hint_tr_en": "(the star sign; the word also means ear of grain)",
-      "hint_en_tr": "(star sign)",
-      "pron_tr": "bɑˈʃɑk"
+      "hint_en_tr": "(star sign)"
     },
     {
       "id": "cand-a2-5-0048",
@@ -726,9 +685,8 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand.",
-      "status": "approved",
-      "pron_tr": "bɑʃɑɾˈmɑk"
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0049",
@@ -738,13 +696,11 @@
       "tags": [
         "adverb",
         "unit-a2-5c",
-        "unit-a2",
-        "pronunciation"
+        "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Tagged pronunciation because the word defies its spelling: stressed on the first syllable. Confirmed against TDK where it lists a telaffuz.",
-      "status": "approved",
-      "pron_tr": "ˈbælci"
+      "notes": "Tagged pronunciation because the word defies its spelling: stressed on the first syllable. Confirmed against TDK where it lists a telaffuz. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0050",
@@ -754,15 +710,13 @@
       "tags": [
         "noun",
         "unit-a2-5c",
-        "unit-a2",
-        "pronunciation"
+        "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Tagged pronunciation because the word defies its spelling: the ğ is not a consonant here — it lengthens the vowel around it. Confirmed against TDK where it lists a telaffuz. Corrected from boˈɑː to boːˈɑ on the learner's ear: the ğ lengthens the preceding o and is not itself pronounced. The first transcription put the length on the following vowel, contradicting the rule applied to oğlak and doğrudan in the same batch.",
+      "notes": "Tagged pronunciation because the word defies its spelling: the ğ is not a consonant here — it lengthens the vowel around it. Confirmed against TDK where it lists a telaffuz. Corrected from boˈɑː to boːˈɑ on the learner's ear: the ğ lengthens the preceding o and is not itself pronounced. The first transcription put the length on the following vowel, contradicting the rule applied to oğlak and doğrudan in the same batch. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
       "status": "approved",
       "hint_tr_en": "(the star sign; the word also means bull)",
-      "hint_en_tr": "(star sign)",
-      "pron_tr": "boːˈɑ"
+      "hint_en_tr": "(star sign)"
     },
     {
       "id": "cand-a2-5-0051",
@@ -775,9 +729,8 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand.",
-      "status": "approved",
-      "pron_tr": "buɾtʃˈɫɑɾ"
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0052",
@@ -790,9 +743,8 @@
         "unit-a2"
       ],
       "source": "A2-5C reading exercise SÖZLÜK (Turkishle web)",
-      "notes": "Pronunciation transcribed by hand.",
-      "status": "approved",
-      "pron_tr": "dʒɑˈnɯ sɯkɯɫˈmɑk"
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0053",
@@ -831,13 +783,11 @@
       "tags": [
         "noun",
         "unit-a2-5c",
-        "unit-a2",
-        "pronunciation"
+        "unit-a2"
       ],
       "source": "A2-5C reading exercise SÖZLÜK (Turkishle web)",
-      "notes": "Tagged pronunciation because the word defies its spelling: stressed on the first syllable. Confirmed against TDK where it lists a telaffuz.",
-      "status": "approved",
-      "pron_tr": "ˈɟøzjɑʃɯ"
+      "notes": "Tagged pronunciation because the word defies its spelling: stressed on the first syllable. Confirmed against TDK where it lists a telaffuz. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0056",
@@ -850,9 +800,8 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand.",
-      "status": "approved",
-      "pron_tr": "hɑzɯɾɫɑnˈmɑk"
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0057",
@@ -862,13 +811,11 @@
       "tags": [
         "adverb",
         "unit-a2-5c",
-        "unit-a2",
-        "pronunciation"
+        "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Both herhalde and muhtemelen are glossed \"probably\" by the sources, which would give two cards one prompt; presumably keeps this one answerable. Tagged pronunciation because the word defies its spelling: stressed on the first syllable and carries a long â the spelling now omits. Confirmed against TDK where it lists a telaffuz.",
-      "status": "approved",
-      "pron_tr": "ˈhæɾhɑːɫde"
+      "notes": "Both herhalde and muhtemelen are glossed \"probably\" by the sources, which would give two cards one prompt; presumably keeps this one answerable. Tagged pronunciation because the word defies its spelling: stressed on the first syllable and carries a long â the spelling now omits. Confirmed against TDK where it lists a telaffuz. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0058",
@@ -881,9 +828,8 @@
         "unit-a2"
       ],
       "source": "A2-5C reading exercise SÖZLÜK (Turkishle web)",
-      "notes": "Glossed \"related\" by the SÖZLÜK, which collides with the deck's ilgili = related. The two are close but not the same: ilgili is about relevance or concern (ilgili kişi = the person concerned), ilişkili about a connection between things. \"connected\" keeps both prompts answerable. Pronunciation transcribed by hand.",
-      "status": "approved",
-      "pron_tr": "iliʃciˈli"
+      "notes": "Glossed \"related\" by the SÖZLÜK, which collides with the deck's ilgili = related. The two are close but not the same: ilgili is about relevance or concern (ilgili kişi = the person concerned), ilişkili about a connection between things. \"connected\" keeps both prompts answerable. Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0059",
@@ -896,11 +842,10 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand.",
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
       "status": "approved",
       "hint_tr_en": "(the star sign; the word also means twins)",
-      "hint_en_tr": "(star sign)",
-      "pron_tr": "icizˈlæɾ"
+      "hint_en_tr": "(star sign)"
     },
     {
       "id": "cand-a2-5-0060",
@@ -925,13 +870,11 @@
       "tags": [
         "adverb",
         "unit-a2-5c",
-        "unit-a2",
-        "pronunciation"
+        "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Tagged pronunciation because the word defies its spelling: stressed on the third syllable. Confirmed against TDK where it lists a telaffuz.",
-      "status": "approved",
-      "pron_tr": "cesinˈlicle"
+      "notes": "Tagged pronunciation because the word defies its spelling: stressed on the third syllable. Confirmed against TDK where it lists a telaffuz. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0062",
@@ -944,11 +887,10 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand.",
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
       "status": "approved",
       "hint_tr_en": "(the star sign; the word also means bucket)",
-      "hint_en_tr": "(star sign)",
-      "pron_tr": "koˈvɑ"
+      "hint_en_tr": "(star sign)"
     },
     {
       "id": "cand-a2-5-0063",
@@ -961,11 +903,10 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand.",
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
       "status": "approved",
       "hint_tr_en": "(the star sign; the word also means ram)",
-      "hint_en_tr": "(star sign)",
-      "pron_tr": "ˈkotʃ"
+      "hint_en_tr": "(star sign)"
     },
     {
       "id": "cand-a2-5-0064",
@@ -978,9 +919,8 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand.",
-      "status": "approved",
-      "pron_tr": "kɯˈsɑ syɾˈmæc"
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0065",
@@ -990,13 +930,11 @@
       "tags": [
         "adverb",
         "unit-a2-5c",
-        "unit-a2",
-        "pronunciation"
+        "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Tagged pronunciation because the word defies its spelling: stressed on the third syllable. Confirmed against TDK where it lists a telaffuz.",
-      "status": "approved",
-      "pron_tr": "muhteˈmelæn"
+      "notes": "Tagged pronunciation because the word defies its spelling: stressed on the third syllable. Confirmed against TDK where it lists a telaffuz. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0066",
@@ -1006,13 +944,11 @@
       "tags": [
         "adverb",
         "unit-a2-5c",
-        "unit-a2",
-        "pronunciation"
+        "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Sources give \"for sure, absolutely\", which overlaps kesinlikle; without fail is the distinct sense and keeps the prompts separate. Tagged pronunciation because the word defies its spelling: stressed on the first syllable and ends in a long vowel. Confirmed against TDK where it lists a telaffuz.",
-      "status": "approved",
-      "pron_tr": "ˈmutɫɑkɑː"
+      "notes": "Sources give \"for sure, absolutely\", which overlaps kesinlikle; without fail is the distinct sense and keeps the prompts separate. Tagged pronunciation because the word defies its spelling: stressed on the first syllable and ends in a long vowel. Confirmed against TDK where it lists a telaffuz. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0067",
@@ -1041,9 +977,8 @@
         "unit-a2"
       ],
       "source": "A2-5C reading exercise SÖZLÜK (Turkishle web)",
-      "notes": "Causative of sinirlenmek, so transitive — you annoy someone. Pronunciation transcribed by hand.",
-      "status": "approved",
-      "pron_tr": "siniɾlændiɾˈmæc"
+      "notes": "Causative of sinirlenmek, so transitive — you annoy someone. Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0069",
@@ -1056,9 +991,8 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand.",
-      "status": "approved",
-      "pron_tr": "teˈmæl"
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0070",
@@ -1068,15 +1002,13 @@
       "tags": [
         "noun",
         "unit-a2-5c",
-        "unit-a2",
-        "pronunciation"
+        "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Tagged pronunciation because the word defies its spelling: a long vowel in the second syllable. Confirmed against TDK where it lists a telaffuz.",
+      "notes": "Tagged pronunciation because the word defies its spelling: a long vowel in the second syllable. Confirmed against TDK where it lists a telaffuz. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
       "status": "approved",
       "hint_tr_en": "(the star sign; the word also means scales)",
-      "hint_en_tr": "(star sign)",
-      "pron_tr": "teɾɑːˈzi"
+      "hint_en_tr": "(star sign)"
     },
     {
       "id": "cand-a2-5-0071",
@@ -1089,9 +1021,8 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand.",
-      "status": "approved",
-      "pron_tr": "uˈzun syɾˈmæc"
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0072",
@@ -1104,9 +1035,8 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand.",
-      "status": "approved",
-      "pron_tr": "jɑkɯnˈdɑ"
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0073",
@@ -1119,11 +1049,10 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand.",
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
       "status": "approved",
       "hint_tr_en": "(the star sign; the word also means bow)",
-      "hint_en_tr": "(star sign)",
-      "pron_tr": "ˈjɑj"
+      "hint_en_tr": "(star sign)"
     },
     {
       "id": "cand-a2-5-0074",
@@ -1136,11 +1065,10 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand.",
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
       "status": "approved",
       "hint_tr_en": "(the star sign; the word also means crab)",
-      "hint_en_tr": "(star sign)",
-      "pron_tr": "jænˈɟætʃ"
+      "hint_en_tr": "(star sign)"
     },
     {
       "id": "cand-a2-5-0075",
@@ -1150,13 +1078,11 @@
       "tags": [
         "adverb",
         "unit-a2-5c",
-        "unit-a2",
-        "pronunciation"
+        "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Tagged pronunciation because the word defies its spelling: stressed on the first syllable. Confirmed against TDK where it lists a telaffuz.",
-      "status": "approved",
-      "pron_tr": "ˈjine"
+      "notes": "Tagged pronunciation because the word defies its spelling: stressed on the first syllable. Confirmed against TDK where it lists a telaffuz. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0076",
@@ -1169,9 +1095,8 @@
         "unit-a2"
       ],
       "source": "A2-5C reading exercise SÖZLÜK (Turkishle web)",
-      "notes": "Pronunciation transcribed by hand.",
-      "status": "approved",
-      "pron_tr": "jycsælˈmæc"
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0077",
@@ -1184,9 +1109,8 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand.",
-      "status": "approved",
-      "pron_tr": "tʃokˈtɑn"
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0078",
@@ -1196,13 +1120,11 @@
       "tags": [
         "verb",
         "unit-a2-5c",
-        "unit-a2",
-        "pronunciation"
+        "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Tagged pronunciation because the word defies its spelling: şahit has a long first vowel. Confirmed against TDK where it lists a telaffuz.",
-      "status": "approved",
-      "pron_tr": "ʃɑːˈhit oɫˈmɑk"
+      "notes": "Tagged pronunciation because the word defies its spelling: şahit has a long first vowel. Confirmed against TDK where it lists a telaffuz. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0079",
@@ -1232,11 +1154,10 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Same spelling as the deck's balık = fish but a different sense. Hidden by the same form-based test as aslan. Pronunciation transcribed by hand.",
+      "notes": "Same spelling as the deck's balık = fish but a different sense. Hidden by the same form-based test as aslan. Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
       "status": "approved",
       "hint_tr_en": "(the star sign)",
-      "hint_en_tr": "(star sign)",
-      "pron_tr": "bɑˈɫɯk"
+      "hint_en_tr": "(star sign)"
     },
     {
       "id": "cand-a2-5-0081",
@@ -1249,10 +1170,9 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "The deck has madde = item (an entry in a document); A2-5C teaches the material sense. CLAUDE.md already anticipated this split, and the form-based test hid it. Pronunciation transcribed by hand.",
+      "notes": "The deck has madde = item (an entry in a document); A2-5C teaches the material sense. CLAUDE.md already anticipated this split, and the form-based test hid it. Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
       "status": "approved",
-      "hint_tr_en": "(a material)",
-      "pron_tr": "mɑdˈde"
+      "hint_tr_en": "(a material)"
     }
   ]
 }
