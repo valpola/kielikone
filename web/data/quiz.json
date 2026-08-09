@@ -17181,10 +17181,8 @@
       "tags": [
         "noun",
         "unit-a2-5a",
-        "unit-a2",
-        "pronunciation"
-      ],
-      "pron_tr": "\u025fyn \u026f\u0283\u026f\u02d0\u02c8\u026f"
+        "unit-a2"
+      ]
     },
     {
       "id": "cand-a2-5-0008",
@@ -17497,11 +17495,9 @@
       "tags": [
         "adjective",
         "unit-a2-5b",
-        "unit-a2",
-        "pronunciation"
+        "unit-a2"
       ],
-      "hint_en_tr": "(X / Y)",
-      "pron_tr": "di\u02c8\u027e\u00e6kt / do\u02d0\u027eu\u02c8d\u0251n"
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-a2-5-0034",
@@ -17632,10 +17628,8 @@
       "tags": [
         "verb",
         "unit-a2-5b",
-        "unit-a2",
-        "pronunciation"
-      ],
-      "pron_tr": "\u00f8\u02c8jyt v\u00e6\u027e\u02c8m\u00e6c"
+        "unit-a2"
+      ]
     },
     {
       "id": "cand-a2-5-0045",
@@ -17750,10 +17744,8 @@
       "tags": [
         "noun",
         "unit-a2-5c",
-        "unit-a2",
-        "pronunciation"
-      ],
-      "pron_tr": "dei\u02c8\u0283im"
+        "unit-a2"
+      ]
     },
     {
       "id": "cand-a2-5-0054",
@@ -17930,12 +17922,10 @@
       "tags": [
         "noun",
         "unit-a2-5c",
-        "unit-a2",
-        "pronunciation"
+        "unit-a2"
       ],
       "hint_tr_en": "(the star sign; the word also means kid goat)",
-      "hint_en_tr": "(star sign)",
-      "pron_tr": "o\u02d0\u02c8\u026b\u0251k"
+      "hint_en_tr": "(star sign)"
     },
     {
       "id": "cand-a2-5-0068",

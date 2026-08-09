@@ -143,6 +143,15 @@ worked examples. The **`pronunciation` tag is not on everything** — it marks t
 their spelling (irregular stress, phonemic length, a `ğ` that lengthens rather than sounds), so
 the tag stays a useful filter rather than a synonym for "has a transcription".
 
+**Leave the field empty rather than guess.** A wrong transcription teaches something false with
+the same confidence as a right one, so an absent `pron_tr` is strictly better than an inferred
+one. In particular **`ğ` is not transcribed unless it has been checked by ear**: its effect
+varies word by word — lengthening the preceding vowel, reducing to a glide, or disappearing —
+and the context (intervocalic vs before a consonant) does not settle it. Applying one rule across
+those contexts produced `boˈɑː` for `boğa`, which the learner heard as `boːˈɑ`; five other `ğ`
+words were then dropped rather than kept on the same reasoning. `scripts/make_pron_audio.py`
+generates audio per word, which is how a transcription gets verified before it goes in.
+
 **This is hand work, word by word — do not try to generate it.** TDK
 (`sozluk.gov.tr/gts?ara=<word>`, needs a browser User-Agent or `curl`) is useful only as
 *triage*: it returns a `telaffuz` field for irregular words and nothing for regular ones (~29% of

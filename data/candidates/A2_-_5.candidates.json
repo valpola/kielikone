@@ -101,13 +101,11 @@
       "tags": [
         "noun",
         "unit-a2-5a",
-        "unit-a2",
-        "pronunciation"
+        "unit-a2"
       ],
       "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Tagged pronunciation because the word defies its spelling: the ğ lengthens rather than sounding. Confirmed against TDK where it lists a telaffuz. Corrected from ɟyn ɯʃɯˈɯː to ɟyn ɯʃɯːˈɯ on the learner's ear: the ğ lengthens the preceding ı; same class as oğlak and doğrudan. The first transcription put the length on the following vowel, contradicting the rule applied to oğlak and doğrudan in the same batch.",
-      "status": "approved",
-      "pron_tr": "ɟyn ɯʃɯːˈɯ"
+      "notes": "Tagged pronunciation because the word defies its spelling: the ğ lengthens rather than sounding. Confirmed against TDK where it lists a telaffuz. Corrected from ɟyn ɯʃɯˈɯː to ɟyn ɯʃɯːˈɯ on the learner's ear: the ğ lengthens the preceding ı; same class as oğlak and doğrudan. The first transcription put the length on the following vowel, contradicting the rule applied to oğlak and doğrudan in the same batch. Transcription removed: ğ behaves differently in different words — lengthening, reducing to a glide, or vanishing — and this one was produced by applying a single rule across contexts rather than from evidence. Left empty rather than guessed, on the learner's instruction that a wrong transcription is worse than none. Audio for the word is in resources/pron_audio/; restore the field only once it has been checked by ear.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0008",
@@ -495,14 +493,12 @@
       "tags": [
         "adjective",
         "unit-a2-5b",
-        "unit-a2",
-        "pronunciation"
+        "unit-a2"
       ],
       "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "A list row offering two forms, so both are kept. Tagged pronunciation because the word defies its spelling: the ğ in doğrudan lengthens the preceding o. Confirmed against TDK where it lists a telaffuz.",
+      "notes": "A list row offering two forms, so both are kept. Tagged pronunciation because the word defies its spelling: the ğ in doğrudan lengthens the preceding o. Confirmed against TDK where it lists a telaffuz. Transcription removed: ğ behaves differently in different words — lengthening, reducing to a glide, or vanishing — and this one was produced by applying a single rule across contexts rather than from evidence. Left empty rather than guessed, on the learner's instruction that a wrong transcription is worse than none. Audio for the word is in resources/pron_audio/; restore the field only once it has been checked by ear.",
       "status": "approved",
-      "hint_en_tr": "(X / Y)",
-      "pron_tr": "diˈɾækt / doːɾuˈdɑn"
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-a2-5-0034",
@@ -663,13 +659,11 @@
       "tags": [
         "verb",
         "unit-a2-5b",
-        "unit-a2",
-        "pronunciation"
+        "unit-a2"
       ],
       "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Tagged pronunciation because the word defies its spelling: the ğ in öğüt reduces to a glide. Confirmed against TDK where it lists a telaffuz.",
-      "status": "approved",
-      "pron_tr": "øˈjyt væɾˈmæc"
+      "notes": "Tagged pronunciation because the word defies its spelling: the ğ in öğüt reduces to a glide. Confirmed against TDK where it lists a telaffuz. Transcription removed: ğ behaves differently in different words — lengthening, reducing to a glide, or vanishing — and this one was produced by applying a single rule across contexts rather than from evidence. Left empty rather than guessed, on the learner's instruction that a wrong transcription is worse than none. Audio for the word is in resources/pron_audio/; restore the field only once it has been checked by ear.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0045",
@@ -808,13 +802,11 @@
       "tags": [
         "noun",
         "unit-a2-5c",
-        "unit-a2",
-        "pronunciation"
+        "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Tagged pronunciation because the word defies its spelling: the ğ between front vowels reduces to a glide. Confirmed against TDK where it lists a telaffuz.",
-      "status": "approved",
-      "pron_tr": "deiˈʃim"
+      "notes": "Tagged pronunciation because the word defies its spelling: the ğ between front vowels reduces to a glide. Confirmed against TDK where it lists a telaffuz. Transcription removed: ğ behaves differently in different words — lengthening, reducing to a glide, or vanishing — and this one was produced by applying a single rule across contexts rather than from evidence. Left empty rather than guessed, on the learner's instruction that a wrong transcription is worse than none. Audio for the word is in resources/pron_audio/; restore the field only once it has been checked by ear.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0054",
@@ -1030,15 +1022,13 @@
       "tags": [
         "noun",
         "unit-a2-5c",
-        "unit-a2",
-        "pronunciation"
+        "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Tagged pronunciation because the word defies its spelling: the ğ lengthens the preceding o rather than being pronounced. Confirmed against TDK where it lists a telaffuz.",
+      "notes": "Tagged pronunciation because the word defies its spelling: the ğ lengthens the preceding o rather than being pronounced. Confirmed against TDK where it lists a telaffuz. Transcription removed: ğ behaves differently in different words — lengthening, reducing to a glide, or vanishing — and this one was produced by applying a single rule across contexts rather than from evidence. Left empty rather than guessed, on the learner's instruction that a wrong transcription is worse than none. Audio for the word is in resources/pron_audio/; restore the field only once it has been checked by ear.",
       "status": "approved",
       "hint_tr_en": "(the star sign; the word also means kid goat)",
-      "hint_en_tr": "(star sign)",
-      "pron_tr": "oːˈɫɑk"
+      "hint_en_tr": "(star sign)"
     },
     {
       "id": "cand-a2-5-0068",

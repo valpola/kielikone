@@ -21712,13 +21712,11 @@
       "tags": [
         "noun",
         "unit-a2-5a",
-        "unit-a2",
-        "pronunciation"
+        "unit-a2"
       ],
       "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Tagged pronunciation because the word defies its spelling: the \u011f lengthens rather than sounding. Confirmed against TDK where it lists a telaffuz. Corrected from \u025fyn \u026f\u0283\u026f\u02c8\u026f\u02d0 to \u025fyn \u026f\u0283\u026f\u02d0\u02c8\u026f on the learner's ear: the \u011f lengthens the preceding \u0131; same class as o\u011flak and do\u011frudan. The first transcription put the length on the following vowel, contradicting the rule applied to o\u011flak and do\u011frudan in the same batch.",
-      "status": "approved",
-      "pron_tr": "\u025fyn \u026f\u0283\u026f\u02d0\u02c8\u026f"
+      "notes": "Tagged pronunciation because the word defies its spelling: the \u011f lengthens rather than sounding. Confirmed against TDK where it lists a telaffuz. Corrected from \u025fyn \u026f\u0283\u026f\u02c8\u026f\u02d0 to \u025fyn \u026f\u0283\u026f\u02d0\u02c8\u026f on the learner's ear: the \u011f lengthens the preceding \u0131; same class as o\u011flak and do\u011frudan. The first transcription put the length on the following vowel, contradicting the rule applied to o\u011flak and do\u011frudan in the same batch. Transcription removed: \u011f behaves differently in different words \u2014 lengthening, reducing to a glide, or vanishing \u2014 and this one was produced by applying a single rule across contexts rather than from evidence. Left empty rather than guessed, on the learner's instruction that a wrong transcription is worse than none. Audio for the word is in resources/pron_audio/; restore the field only once it has been checked by ear.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0008",
@@ -22106,14 +22104,12 @@
       "tags": [
         "adjective",
         "unit-a2-5b",
-        "unit-a2",
-        "pronunciation"
+        "unit-a2"
       ],
       "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "A list row offering two forms, so both are kept. Tagged pronunciation because the word defies its spelling: the \u011f in do\u011frudan lengthens the preceding o. Confirmed against TDK where it lists a telaffuz.",
+      "notes": "A list row offering two forms, so both are kept. Tagged pronunciation because the word defies its spelling: the \u011f in do\u011frudan lengthens the preceding o. Confirmed against TDK where it lists a telaffuz. Transcription removed: \u011f behaves differently in different words \u2014 lengthening, reducing to a glide, or vanishing \u2014 and this one was produced by applying a single rule across contexts rather than from evidence. Left empty rather than guessed, on the learner's instruction that a wrong transcription is worse than none. Audio for the word is in resources/pron_audio/; restore the field only once it has been checked by ear.",
       "status": "approved",
-      "hint_en_tr": "(X / Y)",
-      "pron_tr": "di\u02c8\u027e\u00e6kt / do\u02d0\u027eu\u02c8d\u0251n"
+      "hint_en_tr": "(X / Y)"
     },
     {
       "id": "cand-a2-5-0034",
@@ -22274,13 +22270,11 @@
       "tags": [
         "verb",
         "unit-a2-5b",
-        "unit-a2",
-        "pronunciation"
+        "unit-a2"
       ],
       "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Tagged pronunciation because the word defies its spelling: the \u011f in \u00f6\u011f\u00fct reduces to a glide. Confirmed against TDK where it lists a telaffuz.",
-      "status": "approved",
-      "pron_tr": "\u00f8\u02c8jyt v\u00e6\u027e\u02c8m\u00e6c"
+      "notes": "Tagged pronunciation because the word defies its spelling: the \u011f in \u00f6\u011f\u00fct reduces to a glide. Confirmed against TDK where it lists a telaffuz. Transcription removed: \u011f behaves differently in different words \u2014 lengthening, reducing to a glide, or vanishing \u2014 and this one was produced by applying a single rule across contexts rather than from evidence. Left empty rather than guessed, on the learner's instruction that a wrong transcription is worse than none. Audio for the word is in resources/pron_audio/; restore the field only once it has been checked by ear.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0045",
@@ -22419,13 +22413,11 @@
       "tags": [
         "noun",
         "unit-a2-5c",
-        "unit-a2",
-        "pronunciation"
+        "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Tagged pronunciation because the word defies its spelling: the \u011f between front vowels reduces to a glide. Confirmed against TDK where it lists a telaffuz.",
-      "status": "approved",
-      "pron_tr": "dei\u02c8\u0283im"
+      "notes": "Tagged pronunciation because the word defies its spelling: the \u011f between front vowels reduces to a glide. Confirmed against TDK where it lists a telaffuz. Transcription removed: \u011f behaves differently in different words \u2014 lengthening, reducing to a glide, or vanishing \u2014 and this one was produced by applying a single rule across contexts rather than from evidence. Left empty rather than guessed, on the learner's instruction that a wrong transcription is worse than none. Audio for the word is in resources/pron_audio/; restore the field only once it has been checked by ear.",
+      "status": "approved"
     },
     {
       "id": "cand-a2-5-0054",
@@ -22641,15 +22633,13 @@
       "tags": [
         "noun",
         "unit-a2-5c",
-        "unit-a2",
-        "pronunciation"
+        "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Tagged pronunciation because the word defies its spelling: the \u011f lengthens the preceding o rather than being pronounced. Confirmed against TDK where it lists a telaffuz.",
+      "notes": "Tagged pronunciation because the word defies its spelling: the \u011f lengthens the preceding o rather than being pronounced. Confirmed against TDK where it lists a telaffuz. Transcription removed: \u011f behaves differently in different words \u2014 lengthening, reducing to a glide, or vanishing \u2014 and this one was produced by applying a single rule across contexts rather than from evidence. Left empty rather than guessed, on the learner's instruction that a wrong transcription is worse than none. Audio for the word is in resources/pron_audio/; restore the field only once it has been checked by ear.",
       "status": "approved",
       "hint_tr_en": "(the star sign; the word also means kid goat)",
-      "hint_en_tr": "(star sign)",
-      "pron_tr": "o\u02d0\u02c8\u026b\u0251k"
+      "hint_en_tr": "(star sign)"
     },
     {
       "id": "cand-a2-5-0068",
