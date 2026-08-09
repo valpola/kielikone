@@ -2470,9 +2470,10 @@
         "unit-a2-2b"
       ],
       "source": "A1_-_2B.pdf",
-      "notes": "Tip added when A2-5C introduced bal\u0131k as the star sign Pisces.",
+      "notes": "Tip added when A2-5C introduced bal\u0131k as the star sign Pisces. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
       "status": "approved",
-      "hint_tr_en": "(the animal)"
+      "hint_tr_en": "(the animal)",
+      "pron_tr": "b\u0251\u02c8\u026b\u026fk"
     },
     {
       "id": "cand-a1-2b-0011",
@@ -13047,11 +13048,13 @@
         "adjective",
         "unit-a1-6a",
         "unit-a1",
+        "pronunciation",
         "unit-a1-6c"
       ],
       "source": "A1_-_6A.pdf",
-      "notes": "Shows three things spelling hides at once: the first e is the open [\u00e6] of a closed syllable before r, the second the close [e] of an open syllable; the k is palatalised to [c] before a front vowel; the Arabic nisba -\u00ee is long. Convention: IPA, with \u02c8 before the stressed syllable, \u02d0 for length, [\u00e6] vs [e] for the two e qualities, [c]/[\u025f] for palatalised k/g, and [l] vs [\u026b] for clear and dark l. Transcribed by hand \u2014 TDK supplies length, stress and a prose note on l, but not the vowel allophony or the k/g palatalisation, so this cannot be generated. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "Shows three things spelling hides at once: the first e is the open [\u00e6] of a closed syllable before r, the second the close [e] of an open syllable; the k is palatalised to [c] before a front vowel; the Arabic nisba -\u00ee is long. Convention: IPA, with \u02c8 before the stressed syllable, \u02d0 for length, [\u00e6] vs [e] for the two e qualities, [c]/[\u025f] for palatalised k/g, and [l] vs [\u026b] for clear and dark l. Transcribed by hand \u2014 TDK supplies length, stress and a prose note on l, but not the vowel allophony or the k/g palatalisation, so this cannot be generated. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "m\u00e6\u027ece\u02c8zi\u02d0"
     },
     {
       "id": "cand-a1-6b-0001",
@@ -14858,11 +14861,13 @@
       "tags": [
         "adverb",
         "unit-a1-4c",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1-4/5 reading exercise S\u00d6ZL\u00dcK (Turkishle web)",
-      "notes": "Both vowels long, and the l is the dark [\u026b] it becomes next to back vowels. Against hala (paternal aunt), \u02c8h\u0251.\u026b\u0251 \u2014 same shape, short, stressed on the first syllable. Convention: IPA, with \u02c8 before the stressed syllable, \u02d0 for length, [\u00e6] vs [e] for the two e qualities, [c]/[\u025f] for palatalised k/g, and [l] vs [\u026b] for clear and dark l. Transcribed by hand \u2014 TDK supplies length, stress and a prose note on l, but not the vowel allophony or the k/g palatalisation, so this cannot be generated. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "Both vowels long, and the l is the dark [\u026b] it becomes next to back vowels. Against hala (paternal aunt), \u02c8h\u0251.\u026b\u0251 \u2014 same shape, short, stressed on the first syllable. Convention: IPA, with \u02c8 before the stressed syllable, \u02d0 for length, [\u00e6] vs [e] for the two e qualities, [c]/[\u025f] for palatalised k/g, and [l] vs [\u026b] for clear and dark l. Transcribed by hand \u2014 TDK supplies length, stress and a prose note on l, but not the vowel allophony or the k/g palatalisation, so this cannot be generated. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "\u02c8h\u0251\u02d0\u026b\u0251\u02d0"
     },
     {
       "id": "cand-a1-rd-0006",
@@ -16446,11 +16451,13 @@
       "tags": [
         "adjective",
         "unit-a2",
-        "unit-a2-1b"
+        "unit-a2-1b",
+        "pronunciation"
       ],
       "source": "A2_-_1B.pdf",
-      "notes": "Long first vowel, and TDK notes the l is the clear [l] rather than the dark [\u026b] a following back vowel would normally give. Final e is open [\u00e6], closed by rt. Convention: IPA, with \u02c8 before the stressed syllable, \u02d0 for length, [\u00e6] vs [e] for the two e qualities, [c]/[\u025f] for palatalised k/g, and [l] vs [\u026b] for clear and dark l. Transcribed by hand \u2014 TDK supplies length, stress and a prose note on l, but not the vowel allophony or the k/g palatalisation, so this cannot be generated. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "Long first vowel, and TDK notes the l is the clear [l] rather than the dark [\u026b] a following back vowel would normally give. Final e is open [\u00e6], closed by rt. Convention: IPA, with \u02c8 before the stressed syllable, \u02d0 for length, [\u00e6] vs [e] for the two e qualities, [c]/[\u025f] for palatalised k/g, and [l] vs [\u026b] for clear and dark l. Transcribed by hand \u2014 TDK supplies length, stress and a prose note on l, but not the vowel allophony or the k/g palatalisation, so this cannot be generated. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "l\u0251\u02d0d\u0292i\u02c8v\u00e6\u027et"
     },
     {
       "id": "cand-a2-1b-0103",
@@ -18190,9 +18197,10 @@
         "unit-a2-2b"
       ],
       "source": "A2_-_2B.pdf",
-      "notes": "Tip added when A2-5C introduced aslan as the star sign Leo: the two share a spelling, so TR->EN needs to say which is wanted.",
+      "notes": "Tip added when A2-5C introduced aslan as the star sign Leo: the two share a spelling, so TR->EN needs to say which is wanted. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
       "status": "approved",
-      "hint_tr_en": "(the animal)"
+      "hint_tr_en": "(the animal)",
+      "pron_tr": "\u0251s\u02c8\u026b\u0251n"
     },
     {
       "id": "cand-a2-2b-0026",
@@ -19578,10 +19586,11 @@
         "unit-a2"
       ],
       "source": "A2-3A Kelime Listesi (Turkishle coursebook)",
-      "notes": "Tip added when A2-5C introduced madde = substance: the two senses share a spelling, so TR->EN has to say which is wanted.",
+      "notes": "Tip added when A2-5C introduced madde = substance: the two senses share a spelling, so TR->EN has to say which is wanted. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
       "status": "approved",
       "hint_en_tr": "(e.g. an entry in a document)",
-      "hint_tr_en": "(e.g. an entry in a document)"
+      "hint_tr_en": "(e.g. an entry in a document)",
+      "pron_tr": "m\u0251d\u02c8de"
     },
     {
       "id": "cand-a2-3-0020",
@@ -21633,8 +21642,9 @@
         "unit-a2"
       ],
       "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Coursebook says glacier, the web card \"glacier / icecap\"; kept the single word, since a slash gloss would require typing both for TR->EN. Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "Coursebook says glacier, the web card \"glacier / icecap\"; kept the single word, since a slash gloss would require typing both for TR->EN. Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "bu\u02c8zu\u026b"
     },
     {
       "id": "cand-a2-5-0003",
@@ -21662,8 +21672,9 @@
         "unit-a2"
       ],
       "source": "A2-5A reading exercise S\u00d6ZL\u00dcK (Turkishle web)",
-      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "ev\u02c8d\u0292il"
     },
     {
       "id": "cand-a2-5-0005",
@@ -21676,8 +21687,9 @@
         "unit-a2"
       ],
       "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "The sound of thunder. Paired against y\u0131ld\u0131r\u0131m (the bolt) and \u015fim\u015fek (the flash), which the sources blur. Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "The sound of thunder. Paired against y\u0131ld\u0131r\u0131m (the bolt) and \u015fim\u015fek (the flash), which the sources blur. Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "\u025f\u00f8c \u025fy\u027eylty\u02c8sy"
     },
     {
       "id": "cand-a2-5-0006",
@@ -21687,11 +21699,13 @@
       "tags": [
         "noun",
         "unit-a2-5a",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Tagged pronunciation because the word defies its spelling: stressed on the first syllable. Confirmed against TDK where it lists a telaffuz. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "Tagged pronunciation because the word defies its spelling: stressed on the first syllable. Confirmed against TDK where it lists a telaffuz. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "\u02c8\u025f\u00f8cjyzy"
     },
     {
       "id": "cand-a2-5-0007",
@@ -21718,8 +21732,9 @@
         "unit-a2"
       ],
       "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Glossed \"weather\" by both sources, but hava alone already means weather and is in the deck; durumu makes it the forecast/report, so this avoids two cards sharing one prompt. Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "Glossed \"weather\" by both sources, but hava alone already means weather and is in the deck; durumu makes it the forecast/report, so this avoids two cards sharing one prompt. Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "h\u0251\u02c8v\u0251 du\u027eu\u02c8mu"
     },
     {
       "id": "cand-a2-5-0009",
@@ -21732,8 +21747,9 @@
         "unit-a2"
       ],
       "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "ic\u02c8lim"
     },
     {
       "id": "cand-a2-5-0010",
@@ -21746,8 +21762,9 @@
         "unit-a2"
       ],
       "source": "A2-5A reading exercise S\u00d6ZL\u00dcK (Turkishle web)",
-      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "ko\u027eu\u02c8m\u0251k"
     },
     {
       "id": "cand-a2-5-0011",
@@ -21760,8 +21777,9 @@
         "unit-a2"
       ],
       "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Both sources say \"dry\", which would collide with kuru in the same list. kurak is dryness of land or climate, kuru of an object, so arid separates them. Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "Both sources say \"dry\", which would collide with kuru in the same list. kurak is dryness of land or climate, kuru of an object, so arid separates them. Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "ku\u02c8\u027e\u0251k"
     },
     {
       "id": "cand-a2-5-0012",
@@ -21774,8 +21792,9 @@
         "unit-a2"
       ],
       "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "ku\u027e\u0251k\u02c8\u026b\u026fk"
     },
     {
       "id": "cand-a2-5-0013",
@@ -21803,8 +21822,9 @@
         "unit-a2"
       ],
       "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "cy\u027ee\u02c8s\u00e6l \u026fs\u026fn\u02c8m\u0251"
     },
     {
       "id": "cand-a2-5-0015",
@@ -21817,8 +21837,9 @@
         "unit-a2"
       ],
       "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Sources gloss it literally as \"winter sleep\"; hibernation is the English word for it and keeps the prompt answerable. Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "Sources gloss it literally as \"winter sleep\"; hibernation is the English word for it and keeps the prompt answerable. Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "k\u026f\u0283 ujku\u02c8su"
     },
     {
       "id": "cand-a2-5-0016",
@@ -21846,8 +21867,9 @@
         "unit-a2"
       ],
       "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "sis\u02c8li"
     },
     {
       "id": "cand-a2-5-0018",
@@ -21857,11 +21879,13 @@
       "tags": [
         "adjective",
         "unit-a2-5a",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-5A reading exercise S\u00d6ZL\u00dcK (Turkishle web)",
-      "notes": "Tagged pronunciation because the word defies its spelling: a long final vowel. Confirmed against TDK where it lists a telaffuz. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "Tagged pronunciation because the word defies its spelling: a long final vowel. Confirmed against TDK where it lists a telaffuz. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "v\u0251h\u02c8\u0283i\u02d0"
     },
     {
       "id": "cand-a2-5-0019",
@@ -21871,11 +21895,13 @@
       "tags": [
         "noun",
         "unit-a2-5a",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "The sources disagree \u2014 coursebook \"thunder\", web card \"lightning\" \u2014 and both would collide with \u015fim\u015fek or g\u00f6k g\u00fcr\u00fclt\u00fcs\u00fc. y\u0131ld\u0131r\u0131m is the strike itself, so thunderbolt keeps all three distinct. Tagged pronunciation because the word defies its spelling: stressed on the first syllable. Confirmed against TDK where it lists a telaffuz. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "The sources disagree \u2014 coursebook \"thunder\", web card \"lightning\" \u2014 and both would collide with \u015fim\u015fek or g\u00f6k g\u00fcr\u00fclt\u00fcs\u00fc. y\u0131ld\u0131r\u0131m is the strike itself, so thunderbolt keeps all three distinct. Tagged pronunciation because the word defies its spelling: stressed on the first syllable. Confirmed against TDK where it lists a telaffuz. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "\u02c8j\u026f\u026bd\u026f\u027e\u026fm"
     },
     {
       "id": "cand-a2-5-0020",
@@ -21888,8 +21914,9 @@
         "unit-a2"
       ],
       "source": "A2-5A reading exercise S\u00d6ZL\u00dcK (Turkishle web)",
-      "notes": "S\u00d6ZL\u00dcK gives \"stripe/line\"; a slash gloss would demand both words for TR->EN, so the commoner sense stands alone. Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "S\u00d6ZL\u00dcK gives \"stripe/line\"; a slash gloss would demand both words for TR->EN, so the commoner sense stands alone. Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "t\u0283iz\u02c8\u025fi"
     },
     {
       "id": "cand-a2-5-0021",
@@ -21902,8 +21929,9 @@
         "unit-a2"
       ],
       "source": "A2-5A reading exercise S\u00d6ZL\u00dcK (Turkishle web)",
-      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "\u02c8t\u0283\u00f8l"
     },
     {
       "id": "cand-a2-5-0022",
@@ -21916,8 +21944,9 @@
         "unit-a2"
       ],
       "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Absent as a standalone entry: the deck had only \u0131slak mendil. Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "Absent as a standalone entry: the deck had only \u0131slak mendil. Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "\u026fs\u02c8\u026b\u0251k"
     },
     {
       "id": "cand-a2-5-0023",
@@ -21930,8 +21959,9 @@
         "unit-a2"
       ],
       "source": "A2-5A reading exercise S\u00d6ZL\u00dcK (Turkishle web)",
-      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "\u02c8\u0283\u0251\u027et"
     },
     {
       "id": "cand-a2-5-0024",
@@ -21944,8 +21974,9 @@
         "unit-a2"
       ],
       "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "\u0283im\u02c8\u0283ec"
     },
     {
       "id": "cand-a2-5-0025",
@@ -21985,11 +22016,13 @@
       "tags": [
         "adjective",
         "unit-a2-5b",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Tagged pronunciation because the word defies its spelling: stressed on the first syllable. Confirmed against TDK where it lists a telaffuz. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "Tagged pronunciation because the word defies its spelling: stressed on the first syllable. Confirmed against TDK where it lists a telaffuz. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "\u02c8\u0251jn\u026f"
     },
     {
       "id": "cand-a2-5-0028",
@@ -22002,8 +22035,9 @@
         "unit-a2"
       ],
       "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "b\u00e6n\u02c8z\u00e6\u027e"
     },
     {
       "id": "cand-a2-5-0029",
@@ -22016,8 +22050,9 @@
         "unit-a2"
       ],
       "source": "A2-5B reading exercise S\u00d6ZL\u00dcK (Turkishle web)",
-      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "byjyle\u02c8mec"
     },
     {
       "id": "cand-a2-5-0030",
@@ -22030,8 +22065,9 @@
         "unit-a2"
       ],
       "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "d\u0292im\u02c8\u027ei"
     },
     {
       "id": "cand-a2-5-0031",
@@ -22044,8 +22080,9 @@
         "unit-a2"
       ],
       "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "d\u0292\u00f8\u02c8m\u00e6\u027et"
     },
     {
       "id": "cand-a2-5-0032",
@@ -22058,8 +22095,9 @@
         "unit-a2"
       ],
       "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Web card says \"in detail\", which is the adverb; detayl\u0131 is an adjective. Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "Web card says \"in detail\", which is the adverb; detayl\u0131 is an adjective. Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "det\u0251j\u02c8\u026b\u026f"
     },
     {
       "id": "cand-a2-5-0033",
@@ -22069,12 +22107,14 @@
       "tags": [
         "adjective",
         "unit-a2-5b",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "A list row offering two forms, so both are kept. Tagged pronunciation because the word defies its spelling: the \u011f in do\u011frudan lengthens the preceding o. Confirmed against TDK where it lists a telaffuz. Transcription removed: \u011f behaves differently in different words \u2014 lengthening, reducing to a glide, or vanishing \u2014 and this one was produced by applying a single rule across contexts rather than from evidence. Left empty rather than guessed, on the learner's instruction that a wrong transcription is worse than none. Audio for the word is in resources/pron_audio/; restore the field only once it has been checked by ear.",
+      "notes": "A list row offering two forms, so both are kept. Tagged pronunciation because the word defies its spelling: the \u011f in do\u011frudan lengthens the preceding o. Confirmed against TDK where it lists a telaffuz. Transcription removed: \u011f behaves differently in different words \u2014 lengthening, reducing to a glide, or vanishing \u2014 and this one was produced by applying a single rule across contexts rather than from evidence. Left empty rather than guessed, on the learner's instruction that a wrong transcription is worse than none. Audio for the word is in resources/pron_audio/; restore the field only once it has been checked by ear. Restored from a source rather than a rule: en.wiktionary /\u02c8di.\u027e\u025bct/ and /do\u02d0.\u027eu\u02c8dan/. \u011f lengthens the preceding vowel before a consonant (o\u011flak, do\u011frudan) but not between vowels (de\u011fi\u015fim), which is the distinction the earlier blanket rule missed.",
       "status": "approved",
-      "hint_en_tr": "(X / Y)"
+      "hint_en_tr": "(X / Y)",
+      "pron_tr": "\u02c8di\u027eect / do\u02d0\u027eu\u02c8d\u0251n"
     },
     {
       "id": "cand-a2-5-0034",
@@ -22102,8 +22142,9 @@
         "unit-a2"
       ],
       "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "The coursebook lemma. The web card gives the inflected sentence \"\u0130lgimi \u00e7eker.\" instead, which is an example rather than a headword. Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "The coursebook lemma. The web card gives the inflected sentence \"\u0130lgimi \u00e7eker.\" instead, which is an example rather than a headword. Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "il\u025fisi\u02c8ni t\u0283ec\u02c8mec"
     },
     {
       "id": "cand-a2-5-0036",
@@ -22116,9 +22157,10 @@
         "unit-a2"
       ],
       "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "A list row offering two forms, so both are kept. Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "notes": "A list row offering two forms, so both are kept. Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
       "status": "approved",
-      "hint_en_tr": "(X / Y)"
+      "hint_en_tr": "(X / Y)",
+      "pron_tr": "k\u0251\u027e\u0251k\u02c8t\u00e6\u027e / ci\u0283i\u02c8lic"
     },
     {
       "id": "cand-a2-5-0037",
@@ -22131,8 +22173,9 @@
         "unit-a2"
       ],
       "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "k\u0251\u027e\u0251\u027e\u02c8\u026b\u026f"
     },
     {
       "id": "cand-a2-5-0038",
@@ -22160,8 +22203,9 @@
         "unit-a2"
       ],
       "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Coursebook \"to focus on\", web \"to focus\". Kept the object frame: the verb is intransitive and takes a dative, so the English preposition mirrors it. Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "Coursebook \"to focus on\", web \"to focus\". Kept the object frame: the verb is intransitive and takes a dative, so the English preposition mirrors it. Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "od\u0251k\u026b\u0251n\u02c8m\u0251k"
     },
     {
       "id": "cand-a2-5-0040",
@@ -22174,8 +22218,9 @@
         "unit-a2"
       ],
       "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "sev\u02c8\u025fi do\u02c8\u026bu"
     },
     {
       "id": "cand-a2-5-0041",
@@ -22188,8 +22233,9 @@
         "unit-a2"
       ],
       "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Both sources write \"save money\" without \"to\"; normalised to the deck's infinitive convention. Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "Both sources write \"save money\" without \"to\"; normalised to the deck's infinitive convention. Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "t\u0251s\u0251r\u02c8ruf j\u0251p\u02c8m\u0251k"
     },
     {
       "id": "cand-a2-5-0042",
@@ -22202,8 +22248,9 @@
         "unit-a2"
       ],
       "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "ut\u0251n\u02c8\u0261\u0251t\u0283"
     },
     {
       "id": "cand-a2-5-0043",
@@ -22216,8 +22263,9 @@
         "unit-a2"
       ],
       "source": "A2-5B reading exercise S\u00d6ZL\u00dcK (Turkishle web)",
-      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "ut\u0283u\u027et\u02c8m\u0251 ut\u0283u\u027e\u02c8m\u0251k"
     },
     {
       "id": "cand-a2-5-0044",
@@ -22227,11 +22275,13 @@
       "tags": [
         "verb",
         "unit-a2-5b",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Tagged pronunciation because the word defies its spelling: the \u011f in \u00f6\u011f\u00fct reduces to a glide. Confirmed against TDK where it lists a telaffuz. Transcription removed: \u011f behaves differently in different words \u2014 lengthening, reducing to a glide, or vanishing \u2014 and this one was produced by applying a single rule across contexts rather than from evidence. Left empty rather than guessed, on the learner's instruction that a wrong transcription is worse than none. Audio for the word is in resources/pron_audio/; restore the field only once it has been checked by ear.",
-      "status": "approved"
+      "notes": "Tagged pronunciation because the word defies its spelling: the \u011f in \u00f6\u011f\u00fct reduces to a glide. Confirmed against TDK where it lists a telaffuz. Transcription removed: \u011f behaves differently in different words \u2014 lengthening, reducing to a glide, or vanishing \u2014 and this one was produced by applying a single rule across contexts rather than from evidence. Left empty rather than guessed, on the learner's instruction that a wrong transcription is worse than none. Audio for the word is in resources/pron_audio/; restore the field only once it has been checked by ear. Restored from a source rather than a rule: en.wiktionary /\u00f8\u02d0yt/ for \u00f6\u011f\u00fct. \u011f lengthens the preceding vowel before a consonant (o\u011flak, do\u011frudan) but not between vowels (de\u011fi\u015fim), which is the distinction the earlier blanket rule missed.",
+      "status": "approved",
+      "pron_tr": "\u00f8\u02d0\u02c8yt v\u00e6\u027e\u02c8mec"
     },
     {
       "id": "cand-a2-5-0045",
@@ -22244,10 +22294,11 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
       "status": "approved",
       "hint_tr_en": "(the star sign; the word also means scorpion)",
-      "hint_en_tr": "(star sign)"
+      "hint_en_tr": "(star sign)",
+      "pron_tr": "\u0251k\u02c8\u027eep"
     },
     {
       "id": "cand-a2-5-0046",
@@ -22257,11 +22308,13 @@
       "tags": [
         "adverb",
         "unit-a2-5c",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Tagged pronunciation because the word defies its spelling: stressed on the first syllable. Confirmed against TDK where it lists a telaffuz. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "Tagged pronunciation because the word defies its spelling: stressed on the first syllable. Confirmed against TDK where it lists a telaffuz. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "\u02c8\u0251jn\u00e6n"
     },
     {
       "id": "cand-a2-5-0047",
@@ -22274,10 +22327,11 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
       "status": "approved",
       "hint_tr_en": "(the star sign; the word also means ear of grain)",
-      "hint_en_tr": "(star sign)"
+      "hint_en_tr": "(star sign)",
+      "pron_tr": "b\u0251\u02c8\u0283\u0251k"
     },
     {
       "id": "cand-a2-5-0048",
@@ -22290,8 +22344,9 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "b\u0251\u0283\u0251\u027e\u02c8m\u0251k"
     },
     {
       "id": "cand-a2-5-0049",
@@ -22301,11 +22356,13 @@
       "tags": [
         "adverb",
         "unit-a2-5c",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Tagged pronunciation because the word defies its spelling: stressed on the first syllable. Confirmed against TDK where it lists a telaffuz. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "Tagged pronunciation because the word defies its spelling: stressed on the first syllable. Confirmed against TDK where it lists a telaffuz. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "\u02c8b\u00e6lci"
     },
     {
       "id": "cand-a2-5-0050",
@@ -22334,8 +22391,9 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "bu\u027et\u0283\u02c8\u026b\u0251\u027e"
     },
     {
       "id": "cand-a2-5-0052",
@@ -22348,8 +22406,9 @@
         "unit-a2"
       ],
       "source": "A2-5C reading exercise S\u00d6ZL\u00dcK (Turkishle web)",
-      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "d\u0292\u0251\u02c8n\u026f s\u026fk\u026f\u026b\u02c8m\u0251k"
     },
     {
       "id": "cand-a2-5-0053",
@@ -22359,11 +22418,13 @@
       "tags": [
         "noun",
         "unit-a2-5c",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Tagged pronunciation because the word defies its spelling: the \u011f between front vowels reduces to a glide. Confirmed against TDK where it lists a telaffuz. Transcription removed: \u011f behaves differently in different words \u2014 lengthening, reducing to a glide, or vanishing \u2014 and this one was produced by applying a single rule across contexts rather than from evidence. Left empty rather than guessed, on the learner's instruction that a wrong transcription is worse than none. Audio for the word is in resources/pron_audio/; restore the field only once it has been checked by ear.",
-      "status": "approved"
+      "notes": "Tagged pronunciation because the word defies its spelling: the \u011f between front vowels reduces to a glide. Confirmed against TDK where it lists a telaffuz. Transcription removed: \u011f behaves differently in different words \u2014 lengthening, reducing to a glide, or vanishing \u2014 and this one was produced by applying a single rule across contexts rather than from evidence. Left empty rather than guessed, on the learner's instruction that a wrong transcription is worse than none. Audio for the word is in resources/pron_audio/; restore the field only once it has been checked by ear. Restored from a source rather than a rule: tr.wiktionary de\u203fi\u02c8\u0283im. \u011f lengthens the preceding vowel before a consonant (o\u011flak, do\u011frudan) but not between vowels (de\u011fi\u015fim), which is the distinction the earlier blanket rule missed.",
+      "status": "approved",
+      "pron_tr": "dei\u02c8\u0283im"
     },
     {
       "id": "cand-a2-5-0054",
@@ -22388,11 +22449,13 @@
       "tags": [
         "noun",
         "unit-a2-5c",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-5C reading exercise S\u00d6ZL\u00dcK (Turkishle web)",
-      "notes": "Tagged pronunciation because the word defies its spelling: stressed on the first syllable. Confirmed against TDK where it lists a telaffuz. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "Tagged pronunciation because the word defies its spelling: stressed on the first syllable. Confirmed against TDK where it lists a telaffuz. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "\u02c8\u025f\u00f8zj\u0251\u0283\u026f"
     },
     {
       "id": "cand-a2-5-0056",
@@ -22405,8 +22468,9 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "h\u0251z\u026f\u027e\u026b\u0251n\u02c8m\u0251k"
     },
     {
       "id": "cand-a2-5-0057",
@@ -22416,11 +22480,13 @@
       "tags": [
         "adverb",
         "unit-a2-5c",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Both herhalde and muhtemelen are glossed \"probably\" by the sources, which would give two cards one prompt; presumably keeps this one answerable. Tagged pronunciation because the word defies its spelling: stressed on the first syllable and carries a long \u00e2 the spelling now omits. Confirmed against TDK where it lists a telaffuz. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "Both herhalde and muhtemelen are glossed \"probably\" by the sources, which would give two cards one prompt; presumably keeps this one answerable. Tagged pronunciation because the word defies its spelling: stressed on the first syllable and carries a long \u00e2 the spelling now omits. Confirmed against TDK where it lists a telaffuz. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "\u02c8h\u00e6\u027eh\u0251\u02d0\u026bde"
     },
     {
       "id": "cand-a2-5-0058",
@@ -22433,8 +22499,9 @@
         "unit-a2"
       ],
       "source": "A2-5C reading exercise S\u00d6ZL\u00dcK (Turkishle web)",
-      "notes": "Glossed \"related\" by the S\u00d6ZL\u00dcK, which collides with the deck's ilgili = related. The two are close but not the same: ilgili is about relevance or concern (ilgili ki\u015fi = the person concerned), ili\u015fkili about a connection between things. \"connected\" keeps both prompts answerable. Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "Glossed \"related\" by the S\u00d6ZL\u00dcK, which collides with the deck's ilgili = related. The two are close but not the same: ilgili is about relevance or concern (ilgili ki\u015fi = the person concerned), ili\u015fkili about a connection between things. \"connected\" keeps both prompts answerable. Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "ili\u0283ci\u02c8li"
     },
     {
       "id": "cand-a2-5-0059",
@@ -22447,10 +22514,11 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
       "status": "approved",
       "hint_tr_en": "(the star sign; the word also means twins)",
-      "hint_en_tr": "(star sign)"
+      "hint_en_tr": "(star sign)",
+      "pron_tr": "iciz\u02c8l\u00e6\u027e"
     },
     {
       "id": "cand-a2-5-0060",
@@ -22475,11 +22543,13 @@
       "tags": [
         "adverb",
         "unit-a2-5c",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Tagged pronunciation because the word defies its spelling: stressed on the third syllable. Confirmed against TDK where it lists a telaffuz. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "Tagged pronunciation because the word defies its spelling: stressed on the third syllable. Confirmed against TDK where it lists a telaffuz. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "cesin\u02c8licle"
     },
     {
       "id": "cand-a2-5-0062",
@@ -22492,10 +22562,11 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
       "status": "approved",
       "hint_tr_en": "(the star sign; the word also means bucket)",
-      "hint_en_tr": "(star sign)"
+      "hint_en_tr": "(star sign)",
+      "pron_tr": "ko\u02c8v\u0251"
     },
     {
       "id": "cand-a2-5-0063",
@@ -22508,10 +22579,11 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
       "status": "approved",
       "hint_tr_en": "(the star sign; the word also means ram)",
-      "hint_en_tr": "(star sign)"
+      "hint_en_tr": "(star sign)",
+      "pron_tr": "\u02c8kot\u0283"
     },
     {
       "id": "cand-a2-5-0064",
@@ -22524,8 +22596,9 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "k\u026f\u02c8s\u0251 sy\u027e\u02c8mec"
     },
     {
       "id": "cand-a2-5-0065",
@@ -22535,11 +22608,13 @@
       "tags": [
         "adverb",
         "unit-a2-5c",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Tagged pronunciation because the word defies its spelling: stressed on the third syllable. Confirmed against TDK where it lists a telaffuz. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "Tagged pronunciation because the word defies its spelling: stressed on the third syllable. Confirmed against TDK where it lists a telaffuz. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "muhte\u02c8mel\u00e6n"
     },
     {
       "id": "cand-a2-5-0066",
@@ -22549,11 +22624,13 @@
       "tags": [
         "adverb",
         "unit-a2-5c",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Sources give \"for sure, absolutely\", which overlaps kesinlikle; without fail is the distinct sense and keeps the prompts separate. Tagged pronunciation because the word defies its spelling: stressed on the first syllable and ends in a long vowel. Confirmed against TDK where it lists a telaffuz. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "Sources give \"for sure, absolutely\", which overlaps kesinlikle; without fail is the distinct sense and keeps the prompts separate. Tagged pronunciation because the word defies its spelling: stressed on the first syllable and ends in a long vowel. Confirmed against TDK where it lists a telaffuz. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "\u02c8mut\u026b\u0251k\u0251\u02d0"
     },
     {
       "id": "cand-a2-5-0067",
@@ -22563,13 +22640,15 @@
       "tags": [
         "noun",
         "unit-a2-5c",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Tagged pronunciation because the word defies its spelling: the \u011f lengthens the preceding o rather than being pronounced. Confirmed against TDK where it lists a telaffuz. Transcription removed: \u011f behaves differently in different words \u2014 lengthening, reducing to a glide, or vanishing \u2014 and this one was produced by applying a single rule across contexts rather than from evidence. Left empty rather than guessed, on the learner's instruction that a wrong transcription is worse than none. Audio for the word is in resources/pron_audio/; restore the field only once it has been checked by ear.",
+      "notes": "Tagged pronunciation because the word defies its spelling: the \u011f lengthens the preceding o rather than being pronounced. Confirmed against TDK where it lists a telaffuz. Transcription removed: \u011f behaves differently in different words \u2014 lengthening, reducing to a glide, or vanishing \u2014 and this one was produced by applying a single rule across contexts rather than from evidence. Left empty rather than guessed, on the learner's instruction that a wrong transcription is worse than none. Audio for the word is in resources/pron_audio/; restore the field only once it has been checked by ear. Restored from a source rather than a rule: en.wiktionary /o\u02d0\u02c8\u026bak/, [o\u031e\u02d0\u02c8\u026b\u032a\u0251k]. \u011f lengthens the preceding vowel before a consonant (o\u011flak, do\u011frudan) but not between vowels (de\u011fi\u015fim), which is the distinction the earlier blanket rule missed.",
       "status": "approved",
       "hint_tr_en": "(the star sign; the word also means kid goat)",
-      "hint_en_tr": "(star sign)"
+      "hint_en_tr": "(star sign)",
+      "pron_tr": "o\u02d0\u02c8\u026b\u0251k"
     },
     {
       "id": "cand-a2-5-0068",
@@ -22582,8 +22661,9 @@
         "unit-a2"
       ],
       "source": "A2-5C reading exercise S\u00d6ZL\u00dcK (Turkishle web)",
-      "notes": "Causative of sinirlenmek, so transitive \u2014 you annoy someone. Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "Causative of sinirlenmek, so transitive \u2014 you annoy someone. Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "sini\u027el\u00e6ndi\u027e\u02c8mec"
     },
     {
       "id": "cand-a2-5-0069",
@@ -22596,8 +22676,9 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "te\u02c8m\u00e6l"
     },
     {
       "id": "cand-a2-5-0070",
@@ -22607,13 +22688,15 @@
       "tags": [
         "noun",
         "unit-a2-5c",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Tagged pronunciation because the word defies its spelling: a long vowel in the second syllable. Confirmed against TDK where it lists a telaffuz. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "notes": "Tagged pronunciation because the word defies its spelling: a long vowel in the second syllable. Confirmed against TDK where it lists a telaffuz. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
       "status": "approved",
       "hint_tr_en": "(the star sign; the word also means scales)",
-      "hint_en_tr": "(star sign)"
+      "hint_en_tr": "(star sign)",
+      "pron_tr": "te\u027e\u0251\u02d0\u02c8zi"
     },
     {
       "id": "cand-a2-5-0071",
@@ -22626,8 +22709,9 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "u\u02c8zun sy\u027e\u02c8mec"
     },
     {
       "id": "cand-a2-5-0072",
@@ -22640,8 +22724,9 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "j\u0251k\u026fn\u02c8d\u0251"
     },
     {
       "id": "cand-a2-5-0073",
@@ -22654,10 +22739,11 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
       "status": "approved",
       "hint_tr_en": "(the star sign; the word also means bow)",
-      "hint_en_tr": "(star sign)"
+      "hint_en_tr": "(star sign)",
+      "pron_tr": "\u02c8j\u0251j"
     },
     {
       "id": "cand-a2-5-0074",
@@ -22670,10 +22756,11 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
       "status": "approved",
       "hint_tr_en": "(the star sign; the word also means crab)",
-      "hint_en_tr": "(star sign)"
+      "hint_en_tr": "(star sign)",
+      "pron_tr": "j\u00e6n\u02c8\u025fet\u0283"
     },
     {
       "id": "cand-a2-5-0075",
@@ -22683,11 +22770,13 @@
       "tags": [
         "adverb",
         "unit-a2-5c",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Tagged pronunciation because the word defies its spelling: stressed on the first syllable. Confirmed against TDK where it lists a telaffuz. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "Tagged pronunciation because the word defies its spelling: stressed on the first syllable. Confirmed against TDK where it lists a telaffuz. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "\u02c8jine"
     },
     {
       "id": "cand-a2-5-0076",
@@ -22700,8 +22789,9 @@
         "unit-a2"
       ],
       "source": "A2-5C reading exercise S\u00d6ZL\u00dcK (Turkishle web)",
-      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "jycs\u00e6l\u02c8mec"
     },
     {
       "id": "cand-a2-5-0077",
@@ -22714,8 +22804,9 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "t\u0283ok\u02c8t\u0251n"
     },
     {
       "id": "cand-a2-5-0078",
@@ -22725,11 +22816,13 @@
       "tags": [
         "verb",
         "unit-a2-5c",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Tagged pronunciation because the word defies its spelling: \u015fahit has a long first vowel. Confirmed against TDK where it lists a telaffuz. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "Tagged pronunciation because the word defies its spelling: \u015fahit has a long first vowel. Confirmed against TDK where it lists a telaffuz. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "\u0283\u0251\u02d0\u02c8hit o\u026b\u02c8m\u0251k"
     },
     {
       "id": "cand-a2-5-0079",
@@ -22759,10 +22852,11 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Same spelling as the deck's bal\u0131k = fish but a different sense. Hidden by the same form-based test as aslan. Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "notes": "Same spelling as the deck's bal\u0131k = fish but a different sense. Hidden by the same form-based test as aslan. Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
       "status": "approved",
       "hint_tr_en": "(the star sign)",
-      "hint_en_tr": "(star sign)"
+      "hint_en_tr": "(star sign)",
+      "pron_tr": "b\u0251\u02c8\u026b\u026fk"
     },
     {
       "id": "cand-a2-5-0081",
@@ -22775,9 +22869,10 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "The deck has madde = item (an entry in a document); A2-5C teaches the material sense. CLAUDE.md already anticipated this split, and the form-based test hid it. Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "notes": "The deck has madde = item (an entry in a document); A2-5C teaches the material sense. CLAUDE.md already anticipated this split, and the form-based test hid it. Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
       "status": "approved",
-      "hint_tr_en": "(a material)"
+      "hint_tr_en": "(a material)",
+      "pron_tr": "m\u0251d\u02c8de"
     },
     {
       "id": "cand-base-0001",
@@ -22941,11 +23036,13 @@
       "tags": [
         "pronoun",
         "unit-a1-4a",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "base word of \u201cBen ka\u00e7ar!\u201d (A1-4A, Turkishle)",
-      "notes": "Added for the e allophony: a closed syllable before n gives the open [\u00e6], so this sounds closer to Finnish \"b\u00e4n\" than \"ben\". One of the first words a learner meets and one of the easiest to say with the wrong vowel. Convention: IPA, with \u02c8 before the stressed syllable, \u02d0 for length, [\u00e6] vs [e] for the two e qualities, [c]/[\u025f] for palatalised k/g, and [l] vs [\u026b] for clear and dark l. Transcribed by hand \u2014 TDK supplies length, stress and a prose note on l, but not the vowel allophony or the k/g palatalisation, so this cannot be generated. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "Added for the e allophony: a closed syllable before n gives the open [\u00e6], so this sounds closer to Finnish \"b\u00e4n\" than \"ben\". One of the first words a learner meets and one of the easiest to say with the wrong vowel. Convention: IPA, with \u02c8 before the stressed syllable, \u02d0 for length, [\u00e6] vs [e] for the two e qualities, [c]/[\u025f] for palatalised k/g, and [l] vs [\u026b] for clear and dark l. Transcribed by hand \u2014 TDK supplies length, stress and a prose note on l, but not the vowel allophony or the k/g palatalisation, so this cannot be generated. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "b\u00e6n"
     },
     {
       "id": "cand-base-0013",

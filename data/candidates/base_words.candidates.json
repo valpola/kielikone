@@ -164,11 +164,13 @@
       "tags": [
         "pronoun",
         "unit-a1-4a",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "base word of “Ben kaçar!” (A1-4A, Turkishle)",
-      "notes": "Added for the e allophony: a closed syllable before n gives the open [æ], so this sounds closer to Finnish \"bän\" than \"ben\". One of the first words a learner meets and one of the easiest to say with the wrong vowel. Convention: IPA, with ˈ before the stressed syllable, ː for length, [æ] vs [e] for the two e qualities, [c]/[ɟ] for palatalised k/g, and [l] vs [ɫ] for clear and dark l. Transcribed by hand — TDK supplies length, stress and a prose note on l, but not the vowel allophony or the k/g palatalisation, so this cannot be generated. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
-      "status": "approved"
+      "notes": "Added for the e allophony: a closed syllable before n gives the open [æ], so this sounds closer to Finnish \"bän\" than \"ben\". One of the first words a learner meets and one of the easiest to say with the wrong vowel. Convention: IPA, with ˈ before the stressed syllable, ː for length, [æ] vs [e] for the two e qualities, [c]/[ɟ] for palatalised k/g, and [l] vs [ɫ] for clear and dark l. Transcribed by hand — TDK supplies length, stress and a prose note on l, but not the vowel allophony or the k/g palatalisation, so this cannot be generated. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the æ before a sonorant is attested (en.wiktionary gives element /eleˈmænt/, ders /dæɾs/, cömert /dʒœˈmæɾt/) and the learner confirms it by ear. Only the æ before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "status": "approved",
+      "pron_tr": "bæn"
     },
     {
       "id": "cand-base-0013",

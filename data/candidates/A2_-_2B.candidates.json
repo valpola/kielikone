@@ -358,9 +358,10 @@
         "unit-a2-2b"
       ],
       "source": "A2_-_2B.pdf",
-      "notes": "Tip added when A2-5C introduced aslan as the star sign Leo: the two share a spelling, so TR->EN needs to say which is wanted.",
+      "notes": "Tip added when A2-5C introduced aslan as the star sign Leo: the two share a spelling, so TR->EN needs to say which is wanted. Restored after the withdrawal was found to be an over-correction: the æ before a sonorant is attested (en.wiktionary gives element /eleˈmænt/, ders /dæɾs/, cömert /dʒœˈmæɾt/) and the learner confirms it by ear. Only the æ before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
       "status": "approved",
-      "hint_tr_en": "(the animal)"
+      "hint_tr_en": "(the animal)",
+      "pron_tr": "ɑsˈɫɑn"
     },
     {
       "id": "cand-a2-2b-0026",
@@ -387,9 +388,10 @@
         "unit-a2-2b"
       ],
       "source": "A2_-_2B.pdf",
-      "notes": "Tip added when A2-5C introduced balık as the star sign Pisces.",
+      "notes": "Tip added when A2-5C introduced balık as the star sign Pisces. Restored after the withdrawal was found to be an over-correction: the æ before a sonorant is attested (en.wiktionary gives element /eleˈmænt/, ders /dæɾs/, cömert /dʒœˈmæɾt/) and the learner confirms it by ear. Only the æ before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
       "status": "approved",
-      "hint_tr_en": "(the animal)"
+      "hint_tr_en": "(the animal)",
+      "pron_tr": "bɑˈɫɯk"
     },
     {
       "id": "cand-a2-2b-0028",

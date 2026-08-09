@@ -269,10 +269,11 @@
         "unit-a2"
       ],
       "source": "A2-3A Kelime Listesi (Turkishle coursebook)",
-      "notes": "Tip added when A2-5C introduced madde = substance: the two senses share a spelling, so TR->EN has to say which is wanted.",
+      "notes": "Tip added when A2-5C introduced madde = substance: the two senses share a spelling, so TR->EN has to say which is wanted. Restored after the withdrawal was found to be an over-correction: the æ before a sonorant is attested (en.wiktionary gives element /eleˈmænt/, ders /dæɾs/, cömert /dʒœˈmæɾt/) and the learner confirms it by ear. Only the æ before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
       "status": "approved",
       "hint_en_tr": "(e.g. an entry in a document)",
-      "hint_tr_en": "(e.g. an entry in a document)"
+      "hint_tr_en": "(e.g. an entry in a document)",
+      "pron_tr": "mɑdˈde"
     },
     {
       "id": "cand-a2-3-0020",

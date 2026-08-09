@@ -134,10 +134,13 @@ over a Turkish spelling in EN→TR.
   `rüzgâr` → `ɾyzˈɟɑɾ`.
 - **Stress**, where it is not final: `birçok` → `ˈbiɾtʃok`.
 - **The two `e` qualities.** The open `[æ]` is conditioned by a **following sonorant** — `ders`
-  is `dæɾs`, `benzer` is `benˈzæɾ` with `[æ]` only before the `r`. It is *not* "any closed
-  syllable": before an obstruent the vowel stays close-mid, so `direkt`, `akrep`, `şimşek` and
-  `evcil` all take `[e]`. Getting this rule wrong produced eleven bad transcriptions in one
-  batch, including `bæn` for `ben`, which Wiktionary gives as `/ˈben/`.
+  is `dæɾs`, `element` is `eleˈmænt`, `cömert` is `dʒøˈmæɾt`. It is *not* "any closed syllable":
+  before an obstruent the vowel stays close-mid, so `direkt`, `akrep`, `şimşek` and `evcil` all
+  take `[e]`. Stating the rule the loose way produced eleven bad transcriptions in one batch.
+  **Wiktionary's `/e/` in this position is not evidence against the `[æ]`** — it transcribes
+  broadly, and the same site gives `/eleˈmænt/` where it does mark the allophone. Withdrawing
+  correct transcriptions on that basis was itself an error; the learner's ear, checked against
+  TTS, settled it.
 - Also **`[l]` vs `[ɫ]`**, clear next to front vowels and dark next to back ones.
 
 **Coverage:** every A2-5 entry carries `pron_tr`; earlier units have it only on a handful of
