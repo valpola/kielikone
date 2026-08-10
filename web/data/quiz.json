@@ -17104,6 +17104,17 @@
       ]
     },
     {
+      "id": "cand-a2-4-0082",
+      "turkish": "duygu",
+      "english": "emotion",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4c",
+        "unit-a2"
+      ]
+    },
+    {
       "id": "cand-a2-5-0001",
       "turkish": "alan",
       "english": "area",

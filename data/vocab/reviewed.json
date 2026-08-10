@@ -21617,6 +21617,20 @@
       "status": "approved"
     },
     {
+      "id": "cand-a2-4-0082",
+      "turkish": "duygu",
+      "english": "emotion",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-4c",
+        "unit-a2"
+      ],
+      "status": "approved",
+      "source": "A2-4C coursebook dialogue (Kaan Tan interview, \u201ci\u00e7imdeki duygular\u0131\u201d); not in any unit vocabulary list",
+      "notes": "Spotted missing from a Turkishle \"are you B1?\" video, where it was the only unknown word. Turkishle never teaches it at any level: the base appears only inflected inside texts \u2014 the A2-4C interview, the A2-5C reading, the \u00dcnite 5 exam \u2014 and as the personal name Duygu in the A2 -mI\u015f examples, while B1.1 teaches duygusal in a text and duyguland\u0131rmak in a vocabulary list. Same pattern as ya\u011fmur against ya\u011fmurlu: the derivative gets a row, the base never does. Filed under A2-4C, its first occurrence, with no -extra marker, matching ilk, g\u00f6re and ofis \u2014 the marker is reserved for gap-fills that are not in the book at all, and this one is."
+    },
+    {
       "id": "cand-a2-5-0001",
       "turkish": "alan",
       "english": "area",
