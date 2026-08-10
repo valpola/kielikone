@@ -148,14 +148,15 @@ worked examples. The **`pronunciation` tag is not on everything** — it marks t
 their spelling (irregular stress, phonemic length, a `ğ` that lengthens rather than sounds), so
 the tag stays a useful filter rather than a synonym for "has a transcription".
 
-**`espeak-ng -q --ipa -v tr <word>`** is the third source and the one that settles `ğ`: it
-lengthens beside back vowels (`boğa` → `boːˈa`, `dağ` → `dˈaː`) and glides between front ones
-(`değer` → `dejˈɛr`). It also marks the `e` allophony independently (`ben` → `bˈæn` against
-`akrep` → `akrˈɛp`). **Do not take its stress** — it puts it on the final syllable almost
-regardless, contradicting TDK on `hâlâ`, `birçok` and `tiyatro` — and ignore its lax `ɪ`/`ɔ`,
-which Turkish does not have, and its failure to palatalise `k` before front vowels (`kedi` →
-`kedˈɪ`, should be `ceˈdi`). It also drops a vowel outright in `dağa` → `dˈaː`. Read it for
-segments, TDK and Wiktionary for stress and length.
+**eSpeak is not a source — it was tried and rejected.** `espeak-ng -q --ipa -v tr` is a
+letter-to-sound transducer with a short exception list, so it cannot know anything lexical. It
+misses the phonemic length in *every* Arabic/Persian loan tested — `misafir`, `mesela`, `adalet`,
+`ifade`, `sade`, `adet`, `terazi`, `vahşi` — which is precisely the class the field exists to
+record. It also ignores the circumflex (`rüzgâr` → `røzɟˈar`, wrong vowel), leaves `k`
+unpalatalised before front vowels, uses lax `ɪ`/`ɔ` that Turkish lacks, and drops a vowel in
+`dağa`. The subtler trap: **its agreement with a rule-derived transcription is not corroboration**,
+because it is the same rule computed twice. It briefly looked like independent confirmation of the
+`e` allophony and of `ğ` behaviour; it was neither.
 
 **Verify every transcription against a source before it goes in** — `scripts/check_pron.py`
 looks each word up on en.wiktionary (Turkish section) and tr.wiktionary and prints their IPA
