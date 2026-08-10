@@ -23,6 +23,8 @@ import json
 import re
 import sys
 import time
+import shutil
+import subprocess
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -71,6 +73,23 @@ def fetch(site: str, word: str, tries: int = 3) -> list[str]:
     return out[:3]
 
 
+def espeak(word: str) -> str:
+    """eSpeak's guess, as a third opinion.
+
+    Strong where the written sources are weakest — it models ğ properly
+    (lengthening beside back vowels, a [j] glide between front ones) and marks
+    the e allophony. Unreliable for stress, which it puts on the final syllable
+    almost regardless, and it neither palatalises k before front vowels nor
+    avoids lax ɪ/ɔ, which Turkish does not have. Read it for segments, not for
+    stress.
+    """
+    if not shutil.which("espeak-ng"):
+        return ""
+    out = subprocess.run(["espeak-ng", "-q", "--ipa", "-v", "tr", word],
+                         capture_output=True, text=True)
+    return out.stdout.strip().replace("\n", " ")
+
+
 def heads(turkish: str) -> list[str]:
     """Look up the lexical head, not the phrase: 'şahit olmak' -> 'şahit'."""
     parts = [p.strip() for p in turkish.split("/") if p.strip()]
@@ -99,8 +118,8 @@ def main() -> int:
         items = [i for i in items if i.get("pron_tr")]
 
     agree = differ = nosource = 0
-    print(f"{'word':22s} {'deck':22s} {'en.wiktionary':26s} tr.wiktionary")
-    print("-" * 100)
+    print(f"{'word':22s} {'deck':22s} {'en.wiktionary':22s} {'tr.wiktionary':20s} eSpeak")
+    print("-" * 118)
     for item in sorted(items, key=lambda i: i["turkish"]):
         for head in heads(item["turkish"]):
             try:
@@ -123,8 +142,8 @@ def main() -> int:
                 flag = "ok" if any(norm(mine) == norm(x) for x in en + tr) else "DIFFERS"
                 agree += flag == "ok"
                 differ += flag == "DIFFERS"
-            print(f"{head:22s} {mine:22s} {(en[0] if en else '—')[:25]:26s} "
-                  f"{(tr[0] if tr else '—')[:22]:24s} {flag}")
+            print(f"{head:22s} {mine:22s} {(en[0] if en else '—')[:21]:22s} "
+                  f"{(tr[0] if tr else '—')[:19]:20s} {espeak(head)[:20]:22s} {flag}")
     print(f"\nmatched {agree}, differ {differ}, no source {nosource}")
     return 0
 

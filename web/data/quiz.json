@@ -17184,8 +17184,10 @@
       "tags": [
         "noun",
         "unit-a2-5a",
-        "unit-a2"
-      ]
+        "unit-a2",
+        "pronunciation"
+      ],
+      "pron_tr": "\u025fyn \u026f\u0283\u026f\u02d0\u02c8\u026f"
     },
     {
       "id": "cand-a2-5-0008",
@@ -17712,10 +17714,12 @@
       "tags": [
         "noun",
         "unit-a2-5c",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "hint_tr_en": "(the star sign; the word also means bull)",
-      "hint_en_tr": "(star sign)"
+      "hint_en_tr": "(star sign)",
+      "pron_tr": "bo\u02d0\u02c8\u0251"
     },
     {
       "id": "cand-a2-5-0051",
@@ -17752,7 +17756,7 @@
         "unit-a2",
         "pronunciation"
       ],
-      "pron_tr": "dei\u02c8\u0283im"
+      "pron_tr": "deji\u02c8\u0283im"
     },
     {
       "id": "cand-a2-5-0054",

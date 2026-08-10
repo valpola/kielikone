@@ -148,6 +148,15 @@ worked examples. The **`pronunciation` tag is not on everything** — it marks t
 their spelling (irregular stress, phonemic length, a `ğ` that lengthens rather than sounds), so
 the tag stays a useful filter rather than a synonym for "has a transcription".
 
+**`espeak-ng -q --ipa -v tr <word>`** is the third source and the one that settles `ğ`: it
+lengthens beside back vowels (`boğa` → `boːˈa`, `dağ` → `dˈaː`) and glides between front ones
+(`değer` → `dejˈɛr`). It also marks the `e` allophony independently (`ben` → `bˈæn` against
+`akrep` → `akrˈɛp`). **Do not take its stress** — it puts it on the final syllable almost
+regardless, contradicting TDK on `hâlâ`, `birçok` and `tiyatro` — and ignore its lax `ɪ`/`ɔ`,
+which Turkish does not have, and its failure to palatalise `k` before front vowels (`kedi` →
+`kedˈɪ`, should be `ceˈdi`). It also drops a vowel outright in `dağa` → `dˈaː`. Read it for
+segments, TDK and Wiktionary for stress and length.
+
 **Verify every transcription against a source before it goes in** — `scripts/check_pron.py`
 looks each word up on en.wiktionary (Turkish section) and tr.wiktionary and prints their IPA
 beside the deck's. Two hand-written batches were checked this way and most of both had to be

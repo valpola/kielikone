@@ -101,11 +101,13 @@
       "tags": [
         "noun",
         "unit-a2-5a",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Tagged pronunciation because the word defies its spelling: the ğ lengthens rather than sounding. Confirmed against TDK where it lists a telaffuz. Corrected from ɟyn ɯʃɯˈɯː to ɟyn ɯʃɯːˈɯ on the learner's ear: the ğ lengthens the preceding ı; same class as oğlak and doğrudan. The first transcription put the length on the following vowel, contradicting the rule applied to oğlak and doğrudan in the same batch. Transcription removed: ğ behaves differently in different words — lengthening, reducing to a glide, or vanishing — and this one was produced by applying a single rule across contexts rather than from evidence. Left empty rather than guessed, on the learner's instruction that a wrong transcription is worse than none. Audio for the word is in resources/pron_audio/; restore the field only once it has been checked by ear.",
-      "status": "approved"
+      "notes": "Tagged pronunciation because the word defies its spelling: the ğ lengthens rather than sounding. Confirmed against TDK where it lists a telaffuz. Corrected from ɟyn ɯʃɯˈɯː to ɟyn ɯʃɯːˈɯ on the learner's ear: the ğ lengthens the preceding ı; same class as oğlak and doğrudan. The first transcription put the length on the following vowel, contradicting the rule applied to oğlak and doğrudan in the same batch. Transcription removed: ğ behaves differently in different words — lengthening, reducing to a glide, or vanishing — and this one was produced by applying a single rule across contexts rather than from evidence. Left empty rather than guessed, on the learner's instruction that a wrong transcription is worse than none. Audio for the word is in resources/pron_audio/; restore the field only once it has been checked by ear. Restored with eSpeak as the deciding source: eSpeak gives ɯʃɯɯˈɯ for ışığı, which is this with the length written as a doubled vowel. The ğ lengthens rather than sounding, as in oğlak.",
+      "status": "approved",
+      "pron_tr": "ɟyn ɯʃɯːˈɯ"
     },
     {
       "id": "cand-a2-5-0008",
@@ -758,13 +760,15 @@
       "tags": [
         "noun",
         "unit-a2-5c",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Tagged pronunciation because the word defies its spelling: the ğ is not a consonant here — it lengthens the vowel around it. Confirmed against TDK where it lists a telaffuz. Corrected from boˈɑː to boːˈɑ on the learner's ear: the ğ lengthens the preceding o and is not itself pronounced. The first transcription put the length on the following vowel, contradicting the rule applied to oğlak and doğrudan in the same batch. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source.",
+      "notes": "Tagged pronunciation because the word defies its spelling: the ğ is not a consonant here — it lengthens the vowel around it. Confirmed against TDK where it lists a telaffuz. Corrected from boˈɑː to boːˈɑ on the learner's ear: the ğ lengthens the preceding o and is not itself pronounced. The first transcription put the length on the following vowel, contradicting the rule applied to oğlak and doğrudan in the same batch. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored with eSpeak as the deciding source: eSpeak gives boːˈa and the learner heard bo:ˈa; both wiktionaries write the o short, but broadly. Two independent narrow sources against one broad one, so it goes back in.",
       "status": "approved",
       "hint_tr_en": "(the star sign; the word also means bull)",
-      "hint_en_tr": "(star sign)"
+      "hint_en_tr": "(star sign)",
+      "pron_tr": "boːˈɑ"
     },
     {
       "id": "cand-a2-5-0051",
@@ -808,9 +812,9 @@
         "pronunciation"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Tagged pronunciation because the word defies its spelling: the ğ between front vowels reduces to a glide. Confirmed against TDK where it lists a telaffuz. Transcription removed: ğ behaves differently in different words — lengthening, reducing to a glide, or vanishing — and this one was produced by applying a single rule across contexts rather than from evidence. Left empty rather than guessed, on the learner's instruction that a wrong transcription is worse than none. Audio for the word is in resources/pron_audio/; restore the field only once it has been checked by ear. Restored from a source rather than a rule: tr.wiktionary de‿iˈʃim. ğ lengthens the preceding vowel before a consonant (oğlak, doğrudan) but not between vowels (değişim), which is the distinction the earlier blanket rule missed.",
+      "notes": "Tagged pronunciation because the word defies its spelling: the ğ between front vowels reduces to a glide. Confirmed against TDK where it lists a telaffuz. Transcription removed: ğ behaves differently in different words — lengthening, reducing to a glide, or vanishing — and this one was produced by applying a single rule across contexts rather than from evidence. Left empty rather than guessed, on the learner's instruction that a wrong transcription is worse than none. Audio for the word is in resources/pron_audio/; restore the field only once it has been checked by ear. Restored from a source rather than a rule: tr.wiktionary de‿iˈʃim. ğ lengthens the preceding vowel before a consonant (oğlak, doğrudan) but not between vowels (değişim), which is the distinction the earlier blanket rule missed. Refined from deiˈʃim: eSpeak gives dejˈiʃɪm and the same glide shows in değer → dejˈɛr, so the ğ between front vowels is a [j] rather than plain hiatus.",
       "status": "approved",
-      "pron_tr": "deiˈʃim"
+      "pron_tr": "dejiˈʃim"
     },
     {
       "id": "cand-a2-5-0054",
