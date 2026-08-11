@@ -142,8 +142,9 @@
         "noun"
       ],
       "source": "A1_-_4A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "çocuğu"
     },
     {
       "id": "cand-a1-4a-0011",
@@ -257,8 +258,9 @@
         "noun"
       ],
       "source": "A1_-_4A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "gözlüğü"
     },
     {
       "id": "cand-a1-4a-0019",
@@ -384,8 +386,9 @@
         "noun"
       ],
       "source": "A1_-_4A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "oğlu / oğulu"
     },
     {
       "id": "cand-a1-4a-0028",
@@ -398,8 +401,9 @@
         "noun"
       ],
       "source": "A1_-_4A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "oyuncağı"
     },
     {
       "id": "cand-a1-4a-0029",
@@ -440,8 +444,9 @@
         "noun"
       ],
       "source": "A1_-_4A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "tarağı"
     },
     {
       "id": "cand-a1-4a-0032",
@@ -554,8 +559,9 @@
         "adverb"
       ],
       "source": "A1_-_4A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "artığı"
     }
   ]
 }

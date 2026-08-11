@@ -125,8 +125,9 @@
         "unit-a1"
       ],
       "source": "A1-4A grammar/transcript (Turkishle coursebook)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "omzu / omuzu"
     },
     {
       "id": "cand-a1-4cb-0010",
@@ -139,8 +140,9 @@
         "unit-a1"
       ],
       "source": "A1-4A grammar/transcript (Turkishle coursebook)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "fikri"
     },
     {
       "id": "cand-a1-4cb-0011",
@@ -153,8 +155,9 @@
         "unit-a1"
       ],
       "source": "A1-4A grammar/transcript (Turkishle coursebook)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "boynu"
     },
     {
       "id": "cand-a1-4cb-0012",
@@ -167,8 +170,9 @@
         "unit-a1"
       ],
       "source": "A1-4A grammar/transcript (Turkishle coursebook)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "rengi"
     },
     {
       "id": "cand-a1-4cb-0013",
@@ -195,8 +199,9 @@
         "unit-a1"
       ],
       "source": "A1-4A grammar/transcript (Turkishle coursebook)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "meleği"
     },
     {
       "id": "cand-a1-4cb-0015",
@@ -343,8 +348,9 @@
         "unit-a1"
       ],
       "source": "A1-4C grammar/transcript (Turkishle coursebook)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "dileği"
     },
     {
       "id": "cand-a1-4cb-0025",

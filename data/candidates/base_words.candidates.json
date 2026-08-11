@@ -83,8 +83,9 @@
         "unit-a2"
       ],
       "source": "base word of “çocuk sahibi olmak” (A2-3B, Turkishle)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "sahibi"
     },
     {
       "id": "cand-base-0007",
@@ -254,8 +255,9 @@
         "unit-a1"
       ],
       "source": "base word of “erkek kardeş” (A1-4A, Turkishle)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "erkeği"
     },
     {
       "id": "cand-base-0019",
@@ -564,8 +566,9 @@
         "unit-a1"
       ],
       "source": "base word of “Özür dilerim.” (A1-1A, Turkishle)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "özrü"
     },
     {
       "id": "cand-base-0041",
@@ -578,8 +581,9 @@
         "unit-a1"
       ],
       "source": "base word of “temizlik yapmak” (A1-3A, Turkishle)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "temizliği"
     },
     {
       "id": "cand-base-0042",
@@ -704,8 +708,9 @@
         "unit-a2"
       ],
       "source": "base word of “alt geçit” (A2-1A, Turkishle)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "geçidi"
     },
     {
       "id": "cand-base-0051",
@@ -746,8 +751,9 @@
         "unit-a2"
       ],
       "source": "base word of “takip etmek” (A2-1A, Turkishle)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "takibi"
     },
     {
       "id": "cand-base-0054",
@@ -802,9 +808,10 @@
         "unit-a1"
       ],
       "source": "base word of “oruç tutmak” (A1-4C, Turkishle)",
-      "notes": "",
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
-      "hint_en_tr": "(religious fasting)"
+      "hint_en_tr": "(religious fasting)",
+      "infl_tr": "orucu"
     },
     {
       "id": "cand-base-0058",
@@ -817,8 +824,9 @@
         "unit-a1"
       ],
       "source": "base word of “evlilik yıldönümü” (A1-3C, Turkishle)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "evliliği"
     },
     {
       "id": "cand-base-0059",
@@ -831,8 +839,9 @@
         "unit-a1"
       ],
       "source": "base word of “bulaşık makinesi” (A1-1B, Turkishle)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "bulaşığı"
     },
     {
       "id": "cand-base-0060",
@@ -915,8 +924,9 @@
         "unit-a2"
       ],
       "source": "base word of “cilt bakımı” (A2-3A, Turkishle)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "cildi"
     },
     {
       "id": "cand-base-0066",
@@ -1001,8 +1011,9 @@
         "unit-a2"
       ],
       "source": "base word of “klasik müzik” (A2-4B, Turkishle)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "klasiği"
     },
     {
       "id": "cand-base-0072",

@@ -139,8 +139,9 @@
         "unit-a2"
       ],
       "source": "A2-1 reading exercise SÖZLÜK (Turkishle web)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "çocukluğu"
     },
     {
       "id": "cand-a2-1rd-0011",
@@ -153,8 +154,9 @@
         "unit-a2"
       ],
       "source": "A2-1C coursebook (grammar-section example word, Turkishle)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "gerçeği"
     },
     {
       "id": "cand-a2-1rd-0012",

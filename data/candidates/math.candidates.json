@@ -110,8 +110,9 @@
         "unit-a1-extra"
       ],
       "source": "gap-fill: basic mathematics vocabulary, not in Turkishle A1/A2/B1; filed with the A1-2B numbers list",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "matematiği"
     },
     {
       "id": "cand-math-0008",
@@ -142,9 +143,10 @@
         "unit-a1-extra"
       ],
       "source": "gap-fill: basic mathematics vocabulary, not in Turkishle A1/A2/B1; filed with the A1-2B numbers list",
-      "notes": "",
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
-      "hint_tr_en": "(matematik)"
+      "hint_tr_en": "(matematik)",
+      "infl_tr": "üssü"
     },
     {
       "id": "cand-math-0010",

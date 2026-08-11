@@ -182,9 +182,10 @@
         "unit-a2"
       ],
       "source": "A2-3A Kelime Listesi (Turkishle coursebook)",
-      "notes": "",
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
-      "hint_en_tr": "(genre)"
+      "hint_en_tr": "(genre)",
+      "infl_tr": "fantastiği"
     },
     {
       "id": "cand-a2-3-0014",
@@ -283,11 +284,13 @@
       "tags": [
         "noun",
         "unit-a2-3a",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-3A Kelime Listesi (Turkishle coursebook)",
-      "notes": "also 'article' (journal/newspaper piece)",
-      "status": "approved"
+      "notes": "also 'article' (journal/newspaper piece) TDK gives maka:le and tr.wiktionary /ma.kaˈle/: long a in the second syllable, stress final (TDK marks stress only where it is not final).",
+      "status": "approved",
+      "pron_tr": "mɑkɑːˈle"
     },
     {
       "id": "cand-a2-3-0021",
@@ -342,8 +345,9 @@
         "unit-a2"
       ],
       "source": "A2-3A Kelime Listesi (Turkishle coursebook)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "romantiği"
     },
     {
       "id": "cand-a2-3-0025",
@@ -370,8 +374,9 @@
         "unit-a2"
       ],
       "source": "A2-3A Kelime Listesi (Turkishle coursebook)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "yolculuğu"
     },
     {
       "id": "cand-a2-3-0027",
@@ -1050,8 +1055,9 @@
         "unit-a2"
       ],
       "source": "A2-3C Kelime Listesi (Turkishle coursebook)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "korkağı"
     },
     {
       "id": "cand-a2-3-0075",

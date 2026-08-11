@@ -57,8 +57,9 @@
         "unit-a1"
       ],
       "source": "A1_-_0A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "\u00e7i\u00e7e\u011fi"
     },
     {
       "id": "cand-a1-0a-0005",
@@ -246,8 +247,9 @@
         "unit-a1"
       ],
       "source": "A1_-_0A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "nehri"
     },
     {
       "id": "cand-a1-0a-0018",
@@ -304,8 +306,9 @@
         "unit-a1"
       ],
       "source": "A1_-_0A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "resmi"
     },
     {
       "id": "cand-a1-0a-0022",
@@ -350,8 +353,9 @@
         "unit-a2-1c"
       ],
       "source": "A1_-_0A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "taba\u011f\u0131"
     },
     {
       "id": "cand-a1-0a-0025",
@@ -365,8 +369,9 @@
         "unit-a1-5b"
       ],
       "source": "A1_-_0A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "u\u00e7a\u011f\u0131"
     },
     {
       "id": "cand-a1-0a-0026",
@@ -962,8 +967,9 @@
         "unit-a1"
       ],
       "source": "A1_-_1B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "dolab\u0131"
     },
     {
       "id": "cand-a1-1b-0007",
@@ -1005,8 +1011,9 @@
         "unit-a1"
       ],
       "source": "A1_-_1B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "gard\u0131robu"
     },
     {
       "id": "cand-a1-1b-0011",
@@ -1090,8 +1097,9 @@
         "unit-a1"
       ],
       "source": "A1_-_1B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "koltu\u011fu"
     },
     {
       "id": "cand-a1-1b-0017",
@@ -1132,8 +1140,9 @@
         "unit-a1"
       ],
       "source": "A1_-_1B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "mutfa\u011f\u0131"
     },
     {
       "id": "cand-a1-1b-0021",
@@ -1160,9 +1169,10 @@
         "unit-a1"
       ],
       "source": "A1_-_1B.pdf",
-      "notes": "",
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
-      "hint_tr_en": "(\u0131s\u0131t\u0131c\u0131)"
+      "hint_tr_en": "(\u0131s\u0131t\u0131c\u0131)",
+      "infl_tr": "oca\u011f\u0131"
     },
     {
       "id": "cand-a1-1b-0023",
@@ -1273,8 +1283,9 @@
         "unit-a1"
       ],
       "source": "A1_-_1B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "yata\u011f\u0131"
     },
     {
       "id": "cand-a1-1b-0031",
@@ -1301,8 +1312,9 @@
         "unit-a1"
       ],
       "source": "A1_-_1B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "yast\u0131\u011f\u0131"
     },
     {
       "id": "cand-a1-1b-0033",
@@ -1416,8 +1428,9 @@
         "unit-a1"
       ],
       "source": "A1-1B grammar section (Turkishle coursebook)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "bebe\u011fi"
     },
     {
       "id": "cand-a1-1cb-0008",
@@ -1613,8 +1626,9 @@
         "unit-a1"
       ],
       "source": "A1-1B Listening exercise (Turkishle course)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "kalabal\u0131\u011f\u0131"
     },
     {
       "id": "cand-a1-1web-0013",
@@ -1683,8 +1697,9 @@
         "unit-a1"
       ],
       "source": "A1_-_2A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "band\u0131"
     },
     {
       "id": "cand-a1-2a-0005",
@@ -1871,8 +1886,9 @@
         "unit-a1"
       ],
       "source": "A1_-_2A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "kalemli\u011fi"
     },
     {
       "id": "cand-a1-2a-0019",
@@ -1928,8 +1944,9 @@
         "unit-a1"
       ],
       "source": "A1_-_2A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "kitab\u0131"
     },
     {
       "id": "cand-a1-2a-0023",
@@ -2333,8 +2350,9 @@
         "unit-a1"
       ],
       "source": "A1_-_2B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "adedi"
     },
     {
       "id": "cand-a1-2b-0002",
@@ -2389,8 +2407,9 @@
         "unit-a1"
       ],
       "source": "A1_-_2B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "armudu"
     },
     {
       "id": "cand-a1-2b-0006",
@@ -2405,8 +2424,9 @@
         "unit-a2-1c"
       ],
       "source": "A1_-_2B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "avucu"
     },
     {
       "id": "cand-a1-2b-0007",
@@ -2470,10 +2490,11 @@
         "unit-a2-2b"
       ],
       "source": "A1_-_2B.pdf",
-      "notes": "Tip added when A2-5C introduced bal\u0131k as the star sign Pisces. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "notes": "Tip added when A2-5C introduced bal\u0131k as the star sign Pisces. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone. Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
       "hint_tr_en": "(the animal)",
-      "pron_tr": "b\u0251\u02c8\u026b\u026fk"
+      "pron_tr": "b\u0251\u02c8\u026b\u026fk",
+      "infl_tr": "bal\u0131\u011f\u0131"
     },
     {
       "id": "cand-a1-2b-0011",
@@ -2488,9 +2509,10 @@
         "unit-a2-1c"
       ],
       "source": "A1_-_2B.pdf",
-      "notes": "",
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
-      "hint_en_tr": "(for drinking)"
+      "hint_en_tr": "(for drinking)",
+      "infl_tr": "barda\u011f\u0131"
     },
     {
       "id": "cand-a1-2b-0012",
@@ -2545,8 +2567,9 @@
         "unit-a1"
       ],
       "source": "A1_-_2B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "\u00e7ile\u011fi"
     },
     {
       "id": "cand-a1-2b-0016",
@@ -2647,8 +2670,9 @@
         "unit-a2-1b"
       ],
       "source": "A1_-_2B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "ekme\u011fi"
     },
     {
       "id": "cand-a1-2b-0023",
@@ -2675,8 +2699,9 @@
         "unit-a1"
       ],
       "source": "A1_-_2B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "eri\u011fi"
     },
     {
       "id": "cand-a1-2b-0025",
@@ -2733,8 +2758,9 @@
         "unit-a1"
       ],
       "source": "A1_-_2B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "f\u0131nd\u0131\u011f\u0131"
     },
     {
       "id": "cand-a1-2b-0030",
@@ -2776,8 +2802,9 @@
         "unit-a1"
       ],
       "source": "A1_-_2B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "havucu"
     },
     {
       "id": "cand-a1-2b-0033",
@@ -2833,8 +2860,9 @@
         "unit-a1"
       ],
       "source": "A1_-_2B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "\u0131spana\u011f\u0131"
     },
     {
       "id": "cand-a1-2b-0037",
@@ -2875,8 +2903,9 @@
         "unit-a1"
       ],
       "source": "A1_-_2B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "kaba\u011f\u0131"
     },
     {
       "id": "cand-a1-2b-0040",
@@ -2889,8 +2918,9 @@
         "unit-a1"
       ],
       "source": "A1_-_2B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "kal\u0131b\u0131"
     },
     {
       "id": "cand-a1-2b-0041",
@@ -3005,8 +3035,9 @@
         "unit-a2-1b"
       ],
       "source": "A1_-_2B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "keki\u011fi"
     },
     {
       "id": "cand-a1-2b-0050",
@@ -3218,8 +3249,9 @@
         "unit-a1"
       ],
       "source": "A1_-_2B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "mercime\u011fi"
     },
     {
       "id": "cand-a1-2b-0066",
@@ -3437,8 +3469,9 @@
         "unit-a1"
       ],
       "source": "A1_-_2B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "salatal\u0131\u011f\u0131"
     },
     {
       "id": "cand-a1-2b-0081",
@@ -3465,8 +3498,9 @@
         "unit-a1"
       ],
       "source": "A1_-_2B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "sar\u0131msa\u011f\u0131"
     },
     {
       "id": "cand-a1-2b-0084",
@@ -3556,8 +3590,9 @@
         "unit-a2-2b"
       ],
       "source": "A1_-_2B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "tavu\u011fu"
     },
     {
       "id": "cand-a1-2b-0091",
@@ -3660,8 +3695,9 @@
         "unit-a2-1b"
       ],
       "source": "A1_-_2B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "yo\u011furdu"
     },
     {
       "id": "cand-a1-2b-0099",
@@ -3766,8 +3802,9 @@
         "unit-a1"
       ],
       "source": "A1_-_2C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "yazl\u0131\u011f\u0131"
     },
     {
       "id": "cand-a1-2c-0004",
@@ -3780,8 +3817,9 @@
         "unit-a1"
       ],
       "source": "A1_-_2C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "\u00f6zelli\u011fi"
     },
     {
       "id": "cand-a1-2c-0005",
@@ -3808,8 +3846,9 @@
         "unit-a1"
       ],
       "source": "A1_-_2C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "b\u00fcy\u00fc\u011f\u00fc"
     },
     {
       "id": "cand-a1-2c-0007",
@@ -3864,9 +3903,10 @@
         "unit-a1"
       ],
       "source": "A1_-_2C.pdf",
-      "notes": "",
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
-      "hint_en_tr": "(untidy, things scattered about)"
+      "hint_en_tr": "(untidy, things scattered about)",
+      "infl_tr": "da\u011f\u0131n\u0131\u011f\u0131"
     },
     {
       "id": "cand-a1-2c-0011",
@@ -4006,8 +4046,9 @@
         "unit-a1"
       ],
       "source": "A1_-_2C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "genci"
     },
     {
       "id": "cand-a1-2c-0021",
@@ -4175,8 +4216,9 @@
         "unit-a1"
       ],
       "source": "A1_-_2C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "komi\u011fi"
     },
     {
       "id": "cand-a1-2c-0033",
@@ -4232,8 +4274,9 @@
         "unit-a1"
       ],
       "source": "A1_-_2C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "k\u00fc\u00e7\u00fc\u011f\u00fc"
     },
     {
       "id": "cand-a1-2c-0037",
@@ -4288,8 +4331,9 @@
         "unit-a1"
       ],
       "source": "A1_-_2C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "orta\u011f\u0131"
     },
     {
       "id": "cand-a1-2c-0041",
@@ -4572,9 +4616,10 @@
         "unit-a1"
       ],
       "source": "A1-2A grammar/dialogue (Turkishle coursebook)",
-      "notes": "",
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
-      "hint_en_tr": "(bus / transit)"
+      "hint_en_tr": "(bus / transit)",
+      "infl_tr": "dura\u011f\u0131"
     },
     {
       "id": "cand-a1-2cb-0003",
@@ -4601,8 +4646,9 @@
         "unit-a1"
       ],
       "source": "A1-2A grammar/dialogue (Turkishle coursebook)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "kasab\u0131"
     },
     {
       "id": "cand-a1-2cb-0005",
@@ -4671,8 +4717,9 @@
         "unit-a1"
       ],
       "source": "A1-2A Reading Comprehension (Turkishle web lesson)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "kitapl\u0131\u011f\u0131"
     },
     {
       "id": "cand-a1-2web-0002",
@@ -5515,8 +5562,9 @@
         "adjective"
       ],
       "source": "A1_-_3B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "karanl\u0131\u011f\u0131"
     },
     {
       "id": "cand-a1-3b-0059",
@@ -5529,8 +5577,9 @@
         "noun"
       ],
       "source": "A1_-_3B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "y\u00fcksekli\u011fi"
     },
     {
       "id": "cand-a1-3b-0060",
@@ -5923,8 +5972,9 @@
         "unit-a2-1c"
       ],
       "source": "A1_-_3C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "b\u0131\u00e7a\u011f\u0131"
     },
     {
       "id": "cand-a1-3c-0008",
@@ -5937,8 +5987,9 @@
         "noun"
       ],
       "source": "A1_-_3C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "cac\u0131\u011f\u0131"
     },
     {
       "id": "cand-a1-3c-0009",
@@ -5996,9 +6047,10 @@
         "noun"
       ],
       "source": "A1_-_3C.pdf",
-      "notes": "",
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
-      "hint_en_tr": "(in a restaurant)"
+      "hint_en_tr": "(in a restaurant)",
+      "infl_tr": "hesab\u0131"
     },
     {
       "id": "cand-a1-3c-0013",
@@ -6011,8 +6063,9 @@
         "noun"
       ],
       "source": "A1_-_3C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "i\u00e7ece\u011fi"
     },
     {
       "id": "cand-a1-3c-0014",
@@ -6057,8 +6110,9 @@
         "unit-a2-1c"
       ],
       "source": "A1_-_3C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "ka\u015f\u0131\u011f\u0131"
     },
     {
       "id": "cand-a1-3c-0017",
@@ -6071,8 +6125,9 @@
         "noun"
       ],
       "source": "A1_-_3C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "kebab\u0131"
     },
     {
       "id": "cand-a1-3c-0018",
@@ -6145,8 +6200,9 @@
         "noun"
       ],
       "source": "A1_-_3C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "levre\u011fi"
     },
     {
       "id": "cand-a1-3c-0023",
@@ -6245,8 +6301,9 @@
         "noun"
       ],
       "source": "A1_-_3C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "palamudu"
     },
     {
       "id": "cand-a1-3c-0031",
@@ -6363,8 +6420,9 @@
         "noun"
       ],
       "source": "A1_-_3C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "s\u00fctlac\u0131"
     },
     {
       "id": "cand-a1-3c-0040",
@@ -6377,8 +6435,9 @@
         "noun"
       ],
       "source": "A1_-_3C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "yiyece\u011fi"
     },
     {
       "id": "cand-a1-3c-0041",
@@ -6711,8 +6770,9 @@
         "noun"
       ],
       "source": "A1_-_4A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "\u00e7ocu\u011fu"
     },
     {
       "id": "cand-a1-4a-0011",
@@ -6798,8 +6858,9 @@
         "noun"
       ],
       "source": "A1_-_4A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "g\u00f6zl\u00fc\u011f\u00fc"
     },
     {
       "id": "cand-a1-4a-0019",
@@ -6926,8 +6987,9 @@
         "noun"
       ],
       "source": "A1_-_4A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "o\u011flu / o\u011fulu"
     },
     {
       "id": "cand-a1-4a-0028",
@@ -6940,8 +7002,9 @@
         "noun"
       ],
       "source": "A1_-_4A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "oyunca\u011f\u0131"
     },
     {
       "id": "cand-a1-4a-0029",
@@ -6982,8 +7045,9 @@
         "noun"
       ],
       "source": "A1_-_4A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "tara\u011f\u0131"
     },
     {
       "id": "cand-a1-4a-0032",
@@ -7097,8 +7161,9 @@
         "adverb"
       ],
       "source": "A1_-_4A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "art\u0131\u011f\u0131"
     },
     {
       "id": "cand-a1-4b-0001",
@@ -10639,8 +10704,9 @@
         "noun"
       ],
       "source": "A1_-_4C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "bayra\u011f\u0131"
     },
     {
       "id": "cand-a1-4c-0051",
@@ -10667,8 +10733,9 @@
         "noun"
       ],
       "source": "A1_-_4C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "b\u00f6ce\u011fi"
     },
     {
       "id": "cand-a1-4c-0053",
@@ -10711,8 +10778,9 @@
         "noun"
       ],
       "source": "A1_-_4C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "har\u00e7l\u0131\u011f\u0131"
     },
     {
       "id": "cand-a1-4c-0056",
@@ -10753,8 +10821,9 @@
         "noun"
       ],
       "source": "A1_-_4C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "mektubu"
     },
     {
       "id": "cand-a1-4c-0059",
@@ -10949,8 +11018,9 @@
         "unit-a1"
       ],
       "source": "A1-4A grammar/transcript (Turkishle coursebook)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "omzu / omuzu"
     },
     {
       "id": "cand-a1-4cb-0010",
@@ -10963,8 +11033,9 @@
         "unit-a1"
       ],
       "source": "A1-4A grammar/transcript (Turkishle coursebook)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "fikri"
     },
     {
       "id": "cand-a1-4cb-0011",
@@ -10977,8 +11048,9 @@
         "unit-a1"
       ],
       "source": "A1-4A grammar/transcript (Turkishle coursebook)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "boynu"
     },
     {
       "id": "cand-a1-4cb-0012",
@@ -10991,8 +11063,9 @@
         "unit-a1"
       ],
       "source": "A1-4A grammar/transcript (Turkishle coursebook)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "rengi"
     },
     {
       "id": "cand-a1-4cb-0013",
@@ -11019,8 +11092,9 @@
         "unit-a1"
       ],
       "source": "A1-4A grammar/transcript (Turkishle coursebook)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "mele\u011fi"
     },
     {
       "id": "cand-a1-4cb-0015",
@@ -11167,8 +11241,9 @@
         "unit-a1"
       ],
       "source": "A1-4C grammar/transcript (Turkishle coursebook)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "dile\u011fi"
     },
     {
       "id": "cand-a1-4cb-0025",
@@ -11510,9 +11585,10 @@
         "noun"
       ],
       "source": "A1_-_5A.pdf",
-      "notes": "",
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
-      "hint_tr_en": "(ay)"
+      "hint_tr_en": "(ay)",
+      "infl_tr": "Oca\u011f\u0131"
     },
     {
       "id": "cand-a1-5a-0025",
@@ -11665,8 +11741,9 @@
         "noun"
       ],
       "source": "A1_-_5A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "Aral\u0131\u011f\u0131"
     },
     {
       "id": "cand-a1-5a-0036",
@@ -11823,8 +11900,9 @@
         "noun"
       ],
       "source": "A1_-_5B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "g\u00fcnl\u00fc\u011f\u00fc"
     },
     {
       "id": "cand-a1-5b-0018",
@@ -11880,8 +11958,9 @@
         "noun"
       ],
       "source": "A1_-_5B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "kimli\u011fi"
     },
     {
       "id": "cand-a1-5b-0023",
@@ -12219,8 +12298,9 @@
         "unit-a1"
       ],
       "source": "A1_-_5C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "amac\u0131"
     },
     {
       "id": "cand-a1-5c-0017",
@@ -12376,8 +12456,9 @@
         "unit-a1"
       ],
       "source": "A1-5A grammar/transcript (Turkishle coursebook)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "\u00e7eyre\u011fi"
     },
     {
       "id": "cand-a1-5cb-0002",
@@ -12390,8 +12471,9 @@
         "unit-a1"
       ],
       "source": "A1-5A grammar/transcript (Turkishle coursebook)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "bu\u00e7u\u011fu"
     },
     {
       "id": "cand-a1-5cb-0003",
@@ -12418,8 +12500,9 @@
         "unit-a1"
       ],
       "source": "A1-5B grammar/transcript (Turkishle coursebook)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "gelece\u011fi"
     },
     {
       "id": "cand-a1-5cb-0005",
@@ -12488,8 +12571,9 @@
         "unit-a1"
       ],
       "source": "A1-5C grammar/transcript (Turkishle coursebook)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "trafi\u011fi"
     },
     {
       "id": "cand-a1-6a-0001",
@@ -12516,9 +12600,10 @@
         "unit-a1"
       ],
       "source": "A1_-_6A.pdf",
-      "notes": "",
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
-      "hint_en_tr": "(the everyday word)"
+      "hint_en_tr": "(the everyday word)",
+      "infl_tr": "\u015fehri"
     },
     {
       "id": "cand-a1-6a-0003",
@@ -12631,8 +12716,9 @@
         "unit-a1-6b"
       ],
       "source": "A1_-_6A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "soka\u011f\u0131"
     },
     {
       "id": "cand-a1-6a-0013",
@@ -12959,8 +13045,9 @@
         "unit-a1-6c"
       ],
       "source": "A1_-_6A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "uza\u011f\u0131"
     },
     {
       "id": "cand-a1-6a-0039",
@@ -13435,8 +13522,9 @@
         "unit-a1"
       ],
       "source": "A1_-_6C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "y\u00fckse\u011fi"
     },
     {
       "id": "cand-a1-6rd-0001",
@@ -14723,8 +14811,9 @@
         "unit-a1"
       ],
       "source": "A1 listening/dialogue exercises (Turkishle)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "kaya\u011f\u0131"
     },
     {
       "id": "cand-a1-listen-0031",
@@ -14922,8 +15011,9 @@
         "unit-a1"
       ],
       "source": "A1-4/5 reading exercise S\u00d6ZL\u00dcK (Turkishle web)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "teleferi\u011fi"
     },
     {
       "id": "cand-a1-rd-0010",
@@ -15132,8 +15222,9 @@
         "unit-a2-1a"
       ],
       "source": "A2_-_1A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "arac\u0131"
     },
     {
       "id": "cand-a2-1a-0015",
@@ -15230,8 +15321,9 @@
         "unit-a2-1a"
       ],
       "source": "A2_-_1A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "kav\u015fa\u011f\u0131"
     },
     {
       "id": "cand-a2-1a-0022",
@@ -15581,8 +15673,9 @@
         "unit-a2-1b"
       ],
       "source": "A2_-_1B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "bilekli\u011fi"
     },
     {
       "id": "cand-a2-1b-0017",
@@ -15637,8 +15730,9 @@
         "unit-a2-1b"
       ],
       "source": "A2_-_1B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "\u00e7orab\u0131"
     },
     {
       "id": "cand-a2-1b-0024",
@@ -15735,8 +15829,9 @@
         "unit-a2-1b"
       ],
       "source": "A2_-_1B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "g\u00f6mle\u011fi"
     },
     {
       "id": "cand-a2-1b-0034",
@@ -15791,8 +15886,9 @@
         "unit-a2-1b"
       ],
       "source": "A2_-_1B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "ket\u00e7ab\u0131"
     },
     {
       "id": "cand-a2-1b-0041",
@@ -15931,8 +16027,9 @@
         "unit-a2-1b"
       ],
       "source": "A2_-_1B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "marmelad\u0131"
     },
     {
       "id": "cand-a2-1b-0054",
@@ -16015,8 +16112,9 @@
         "unit-a2-1b"
       ],
       "source": "A2_-_1B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "\u00f6rde\u011fi"
     },
     {
       "id": "cand-a2-1b-0060",
@@ -16085,9 +16183,10 @@
         "unit-a2-1b"
       ],
       "source": "A2_-_1B.pdf",
-      "notes": "",
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
-      "hint_en_tr": "(uncooked / grain)"
+      "hint_en_tr": "(uncooked / grain)",
+      "infl_tr": "pirinci"
     },
     {
       "id": "cand-a2-1b-0069",
@@ -16142,8 +16241,9 @@
         "unit-a2-1b"
       ],
       "source": "A2_-_1B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "simidi"
     },
     {
       "id": "cand-a2-1b-0074",
@@ -16383,8 +16483,9 @@
         "unit-a2-1b"
       ],
       "source": "A2_-_1B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "y\u00fcz\u00fc\u011f\u00fc"
     },
     {
       "id": "cand-a2-1b-0098",
@@ -16454,9 +16555,10 @@
         "pronunciation"
       ],
       "source": "A2_-_1B.pdf",
-      "notes": "Long first vowel, and TDK notes the l is the clear [l] rather than the dark [\u026b] a following back vowel would normally give. Final e is open [\u00e6], closed by rt. Convention: IPA, with \u02c8 before the stressed syllable, \u02d0 for length, [\u00e6] vs [e] for the two e qualities, [c]/[\u025f] for palatalised k/g, and [l] vs [\u026b] for clear and dark l. Transcribed by hand \u2014 TDK supplies length, stress and a prose note on l, but not the vowel allophony or the k/g palatalisation, so this cannot be generated. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "notes": "Long first vowel, and TDK notes the l is the clear [l] rather than the dark [\u026b] a following back vowel would normally give. Final e is open [\u00e6], closed by rt. Convention: IPA, with \u02c8 before the stressed syllable, \u02d0 for length, [\u00e6] vs [e] for the two e qualities, [c]/[\u025f] for palatalised k/g, and [l] vs [\u026b] for clear and dark l. Transcribed by hand \u2014 TDK supplies length, stress and a prose note on l, but not the vowel allophony or the k/g palatalisation, so this cannot be generated. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone. Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
-      "pron_tr": "l\u0251\u02d0d\u0292i\u02c8v\u00e6\u027et"
+      "pron_tr": "l\u0251\u02d0d\u0292i\u02c8v\u00e6\u027et",
+      "infl_tr": "laciverdi"
     },
     {
       "id": "cand-a2-1b-0103",
@@ -16911,8 +17013,9 @@
         "unit-a2-1c"
       ],
       "source": "A2_-_1C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "\u00e7aydanl\u0131\u011f\u0131"
     },
     {
       "id": "cand-a2-1c-0040",
@@ -17094,8 +17197,9 @@
         "unit-a2-1c"
       ],
       "source": "A2_-_1C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "s\u00fczgeci"
     },
     {
       "id": "cand-a2-1c-0058",
@@ -17374,8 +17478,9 @@
         "unit-a2"
       ],
       "source": "A2-1 reading exercise S\u00d6ZL\u00dcK (Turkishle web)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "\u00e7ocuklu\u011fu"
     },
     {
       "id": "cand-a2-1rd-0011",
@@ -17388,8 +17493,9 @@
         "unit-a2"
       ],
       "source": "A2-1C coursebook (grammar-section example word, Turkishle)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "ger\u00e7e\u011fi"
     },
     {
       "id": "cand-a2-1rd-0012",
@@ -17461,8 +17567,9 @@
         "unit-a2-2a"
       ],
       "source": "A2_-_2A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "ah\u015fab\u0131"
     },
     {
       "id": "cand-a2-2a-0005",
@@ -17531,8 +17638,9 @@
         "unit-a2-2a"
       ],
       "source": "A2_-_2A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "topra\u011f\u0131"
     },
     {
       "id": "cand-a2-2a-0010",
@@ -18052,9 +18160,10 @@
         "unit-a2-2b"
       ],
       "source": "A2_-_2B.pdf",
-      "notes": "",
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "hint_en_tr": "(non-physical)",
-      "status": "approved"
+      "status": "approved",
+      "infl_tr": "bozu\u011fu"
     },
     {
       "id": "cand-a2-2b-0016",
@@ -18067,9 +18176,10 @@
         "unit-a2-2b"
       ],
       "source": "A2_-_2B.pdf",
-      "notes": "",
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "hint_en_tr": "(unusual / novel)",
-      "status": "approved"
+      "status": "approved",
+      "infl_tr": "de\u011fi\u015fi\u011fi"
     },
     {
       "id": "cand-a2-2b-0017",
@@ -18097,9 +18207,10 @@
         "unit-a2-2b"
       ],
       "source": "A2_-_2B.pdf",
-      "notes": "",
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "hint_en_tr": "(physical damage)",
-      "status": "approved"
+      "status": "approved",
+      "infl_tr": "k\u0131r\u0131\u011f\u0131"
     },
     {
       "id": "cand-a2-2b-0019",
@@ -18242,8 +18353,9 @@
         "unit-a2-2b"
       ],
       "source": "A2_-_2B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "e\u015fe\u011fi"
     },
     {
       "id": "cand-a2-2b-0030",
@@ -18312,8 +18424,9 @@
         "unit-a2-2b"
       ],
       "source": "A2_-_2B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "ine\u011fi"
     },
     {
       "id": "cand-a2-2b-0036",
@@ -18412,8 +18525,9 @@
         "unit-a2-2b"
       ],
       "source": "A2_-_2B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "k\u00f6pe\u011fi"
     },
     {
       "id": "cand-a2-2b-0043",
@@ -18553,8 +18667,9 @@
         "unit-a2-2b"
       ],
       "source": "A2_-_2B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "s\u0131rr\u0131"
     },
     {
       "id": "cand-a2-2b-0054",
@@ -18708,8 +18823,9 @@
         "unit-a2"
       ],
       "source": "A2-2C vocab-page flashcards (Turkishle web)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "hastal\u0131\u011f\u0131"
     },
     {
       "id": "cand-a2-2sw-0004",
@@ -18722,8 +18838,9 @@
         "unit-a2"
       ],
       "source": "A2-2C vocab-page flashcards (Turkishle web)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "ihtiyac\u0131"
     },
     {
       "id": "cand-a2-2sw-0005",
@@ -18807,8 +18924,9 @@
         "unit-a2"
       ],
       "source": "A2-2C vocab-page flashcards (Turkishle web)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "sa\u011fl\u0131\u011f\u0131"
     },
     {
       "id": "cand-a2-2sw-0011",
@@ -18849,8 +18967,9 @@
         "unit-a2"
       ],
       "source": "A2-2C vocab-page flashcards (Turkishle web)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "yasa\u011f\u0131"
     },
     {
       "id": "cand-a2-2sw-0014",
@@ -19091,8 +19210,9 @@
         "unit-a2"
       ],
       "source": "A2-2A reading exercise S\u00d6ZL\u00dcK (Turkishle web)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "donu\u011fu"
     },
     {
       "id": "cand-a2-2sw-0031",
@@ -19288,8 +19408,9 @@
         "unit-a1"
       ],
       "source": "base word of \u201ctuvalet k\u00e2\u011f\u0131d\u0131\u201d (A1-2B, Turkishle)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "k\u00e2\u011f\u0131d\u0131"
     },
     {
       "id": "cand-a2-2sw-0045",
@@ -19316,8 +19437,9 @@
         "unit-a2"
       ],
       "source": "A2-3C coursebook vocabulary list (adjective opposites: \u201cdin\u00e7 x yorgun\u201d)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "dinci"
     },
     {
       "id": "cand-a2-3-0001",
@@ -19499,9 +19621,10 @@
         "unit-a2"
       ],
       "source": "A2-3A Kelime Listesi (Turkishle coursebook)",
-      "notes": "",
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
-      "hint_en_tr": "(genre)"
+      "hint_en_tr": "(genre)",
+      "infl_tr": "fantasti\u011fi"
     },
     {
       "id": "cand-a2-3-0014",
@@ -19600,11 +19723,13 @@
       "tags": [
         "noun",
         "unit-a2-3a",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-3A Kelime Listesi (Turkishle coursebook)",
-      "notes": "also 'article' (journal/newspaper piece)",
-      "status": "approved"
+      "notes": "also 'article' (journal/newspaper piece) TDK gives maka:le and tr.wiktionary /ma.ka\u02c8le/: long a in the second syllable, stress final (TDK marks stress only where it is not final).",
+      "status": "approved",
+      "pron_tr": "m\u0251k\u0251\u02d0\u02c8le"
     },
     {
       "id": "cand-a2-3-0021",
@@ -19659,8 +19784,9 @@
         "unit-a2"
       ],
       "source": "A2-3A Kelime Listesi (Turkishle coursebook)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "romanti\u011fi"
     },
     {
       "id": "cand-a2-3-0025",
@@ -19687,8 +19813,9 @@
         "unit-a2"
       ],
       "source": "A2-3A Kelime Listesi (Turkishle coursebook)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "yolculu\u011fu"
     },
     {
       "id": "cand-a2-3-0027",
@@ -20369,8 +20496,9 @@
         "unit-a2"
       ],
       "source": "A2-3C Kelime Listesi (Turkishle coursebook)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "korka\u011f\u0131"
     },
     {
       "id": "cand-a2-3-0075",
@@ -20696,8 +20824,9 @@
         "unit-a2"
       ],
       "source": "A2-4A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "also an exclamation: Ay\u0131p! = shame on you",
-      "status": "approved"
+      "notes": "also an exclamation: Ay\u0131p! = shame on you Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "ay\u0131b\u0131"
     },
     {
       "id": "cand-a2-4-0017",
@@ -20752,8 +20881,9 @@
         "unit-a2"
       ],
       "source": "A2-4A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "gizlili\u011fi"
     },
     {
       "id": "cand-a2-4-0021",
@@ -20808,8 +20938,9 @@
         "unit-a2"
       ],
       "source": "A2-4A reading exercise S\u00d6ZL\u00dcK (Turkishle web)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "peru\u011fu"
     },
     {
       "id": "cand-a2-4-0025",
@@ -20920,8 +21051,9 @@
         "unit-a2"
       ],
       "source": "A2-4B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "m\u00fczi\u011fi"
     },
     {
       "id": "cand-a2-4-0033",
@@ -21582,11 +21714,13 @@
       "tags": [
         "noun",
         "unit-a2-4c",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-4C reading exercise S\u00d6ZL\u00dcK (Turkishle web)",
-      "notes": "",
-      "status": "approved"
+      "notes": "TDK gives fela:ket with the note 'l ince okunur', and en.wiktionary /fe.la\u02d0\u02c8cet/ independently: long a, clear l despite the back vowel, and k palatalised to [c] before e.",
+      "status": "approved",
+      "pron_tr": "fel\u0251\u02d0\u02c8cet"
     },
     {
       "id": "cand-a2-4-0080",
@@ -21671,9 +21805,10 @@
         "unit-a2"
       ],
       "source": "A2-5A reading exercise S\u00d6ZL\u00dcK (Turkishle web)",
-      "notes": "Pronunciation transcribed by hand.",
+      "notes": "Pronunciation transcribed by hand. Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
-      "pron_tr": "dyz\u02c8lyc"
+      "pron_tr": "dyz\u02c8lyc",
+      "infl_tr": "d\u00fczl\u00fc\u011f\u00fc"
     },
     {
       "id": "cand-a2-5-0004",
@@ -21806,9 +21941,10 @@
         "unit-a2"
       ],
       "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone. Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
-      "pron_tr": "ku\u027e\u0251k\u02c8\u026b\u026fk"
+      "pron_tr": "ku\u027e\u0251k\u02c8\u026b\u026fk",
+      "infl_tr": "kurakl\u0131\u011f\u0131"
     },
     {
       "id": "cand-a2-5-0013",
@@ -21958,9 +22094,10 @@
         "unit-a2"
       ],
       "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Absent as a standalone entry: the deck had only \u0131slak mendil. Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "notes": "Absent as a standalone entry: the deck had only \u0131slak mendil. Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone. Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
-      "pron_tr": "\u026fs\u02c8\u026b\u0251k"
+      "pron_tr": "\u026fs\u02c8\u026b\u0251k",
+      "infl_tr": "\u0131sla\u011f\u0131"
     },
     {
       "id": "cand-a2-5-0023",
@@ -21988,9 +22125,10 @@
         "unit-a2"
       ],
       "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone. Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
-      "pron_tr": "\u0283im\u02c8\u0283ec"
+      "pron_tr": "\u0283im\u02c8\u0283ec",
+      "infl_tr": "\u015fim\u015fe\u011fi"
     },
     {
       "id": "cand-a2-5-0025",
@@ -22262,9 +22400,10 @@
         "unit-a2"
       ],
       "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone. Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
-      "pron_tr": "ut\u0251n\u02c8\u0261\u0251t\u0283"
+      "pron_tr": "ut\u0251n\u02c8\u0261\u0251t\u0283",
+      "infl_tr": "utangac\u0131"
     },
     {
       "id": "cand-a2-5-0043",
@@ -22308,11 +22447,12 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone. Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
       "hint_tr_en": "(the star sign; the word also means scorpion)",
       "hint_en_tr": "(star sign)",
-      "pron_tr": "\u0251k\u02c8\u027eep"
+      "pron_tr": "\u0251k\u02c8\u027eep",
+      "infl_tr": "akrebi"
     },
     {
       "id": "cand-a2-5-0046",
@@ -22341,11 +22481,12 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone. Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
       "hint_tr_en": "(the star sign; the word also means ear of grain)",
       "hint_en_tr": "(star sign)",
-      "pron_tr": "b\u0251\u02c8\u0283\u0251k"
+      "pron_tr": "b\u0251\u02c8\u0283\u0251k",
+      "infl_tr": "ba\u015fa\u011f\u0131"
     },
     {
       "id": "cand-a2-5-0048",
@@ -22660,11 +22801,12 @@
         "pronunciation"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Tagged pronunciation because the word defies its spelling: the \u011f lengthens the preceding o rather than being pronounced. Confirmed against TDK where it lists a telaffuz. Transcription removed: \u011f behaves differently in different words \u2014 lengthening, reducing to a glide, or vanishing \u2014 and this one was produced by applying a single rule across contexts rather than from evidence. Left empty rather than guessed, on the learner's instruction that a wrong transcription is worse than none. Audio for the word is in resources/pron_audio/; restore the field only once it has been checked by ear. Restored from a source rather than a rule: en.wiktionary /o\u02d0\u02c8\u026bak/, [o\u031e\u02d0\u02c8\u026b\u032a\u0251k]. \u011f lengthens the preceding vowel before a consonant (o\u011flak, do\u011frudan) but not between vowels (de\u011fi\u015fim), which is the distinction the earlier blanket rule missed.",
+      "notes": "Tagged pronunciation because the word defies its spelling: the \u011f lengthens the preceding o rather than being pronounced. Confirmed against TDK where it lists a telaffuz. Transcription removed: \u011f behaves differently in different words \u2014 lengthening, reducing to a glide, or vanishing \u2014 and this one was produced by applying a single rule across contexts rather than from evidence. Left empty rather than guessed, on the learner's instruction that a wrong transcription is worse than none. Audio for the word is in resources/pron_audio/; restore the field only once it has been checked by ear. Restored from a source rather than a rule: en.wiktionary /o\u02d0\u02c8\u026bak/, [o\u031e\u02d0\u02c8\u026b\u032a\u0251k]. \u011f lengthens the preceding vowel before a consonant (o\u011flak, do\u011frudan) but not between vowels (de\u011fi\u015fim), which is the distinction the earlier blanket rule missed. Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
       "hint_tr_en": "(the star sign; the word also means kid goat)",
       "hint_en_tr": "(star sign)",
-      "pron_tr": "o\u02d0\u02c8\u026b\u0251k"
+      "pron_tr": "o\u02d0\u02c8\u026b\u0251k",
+      "infl_tr": "o\u011fla\u011f\u0131"
     },
     {
       "id": "cand-a2-5-0068",
@@ -22772,11 +22914,12 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone. Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
       "hint_tr_en": "(the star sign; the word also means crab)",
       "hint_en_tr": "(star sign)",
-      "pron_tr": "j\u00e6n\u02c8\u025fet\u0283"
+      "pron_tr": "j\u00e6n\u02c8\u025fet\u0283",
+      "infl_tr": "yengeci"
     },
     {
       "id": "cand-a2-5-0075",
@@ -22868,11 +23011,12 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Same spelling as the deck's bal\u0131k = fish but a different sense. Hidden by the same form-based test as aslan. Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "notes": "Same spelling as the deck's bal\u0131k = fish but a different sense. Hidden by the same form-based test as aslan. Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules \u2014 \"closed syllable gives \u00e6\", \"\u011f lengthens\" \u2014 rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: \u00e6 is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or \u015f was wrong; and \u011f lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the \u00e6 before a sonorant is attested (en.wiktionary gives element /ele\u02c8m\u00e6nt/, ders /d\u00e6\u027es/, c\u00f6mert /d\u0292\u0153\u02c8m\u00e6\u027et/) and the learner confirms it by ear. Only the \u00e6 before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone. Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
       "hint_tr_en": "(the star sign)",
       "hint_en_tr": "(star sign)",
-      "pron_tr": "b\u0251\u02c8\u026b\u026fk"
+      "pron_tr": "b\u0251\u02c8\u026b\u026fk",
+      "infl_tr": "bal\u0131\u011f\u0131"
     },
     {
       "id": "cand-a2-5-0081",
@@ -22971,8 +23115,9 @@
         "unit-a2"
       ],
       "source": "base word of \u201c\u00e7ocuk sahibi olmak\u201d (A2-3B, Turkishle)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "sahibi"
     },
     {
       "id": "cand-base-0007",
@@ -23142,8 +23287,9 @@
         "unit-a1"
       ],
       "source": "base word of \u201cerkek karde\u015f\u201d (A1-4A, Turkishle)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "erke\u011fi"
     },
     {
       "id": "cand-base-0019",
@@ -23452,8 +23598,9 @@
         "unit-a1"
       ],
       "source": "base word of \u201c\u00d6z\u00fcr dilerim.\u201d (A1-1A, Turkishle)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "\u00f6zr\u00fc"
     },
     {
       "id": "cand-base-0041",
@@ -23466,8 +23613,9 @@
         "unit-a1"
       ],
       "source": "base word of \u201ctemizlik yapmak\u201d (A1-3A, Turkishle)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "temizli\u011fi"
     },
     {
       "id": "cand-base-0042",
@@ -23592,8 +23740,9 @@
         "unit-a2"
       ],
       "source": "base word of \u201calt ge\u00e7it\u201d (A2-1A, Turkishle)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "ge\u00e7idi"
     },
     {
       "id": "cand-base-0051",
@@ -23634,8 +23783,9 @@
         "unit-a2"
       ],
       "source": "base word of \u201ctakip etmek\u201d (A2-1A, Turkishle)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "takibi"
     },
     {
       "id": "cand-base-0054",
@@ -23690,9 +23840,10 @@
         "unit-a1"
       ],
       "source": "base word of \u201coru\u00e7 tutmak\u201d (A1-4C, Turkishle)",
-      "notes": "",
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
-      "hint_en_tr": "(religious fasting)"
+      "hint_en_tr": "(religious fasting)",
+      "infl_tr": "orucu"
     },
     {
       "id": "cand-base-0058",
@@ -23705,8 +23856,9 @@
         "unit-a1"
       ],
       "source": "base word of \u201cevlilik y\u0131ld\u00f6n\u00fcm\u00fc\u201d (A1-3C, Turkishle)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "evlili\u011fi"
     },
     {
       "id": "cand-base-0059",
@@ -23719,8 +23871,9 @@
         "unit-a1"
       ],
       "source": "base word of \u201cbula\u015f\u0131k makinesi\u201d (A1-1B, Turkishle)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "bula\u015f\u0131\u011f\u0131"
     },
     {
       "id": "cand-base-0060",
@@ -23803,8 +23956,9 @@
         "unit-a2"
       ],
       "source": "base word of \u201ccilt bak\u0131m\u0131\u201d (A2-3A, Turkishle)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "cildi"
     },
     {
       "id": "cand-base-0066",
@@ -23904,8 +24058,9 @@
         "unit-a2"
       ],
       "source": "base word of \u201cklasik m\u00fczik\u201d (A2-4B, Turkishle)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "klasi\u011fi"
     },
     {
       "id": "cand-base-0072",
@@ -24250,8 +24405,9 @@
         "unit-a2-extra"
       ],
       "source": "gap-fill: in no Turkishle list or card; filed with the A2-2C health vocabulary, as kar\u0131n and bacak are",
-      "notes": "Asked about in issue #50. A list search appeared to find it in A1-4B, but that was Burundi and Ye\u015fil Burun Adalar\u0131 \u2014 the body part is absent. Body parts have no list of their own anywhere in A1/A2.",
-      "status": "approved"
+      "notes": "Asked about in issue #50. A list search appeared to find it in A1-4B, but that was Burundi and Ye\u015fil Burun Adalar\u0131 \u2014 the body part is absent. Body parts have no list of their own anywhere in A1/A2. Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "burnu"
     },
     {
       "id": "cand-card-0031",
@@ -24568,8 +24724,9 @@
         "unit-a1"
       ],
       "source": "Turkishle coursebook (A2)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "kula\u011f\u0131"
     },
     {
       "id": "cand-cat-0004",
@@ -24582,8 +24739,9 @@
         "unit-a1"
       ],
       "source": "Turkishle coursebook (A2)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "a\u011fz\u0131"
     },
     {
       "id": "cand-cat-0005",
@@ -24596,8 +24754,9 @@
         "unit-a1"
       ],
       "source": "Turkishle coursebook (A2)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "parma\u011f\u0131"
     },
     {
       "id": "cand-cat-0006",
@@ -24611,8 +24770,9 @@
         "unit-a2-extra"
       ],
       "source": "gap-fill: not in the coursebooks; filed with the A2-2C health vocabulary",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "karn\u0131"
     },
     {
       "id": "cand-cat-0007",
@@ -24626,8 +24786,9 @@
         "unit-a2-extra"
       ],
       "source": "gap-fill: not in the coursebooks; filed with the A2-2C health vocabulary",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "baca\u011f\u0131"
     },
     {
       "id": "cand-cat-0008",
@@ -24640,8 +24801,9 @@
         "unit-a1"
       ],
       "source": "Turkishle coursebook (B1)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "aya\u011f\u0131"
     },
     {
       "id": "cand-cat-0009",
@@ -24668,8 +24830,9 @@
         "unit-a1"
       ],
       "source": "Turkishle coursebook (A2)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "kalbi"
     },
     {
       "id": "cand-cat-0011",
@@ -24754,8 +24917,9 @@
         "unit-a2"
       ],
       "source": "Turkishle coursebook (B1)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "ete\u011fi"
     },
     {
       "id": "cand-cat-0017",
@@ -24784,8 +24948,9 @@
         "unit-a2-extra"
       ],
       "source": "gap-fill: not in the coursebooks; filed with the A2-1B clothing vocabulary",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "e\u015farb\u0131"
     },
     {
       "id": "cand-cat-0019",
@@ -25264,9 +25429,10 @@
         "unit-a1"
       ],
       "source": "A1-6A coursebook dialogue (not in any unit vocabulary list)",
-      "notes": "",
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
-      "hint_tr_en": "(kap\u0131 vb.)"
+      "hint_tr_en": "(kap\u0131 vb.)",
+      "infl_tr": "a\u00e7\u0131\u011f\u0131"
     },
     {
       "id": "cand-cat-0053",
@@ -25326,9 +25492,10 @@
         "unit-a1-extra"
       ],
       "source": "gap-fill: not in the coursebooks; filed with the A1-4A family vocabulary",
-      "notes": "second sense is a separate entry",
+      "notes": "second sense is a separate entry Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
-      "hint_tr_en": "(evlenen erkek)"
+      "hint_tr_en": "(evlenen erkek)",
+      "infl_tr": "damad\u0131"
     },
     {
       "id": "cand-cat-0055b",
@@ -25342,9 +25509,10 @@
         "unit-a1-extra"
       ],
       "source": "gap-fill: not in the coursebooks; filed with the A1-4A family vocabulary",
-      "notes": "second sense is a separate entry",
+      "notes": "second sense is a separate entry Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
-      "hint_tr_en": "(k\u0131z\u0131n\u0131n e\u015fi)"
+      "hint_tr_en": "(k\u0131z\u0131n\u0131n e\u015fi)",
+      "infl_tr": "damad\u0131"
     },
     {
       "id": "cand-cat-0056",
@@ -25877,9 +26045,10 @@
         "unit-a1"
       ],
       "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
-      "notes": "",
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
-      "hint_en_tr": "(person)"
+      "hint_en_tr": "(person)",
+      "infl_tr": "Kaza\u011f\u0131"
     },
     {
       "id": "cand-lang-0019",
@@ -26327,8 +26496,9 @@
         "unit-a1-extra"
       ],
       "source": "gap-fill: basic mathematics vocabulary, not in Turkishle A1/A2/B1; filed with the A1-2B numbers list",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "matemati\u011fi"
     },
     {
       "id": "cand-math-0008",
@@ -26359,9 +26529,10 @@
         "unit-a1-extra"
       ],
       "source": "gap-fill: basic mathematics vocabulary, not in Turkishle A1/A2/B1; filed with the A1-2B numbers list",
-      "notes": "",
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
-      "hint_tr_en": "(matematik)"
+      "hint_tr_en": "(matematik)",
+      "infl_tr": "\u00fcss\u00fc"
     },
     {
       "id": "cand-math-0010",
@@ -26526,8 +26697,9 @@
         "unit-a1"
       ],
       "source": "Turkishle coursebook (A1, A2, B1)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "d\u00f6rd\u00fc"
     },
     {
       "id": "cand-num-0006",
@@ -27011,8 +27183,9 @@
         "unit-a2"
       ],
       "source": "example sentence on the A2-1B vocabulary card (Turkishle web); in no unit vocabulary list",
-      "notes": "Mined from the card example sentences, which the earlier sweeps discarded \u2014 the lists teach the headwords, the sentences carry the connective vocabulary around them. Glossed 'variety' rather than 'kind' so it does not collide with t\u00fcr.",
-      "status": "approved"
+      "notes": "Mined from the card example sentences, which the earlier sweeps discarded \u2014 the lists teach the headwords, the sentences carry the connective vocabulary around them. Glossed 'variety' rather than 'kind' so it does not collide with t\u00fcr. Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "\u00e7e\u015fidi"
     },
     {
       "id": "cand-sent-0066",
@@ -27025,8 +27198,9 @@
         "unit-a2"
       ],
       "source": "example sentence on the A2-1B vocabulary card (Turkishle web); in no unit vocabulary list",
-      "notes": "Mined from the card example sentences, which the earlier sweeps discarded \u2014 the lists teach the headwords, the sentences carry the connective vocabulary around them.",
-      "status": "approved"
+      "notes": "Mined from the card example sentences, which the earlier sweeps discarded \u2014 the lists teach the headwords, the sentences carry the connective vocabulary around them. Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "al\u0131\u015fkanl\u0131\u011f\u0131"
     },
     {
       "id": "cand-sent-0067",
@@ -27890,8 +28064,9 @@
         "unit-a1"
       ],
       "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "etkinli\u011fi"
     },
     {
       "id": "cand-web-0019",
@@ -27960,9 +28135,10 @@
         "unit-a1"
       ],
       "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
-      "notes": "",
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
-      "hint_tr_en": "(isim)"
+      "hint_tr_en": "(isim)",
+      "infl_tr": "yeme\u011fi"
     },
     {
       "id": "cand-web-0024",
@@ -28003,8 +28179,9 @@
         "unit-a1"
       ],
       "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "so\u011fu\u011fu"
     },
     {
       "id": "cand-web-0027",
@@ -28059,9 +28236,10 @@
         "unit-a1"
       ],
       "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
-      "notes": "",
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
-      "hint_tr_en": "(s\u0131fat)"
+      "hint_tr_en": "(s\u0131fat)",
+      "infl_tr": "a\u00e7\u0131 / ac\u0131"
     },
     {
       "id": "cand-web-0031",
@@ -28311,8 +28489,9 @@
         "unit-a1"
       ],
       "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "yoku / yo\u011fu"
     },
     {
       "id": "cand-web-a23-0001",
@@ -28541,8 +28720,9 @@
         "unit-a2-extra"
       ],
       "source": "gap-fill: not in the coursebooks; filed with the A2-2B animal vocabulary",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "\u00f6r\u00fcmce\u011fi"
     },
     {
       "id": "extra-0002",
@@ -28570,8 +28750,9 @@
         "unit-a1"
       ],
       "source": "A1-1B grammar examples (Turkishle coursebook)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "a\u011fac\u0131"
     },
     {
       "id": "extra-0004",

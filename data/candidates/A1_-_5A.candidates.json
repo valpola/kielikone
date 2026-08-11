@@ -339,9 +339,10 @@
         "noun"
       ],
       "source": "A1_-_5A.pdf",
-      "notes": "",
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
-      "hint_tr_en": "(ay)"
+      "hint_tr_en": "(ay)",
+      "infl_tr": "Ocağı"
     },
     {
       "id": "cand-a1-5a-0025",
@@ -494,8 +495,9 @@
         "noun"
       ],
       "source": "A1_-_5A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "Aralığı"
     },
     {
       "id": "cand-a1-5a-0036",

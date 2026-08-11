@@ -226,8 +226,9 @@
         "unit-a2"
       ],
       "source": "A2-4A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "also an exclamation: Ayıp! = shame on you",
-      "status": "approved"
+      "notes": "also an exclamation: Ayıp! = shame on you Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "ayıbı"
     },
     {
       "id": "cand-a2-4-0017",
@@ -282,8 +283,9 @@
         "unit-a2"
       ],
       "source": "A2-4A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "gizliliği"
     },
     {
       "id": "cand-a2-4-0021",
@@ -338,8 +340,9 @@
         "unit-a2"
       ],
       "source": "A2-4A reading exercise SÖZLÜK (Turkishle web)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "peruğu"
     },
     {
       "id": "cand-a2-4-0025",
@@ -450,8 +453,9 @@
         "unit-a2"
       ],
       "source": "A2-4B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "müziği"
     },
     {
       "id": "cand-a2-4-0033",
@@ -1112,11 +1116,13 @@
       "tags": [
         "noun",
         "unit-a2-4c",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-4C reading exercise SÖZLÜK (Turkishle web)",
-      "notes": "",
-      "status": "approved"
+      "notes": "TDK gives fela:ket with the note 'l ince okunur', and en.wiktionary /fe.laːˈcet/ independently: long a, clear l despite the back vowel, and k palatalised to [c] before e.",
+      "status": "approved",
+      "pron_tr": "felɑːˈcet"
     },
     {
       "id": "cand-a2-4-0080",

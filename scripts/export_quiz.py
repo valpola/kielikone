@@ -116,6 +116,10 @@ def main() -> None:
         # Pronunciation is shown only on reveal, so it can never leak the answer.
         if item.get("pron_tr"):
             entry["pron_tr"] = item["pron_tr"]
+        # The inflected form rides along for the same reason: it contains the
+        # Turkish stem, so it may only appear once the answer is out.
+        if item.get("infl_tr"):
+            entry["infl_tr"] = item["infl_tr"]
         quiz_items.append(entry)
 
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)

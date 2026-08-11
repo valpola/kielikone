@@ -1487,11 +1487,18 @@ const hidePron = () => {
   PRON.classList.add("hidden");
 };
 
+// The IPA goes in square brackets to mark it as a transcription: most of it is
+// obvious from the characters, but a word like [temel] or [oda] reads as plain
+// Turkish otherwise. Repeating the headword here was just noise — the inflected
+// form takes that space instead, since consonant softening is not predictable
+// from the spelling (dört -> dördü but üç -> üçü).
 const showPron = () => {
   if (!PRON) return;
-  const p = current && current.pron_tr;
-  PRON.textContent = p ? `${current.turkish}  ${p}` : "";
-  PRON.classList.toggle("hidden", !p);
+  const parts = [];
+  if (current && current.pron_tr) parts.push(`[${current.pron_tr}]`);
+  if (current && current.infl_tr) parts.push(`→ ${current.infl_tr}`);
+  PRON.textContent = parts.join("   ");
+  PRON.classList.toggle("hidden", parts.length === 0);
 };
 
 const clearCorrectAnswerState = () => {

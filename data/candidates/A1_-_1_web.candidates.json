@@ -154,8 +154,9 @@
         "unit-a1"
       ],
       "source": "A1-1B Listening exercise (Turkishle course)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "kalabalığı"
     },
     {
       "id": "cand-a1-1web-0013",

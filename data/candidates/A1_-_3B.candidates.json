@@ -817,8 +817,9 @@
         "adjective"
       ],
       "source": "A1_-_3B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "karanlığı"
     },
     {
       "id": "cand-a1-3b-0059",
@@ -831,8 +832,9 @@
         "noun"
       ],
       "source": "A1_-_3B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "yüksekliği"
     },
     {
       "id": "cand-a1-3b-0060",

@@ -69,8 +69,9 @@
         "unit-a1"
       ],
       "source": "Turkishle coursebook (A1, A2, B1)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "dördü"
     },
     {
       "id": "cand-num-0006",

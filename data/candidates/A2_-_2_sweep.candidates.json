@@ -41,8 +41,9 @@
         "unit-a2"
       ],
       "source": "A2-2C vocab-page flashcards (Turkishle web)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "hastalığı"
     },
     {
       "id": "cand-a2-2sw-0004",
@@ -55,8 +56,9 @@
         "unit-a2"
       ],
       "source": "A2-2C vocab-page flashcards (Turkishle web)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "ihtiyacı"
     },
     {
       "id": "cand-a2-2sw-0005",
@@ -140,8 +142,9 @@
         "unit-a2"
       ],
       "source": "A2-2C vocab-page flashcards (Turkishle web)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "sağlığı"
     },
     {
       "id": "cand-a2-2sw-0011",
@@ -182,8 +185,9 @@
         "unit-a2"
       ],
       "source": "A2-2C vocab-page flashcards (Turkishle web)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "yasağı"
     },
     {
       "id": "cand-a2-2sw-0014",
@@ -424,8 +428,9 @@
         "unit-a2"
       ],
       "source": "A2-2A reading exercise SÖZLÜK (Turkishle web)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "donuğu"
     },
     {
       "id": "cand-a2-2sw-0031",
@@ -621,8 +626,9 @@
         "unit-a1"
       ],
       "source": "base word of “tuvalet kâğıdı” (A1-2B, Turkishle)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "kâğıdı"
     },
     {
       "id": "cand-a2-2sw-0045",
@@ -649,8 +655,9 @@
         "unit-a2"
       ],
       "source": "A2-3C coursebook vocabulary list (adjective opposites: “dinç x yorgun”)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "dinci"
     }
   ]
 }

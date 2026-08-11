@@ -13,8 +13,9 @@
         "unit-a1"
       ],
       "source": "A1_-_2B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "adedi"
     },
     {
       "id": "cand-a1-2b-0002",
@@ -69,8 +70,9 @@
         "unit-a1"
       ],
       "source": "A1_-_2B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "armudu"
     },
     {
       "id": "cand-a1-2b-0006",
@@ -83,8 +85,9 @@
         "unit-a1"
       ],
       "source": "A1_-_2B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "avucu"
     },
     {
       "id": "cand-a1-2b-0007",
@@ -139,10 +142,11 @@
         "unit-a1"
       ],
       "source": "A1_-_2B.pdf",
-      "notes": "Tip added when A2-5C introduced balık as the star sign Pisces. Restored after the withdrawal was found to be an over-correction: the æ before a sonorant is attested (en.wiktionary gives element /eleˈmænt/, ders /dæɾs/, cömert /dʒœˈmæɾt/) and the learner confirms it by ear. Only the æ before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "notes": "Tip added when A2-5C introduced balık as the star sign Pisces. Restored after the withdrawal was found to be an over-correction: the æ before a sonorant is attested (en.wiktionary gives element /eleˈmænt/, ders /dæɾs/, cömert /dʒœˈmæɾt/) and the learner confirms it by ear. Only the æ before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone. Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
       "hint_tr_en": "(the animal)",
-      "pron_tr": "bɑˈɫɯk"
+      "pron_tr": "bɑˈɫɯk",
+      "infl_tr": "balığı"
     },
     {
       "id": "cand-a1-2b-0011",
@@ -155,9 +159,10 @@
         "unit-a1"
       ],
       "source": "A1_-_2B.pdf",
-      "notes": "",
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
-      "hint_en_tr": "(for drinking)"
+      "hint_en_tr": "(for drinking)",
+      "infl_tr": "bardağı"
     },
     {
       "id": "cand-a1-2b-0012",
@@ -212,8 +217,9 @@
         "unit-a1"
       ],
       "source": "A1_-_2B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "çileği"
     },
     {
       "id": "cand-a1-2b-0016",
@@ -310,8 +316,9 @@
         "unit-a1"
       ],
       "source": "A1_-_2B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "ekmeği"
     },
     {
       "id": "cand-a1-2b-0023",
@@ -338,8 +345,9 @@
         "unit-a1"
       ],
       "source": "A1_-_2B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "eriği"
     },
     {
       "id": "cand-a1-2b-0025",
@@ -408,8 +416,9 @@
         "unit-a1"
       ],
       "source": "A1_-_2B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "fındığı"
     },
     {
       "id": "cand-a1-2b-0030",
@@ -451,8 +460,9 @@
         "unit-a1"
       ],
       "source": "A1_-_2B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "havucu"
     },
     {
       "id": "cand-a1-2b-0033",
@@ -507,8 +517,9 @@
         "unit-a1"
       ],
       "source": "A1_-_2B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "ıspanağı"
     },
     {
       "id": "cand-a1-2b-0037",
@@ -549,8 +560,9 @@
         "unit-a1"
       ],
       "source": "A1_-_2B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "kabağı"
     },
     {
       "id": "cand-a1-2b-0040",
@@ -563,8 +575,9 @@
         "unit-a1"
       ],
       "source": "A1_-_2B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "kalıbı"
     },
     {
       "id": "cand-a1-2b-0041",
@@ -689,8 +702,9 @@
         "unit-a1"
       ],
       "source": "A1_-_2B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "kekiği"
     },
     {
       "id": "cand-a1-2b-0050",
@@ -915,8 +929,9 @@
         "unit-a1"
       ],
       "source": "A1_-_2B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "mercimeği"
     },
     {
       "id": "cand-a1-2b-0066",
@@ -1127,8 +1142,9 @@
         "unit-a1"
       ],
       "source": "A1_-_2B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "salatalığı"
     },
     {
       "id": "cand-a1-2b-0081",
@@ -1155,8 +1171,9 @@
         "unit-a1"
       ],
       "source": "A1_-_2B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "sarımsağı"
     },
     {
       "id": "cand-a1-2b-0083",
@@ -1253,8 +1270,9 @@
         "unit-a1"
       ],
       "source": "A1_-_2B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "tavuğu"
     },
     {
       "id": "cand-a1-2b-0090",
@@ -1379,8 +1397,9 @@
         "unit-a1"
       ],
       "source": "A1_-_2B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "yoğurdu"
     },
     {
       "id": "cand-a1-2b-0099",

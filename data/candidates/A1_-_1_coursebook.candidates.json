@@ -100,8 +100,9 @@
         "unit-a1"
       ],
       "source": "A1-1B grammar section (Turkishle coursebook)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "bebeği"
     },
     {
       "id": "cand-a1-1cb-0008",

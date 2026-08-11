@@ -43,9 +43,10 @@
         "unit-a2"
       ],
       "source": "A2-5A reading exercise SÖZLÜK (Turkishle web)",
-      "notes": "Pronunciation transcribed by hand.",
+      "notes": "Pronunciation transcribed by hand. Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
-      "pron_tr": "dyzˈlyc"
+      "pron_tr": "dyzˈlyc",
+      "infl_tr": "düzlüğü"
     },
     {
       "id": "cand-a2-5-0004",
@@ -178,9 +179,10 @@
         "unit-a2"
       ],
       "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the æ before a sonorant is attested (en.wiktionary gives element /eleˈmænt/, ders /dæɾs/, cömert /dʒœˈmæɾt/) and the learner confirms it by ear. Only the æ before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the æ before a sonorant is attested (en.wiktionary gives element /eleˈmænt/, ders /dæɾs/, cömert /dʒœˈmæɾt/) and the learner confirms it by ear. Only the æ before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone. Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
-      "pron_tr": "kuɾɑkˈɫɯk"
+      "pron_tr": "kuɾɑkˈɫɯk",
+      "infl_tr": "kuraklığı"
     },
     {
       "id": "cand-a2-5-0013",
@@ -330,9 +332,10 @@
         "unit-a2"
       ],
       "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Absent as a standalone entry: the deck had only ıslak mendil. Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the æ before a sonorant is attested (en.wiktionary gives element /eleˈmænt/, ders /dæɾs/, cömert /dʒœˈmæɾt/) and the learner confirms it by ear. Only the æ before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "notes": "Absent as a standalone entry: the deck had only ıslak mendil. Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the æ before a sonorant is attested (en.wiktionary gives element /eleˈmænt/, ders /dæɾs/, cömert /dʒœˈmæɾt/) and the learner confirms it by ear. Only the æ before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone. Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
-      "pron_tr": "ɯsˈɫɑk"
+      "pron_tr": "ɯsˈɫɑk",
+      "infl_tr": "ıslağı"
     },
     {
       "id": "cand-a2-5-0023",
@@ -360,9 +363,10 @@
         "unit-a2"
       ],
       "source": "A2-5A Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the æ before a sonorant is attested (en.wiktionary gives element /eleˈmænt/, ders /dæɾs/, cömert /dʒœˈmæɾt/) and the learner confirms it by ear. Only the æ before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the æ before a sonorant is attested (en.wiktionary gives element /eleˈmænt/, ders /dæɾs/, cömert /dʒœˈmæɾt/) and the learner confirms it by ear. Only the æ before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone. Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
-      "pron_tr": "ʃimˈʃec"
+      "pron_tr": "ʃimˈʃec",
+      "infl_tr": "şimşeği"
     },
     {
       "id": "cand-a2-5-0025",
@@ -634,9 +638,10 @@
         "unit-a2"
       ],
       "source": "A2-5B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the æ before a sonorant is attested (en.wiktionary gives element /eleˈmænt/, ders /dæɾs/, cömert /dʒœˈmæɾt/) and the learner confirms it by ear. Only the æ before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the æ before a sonorant is attested (en.wiktionary gives element /eleˈmænt/, ders /dæɾs/, cömert /dʒœˈmæɾt/) and the learner confirms it by ear. Only the æ before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone. Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
-      "pron_tr": "utɑnˈɡɑtʃ"
+      "pron_tr": "utɑnˈɡɑtʃ",
+      "infl_tr": "utangacı"
     },
     {
       "id": "cand-a2-5-0043",
@@ -680,11 +685,12 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the æ before a sonorant is attested (en.wiktionary gives element /eleˈmænt/, ders /dæɾs/, cömert /dʒœˈmæɾt/) and the learner confirms it by ear. Only the æ before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the æ before a sonorant is attested (en.wiktionary gives element /eleˈmænt/, ders /dæɾs/, cömert /dʒœˈmæɾt/) and the learner confirms it by ear. Only the æ before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone. Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
       "hint_tr_en": "(the star sign; the word also means scorpion)",
       "hint_en_tr": "(star sign)",
-      "pron_tr": "ɑkˈɾep"
+      "pron_tr": "ɑkˈɾep",
+      "infl_tr": "akrebi"
     },
     {
       "id": "cand-a2-5-0046",
@@ -713,11 +719,12 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the æ before a sonorant is attested (en.wiktionary gives element /eleˈmænt/, ders /dæɾs/, cömert /dʒœˈmæɾt/) and the learner confirms it by ear. Only the æ before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the æ before a sonorant is attested (en.wiktionary gives element /eleˈmænt/, ders /dæɾs/, cömert /dʒœˈmæɾt/) and the learner confirms it by ear. Only the æ before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone. Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
       "hint_tr_en": "(the star sign; the word also means ear of grain)",
       "hint_en_tr": "(star sign)",
-      "pron_tr": "bɑˈʃɑk"
+      "pron_tr": "bɑˈʃɑk",
+      "infl_tr": "başağı"
     },
     {
       "id": "cand-a2-5-0048",
@@ -1032,11 +1039,12 @@
         "pronunciation"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Tagged pronunciation because the word defies its spelling: the ğ lengthens the preceding o rather than being pronounced. Confirmed against TDK where it lists a telaffuz. Transcription removed: ğ behaves differently in different words — lengthening, reducing to a glide, or vanishing — and this one was produced by applying a single rule across contexts rather than from evidence. Left empty rather than guessed, on the learner's instruction that a wrong transcription is worse than none. Audio for the word is in resources/pron_audio/; restore the field only once it has been checked by ear. Restored from a source rather than a rule: en.wiktionary /oːˈɫak/, [o̞ːˈɫ̪ɑk]. ğ lengthens the preceding vowel before a consonant (oğlak, doğrudan) but not between vowels (değişim), which is the distinction the earlier blanket rule missed.",
+      "notes": "Tagged pronunciation because the word defies its spelling: the ğ lengthens the preceding o rather than being pronounced. Confirmed against TDK where it lists a telaffuz. Transcription removed: ğ behaves differently in different words — lengthening, reducing to a glide, or vanishing — and this one was produced by applying a single rule across contexts rather than from evidence. Left empty rather than guessed, on the learner's instruction that a wrong transcription is worse than none. Audio for the word is in resources/pron_audio/; restore the field only once it has been checked by ear. Restored from a source rather than a rule: en.wiktionary /oːˈɫak/, [o̞ːˈɫ̪ɑk]. ğ lengthens the preceding vowel before a consonant (oğlak, doğrudan) but not between vowels (değişim), which is the distinction the earlier blanket rule missed. Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
       "hint_tr_en": "(the star sign; the word also means kid goat)",
       "hint_en_tr": "(star sign)",
-      "pron_tr": "oːˈɫɑk"
+      "pron_tr": "oːˈɫɑk",
+      "infl_tr": "oğlağı"
     },
     {
       "id": "cand-a2-5-0068",
@@ -1144,11 +1152,12 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the æ before a sonorant is attested (en.wiktionary gives element /eleˈmænt/, ders /dæɾs/, cömert /dʒœˈmæɾt/) and the learner confirms it by ear. Only the æ before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "notes": "Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the æ before a sonorant is attested (en.wiktionary gives element /eleˈmænt/, ders /dæɾs/, cömert /dʒœˈmæɾt/) and the learner confirms it by ear. Only the æ before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone. Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
       "hint_tr_en": "(the star sign; the word also means crab)",
       "hint_en_tr": "(star sign)",
-      "pron_tr": "jænˈɟetʃ"
+      "pron_tr": "jænˈɟetʃ",
+      "infl_tr": "yengeci"
     },
     {
       "id": "cand-a2-5-0075",
@@ -1240,11 +1249,12 @@
         "unit-a2"
       ],
       "source": "A2-5C Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "Same spelling as the deck's balık = fish but a different sense. Hidden by the same form-based test as aslan. Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the æ before a sonorant is attested (en.wiktionary gives element /eleˈmænt/, ders /dæɾs/, cömert /dʒœˈmæɾt/) and the learner confirms it by ear. Only the æ before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "notes": "Same spelling as the deck's balık = fish but a different sense. Hidden by the same form-based test as aslan. Pronunciation transcribed by hand. Transcription removed. It was produced by applying my own rules — \"closed syllable gives æ\", \"ğ lengthens\" — rather than from evidence, and checking against en. and tr.wiktionary showed both rules over-generate: æ is conditioned by a following sonorant (ders, benzer) and not by a closed syllable as such, so any e before k, t, p or ş was wrong; and ğ lengthens only before a consonant, not between vowels. Left empty rather than guessed. Audio is in resources/pron_audio/ and scripts/check_pron.py looks the word up, so this can be restored from a source. Restored after the withdrawal was found to be an over-correction: the æ before a sonorant is attested (en.wiktionary gives element /eleˈmænt/, ders /dæɾs/, cömert /dʒœˈmæɾt/) and the learner confirms it by ear. Only the æ before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone. Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
       "hint_tr_en": "(the star sign)",
       "hint_en_tr": "(star sign)",
-      "pron_tr": "bɑˈɫɯk"
+      "pron_tr": "bɑˈɫɯk",
+      "infl_tr": "balığı"
     },
     {
       "id": "cand-a2-5-0081",

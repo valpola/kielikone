@@ -184,6 +184,42 @@ the *syllable* — so it must be converted, not copied. That reading of the conv
 from examples, not documentation; native audio in `resources/pron_samples/` was sent to the
 learner to confirm it.
 
+**The whole TDK response is cached** in `resources/tdk_cache.jsonl` (gitignored) — 1982 words,
+1599 found, 4.8 MB, no failures. `scripts/fetch_tdk.py` fetches only what is missing and re-tries
+recorded failures, so an absent line means "not attempted" and never "TDK has nothing". Storing
+only the field wanted that day was a mistake once already: an earlier run kept `telaffuz` and threw
+away `taki`, and 1963 requests had to be made again. Beyond those two the response carries `lisan`
+(source language, 661 words), `birlesikler` (1058), `atasozu` (770) and every sense with examples.
+
+## Stem alternations (`infl_tr`)
+
+Consonant softening is **lexical, not derivable**: `dört → dördü` but `üç → üçü`, `mektup →
+mektubu` and `akrep → akrebi` but `direkt → direkti`. Tendencies exist — polysyllables mostly
+soften, monosyllables mostly do not, `-nk` always does (`renk → rengi`) while `-rk`/`-lk` never
+do (`Türk → Türkü`, `halk → halkı`) — but the residue is large enough that only a per-word record
+is safe. TDK keeps one in `taki`, and `scripts/tdk_alternations.py` turns that tail back into the
+full form, written to `infl_tr` and shown on the card after reveal. 197 deck words carry one:
+184 softenings, 11 vowel drops, 2 geminations.
+
+- **`taki` is a positive attestation only.** Absence means TDK did not say, not that the word is
+  regular: `yumuşak` carries no tail on *either* TDK endpoint (`gts` and `yazim`) though
+  `yumuşağı` is right. So never write "does not soften" from a missing tail.
+- **Take it from the first sense, never the first non-empty one.** `sol` lists nothing for "left"
+  and `lü` for the musical note G, which produced `solü` on the deck's "left" card. Twelve deck
+  words are homographs this way; of them only `sır` (secret, TDK's second sense) needs the
+  override. The same trap made an earlier report claim `koyun → koynu` and `Hayır → Hayrı` were
+  undemonstrated alternations — those belong to *bosom* and *charity*, not to the deck's sheep
+  and no.
+- **The tail's shape says which operation it is**, and one rule over all of them produces
+  confident nonsense (`gitmek → gitmeder`, `ayakkabı → ayı`, `sır → rrı` were all real output).
+  A leading hyphen marks the variant keeping the stem vowel (`omuz, -uzu` → `omuzu`), a doubled
+  initial consonant is gemination, an apostrophe is a proper noun.
+- **The infinitive ending does not make a verb**: `ekmek` and `mercimek` are nouns, and treating
+  them as verbs gave `eği` and `mercği`. An aorist tail always ends in `-r`; a nominal one never
+  does. Verb aorists are extracted but **not** written to cards — `alır` unlabelled would puzzle.
+- A tail that leaves the stem intact (`terminal → terminali`, `ayakkabı → ayakkabıyı`) teaches
+  nothing and is dropped; gemination is the deliberate exception.
+
 **Curation rules**
 - **Compare on letters only.** Strip case, circumflexes, parentheses, spaces *and
   punctuation* before matching. Three duplicates got in this way, each defeated by one

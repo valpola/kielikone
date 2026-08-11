@@ -55,10 +55,11 @@
         "noun"
       ],
       "source": "A1_-_3C.pdf",
-      "notes": "Tip added when A2-5C introduced balık as the star sign Pisces. Restored after the withdrawal was found to be an over-correction: the æ before a sonorant is attested (en.wiktionary gives element /eleˈmænt/, ders /dæɾs/, cömert /dʒœˈmæɾt/) and the learner confirms it by ear. Only the æ before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "notes": "Tip added when A2-5C introduced balık as the star sign Pisces. Restored after the withdrawal was found to be an over-correction: the æ before a sonorant is attested (en.wiktionary gives element /eleˈmænt/, ders /dæɾs/, cömert /dʒœˈmæɾt/) and the learner confirms it by ear. Only the æ before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone. Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
       "hint_tr_en": "(the animal)",
-      "pron_tr": "bɑˈɫɯk"
+      "pron_tr": "bɑˈɫɯk",
+      "infl_tr": "balığı"
     },
     {
       "id": "cand-a1-3c-0005",
@@ -99,8 +100,9 @@
         "noun"
       ],
       "source": "A1_-_3C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "bıçağı"
     },
     {
       "id": "cand-a1-3c-0008",
@@ -113,8 +115,9 @@
         "noun"
       ],
       "source": "A1_-_3C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "cacığı"
     },
     {
       "id": "cand-a1-3c-0009",
@@ -169,9 +172,10 @@
         "noun"
       ],
       "source": "A1_-_3C.pdf",
-      "notes": "",
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
-      "hint_en_tr": "(in a restaurant)"
+      "hint_en_tr": "(in a restaurant)",
+      "infl_tr": "hesabı"
     },
     {
       "id": "cand-a1-3c-0013",
@@ -184,8 +188,9 @@
         "noun"
       ],
       "source": "A1_-_3C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "içeceği"
     },
     {
       "id": "cand-a1-3c-0014",
@@ -226,8 +231,9 @@
         "noun"
       ],
       "source": "A1_-_3C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "kaşığı"
     },
     {
       "id": "cand-a1-3c-0017",
@@ -240,8 +246,9 @@
         "noun"
       ],
       "source": "A1_-_3C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "kebabı"
     },
     {
       "id": "cand-a1-3c-0018",
@@ -310,8 +317,9 @@
         "noun"
       ],
       "source": "A1_-_3C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "levreği"
     },
     {
       "id": "cand-a1-3c-0023",
@@ -422,8 +430,9 @@
         "noun"
       ],
       "source": "A1_-_3C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "palamudu"
     },
     {
       "id": "cand-a1-3c-0031",
@@ -550,8 +559,9 @@
         "noun"
       ],
       "source": "A1_-_3C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "sütlacı"
     },
     {
       "id": "cand-a1-3c-0040",
@@ -564,8 +574,9 @@
         "noun"
       ],
       "source": "A1_-_3C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "yiyeceği"
     },
     {
       "id": "cand-a1-3c-0041",

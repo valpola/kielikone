@@ -424,8 +424,9 @@
         "unit-a1"
       ],
       "source": "A1 listening/dialogue exercises (Turkishle)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "kayağı"
     },
     {
       "id": "cand-a1-listen-0031",

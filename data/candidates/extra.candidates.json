@@ -12,8 +12,9 @@
         "unit-a2-extra"
       ],
       "source": "gap-fill: not in the coursebooks; filed with the A2-2B animal vocabulary",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "örümceği"
     },
     {
       "id": "extra-0002",
@@ -41,8 +42,9 @@
         "unit-a1"
       ],
       "source": "A1-1B grammar examples (Turkishle coursebook)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "ağacı"
     },
     {
       "id": "extra-0004",

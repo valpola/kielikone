@@ -55,8 +55,9 @@
         "unit-a1"
       ],
       "source": "A1_-_2A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "bandı"
     },
     {
       "id": "cand-a1-2a-0005",
@@ -253,8 +254,9 @@
         "unit-a1"
       ],
       "source": "A1_-_2A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "kalemliği"
     },
     {
       "id": "cand-a1-2a-0019",
@@ -310,8 +312,9 @@
         "unit-a1"
       ],
       "source": "A1_-_2A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "kitabı"
     },
     {
       "id": "cand-a1-2a-0023",

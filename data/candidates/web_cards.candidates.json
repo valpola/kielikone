@@ -246,8 +246,9 @@
         "unit-a2-extra"
       ],
       "source": "gap-fill: in no Turkishle list or card; filed with the A2-2C health vocabulary, as karın and bacak are",
-      "notes": "Asked about in issue #50. A list search appeared to find it in A1-4B, but that was Burundi and Yeşil Burun Adaları — the body part is absent. Body parts have no list of their own anywhere in A1/A2.",
-      "status": "approved"
+      "notes": "Asked about in issue #50. A list search appeared to find it in A1-4B, but that was Burundi and Yeşil Burun Adaları — the body part is absent. Body parts have no list of their own anywhere in A1/A2. Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "burnu"
     },
     {
       "id": "cand-card-0031",
@@ -565,8 +566,9 @@
         "unit-a2"
       ],
       "source": "example sentence on the A2-1B vocabulary card (Turkishle web); in no unit vocabulary list",
-      "notes": "Mined from the card example sentences, which the earlier sweeps discarded — the lists teach the headwords, the sentences carry the connective vocabulary around them. Glossed 'variety' rather than 'kind' so it does not collide with tür.",
-      "status": "approved"
+      "notes": "Mined from the card example sentences, which the earlier sweeps discarded — the lists teach the headwords, the sentences carry the connective vocabulary around them. Glossed 'variety' rather than 'kind' so it does not collide with tür. Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "çeşidi"
     },
     {
       "id": "cand-sent-0066",
@@ -579,8 +581,9 @@
         "unit-a2"
       ],
       "source": "example sentence on the A2-1B vocabulary card (Turkishle web); in no unit vocabulary list",
-      "notes": "Mined from the card example sentences, which the earlier sweeps discarded — the lists teach the headwords, the sentences carry the connective vocabulary around them.",
-      "status": "approved"
+      "notes": "Mined from the card example sentences, which the earlier sweeps discarded — the lists teach the headwords, the sentences carry the connective vocabulary around them. Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "alışkanlığı"
     },
     {
       "id": "cand-sent-0067",

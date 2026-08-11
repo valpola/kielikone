@@ -27,9 +27,10 @@
         "unit-a1"
       ],
       "source": "A1-2A grammar/dialogue (Turkishle coursebook)",
-      "notes": "",
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
-      "hint_en_tr": "(bus / transit)"
+      "hint_en_tr": "(bus / transit)",
+      "infl_tr": "durağı"
     },
     {
       "id": "cand-a1-2cb-0003",
@@ -56,8 +57,9 @@
         "unit-a1"
       ],
       "source": "A1-2A grammar/dialogue (Turkishle coursebook)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "kasabı"
     },
     {
       "id": "cand-a1-2cb-0005",

@@ -213,9 +213,10 @@
         "unit-a2-2b"
       ],
       "source": "A2_-_2B.pdf",
-      "notes": "",
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "hint_en_tr": "(non-physical)",
-      "status": "approved"
+      "status": "approved",
+      "infl_tr": "bozuğu"
     },
     {
       "id": "cand-a2-2b-0016",
@@ -228,9 +229,10 @@
         "unit-a2-2b"
       ],
       "source": "A2_-_2B.pdf",
-      "notes": "",
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "hint_en_tr": "(unusual / novel)",
-      "status": "approved"
+      "status": "approved",
+      "infl_tr": "değişiği"
     },
     {
       "id": "cand-a2-2b-0017",
@@ -258,9 +260,10 @@
         "unit-a2-2b"
       ],
       "source": "A2_-_2B.pdf",
-      "notes": "",
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "hint_en_tr": "(physical damage)",
-      "status": "approved"
+      "status": "approved",
+      "infl_tr": "kırığı"
     },
     {
       "id": "cand-a2-2b-0019",
@@ -388,10 +391,11 @@
         "unit-a2-2b"
       ],
       "source": "A2_-_2B.pdf",
-      "notes": "Tip added when A2-5C introduced balık as the star sign Pisces. Restored after the withdrawal was found to be an over-correction: the æ before a sonorant is attested (en.wiktionary gives element /eleˈmænt/, ders /dæɾs/, cömert /dʒœˈmæɾt/) and the learner confirms it by ear. Only the æ before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone.",
+      "notes": "Tip added when A2-5C introduced balık as the star sign Pisces. Restored after the withdrawal was found to be an over-correction: the æ before a sonorant is attested (en.wiktionary gives element /eleˈmænt/, ders /dæɾs/, cömert /dʒœˈmæɾt/) and the learner confirms it by ear. Only the æ before an obstruent was wrong. Where Wiktionary writes /e/ in this position it is transcribing broadly, which is not evidence against the allophone. Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
       "hint_tr_en": "(the animal)",
-      "pron_tr": "bɑˈɫɯk"
+      "pron_tr": "bɑˈɫɯk",
+      "infl_tr": "balığı"
     },
     {
       "id": "cand-a2-2b-0028",
@@ -419,8 +423,9 @@
         "unit-a2-2b"
       ],
       "source": "A2_-_2B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "eşeği"
     },
     {
       "id": "cand-a2-2b-0030",
@@ -504,8 +509,9 @@
         "unit-a2-2b"
       ],
       "source": "A2_-_2B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "ineği"
     },
     {
       "id": "cand-a2-2b-0036",
@@ -604,8 +610,9 @@
         "unit-a2-2b"
       ],
       "source": "A2_-_2B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "köpeği"
     },
     {
       "id": "cand-a2-2b-0043",
@@ -745,8 +752,9 @@
         "unit-a2-2b"
       ],
       "source": "A2_-_2B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "sırrı"
     },
     {
       "id": "cand-a2-2b-0053",
@@ -759,8 +767,9 @@
         "unit-a2-2b"
       ],
       "source": "A2_-_2B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "tavuğu"
     },
     {
       "id": "cand-a2-2b-0054",

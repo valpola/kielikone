@@ -13,8 +13,9 @@
         "unit-a1"
       ],
       "source": "A1-5A grammar/transcript (Turkishle coursebook)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "çeyreği"
     },
     {
       "id": "cand-a1-5cb-0002",
@@ -27,8 +28,9 @@
         "unit-a1"
       ],
       "source": "A1-5A grammar/transcript (Turkishle coursebook)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "buçuğu"
     },
     {
       "id": "cand-a1-5cb-0003",
@@ -55,8 +57,9 @@
         "unit-a1"
       ],
       "source": "A1-5B grammar/transcript (Turkishle coursebook)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "geleceği"
     },
     {
       "id": "cand-a1-5cb-0005",
@@ -125,8 +128,9 @@
         "unit-a1"
       ],
       "source": "A1-5C grammar/transcript (Turkishle coursebook)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "trafiği"
     }
   ]
 }
