@@ -74,6 +74,9 @@ def main() -> int:
     ap.add_argument("--tag", help="only items carrying this tag")
     ap.add_argument("--unit", help="only items in this unit tag")
     ap.add_argument("--words", help="comma-separated Turkish forms")
+    ap.add_argument("--transcribed", action="store_true",
+                    help="every item carrying a pron_tr or an infl_tr")
+    ap.add_argument("--deck", action="store_true", help="the whole deck")
     ap.add_argument("--mp3", action="store_true", help="convert say output to m4a")
     ap.add_argument("--delay", type=float, default=0.6, help="seconds between requests")
     ap.add_argument("--limit", type=int)
@@ -88,6 +91,8 @@ def main() -> int:
         items = [i for i in items if args.tag in i.get("tags", [])]
     if args.unit:
         items = [i for i in items if args.unit in i.get("tags", [])]
+    if args.transcribed:
+        items = [i for i in items if i.get("pron_tr") or i.get("infl_tr")]
     if not items:
         print("nothing matched", file=sys.stderr)
         return 1
