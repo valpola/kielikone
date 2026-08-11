@@ -4,7 +4,13 @@
     {
       "name": "quiz",
       "runtimeExecutable": "python3",
-      "runtimeArgs": ["-m", "http.server", "8124", "--directory", "web"],
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "8124",
+        "--directory",
+        "web"
+      ],
       "port": 8124
     }
   ]

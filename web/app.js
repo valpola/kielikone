@@ -1488,6 +1488,7 @@ const hidePron = () => {
   PRON.textContent = "";
   if (PRON_ROW) PRON_ROW.classList.add("hidden");
   if ("speechSynthesis" in window) speechSynthesis.cancel();
+  if (clipPlayer) clipPlayer.pause();
 };
 
 // The IPA goes in square brackets to mark it as a transcription: most of it is
@@ -1526,7 +1527,7 @@ if ("speechSynthesis" in window) {
   speechSynthesis.addEventListener("voiceschanged", pickVoice);
 }
 
-const speakCurrent = () => {
+const speakSynthesised = () => {
   if (!current || !("speechSynthesis" in window)) return;
   const utter = new SpeechSynthesisUtterance(current.turkish);
   // lang matters even with an explicit voice: without it a platform that has no
@@ -1536,6 +1537,85 @@ const speakCurrent = () => {
   utter.rate = 0.9;
   speechSynthesis.cancel();
   speechSynthesis.speak(utter);
+};
+
+// A recorded clip sounds markedly better than the device voice, but it may not
+// be published: the recordings are Google Translate's, so they live in the
+// database behind the same app secret as the answer history and never in the
+// repo. Logged out, or for a word with no clip, the device speaks instead —
+// so the button always does something.
+const AUDIO_DB = "tr-quiz-audio";
+let audioDb = null;
+
+const openAudioDb = () =>
+  new Promise((resolve) => {
+    if (audioDb) return resolve(audioDb);
+    if (!("indexedDB" in window)) return resolve(null);
+    const req = indexedDB.open(AUDIO_DB, 1);
+    req.onupgradeneeded = () => req.result.createObjectStore("clips");
+    req.onsuccess = () => resolve((audioDb = req.result));
+    req.onerror = () => resolve(null);
+  });
+
+const cachedClip = async (word) => {
+  const db = await openAudioDb();
+  if (!db) return null;
+  return new Promise((resolve) => {
+    const req = db.transaction("clips").objectStore("clips").get(word);
+    req.onsuccess = () => resolve(req.result || null);
+    req.onerror = () => resolve(null);
+  });
+};
+
+const cacheClip = async (word, blob) => {
+  const db = await openAudioDb();
+  if (!db) return;
+  // A full cache must not break playback, so a failed write is ignored: the
+  // clip still plays this time and is simply fetched again next time.
+  try {
+    db.transaction("clips", "readwrite").objectStore("clips").put(blob, word);
+  } catch {
+    /* out of quota — keep going */
+  }
+};
+
+const fetchClip = async (word) => {
+  if (!getAppSecret() || !getSupabaseUrl()) return null;
+  const url =
+    `${getSupabaseUrl()}/rest/v1/pron_audio` +
+    `?word=eq.${encodeURIComponent(word)}&select=mp3_b64&limit=1`;
+  try {
+    const response = await fetch(url, { headers: supabaseHeaders() });
+    if (!response.ok) return null;
+    const rows = await response.json();
+    if (!rows.length || !rows[0].mp3_b64) return null;
+    const bytes = Uint8Array.from(atob(rows[0].mp3_b64), (c) => c.charCodeAt(0));
+    return new Blob([bytes], { type: "audio/mpeg" });
+  } catch {
+    return null;
+  }
+};
+
+let clipPlayer = null;
+
+const speakCurrent = async () => {
+  if (!current) return;
+  const word = current.turkish;
+  if (clipPlayer) clipPlayer.pause();
+  if ("speechSynthesis" in window) speechSynthesis.cancel();
+
+  let blob = await cachedClip(word);
+  if (!blob) {
+    blob = await fetchClip(word);
+    if (blob) await cacheClip(word, blob);
+  }
+  // The card may have moved on while the clip was downloading.
+  if (!current || current.turkish !== word) return;
+  if (!blob) return speakSynthesised();
+
+  clipPlayer = new Audio(URL.createObjectURL(blob));
+  clipPlayer.onerror = speakSynthesised;
+  clipPlayer.play().catch(speakSynthesised);
 };
 
 const clearCorrectAnswerState = () => {
