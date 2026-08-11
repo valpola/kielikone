@@ -76,14 +76,21 @@ def main() -> int:
     key = secret("supabase_anon_key.txt")
     hdrs = headers(key)
 
-    files = sorted(AUDIO.glob("*.mp3"))
-    if not files:
+    by_stem = {p.stem.replace("_", " "): p for p in AUDIO.glob("*.mp3")}
+    if not by_stem:
         sys.exit(f"no clips in {AUDIO.relative_to(ROOT)} — run make_pron_audio.py first")
+    folded = {k.casefold(): v for k, v in by_stem.items()}
 
-    # Only words the deck actually asks for; a stale clip helps nobody.
-    wanted = {f.strip() for i in json.loads(QUIZ.read_text(encoding="utf-8"))["items"]
-              for f in i["turkish"].split("/")}
-    files = [f for f in files if f.stem.replace("_", " ") in wanted]
+    # Key each row by the form the deck holds, not by the filename. macOS has a
+    # case-insensitive filesystem, so Mısır/mısır, Ocak/ocak and Pazar/pazar each
+    # collapsed into a single clip — same pronunciation either way, but the app
+    # looks a word up by its exact spelling and would have missed the capitalised
+    # one. Both spellings get a row, pointing at the same bytes.
+    wanted = sorted({f.strip() for i in json.loads(QUIZ.read_text(encoding="utf-8"))["items"]
+                     for f in i["turkish"].split("/")})
+    pairs = [(w, by_stem.get(w) or folded.get(w.casefold())) for w in wanted]
+    missing = [w for w, p in pairs if p is None]
+    pairs = [(w, p) for w, p in pairs if p is not None]
 
     present: set[str] = set()
     if not args.refresh:
@@ -91,10 +98,11 @@ def main() -> int:
         present = {r["word"] for r in (rows or [])}
         print(f"{len(present)} already in the table")
 
-    todo = [f for f in files if f.stem.replace("_", " ") not in present][: args.limit]
-    total = sum(f.stat().st_size for f in todo)
-    print(f"{len(files)} clips match the deck; {len(todo)} to send "
-          f"({total/1e6:.1f} MB raw, ~{total*4/3/1e6:.1f} MB encoded)")
+    todo = [(w, p) for w, p in pairs if w not in present][: args.limit]
+    total = sum(p.stat().st_size for _, p in todo)
+    print(f"{len(pairs)} of {len(wanted)} deck forms have a clip"
+          + (f" ({len(missing)} without: {', '.join(missing[:6])})" if missing else "")
+          + f"; {len(todo)} to send ({total/1e6:.1f} MB raw, ~{total*4/3/1e6:.1f} MB encoded)")
     if args.dry_run or not todo:
         return 0
 
@@ -103,9 +111,9 @@ def main() -> int:
     post = dict(hdrs, Prefer="resolution=merge-duplicates,return=minimal")
     for start in range(0, len(todo), BATCH):
         chunk = todo[start:start + BATCH]
-        rows = [{"word": f.stem.replace("_", " "),
-                 "mp3_b64": base64.b64encode(f.read_bytes()).decode(),
-                 "engine": "google"} for f in chunk]
+        rows = [{"word": word,
+                 "mp3_b64": base64.b64encode(path.read_bytes()).decode(),
+                 "engine": "google"} for word, path in chunk]
         request(url, "POST", post, json.dumps(rows).encode())
         sent += len(chunk)
         print(f"  {sent}/{len(todo)}", flush=True)
