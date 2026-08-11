@@ -184,6 +184,14 @@ the *syllable* — so it must be converted, not copied. That reading of the conv
 from examples, not documentation; native audio in `resources/pron_samples/` was sent to the
 learner to confirm it.
 
+**Audio in the app is synthesised on the device, never shipped.** The 🔊 button calls the
+Web Speech API with `lang: "tr-TR"`, preferring a `localService` voice — macOS and iOS have
+Yelda, Android a Google one. Nothing is recorded, stored, licensed or served, so the app stays
+a static site with no account behind it and no third party's audio in the repo. The mp3s in
+`resources/pron_audio/` come from Google Translate's undocumented `translate_tts` endpoint and
+are a **verification aid only**: automated access is against Google's terms, so they must not be
+committed or published. `say -v Yelda` is the offline alternative for the same purpose.
+
 **The whole TDK response is cached** in `resources/tdk_cache.jsonl` (gitignored) — 1982 words,
 1599 found, 4.8 MB, no failures. `scripts/fetch_tdk.py` fetches only what is missing and re-tries
 recorded failures, so an absent line means "not attempted" and never "TDK has nothing". Storing

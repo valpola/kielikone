@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Space+Grotesk:wght@400;600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css?v=20260811-69" />
+    <link rel="stylesheet" href="style.css?v=20260811-70" />
   </head>
   <body>
     <div class="bg-glow"></div>
@@ -37,7 +37,10 @@
               readonly
             />
           </label>
-          <div id="pron" class="pron hidden" aria-live="polite"></div>
+          <div id="pron-row" class="pron-row hidden">
+            <button id="speak" class="speak" type="button" title="Say it" aria-label="Say it">🔊</button>
+            <div id="pron" class="pron" aria-live="polite"></div>
+          </div>
         </div>
 
         <div class="button-row">
@@ -205,9 +208,9 @@
       </details>
     </main>
 
-    <script src="config.js?v=20260811-69"></script>
-    <script src="today_scoring.js?v=20260811-69"></script>
-    <script src="answers.js?v=20260811-69"></script>
-    <script src="app.js?v=20260811-69"></script>
+    <script src="config.js?v=20260811-70"></script>
+    <script src="today_scoring.js?v=20260811-70"></script>
+    <script src="answers.js?v=20260811-70"></script>
+    <script src="app.js?v=20260811-70"></script>
   </body>
 </html>

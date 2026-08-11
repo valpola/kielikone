@@ -3,6 +3,8 @@ const HINT = document.getElementById("hint");
 const ANSWER = document.getElementById("answer");
 const CORRECT_ANSWER = document.getElementById("correct-answer");
 const PRON = document.getElementById("pron");
+const PRON_ROW = document.getElementById("pron-row");
+const SPEAK = document.getElementById("speak");
 const REVEAL = document.getElementById("reveal");
 const ACTIONS = document.getElementById("actions");
 const GRADE = document.getElementById("grade");
@@ -1484,7 +1486,8 @@ const revealAnswer = () => {
 const hidePron = () => {
   if (!PRON) return;
   PRON.textContent = "";
-  PRON.classList.add("hidden");
+  if (PRON_ROW) PRON_ROW.classList.add("hidden");
+  if ("speechSynthesis" in window) speechSynthesis.cancel();
 };
 
 // The IPA goes in square brackets to mark it as a transcription: most of it is
@@ -1498,7 +1501,41 @@ const showPron = () => {
   if (current && current.pron_tr) parts.push(`[${current.pron_tr}]`);
   if (current && current.infl_tr) parts.push(`→ ${current.infl_tr}`);
   PRON.textContent = parts.join("   ");
-  PRON.classList.toggle("hidden", parts.length === 0);
+  // The row also carries the speak button, which is worth offering on every
+  // word — not only the transcribed ones.
+  if (PRON_ROW) PRON_ROW.classList.toggle("hidden", !current);
+};
+
+// Speech comes from the device, not from a file we ship. Every platform this
+// runs on already has a Turkish voice (macOS and iOS have Yelda; Android has a
+// Google one), so nothing has to be recorded, stored, licensed or served — and
+// the app stays a static site with no account behind it.
+let turkishVoice = null;
+const pickVoice = () => {
+  if (!("speechSynthesis" in window)) return;
+  const voices = speechSynthesis.getVoices();
+  // Prefer a local voice: it works offline and does not send the word anywhere.
+  turkishVoice =
+    voices.find((v) => /^tr\b/i.test(v.lang) && v.localService) ||
+    voices.find((v) => /^tr\b/i.test(v.lang)) ||
+    null;
+};
+if ("speechSynthesis" in window) {
+  pickVoice();
+  // Chrome fills the list asynchronously, so the first call often sees nothing.
+  speechSynthesis.addEventListener("voiceschanged", pickVoice);
+}
+
+const speakCurrent = () => {
+  if (!current || !("speechSynthesis" in window)) return;
+  const utter = new SpeechSynthesisUtterance(current.turkish);
+  // lang matters even with an explicit voice: without it a platform that has no
+  // Turkish voice reads the word with English letter values.
+  utter.lang = "tr-TR";
+  if (turkishVoice) utter.voice = turkishVoice;
+  utter.rate = 0.9;
+  speechSynthesis.cancel();
+  speechSynthesis.speak(utter);
 };
 
 const clearCorrectAnswerState = () => {
@@ -1654,6 +1691,7 @@ if (NOTE_INPUT) {
 }
 
 REVEAL.addEventListener("click", revealAnswer);
+if (SPEAK) SPEAK.addEventListener("click", speakCurrent);
 NEXT.addEventListener("click", renderPrompt);
 MARK_CORRECT.addEventListener("click", () => grade(true));
 MARK_WRONG.addEventListener("click", () => grade(false));

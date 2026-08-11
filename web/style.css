@@ -543,3 +543,39 @@ button {
 .pron.hidden {
   display: none;
 }
+
+/* The speak button and the transcription share a row, so a word with no
+   pron_tr still gets audio — the row appears on every revealed card. */
+.pron-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.4rem;
+}
+
+.pron-row.hidden {
+  display: none;
+}
+
+.pron-row .pron {
+  margin-top: 0;
+}
+
+.speak {
+  flex: none;
+  border: 1px solid #d1d5db;
+  background: #fff;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  line-height: 1;
+  padding: 0.3rem 0.5rem;
+}
+
+.speak:hover {
+  background: #f3f4f6;
+}
+
+.speak:active {
+  transform: scale(0.94);
+}
