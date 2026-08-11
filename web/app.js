@@ -1489,6 +1489,7 @@ const hidePron = () => {
   if (PRON_ROW) PRON_ROW.classList.add("hidden");
   if ("speechSynthesis" in window) speechSynthesis.cancel();
   if (clipPlayer) clipPlayer.pause();
+  releaseClip();
 };
 
 // The IPA goes in square brackets to mark it as a transcription: most of it is
@@ -1505,6 +1506,8 @@ const showPron = () => {
   // The row also carries the speak button, which is worth offering on every
   // word — not only the transcribed ones.
   if (PRON_ROW) PRON_ROW.classList.toggle("hidden", !current);
+  // Start the download now so the tap itself has nothing to wait for.
+  if (current) prefetchClip(current.turkish);
 };
 
 // Speech comes from the device, not from a file we ship. Every platform this
@@ -1598,24 +1601,47 @@ const fetchClip = async (word) => {
 
 let clipPlayer = null;
 
-const speakCurrent = async () => {
-  if (!current) return;
-  const word = current.turkish;
-  if (clipPlayer) clipPlayer.pause();
-  if ("speechSynthesis" in window) speechSynthesis.cancel();
+// iOS will only start audio synchronously inside the tap that asked for it: an
+// await anywhere before speak() or play() loses the user-gesture context and the
+// call is refused in silence. Desktop browsers do not enforce this, which is why
+// an earlier version tested clean here and did nothing at all on the phone.
+//
+// So the clip is fetched when the answer is revealed, not when the button is
+// pressed, and the handler below stays free of await.
+let readyClip = { word: null, url: null };
 
+const releaseClip = () => {
+  if (readyClip.url) URL.revokeObjectURL(readyClip.url);
+  readyClip = { word: null, url: null };
+};
+
+const prefetchClip = async (word) => {
+  releaseClip();
   let blob = await cachedClip(word);
   if (!blob) {
     blob = await fetchClip(word);
     if (blob) await cacheClip(word, blob);
   }
-  // The card may have moved on while the clip was downloading.
-  if (!current || current.turkish !== word) return;
-  if (!blob) return speakSynthesised();
+  // The card may have moved on while this was downloading.
+  if (!blob || !current || current.turkish !== word) return;
+  readyClip = { word, url: URL.createObjectURL(blob) };
+};
 
-  clipPlayer = new Audio(URL.createObjectURL(blob));
-  clipPlayer.onerror = speakSynthesised;
-  clipPlayer.play().catch(speakSynthesised);
+const speakCurrent = () => {
+  if (!current) return;
+  if (clipPlayer) clipPlayer.pause();
+  if ("speechSynthesis" in window) speechSynthesis.cancel();
+
+  if (readyClip.url && readyClip.word === current.turkish) {
+    clipPlayer = new Audio(readyClip.url);
+    clipPlayer.onerror = speakSynthesised;
+    const started = clipPlayer.play();
+    // A rejected play() lands outside the gesture, so the fallback may itself be
+    // refused on iOS — but a silent button is the worse of the two outcomes.
+    if (started && started.catch) started.catch(speakSynthesised);
+    return;
+  }
+  speakSynthesised();
 };
 
 const clearCorrectAnswerState = () => {
