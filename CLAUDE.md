@@ -184,13 +184,28 @@ the *syllable* — so it must be converted, not copied. That reading of the conv
 from examples, not documentation; native audio in `resources/pron_samples/` was sent to the
 learner to confirm it.
 
-**Audio in the app is synthesised on the device, never shipped.** The 🔊 button calls the
-Web Speech API with `lang: "tr-TR"`, preferring a `localService` voice — macOS and iOS have
-Yelda, Android a Google one. Nothing is recorded, stored, licensed or served, so the app stays
-a static site with no account behind it and no third party's audio in the repo. The mp3s in
-`resources/pron_audio/` come from Google Translate's undocumented `translate_tts` endpoint and
-are a **verification aid only**: automated access is against Google's terms, so they must not be
-committed or published. `say -v Yelda` is the offline alternative for the same purpose.
+**Audio never enters the repo.** Two sources, and which one plays depends on being logged in:
+
+- **Recorded clips** — 2036 Google Translate `translate_tts` mp3s, one per deck form, held in the
+  Supabase table `pron_audio` (`supabase/pron_audio.sql`, filled by `scripts/upload_pron_audio.py`,
+  ~26 MB base64). Playing them to oneself is personal use; serving them from a public GitHub Pages
+  site would be redistribution, so they are gated behind the same `x-app-secret` RLS as `results`
+  — verified: the anon key alone returns 0 rows. **Supabase Storage cannot do this**: it authorises
+  with Supabase Auth JWTs and never sees that header, so only a PostgREST table reuses the existing
+  login. The client fetches one word (~8 KB) and keeps it in IndexedDB.
+- **Device synthesis** — the fallback, and all a logged-out visitor ever gets. Web Speech with
+  `lang: "tr-TR"`, preferring a `localService` voice (Yelda on macOS/iOS, a Google one on Android).
+
+**iOS only starts audio synchronously inside the tap that asked for it.** An `await` anywhere
+before `speak()`/`play()` loses the gesture and the call is refused *silently* — no error, no log.
+That is why the clip is prefetched on reveal and the click handler holds no `await`. Desktop does
+not enforce this, so verifying the button on the Mac proves nothing about the phone; it shipped
+broken once exactly this way.
+
+`resources/pron_audio/` stays gitignored. Automated access to `translate_tts` is against Google's
+terms regardless of where the files end up — that is about the fetching, not the serving.
+`say -v Yelda` is the offline alternative, and Piper (CC-BY neural voices) is the option that
+would be shippable outright if the licence is ever worth revisiting.
 
 **The whole TDK response is cached** in `resources/tdk_cache.jsonl` (gitignored) — 1982 words,
 1599 found, 4.8 MB, no failures. `scripts/fetch_tdk.py` fetches only what is missing and re-tries
