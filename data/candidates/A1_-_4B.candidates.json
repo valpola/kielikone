@@ -126,11 +126,13 @@
       "tags": [
         "unit-a1-4b",
         "unit-a1",
-        "country"
+        "country",
+        "pronunciation"
       ],
       "source": "A1_-_4B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "ɑvustˈɾɑɫjɑ"
     },
     {
       "id": "cand-a1-4b-0010",
@@ -841,11 +843,13 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "pronunciation"
       ],
       "source": "A1_-_4B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "ˈɟine"
     },
     {
       "id": "cand-a1-4b-0059",
@@ -1639,11 +1643,13 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "pronunciation"
       ],
       "source": "A1_-_4B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "mɑːˈliː"
     },
     {
       "id": "cand-a1-4b-0114",
@@ -1933,11 +1939,13 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "pronunciation"
       ],
       "source": "A1_-_4B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "pɑˈnɑmɑ"
     },
     {
       "id": "cand-a1-4b-0134",
@@ -2334,11 +2342,13 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
+        "similar",
+        "pronunciation"
       ],
       "source": "A1_-_4B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "ˈtonɡɑ"
     },
     {
       "id": "cand-a1-4b-0161",
@@ -2911,11 +2921,13 @@
       "tags": [
         "unit-a1-4b",
         "unit-a1",
-        "pronoun"
+        "pronoun",
+        "pronunciation"
       ],
       "source": "A1_-_4B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "ˈhepsi"
     },
     {
       "id": "cand-a1-4b-0200",

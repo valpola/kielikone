@@ -25,12 +25,14 @@
       "tags": [
         "language",
         "unit-a1-4b",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
-      "notes": "",
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
       "status": "approved",
-      "hint_en_tr": "(language)"
+      "hint_en_tr": "(language)",
+      "pron_tr": "ˈdɑndʒɑ"
     },
     {
       "id": "cand-lang-0003",

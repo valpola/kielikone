@@ -408,11 +408,13 @@
       "tags": [
         "noun",
         "unit-a1-3a",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1_-_3A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "tɑːˈtil"
     },
     {
       "id": "cand-a1-3a-0030",
@@ -436,11 +438,13 @@
       "tags": [
         "adverb",
         "unit-a1-3a",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1_-_3A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "ˈɑsɫɑː"
     },
     {
       "id": "cand-a1-3a-0032",
@@ -450,11 +454,13 @@
       "tags": [
         "adverb",
         "unit-a1-3a",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1_-_3A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "bɑːˈzæn"
     },
     {
       "id": "cand-a1-3a-0033",
@@ -464,11 +470,13 @@
       "tags": [
         "adverb",
         "unit-a1-3a",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1_-_3A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "ɟenælˈlicle"
     },
     {
       "id": "cand-a1-3a-0034",
@@ -507,11 +515,13 @@
       "tags": [
         "adverb",
         "unit-a1-3a",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1_-_3A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "nɑːdiˈɾæn"
     },
     {
       "id": "cand-a1-3a-0037",

@@ -253,11 +253,13 @@
       "tags": [
         "noun",
         "unit-a2-3a",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-3A Kelime Listesi (Turkishle coursebook)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "mɑːdʒeˈɾɑː"
     },
     {
       "id": "cand-a2-3-0019",
@@ -513,11 +515,13 @@
       "tags": [
         "noun",
         "unit-a2-3b",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-3B Kelime Listesi (Turkishle coursebook)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "ɑˈnɑokuɫu"
     },
     {
       "id": "cand-a2-3-0037",
@@ -527,11 +531,13 @@
       "tags": [
         "noun",
         "unit-a2-3b",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-3B Kelime Listesi (Turkishle coursebook)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "ˈilkokuɫ"
     },
     {
       "id": "cand-a2-3-0038",
@@ -541,11 +547,13 @@
       "tags": [
         "noun",
         "unit-a2-3b",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-3B Kelime Listesi (Turkishle coursebook)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "oɾˈtɑokuɫ"
     },
     {
       "id": "cand-a2-3-0039",
@@ -555,11 +563,13 @@
       "tags": [
         "noun",
         "unit-a2-3b",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-3B Kelime Listesi (Turkishle coursebook)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "ˈlise"
     },
     {
       "id": "cand-a2-3-0040",
@@ -597,12 +607,14 @@
       "tags": [
         "noun",
         "unit-a2-3b",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-3B Kelime Listesi (Turkishle coursebook)",
-      "notes": "",
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
       "status": "approved",
-      "hint_en_tr": "(the person)"
+      "hint_en_tr": "(the person)",
+      "pron_tr": "meːˈzun"
     },
     {
       "id": "cand-a2-3-0043",

@@ -81,11 +81,13 @@
       "tags": [
         "expression",
         "unit-a1-1a",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1-1A Listening exercise (Turkishle course)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "ˈhɑdi"
     },
     {
       "id": "cand-a1-1web-0008",
@@ -95,11 +97,13 @@
       "tags": [
         "time-expression",
         "unit-a1-1b",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1-1B Listening exercise (Turkishle course)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "ˈʃimdi"
     },
     {
       "id": "cand-a1-1web-0009",
@@ -166,11 +170,13 @@
       "tags": [
         "adverb",
         "unit-a1-1b",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1-1B Listening exercise (Turkishle course)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "ˈmeselɑː"
     },
     {
       "id": "cand-a1-1web-0014",
@@ -180,11 +186,13 @@
       "tags": [
         "adverb",
         "unit-a1-1b",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1-1B Listening exercise (Turkishle course)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "ˈbændʒe"
     }
   ]
 }

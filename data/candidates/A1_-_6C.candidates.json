@@ -151,11 +151,13 @@
       "tags": [
         "adverb",
         "unit-a1-6c",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1_-_6C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "ɑˈtʃɯktʃɑsɯ"
     },
     {
       "id": "cand-a1-6c-0012",
@@ -294,11 +296,13 @@
       "tags": [
         "adjective",
         "unit-a1-6c",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1_-_6C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "sɑːˈcin"
     },
     {
       "id": "cand-a1-6c-0022",

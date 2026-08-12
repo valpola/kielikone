@@ -24,11 +24,13 @@
       "tags": [
         "conjunction",
         "unit-a2",
-        "unit-a2-2b"
+        "unit-a2-2b",
+        "pronunciation"
       ],
       "source": "A2-2B Bağlaçlar — Turkishle course page (H5P)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "ˈtʃyncy"
     },
     {
       "id": "cand-a2-2b-conj-0003",
@@ -38,11 +40,13 @@
       "tags": [
         "conjunction",
         "unit-a2",
-        "unit-a2-2b"
+        "unit-a2-2b",
+        "pronunciation"
       ],
       "source": "A2-2B Bağlaçlar — Turkishle course page (H5P)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "doɫɑjɯˈsɯjɫɑ"
     },
     {
       "id": "cand-a2-2b-conj-0004",

@@ -503,11 +503,13 @@
       "tags": [
         "unit-a1-3b",
         "unit-a1",
-        "noun"
+        "noun",
+        "pronunciation"
       ],
       "source": "A1_-_3B.pdf",
-      "notes": "duplicate of cand-a1-3a-0029",
-      "status": "approved"
+      "notes": "duplicate of cand-a1-3a-0029 Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "tɑːˈtil"
     },
     {
       "id": "cand-a1-3b-0037",
@@ -673,11 +675,13 @@
       "tags": [
         "unit-a1-3b",
         "unit-a1",
-        "noun"
+        "noun",
+        "pronunciation"
       ],
       "source": "A1_-_3B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "ˈmetɾo"
     },
     {
       "id": "cand-a1-3b-0049",
@@ -872,11 +876,13 @@
       "tags": [
         "unit-a1-3b",
         "unit-a1",
-        "adverb"
+        "adverb",
+        "pronunciation"
       ],
       "source": "A1_-_3B.pdf",
-      "notes": "duplicate of cand-a1-3a-0031",
-      "status": "approved"
+      "notes": "duplicate of cand-a1-3a-0031 Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "ˈɑsɫɑː"
     },
     {
       "id": "cand-a1-3b-0063",
@@ -886,11 +892,13 @@
       "tags": [
         "unit-a1-3b",
         "unit-a1",
-        "adverb"
+        "adverb",
+        "pronunciation"
       ],
       "source": "A1_-_3B.pdf",
-      "notes": "duplicate of cand-a1-3a-0032",
-      "status": "approved"
+      "notes": "duplicate of cand-a1-3a-0032 Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "bɑːˈzæn"
     },
     {
       "id": "cand-a1-3b-0064",
@@ -900,11 +908,13 @@
       "tags": [
         "unit-a1-3b",
         "unit-a1",
-        "adverb"
+        "adverb",
+        "pronunciation"
       ],
       "source": "A1_-_3B.pdf",
-      "notes": "duplicate of cand-a1-3a-0033",
-      "status": "approved"
+      "notes": "duplicate of cand-a1-3a-0033 Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "ɟenælˈlicle"
     },
     {
       "id": "cand-a1-3b-0065",
@@ -943,11 +953,13 @@
       "tags": [
         "unit-a1-3b",
         "unit-a1",
-        "adverb"
+        "adverb",
+        "pronunciation"
       ],
       "source": "A1_-_3B.pdf",
-      "notes": "duplicate of cand-a1-3a-0036",
-      "status": "approved"
+      "notes": "duplicate of cand-a1-3a-0036 Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "nɑːdiˈɾæn"
     },
     {
       "id": "cand-a1-3b-0068",

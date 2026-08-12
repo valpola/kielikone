@@ -238,11 +238,13 @@
         "noun",
         "unit-a1-2b",
         "unit-a1",
-        "unit-a1-extra"
+        "unit-a1-extra",
+        "pronunciation"
       ],
       "source": "gap-fill: basic mathematics vocabulary, not in Turkishle A1/A2/B1; filed with the A1-2B numbers list",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "kɑˈɾecøc"
     }
   ]
 }

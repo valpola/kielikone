@@ -315,11 +315,13 @@
       "tags": [
         "adjective",
         "unit-a2",
-        "unit-a2-2b"
+        "unit-a2-2b",
+        "pronunciation"
       ],
       "source": "A2_-_2B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "sɑmiːˈmiː"
     },
     {
       "id": "cand-a2-2b-0023",
@@ -344,11 +346,13 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-2b"
+        "unit-a2-2b",
+        "pronunciation"
       ],
       "source": "A2_-_2B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "ɑkˈvɑɾjum"
     },
     {
       "id": "cand-a2-2b-0025",
@@ -435,11 +439,13 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-2b"
+        "unit-a2-2b",
+        "pronunciation"
       ],
       "source": "A2_-_2B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "fɑːˈɾe"
     },
     {
       "id": "cand-a2-2b-0031",
@@ -664,11 +670,13 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-2b"
+        "unit-a2-2b",
+        "pronunciation"
       ],
       "source": "A2_-_2B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "kɑːˈbus"
     },
     {
       "id": "cand-a2-2b-0047",
@@ -734,12 +742,14 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-2b"
+        "unit-a2-2b",
+        "pronunciation"
       ],
       "source": "A2_-_2B.pdf",
-      "notes": "",
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
       "hint_en_tr": "(sleeping; everyday)",
-      "status": "approved"
+      "status": "approved",
+      "pron_tr": "ɾyˈjɑː"
     },
     {
       "id": "cand-a2-2b-0052",
@@ -821,11 +831,13 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-2b"
+        "unit-a2-2b",
+        "pronunciation"
       ],
       "source": "A2_-_2B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "zyɾɑːˈfɑː"
     }
   ]
 }

@@ -38,11 +38,13 @@
       "tags": [
         "noun",
         "unit-a1-3c",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1-3 grammar sections (Turkishle coursebook)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "tɑːˈɾih"
     }
   ]
 }

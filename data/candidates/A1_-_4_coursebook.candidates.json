@@ -38,11 +38,13 @@
       "tags": [
         "noun",
         "unit-a1-4a",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1-4A grammar/transcript (Turkishle coursebook)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "ɑːiˈle"
     },
     {
       "id": "cand-a1-4cb-0004",
@@ -52,11 +54,13 @@
       "tags": [
         "noun",
         "unit-a1-4a",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1-4A grammar/transcript (Turkishle coursebook)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "ˈdosjɑ"
     },
     {
       "id": "cand-a1-4cb-0005",
@@ -404,11 +408,13 @@
       "tags": [
         "noun",
         "unit-a1-4c",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1-4C grammar/transcript (Turkishle coursebook)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "kɯjɑːˈfet"
     },
     {
       "id": "cand-a1-4cb-0029",

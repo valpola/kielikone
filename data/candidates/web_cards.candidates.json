@@ -10,11 +10,13 @@
       "tags": [
         "noun",
         "unit-a1-4a",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1-4A vocabulary card (Turkishle web); not in any coursebook list",
-      "notes": "Card only. Filed at A1-4A, the family unit, where its peers (yenge, kuzen, hala) live.",
-      "status": "approved"
+      "notes": "Card only. Filed at A1-4A, the family unit, where its peers (yenge, kuzen, hala) live. Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "ɑkɾɑˈbɑː"
     },
     {
       "id": "cand-card-0002",
@@ -24,11 +26,13 @@
       "tags": [
         "noun",
         "unit-a1-4c",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1-4C vocabulary card (Turkishle web); not in any coursebook list",
-      "notes": "Card only. Kept despite being a near-cognate: the transparency rule says practise it anyway.",
-      "status": "approved"
+      "notes": "Card only. Kept despite being a near-cognate: the transparency rule says practise it anyway. Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "koˈɫonjɑ"
     },
     {
       "id": "cand-card-0004",
@@ -259,11 +263,13 @@
         "noun",
         "geography",
         "unit-a1-6a",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1-6A vocabulary card (Turkishle web); the unit teaches them as compound-noun examples",
-      "notes": "Place name from the A1-6A card list. Kept as vocabulary rather than skipped as a proper noun: these are the names you meet travelling in Turkey. Its parts — deniz, bölge, göl — are already in the deck, which is the point the unit is making about ad tamlaması.",
-      "status": "approved"
+      "notes": "Place name from the A1-6A card list. Kept as vocabulary rather than skipped as a proper noun: these are the names you meet travelling in Turkey. Its parts — deniz, bölge, göl — are already in the deck, which is the point the unit is making about ad tamlaması. Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "ˈɑkdeniz"
     },
     {
       "id": "cand-card-0032",
@@ -274,11 +280,13 @@
         "noun",
         "geography",
         "unit-a1-6a",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1-6A vocabulary card (Turkishle web); the unit teaches them as compound-noun examples",
-      "notes": "Place name from the A1-6A card list. Kept as vocabulary rather than skipped as a proper noun: these are the names you meet travelling in Turkey. Its parts — deniz, bölge, göl — are already in the deck, which is the point the unit is making about ad tamlaması.",
-      "status": "approved"
+      "notes": "Place name from the A1-6A card list. Kept as vocabulary rather than skipped as a proper noun: these are the names you meet travelling in Turkey. Its parts — deniz, bölge, göl — are already in the deck, which is the point the unit is making about ad tamlaması. Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "kɑˈɾɑdeniz"
     },
     {
       "id": "cand-card-0033",
@@ -533,12 +541,14 @@
       "tags": [
         "adverb",
         "unit-a2-1a",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "example sentence on the A2-1A vocabulary card (Turkishle web); in no unit vocabulary list",
-      "notes": "Mined from the card example sentences, which the earlier sweeps discarded — the lists teach the headwords, the sentences carry the connective vocabulary around them.",
+      "notes": "Mined from the card example sentences, which the earlier sweeps discarded — the lists teach the headwords, the sentences carry the connective vocabulary around them. Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
       "status": "approved",
-      "hint_en_tr": "(softening a question)"
+      "hint_en_tr": "(softening a question)",
+      "pron_tr": "ˈɑdʒɑbɑː"
     },
     {
       "id": "cand-sent-0063",
@@ -677,12 +687,14 @@
       "tags": [
         "adjective",
         "unit-a2-2b",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "example sentence on the A2-2B vocabulary card (Turkishle web); in no unit vocabulary list",
-      "notes": "Mined from the card example sentences, which the earlier sweeps discarded — the lists teach the headwords, the sentences carry the connective vocabulary around them. Against birkaç = a few, which counts rather than selects.",
+      "notes": "Mined from the card example sentences, which the earlier sweeps discarded — the lists teach the headwords, the sentences carry the connective vocabulary around them. Against birkaç = a few, which counts rather than selects. Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
       "status": "approved",
-      "hint_en_tr": "(of a group)"
+      "hint_en_tr": "(of a group)",
+      "pron_tr": "bɑːˈzɯ"
     },
     {
       "id": "cand-sent-0074",
@@ -750,11 +762,13 @@
       "tags": [
         "adverb",
         "unit-a2-4a",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "example sentence on the A2-4A vocabulary card (Turkishle web); in no unit vocabulary list",
-      "notes": "Mined from the card example sentences, which the earlier sweeps discarded — the lists teach the headwords, the sentences carry the connective vocabulary around them. sen + -ce. Worth its own entry: it is how opinions are asked for.",
-      "status": "approved"
+      "notes": "Mined from the card example sentences, which the earlier sweeps discarded — the lists teach the headwords, the sentences carry the connective vocabulary around them. sen + -ce. Worth its own entry: it is how opinions are asked for. Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "ˈsændʒe"
     },
     {
       "id": "cand-sent-0079",
@@ -807,12 +821,14 @@
       "tags": [
         "noun",
         "unit-a2-1b",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "example sentence on the A2-1B vocabulary card (Turkishle web); in no unit vocabulary list",
-      "notes": "Mined from the card example sentences, which the earlier sweeps discarded — the lists teach the headwords, the sentences carry the connective vocabulary around them. Against sayı = number, which counts. numara identifies.",
+      "notes": "Mined from the card example sentences, which the earlier sweeps discarded — the lists teach the headwords, the sentences carry the connective vocabulary around them. Against sayı = number, which counts. numara identifies. Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
       "status": "approved",
-      "hint_en_tr": "(a shoe size or a phone number)"
+      "hint_en_tr": "(a shoe size or a phone number)",
+      "pron_tr": "nuˈmɑɾɑ"
     },
     {
       "id": "cand-sent-0084",
@@ -868,12 +884,14 @@
       "tags": [
         "conjunction",
         "unit-a2-1b",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "example sentences on the A2-1B vocabulary cards; in no unit vocabulary list",
-      "notes": "Not interchangeable with veya / ya da, which is why it is a separate entry rather than a duplicate: Turkish splits 'or' exactly as Finnish splits tai and vai. yoksa joins the alternatives inside a question — “Siyah zeytin mi yoksa yeşil zeytin mi?” — while veya / ya da joins them in a statement. Dropped once as a duplicate and restored: the shared English gloss hides a distinction Turkish makes.",
+      "notes": "Not interchangeable with veya / ya da, which is why it is a separate entry rather than a duplicate: Turkish splits 'or' exactly as Finnish splits tai and vai. yoksa joins the alternatives inside a question — “Siyah zeytin mi yoksa yeşil zeytin mi?” — while veya / ya da joins them in a statement. Dropped once as a duplicate and restored: the shared English gloss hides a distinction Turkish makes. Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
       "status": "approved",
-      "hint_en_tr": "(joining the alternatives inside a question)"
+      "hint_en_tr": "(joining the alternatives inside a question)",
+      "pron_tr": "ˈjoksɑ"
     },
     {
       "id": "cand-gram-0091",

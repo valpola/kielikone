@@ -38,11 +38,13 @@
       "tags": [
         "noun",
         "unit-a1-0a",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1_-_0A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "dʒɑːˈmi"
     },
     {
       "id": "cand-a1-0a-0004",
@@ -109,11 +111,13 @@
       "tags": [
         "noun",
         "unit-a1-0a",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1_-_0A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "ɡɑˈzete"
     },
     {
       "id": "cand-a1-0a-0009",
@@ -207,11 +211,13 @@
       "tags": [
         "noun",
         "unit-a1-0a",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1_-_0A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "ˈlɑmbɑ"
     },
     {
       "id": "cand-a1-0a-0016",
@@ -379,11 +385,13 @@
       "tags": [
         "noun",
         "unit-a1-0a",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1_-_0A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "ˈvɑzo"
     },
     {
       "id": "cand-a1-0a-0028",

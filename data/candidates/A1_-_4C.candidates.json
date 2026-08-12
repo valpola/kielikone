@@ -323,11 +323,13 @@
       "tags": [
         "unit-a1-4c",
         "unit-a1",
-        "verb"
+        "verb",
+        "pronunciation"
       ],
       "source": "A1_-_4C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "ˈhissetmec"
     },
     {
       "id": "cand-a1-4c-0024",
@@ -423,12 +425,14 @@
       "tags": [
         "unit-a1-4c",
         "unit-a1",
-        "verb"
+        "verb",
+        "pronunciation"
       ],
       "source": "A1_-_4C.pdf",
-      "notes": "Tip added (issue #52) so 'to lose' cannot be read as being defeated.",
+      "notes": "Tip added (issue #52) so 'to lose' cannot be read as being defeated. Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
       "status": "approved",
-      "hint_en_tr": "(transitive — a possession, not a match)"
+      "hint_en_tr": "(transitive — a possession, not a match)",
+      "pron_tr": "ˈkɑjbetmec"
     },
     {
       "id": "cand-a1-4c-0031",
@@ -864,11 +868,13 @@
       "tags": [
         "unit-a1-4c",
         "unit-a1",
-        "noun"
+        "noun",
+        "pronunciation"
       ],
       "source": "A1_-_4C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "tɑːˈtil"
     },
     {
       "id": "cand-a1-4c-0062",

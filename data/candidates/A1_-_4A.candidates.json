@@ -40,12 +40,14 @@
       "tags": [
         "unit-a1-4a",
         "unit-a1",
-        "noun"
+        "noun",
+        "pronunciation"
       ],
       "source": "A1_-_4A.pdf",
-      "notes": "",
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
       "status": "approved",
-      "hint_en_tr": "(dad's brother)"
+      "hint_en_tr": "(dad's brother)",
+      "pron_tr": "ˈɑmdʒɑ"
     },
     {
       "id": "cand-a1-4a-0004",
@@ -69,11 +71,13 @@
       "tags": [
         "unit-a1-4a",
         "unit-a1",
-        "noun"
+        "noun",
+        "pronunciation"
       ],
       "source": "A1_-_4A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "ɑnˈneɑnne"
     },
     {
       "id": "cand-a1-4a-0006",
@@ -97,11 +101,13 @@
       "tags": [
         "unit-a1-4a",
         "unit-a1",
-        "noun"
+        "noun",
+        "pronunciation"
       ],
       "source": "A1_-_4A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "bɑˈbɑɑnne"
     },
     {
       "id": "cand-a1-4a-0008",
@@ -125,11 +131,13 @@
       "tags": [
         "unit-a1-4a",
         "unit-a1",
-        "noun"
+        "noun",
+        "pronunciation"
       ],
       "source": "A1_-_4A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "ˈtʃɑntɑ"
     },
     {
       "id": "cand-a1-4a-0010",
@@ -213,11 +221,13 @@
       "tags": [
         "unit-a1-4a",
         "unit-a1",
-        "noun"
+        "noun",
+        "pronunciation"
       ],
       "source": "A1_-_4A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "eˈniʃte"
     },
     {
       "id": "cand-a1-4a-0016",
@@ -241,11 +251,13 @@
       "tags": [
         "unit-a1-4a",
         "unit-a1",
-        "noun"
+        "noun",
+        "pronunciation"
       ],
       "source": "A1_-_4A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "ɡɑˈzete"
     },
     {
       "id": "cand-a1-4a-0018",
@@ -470,12 +482,14 @@
       "tags": [
         "unit-a1-4a",
         "unit-a1",
-        "noun"
+        "noun",
+        "pronunciation"
       ],
       "source": "A1_-_4A.pdf",
-      "notes": "",
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
       "status": "approved",
-      "hint_en_tr": "(mom's sister)"
+      "hint_en_tr": "(mom's sister)",
+      "pron_tr": "ˈtejze"
     },
     {
       "id": "cand-a1-4a-0034",

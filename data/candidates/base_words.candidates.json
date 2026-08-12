@@ -80,12 +80,14 @@
       "tags": [
         "noun",
         "unit-a2-3b",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "base word of “çocuk sahibi olmak” (A2-3B, Turkishle)",
-      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule. Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
       "status": "approved",
-      "infl_tr": "sahibi"
+      "infl_tr": "sahibi",
+      "pron_tr": "sɑːˈhip"
     },
     {
       "id": "cand-base-0007",
@@ -109,11 +111,13 @@
       "tags": [
         "noun",
         "unit-a1-1b",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "base word of “bulaşık makinesi” (A1-1B, Turkishle)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "mɑˈcine"
     },
     {
       "id": "cand-base-0009",
@@ -224,11 +228,13 @@
       "tags": [
         "adverb",
         "unit-a2-2a",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "base word of “gün önce” (A2-2A, Turkishle)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "ˈøndʒe"
     },
     {
       "id": "cand-base-0017",
@@ -535,11 +541,13 @@
       "tags": [
         "noun",
         "unit-a2-4a",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "base word of “ceza almak” (A2-4A, Turkishle)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "dʒeˈzɑː"
     },
     {
       "id": "cand-base-0039",
@@ -734,11 +742,13 @@
       "tags": [
         "noun",
         "unit-a2-1a",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "base word of “kaza yapmak” (A2-1A, Turkishle)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "kɑˈzɑː"
     },
     {
       "id": "cand-base-0053",
@@ -748,12 +758,14 @@
       "tags": [
         "noun",
         "unit-a2-1a",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "base word of “takip etmek” (A2-1A, Turkishle)",
-      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule. Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
       "status": "approved",
-      "infl_tr": "takibi"
+      "infl_tr": "takibi",
+      "pron_tr": "tɑːˈcip"
     },
     {
       "id": "cand-base-0054",
@@ -907,11 +919,13 @@
       "tags": [
         "noun",
         "unit-a1-4c",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "base word of “ziyaret etmek” (A1-4C, Turkishle)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "zijɑːˈɾet"
     },
     {
       "id": "cand-base-0065",
@@ -1051,11 +1065,13 @@
       "tags": [
         "adjective",
         "unit-a1-3a",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "base word of “süper kahraman” (A1-3A, Turkishle)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "ˈsypæɾ"
     },
     {
       "id": "cand-base-0075",

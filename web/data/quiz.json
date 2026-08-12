@@ -33,8 +33,10 @@
         "noun",
         "unit-a1-0a",
         "unit-a1",
+        "pronunciation",
         "unit-a1-2a"
-      ]
+      ],
+      "pron_tr": "d\u0292\u0251\u02d0\u02c8mi"
     },
     {
       "id": "cand-a1-0a-0004",
@@ -94,8 +96,10 @@
         "noun",
         "unit-a1-0a",
         "unit-a1",
+        "pronunciation",
         "unit-a1-4a"
-      ]
+      ],
+      "pron_tr": "\u0261\u0251\u02c8zete"
     },
     {
       "id": "cand-a1-0a-0009",
@@ -171,8 +175,10 @@
       "tags": [
         "noun",
         "unit-a1-0a",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "\u02c8l\u0251mb\u0251"
     },
     {
       "id": "cand-a1-0a-0016",
@@ -317,8 +323,10 @@
       "tags": [
         "noun",
         "unit-a1-0a",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "\u02c8v\u0251zo"
     },
     {
       "id": "cand-a1-0a-0028",
@@ -732,8 +740,10 @@
       "tags": [
         "noun",
         "unit-a1-1b",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "b\u0251tt\u0251\u02d0ni\u02c8je"
     },
     {
       "id": "cand-a1-1b-0004",
@@ -754,8 +764,10 @@
       "tags": [
         "noun",
         "unit-a1-1b",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "\u02c8buzdo\u026b\u0251b\u026f"
     },
     {
       "id": "cand-a1-1b-0006",
@@ -949,8 +961,10 @@
       "tags": [
         "noun",
         "unit-a1-1b",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "\u02c8p\u00e6nd\u0292e\u027ee"
     },
     {
       "id": "cand-a1-1b-0025",
@@ -971,8 +985,10 @@
       "tags": [
         "noun",
         "unit-a1-1b",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "s\u0251n\u02c8d\u0251\u026bje"
     },
     {
       "id": "cand-a1-1b-0027",
@@ -982,8 +998,10 @@
       "tags": [
         "noun",
         "unit-a1-1b",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "seh\u02c8p\u0251\u02d0"
     },
     {
       "id": "cand-a1-1b-0028",
@@ -1164,8 +1182,10 @@
       "tags": [
         "noun",
         "unit-a1-1a",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "\u02c8soj\u0251d\u026f"
     },
     {
       "id": "cand-a1-1web-0001",
@@ -1231,8 +1251,10 @@
       "tags": [
         "expression",
         "unit-a1-1a",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "\u02c8h\u0251di"
     },
     {
       "id": "cand-a1-1web-0008",
@@ -1242,8 +1264,10 @@
       "tags": [
         "time-expression",
         "unit-a1-1b",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "\u02c8\u0283imdi"
     },
     {
       "id": "cand-a1-1web-0009",
@@ -1298,8 +1322,10 @@
       "tags": [
         "adverb",
         "unit-a1-1b",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "\u02c8mesel\u0251\u02d0"
     },
     {
       "id": "cand-a1-1web-0014",
@@ -1309,8 +1335,10 @@
       "tags": [
         "adverb",
         "unit-a1-1b",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "\u02c8b\u00e6nd\u0292e"
     },
     {
       "id": "cand-a1-2a-0001",
@@ -1331,8 +1359,10 @@
       "tags": [
         "noun",
         "unit-a1-2a",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "\u02c8b\u0251nk\u0251"
     },
     {
       "id": "cand-a1-2a-0004",
@@ -1378,7 +1408,8 @@
         "unit-a1-2a",
         "unit-a1",
         "unit-a1-6a",
-        "unit-a1-6b"
+        "unit-a1-6b",
+        "pronunciation"
       ],
       "hint_en_tr": "(X / Y)"
     },
@@ -1402,8 +1433,10 @@
         "noun",
         "unit-a1-2a",
         "unit-a1",
+        "pronunciation",
         "unit-a1-5a"
-      ]
+      ],
+      "pron_tr": "d\u0251ci\u02d0\u02c8k\u0251"
     },
     {
       "id": "cand-a1-2a-0011",
@@ -1424,8 +1457,10 @@
       "tags": [
         "noun",
         "unit-a1-2a",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "ed\u0292z\u0251\u02d0\u02c8ne"
     },
     {
       "id": "cand-a1-2a-0013",
@@ -1447,8 +1482,10 @@
       "tags": [
         "noun",
         "unit-a1-2a",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "h\u0251\u02c8\u027eit\u0251"
     },
     {
       "id": "cand-a1-2a-0015",
@@ -1458,8 +1495,10 @@
       "tags": [
         "noun",
         "unit-a1-2a",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "h\u0251st\u0251\u02d0\u02c8ne"
     },
     {
       "id": "cand-a1-2a-0016",
@@ -1470,8 +1509,10 @@
         "noun",
         "unit-a1-2a",
         "unit-a1",
+        "pronunciation",
         "unit-a1-5b"
-      ]
+      ],
+      "pron_tr": "h\u0251\u02c8v\u0251\u0251\u026b\u0251n\u026f"
     },
     {
       "id": "cand-a1-2a-0017",
@@ -1561,8 +1602,10 @@
       "tags": [
         "noun",
         "unit-a1-2a",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "cytyph\u0251\u02d0\u02c8ne"
     },
     {
       "id": "cand-a1-2a-0025",
@@ -1619,8 +1662,10 @@
       "tags": [
         "noun",
         "unit-a1-2a",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "\u02c8myze"
     },
     {
       "id": "cand-a1-2a-0033",
@@ -1664,8 +1709,10 @@
       "tags": [
         "noun",
         "unit-a1-2a",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "p\u0251st\u0251\u02d0\u02c8ne"
     },
     {
       "id": "cand-a1-2a-0038",
@@ -1675,8 +1722,10 @@
       "tags": [
         "noun",
         "unit-a1-2a",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "post\u0251\u02d0\u02c8ne"
     },
     {
       "id": "cand-a1-2a-0039",
@@ -1745,8 +1794,10 @@
       "tags": [
         "noun",
         "unit-a1-2a",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "si\u02c8nem\u0251"
     },
     {
       "id": "cand-a1-2a-0045",
@@ -1803,8 +1854,10 @@
       "tags": [
         "noun",
         "unit-a1-2a",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "jemech\u0251\u02d0\u02c8ne"
     },
     {
       "id": "cand-a1-2a-0050",
@@ -1849,8 +1902,10 @@
       "tags": [
         "adverb",
         "unit-a1-2a",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "\u0251j\u02c8\u027e\u026fd\u0292\u0251"
     },
     {
       "id": "cand-a1-2b-0001",
@@ -2002,8 +2057,10 @@
       "tags": [
         "noun",
         "unit-a1-2b",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "be\u02c8z\u00e6lje"
     },
     {
       "id": "cand-a1-2b-0013",
@@ -2104,8 +2161,10 @@
       "tags": [
         "noun",
         "unit-a1-2b",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "do\u02c8m\u0251tes"
     },
     {
       "id": "cand-a1-2b-0022",
@@ -2199,9 +2258,11 @@
       "tags": [
         "noun",
         "unit-a1-2b",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
-      "hint_en_tr": "(foodstuff / nutrition)"
+      "hint_en_tr": "(foodstuff / nutrition)",
+      "pron_tr": "\u0261\u026f\u02c8d\u0251\u02d0"
     },
     {
       "id": "cand-a1-2b-0031",
@@ -2326,8 +2387,10 @@
       "tags": [
         "noun",
         "unit-a1-2b",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "k\u0251\u027e\u02c8n\u0251b\u0251h\u0251\u027e"
     },
     {
       "id": "cand-a1-2b-0042",
@@ -2349,9 +2412,11 @@
         "noun",
         "unit-a1-2b",
         "unit-a1",
+        "pronunciation",
         "unit-a2",
         "unit-a2-1c"
-      ]
+      ],
+      "pron_tr": "k\u0251\u02d0\u02c8se"
     },
     {
       "id": "cand-a1-2b-0044",
@@ -2431,9 +2496,11 @@
         "noun",
         "unit-a1-2b",
         "unit-a1",
+        "pronunciation",
         "unit-a2",
         "unit-a2-1c"
-      ]
+      ],
+      "pron_tr": "\u02c8cilo"
     },
     {
       "id": "cand-a1-2b-0052",
@@ -2510,8 +2577,10 @@
       "tags": [
         "noun",
         "unit-a1-2b",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "\u02c8lit\u027ee"
     },
     {
       "id": "cand-a1-2b-0059",
@@ -2521,8 +2590,10 @@
       "tags": [
         "noun",
         "unit-a1-2b",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "m\u0251nd\u0251\u02c8lin\u0251"
     },
     {
       "id": "cand-a1-2b-0060",
@@ -2623,8 +2694,10 @@
       "tags": [
         "noun",
         "unit-a1-2b",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "n\u0251\u02d0\u02c8ne"
     },
     {
       "id": "cand-a1-2b-0070",
@@ -2657,9 +2730,11 @@
         "noun",
         "unit-a1-2b",
         "unit-a1",
+        "pronunciation",
         "unit-a2",
         "unit-a2-1b"
-      ]
+      ],
+      "pron_tr": "p\u0251\u02c8t\u0251tes"
     },
     {
       "id": "cand-a1-2b-0073",
@@ -2823,8 +2898,10 @@
       "tags": [
         "noun",
         "unit-a1-2b",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "\u0283eft\u0251\u02d0\u02c8li"
     },
     {
       "id": "cand-a1-2b-0088",
@@ -3449,9 +3526,11 @@
         "adjective",
         "unit-a1-2c",
         "unit-a1",
+        "pronunciation",
         "unit-a1-6a",
         "unit-a1-6c"
-      ]
+      ],
+      "pron_tr": "s\u0251\u02d0\u02c8cin"
     },
     {
       "id": "cand-a1-2c-0042",
@@ -3483,8 +3562,10 @@
       "tags": [
         "adjective",
         "unit-a1-2c",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "s\u026f\u02c8d\u0292\u0251kk\u0251n\u026b\u026f"
     },
     {
       "id": "cand-a1-2c-0045",
@@ -3708,8 +3789,10 @@
       "tags": [
         "noun",
         "unit-a1-2a",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "\u02c8\u0251b\u026b\u0251"
     },
     {
       "id": "cand-a1-2cb-0007",
@@ -3797,8 +3880,10 @@
       "tags": [
         "noun",
         "unit-a1-2a",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "\u02c8b\u0251njo"
     },
     {
       "id": "cand-a1-3a-0001",
@@ -4054,10 +4139,12 @@
         "noun",
         "unit-a1-3a",
         "unit-a1",
+        "pronunciation",
         "unit-a1-3b",
         "unit-a1-4c",
         "unit-a1-5b"
-      ]
+      ],
+      "pron_tr": "t\u0251\u02d0\u02c8til"
     },
     {
       "id": "cand-a1-3a-0030",
@@ -4080,8 +4167,10 @@
         "adverb",
         "unit-a1-3a",
         "unit-a1",
+        "pronunciation",
         "unit-a1-3b"
-      ]
+      ],
+      "pron_tr": "\u02c8\u0251s\u026b\u0251\u02d0"
     },
     {
       "id": "cand-a1-3a-0032",
@@ -4092,8 +4181,10 @@
         "adverb",
         "unit-a1-3a",
         "unit-a1",
+        "pronunciation",
         "unit-a1-3b"
-      ]
+      ],
+      "pron_tr": "b\u0251\u02d0\u02c8z\u00e6n"
     },
     {
       "id": "cand-a1-3a-0033",
@@ -4104,8 +4195,10 @@
         "adverb",
         "unit-a1-3a",
         "unit-a1",
+        "pronunciation",
         "unit-a1-3b"
-      ]
+      ],
+      "pron_tr": "\u025fen\u00e6l\u02c8licle"
     },
     {
       "id": "cand-a1-3a-0034",
@@ -4141,8 +4234,10 @@
         "adverb",
         "unit-a1-3a",
         "unit-a1",
+        "pronunciation",
         "unit-a1-3b"
-      ]
+      ],
+      "pron_tr": "n\u0251\u02d0di\u02c8\u027e\u00e6n"
     },
     {
       "id": "cand-a1-3a-0037",
@@ -4302,8 +4397,10 @@
       "tags": [
         "unit-a1-3b",
         "unit-a1",
-        "noun"
-      ]
+        "noun",
+        "pronunciation"
+      ],
+      "pron_tr": "\u02c8met\u027eo"
     },
     {
       "id": "cand-a1-3b-0049",
@@ -4877,9 +4974,11 @@
         "unit-a1-3c",
         "unit-a1",
         "noun",
+        "pronunciation",
         "unit-a2",
         "unit-a2-1b"
-      ]
+      ],
+      "pron_tr": "\u02c8ko\u026b\u0251"
     },
     {
       "id": "cand-a1-3c-0019",
@@ -4912,9 +5011,11 @@
         "unit-a1-3c",
         "unit-a1",
         "noun",
+        "pronunciation",
         "unit-a2",
         "unit-a2-1b"
-      ]
+      ],
+      "pron_tr": "l\u0251hm\u0251\u02d0\u02c8d\u0292un"
     },
     {
       "id": "cand-a1-3c-0022",
@@ -4936,8 +5037,10 @@
       "tags": [
         "unit-a1-3c",
         "unit-a1",
-        "noun"
-      ]
+        "noun",
+        "pronunciation"
+      ],
+      "pron_tr": "limo\u02c8n\u0251t\u0251"
     },
     {
       "id": "cand-a1-3c-0024",
@@ -4959,9 +5062,11 @@
         "unit-a1-3c",
         "unit-a1",
         "noun",
+        "pronunciation",
         "unit-a2",
         "unit-a2-1b"
-      ]
+      ],
+      "pron_tr": "m\u0251\u02c8k\u0251\u027en\u0251"
     },
     {
       "id": "cand-a1-3c-0026",
@@ -5031,9 +5136,11 @@
         "unit-a1-3c",
         "unit-a1",
         "noun",
+        "pronunciation",
         "unit-a2",
         "unit-a2-1b"
-      ]
+      ],
+      "pron_tr": "\u02c8pizz\u0251"
     },
     {
       "id": "cand-a1-3c-0033",
@@ -5066,8 +5173,10 @@
       "tags": [
         "unit-a1-3c",
         "unit-a1",
-        "noun"
-      ]
+        "noun",
+        "pronunciation"
+      ],
+      "pron_tr": "s\u0251\u02c8\u026b\u0251t\u0251"
     },
     {
       "id": "cand-a1-3c-0036",
@@ -5077,8 +5186,10 @@
       "tags": [
         "unit-a1-3c",
         "unit-a1",
-        "noun"
-      ]
+        "noun",
+        "pronunciation"
+      ],
+      "pron_tr": "s\u0251\u027e\u02c8d\u0251\u026bj\u0251"
     },
     {
       "id": "cand-a1-3c-0037",
@@ -5088,8 +5199,10 @@
       "tags": [
         "unit-a1-3c",
         "unit-a1",
-        "noun"
-      ]
+        "noun",
+        "pronunciation"
+      ],
+      "pron_tr": "sip\u0251\u02d0\u02c8\u027ei\u0283"
     },
     {
       "id": "cand-a1-3c-0039",
@@ -5149,8 +5262,10 @@
       "tags": [
         "unit-a1-3c",
         "unit-a1",
-        "noun"
-      ]
+        "noun",
+        "pronunciation"
+      ],
+      "pron_tr": "t\u0283i\u02c8pu\u027e\u0251"
     },
     {
       "id": "cand-a1-3c-0044",
@@ -5219,8 +5334,10 @@
       "tags": [
         "noun",
         "unit-a1-3c",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "t\u0251\u02d0\u02c8\u027eih"
     },
     {
       "id": "cand-a1-3web-0001",
@@ -5321,9 +5438,11 @@
       "tags": [
         "unit-a1-4a",
         "unit-a1",
-        "noun"
+        "noun",
+        "pronunciation"
       ],
-      "hint_en_tr": "(dad's brother)"
+      "hint_en_tr": "(dad's brother)",
+      "pron_tr": "\u02c8\u0251md\u0292\u0251"
     },
     {
       "id": "cand-a1-4a-0004",
@@ -5344,8 +5463,10 @@
       "tags": [
         "unit-a1-4a",
         "unit-a1",
-        "noun"
-      ]
+        "noun",
+        "pronunciation"
+      ],
+      "pron_tr": "\u0251n\u02c8ne\u0251nne"
     },
     {
       "id": "cand-a1-4a-0007",
@@ -5355,8 +5476,10 @@
       "tags": [
         "unit-a1-4a",
         "unit-a1",
-        "noun"
-      ]
+        "noun",
+        "pronunciation"
+      ],
+      "pron_tr": "b\u0251\u02c8b\u0251\u0251nne"
     },
     {
       "id": "cand-a1-4a-0009",
@@ -5366,8 +5489,10 @@
       "tags": [
         "unit-a1-4a",
         "unit-a1",
-        "noun"
-      ]
+        "noun",
+        "pronunciation"
+      ],
+      "pron_tr": "\u02c8t\u0283\u0251nt\u0251"
     },
     {
       "id": "cand-a1-4a-0010",
@@ -5436,8 +5561,10 @@
       "tags": [
         "unit-a1-4a",
         "unit-a1",
-        "noun"
-      ]
+        "noun",
+        "pronunciation"
+      ],
+      "pron_tr": "e\u02c8ni\u0283te"
     },
     {
       "id": "cand-a1-4a-0018",
@@ -5618,9 +5745,11 @@
       "tags": [
         "unit-a1-4a",
         "unit-a1",
-        "noun"
+        "noun",
+        "pronunciation"
       ],
-      "hint_en_tr": "(mom's sister)"
+      "hint_en_tr": "(mom's sister)",
+      "pron_tr": "\u02c8tejze"
     },
     {
       "id": "cand-a1-4a-0034",
@@ -5791,8 +5920,10 @@
       "tags": [
         "unit-a1-4b",
         "unit-a1",
-        "country"
-      ]
+        "country",
+        "pronunciation"
+      ],
+      "pron_tr": "\u0251vust\u02c8\u027e\u0251\u026bj\u0251"
     },
     {
       "id": "cand-a1-4b-0010",
@@ -6359,8 +6490,10 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
-      ]
+        "similar",
+        "pronunciation"
+      ],
+      "pron_tr": "\u02c8\u025fine"
     },
     {
       "id": "cand-a1-4b-0059",
@@ -6992,8 +7125,10 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
-      ]
+        "similar",
+        "pronunciation"
+      ],
+      "pron_tr": "m\u0251\u02d0\u02c8li\u02d0"
     },
     {
       "id": "cand-a1-4b-0114",
@@ -7226,8 +7361,10 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
-      ]
+        "similar",
+        "pronunciation"
+      ],
+      "pron_tr": "p\u0251\u02c8n\u0251m\u0251"
     },
     {
       "id": "cand-a1-4b-0134",
@@ -7546,8 +7683,10 @@
         "unit-a1-4b",
         "unit-a1",
         "country",
-        "similar"
-      ]
+        "similar",
+        "pronunciation"
+      ],
+      "pron_tr": "\u02c8ton\u0261\u0251"
     },
     {
       "id": "cand-a1-4b-0161",
@@ -8011,8 +8150,10 @@
       "tags": [
         "unit-a1-4b",
         "unit-a1",
-        "pronoun"
-      ]
+        "pronoun",
+        "pronunciation"
+      ],
+      "pron_tr": "\u02c8hepsi"
     },
     {
       "id": "cand-a1-4b-0200",
@@ -8265,8 +8406,10 @@
       "tags": [
         "unit-a1-4c",
         "unit-a1",
-        "verb"
-      ]
+        "verb",
+        "pronunciation"
+      ],
+      "pron_tr": "\u02c8hissetmec"
     },
     {
       "id": "cand-a1-4c-0024",
@@ -8344,9 +8487,11 @@
       "tags": [
         "unit-a1-4c",
         "unit-a1",
-        "verb"
+        "verb",
+        "pronunciation"
       ],
-      "hint_en_tr": "(transitive \u2014 a possession, not a match)"
+      "hint_en_tr": "(transitive \u2014 a possession, not a match)",
+      "pron_tr": "\u02c8k\u0251jbetmec"
     },
     {
       "id": "cand-a1-4c-0031",
@@ -8686,8 +8831,10 @@
       "tags": [
         "noun",
         "unit-a1-4a",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "\u0251\u02d0i\u02c8le"
     },
     {
       "id": "cand-a1-4cb-0004",
@@ -8697,8 +8844,10 @@
       "tags": [
         "noun",
         "unit-a1-4a",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "\u02c8dosj\u0251"
     },
     {
       "id": "cand-a1-4cb-0005",
@@ -8977,8 +9126,10 @@
       "tags": [
         "noun",
         "unit-a1-4c",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "k\u026fj\u0251\u02d0\u02c8fet"
     },
     {
       "id": "cand-a1-4cb-0029",
@@ -9077,9 +9228,11 @@
       "tags": [
         "unit-a1-5a",
         "unit-a1",
-        "noun"
+        "noun",
+        "pronunciation"
       ],
-      "hint_en_tr": "(unit of time)"
+      "hint_en_tr": "(unit of time)",
+      "pron_tr": "s\u0251\u02d0ni\u02c8je"
     },
     {
       "id": "cand-a1-5a-0013",
@@ -9168,8 +9321,10 @@
       "tags": [
         "unit-a1-5a",
         "unit-a1",
-        "noun"
-      ]
+        "noun",
+        "pronunciation"
+      ],
+      "pron_tr": "d\u0292u\u02c8m\u0251\u02d0"
     },
     {
       "id": "cand-a1-5a-0022",
@@ -9179,8 +9334,10 @@
       "tags": [
         "unit-a1-5a",
         "unit-a1",
-        "noun"
-      ]
+        "noun",
+        "pronunciation"
+      ],
+      "pron_tr": "d\u0292u\u02c8m\u0251\u027etesi"
     },
     {
       "id": "cand-a1-5a-0023",
@@ -9237,8 +9394,10 @@
       "tags": [
         "unit-a1-5a",
         "unit-a1",
-        "noun"
-      ]
+        "noun",
+        "pronunciation"
+      ],
+      "pron_tr": "ni\u02d0\u02c8s\u0251n"
     },
     {
       "id": "cand-a1-5a-0028",
@@ -9259,8 +9418,10 @@
       "tags": [
         "unit-a1-5a",
         "unit-a1",
-        "noun"
-      ]
+        "noun",
+        "pronunciation"
+      ],
+      "pron_tr": "h\u0251zi\u02d0\u02c8\u027e\u0251n"
     },
     {
       "id": "cand-a1-5a-0030",
@@ -9788,8 +9949,10 @@
       "tags": [
         "noun",
         "unit-a1-5c",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "dok\u02c8to\u027e\u0251"
     },
     {
       "id": "cand-a1-5c-0019",
@@ -10028,8 +10191,10 @@
       "tags": [
         "noun",
         "unit-a1-6a",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "\u02c8b\u0251\u0283c\u00e6nt"
     },
     {
       "id": "cand-a1-6a-0005",
@@ -10121,8 +10286,10 @@
         "noun",
         "unit-a1-6a",
         "unit-a1",
+        "pronunciation",
         "unit-a1-6b"
-      ]
+      ],
+      "pron_tr": "d\u0251\u02d0i\u02c8\u027ee"
     },
     {
       "id": "cand-a1-6a-0016",
@@ -10514,8 +10681,10 @@
       "tags": [
         "noun",
         "unit-a1-6b",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "ci\u02c8t\u0251bevi"
     },
     {
       "id": "cand-a1-6b-0017",
@@ -10691,8 +10860,10 @@
       "tags": [
         "adverb",
         "unit-a1-6c",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "\u0251\u02c8t\u0283\u026fkt\u0283\u0251s\u026f"
     },
     {
       "id": "cand-a1-6c-0012",
@@ -10771,8 +10942,10 @@
       "tags": [
         "noun",
         "unit-a1-6a",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "me\u02d0\u02c8mu\u027e"
     },
     {
       "id": "cand-a1-6rd-0004",
@@ -11489,8 +11662,10 @@
         "expression",
         "unit-a1-1a",
         "unit-a1",
-        "unit-a1-extra"
-      ]
+        "unit-a1-extra",
+        "pronunciation"
+      ],
+      "pron_tr": "\u0251\u02d0fe\u02c8\u027ein"
     },
     {
       "id": "cand-a1-listen-0007",
@@ -11522,9 +11697,11 @@
       "tags": [
         "expression",
         "unit-a1-2c",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
-      "hint_en_tr": "(answering)"
+      "hint_en_tr": "(answering)",
+      "pron_tr": "e\u02c8f\u00e6ndim"
     },
     {
       "id": "cand-a1-listen-0010",
@@ -11534,8 +11711,10 @@
       "tags": [
         "expression",
         "unit-a1-2b",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "j\u0251\u02d0\u02c8ni"
     },
     {
       "id": "cand-a1-listen-0011",
@@ -11545,8 +11724,10 @@
       "tags": [
         "expression",
         "unit-a1-2c",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "\u02c8peci"
     },
     {
       "id": "cand-a1-listen-0012",
@@ -11624,8 +11805,10 @@
       "tags": [
         "noun",
         "unit-a1-3a",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "s\u0251\u02d0\u02c8hil"
     },
     {
       "id": "cand-a1-listen-0019",
@@ -11690,8 +11873,10 @@
       "tags": [
         "noun",
         "unit-a1-2c",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "\u02c8jo\u0261\u0251"
     },
     {
       "id": "cand-a1-listen-0025",
@@ -11801,8 +11986,10 @@
       "tags": [
         "noun",
         "unit-a1-3b",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "pi\u02c8j\u0251no"
     },
     {
       "id": "cand-a1-listen-0035",
@@ -12092,8 +12279,10 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-1a"
-      ]
+        "unit-a2-1a",
+        "pronunciation"
+      ],
+      "pron_tr": "d\u0251\u02d0\u02c8vet"
     },
     {
       "id": "cand-a2-1a-0016",
@@ -12103,8 +12292,10 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-1a"
-      ]
+        "unit-a2-1a",
+        "pronunciation"
+      ],
+      "pron_tr": "d\u0251\u02d0veti\u02c8je"
     },
     {
       "id": "cand-a2-1a-0017",
@@ -12170,8 +12361,10 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-1a"
-      ]
+        "unit-a2-1a",
+        "pronunciation"
+      ],
+      "pron_tr": "ku\u02c8lybe"
     },
     {
       "id": "cand-a2-1a-0023",
@@ -12269,8 +12462,10 @@
       "tags": [
         "adjective",
         "unit-a2",
-        "unit-a2-1a"
-      ]
+        "unit-a2-1a",
+        "pronunciation"
+      ],
+      "pron_tr": "\u02c8dymdyz"
     },
     {
       "id": "cand-a2-1a-0032",
@@ -12402,8 +12597,10 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-1b"
-      ]
+        "unit-a2-1b",
+        "pronunciation"
+      ],
+      "pron_tr": "\u0251\u02c8j\u0251kk\u0251b\u026f"
     },
     {
       "id": "cand-a2-1b-0014",
@@ -12681,8 +12878,10 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-1b"
-      ]
+        "unit-a2-1b",
+        "pronunciation"
+      ],
+      "pron_tr": "\u02c8ko\u026bje"
     },
     {
       "id": "cand-a2-1b-0049",
@@ -12748,8 +12947,10 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-1b"
-      ]
+        "unit-a2-1b",
+        "pronunciation"
+      ],
+      "pron_tr": "\u02c8meze"
     },
     {
       "id": "cand-a2-1b-0057",
@@ -12804,8 +13005,10 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-1b"
-      ]
+        "unit-a2-1b",
+        "pronunciation"
+      ],
+      "pron_tr": "\u02c8p\u0251st\u0251"
     },
     {
       "id": "cand-a2-1b-0063",
@@ -12826,8 +13029,10 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-1b"
-      ]
+        "unit-a2-1b",
+        "pronunciation"
+      ],
+      "pron_tr": "\u02c8pide"
     },
     {
       "id": "cand-a2-1b-0066",
@@ -12997,8 +13202,10 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-1b"
-      ]
+        "unit-a2-1b",
+        "pronunciation"
+      ],
+      "pron_tr": "ti\u02d0\u02c8\u0283\u00f8\u027et"
     },
     {
       "id": "cand-a2-1b-0087",
@@ -13030,8 +13237,10 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-1b"
-      ]
+        "unit-a2-1b",
+        "pronunciation"
+      ],
+      "pron_tr": "\u02c8tu\u027et\u0251"
     },
     {
       "id": "cand-a2-1b-0090",
@@ -13144,8 +13353,10 @@
       "tags": [
         "adjective",
         "unit-a2",
-        "unit-a2-1b"
-      ]
+        "unit-a2-1b",
+        "pronunciation"
+      ],
+      "pron_tr": "m\u0251\u02d0\u02c8vi"
     },
     {
       "id": "cand-a2-1b-0104",
@@ -13572,8 +13783,10 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-1c"
-      ]
+        "unit-a2-1c",
+        "pronunciation"
+      ],
+      "pron_tr": "\u02c8kup\u0251"
     },
     {
       "id": "cand-a2-1c-0052",
@@ -13583,8 +13796,10 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-1c"
-      ]
+        "unit-a2-1c",
+        "pronunciation"
+      ],
+      "pron_tr": "ku\u027e\u0251\u02d0bi\u02c8je"
     },
     {
       "id": "cand-a2-1c-0053",
@@ -13672,8 +13887,10 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-1c"
-      ]
+        "unit-a2-1c",
+        "pronunciation"
+      ],
+      "pron_tr": "t\u0251\u02d0\u02c8ne"
     },
     {
       "id": "cand-a2-1c-0063",
@@ -13705,8 +13922,10 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-1c"
-      ]
+        "unit-a2-1c",
+        "pronunciation"
+      ],
+      "pron_tr": "t\u0251\u02d0\u02c8\u027eif"
     },
     {
       "id": "cand-a2-1c-0067",
@@ -13964,8 +14183,10 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-2a"
-      ]
+        "unit-a2-2a",
+        "pronunciation"
+      ],
+      "pron_tr": "\u02c8sob\u0251"
     },
     {
       "id": "cand-a2-2a-0008",
@@ -14034,8 +14255,10 @@
       "tags": [
         "unit-a2",
         "unit-a2-2a",
-        "adjective"
-      ]
+        "adjective",
+        "pronunciation"
+      ],
+      "pron_tr": "\u02c8\u027e\u0251st\u025fele"
     },
     {
       "id": "cand-a2-2a-0015",
@@ -14113,8 +14336,10 @@
       "tags": [
         "unit-a2",
         "unit-a2-2a",
-        "adverb"
-      ]
+        "adverb",
+        "pronunciation"
+      ],
+      "pron_tr": "\u02c8\u00e6\u027ec\u00e6nd\u00e6n"
     },
     {
       "id": "cand-a2-2a-0022",
@@ -14484,8 +14709,10 @@
       "tags": [
         "adjective",
         "unit-a2",
-        "unit-a2-2b"
-      ]
+        "unit-a2-2b",
+        "pronunciation"
+      ],
+      "pron_tr": "s\u0251mi\u02d0\u02c8mi\u02d0"
     },
     {
       "id": "cand-a2-2b-0023",
@@ -14507,8 +14734,10 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-2b"
-      ]
+        "unit-a2-2b",
+        "pronunciation"
+      ],
+      "pron_tr": "\u0251k\u02c8v\u0251\u027ejum"
     },
     {
       "id": "cand-a2-2b-0025",
@@ -14566,8 +14795,10 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-2b"
-      ]
+        "unit-a2-2b",
+        "pronunciation"
+      ],
+      "pron_tr": "f\u0251\u02d0\u02c8\u027ee"
     },
     {
       "id": "cand-a2-2b-0031",
@@ -14735,8 +14966,10 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-2b"
-      ]
+        "unit-a2-2b",
+        "pronunciation"
+      ],
+      "pron_tr": "k\u0251\u02d0\u02c8bus"
     },
     {
       "id": "cand-a2-2b-0047",
@@ -14790,9 +15023,11 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-2b"
+        "unit-a2-2b",
+        "pronunciation"
       ],
-      "hint_en_tr": "(sleeping; everyday)"
+      "hint_en_tr": "(sleeping; everyday)",
+      "pron_tr": "\u027ey\u02c8j\u0251\u02d0"
     },
     {
       "id": "cand-a2-2b-0052",
@@ -14847,8 +15082,10 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-2b"
-      ]
+        "unit-a2-2b",
+        "pronunciation"
+      ],
+      "pron_tr": "zy\u027e\u0251\u02d0\u02c8f\u0251\u02d0"
     },
     {
       "id": "cand-a2-2b-conj-0001",
@@ -14869,8 +15106,10 @@
       "tags": [
         "conjunction",
         "unit-a2",
-        "unit-a2-2b"
-      ]
+        "unit-a2-2b",
+        "pronunciation"
+      ],
+      "pron_tr": "\u02c8t\u0283yncy"
     },
     {
       "id": "cand-a2-2b-conj-0003",
@@ -14880,8 +15119,10 @@
       "tags": [
         "conjunction",
         "unit-a2",
-        "unit-a2-2b"
-      ]
+        "unit-a2-2b",
+        "pronunciation"
+      ],
+      "pron_tr": "do\u026b\u0251j\u026f\u02c8s\u026fj\u026b\u0251"
     },
     {
       "id": "cand-a2-2b-conj-0004",
@@ -14982,8 +15223,10 @@
       "tags": [
         "noun",
         "unit-a2-2c",
-        "unit-a2"
-      ]
+        "unit-a2",
+        "pronunciation"
+      ],
+      "pron_tr": "\u02c8m\u0251sce"
     },
     {
       "id": "cand-a2-2sw-0009",
@@ -15198,8 +15441,10 @@
       "tags": [
         "adjective",
         "unit-a2-2a",
-        "unit-a2"
-      ]
+        "unit-a2",
+        "pronunciation"
+      ],
+      "pron_tr": "t\u0251\u02d0\u027ei\u02c8hi\u02d0"
     },
     {
       "id": "cand-a2-2sw-0028",
@@ -15614,8 +15859,10 @@
       "tags": [
         "noun",
         "unit-a2-3a",
-        "unit-a2"
-      ]
+        "unit-a2",
+        "pronunciation"
+      ],
+      "pron_tr": "m\u0251\u02d0d\u0292e\u02c8\u027e\u0251\u02d0"
     },
     {
       "id": "cand-a2-3-0019",
@@ -15820,8 +16067,10 @@
       "tags": [
         "noun",
         "unit-a2-3b",
-        "unit-a2"
-      ]
+        "unit-a2",
+        "pronunciation"
+      ],
+      "pron_tr": "\u0251\u02c8n\u0251oku\u026bu"
     },
     {
       "id": "cand-a2-3-0037",
@@ -15831,8 +16080,10 @@
       "tags": [
         "noun",
         "unit-a2-3b",
-        "unit-a2"
-      ]
+        "unit-a2",
+        "pronunciation"
+      ],
+      "pron_tr": "\u02c8ilkoku\u026b"
     },
     {
       "id": "cand-a2-3-0038",
@@ -15843,9 +16094,11 @@
         "noun",
         "unit-a2-3b",
         "unit-a2",
+        "pronunciation",
         "unit-a1-2a",
         "unit-a1"
-      ]
+      ],
+      "pron_tr": "o\u027e\u02c8t\u0251oku\u026b"
     },
     {
       "id": "cand-a2-3-0039",
@@ -15855,8 +16108,10 @@
       "tags": [
         "noun",
         "unit-a2-3b",
-        "unit-a2"
-      ]
+        "unit-a2",
+        "pronunciation"
+      ],
+      "pron_tr": "\u02c8lise"
     },
     {
       "id": "cand-a2-3-0040",
@@ -15888,9 +16143,11 @@
       "tags": [
         "noun",
         "unit-a2-3b",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
-      "hint_en_tr": "(the person)"
+      "hint_en_tr": "(the person)",
+      "pron_tr": "me\u02d0\u02c8zun"
     },
     {
       "id": "cand-a2-3-0043",
@@ -16563,8 +16820,10 @@
       "tags": [
         "noun",
         "unit-a2-4a",
-        "unit-a2"
-      ]
+        "unit-a2",
+        "pronunciation"
+      ],
+      "pron_tr": "ifti\u02c8\u027e\u0251\u02d0"
     },
     {
       "id": "cand-a2-4-0022",
@@ -16619,8 +16878,10 @@
       "tags": [
         "adverb",
         "unit-a2-4a",
-        "unit-a2"
-      ]
+        "unit-a2",
+        "pronunciation"
+      ],
+      "pron_tr": "\u0251\u02c8j\u0251cysty"
     },
     {
       "id": "cand-a2-4-0027",
@@ -16630,8 +16891,10 @@
       "tags": [
         "adverb",
         "unit-a2-4a",
-        "unit-a2"
-      ]
+        "unit-a2",
+        "pronunciation"
+      ],
+      "pron_tr": "\u025fy\u02d0\u02c8j\u0251\u02d0"
     },
     {
       "id": "cand-a2-4-0028",
@@ -18340,8 +18603,10 @@
       "tags": [
         "noun",
         "unit-a2-3b",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
+      "pron_tr": "s\u0251\u02d0\u02c8hip",
       "infl_tr": "sahibi"
     },
     {
@@ -18363,8 +18628,10 @@
       "tags": [
         "noun",
         "unit-a1-1b",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "m\u0251\u02c8cine"
     },
     {
       "id": "cand-base-0009",
@@ -18454,8 +18721,10 @@
       "tags": [
         "adverb",
         "unit-a2-2a",
-        "unit-a2"
-      ]
+        "unit-a2",
+        "pronunciation"
+      ],
+      "pron_tr": "\u02c8\u00f8nd\u0292e"
     },
     {
       "id": "cand-base-0017",
@@ -18699,8 +18968,10 @@
       "tags": [
         "noun",
         "unit-a2-4a",
-        "unit-a2"
-      ]
+        "unit-a2",
+        "pronunciation"
+      ],
+      "pron_tr": "d\u0292e\u02c8z\u0251\u02d0"
     },
     {
       "id": "cand-base-0039",
@@ -18856,8 +19127,10 @@
       "tags": [
         "noun",
         "unit-a2-1a",
-        "unit-a2"
-      ]
+        "unit-a2",
+        "pronunciation"
+      ],
+      "pron_tr": "k\u0251\u02c8z\u0251\u02d0"
     },
     {
       "id": "cand-base-0053",
@@ -18867,8 +19140,10 @@
       "tags": [
         "noun",
         "unit-a2-1a",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
+      "pron_tr": "t\u0251\u02d0\u02c8cip",
       "infl_tr": "takibi"
     },
     {
@@ -18993,8 +19268,10 @@
       "tags": [
         "noun",
         "unit-a1-4c",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "zij\u0251\u02d0\u02c8\u027eet"
     },
     {
       "id": "cand-base-0065",
@@ -19119,8 +19396,10 @@
       "tags": [
         "adjective",
         "unit-a1-3a",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "\u02c8syp\u00e6\u027e"
     },
     {
       "id": "cand-base-0075",
@@ -19175,8 +19454,10 @@
       "tags": [
         "noun",
         "unit-a1-4a",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "\u0251k\u027e\u0251\u02c8b\u0251\u02d0"
     },
     {
       "id": "cand-card-0002",
@@ -19186,8 +19467,10 @@
       "tags": [
         "noun",
         "unit-a1-4c",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "ko\u02c8\u026bonj\u0251"
     },
     {
       "id": "cand-card-0004",
@@ -19373,8 +19656,10 @@
         "noun",
         "geography",
         "unit-a1-6a",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "\u02c8\u0251kdeniz"
     },
     {
       "id": "cand-card-0032",
@@ -19385,8 +19670,10 @@
         "noun",
         "geography",
         "unit-a1-6a",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "k\u0251\u02c8\u027e\u0251deniz"
     },
     {
       "id": "cand-card-0033",
@@ -19736,8 +20023,10 @@
       "tags": [
         "adjective",
         "unit-a2-1b",
-        "unit-a2"
-      ]
+        "unit-a2",
+        "pronunciation"
+      ],
+      "pron_tr": "k\u0251h\u02c8ve\u027e\u00e6n\u025fi"
     },
     {
       "id": "cand-cat-0014",
@@ -19759,8 +20048,10 @@
         "noun",
         "unit-a2-1b",
         "unit-a2",
-        "unit-a2-extra"
-      ]
+        "unit-a2-extra",
+        "pronunciation"
+      ],
+      "pron_tr": "\u02c8\u0283\u0251pk\u0251"
     },
     {
       "id": "cand-cat-0016",
@@ -19941,8 +20232,10 @@
         "noun",
         "unit-a2-5a",
         "unit-a2",
-        "unit-a2-extra"
-      ]
+        "unit-a2-extra",
+        "pronunciation"
+      ],
+      "pron_tr": "f\u026f\u027e\u02c8t\u026fn\u0251"
     },
     {
       "id": "cand-cat-0031",
@@ -20256,8 +20549,10 @@
         "noun",
         "unit-a1-4a",
         "unit-a1",
-        "unit-a1-extra"
-      ]
+        "unit-a1-extra",
+        "pronunciation"
+      ],
+      "pron_tr": "k\u0251\u02c8j\u026fnv\u0251\u02d0lide"
     },
     {
       "id": "cand-cat-0057",
@@ -20268,8 +20563,10 @@
         "noun",
         "unit-a1-4a",
         "unit-a1",
-        "unit-a1-extra"
-      ]
+        "unit-a1-extra",
+        "pronunciation"
+      ],
+      "pron_tr": "k\u0251\u02c8j\u026fnped\u00e6\u027e"
     },
     {
       "id": "cand-gram-0091",
@@ -20474,9 +20771,11 @@
       "tags": [
         "language",
         "unit-a1-4b",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
-      "hint_en_tr": "(language)"
+      "hint_en_tr": "(language)",
+      "pron_tr": "\u02c8d\u0251nd\u0292\u0251"
     },
     {
       "id": "cand-lang-0003",
@@ -21138,8 +21437,10 @@
         "noun",
         "unit-a1-2b",
         "unit-a1",
-        "unit-a1-extra"
-      ]
+        "unit-a1-extra",
+        "pronunciation"
+      ],
+      "pron_tr": "k\u0251\u02c8\u027eec\u00f8c"
     },
     {
       "id": "cand-num-0001",
@@ -21541,9 +21842,11 @@
       "tags": [
         "adverb",
         "unit-a2-1a",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
-      "hint_en_tr": "(softening a question)"
+      "hint_en_tr": "(softening a question)",
+      "pron_tr": "\u02c8\u0251d\u0292\u0251b\u0251\u02d0"
     },
     {
       "id": "cand-sent-0063",
@@ -21565,9 +21868,11 @@
       "tags": [
         "conjunction",
         "unit-a2-1b",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
-      "hint_en_tr": "(joining the alternatives inside a question)"
+      "hint_en_tr": "(joining the alternatives inside a question)",
+      "pron_tr": "\u02c8joks\u0251"
     },
     {
       "id": "cand-sent-0065",
@@ -21667,9 +21972,11 @@
       "tags": [
         "adjective",
         "unit-a2-2b",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
-      "hint_en_tr": "(of a group)"
+      "hint_en_tr": "(of a group)",
+      "pron_tr": "b\u0251\u02d0\u02c8z\u026f"
     },
     {
       "id": "cand-sent-0074",
@@ -21725,8 +22032,10 @@
       "tags": [
         "adverb",
         "unit-a2-4a",
-        "unit-a2"
-      ]
+        "unit-a2",
+        "pronunciation"
+      ],
+      "pron_tr": "\u02c8s\u00e6nd\u0292e"
     },
     {
       "id": "cand-sent-0079",
@@ -21770,9 +22079,11 @@
       "tags": [
         "noun",
         "unit-a2-1b",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
-      "hint_en_tr": "(a shoe size or a phone number)"
+      "hint_en_tr": "(a shoe size or a phone number)",
+      "pron_tr": "nu\u02c8m\u0251\u027e\u0251"
     },
     {
       "id": "cand-sent-0084",
@@ -22216,9 +22527,11 @@
       "tags": [
         "noun",
         "unit-a1-3a",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
-      "hint_en_tr": "(rest / pause)"
+      "hint_en_tr": "(rest / pause)",
+      "pron_tr": "\u02c8mo\u026b\u0251"
     },
     {
       "id": "cand-web-0014",
@@ -22250,8 +22563,10 @@
       "tags": [
         "noun",
         "unit-a1-2b",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "\u02c8li\u027e\u0251"
     },
     {
       "id": "cand-web-0017",
@@ -22421,8 +22736,10 @@
       "tags": [
         "adjective",
         "unit-a1-3b",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "h\u0251\u02d0\u027ei\u02c8k\u0251"
     },
     {
       "id": "cand-web-0032",
@@ -22443,8 +22760,10 @@
       "tags": [
         "adverb",
         "unit-a1-3a",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "\u02c8son\u027e\u0251"
     },
     {
       "id": "cand-web-0034",
@@ -22465,8 +22784,10 @@
       "tags": [
         "adjective",
         "unit-a1-3c",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "\u02c8h\u0251n\u025fi"
     },
     {
       "id": "cand-web-0036",
@@ -22510,8 +22831,10 @@
       "tags": [
         "pronoun",
         "unit-a1-3a",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "\u02c8h\u00e6\u027eces"
     },
     {
       "id": "cand-web-0040",
@@ -22778,8 +23101,10 @@
       "tags": [
         "adverb",
         "unit-a1-4c",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "b\u00f8j\u02c8led\u0292e"
     },
     {
       "id": "extra-0001",

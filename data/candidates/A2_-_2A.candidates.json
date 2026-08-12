@@ -97,11 +97,13 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-2a"
+        "unit-a2-2a",
+        "pronunciation"
       ],
       "source": "A2_-_2A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "ˈsobɑ"
     },
     {
       "id": "cand-a2-2a-0008",
@@ -199,11 +201,13 @@
       "tags": [
         "unit-a2",
         "unit-a2-2a",
-        "adjective"
+        "adjective",
+        "pronunciation"
       ],
       "source": "A2_-_2A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "ˈɾɑstɟele"
     },
     {
       "id": "cand-a2-2a-0015",
@@ -299,11 +303,13 @@
       "tags": [
         "unit-a2",
         "unit-a2-2a",
-        "adverb"
+        "adverb",
+        "pronunciation"
       ],
       "source": "A2_-_2A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "ˈæɾcændæn"
     },
     {
       "id": "cand-a2-2a-0022",

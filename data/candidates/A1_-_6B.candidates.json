@@ -80,11 +80,13 @@
       "tags": [
         "noun",
         "unit-a1-6b",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1_-_6B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "biˈnɑː"
     },
     {
       "id": "cand-a1-6b-0007",
@@ -122,11 +124,13 @@
       "tags": [
         "noun",
         "unit-a1-6b",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1_-_6B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "dɑːiˈɾe"
     },
     {
       "id": "cand-a1-6b-0010",
@@ -192,11 +196,13 @@
       "tags": [
         "noun",
         "unit-a1-6b",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1_-_6B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "ciˈtɑbevi"
     },
     {
       "id": "cand-a1-6b-0015",

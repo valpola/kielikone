@@ -207,11 +207,13 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-1a"
+        "unit-a2-1a",
+        "pronunciation"
       ],
       "source": "A2_-_1A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "dɑːˈvet"
     },
     {
       "id": "cand-a2-1a-0016",
@@ -221,11 +223,13 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-1a"
+        "unit-a2-1a",
+        "pronunciation"
       ],
       "source": "A2_-_1A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "dɑːvetiˈje"
     },
     {
       "id": "cand-a2-1a-0017",
@@ -306,11 +310,13 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-1a"
+        "unit-a2-1a",
+        "pronunciation"
       ],
       "source": "A2_-_1A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "kuˈlybe"
     },
     {
       "id": "cand-a2-1a-0023",
@@ -432,11 +438,13 @@
       "tags": [
         "adjective",
         "unit-a2",
-        "unit-a2-1a"
+        "unit-a2-1a",
+        "pronunciation"
       ],
       "source": "A2_-_1A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "ˈdymdyz"
     },
     {
       "id": "cand-a2-1a-0032",

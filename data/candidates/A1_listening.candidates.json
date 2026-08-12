@@ -82,11 +82,13 @@
         "expression",
         "unit-a1-1a",
         "unit-a1",
-        "unit-a1-extra"
+        "unit-a1-extra",
+        "pronunciation"
       ],
       "source": "gap-fill: not in the coursebooks; filed with the A1-1A greetings/politeness vocabulary",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "ɑːfeˈɾin"
     },
     {
       "id": "cand-a1-listen-0007",
@@ -124,12 +126,14 @@
       "tags": [
         "expression",
         "unit-a1-2c",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1-2C coursebook dialogue (not in any unit vocabulary list)",
-      "notes": "",
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
       "status": "approved",
-      "hint_en_tr": "(answering)"
+      "hint_en_tr": "(answering)",
+      "pron_tr": "eˈfændim"
     },
     {
       "id": "cand-a1-listen-0010",
@@ -139,11 +143,13 @@
       "tags": [
         "expression",
         "unit-a1-2b",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1-2B coursebook dialogue (not in any unit vocabulary list)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "jɑːˈni"
     },
     {
       "id": "cand-a1-listen-0011",
@@ -153,11 +159,13 @@
       "tags": [
         "expression",
         "unit-a1-2c",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1-2C coursebook dialogue (not in any unit vocabulary list)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "ˈpeci"
     },
     {
       "id": "cand-a1-listen-0012",
@@ -253,11 +261,13 @@
       "tags": [
         "noun",
         "unit-a1-3a",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1 listening/dialogue exercises (Turkishle)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "sɑːˈhil"
     },
     {
       "id": "cand-a1-listen-0019",
@@ -337,11 +347,13 @@
       "tags": [
         "noun",
         "unit-a1-2c",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1 listening/dialogue exercises (Turkishle)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "ˈjoɡɑ"
     },
     {
       "id": "cand-a1-listen-0025",
@@ -478,11 +490,13 @@
       "tags": [
         "noun",
         "unit-a1-3b",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1 listening/dialogue exercises (Turkishle)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "piˈjɑno"
     },
     {
       "id": "cand-a1-listen-0035",

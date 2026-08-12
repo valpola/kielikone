@@ -189,11 +189,13 @@
       "tags": [
         "adjective",
         "unit-a2-1b",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "Turkishle coursebook (A2)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "kɑhˈveɾænɟi"
     },
     {
       "id": "cand-cat-0014",
@@ -218,11 +220,13 @@
         "noun",
         "unit-a2-1b",
         "unit-a2",
-        "unit-a2-extra"
+        "unit-a2-extra",
+        "pronunciation"
       ],
       "source": "gap-fill: not in the coursebooks; filed with the A2-1B clothing vocabulary",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "ˈʃɑpkɑ"
     },
     {
       "id": "cand-cat-0016",
@@ -445,11 +449,13 @@
         "noun",
         "unit-a2-5a",
         "unit-a2",
-        "unit-a2-extra"
+        "unit-a2-extra",
+        "pronunciation"
       ],
       "source": "gap-fill: not in the coursebooks; filed with the A2-5A weather list",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "fɯɾˈtɯnɑ"
     },
     {
       "id": "cand-cat-0031",
@@ -809,11 +815,13 @@
         "noun",
         "unit-a1-4a",
         "unit-a1",
-        "unit-a1-extra"
+        "unit-a1-extra",
+        "pronunciation"
       ],
       "source": "gap-fill: not in the coursebooks; filed with the A1-4A family vocabulary",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "kɑˈjɯnvɑːlide"
     },
     {
       "id": "cand-cat-0057",
@@ -824,11 +832,13 @@
         "noun",
         "unit-a1-4a",
         "unit-a1",
-        "unit-a1-extra"
+        "unit-a1-extra",
+        "pronunciation"
       ],
       "source": "gap-fill: not in the coursebooks; filed with the A1-4A family vocabulary",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "kɑˈjɯnpedæɾ"
     },
     {
       "id": "cand-cat-0054b",

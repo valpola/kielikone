@@ -165,12 +165,14 @@
       "tags": [
         "noun",
         "unit-a1-3a",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
-      "notes": "",
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
       "status": "approved",
-      "hint_en_tr": "(rest / pause)"
+      "hint_en_tr": "(rest / pause)",
+      "pron_tr": "ˈmoɫɑ"
     },
     {
       "id": "cand-web-0014",
@@ -208,11 +210,13 @@
       "tags": [
         "noun",
         "unit-a1-2b",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "ˈliɾɑ"
     },
     {
       "id": "cand-web-0017",
@@ -424,11 +428,13 @@
       "tags": [
         "adjective",
         "unit-a1-3b",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "hɑːɾiˈkɑ"
     },
     {
       "id": "cand-web-0032",
@@ -452,11 +458,13 @@
       "tags": [
         "adverb",
         "unit-a1-3a",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "ˈsonɾɑ"
     },
     {
       "id": "cand-web-0034",
@@ -480,11 +488,13 @@
       "tags": [
         "adjective",
         "unit-a1-3c",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "ˈhɑnɟi"
     },
     {
       "id": "cand-web-0036",
@@ -537,11 +547,13 @@
       "tags": [
         "pronoun",
         "unit-a1-3a",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "ˈhæɾces"
     },
     {
       "id": "cand-web-0040",
