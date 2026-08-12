@@ -32,6 +32,9 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from make_pron_audio import forms, safe    # noqa: E402  one splitting rule, not two
+
 ROOT = Path(__file__).resolve().parents[1]
 AUDIO = ROOT / "resources" / "pron_audio"
 KEYS = ROOT / "resources" / "access_keys"
@@ -78,19 +81,24 @@ def main() -> int:
     key = secret("supabase_anon_key.txt")
     hdrs = headers(key)
 
-    by_stem = {p.stem.replace("_", " "): p for p in AUDIO.glob("*.mp3")}
-    if not by_stem:
+    on_disk = {p.name: p for p in AUDIO.glob("*.mp3")}
+    if not on_disk:
         sys.exit(f"no clips in {AUDIO.relative_to(ROOT)} — run make_pron_audio.py first")
-    folded = {k.casefold(): v for k, v in by_stem.items()}
+    folded = {n.casefold(): p for n, p in on_disk.items()}
 
-    # Key each row by the form the deck holds, not by the filename. macOS has a
+    # Go deck form -> filename with the same safe() the generator used, rather
+    # than parsing the filename back into a word. That reverse is lossy: safe()
+    # maps both " " to "_" and "/" to "-", so "(birine / bir şeye) kızmak" came
+    # back as "(birine - bir şeye) kızmak" and matched no card.
+    #
+    # The case-insensitive fallback stays, for a different reason: macOS has a
     # case-insensitive filesystem, so Mısır/mısır, Ocak/ocak and Pazar/pazar each
-    # collapsed into a single clip — same pronunciation either way, but the app
-    # looks a word up by its exact spelling and would have missed the capitalised
-    # one. Both spellings get a row, pointing at the same bytes.
-    wanted = sorted({f.strip() for i in json.loads(QUIZ.read_text(encoding="utf-8"))["items"]
-                     for f in i["turkish"].split("/")})
-    pairs = [(w, by_stem.get(w) or folded.get(w.casefold())) for w in wanted]
+    # collapsed into one clip. Same pronunciation either way, and both spellings
+    # get a row pointing at the same bytes.
+    wanted = sorted({f for i in json.loads(QUIZ.read_text(encoding="utf-8"))["items"]
+                     for f in forms(i["turkish"])})
+    pairs = [(w, on_disk.get(f"{safe(w)}.mp3") or folded.get(f"{safe(w)}.mp3".casefold()))
+             for w in wanted]
     missing = [w for w, p in pairs if p is None]
     pairs = [(w, p) for w, p in pairs if p is not None]
 

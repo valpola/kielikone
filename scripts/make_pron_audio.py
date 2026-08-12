@@ -42,9 +42,30 @@ GOOGLE = "https://translate.google.com/translate_tts?ie=UTF-8&q={q}&tl=tr&client
 
 
 def forms(turkish: str) -> list[str]:
-    """A slash entry holds two answers; each deserves its own recording."""
-    return [p.strip() for p in turkish.split("/") if p.strip()]
+    """Split a card into the forms that deserve their own clip.
 
+    Only a slash that stands alone at the top level separates two answers. The
+    other two kinds must be left intact:
+      (birine / bir şeye) kızmak   an object frame — one verb, two case options
+      kilometre/saat (km/s)        a slash meaning "per"
+    Splitting those produced "(birine" and "bir şeye) kızmak" as if they were
+    words, which is how 17 nonsense rows reached the audio table.
+    """
+    out, depth, cur = [], 0, ""
+    for n, ch in enumerate(turkish):
+        if ch == "(":
+            depth += 1
+        elif ch == ")":
+            depth -= 1
+        space_around = (n > 0 and turkish[n - 1] == " "
+                        and n + 1 < len(turkish) and turkish[n + 1] == " ")
+        if ch == "/" and depth == 0 and space_around:
+            out.append(cur.strip())
+            cur = ""
+        else:
+            cur += ch
+    out.append(cur.strip())
+    return [f for f in out if f]
 
 def safe(name: str) -> str:
     return name.replace(" ", "_").replace("/", "-")

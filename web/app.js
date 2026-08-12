@@ -1530,17 +1530,52 @@ if ("speechSynthesis" in window) {
   speechSynthesis.addEventListener("voiceschanged", pickVoice);
 }
 
+// A slash card holds two answers and the clips are stored one per form, so
+// "tuhaf / garip" has no row of its own — asking for the whole string found
+// nothing and 71 cards fell back to the device voice. Each form is fetched and
+// they play in turn.
+// Only a slash standing alone at the top level separates two answers. An object
+// frame "(birine / bir şeye) kızmak" is one verb with two case options, and the
+// slash in "kilometre/saat" means "per" — splitting either invents words.
+const clipForms = (turkish) => {
+  const out = [];
+  let depth = 0;
+  let cur = "";
+  for (let n = 0; n < turkish.length; n += 1) {
+    const ch = turkish[n];
+    if (ch === "(") depth += 1;
+    else if (ch === ")") depth -= 1;
+    const spaced = turkish[n - 1] === " " && turkish[n + 1] === " ";
+    if (ch === "/" && depth === 0 && spaced) {
+      out.push(cur.trim());
+      cur = "";
+    } else {
+      cur += ch;
+    }
+  }
+  out.push(cur.trim());
+  return out.filter(Boolean);
+};
+
 const speakSynthesised = () => {
   if (!current || !("speechSynthesis" in window)) return;
-  // ", " rather than the raw string: a voice reads "tuhaf / garip" as a slash.
-  const utter = new SpeechSynthesisUtterance(clipForms(current.turkish).join(", "));
-  // lang matters even with an explicit voice: without it a platform that has no
-  // Turkish voice reads the word with English letter values.
-  utter.lang = "tr-TR";
-  if (turkishVoice) utter.voice = turkishVoice;
-  utter.rate = 0.9;
   speechSynthesis.cancel();
-  speechSynthesis.speak(utter);
+  // One utterance per form, rather than one string holding both. Joining them
+  // with "/" made the voice skip it silently and run the two words together;
+  // joining with "," made it announce "virgül". A separate utterance gives the
+  // pause without pronouncing any punctuation at all.
+  //
+  // Both speak() calls are made synchronously here, so the queue is built inside
+  // the tap and iOS does not refuse the second one.
+  clipForms(current.turkish).forEach((form) => {
+    const utter = new SpeechSynthesisUtterance(form);
+    // lang matters even with an explicit voice: without it a platform that has
+    // no Turkish voice reads the word with English letter values.
+    utter.lang = "tr-TR";
+    if (turkishVoice) utter.voice = turkishVoice;
+    utter.rate = 0.9;
+    speechSynthesis.speak(utter);
+  });
 };
 
 // A recorded clip sounds markedly better than the device voice, but it may not
@@ -1610,12 +1645,6 @@ let clipPlayer = null;
 // So the clip is fetched when the answer is revealed, not when the button is
 // pressed, and the handler below stays free of await.
 let readyClip = { word: null, urls: [] };
-
-// A slash card holds two answers and the clips are stored one per form, so
-// "tuhaf / garip" has no row of its own — asking for the whole string found
-// nothing and 71 cards fell back to the device voice. Each form is fetched and
-// they play in turn.
-const clipForms = (turkish) => turkish.split("/").map((f) => f.trim()).filter(Boolean);
 
 const releaseClip = () => {
   readyClip.urls.forEach(URL.revokeObjectURL);
@@ -1859,6 +1888,14 @@ ANSWER.addEventListener("keydown", (event) => {
     event.stopPropagation();
     return;
   }
+  if (isRevealed && key === "a") {
+    // A keydown is a user-activation event, so this satisfies the same rule the
+    // button does and iOS will start the audio.
+    event.preventDefault();
+    speakCurrent();
+    event.stopPropagation();
+    return;
+  }
   if (isRevealed && key === "n") {
     event.preventDefault();
     renderPrompt();
@@ -1890,6 +1927,10 @@ window.addEventListener("keydown", (event) => {
     } else if (key === "n") {
       event.preventDefault();
       renderPrompt();
+      return;
+    } else if (key === "a") {
+      event.preventDefault();
+      speakCurrent();
       return;
     }
   }
