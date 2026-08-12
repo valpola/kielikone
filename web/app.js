@@ -1532,7 +1532,8 @@ if ("speechSynthesis" in window) {
 
 const speakSynthesised = () => {
   if (!current || !("speechSynthesis" in window)) return;
-  const utter = new SpeechSynthesisUtterance(current.turkish);
+  // ", " rather than the raw string: a voice reads "tuhaf / garip" as a slash.
+  const utter = new SpeechSynthesisUtterance(clipForms(current.turkish).join(", "));
   // lang matters even with an explicit voice: without it a platform that has no
   // Turkish voice reads the word with English letter values.
   utter.lang = "tr-TR";
@@ -1608,23 +1609,38 @@ let clipPlayer = null;
 //
 // So the clip is fetched when the answer is revealed, not when the button is
 // pressed, and the handler below stays free of await.
-let readyClip = { word: null, url: null };
+let readyClip = { word: null, urls: [] };
+
+// A slash card holds two answers and the clips are stored one per form, so
+// "tuhaf / garip" has no row of its own — asking for the whole string found
+// nothing and 71 cards fell back to the device voice. Each form is fetched and
+// they play in turn.
+const clipForms = (turkish) => turkish.split("/").map((f) => f.trim()).filter(Boolean);
 
 const releaseClip = () => {
-  if (readyClip.url) URL.revokeObjectURL(readyClip.url);
-  readyClip = { word: null, url: null };
+  readyClip.urls.forEach(URL.revokeObjectURL);
+  readyClip = { word: null, urls: [] };
+};
+
+const clipFor = async (form) => {
+  let blob = await cachedClip(form);
+  if (!blob) {
+    blob = await fetchClip(form);
+    if (blob) await cacheClip(form, blob);
+  }
+  return blob;
 };
 
 const prefetchClip = async (word) => {
   releaseClip();
-  let blob = await cachedClip(word);
-  if (!blob) {
-    blob = await fetchClip(word);
-    if (blob) await cacheClip(word, blob);
+  const blobs = [];
+  for (const form of clipForms(word)) {
+    blobs.push(await clipFor(form));
   }
-  // The card may have moved on while this was downloading.
-  if (!blob || !current || current.turkish !== word) return;
-  readyClip = { word, url: URL.createObjectURL(blob) };
+  // The card may have moved on while this was downloading. Every form must have
+  // landed: playing only half of "tuhaf / garip" would teach the wrong thing.
+  if (blobs.some((b) => !b) || !current || current.turkish !== word) return;
+  readyClip = { word, urls: blobs.map((b) => URL.createObjectURL(b)) };
 };
 
 const speakCurrent = () => {
@@ -1632,8 +1648,18 @@ const speakCurrent = () => {
   if (clipPlayer) clipPlayer.pause();
   if ("speechSynthesis" in window) speechSynthesis.cancel();
 
-  if (readyClip.url && readyClip.word === current.turkish) {
-    clipPlayer = new Audio(readyClip.url);
+  if (readyClip.urls.length && readyClip.word === current.turkish) {
+    const queue = readyClip.urls.slice();
+    clipPlayer = new Audio(queue.shift());
+    // Reuse the one element for the rest of the queue rather than making a new
+    // one: iOS unlocks playback per element on the gesture, so a second Audio
+    // created in an ended handler would be refused.
+    clipPlayer.onended = () => {
+      const next = queue.shift();
+      if (!next) return;
+      clipPlayer.src = next;
+      clipPlayer.play().catch(() => {});
+    };
     clipPlayer.onerror = speakSynthesised;
     const started = clipPlayer.play();
     // A rejected play() lands outside the gesture, so the fallback may itself be
