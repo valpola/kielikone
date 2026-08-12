@@ -143,10 +143,29 @@ over a Turkish spelling in EN→TR.
   TTS, settled it.
 - Also **`[l]` vs `[ɫ]`**, clear next to front vowels and dark next to back ones.
 
-**Coverage:** every A2-5 entry carries `pron_tr`; earlier units have it only on a handful of
-worked examples. The **`pronunciation` tag is not on everything** — it marks the words that defy
-their spelling (irregular stress, phonemic length, a `ğ` that lengthens rather than sounds), so
-the tag stays a useful filter rather than a synonym for "has a transcription".
+**Coverage:** 257 entries carry `pron_tr` — every A2-5 entry, plus 184 imported from TDK by
+`scripts/tdk_to_ipa.py`. The **`pronunciation` tag is not on everything** — it marks the words
+that defy their spelling (irregular stress, phonemic length, a `ğ` that lengthens rather than
+sounds), so the tag stays a useful filter rather than a synonym for "has a transcription".
+
+**TDK's `telaffuz` can be imported in bulk; the segments around it cannot be trusted blind.**
+What is *sourced* is length and stress; what is *derived* is every segment, by the allophony
+above — so the conversion is only as good as its own correctness, and it was wrong three times
+in ways that read as plausible output. All three were a lookahead running off the end of a word
+or into a diacritic: `"" in "rlmn"` is True in Python, so every word-final `e` became `[æ]`
+(`aile` → `ɑːiˈlæ`); TDK's stress apostrophe sits *between* letters, so `belki`'s `e` looked for
+a following sonorant and found `'`; and scanning ahead for any vowel confuses an onset with a
+coda, giving `herhalde` a clear `l` and `birçok` a palatal `k` — **which vowel colours a k/g/l
+depends on where in the syllable it sits**, the following one in an onset, the preceding one in
+a coda. The empty-string trap then recurred inside its own fix, so the guard is a named helper.
+The check that caught all of it: the script must independently reproduce the hand-written,
+source-checked values (18/18) before its other output means anything.
+
+**Sense-check the same way as `taki`.** 35 words are held back because their TDK senses disagree,
+and the reasons are instructive: the second sense of `balık`, `akrep` and `yengeç` is the *zodiac
+sign*, whose "telaffuz" is really an inflected form; for `genç`, `orta`, `bahçe` and `kale` it is
+a *town* of that name with its own stress; `kar`/`kâr` and `adet`/`âdet` are different words. An
+existing `pron_tr` is never overwritten — it was hand-checked, so a disagreement is reported.
 
 **eSpeak is not a source — it was tried and rejected.** `espeak-ng -q --ipa -v tr` is a
 letter-to-sound transducer with a short exception list, so it cannot know anything lexical. It
