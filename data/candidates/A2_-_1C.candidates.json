@@ -230,8 +230,9 @@
         "unit-a2-1c"
       ],
       "source": "A2_-_1C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Issue #84: English 'to fry' reads either way, so the tip says which. TDK glosses it 'kızarmasına neden olmak' — the causative of kızarmak, which is the intransitive counterpart and derivable from this one rather than needing its own card.",
+      "status": "approved",
+      "hint_en_tr": "(transitive)"
     },
     {
       "id": "cand-a2-1c-0017",

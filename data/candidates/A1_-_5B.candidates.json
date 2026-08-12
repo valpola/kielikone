@@ -499,9 +499,10 @@
         "verb"
       ],
       "source": "A1_-_5B.pdf (the list glosses geçirmek as “put in”)",
-      "notes": "homograph of geçirmek = to spend (time); A1-5B teaches this sense",
+      "notes": "homograph of geçirmek = to spend (time); A1-5B teaches this sense Issue #83: the A1-5B gloss 'put in' collides with koymak = 'to put' in EN->TR, and the senses are not the same. TDK's is 'kendisine ayrılmış olan yere yerleştirmek, takmak' — fitting something into the place meant for it. A box takes koymak, not geçirmek.",
       "status": "approved",
-      "hint_tr_en": "(bir şeyi bir yere)"
+      "hint_tr_en": "(bir şeyi bir yere)",
+      "hint_en_tr": "(to fit or thread it into the place made for it, not to place it somewhere)"
     }
   ]
 }

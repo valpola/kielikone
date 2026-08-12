@@ -98,8 +98,9 @@
         "unit-a1"
       ],
       "source": "A1-6 coursebook real-estate dialogue/section (Turkishle)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "emlakı"
     },
     {
       "id": "cand-a1-6v-0008",

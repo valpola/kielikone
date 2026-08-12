@@ -117,7 +117,13 @@ def alters_stem(word: str, forms: list[str], k: str) -> bool:
     """
     if k == "gemination":
         return True
-    return any(f[: len(word)] != word for f in forms)
+    if any(f[: len(word)] != word for f in forms):
+        return True
+    # A tail that changes nothing still teaches something when the word ends in
+    # p/ç/t/k, because softening was the thing to expect and it did not happen:
+    # saat -> saati, not saadi, against the polysyllabic tendency. Proper nouns
+    # are excluded — there the apostrophe is the lesson, not the consonant.
+    return word[-1].lower() in "pçtk" and k != "proper"
 
 
 def kind(word: str, taki: str) -> str:

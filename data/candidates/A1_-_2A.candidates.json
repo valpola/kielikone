@@ -590,8 +590,9 @@
         "unit-a1"
       ],
       "source": "A1_-_2A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "saati"
     },
     {
       "id": "cand-a1-2a-0041",

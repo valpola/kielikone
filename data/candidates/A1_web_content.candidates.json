@@ -330,8 +330,9 @@
         "unit-a1"
       ],
       "source": "A1-2/3 reading-comp glossaries + vocab pages (Turkishle web)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "seyahati"
     },
     {
       "id": "cand-web-0025",
