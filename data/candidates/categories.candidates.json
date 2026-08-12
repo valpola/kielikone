@@ -925,6 +925,38 @@
       "source": "gap-fill: not in the coursebooks; filed with the A1-2B ordinals, whose question form this is",
       "notes": "Requested in issue #82, and kept as a whole sentence because the teaching point is kaçıncı — the ordinal question word English has no single word for, though Finnish monesko matches it exactly. Also shows the locative on hece. Deliberately built from words already known apart from the two nouns added with it.",
       "status": "approved"
+    },
+    {
+      "id": "cand-cat-0061",
+      "turkish": "iplik",
+      "english": "thread",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-1b",
+        "unit-a2",
+        "unit-a2-extra"
+      ],
+      "source": "gap-fill: in neither course — absent from all 1120 Turkishle cards and every coursebook except the A1 alphabet table, where iplik is only an example word for the letter p; filed with the A2-1B clothing vocabulary",
+      "notes": "Requested with iğne as a pair. TDK sense 1 is the textile thread. Softens: iplik -> ipliği, which the card shows. No telaffuz in TDK, so the pronunciation is regular. Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "ipliği"
+    },
+    {
+      "id": "cand-cat-0062",
+      "turkish": "iğne",
+      "english": "needle",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-1b",
+        "unit-a2",
+        "unit-a2-extra"
+      ],
+      "hint_tr_en": "(dikiş için)",
+      "source": "gap-fill: in neither course — absent from all 1120 Turkishle cards and every coursebook except the A1 alphabet table, where iplik is only an example word for the letter p; filed with the A2-1B clothing vocabulary",
+      "notes": "Requested with iplik as a pair. The concrete sewing sense is deliberate and is also TDK's first: 'dikiş dikmeye yarayan, ince, ucu sivri, bir ucunda iplik geçecek delik olan' — its own definition uses iplik geçirmek. The injection sense is a transparent extension of it and gets no card; the TR->EN hint pins the sense so 'injection' is not the expected answer. No pron_tr: the ğ is never transcribed from a rule.",
+      "status": "approved"
     }
   ]
 }

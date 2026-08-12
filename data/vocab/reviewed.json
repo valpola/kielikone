@@ -25979,6 +25979,38 @@
       "status": "approved"
     },
     {
+      "id": "cand-cat-0061",
+      "turkish": "iplik",
+      "english": "thread",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-1b",
+        "unit-a2",
+        "unit-a2-extra"
+      ],
+      "source": "gap-fill: in neither course \u2014 absent from all 1120 Turkishle cards and every coursebook except the A1 alphabet table, where iplik is only an example word for the letter p; filed with the A2-1B clothing vocabulary",
+      "notes": "Requested with i\u011fne as a pair. TDK sense 1 is the textile thread. Softens: iplik -> ipli\u011fi, which the card shows. No telaffuz in TDK, so the pronunciation is regular. Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "ipli\u011fi"
+    },
+    {
+      "id": "cand-cat-0062",
+      "turkish": "i\u011fne",
+      "english": "needle",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-1b",
+        "unit-a2",
+        "unit-a2-extra"
+      ],
+      "hint_tr_en": "(diki\u015f i\u00e7in)",
+      "source": "gap-fill: in neither course \u2014 absent from all 1120 Turkishle cards and every coursebook except the A1 alphabet table, where iplik is only an example word for the letter p; filed with the A2-1B clothing vocabulary",
+      "notes": "Requested with iplik as a pair. The concrete sewing sense is deliberate and is also TDK's first: 'diki\u015f dikmeye yarayan, ince, ucu sivri, bir ucunda iplik ge\u00e7ecek delik olan' \u2014 its own definition uses iplik ge\u00e7irmek. The injection sense is a transparent extension of it and gets no card; the TR->EN hint pins the sense so 'injection' is not the expected answer. No pron_tr: the \u011f is never transcribed from a rule.",
+      "status": "approved"
+    },
+    {
       "id": "cand-gram-0091",
       "turkish": "o",
       "english": "he",

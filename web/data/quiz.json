@@ -20695,6 +20695,32 @@
       "hint_en_tr": "(literally: the stress is on the how-manyth syllable?)"
     },
     {
+      "id": "cand-cat-0061",
+      "turkish": "iplik",
+      "english": "thread",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-1b",
+        "unit-a2",
+        "unit-a2-extra"
+      ],
+      "infl_tr": "ipli\u011fi"
+    },
+    {
+      "id": "cand-cat-0062",
+      "turkish": "i\u011fne",
+      "english": "needle",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a2-1b",
+        "unit-a2",
+        "unit-a2-extra"
+      ],
+      "hint_tr_en": "(diki\u015f i\u00e7in)"
+    },
+    {
       "id": "cand-gram-0091",
       "turkish": "o",
       "english": "he",
