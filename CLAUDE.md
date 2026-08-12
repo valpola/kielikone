@@ -161,6 +161,17 @@ a coda. The empty-string trap then recurred inside its own fix, so the guard is 
 The check that caught all of it: the script must independently reproduce the hand-written,
 source-checked values (18/18) before its other output means anything.
 
+**Do not discard an entry for looking unusable.** Three shapes were being thrown away, each
+holding real information:
+- **An inflected telaffuz still carries length.** TDK writes `hayat` as `haya:tı` — the accusative,
+  because that shows the long `a` *and* that the `t` does not soften. Dropping the whole entry lost
+  the length of 22 common words (`zaman` → `zɑˈmɑːn`, `sabah`, `karar`, `hesap`, `tahmin`, `mimar`).
+  `debase()` strips the suffix vowels and restores the headword's final letter.
+- **A note-only telaffuz means "as spelled, but the `l` is clear"** — `alkol` gives just
+  `l'ler ince okunur`. Taking `parts[0]` made the prose the word.
+- **A respelling can be *shorter* than the headword**: `maalesef` → `ma:lesef` writes `aa` as `a:`,
+  so an "is it longer" test must compare letters only, not call it inflected.
+
 **Sense-check the same way as `taki`.** 35 words are held back because their TDK senses disagree,
 and the reasons are instructive: the second sense of `balık`, `akrep` and `yengeç` is the *zodiac
 sign*, whose "telaffuz" is really an inflected form; for `genç`, `orta`, `bahçe` and `kale` it is

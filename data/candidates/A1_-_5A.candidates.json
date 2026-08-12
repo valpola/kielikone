@@ -96,11 +96,13 @@
       "tags": [
         "unit-a1-5a",
         "unit-a1",
-        "noun"
+        "noun",
+        "pronunciation"
       ],
       "source": "A1_-_5A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "ˈilcbɑhɑːɾ"
     },
     {
       "id": "cand-a1-5a-0008",
@@ -228,11 +230,13 @@
       "tags": [
         "unit-a1-5a",
         "unit-a1",
-        "noun"
+        "noun",
+        "pronunciation"
       ],
       "source": "A1_-_5A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "zɑˈmɑːn"
     },
     {
       "id": "cand-a1-5a-0017",

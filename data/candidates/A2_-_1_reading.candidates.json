@@ -52,11 +52,13 @@
       "tags": [
         "noun",
         "unit-a2-1b",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-1 reading exercise SÖZLÜK (Turkishle web)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "teˈlɑːʃ"
     },
     {
       "id": "cand-a2-1rd-0005",

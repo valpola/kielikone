@@ -284,11 +284,13 @@
         "noun",
         "unit-a2-1b",
         "unit-a2",
-        "unit-a2-extra"
+        "unit-a2-extra",
+        "pronunciation"
       ],
       "source": "gap-fill: not in the coursebooks; filed with the A2-1B clothing vocabulary",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "ˈbluz"
     },
     {
       "id": "cand-cat-0020",
@@ -799,13 +801,15 @@
         "noun",
         "unit-a1-4a",
         "unit-a1",
-        "unit-a1-extra"
+        "unit-a1-extra",
+        "pronunciation"
       ],
       "source": "gap-fill: not in the coursebooks; filed with the A1-4A family vocabulary",
-      "notes": "second sense is a separate entry Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "notes": "second sense is a separate entry Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule. Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
       "status": "approved",
       "hint_tr_en": "(evlenen erkek)",
-      "infl_tr": "damadı"
+      "infl_tr": "damadı",
+      "pron_tr": "dɑːˈmɑːt"
     },
     {
       "id": "cand-cat-0056",
@@ -865,13 +869,15 @@
         "noun",
         "unit-a1-4a",
         "unit-a1",
-        "unit-a1-extra"
+        "unit-a1-extra",
+        "pronunciation"
       ],
       "source": "gap-fill: not in the coursebooks; filed with the A1-4A family vocabulary",
-      "notes": "second sense is a separate entry Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "notes": "second sense is a separate entry Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule. Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
       "status": "approved",
       "hint_tr_en": "(kızının eşi)",
-      "infl_tr": "damadı"
+      "infl_tr": "damadı",
+      "pron_tr": "dɑːˈmɑːt"
     },
     {
       "id": "cand-cat-0058",

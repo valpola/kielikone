@@ -759,12 +759,14 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-1b"
+        "unit-a2-1b",
+        "pronunciation"
       ],
       "source": "A2_-_1B.pdf",
-      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule. Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
       "status": "approved",
-      "infl_tr": "marmeladı"
+      "infl_tr": "marmeladı",
+      "pron_tr": "mɑɾmeˈlɑt"
     },
     {
       "id": "cand-a2-1b-0054",
@@ -967,12 +969,14 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-1b"
+        "unit-a2-1b",
+        "pronunciation"
       ],
       "source": "A2_-_1B.pdf",
-      "notes": "",
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
       "status": "approved",
-      "hint_en_tr": "(cooked)"
+      "hint_en_tr": "(cooked)",
+      "pron_tr": "piˈlɑv"
     },
     {
       "id": "cand-a2-1b-0067",

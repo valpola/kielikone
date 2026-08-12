@@ -594,11 +594,13 @@
       "tags": [
         "noun",
         "unit-a2-3b",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-3B Kelime Listesi (Turkishle coursebook)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "diploˈmɑ"
     },
     {
       "id": "cand-a2-3-0042",
@@ -710,11 +712,13 @@
       "tags": [
         "noun",
         "unit-a2-3b",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-3B Kelime Listesi (Turkishle coursebook)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "miːˈmɑːɾ"
     },
     {
       "id": "cand-a2-3-0050",

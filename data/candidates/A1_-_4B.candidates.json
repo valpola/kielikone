@@ -2432,11 +2432,13 @@
       "tags": [
         "unit-a1-4b",
         "unit-a1",
-        "country"
+        "country",
+        "pronunciation"
       ],
       "source": "A1_-_4B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "umˈmɑːn"
     },
     {
       "id": "cand-a1-4b-0167",

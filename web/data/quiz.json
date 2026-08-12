@@ -349,7 +349,8 @@
         "noun",
         "unit-a1-0a",
         "unit-a1",
-        "unit-a1-5a"
+        "unit-a1-5a",
+        "pronunciation"
       ],
       "hint_en_tr": "(X / Y)"
     },
@@ -904,8 +905,10 @@
       "tags": [
         "noun",
         "unit-a1-1b",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "l\u0251v\u0251\u02c8bo"
     },
     {
       "id": "cand-a1-1b-0020",
@@ -2512,8 +2515,10 @@
       "tags": [
         "noun",
         "unit-a1-2b",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "cilo\u0261\u02c8\u027e\u0251m"
     },
     {
       "id": "cand-a1-2b-0053",
@@ -2557,8 +2562,10 @@
       "tags": [
         "noun",
         "unit-a1-2b",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "l\u0251h\u0251\u02c8n\u0251"
     },
     {
       "id": "cand-a1-2b-0057",
@@ -3838,8 +3845,10 @@
       "tags": [
         "noun",
         "unit-a1-2a",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
+      "pron_tr": "\u0251l\u02c8kol",
       "infl_tr": "alkol\u00fc"
     },
     {
@@ -4460,8 +4469,10 @@
       "tags": [
         "unit-a1-3b",
         "unit-a1",
-        "adverb"
-      ]
+        "adverb",
+        "pronunciation"
+      ],
+      "pron_tr": "m\u0251\u02d0le\u02c8sef"
     },
     {
       "id": "cand-a1-3b-0054",
@@ -4901,9 +4912,11 @@
       "tags": [
         "unit-a1-3c",
         "unit-a1",
-        "noun"
+        "noun",
+        "pronunciation"
       ],
       "hint_en_tr": "(in a restaurant)",
+      "pron_tr": "he\u02c8s\u0251\u02d0p",
       "infl_tr": "hesab\u0131"
     },
     {
@@ -5126,10 +5139,12 @@
         "unit-a1-3c",
         "unit-a1",
         "noun",
+        "pronunciation",
         "unit-a2",
         "unit-a2-1b"
       ],
-      "hint_en_tr": "(cooked)"
+      "hint_en_tr": "(cooked)",
+      "pron_tr": "pi\u02c8l\u0251v"
     },
     {
       "id": "cand-a1-3c-0032",
@@ -5362,8 +5377,10 @@
       "tags": [
         "time-expression",
         "unit-a1-3a",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "s\u0251\u02c8b\u0251\u02d0h"
     },
     {
       "id": "cand-a1-3web-0003",
@@ -7759,8 +7776,10 @@
       "tags": [
         "unit-a1-4b",
         "unit-a1",
-        "country"
-      ]
+        "country",
+        "pronunciation"
+      ],
+      "pron_tr": "um\u02c8m\u0251\u02d0n"
     },
     {
       "id": "cand-a1-4b-0167",
@@ -8861,8 +8880,10 @@
       "tags": [
         "noun",
         "unit-a1-4a",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "\u0251l\u02c8bym"
     },
     {
       "id": "cand-a1-4cb-0006",
@@ -9035,9 +9056,11 @@
       "tags": [
         "language",
         "unit-a1-4b",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
-      "hint_en_tr": "(language)"
+      "hint_en_tr": "(language)",
+      "pron_tr": "l\u0251tin\u02c8d\u0292e"
     },
     {
       "id": "cand-a1-4cb-0021",
@@ -9210,8 +9233,10 @@
       "tags": [
         "unit-a1-5a",
         "unit-a1",
-        "noun"
-      ]
+        "noun",
+        "pronunciation"
+      ],
+      "pron_tr": "\u02c8ilcb\u0251h\u0251\u02d0\u027e"
     },
     {
       "id": "cand-a1-5a-0008",
@@ -9971,10 +9996,12 @@
         "noun",
         "unit-a1-5c",
         "unit-a1",
+        "pronunciation",
         "unit-a2",
         "unit-a2-2b"
       ],
       "hint_en_tr": "(imagination / daydream)",
+      "pron_tr": "h\u0251\u02c8j\u0251\u02d0\u026b",
       "infl_tr": "hayali"
     },
     {
@@ -9985,8 +10012,10 @@
       "tags": [
         "noun",
         "unit-a1-5c",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "h\u0251\u02c8j\u0251\u02d0t"
     },
     {
       "id": "cand-a1-5c-0021",
@@ -10759,8 +10788,10 @@
       "tags": [
         "noun",
         "unit-a1-6b",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "\u02c8pl\u0251\u0292"
     },
     {
       "id": "cand-a1-6b-0026",
@@ -10825,8 +10856,10 @@
       "tags": [
         "noun",
         "unit-a1-6c",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "d\u0292i\u02c8v\u0251\u02d0\u027e"
     },
     {
       "id": "cand-a1-6c-0005",
@@ -11097,8 +11130,10 @@
       "tags": [
         "noun",
         "unit-a1-6a",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
+      "pron_tr": "\u00e6m\u02c8l\u0251\u02d0k",
       "infl_tr": "emlak\u0131"
     },
     {
@@ -11907,8 +11942,10 @@
       "tags": [
         "noun",
         "unit-a1-3a",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "\u02c8pl\u0251n"
     },
     {
       "id": "cand-a1-listen-0027",
@@ -12924,8 +12961,10 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-1b"
+        "unit-a2-1b",
+        "pronunciation"
       ],
+      "pron_tr": "m\u0251\u027eme\u02c8l\u0251t",
       "infl_tr": "marmelad\u0131"
     },
     {
@@ -13740,8 +13779,10 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-1c"
-      ]
+        "unit-a2-1c",
+        "pronunciation"
+      ],
+      "pron_tr": "ic\u02c8\u027e\u0251\u02d0m"
     },
     {
       "id": "cand-a2-1c-0044",
@@ -13784,8 +13825,10 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-1c"
-      ]
+        "unit-a2-1c",
+        "pronunciation"
+      ],
+      "pron_tr": "k\u026f\u02c8v\u0251\u02d0m"
     },
     {
       "id": "cand-a2-1c-0051",
@@ -14024,8 +14067,10 @@
       "tags": [
         "noun",
         "unit-a2-1b",
-        "unit-a2"
-      ]
+        "unit-a2",
+        "pronunciation"
+      ],
+      "pron_tr": "te\u02c8l\u0251\u02d0\u0283"
     },
     {
       "id": "cand-a2-1rd-0005",
@@ -15190,8 +15235,10 @@
       "tags": [
         "noun",
         "unit-a2-2c",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
+      "pron_tr": "ihti\u02c8j\u0251\u02d0t\u0283",
       "infl_tr": "ihtiyac\u0131"
     },
     {
@@ -16145,8 +16192,10 @@
       "tags": [
         "noun",
         "unit-a2-3b",
-        "unit-a2"
-      ]
+        "unit-a2",
+        "pronunciation"
+      ],
+      "pron_tr": "diplo\u02c8m\u0251"
     },
     {
       "id": "cand-a2-3-0042",
@@ -16237,8 +16286,10 @@
       "tags": [
         "noun",
         "unit-a2-3b",
-        "unit-a2"
-      ]
+        "unit-a2",
+        "pronunciation"
+      ],
+      "pron_tr": "mi\u02d0\u02c8m\u0251\u02d0\u027e"
     },
     {
       "id": "cand-a2-3-0050",
@@ -17029,8 +17080,10 @@
       "tags": [
         "noun",
         "unit-a2-4b",
-        "unit-a2"
-      ]
+        "unit-a2",
+        "pronunciation"
+      ],
+      "pron_tr": "melo\u02c8di"
     },
     {
       "id": "cand-a2-4-0039",
@@ -17300,8 +17353,10 @@
       "tags": [
         "noun",
         "unit-a2-4b",
-        "unit-a2"
-      ]
+        "unit-a2",
+        "pronunciation"
+      ],
+      "pron_tr": "t\u0251h\u02c8mi\u02d0n"
     },
     {
       "id": "cand-a2-4-0063",
@@ -19062,8 +19117,10 @@
       "tags": [
         "noun",
         "unit-a1-3b",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "de\u02c8v\u0251\u02d0m"
     },
     {
       "id": "cand-base-0046",
@@ -19167,8 +19224,10 @@
       "tags": [
         "noun",
         "unit-a1-5c",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "k\u0251\u02c8\u027e\u0251\u02d0\u027e"
     },
     {
       "id": "cand-base-0055",
@@ -19248,8 +19307,10 @@
       "tags": [
         "noun",
         "unit-a1-4c",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
+      "pron_tr": "ip\u02c8t\u0251\u02d0\u026b",
       "infl_tr": "iptali"
     },
     {
@@ -19272,8 +19333,10 @@
       "tags": [
         "noun",
         "unit-a1-4c",
-        "unit-a1"
-      ]
+        "unit-a1",
+        "pronunciation"
+      ],
+      "pron_tr": "me\u02c8\u027e\u0251\u02d0k"
     },
     {
       "id": "cand-base-0064",
@@ -19377,8 +19440,10 @@
       "tags": [
         "adjective",
         "unit-a2-4b",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
+      "pron_tr": "kl\u0251\u02c8sic",
       "infl_tr": "klasi\u011fi"
     },
     {
@@ -20116,8 +20181,10 @@
         "noun",
         "unit-a2-1b",
         "unit-a2",
-        "unit-a2-extra"
-      ]
+        "unit-a2-extra",
+        "pronunciation"
+      ],
+      "pron_tr": "\u02c8bluz"
     },
     {
       "id": "cand-cat-0020",
@@ -20538,9 +20605,11 @@
         "noun",
         "unit-a1-4a",
         "unit-a1",
-        "unit-a1-extra"
+        "unit-a1-extra",
+        "pronunciation"
       ],
       "hint_tr_en": "(evlenen erkek)",
+      "pron_tr": "d\u0251\u02d0\u02c8m\u0251\u02d0t",
       "infl_tr": "damad\u0131"
     },
     {
@@ -20552,9 +20621,11 @@
         "noun",
         "unit-a1-4a",
         "unit-a1",
-        "unit-a1-extra"
+        "unit-a1-extra",
+        "pronunciation"
       ],
       "hint_tr_en": "(k\u0131z\u0131n\u0131n e\u015fi)",
+      "pron_tr": "d\u0251\u02d0\u02c8m\u0251\u02d0t",
       "infl_tr": "damad\u0131"
     },
     {
@@ -21962,8 +22033,10 @@
       "tags": [
         "adjective",
         "unit-a2-1b",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
+      "pron_tr": "he\u02c8l\u0251\u02d0l",
       "infl_tr": "helali"
     },
     {
@@ -22055,8 +22128,10 @@
       "tags": [
         "adjective",
         "unit-a2-2c",
-        "unit-a2"
-      ]
+        "unit-a2",
+        "pronunciation"
+      ],
+      "pron_tr": "sos\u02c8j\u0251l"
     },
     {
       "id": "cand-sent-0076",

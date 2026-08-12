@@ -469,13 +469,15 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-2b"
+        "unit-a2-2b",
+        "pronunciation"
       ],
       "source": "A2_-_2B.pdf",
-      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule. Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
       "hint_en_tr": "(imagination / daydream)",
       "status": "approved",
-      "infl_tr": "hayali"
+      "infl_tr": "hayali",
+      "pron_tr": "hɑˈjɑːɫ"
     },
     {
       "id": "cand-a2-2b-0033",

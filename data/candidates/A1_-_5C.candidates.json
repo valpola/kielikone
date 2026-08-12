@@ -267,13 +267,15 @@
       "tags": [
         "noun",
         "unit-a1-5c",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1_-_5C.pdf",
-      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule. Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
       "hint_en_tr": "(imagination / daydream)",
       "status": "approved",
-      "infl_tr": "hayali"
+      "infl_tr": "hayali",
+      "pron_tr": "hɑˈjɑːɫ"
     },
     {
       "id": "cand-a1-5c-0020",
@@ -283,11 +285,13 @@
       "tags": [
         "noun",
         "unit-a1-5c",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1_-_5C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "hɑˈjɑːt"
     },
     {
       "id": "cand-a1-5c-0021",

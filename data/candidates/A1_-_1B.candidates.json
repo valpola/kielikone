@@ -257,11 +257,13 @@
       "tags": [
         "noun",
         "unit-a1-1b",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1_-_1B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "lɑvɑˈbo"
     },
     {
       "id": "cand-a1-1b-0019",

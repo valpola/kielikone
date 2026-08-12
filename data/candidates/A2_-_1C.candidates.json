@@ -617,11 +617,13 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-1c"
+        "unit-a2-1c",
+        "pronunciation"
       ],
       "source": "A2_-_1C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "icˈɾɑːm"
     },
     {
       "id": "cand-a2-1c-0044",
@@ -704,11 +706,13 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-1c"
+        "unit-a2-1c",
+        "pronunciation"
       ],
       "source": "A2_-_1C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "kɯˈvɑːm"
     },
     {
       "id": "cand-a2-1c-0050",

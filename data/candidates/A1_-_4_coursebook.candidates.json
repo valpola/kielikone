@@ -70,11 +70,13 @@
       "tags": [
         "noun",
         "unit-a1-4a",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1-4A grammar/transcript (Turkishle coursebook)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "ɑlˈbym"
     },
     {
       "id": "cand-a1-4cb-0006",
@@ -289,12 +291,14 @@
       "tags": [
         "language",
         "unit-a1-4b",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1-4B grammar/transcript (Turkishle coursebook)",
-      "notes": "",
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
       "status": "approved",
-      "hint_en_tr": "(language)"
+      "hint_en_tr": "(language)",
+      "pron_tr": "lɑtinˈdʒe"
     },
     {
       "id": "cand-a1-4cb-0021",

@@ -748,11 +748,13 @@
       "tags": [
         "unit-a1-3b",
         "unit-a1",
-        "adverb"
+        "adverb",
+        "pronunciation"
       ],
       "source": "A1_-_3B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "mɑːleˈsef"
     },
     {
       "id": "cand-a1-3b-0054",

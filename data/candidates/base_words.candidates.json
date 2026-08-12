@@ -643,11 +643,13 @@
       "tags": [
         "noun",
         "unit-a1-3b",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "base word of “devam etmek” (A1-3B, Turkishle)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "deˈvɑːm"
     },
     {
       "id": "cand-base-0046",
@@ -775,11 +777,13 @@
       "tags": [
         "noun",
         "unit-a1-5c",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "base word of “karar almak” (A1-5C, Turkishle)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "kɑˈɾɑːɾ"
     },
     {
       "id": "cand-base-0055",
@@ -877,12 +881,14 @@
       "tags": [
         "noun",
         "unit-a1-4c",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "base word of “iptal etmek” (A1-4C, Turkishle)",
-      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule. Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
       "status": "approved",
-      "infl_tr": "iptali"
+      "infl_tr": "iptali",
+      "pron_tr": "ipˈtɑːɫ"
     },
     {
       "id": "cand-base-0062",
@@ -907,11 +913,13 @@
       "tags": [
         "noun",
         "unit-a1-4c",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "base word of “merak etmek” (A1-4C, Turkishle)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "meˈɾɑːk"
     },
     {
       "id": "cand-base-0064",
@@ -1024,12 +1032,14 @@
       "tags": [
         "adjective",
         "unit-a2-4b",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "base word of “klasik müzik” (A2-4B, Turkishle)",
-      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule. Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
       "status": "approved",
-      "infl_tr": "klasiği"
+      "infl_tr": "klasiği",
+      "pron_tr": "klɑˈsic"
     },
     {
       "id": "cand-base-0072",

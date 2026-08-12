@@ -169,13 +169,15 @@
       "tags": [
         "unit-a1-3c",
         "unit-a1",
-        "noun"
+        "noun",
+        "pronunciation"
       ],
       "source": "A1_-_3C.pdf",
-      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule. Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
       "status": "approved",
       "hint_en_tr": "(in a restaurant)",
-      "infl_tr": "hesabı"
+      "infl_tr": "hesabı",
+      "pron_tr": "heˈsɑːp"
     },
     {
       "id": "cand-a1-3c-0013",
@@ -451,12 +453,14 @@
       "tags": [
         "unit-a1-3c",
         "unit-a1",
-        "noun"
+        "noun",
+        "pronunciation"
       ],
       "source": "A1_-_3C.pdf",
-      "notes": "",
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
       "status": "approved",
-      "hint_en_tr": "(cooked)"
+      "hint_en_tr": "(cooked)",
+      "pron_tr": "piˈlɑv"
     },
     {
       "id": "cand-a1-3c-0032",

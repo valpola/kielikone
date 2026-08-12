@@ -434,7 +434,8 @@
         "noun",
         "unit-a1-0a",
         "unit-a1",
-        "unit-a1-5a"
+        "unit-a1-5a",
+        "pronunciation"
       ],
       "source": "A1_-_0A.pdf",
       "notes": "vakit folded in as an alternative rather than kept as its own entry: the two are interchangeable for 'time', and a separate entry meant two prompts for one meaning. The A2-4A card offers them the same way, as \u201czaman / vakit ge\u00e7irmek\u201d. This entry keeps the id and the history.",
@@ -1136,11 +1137,13 @@
       "tags": [
         "noun",
         "unit-a1-1b",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1_-_1B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "l\u0251v\u0251\u02c8bo"
     },
     {
       "id": "cand-a1-1b-0020",
@@ -3146,11 +3149,13 @@
       "tags": [
         "noun",
         "unit-a1-2b",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1_-_2B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "cilo\u0261\u02c8\u027e\u0251m"
     },
     {
       "id": "cand-a1-2b-0053",
@@ -3203,11 +3208,13 @@
       "tags": [
         "noun",
         "unit-a1-2b",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1_-_2B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "l\u0251h\u0251\u02c8n\u0251"
     },
     {
       "id": "cand-a1-2b-0057",
@@ -4814,12 +4821,14 @@
       "tags": [
         "noun",
         "unit-a1-2a",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1-2A Reading Comprehension (Turkishle web lesson)",
-      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule. Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
       "status": "approved",
-      "infl_tr": "alkol\u00fc"
+      "infl_tr": "alkol\u00fc",
+      "pron_tr": "\u0251l\u02c8kol"
     },
     {
       "id": "cand-a1-2web-0003",
@@ -5589,11 +5598,13 @@
       "tags": [
         "unit-a1-3b",
         "unit-a1",
-        "adverb"
+        "adverb",
+        "pronunciation"
       ],
       "source": "A1_-_3B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "m\u0251\u02d0le\u02c8sef"
     },
     {
       "id": "cand-a1-3b-0054",
@@ -6144,13 +6155,15 @@
       "tags": [
         "unit-a1-3c",
         "unit-a1",
-        "noun"
+        "noun",
+        "pronunciation"
       ],
       "source": "A1_-_3C.pdf",
-      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule. Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
       "status": "approved",
       "hint_en_tr": "(in a restaurant)",
-      "infl_tr": "hesab\u0131"
+      "infl_tr": "hesab\u0131",
+      "pron_tr": "he\u02c8s\u0251\u02d0p"
     },
     {
       "id": "cand-a1-3c-0013",
@@ -6423,13 +6436,15 @@
         "unit-a1-3c",
         "unit-a1",
         "noun",
+        "pronunciation",
         "unit-a2",
         "unit-a2-1b"
       ],
       "source": "A1_-_3C.pdf",
-      "notes": "",
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
       "status": "approved",
-      "hint_en_tr": "(cooked)"
+      "hint_en_tr": "(cooked)",
+      "pron_tr": "pi\u02c8l\u0251v"
     },
     {
       "id": "cand-a1-3c-0032",
@@ -6716,11 +6731,13 @@
       "tags": [
         "time-expression",
         "unit-a1-3a",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1-3 vocab flashcards (Turkishle web lesson)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "s\u0251\u02c8b\u0251\u02d0h"
     },
     {
       "id": "cand-a1-3web-0003",
@@ -9728,11 +9745,13 @@
       "tags": [
         "unit-a1-4b",
         "unit-a1",
-        "country"
+        "country",
+        "pronunciation"
       ],
       "source": "A1_-_4B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "um\u02c8m\u0251\u02d0n"
     },
     {
       "id": "cand-a1-4b-0167",
@@ -11112,11 +11131,13 @@
       "tags": [
         "noun",
         "unit-a1-4a",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1-4A grammar/transcript (Turkishle coursebook)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "\u0251l\u02c8bym"
     },
     {
       "id": "cand-a1-4cb-0006",
@@ -11331,12 +11352,14 @@
       "tags": [
         "language",
         "unit-a1-4b",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1-4B grammar/transcript (Turkishle coursebook)",
-      "notes": "",
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
       "status": "approved",
-      "hint_en_tr": "(language)"
+      "hint_en_tr": "(language)",
+      "pron_tr": "l\u0251tin\u02c8d\u0292e"
     },
     {
       "id": "cand-a1-4cb-0021",
@@ -11551,11 +11574,13 @@
       "tags": [
         "unit-a1-5a",
         "unit-a1",
-        "noun"
+        "noun",
+        "pronunciation"
       ],
       "source": "A1_-_5A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "\u02c8ilcb\u0251h\u0251\u02d0\u027e"
     },
     {
       "id": "cand-a1-5a-0008",
@@ -12510,14 +12535,16 @@
         "noun",
         "unit-a1-5c",
         "unit-a1",
+        "pronunciation",
         "unit-a2",
         "unit-a2-2b"
       ],
       "source": "A1_-_5C.pdf",
-      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule. Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
       "hint_en_tr": "(imagination / daydream)",
       "status": "approved",
-      "infl_tr": "hayali"
+      "infl_tr": "hayali",
+      "pron_tr": "h\u0251\u02c8j\u0251\u02d0\u026b"
     },
     {
       "id": "cand-a1-5c-0020",
@@ -12527,11 +12554,13 @@
       "tags": [
         "noun",
         "unit-a1-5c",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1_-_5C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "h\u0251\u02c8j\u0251\u02d0t"
     },
     {
       "id": "cand-a1-5c-0021",
@@ -13499,11 +13528,13 @@
       "tags": [
         "noun",
         "unit-a1-6b",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1_-_6B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "\u02c8pl\u0251\u0292"
     },
     {
       "id": "cand-a1-6b-0026",
@@ -13583,11 +13614,13 @@
       "tags": [
         "noun",
         "unit-a1-6c",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1_-_6C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "d\u0292i\u02c8v\u0251\u02d0\u027e"
     },
     {
       "id": "cand-a1-6c-0005",
@@ -13927,12 +13960,14 @@
       "tags": [
         "noun",
         "unit-a1-6a",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1-6 coursebook real-estate dialogue/section (Turkishle)",
-      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule. Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
       "status": "approved",
-      "infl_tr": "emlak\u0131"
+      "infl_tr": "emlak\u0131",
+      "pron_tr": "\u00e6m\u02c8l\u0251\u02d0k"
     },
     {
       "id": "cand-a1-6v-0008",
@@ -14947,11 +14982,13 @@
       "tags": [
         "noun",
         "unit-a1-3a",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1 listening/dialogue exercises (Turkishle)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "\u02c8pl\u0251n"
     },
     {
       "id": "cand-a1-listen-0027",
@@ -16234,12 +16271,14 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-1b"
+        "unit-a2-1b",
+        "pronunciation"
       ],
       "source": "A2_-_1B.pdf",
-      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule. Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
       "status": "approved",
-      "infl_tr": "marmelad\u0131"
+      "infl_tr": "marmelad\u0131",
+      "pron_tr": "m\u0251\u027eme\u02c8l\u0251t"
     },
     {
       "id": "cand-a2-1b-0054",
@@ -17263,11 +17302,13 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-1c"
+        "unit-a2-1c",
+        "pronunciation"
       ],
       "source": "A2_-_1C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "ic\u02c8\u027e\u0251\u02d0m"
     },
     {
       "id": "cand-a2-1c-0044",
@@ -17319,11 +17360,13 @@
       "tags": [
         "noun",
         "unit-a2",
-        "unit-a2-1c"
+        "unit-a2-1c",
+        "pronunciation"
       ],
       "source": "A2_-_1C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "k\u026f\u02c8v\u0251\u02d0m"
     },
     {
       "id": "cand-a2-1c-0051",
@@ -17622,11 +17665,13 @@
       "tags": [
         "noun",
         "unit-a2-1b",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-1 reading exercise S\u00d6ZL\u00dcK (Turkishle web)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "te\u02c8l\u0251\u02d0\u0283"
     },
     {
       "id": "cand-a2-1rd-0005",
@@ -19088,12 +19133,14 @@
       "tags": [
         "noun",
         "unit-a2-2c",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-2C vocab-page flashcards (Turkishle web)",
-      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule. Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
       "status": "approved",
-      "infl_tr": "ihtiyac\u0131"
+      "infl_tr": "ihtiyac\u0131",
+      "pron_tr": "ihti\u02c8j\u0251\u02d0t\u0283"
     },
     {
       "id": "cand-a2-2sw-0005",
@@ -20292,11 +20339,13 @@
       "tags": [
         "noun",
         "unit-a2-3b",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-3B Kelime Listesi (Turkishle coursebook)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "diplo\u02c8m\u0251"
     },
     {
       "id": "cand-a2-3-0042",
@@ -20408,11 +20457,13 @@
       "tags": [
         "noun",
         "unit-a2-3b",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-3B Kelime Listesi (Turkishle coursebook)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "mi\u02d0\u02c8m\u0251\u02d0\u027e"
     },
     {
       "id": "cand-a2-3-0050",
@@ -21410,11 +21461,13 @@
       "tags": [
         "noun",
         "unit-a2-4b",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-4B Kelime Listesi (Turkishle coursebook + vocab page)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "melo\u02c8di"
     },
     {
       "id": "cand-a2-4-0039",
@@ -21753,11 +21806,13 @@
       "tags": [
         "noun",
         "unit-a2-4b",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "A2-4B reading exercise S\u00d6ZL\u00dcK (Turkishle web)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "t\u0251h\u02c8mi\u02d0n"
     },
     {
       "id": "cand-a2-4-0063",
@@ -23953,11 +24008,13 @@
       "tags": [
         "noun",
         "unit-a1-3b",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "base word of \u201cdevam etmek\u201d (A1-3B, Turkishle)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "de\u02c8v\u0251\u02d0m"
     },
     {
       "id": "cand-base-0046",
@@ -24085,11 +24142,13 @@
       "tags": [
         "noun",
         "unit-a1-5c",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "base word of \u201ckarar almak\u201d (A1-5C, Turkishle)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "k\u0251\u02c8\u027e\u0251\u02d0\u027e"
     },
     {
       "id": "cand-base-0055",
@@ -24187,12 +24246,14 @@
       "tags": [
         "noun",
         "unit-a1-4c",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "base word of \u201ciptal etmek\u201d (A1-4C, Turkishle)",
-      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule. Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
       "status": "approved",
-      "infl_tr": "iptali"
+      "infl_tr": "iptali",
+      "pron_tr": "ip\u02c8t\u0251\u02d0\u026b"
     },
     {
       "id": "cand-base-0062",
@@ -24217,11 +24278,13 @@
       "tags": [
         "noun",
         "unit-a1-4c",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "base word of \u201cmerak etmek\u201d (A1-4C, Turkishle)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "me\u02c8\u027e\u0251\u02d0k"
     },
     {
       "id": "cand-base-0064",
@@ -24349,12 +24412,14 @@
       "tags": [
         "adjective",
         "unit-a2-4b",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "base word of \u201cklasik m\u00fczik\u201d (A2-4B, Turkishle)",
-      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule. Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
       "status": "approved",
-      "infl_tr": "klasi\u011fi"
+      "infl_tr": "klasi\u011fi",
+      "pron_tr": "kl\u0251\u02c8sic"
     },
     {
       "id": "cand-base-0072",
@@ -25271,11 +25336,13 @@
         "noun",
         "unit-a2-1b",
         "unit-a2",
-        "unit-a2-extra"
+        "unit-a2-extra",
+        "pronunciation"
       ],
       "source": "gap-fill: not in the coursebooks; filed with the A2-1B clothing vocabulary",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "\u02c8bluz"
     },
     {
       "id": "cand-cat-0020",
@@ -25801,13 +25868,15 @@
         "noun",
         "unit-a1-4a",
         "unit-a1",
-        "unit-a1-extra"
+        "unit-a1-extra",
+        "pronunciation"
       ],
       "source": "gap-fill: not in the coursebooks; filed with the A1-4A family vocabulary",
-      "notes": "second sense is a separate entry Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "notes": "second sense is a separate entry Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule. Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
       "status": "approved",
       "hint_tr_en": "(evlenen erkek)",
-      "infl_tr": "damad\u0131"
+      "infl_tr": "damad\u0131",
+      "pron_tr": "d\u0251\u02d0\u02c8m\u0251\u02d0t"
     },
     {
       "id": "cand-cat-0055b",
@@ -25818,13 +25887,15 @@
         "noun",
         "unit-a1-4a",
         "unit-a1",
-        "unit-a1-extra"
+        "unit-a1-extra",
+        "pronunciation"
       ],
       "source": "gap-fill: not in the coursebooks; filed with the A1-4A family vocabulary",
-      "notes": "second sense is a separate entry Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "notes": "second sense is a separate entry Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule. Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
       "status": "approved",
       "hint_tr_en": "(k\u0131z\u0131n\u0131n e\u015fi)",
-      "infl_tr": "damad\u0131"
+      "infl_tr": "damad\u0131",
+      "pron_tr": "d\u0251\u02d0\u02c8m\u0251\u02d0t"
     },
     {
       "id": "cand-cat-0056",
@@ -27582,12 +27653,14 @@
       "tags": [
         "adjective",
         "unit-a2-1b",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "example sentence on the A2-1B vocabulary card (Turkishle web); in no unit vocabulary list",
-      "notes": "Mined from the card example sentences, which the earlier sweeps discarded \u2014 the lists teach the headwords, the sentences carry the connective vocabulary around them. Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "notes": "Mined from the card example sentences, which the earlier sweeps discarded \u2014 the lists teach the headwords, the sentences carry the connective vocabulary around them. Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule. Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
       "status": "approved",
-      "infl_tr": "helali"
+      "infl_tr": "helali",
+      "pron_tr": "he\u02c8l\u0251\u02d0l"
     },
     {
       "id": "cand-sent-0068",
@@ -27699,11 +27772,13 @@
       "tags": [
         "adjective",
         "unit-a2-2c",
-        "unit-a2"
+        "unit-a2",
+        "pronunciation"
       ],
       "source": "example sentence on the A2-2C vocabulary card (Turkishle web); in no unit vocabulary list",
-      "notes": "Mined from the card example sentences, which the earlier sweeps discarded \u2014 the lists teach the headwords, the sentences carry the connective vocabulary around them.",
-      "status": "approved"
+      "notes": "Mined from the card example sentences, which the earlier sweeps discarded \u2014 the lists teach the headwords, the sentences carry the connective vocabulary around them. Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "status": "approved",
+      "pron_tr": "sos\u02c8j\u0251l"
     },
     {
       "id": "cand-sent-0076",

@@ -75,24 +75,69 @@ def is_vowel(ch: str) -> bool:
     return bool(ch) and (ch in VOWELS or ch in "âîû")
 
 
-def strip_note(telaffuz: str) -> tuple[str, bool]:
-    """Split the prose note off. Returns (bare form, l-is-clear)."""
+def strip_note(word: str, telaffuz: str) -> tuple[str, bool]:
+    """Split the prose note off. Returns (bare form, l-is-clear).
+
+    Some entries are the note *alone* — `alkol` gives only "l'ler ince okunur",
+    with no respelling, because nothing but the l needs saying. Then the spelling
+    is the pronunciation. Taking parts[0] blindly made "l ince okunur" the word,
+    which only escaped becoming a transcription because a later check happened to
+    reject it.
+    """
     parts = [p.strip() for p in telaffuz.split(",")]
-    clear_l = any("ince" in p for p in parts[1:])
-    return parts[0], clear_l
+    clear_l = any("ince" in p for p in parts)
+    bare = word if "okunur" in parts[0] else parts[0]
+    return bare, clear_l
+
+
+def plainly(text: str) -> str:
+    """Letters only, so a respelling can be compared with the headword."""
+    return (text.replace(":", "").replace("'", "")
+                .replace("â", "a").replace("î", "i").replace("û", "u")
+                .replace("İ", "i").lower())
 
 
 def is_inflected(word: str, bare: str) -> bool:
-    """TDK sometimes gives an inflected form to show consonant softening."""
-    plain = bare.replace(":", "").replace("'", "").replace("â", "a").replace("î", "i")
-    w = word.lower().replace("â", "a").replace("î", "i").replace("İ", "i")
-    return len(plain) > len(w) or not plain.startswith(w[:-1])
+    """TDK sometimes gives an inflected form, to show softening as well as length.
+
+    Only *added* length counts. `maalesef` -> `ma:lesef` respells `aa` as `a:`
+    and so comes out shorter than the headword; a "does it start with the
+    headword" test called that inflected and discarded it.
+    """
+    return len(plainly(bare)) > len(plainly(word))
+
+
+def debase(word: str, bare: str) -> str | None:
+    """Recover the headword from an inflected telaffuz, keeping its length marks.
+
+    TDK writes `hayat` as `haya:tı` — the accusative, because that shows the long
+    a *and* that the t does not soften. Throwing the entry away as "inflected"
+    lost the length of 22 common words, `zaman`, `sabah`, `karar` and `hesap`
+    among them. Drop the suffix vowels, then put the headword's own final letter
+    back, since softening had changed it (`akrebi`).
+
+    None when the result carries no length after all: then the inflected form was
+    only ever about the consonant, which infl_tr already records.
+    """
+    if not plainly(bare).startswith(plainly(word[:-1])):
+        return None
+    out = bare
+    while out and plainly(out[-1]) in VOWELS:
+        out = out[:-1]
+    if not out:
+        return None
+    out = out[:-1] + word[-1]
+    return out if (":" in out or any(c in out for c in "âîû")) else None
 
 
 def convert(word: str, telaffuz: str) -> str | None:
-    bare, clear_l = strip_note(telaffuz)
-    if not bare or is_inflected(word, bare):
+    bare, clear_l = strip_note(word, telaffuz)
+    if not bare:
         return None
+    if is_inflected(word, bare):
+        bare = debase(word, bare)
+        if not bare:
+            return None
 
     # Pull the length and stress marks out of the letter stream first. Leaving
     # them in breaks every lookahead: TDK writes belki as be'lki, so the `e`
@@ -163,9 +208,18 @@ def convert(word: str, telaffuz: str) -> str | None:
     # IPA marks the syllable, not the vowel: walk left past a single onset.
     idx = stress_at if stress_at is not None else len(syllable_starts) - 1
     onset = syllable_starts[idx]
-    floor = syllable_starts[idx - 1] + 1 if idx > 0 else 0
-    if onset > floor and out[onset - 1] != "ː":
-        onset -= 1
+    if idx == 0:
+        # A word-initial cluster is all onset, so the mark goes before the lot:
+        # bluz and plaj are one syllable each, and stepping back a single
+        # consonant put the mark inside them — bˈluz, pˈlɑʒ. Turkish has no such
+        # clusters of its own, but these loanwords keep theirs.
+        onset = 0
+    elif out[onset - 1] != "ː":
+        # Mid-word, an onset takes one consonant and the rest closes the syllable
+        # before it: kilogram is ki-log-ram, so the mark falls after the g.
+        floor = syllable_starts[idx - 1] + 1
+        if onset > floor:
+            onset -= 1
     out.insert(onset, "ˈ")
     return "".join(out)
 

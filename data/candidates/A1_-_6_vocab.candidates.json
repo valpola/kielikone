@@ -95,12 +95,14 @@
       "tags": [
         "noun",
         "unit-a1-6a",
-        "unit-a1"
+        "unit-a1",
+        "pronunciation"
       ],
       "source": "A1-6 coursebook real-estate dialogue/section (Turkishle)",
-      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule. Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
       "status": "approved",
-      "infl_tr": "emlakı"
+      "infl_tr": "emlakı",
+      "pron_tr": "æmˈlɑːk"
     },
     {
       "id": "cand-a1-6v-0008",
