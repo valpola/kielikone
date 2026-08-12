@@ -10,8 +10,10 @@ reaches the learner's own devices and nobody else's.
 
 Create the table first with supabase/pron_audio.sql.
 
-Rows are upserted on `word`, and words already present are skipped unless
---refresh is given, so a run that dies half way costs nothing to repeat.
+Words already present are skipped, so a run that dies half way costs nothing
+to repeat. `--refresh` re-sends them, but that is an upsert onto an existing
+row, which Postgres treats as an UPDATE — the table grants only select and
+insert, so --refresh needs an update policy added first.
 
 Usage:
   python3 scripts/upload_pron_audio.py --dry-run
@@ -94,8 +96,20 @@ def main() -> int:
 
     present: set[str] = set()
     if not args.refresh:
-        status, rows = request(f"{base}/rest/v1/pron_audio?select=word", "GET", hdrs)
-        present = {r["word"] for r in (rows or [])}
+        # PostgREST caps a response at 1000 rows whatever `limit` says, so this
+        # has to page. Reading it in one go reported 1000 of 2036 present and
+        # queued the rest for re-upload, which then failed: an upsert onto an
+        # existing row needs an UPDATE policy, and the table has only select and
+        # insert. The bad count was the cause; the RLS error was the symptom.
+        offset = 0
+        while True:
+            _, rows = request(
+                f"{base}/rest/v1/pron_audio?select=word&order=word"
+                f"&offset={offset}&limit=1000", "GET", hdrs)
+            if not rows:
+                break
+            present |= {r["word"] for r in rows}
+            offset += len(rows)
         print(f"{len(present)} already in the table")
 
     todo = [(w, p) for w, p in pairs if w not in present][: args.limit]

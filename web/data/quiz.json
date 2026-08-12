@@ -20569,6 +20569,44 @@
       "pron_tr": "k\u0251\u02c8j\u026fnped\u00e6\u027e"
     },
     {
+      "id": "cand-cat-0058",
+      "turkish": "hece",
+      "english": "syllable",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4b",
+        "unit-a1",
+        "unit-a1-extra"
+      ]
+    },
+    {
+      "id": "cand-cat-0059",
+      "turkish": "vurgu",
+      "english": "stress",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4b",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "hint_en_tr": "(the emphasis that falls on a syllable, not the feeling)"
+    },
+    {
+      "id": "cand-cat-0060",
+      "turkish": "Vurgu ka\u00e7\u0131nc\u0131 hecede?",
+      "english": "Which syllable is the stress on?",
+      "priority": 3,
+      "tags": [
+        "expression",
+        "unit-a1-2b",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "hint_en_tr": "(literally: the stress is on the how-manyth syllable?)"
+    },
+    {
       "id": "cand-gram-0091",
       "turkish": "o",
       "english": "he",

@@ -25844,6 +25844,53 @@
       "pron_tr": "k\u0251\u02c8j\u026fnped\u00e6\u027e"
     },
     {
+      "id": "cand-cat-0058",
+      "turkish": "hece",
+      "english": "syllable",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4b",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "source": "gap-fill: not in the coursebooks; filed with the A1-4B language vocabulary, beside dil",
+      "notes": "Requested in issue #82: the learner wanted to ask which syllable carries the stress, and had no word for either half of the question. TDK lists no telaffuz, so the stress is regular (final).",
+      "status": "approved"
+    },
+    {
+      "id": "cand-cat-0059",
+      "turkish": "vurgu",
+      "english": "stress",
+      "priority": 3,
+      "tags": [
+        "noun",
+        "unit-a1-4b",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "hint_en_tr": "(the emphasis that falls on a syllable, not the feeling)",
+      "source": "gap-fill: not in the coursebooks; filed with the A1-4B language vocabulary, beside dil",
+      "notes": "Requested in issue #82. The EN->TR hint is needed because English 'stress' is also the psychological sense, which Turkish borrows separately as stres. Built on vurmak, already in the deck, with the -gI suffix the learner recognised.",
+      "status": "approved"
+    },
+    {
+      "id": "cand-cat-0060",
+      "turkish": "Vurgu ka\u00e7\u0131nc\u0131 hecede?",
+      "english": "Which syllable is the stress on?",
+      "priority": 3,
+      "tags": [
+        "expression",
+        "unit-a1-2b",
+        "unit-a1",
+        "unit-a1-extra"
+      ],
+      "hint_en_tr": "(literally: the stress is on the how-manyth syllable?)",
+      "source": "gap-fill: not in the coursebooks; filed with the A1-2B ordinals, whose question form this is",
+      "notes": "Requested in issue #82, and kept as a whole sentence because the teaching point is ka\u00e7\u0131nc\u0131 \u2014 the ordinal question word English has no single word for, though Finnish monesko matches it exactly. Also shows the locative on hece. Deliberately built from words already known apart from the two nouns added with it.",
+      "status": "approved"
+    },
+    {
       "id": "cand-gram-0091",
       "turkish": "o",
       "english": "he",
