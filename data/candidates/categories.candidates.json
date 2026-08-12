@@ -193,9 +193,10 @@
         "pronunciation"
       ],
       "source": "Turkishle coursebook (A2)",
-      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony. Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
-      "pron_tr": "kɑhˈveɾænɟi"
+      "pron_tr": "kɑhˈveɾænɟi",
+      "infl_tr": "kahverengiyi"
     },
     {
       "id": "cand-cat-0014",

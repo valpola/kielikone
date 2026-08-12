@@ -245,8 +245,9 @@
         "noun"
       ],
       "source": "A1_-_5A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "Pazartesiyi"
     },
     {
       "id": "cand-a1-5a-0018",
@@ -318,9 +319,10 @@
         "pronunciation"
       ],
       "source": "A1_-_5A.pdf",
-      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony. Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
-      "pron_tr": "dʒuˈmɑɾtesi"
+      "pron_tr": "dʒuˈmɑɾtesi",
+      "infl_tr": "Cumartesiyi"
     },
     {
       "id": "cand-a1-5a-0023",

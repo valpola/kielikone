@@ -262,7 +262,8 @@
         "unit-a1-0a",
         "unit-a1",
         "unit-a1-3c"
-      ]
+      ],
+      "infl_tr": "suyu"
     },
     {
       "id": "cand-a1-0a-0023",
@@ -3838,7 +3839,8 @@
         "noun",
         "unit-a1-2a",
         "unit-a1"
-      ]
+      ],
+      "infl_tr": "alkol\u00fc"
     },
     {
       "id": "cand-a1-2web-0003",
@@ -4925,7 +4927,8 @@
         "unit-a1-3c",
         "unit-a1",
         "noun"
-      ]
+      ],
+      "infl_tr": "kahvalt\u0131y\u0131"
     },
     {
       "id": "cand-a1-3c-0015",
@@ -9279,7 +9282,8 @@
         "unit-a1-5a",
         "unit-a1",
         "noun"
-      ]
+      ],
+      "infl_tr": "Pazartesiyi"
     },
     {
       "id": "cand-a1-5a-0018",
@@ -9338,7 +9342,8 @@
         "noun",
         "pronunciation"
       ],
-      "pron_tr": "d\u0292u\u02c8m\u0251\u027etesi"
+      "pron_tr": "d\u0292u\u02c8m\u0251\u027etesi",
+      "infl_tr": "Cumartesiyi"
     },
     {
       "id": "cand-a1-5a-0023",
@@ -9649,7 +9654,8 @@
         "unit-a1-5b",
         "unit-a1",
         "noun"
-      ]
+      ],
+      "infl_tr": "katedrali"
     },
     {
       "id": "cand-a1-5b-0021",
@@ -9968,7 +9974,8 @@
         "unit-a2",
         "unit-a2-2b"
       ],
-      "hint_en_tr": "(imagination / daydream)"
+      "hint_en_tr": "(imagination / daydream)",
+      "infl_tr": "hayali"
     },
     {
       "id": "cand-a1-5c-0020",
@@ -12603,7 +12610,8 @@
         "unit-a2-1b",
         "pronunciation"
       ],
-      "pron_tr": "\u0251\u02c8j\u0251kk\u0251b\u026f"
+      "pron_tr": "\u0251\u02c8j\u0251kk\u0251b\u026f",
+      "infl_tr": "ayakkab\u0131y\u0131"
     },
     {
       "id": "cand-a2-1b-0014",
@@ -15915,7 +15923,8 @@
         "noun",
         "unit-a2-3a",
         "unit-a2"
-      ]
+      ],
+      "infl_tr": "m\u00fczikali"
     },
     {
       "id": "cand-a2-3-0023",
@@ -19240,7 +19249,8 @@
         "noun",
         "unit-a1-4c",
         "unit-a1"
-      ]
+      ],
+      "infl_tr": "iptali"
     },
     {
       "id": "cand-base-0062",
@@ -19251,7 +19261,8 @@
         "noun",
         "unit-a1-4c",
         "unit-a1"
-      ]
+      ],
+      "infl_tr": "kontrol\u00fc"
     },
     {
       "id": "cand-base-0063",
@@ -19498,7 +19509,8 @@
         "noun",
         "unit-a1-5b",
         "unit-a1"
-      ]
+      ],
+      "infl_tr": "terminali"
     },
     {
       "id": "cand-card-0008",
@@ -20030,7 +20042,8 @@
         "unit-a2",
         "pronunciation"
       ],
-      "pron_tr": "k\u0251h\u02c8ve\u027e\u00e6n\u025fi"
+      "pron_tr": "k\u0251h\u02c8ve\u027e\u00e6n\u025fi",
+      "infl_tr": "kahverengiyi"
     },
     {
       "id": "cand-cat-0014",
@@ -21086,7 +21099,8 @@
         "unit-a1-4b",
         "unit-a1"
       ],
-      "hint_en_tr": "(person)"
+      "hint_en_tr": "(person)",
+      "infl_tr": "Arnavut'u"
     },
     {
       "id": "cand-lang-0025",
@@ -21949,7 +21963,8 @@
         "adjective",
         "unit-a2-1b",
         "unit-a2"
-      ]
+      ],
+      "infl_tr": "helali"
     },
     {
       "id": "cand-sent-0068",
@@ -22426,7 +22441,8 @@
         "noun",
         "unit-a2-4c",
         "unit-a2"
-      ]
+      ],
+      "infl_tr": "idol\u00fc"
     },
     {
       "id": "cand-transp-0025",

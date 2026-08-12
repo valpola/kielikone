@@ -316,8 +316,9 @@
         "unit-a1"
       ],
       "source": "A1_-_0A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "suyu"
     },
     {
       "id": "cand-a1-0a-0023",

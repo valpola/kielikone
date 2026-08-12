@@ -335,8 +335,9 @@
         "unit-a2"
       ],
       "source": "A2-4C Kelime Listesi (Turkishle coursebook)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "idolü"
     },
     {
       "id": "cand-transp-0025",

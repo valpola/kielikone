@@ -61,8 +61,9 @@
         "unit-a1"
       ],
       "source": "A1-5B vocabulary card (Turkishle web), carded as “gar / terminal”; not in any coursebook list",
-      "notes": "The card pairs it with gar, which the deck already has as 'train station'. Glossed 'bus terminal' rather than 'terminal' so the two prompts stay distinguishable.",
-      "status": "approved"
+      "notes": "The card pairs it with gar, which the deck already has as 'train station'. Glossed 'bus terminal' rather than 'terminal' so the two prompts stay distinguishable. Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "terminali"
     },
     {
       "id": "cand-card-0008",
@@ -606,8 +607,9 @@
         "unit-a2"
       ],
       "source": "example sentence on the A2-1B vocabulary card (Turkishle web); in no unit vocabulary list",
-      "notes": "Mined from the card example sentences, which the earlier sweeps discarded — the lists teach the headwords, the sentences carry the connective vocabulary around them.",
-      "status": "approved"
+      "notes": "Mined from the card example sentences, which the earlier sweeps discarded — the lists teach the headwords, the sentences carry the connective vocabulary around them. Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "helali"
     },
     {
       "id": "cand-sent-0068",

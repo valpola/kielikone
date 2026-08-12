@@ -259,8 +259,14 @@ full form, written to `infl_tr` and shown on the card after reveal. 197 deck wor
 - **The infinitive ending does not make a verb**: `ekmek` and `mercimek` are nouns, and treating
   them as verbs gave `eği` and `mercği`. An aorist tail always ends in `-r`; a nominal one never
   does. Verb aorists are extracted but **not** written to cards — `alır` unlabelled would puzzle.
-- A tail that leaves the stem intact (`terminal → terminali`, `ayakkabı → ayakkabıyı`) teaches
-  nothing and is dropped; gemination is the deliberate exception.
+- **Nothing TDK attests is filtered out.** A tail that leaves the stem unchanged was dropped
+  once as uninformative, which was wrong: the suffix carries **vowel harmony** as well as the
+  consonant, and 12 deck words are *disharmonic* — `saat → saati` not `saatı`, plus
+  `terminal → terminali`, `kontrol → kontrolü`, `alkol → alkolü`, `kalp → kalbi`, mostly
+  clear-`l` stems and Arabic `-at` loans. Harmony is precisely what a learner predicts wrongly.
+  A p/ç/t/k-final tail additionally attests that softening did *not* happen (`saat`, `seyahat`,
+  `emlak`). The judgement that matters is upstream — taking the tail from the right **sense** —
+  not deciding which true facts are boring.
 
 **Curation rules**
 - **Compare on letters only.** Strip case, circumflexes, parentheses, spaces *and

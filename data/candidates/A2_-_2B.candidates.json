@@ -472,9 +472,10 @@
         "unit-a2-2b"
       ],
       "source": "A2_-_2B.pdf",
-      "notes": "",
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "hint_en_tr": "(imagination / daydream)",
-      "status": "approved"
+      "status": "approved",
+      "infl_tr": "hayali"
     },
     {
       "id": "cand-a2-2b-0033",

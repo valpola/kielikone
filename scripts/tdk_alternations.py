@@ -103,27 +103,26 @@ def inflect(word: str, taki: str) -> list[str]:
     return out
 
 
-def alters_stem(word: str, forms: list[str], k: str) -> bool:
-    """Is there actually something to show?
+def worth_showing(word: str, forms: list[str], k: str) -> bool:
+    """Does this tail earn a place on the card?
 
-    TDK lists a tail for reasons beyond alternation — to fix the vowel harmony of
-    an `l` word, or to show a proper noun's apostrophe. `terminal -> terminali`
-    teaches nothing, and `sol -> solü` is worse than nothing: that is TDK's
-    musical note G, while the deck's `sol` means "left" and gives `solu`. So a
-    tail only earns a card when the stem itself comes out different.
+    Everything TDK attests does. An earlier version dropped any tail that left
+    the stem unchanged, on the grounds that `terminal -> terminali` teaches
+    nothing — which was wrong twice over, because the deck's own learner asked
+    the better question. The suffix is not only about the consonant:
 
-    Gemination is exempt: `sır -> sırrı` leaves the stem intact at the front but
-    is exactly the kind of surprise this field exists for.
+      saat -> saati       not saatı: a back-vowel stem taking a FRONT suffix
+      terminal -> terminali, kontrol -> kontrolü, alkol -> alkolü, kalp -> kalbi
+
+    Twelve deck words are disharmonic like this, mostly clear-l stems and Arabic
+    `-at` loans, and vowel harmony is exactly what a learner would otherwise
+    predict wrongly. A tail ending in p/ç/t/k additionally attests that softening
+    did *not* happen, against the polysyllabic tendency.
+
+    So nothing is filtered. The judgement that matters is upstream — taking the
+    tail from the right *sense* — not deciding which true facts are boring.
     """
-    if k == "gemination":
-        return True
-    if any(f[: len(word)] != word for f in forms):
-        return True
-    # A tail that changes nothing still teaches something when the word ends in
-    # p/ç/t/k, because softening was the thing to expect and it did not happen:
-    # saat -> saati, not saadi, against the polysyllabic tendency. Proper nouns
-    # are excluded — there the apostrophe is the lesson, not the consonant.
-    return word[-1].lower() in "pçtk" and k != "proper"
+    return bool(forms)
 
 
 def kind(word: str, taki: str) -> str:
@@ -191,7 +190,7 @@ def main() -> int:
             if k == "aorist":
                 verbs.append((word, " / ".join(forms)))
                 continue
-            if not alters_stem(word, forms, k):
+            if not worth_showing(word, forms, k):
                 continue
             value = " / ".join(forms)
             planned.append((path.name, word, k, value))

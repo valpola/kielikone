@@ -141,9 +141,10 @@
         "pronunciation"
       ],
       "source": "A2_-_1B.pdf",
-      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony. Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
-      "pron_tr": "ɑˈjɑkkɑbɯ"
+      "pron_tr": "ɑˈjɑkkɑbɯ",
+      "infl_tr": "ayakkabıyı"
     },
     {
       "id": "cand-a2-1b-0011",

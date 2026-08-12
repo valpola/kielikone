@@ -270,9 +270,10 @@
         "unit-a1"
       ],
       "source": "A1_-_5C.pdf",
-      "notes": "",
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "hint_en_tr": "(imagination / daydream)",
-      "status": "approved"
+      "status": "approved",
+      "infl_tr": "hayali"
     },
     {
       "id": "cand-a1-5c-0020",

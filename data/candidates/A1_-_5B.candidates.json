@@ -285,8 +285,9 @@
         "noun"
       ],
       "source": "A1_-_5B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "katedrali"
     },
     {
       "id": "cand-a1-5b-0021",

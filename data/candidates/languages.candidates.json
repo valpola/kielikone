@@ -365,9 +365,10 @@
         "unit-a1"
       ],
       "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
-      "notes": "",
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
-      "hint_en_tr": "(person)"
+      "hint_en_tr": "(person)",
+      "infl_tr": "Arnavut'u"
     },
     {
       "id": "cand-lang-0025",

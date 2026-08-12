@@ -880,8 +880,9 @@
         "unit-a1"
       ],
       "source": "base word of “iptal etmek” (A1-4C, Turkishle)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "iptali"
     },
     {
       "id": "cand-base-0062",
@@ -894,8 +895,9 @@
         "unit-a1"
       ],
       "source": "base word of “kontrol etmek” (A1-4C, Turkishle)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "kontrolü"
     },
     {
       "id": "cand-base-0063",

@@ -328,8 +328,9 @@
         "unit-a1-3c"
       ],
       "source": "A1_-_0A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "suyu"
     },
     {
       "id": "cand-a1-0a-0023",
@@ -4816,8 +4817,9 @@
         "unit-a1"
       ],
       "source": "A1-2A Reading Comprehension (Turkishle web lesson)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "alkol\u00fc"
     },
     {
       "id": "cand-a1-2web-0003",
@@ -6176,8 +6178,9 @@
         "noun"
       ],
       "source": "A1_-_3C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "kahvalt\u0131y\u0131"
     },
     {
       "id": "cand-a1-3c-0015",
@@ -11640,8 +11643,9 @@
         "noun"
       ],
       "source": "A1_-_5A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "Pazartesiyi"
     },
     {
       "id": "cand-a1-5a-0018",
@@ -11713,9 +11717,10 @@
         "pronunciation"
       ],
       "source": "A1_-_5A.pdf",
-      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony. Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
-      "pron_tr": "d\u0292u\u02c8m\u0251\u027etesi"
+      "pron_tr": "d\u0292u\u02c8m\u0251\u027etesi",
+      "infl_tr": "Cumartesiyi"
     },
     {
       "id": "cand-a1-5a-0023",
@@ -12106,8 +12111,9 @@
         "noun"
       ],
       "source": "A1_-_5B.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "katedrali"
     },
     {
       "id": "cand-a1-5b-0021",
@@ -12508,9 +12514,10 @@
         "unit-a2-2b"
       ],
       "source": "A1_-_5C.pdf",
-      "notes": "",
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "hint_en_tr": "(imagination / daydream)",
-      "status": "approved"
+      "status": "approved",
+      "infl_tr": "hayali"
     },
     {
       "id": "cand-a1-5c-0020",
@@ -15830,9 +15837,10 @@
         "pronunciation"
       ],
       "source": "A2_-_1B.pdf",
-      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony. Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
-      "pron_tr": "\u0251\u02c8j\u0251kk\u0251b\u026f"
+      "pron_tr": "\u0251\u02c8j\u0251kk\u0251b\u026f",
+      "infl_tr": "ayakkab\u0131y\u0131"
     },
     {
       "id": "cand-a2-1b-0014",
@@ -20007,8 +20015,9 @@
         "unit-a2"
       ],
       "source": "A2-3A Kelime Listesi (Turkishle coursebook)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "m\u00fczikali"
     },
     {
       "id": "cand-a2-3-0023",
@@ -24181,8 +24190,9 @@
         "unit-a1"
       ],
       "source": "base word of \u201ciptal etmek\u201d (A1-4C, Turkishle)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "iptali"
     },
     {
       "id": "cand-base-0062",
@@ -24195,8 +24205,9 @@
         "unit-a1"
       ],
       "source": "base word of \u201ckontrol etmek\u201d (A1-4C, Turkishle)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "kontrol\u00fc"
     },
     {
       "id": "cand-base-0063",
@@ -24505,8 +24516,9 @@
         "unit-a1"
       ],
       "source": "A1-5B vocabulary card (Turkishle web), carded as \u201cgar / terminal\u201d; not in any coursebook list",
-      "notes": "The card pairs it with gar, which the deck already has as 'train station'. Glossed 'bus terminal' rather than 'terminal' so the two prompts stay distinguishable.",
-      "status": "approved"
+      "notes": "The card pairs it with gar, which the deck already has as 'train station'. Glossed 'bus terminal' rather than 'terminal' so the two prompts stay distinguishable. Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "terminali"
     },
     {
       "id": "cand-card-0008",
@@ -25168,9 +25180,10 @@
         "pronunciation"
       ],
       "source": "Turkishle coursebook (A2)",
-      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony.",
+      "notes": "Pronunciation from TDK's telaffuz field, which records the length and stress that the spelling does not; the segments follow the deck's established allophony. Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
-      "pron_tr": "k\u0251h\u02c8ve\u027e\u00e6n\u025fi"
+      "pron_tr": "k\u0251h\u02c8ve\u027e\u00e6n\u025fi",
+      "infl_tr": "kahverengiyi"
     },
     {
       "id": "cand-cat-0014",
@@ -26488,9 +26501,10 @@
         "unit-a1"
       ],
       "source": "A1-4B countries/nationalities/languages table (Turkishle coursebook)",
-      "notes": "",
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
       "status": "approved",
-      "hint_en_tr": "(person)"
+      "hint_en_tr": "(person)",
+      "infl_tr": "Arnavut'u"
     },
     {
       "id": "cand-lang-0025",
@@ -27571,8 +27585,9 @@
         "unit-a2"
       ],
       "source": "example sentence on the A2-1B vocabulary card (Turkishle web); in no unit vocabulary list",
-      "notes": "Mined from the card example sentences, which the earlier sweeps discarded \u2014 the lists teach the headwords, the sentences carry the connective vocabulary around them.",
-      "status": "approved"
+      "notes": "Mined from the card example sentences, which the earlier sweeps discarded \u2014 the lists teach the headwords, the sentences carry the connective vocabulary around them. Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "helali"
     },
     {
       "id": "cand-sent-0068",
@@ -28174,8 +28189,9 @@
         "unit-a2"
       ],
       "source": "A2-4C Kelime Listesi (Turkishle coursebook)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "idol\u00fc"
     },
     {
       "id": "cand-transp-0025",

@@ -28,8 +28,9 @@
         "unit-a1"
       ],
       "source": "A1-2A Reading Comprehension (Turkishle web lesson)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Inflected form from TDK's taki field, which attests the stem alternation rather than leaving it to a rule.",
+      "status": "approved",
+      "infl_tr": "alkolü"
     },
     {
       "id": "cand-a1-2web-0003",
