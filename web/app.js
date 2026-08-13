@@ -337,6 +337,32 @@ const fetchResultsTotal = async () => {
   }
 };
 
+// The newest insertion time in the database. Complementary to the row count:
+// between them they catch every way the history can change under us.
+//
+//   a new answer          -> count and created_at both move
+//   a deleted row         -> count moves
+//   a corrected row       -> neither, unless we watch this
+//
+// A correction is a delete plus an insert, because the table grants no update.
+// That keeps the count identical, and the reinserted row keeps its original
+// answered_at so it also sits below the incremental read's watermark. One such
+// edit stayed invisible to this device for good, and the practice batch went on
+// offering a word that had been answered right.
+const fetchResultsWatermark = async () => {
+  try {
+    const response = await fetch(
+      `${getSupabaseUrl()}/rest/v1/results?select=created_at&order=created_at.desc&limit=1`,
+      { cache: "no-store", headers: supabaseHeaders() }
+    );
+    if (!response.ok) return "";
+    const rows = await response.json();
+    return (rows[0] && rows[0].created_at) || "";
+  } catch {
+    return "";
+  }
+};
+
 // ---- Local history store -------------------------------------------------
 // Merging is idempotent: a locally recorded event carries the same
 // (timestamp, word_id, mode, correct) tuple as the row that eventually reaches
@@ -346,6 +372,9 @@ let snapshotWriteFailed = false;
 // Row count last seen in the database, shown in Options (not on the button,
 // where a stale number looks like a broken sync).
 let lastKnownTotal = 0;
+// Newest created_at last seen, stored with the snapshot so a correction made
+// elsewhere is noticed on the next read rather than never.
+let lastKnownWatermark = "";
 
 const loadHistorySnapshot = () => {
   try {
@@ -369,7 +398,8 @@ const saveHistorySnapshot = (rows) => {
     });
     localStorage.setItem(
       HISTORY_SNAPSHOT_STORAGE,
-      JSON.stringify({ rows, maxAnsweredAt, fetchedAt: new Date().toISOString() })
+      JSON.stringify({ rows, maxAnsweredAt, watermark: lastKnownWatermark,
+                       fetchedAt: new Date().toISOString() })
     );
     snapshotWriteFailed = false;
   } catch {
@@ -426,17 +456,28 @@ const pruneLocalEvents = (remoteRows) => {
 const refreshHistoryFromRemote = async () => {
   const snapshot = loadHistorySnapshot();
   let rows = (snapshot && snapshot.rows) || [];
+  const heldWatermark = (snapshot && snapshot.watermark) || "";
+  // Both markers are read *before* the rows, so a row inserted mid-refresh is
+  // simply picked up next time. Reading them afterwards could store a watermark
+  // newer than the rows actually held, which would hide that row for good.
+  lastKnownTotal = await fetchResultsTotal();
+  lastKnownWatermark = await fetchResultsWatermark();
   const fresh = await fetchResultRows(snapshot && snapshot.maxAnsweredAt);
   if (fresh.length || !snapshot) {
     rows = rows.concat(fresh);
     saveHistorySnapshot(rows);
   }
-  lastKnownTotal = await fetchResultsTotal();
   // The incremental read asks for answered_at > the newest we hold, so an answer
   // made earlier but synced later — a queued answer from a patchy connection —
-  // lands below that mark and would be skipped for good. When the totals
-  // disagree, re-read the lot once and replace the snapshot.
-  if (lastKnownTotal && lastKnownTotal !== rows.length) {
+  // lands below that mark and would be skipped for good. Re-read the lot when
+  // the totals disagree, or when something has been written since we last
+  // looked without changing the total, which is what a correction does.
+  const written = lastKnownWatermark && heldWatermark && lastKnownWatermark > heldWatermark;
+  // A snapshot written before this device tracked the watermark has no baseline
+  // to compare against, and might already be holding a stale corrected row. Read
+  // the lot once to establish one, rather than asking for a manual cache purge.
+  const needsBaseline = !!snapshot && !snapshot.watermark;
+  if ((lastKnownTotal && lastKnownTotal !== rows.length) || written || needsBaseline) {
     const everything = await fetchResultRows(null);
     if (everything.length) {
       rows = everything;

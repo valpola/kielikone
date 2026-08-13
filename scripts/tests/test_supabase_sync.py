@@ -103,7 +103,7 @@ def main() -> int:
     newer = stamp.isoformat()
     event_id = f"{MARKER}-{stamp.timestamp():.0f}"
 
-    def post(client_event_id: str, answered_at: str):
+    def post(client_event_id: str, answered_at: str, correct: bool = True):
         return client.call(
             "POST",
             "/rest/v1/results?on_conflict=client_event_id",
@@ -111,7 +111,7 @@ def main() -> int:
                 "client_event_id": client_event_id,
                 "word_id": MARKER,
                 "mode": "en-tr",
-                "correct": True,
+                "correct": correct,
                 "answered_at": answered_at,
             },
             extra={"Prefer": "resolution=ignore-duplicates,return=minimal"},
@@ -182,6 +182,46 @@ def main() -> int:
             f"/rest/v1/results?select=answered_at&word_id=eq.{MARKER}&order=answered_at.asc",
         )
         check("a full read finds it", len(everything) == 3, f"rows={everything}")
+
+        # A correction is a delete plus an insert, because the table grants no
+        # update. That leaves the row count untouched, and the reinserted row
+        # keeps its original answered_at so it stays below the incremental
+        # watermark too — both of the app's other signals miss it. Only the
+        # newest created_at moves, which is why the app tracks it as well. One
+        # such edit stayed invisible on a real device and the practice batch kept
+        # offering a word that had been answered right.
+        def watermark() -> str:
+            _, _, rows = client.call(
+                "GET", "/rest/v1/results?select=created_at&order=created_at.desc&limit=1")
+            return rows[0]["created_at"] if rows else ""
+
+        before_count, before_mark = count(), watermark()
+        _, _, gone = client.call(
+            "DELETE", f"/rest/v1/results?client_event_id=eq.{event_id}-late",
+            extra={"Prefer": "return=representation"})
+        check("the row to correct was really removed", len(gone) == 1, f"deleted={gone}")
+        old = gone[0]
+        post(f"{event_id}-late", old["answered_at"], correct=True)
+        check(
+            "a correction leaves the row count unchanged",
+            count() == before_count,
+            f"before={before_count} after={count()}",
+        )
+        _, _, still_missed = client.call(
+            "GET",
+            f"/rest/v1/results?select=answered_at&word_id=eq.{MARKER}"
+            f"&answered_at=gt.{urllib.parse.quote(newer)}&order=answered_at.asc",
+        )
+        check(
+            "and stays below the incremental watermark",
+            len(still_missed) == 0,
+            f"rows={still_missed}",
+        )
+        check(
+            "but the newest created_at moves, which is what reveals it",
+            watermark() > before_mark,
+            f"before={before_mark} after={watermark()}",
+        )
 
         # Undo. A DELETE matching nothing also returns 204, so the app counts the
         # returned rows instead of trusting the status.
