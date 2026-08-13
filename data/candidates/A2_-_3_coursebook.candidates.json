@@ -914,8 +914,9 @@
         "unit-a2"
       ],
       "source": "A2-3C Kelime Listesi (Turkishle coursebook)",
-      "notes": "",
-      "status": "approved"
+      "notes": "Pronunciation corroborated independently: en.wiktionary /tælˈve/ and tr.wiktionary /telˈve/, and TDK lists no telaffuz, which for it means the stress is regular (final). The [æ] is the open e before a sonorant, the same allophone as ders and element — en.wiktionary marks it narrowly here, tr.wiktionary broadly. No 'pronunciation' tag: nothing about the word defies its spelling. Filed after the learner reported hearing initial stress and a weak final e in the Google clip; all three sources say otherwise.",
+      "status": "approved",
+      "pron_tr": "tælˈve"
     },
     {
       "id": "cand-a2-3-0064",
