@@ -1003,8 +1003,9 @@
         "unit-a2-1c"
       ],
       "source": "A2_-_1C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Issue #89: English 'hard' covers both, Turkish does not. TDK's sert (Farsça serd) is 'çizilmesi, kırılması, buruşması, kesilmesi veya çiğnenmesi güç olan' — hard to scratch, break, crease, cut or chew — and by extension harsh. zor (Farsça zūr) is 'sıkıntı veya güçlükle yapılan', explicitly the opposite of kolay, which is in the deck. So sert is hard to the touch, zor is hard to do.",
+      "status": "approved",
+      "hint_en_tr": "(firm or stiff to the touch, or harsh — not hard to do)"
     },
     {
       "id": "cand-a2-1c-0070",

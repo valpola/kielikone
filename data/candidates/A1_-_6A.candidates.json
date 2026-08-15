@@ -385,9 +385,10 @@
         "unit-a1"
       ],
       "source": "A1_-_6A.pdf",
-      "notes": "Transitivity tip: the English gloss reads either way, the Turkish verb does not. Knowing which is meant is what lets the counterpart be derived — the -Il-/-In- form for the intransitive, the causative for the transitive.",
+      "notes": "Transitivity tip: the English gloss reads either way, the Turkish verb does not. Knowing which is meant is what lets the counterpart be derived — the -Il-/-In- form for the intransitive, the causative for the transitive. Issue #88: the learner heard a long a. TDK attests it on the base noun, kira -> 'kira:' (Arapça kirāʾ), and the syllable stays open in the derivative so the length survives. TDK lists no telaffuz for the derived forms themselves, which is why the bulk import missed them. Segments from the usual allophony.",
       "status": "approved",
-      "hint_en_tr": "(transitive)"
+      "hint_en_tr": "(transitive)",
+      "pron_tr": "ciɾɑːɫɑˈmɑk"
     },
     {
       "id": "cand-a1-6a-0028",
@@ -414,8 +415,9 @@
         "unit-a1"
       ],
       "source": "A1_-_6A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Issue #88: the learner heard a long a. TDK attests it on the base noun, kira -> 'kira:' (Arapça kirāʾ), and the syllable stays open in the derivative so the length survives. TDK lists no telaffuz for the derived forms themselves, which is why the bulk import missed them. Segments from the usual allophony.",
+      "status": "approved",
+      "pron_tr": "ciɾɑːˈɫɯk"
     },
     {
       "id": "cand-a1-6a-0030",

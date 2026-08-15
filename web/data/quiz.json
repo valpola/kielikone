@@ -10459,7 +10459,8 @@
         "unit-a1",
         "unit-a1-6c"
       ],
-      "hint_en_tr": "(transitive)"
+      "hint_en_tr": "(transitive)",
+      "pron_tr": "ci\u027e\u0251\u02d0\u026b\u0251\u02c8m\u0251k"
     },
     {
       "id": "cand-a1-6a-0028",
@@ -10482,7 +10483,8 @@
         "unit-a1-6a",
         "unit-a1",
         "unit-a1-6c"
-      ]
+      ],
+      "pron_tr": "ci\u027e\u0251\u02d0\u02c8\u026b\u026fk"
     },
     {
       "id": "cand-a1-6a-0030",
@@ -14013,7 +14015,8 @@
         "adjective",
         "unit-a2",
         "unit-a2-1c"
-      ]
+      ],
+      "hint_en_tr": "(firm or stiff to the touch, or harsh \u2014 not hard to do)"
     },
     {
       "id": "cand-a2-1c-0070",

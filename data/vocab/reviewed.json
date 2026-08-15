@@ -13116,9 +13116,10 @@
         "unit-a1-6c"
       ],
       "source": "A1_-_6A.pdf",
-      "notes": "Transitivity tip: the English gloss reads either way, the Turkish verb does not. Knowing which is meant is what lets the counterpart be derived \u2014 the -Il-/-In- form for the intransitive, the causative for the transitive.",
+      "notes": "Transitivity tip: the English gloss reads either way, the Turkish verb does not. Knowing which is meant is what lets the counterpart be derived \u2014 the -Il-/-In- form for the intransitive, the causative for the transitive. Issue #88: the learner heard a long a. TDK attests it on the base noun, kira -> 'kira:' (Arap\u00e7a kir\u0101\u02be), and the syllable stays open in the derivative so the length survives. TDK lists no telaffuz for the derived forms themselves, which is why the bulk import missed them. Segments from the usual allophony.",
       "status": "approved",
-      "hint_en_tr": "(transitive)"
+      "hint_en_tr": "(transitive)",
+      "pron_tr": "ci\u027e\u0251\u02d0\u026b\u0251\u02c8m\u0251k"
     },
     {
       "id": "cand-a1-6a-0028",
@@ -13146,8 +13147,9 @@
         "unit-a1-6c"
       ],
       "source": "A1_-_6A.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Issue #88: the learner heard a long a. TDK attests it on the base noun, kira -> 'kira:' (Arap\u00e7a kir\u0101\u02be), and the syllable stays open in the derivative so the length survives. TDK lists no telaffuz for the derived forms themselves, which is why the bulk import missed them. Segments from the usual allophony.",
+      "status": "approved",
+      "pron_tr": "ci\u027e\u0251\u02d0\u02c8\u026b\u026fk"
     },
     {
       "id": "cand-a1-6a-0030",
@@ -17598,8 +17600,9 @@
         "unit-a2-1c"
       ],
       "source": "A2_-_1C.pdf",
-      "notes": "",
-      "status": "approved"
+      "notes": "Issue #89: English 'hard' covers both, Turkish does not. TDK's sert (Fars\u00e7a serd) is '\u00e7izilmesi, k\u0131r\u0131lmas\u0131, buru\u015fmas\u0131, kesilmesi veya \u00e7i\u011fnenmesi g\u00fc\u00e7 olan' \u2014 hard to scratch, break, crease, cut or chew \u2014 and by extension harsh. zor (Fars\u00e7a z\u016br) is 's\u0131k\u0131nt\u0131 veya g\u00fc\u00e7l\u00fckle yap\u0131lan', explicitly the opposite of kolay, which is in the deck. So sert is hard to the touch, zor is hard to do.",
+      "status": "approved",
+      "hint_en_tr": "(firm or stiff to the touch, or harsh \u2014 not hard to do)"
     },
     {
       "id": "cand-a2-1c-0070",
